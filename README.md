@@ -162,6 +162,9 @@ python code/summarize_results.py     # rewrites docs/04_results_tables.md from r
 
 ## License
 
-TODO-LICENSE. Third-party attributions are in [NOTICE](NOTICE). The Sarvam model-code snapshots in
+Released under the Apache License 2.0 ([LICENSE](LICENSE)), Copyright 2026 Arsh Kumar Singh, except
+the included prompt data and word lists, which keep their sources' licenses (some CC BY-SA; the
+NLLB-200 translations are non-commercial). [NOTICE](NOTICE) lists them and the other third-party
+attributions. The Sarvam model-code snapshots in
 `reference/` are Apache-2.0 (Sarvam AI) and keep their own license, in
 [reference/LICENSE](reference/LICENSE).
