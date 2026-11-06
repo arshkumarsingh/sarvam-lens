@@ -20,7 +20,9 @@ Every number below comes from the auto-generated [`04_results_tables.md`](04_res
   (J), 0.75 (R), 0.56 (J++).
 - **Every pair** shows it: peak P(English) runs from 0.63 (bn→gu) to 0.85 (te→kn, romanized-hi→ta)
   under the J-lens. The prompts contain no English.
-- **Nothing is readable before layer 11** under any lens, in any language.
+- **Almost nothing is readable before layer 11.** The logit lens, R-lens and J++ stay under 2%. The
+  J-lens shows a small English bump at L8–9 (11% and 9%, control ≤2%); in fp32 it is smaller still
+  (6.6% at L8), because part of it is a tie artefact ([doc 14](14_bf16_readout_check.md)).
 - **Hindi** is a real, concept-specific secondary latent: high rank, low probability (≤3% at
   L13–16; the J-lens reaches 6.7% at L17).
 - **English is the most readable language, not the only one present** ([doc 17](17_post1_followups.md)

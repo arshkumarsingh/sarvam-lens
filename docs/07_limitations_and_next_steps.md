@@ -124,8 +124,8 @@ Done since (Phase 13 of the engineering log and later):
   - Ties nudge top-10 up very slightly (0.11% of rows flip in fp32), and P is unbiased.
   - The readouts' logits are mostly not in the hundreds (median top logit 11, p99 122). The refusal
     work's whole-unit problem was the model's own final output on chat prompts.
-  - Part of the small pre-L11 English bump is a tie artefact (about 40% at L8, 12% at L9), which
-    strengthens "nothing is readable before L11".
+  - Part of the small pre-L11 English bump is a tie artefact (about 40% at L8, 12% at L9), so
+    the J-lens reads even less before L11 than the bf16 numbers show.
   - Not covered: the R-lens and J++, and the `Reader.score` users (docs 09, 11 and 12).
 
 - **Doc 17 (2026-10-20, ≈ $6.64 on the 30B runs): the post-1 follow-ups.** Every language as a pivot role (English

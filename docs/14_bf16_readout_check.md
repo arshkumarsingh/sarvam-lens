@@ -168,7 +168,7 @@ Pooled over all 105,696 rows that have a token set (both lenses, every layer and
 - Part of the small pre-L11 English bump is therefore tie artefact: about 40% of it at L8 (11.3% →
   6.6%) and about 12% at L9 (9.4% → 8.2%). Table §C starts at L9, so the L8 value is in
   `quant_summary.csv`, not there.
-- This only strengthens §4.1's claim that nothing is readable before layer 11.
+- So the J-lens reads even less before layer 11 than §4.1's bf16 numbers show (6.6% at L8 in fp32).
 
 ### Logit magnitudes: the lens readouts are not in the hundreds
 

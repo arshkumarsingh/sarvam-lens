@@ -20,8 +20,9 @@ published with the second post, so those numbers are missing from the doc list.
 
 1. **Indic→Indic translation passes through English mid-network.** At layers 14–16 of 19, the
    English word is in the top 10 for 97–100% of items under the three fitted lenses (J, R, J++) and
-   93–95% under the fit-free logit lens. A different concept's English word scores 0–3%. Nothing is
-   readable before layer 11. The four lenses all decode through the model's output layer, so their
+   93–95% under the fit-free logit lens. A different concept's English word scores 0–3%. Before layer 11
+   almost nothing is readable: the logit lens, R-lens and J++ stay under 2%, and the J-lens shows
+   only a small English bump around layer 8, partly a tie artefact (doc 14). The four lenses all decode through the model's output layer, so their
    agreement is one kind of evidence, not four; the independent checks are the geometry (13) and the
    ablations (2). *How to read "through English": see 13.*
 2. **It's causally used, but it isn't a bottleneck.** Removing the English word's lens directions at

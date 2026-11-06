@@ -58,7 +58,8 @@ weights learned without the English-target multilingual items).
   Indo-Aryan↔Indo-Aryan, across families, with no English in the prompt. All four lenses agree.
 - **Hindi is a genuine, concept-specific secondary latent:** often in the top 10 (41–83% at L14–16 depending on the lens), but with ≤3% of the
   probability. The shuffled control rules out generic Devanagari noise.
-- **Nothing is readable before layer 11** under any lens.
+- **Almost nothing is readable before layer 11:** the logit lens, R-lens and J++ stay under 2%, and the J-lens
+  shows only a small English bump at layers 8–9, partly a tie artefact (docs/14).
 
 ### 2. The English representation is causally used, but it isn't a bottleneck
 
