@@ -1,0 +1,359 @@
+{
+ "usd_per_hour": 5.174,
+ "budget_minutes": 6.5,
+ "model_type": "sarvam_moe",
+ "stages": [
+  {
+   "stage": "load",
+   "est_minutes": 2,
+   "result": {
+    "model": "HFLensModel(SarvamMoEForCausalLM, n_layers=19, d_model=4096)",
+    "gpu_gb_allocated": 64.3,
+    "gpu_gb_by_device": {
+     "0": 64.3
+    },
+    "loading_info": {
+     "missing_keys": {
+      "n": 0,
+      "first": []
+     },
+     "unexpected_keys": {
+      "n": 0,
+      "first": []
+     },
+     "mismatched_keys": {
+      "n": 0,
+      "first": []
+     },
+     "error_msgs": {
+      "n": 0,
+      "first": []
+     }
+    }
+   },
+   "status": "ok",
+   "minutes": 0.62,
+   "log_tail": []
+  },
+  {
+   "stage": "newlang_experiment.geometry",
+   "est_minutes": 5.06,
+   "result": {
+    "model_kind": "sarvam30",
+    "n_cells": 788,
+    "band": [
+     13,
+     14,
+     15,
+     16
+    ],
+    "carriers": {
+     "word": {
+      "retrieval_band": 0.4602,
+      "chance": 0.0344,
+      "centred_order_band": [
+       [
+        "gu",
+        "hi",
+        "or",
+        "pa",
+        "mr"
+       ],
+       [
+        "gu",
+        "hi",
+        "or",
+        "pa",
+        "mr"
+       ],
+       [
+        "hi",
+        "gu",
+        "or",
+        "pa",
+        "mr"
+       ],
+       [
+        "hi",
+        "gu",
+        "or",
+        "pa",
+        "mr"
+       ]
+      ],
+      "en_rank_centred_band": [
+       9,
+       9,
+       7,
+       10
+      ]
+     },
+     "line": {
+      "retrieval_band": 0.8351,
+      "chance": 0.0344,
+      "centred_order_band": [
+       [
+        "pa",
+        "hi",
+        "gu",
+        "mr",
+        "bn"
+       ],
+       [
+        "hi",
+        "gu",
+        "pa",
+        "mr",
+        "or"
+       ],
+       [
+        "gu",
+        "pa",
+        "hi",
+        "mr",
+        "kn"
+       ],
+       [
+        "pa",
+        "mr",
+        "hi",
+        "kn",
+        "gu"
+       ]
+      ],
+      "en_rank_centred_band": [
+       6,
+       8,
+       6,
+       8
+      ]
+     }
+    },
+    "fair": [
+     {
+      "group": "original Indic pairs",
+      "lens": "j_200p",
+      "role": "english",
+      "items": 256,
+      "pct_script": 0.9998,
+      "top10_script": 0.9434,
+      "top10_all": 0.9355
+     },
+     {
+      "group": "original Indic pairs",
+      "lens": "j_200p",
+      "role": "english_shuffled",
+      "items": 256,
+      "pct_script": 0.9037,
+      "top10_script": 0.001,
+      "top10_all": 0.001
+     },
+     {
+      "group": "original Indic pairs",
+      "lens": "j_200p",
+      "role": "hindi",
+      "items": 246,
+      "pct_script": 0.9979,
+      "top10_script": 0.9167,
+      "top10_all": 0.5772
+     },
+     {
+      "group": "original Indic pairs",
+      "lens": "j_200p",
+      "role": "hindi_shuffled",
+      "items": 256,
+      "pct_script": 0.8982,
+      "top10_script": 0.0352,
+      "top10_all": 0.0
+     },
+     {
+      "group": "original Indic pairs",
+      "lens": "j_200p",
+      "role": "target",
+      "items": 256,
+      "pct_script": 0.9931,
+      "top10_script": 0.8467,
+      "top10_all": 0.2676
+     },
+     {
+      "group": "original Indic pairs",
+      "lens": "j_200p",
+      "role": "source",
+      "items": 240,
+      "pct_script": 0.9926,
+      "top10_script": 0.8458,
+      "top10_all": 0.2167
+     },
+     {
+      "group": "original Indic pairs",
+      "lens": "logit",
+      "role": "english",
+      "items": 256,
+      "pct_script": 0.9993,
+      "top10_script": 0.8018,
+      "top10_all": 0.7881
+     },
+     {
+      "group": "original Indic pairs",
+      "lens": "logit",
+      "role": "english_shuffled",
+      "items": 256,
+      "pct_script": 0.9021,
+      "top10_script": 0.0,
+      "top10_all": 0.0
+     },
+     {
+      "group": "original Indic pairs",
+      "lens": "logit",
+      "role": "hindi",
+      "items": 246,
+      "pct_script": 0.9951,
+      "top10_script": 0.8587,
+      "top10_all": 0.3841
+     },
+     {
+      "group": "original Indic pairs",
+      "lens": "logit",
+      "role": "hindi_shuffled",
+      "items": 256,
+      "pct_script": 0.8419,
+      "top10_script": 0.0078,
+      "top10_all": 0.0
+     },
+     {
+      "group": "original Indic pairs",
+      "lens": "logit",
+      "role": "target",
+      "items": 256,
+      "pct_script": 0.9921,
+      "top10_script": 0.7832,
+      "top10_all": 0.2891
+     },
+     {
+      "group": "original Indic pairs",
+      "lens": "logit",
+      "role": "source",
+      "items": 240,
+      "pct_script": 0.99,
+      "top10_script": 0.7896,
+      "top10_all": 0.2302
+     },
+     {
+      "group": "new-language pairs",
+      "lens": "j_200p",
+      "role": "english",
+      "items": 627,
+      "pct_script": 0.9999,
+      "top10_script": 0.9498,
+      "top10_all": 0.9454
+     },
+     {
+      "group": "new-language pairs",
+      "lens": "j_200p",
+      "role": "english_shuffled",
+      "items": 627,
+      "pct_script": 0.92,
+      "top10_script": 0.0008,
+      "top10_all": 0.0004
+     },
+     {
+      "group": "new-language pairs",
+      "lens": "j_200p",
+      "role": "hindi",
+      "items": 581,
+      "pct_script": 0.9974,
+      "top10_script": 0.9225,
+      "top10_all": 0.5813
+     },
+     {
+      "group": "new-language pairs",
+      "lens": "j_200p",
+      "role": "hindi_shuffled",
+      "items": 627,
+      "pct_script": 0.9051,
+      "top10_script": 0.0179,
+      "top10_all": 0.0004
+     },
+     {
+      "group": "new-language pairs",
+      "lens": "j_200p",
+      "role": "target",
+      "items": 627,
+      "pct_script": 0.9884,
+      "top10_script": 0.7628,
+      "top10_all": 0.1974
+     },
+     {
+      "group": "new-language pairs",
+      "lens": "j_200p",
+      "role": "source",
+      "items": 597,
+      "pct_script": 0.9788,
+      "top10_script": 0.6683,
+      "top10_all": 0.1005
+     },
+     {
+      "group": "new-language pairs",
+      "lens": "logit",
+      "role": "english",
+      "items": 627,
+      "pct_script": 0.9996,
+      "top10_script": 0.8285,
+      "top10_all": 0.8146
+     },
+     {
+      "group": "new-language pairs",
+      "lens": "logit",
+      "role": "english_shuffled",
+      "items": 627,
+      "pct_script": 0.9005,
+      "top10_script": 0.0004,
+      "top10_all": 0.0
+     },
+     {
+      "group": "new-language pairs",
+      "lens": "logit",
+      "role": "hindi",
+      "items": 581,
+      "pct_script": 0.9941,
+      "top10_script": 0.8713,
+      "top10_all": 0.3929
+     },
+     {
+      "group": "new-language pairs",
+      "lens": "logit",
+      "role": "hindi_shuffled",
+      "items": 627,
+      "pct_script": 0.8352,
+      "top10_script": 0.0028,
+      "top10_all": 0.0
+     },
+     {
+      "group": "new-language pairs",
+      "lens": "logit",
+      "role": "target",
+      "items": 627,
+      "pct_script": 0.9845,
+      "top10_script": 0.7169,
+      "top10_all": 0.2217
+     },
+     {
+      "group": "new-language pairs",
+      "lens": "logit",
+      "role": "source",
+      "items": 597,
+      "pct_script": 0.9644,
+      "top10_script": 0.6022,
+      "top10_all": 0.1147
+     }
+    ]
+   },
+   "status": "ok",
+   "minutes": 2.02,
+   "log_tail": []
+  }
+ ],
+ "elapsed_minutes": 2.82,
+ "est_cost_usd_so_far": 0.24,
+ "done": true
+}

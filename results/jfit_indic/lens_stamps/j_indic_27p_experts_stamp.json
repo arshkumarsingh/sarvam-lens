@@ -1,0 +1,112 @@
+{
+  "git_hash": "d7efc0de372e20589e899188c0cfe8434acc63ec",
+  "timestamp": "2026-10-19T08:54:24+00:00",
+  "library_version": null,
+  "stage": "merge-experts",
+  "args": {
+    "stage": "merge-experts",
+    "checkpoint_dirs": [
+      "/vol/runs/jfit/j_indic_27p/2026-10-19/j_indic_27p/shard0of1"
+    ],
+    "num_clusters": 8,
+    "min_kept_positions": 50,
+    "checkpoint_name": "j_indic_27p",
+    "device": "cpu",
+    "out": "/vol/runs/lenses/j_indic_27p_experts.pt",
+    "pooled_lens_out": "/vol/runs/lenses/j_indic_27p.pt"
+  },
+  "num_prompts_trained_on": 27,
+  "fallback_experts": {
+    "0": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "1": [
+      1,
+      4
+    ],
+    "2": [
+      6
+    ],
+    "3": [
+      0,
+      2,
+      4
+    ],
+    "4": [
+      0,
+      2,
+      4
+    ],
+    "5": [
+      0,
+      2,
+      4
+    ],
+    "6": [
+      0,
+      1
+    ],
+    "7": [
+      0,
+      1
+    ],
+    "8": [
+      0,
+      1,
+      2
+    ],
+    "9": [
+      0,
+      1,
+      2
+    ],
+    "10": [
+      0,
+      1
+    ],
+    "11": [
+      0,
+      1
+    ],
+    "12": [
+      0,
+      1,
+      5
+    ],
+    "13": [
+      0,
+      1,
+      5
+    ],
+    "14": [
+      0,
+      1,
+      2,
+      3,
+      5
+    ],
+    "15": [
+      0,
+      2,
+      3,
+      5,
+      7
+    ],
+    "16": [
+      0,
+      1,
+      2,
+      4,
+      7
+    ],
+    "17": [
+      0,
+      2,
+      3,
+      7
+    ]
+  }
+}

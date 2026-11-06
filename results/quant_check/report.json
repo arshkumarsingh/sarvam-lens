@@ -1,0 +1,251 @@
+{
+ "usd_per_hour": 5.174,
+ "budget_minutes": 4.3,
+ "model_type": "sarvam_moe",
+ "stages": [
+  {
+   "stage": "load",
+   "est_minutes": 2,
+   "result": {
+    "model": "HFLensModel(SarvamMoEForCausalLM, n_layers=19, d_model=4096)",
+    "gpu_gb_allocated": 64.3,
+    "gpu_gb_by_device": {
+     "0": 64.3
+    },
+    "loading_info": {
+     "missing_keys": {
+      "n": 0,
+      "first": []
+     },
+     "unexpected_keys": {
+      "n": 0,
+      "first": []
+     },
+     "mismatched_keys": {
+      "n": 0,
+      "first": []
+     },
+     "error_msgs": {
+      "n": 0,
+      "first": []
+     }
+    }
+   },
+   "status": "ok",
+   "minutes": 0.65,
+   "log_tail": []
+  },
+  {
+   "stage": "quant_check.pivot",
+   "est_minutes": 2.81,
+   "result": {
+    "pairs": 14,
+    "lenses": [
+     "j_200p",
+     "logit"
+    ],
+    "items_kept": 382,
+    "items": 448,
+    "fp32_filter_disagrees": 6,
+    "out": "/vol/runs/quant_check/quant_check_pivot",
+    "verdict": {
+     "moves": 0,
+     "n_checked": 92,
+     "max_top10_move_pts": 1.57,
+     "max_rel_p_move": 0.0035
+    },
+    "band_all_indic": [
+     {
+      "lens": "j_200p",
+      "role": "target",
+      "top10_bf16": 0.2559,
+      "top10_fp32": 0.248,
+      "d_top10_pts": -0.78,
+      "prob_bf16": 0.010907,
+      "prob_fp32": 0.010994,
+      "rel_d_prob_pct": 0.79,
+      "boundary_ties": 0.0156
+     },
+     {
+      "lens": "j_200p",
+      "role": "source",
+      "top10_bf16": 0.1992,
+      "top10_fp32": 0.1924,
+      "d_top10_pts": -0.68,
+      "prob_bf16": 0.006867,
+      "prob_fp32": 0.006911,
+      "rel_d_prob_pct": 0.64,
+      "boundary_ties": 0.0117
+     },
+     {
+      "lens": "j_200p",
+      "role": "english",
+      "top10_bf16": 0.9375,
+      "top10_fp32": 0.9355,
+      "d_top10_pts": -0.2,
+      "prob_bf16": 0.525613,
+      "prob_fp32": 0.525674,
+      "rel_d_prob_pct": 0.01,
+      "boundary_ties": 0.0039
+     },
+     {
+      "lens": "j_200p",
+      "role": "hindi",
+      "top10_bf16": 0.5625,
+      "top10_fp32": 0.5537,
+      "d_top10_pts": -0.88,
+      "prob_bf16": 0.018079,
+      "prob_fp32": 0.018043,
+      "rel_d_prob_pct": -0.2,
+      "boundary_ties": 0.0146
+     },
+     {
+      "lens": "j_200p",
+      "role": "chinese",
+      "top10_bf16": 0.0586,
+      "top10_fp32": 0.0576,
+      "d_top10_pts": -0.1,
+      "prob_bf16": 0.001139,
+      "prob_fp32": 0.001133,
+      "rel_d_prob_pct": -0.58,
+      "boundary_ties": 0.0029
+     },
+     {
+      "lens": "j_200p",
+      "role": "english_shuffled",
+      "top10_bf16": 0.002,
+      "top10_fp32": 0.001,
+      "d_top10_pts": -0.1,
+      "prob_bf16": 3.2e-05,
+      "prob_fp32": 3.2e-05,
+      "rel_d_prob_pct": 0.06,
+      "boundary_ties": 0.001
+     },
+     {
+      "lens": "j_200p",
+      "role": "hindi_shuffled",
+      "top10_bf16": 0.0,
+      "top10_fp32": 0.0,
+      "d_top10_pts": 0.0,
+      "prob_bf16": 1.5e-05,
+      "prob_fp32": 1.5e-05,
+      "rel_d_prob_pct": -0.7,
+      "boundary_ties": 0.0
+     },
+     {
+      "lens": "j_200p",
+      "role": "chinese_shuffled",
+      "top10_bf16": 0.0,
+      "top10_fp32": 0.0,
+      "d_top10_pts": 0.0,
+      "prob_bf16": 3e-06,
+      "prob_fp32": 3e-06,
+      "rel_d_prob_pct": -0.46,
+      "boundary_ties": 0.0
+     },
+     {
+      "lens": "logit",
+      "role": "target",
+      "top10_bf16": 0.2871,
+      "top10_fp32": 0.2852,
+      "d_top10_pts": -0.2,
+      "prob_bf16": 0.030418,
+      "prob_fp32": 0.030443,
+      "rel_d_prob_pct": 0.08,
+      "boundary_ties": 0.0049
+     },
+     {
+      "lens": "logit",
+      "role": "source",
+      "top10_bf16": 0.2148,
+      "top10_fp32": 0.2139,
+      "d_top10_pts": -0.1,
+      "prob_bf16": 0.01617,
+      "prob_fp32": 0.016156,
+      "rel_d_prob_pct": -0.09,
+      "boundary_ties": 0.0029
+     },
+     {
+      "lens": "logit",
+      "role": "english",
+      "top10_bf16": 0.7832,
+      "top10_fp32": 0.7822,
+      "d_top10_pts": -0.1,
+      "prob_bf16": 0.318647,
+      "prob_fp32": 0.318793,
+      "rel_d_prob_pct": 0.05,
+      "boundary_ties": 0.001
+     },
+     {
+      "lens": "logit",
+      "role": "hindi",
+      "top10_bf16": 0.3809,
+      "top10_fp32": 0.3789,
+      "d_top10_pts": -0.2,
+      "prob_bf16": 0.016902,
+      "prob_fp32": 0.016906,
+      "rel_d_prob_pct": 0.02,
+      "boundary_ties": 0.0039
+     },
+     {
+      "lens": "logit",
+      "role": "chinese",
+      "top10_bf16": 0.168,
+      "top10_fp32": 0.167,
+      "d_top10_pts": -0.1,
+      "prob_bf16": 0.00634,
+      "prob_fp32": 0.006335,
+      "rel_d_prob_pct": -0.08,
+      "boundary_ties": 0.0059
+     },
+     {
+      "lens": "logit",
+      "role": "english_shuffled",
+      "top10_bf16": 0.0,
+      "top10_fp32": 0.0,
+      "d_top10_pts": 0.0,
+      "prob_bf16": 1.2e-05,
+      "prob_fp32": 1.2e-05,
+      "rel_d_prob_pct": 0.11,
+      "boundary_ties": 0.0
+     },
+     {
+      "lens": "logit",
+      "role": "hindi_shuffled",
+      "top10_bf16": 0.0,
+      "top10_fp32": 0.0,
+      "d_top10_pts": 0.0,
+      "prob_bf16": 3e-06,
+      "prob_fp32": 3e-06,
+      "rel_d_prob_pct": -0.07,
+      "boundary_ties": 0.0
+     },
+     {
+      "lens": "logit",
+      "role": "chinese_shuffled",
+      "top10_bf16": 0.0,
+      "top10_fp32": 0.0,
+      "d_top10_pts": 0.0,
+      "prob_bf16": 1e-06,
+      "prob_fp32": 1e-06,
+      "rel_d_prob_pct": 0.06,
+      "boundary_ties": 0.0
+     }
+    ]
+   },
+   "status": "ok",
+   "minutes": 2.4,
+   "log_tail": [
+    "quant_check: 432 items over 14 pairs, lenses ['j_200p', 'logit'], head dtype torch.bfloat16",
+    "quant_check: read 1 / 432 items",
+    "quant_check: read 151 / 432 items",
+    "quant_check: read 251 / 432 items",
+    "quant_check: read 351 / 432 items",
+    "quant_check: read 401 / 432 items"
+   ]
+  }
+ ],
+ "elapsed_minutes": 3.22,
+ "est_cost_usd_so_far": 0.28,
+ "done": true
+}

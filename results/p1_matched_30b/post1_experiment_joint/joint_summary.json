@@ -1,0 +1,91 @@
+{
+ "n": 273,
+ "clusters": 32,
+ "base_p": 0.8827,
+ "base_correct": 1.0,
+ "joint@3": {
+  "drop_pts": 62.7396,
+  "ci": [
+   55.652,
+   69.2575
+  ],
+  "n": 273,
+  "still_correct": 0.278,
+  "rel_norm": 0.5538,
+  "abs_norm": 40.378
+ },
+ "control_joint@3": {
+  "drop_pts": 24.9492,
+  "ci": [
+   18.0008,
+   32.8378
+  ],
+  "n": 273,
+  "still_correct": 0.744,
+  "rel_norm": 0.3779,
+  "abs_norm": 28.102
+ },
+ "joint@3~rand": {
+  "drop_pts": 51.0921,
+  "ci": [
+   45.064,
+   56.9965
+  ],
+  "n": 273,
+  "still_correct": 0.549,
+  "rel_norm": 0.5223,
+  "abs_norm": 40.378
+ },
+ "control_joint@3~rand": {
+  "drop_pts": 28.0845,
+  "ci": [
+   22.4999,
+   33.4971
+  ],
+  "n": 273,
+  "still_correct": 0.788,
+  "rel_norm": 0.376,
+  "abs_norm": 28.102
+ },
+ "joint@3_minus_control_joint@3": {
+  "pts": 37.7905,
+  "ci": [
+   25.4384,
+   48.2503
+  ],
+  "n": 273
+ },
+ "joint@3_minus_joint@3~rand": {
+  "pts": 11.6475,
+  "ci": [
+   5.7794,
+   17.2467
+  ],
+  "n": 273
+ },
+ "control_joint@3_minus_control_joint@3~rand": {
+  "pts": -3.1354,
+  "ci": [
+   -9.264,
+   3.8806
+  ],
+  "n": 273
+ },
+ "lens": "j_200p",
+ "band": [
+  13,
+  14,
+  15,
+  16
+ ],
+ "early_band": [
+  5,
+  6,
+  7,
+  8
+ ],
+ "latents": [
+  "en",
+  "hi"
+ ]
+}

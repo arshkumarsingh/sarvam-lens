@@ -1,0 +1,138 @@
+✓ Initialized. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-006BDmyGxI8rDelxGnJ5O6
+✓ Created objects.
+├── ✓ Uploaded 
+│   .\sarvam-lens\modal_app.py
+├── ✓ Uploaded .\sarvam-lens
+├── ✓ Created Function prepare_weights.
+├── ✓ Created Function smoke.
+├── ✓ Created Function prepare_qwen.
+├── ✓ Created Function cka.
+├── ✓ Created Function pilot.
+├── ✓ Created Function merge_j.
+├── ✓ Created Function cka_robust.
+└── ✓ Created Function diagnose.
+sarvam_J200_nogain {"n_blocks": 2, "boundaries_rho": [0.6111111111111112], "sensory_end": 0.6111111111111112, "motor_start": 0.6111111111111112, "blockiness": 0.213837077408652, "layer_coupling": 0.8460913299662084, "block_layers": [[0, 10], [11, 17]], "n_layers": 19, "fitted_layers": 18, "gain_offset": false, "gain_mode": "none", "n_prompts": 200}
+qwen_J25_nogain {"n_blocks": 2, "boundaries_rho": [0.5128205128205128], "sensory_end": 0.5128205128205128, "motor_start": 0.5128205128205128, "blockiness": 0.2798937901115993, "layer_coupling": 0.7348074907606644, "block_layers": [[0, 19], [20, 38]], "n_layers": 40, "fitted_layers": 39, "gain_offset": false, "gain_mode": "none", "n_prompts": 25}
+qwen_J25_explorergain {"n_blocks": 2, "boundaries_rho": [0.5128205128205128], "sensory_end": 0.5128205128205128, "motor_start": 0.5128205128205128, "blockiness": 0.3215091179112254, "layer_coupling": 0.6905914329914139, "block_layers": [[0, 19], [20, 38]], "n_layers": 40, "fitted_layers": 39, "gain_offset": false, "gain_mode": "explorer", "n_prompts": 25}
+qwen_J25_correctgain {"n_blocks": 2, "boundaries_rho": [0.5128205128205128], "sensory_end": 0.5128205128205128, "motor_start": 0.5128205128205128, "blockiness": 0.3219463690169272, "layer_coupling": 0.693576162068542, "block_layers": [[0, 19], [20, 38]], "n_layers": 40, "fitted_layers": 39, "gain_offset": true, "gain_mode": "auto", "n_prompts": 25}
+The repository /vol/sarvam-30b-bf16 contains custom code which must be executed to correctly load the model. You can inspect the repository content at /vol/sarvam-30b-bf16 .
+ You can inspect the repository content at https://hf.co//vol/sarvam-30b-bf16.
+You can avoid this prompt in future by passing the argument `trust_remote_code=True`.
+
+[transformers] You are using a model of type `sarvam_moe` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+Do you wish to run the custom code? [y/N] cross sarvam_J200_nogain x qwen_J25_nogain: matched-depth CKA 0.272 over 4096 shared tokens
+cross qwen_J25_explorergain x qwen_J25_correctgain: matched-depth CKA 0.995 over 4096 shared tokens
+{
+ "sarvam_J200_nogain": {
+  "n_blocks": 2,
+  "boundaries_rho": [
+   0.6111111111111112
+  ],
+  "sensory_end": 0.6111111111111112,
+  "motor_start": 0.6111111111111112,
+  "blockiness": 0.213837077408652,
+  "layer_coupling": 0.8460913299662084,
+  "block_layers": [
+   [
+    0,
+    10
+   ],
+   [
+    11,
+    17
+   ]
+  ],
+  "n_layers": 19,
+  "fitted_layers": 18,
+  "gain_offset": false,
+  "gain_mode": "none",
+  "n_prompts": 200
+ },
+ "qwen_J25_nogain": {
+  "n_blocks": 2,
+  "boundaries_rho": [
+   0.5128205128205128
+  ],
+  "sensory_end": 0.5128205128205128,
+  "motor_start": 0.5128205128205128,
+  "blockiness": 0.2798937901115993,
+  "layer_coupling": 0.7348074907606644,
+  "block_layers": [
+   [
+    0,
+    19
+   ],
+   [
+    20,
+    38
+   ]
+  ],
+  "n_layers": 40,
+  "fitted_layers": 39,
+  "gain_offset": false,
+  "gain_mode": "none",
+  "n_prompts": 25
+ },
+ "qwen_J25_explorergain": {
+  "n_blocks": 2,
+  "boundaries_rho": [
+   0.5128205128205128
+  ],
+  "sensory_end": 0.5128205128205128,
+  "motor_start": 0.5128205128205128,
+  "blockiness": 0.3215091179112254,
+  "layer_coupling": 0.6905914329914139,
+  "block_layers": [
+   [
+    0,
+    19
+   ],
+   [
+    20,
+    38
+   ]
+  ],
+  "n_layers": 40,
+  "fitted_layers": 39,
+  "gain_offset": false,
+  "gain_mode": "explorer",
+  "n_prompts": 25
+ },
+ "qwen_J25_correctgain": {
+  "n_blocks": 2,
+  "boundaries_rho": [
+   0.5128205128205128
+  ],
+  "sensory_end": 0.5128205128205128,
+  "motor_start": 0.5128205128205128,
+  "blockiness": 0.3219463690169272,
+  "layer_coupling": 0.693576162068542,
+  "block_layers": [
+   [
+    0,
+    19
+   ],
+   [
+    20,
+    38
+   ]
+  ],
+  "n_layers": 40,
+  "fitted_layers": 39,
+  "gain_offset": true,
+  "gain_mode": "auto",
+  "n_prompts": 25
+ },
+ "cross:sarvam_J200_nogainxqwen_J25_nogain": {
+  "matched_mean": 0.2715533630655093,
+  "n_shared_tokens": 4096
+ },
+ "cross:qwen_J25_explorergainxqwen_J25_correctgain": {
+  "matched_mean": 0.9946455722486217,
+  "n_shared_tokens": 4096
+ }
+}
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-006BDmyGxI8rDelxGnJ5O6

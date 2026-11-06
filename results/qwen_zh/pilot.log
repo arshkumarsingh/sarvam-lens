@@ -1,0 +1,17 @@
+lenses ['logit'] at layers [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38]
+ta-te: kept 26 items
+te-kn: kept 25 items
+kn-ml: kept 26 items
+ml-ta: kept 30 items
+bn-gu: kept 30 items
+gu-mr: kept 6 items
+mr-bn: kept 28 items
+bn-ta: kept 27 items
+ta-bn: kept 31 items
+te-gu: kept 28 items
+hi-ta: kept 26 items
+hi_latn-ta: kept 26 items
+en-ta: kept 24 items
+ta-en: kept 30 items
+generated new fontManager
+kept 363 / 448 items; wrote /vol/runs/qwen_zh/pivot_logit

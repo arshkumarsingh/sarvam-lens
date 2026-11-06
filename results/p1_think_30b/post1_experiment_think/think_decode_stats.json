@@ -1,0 +1,17 @@
+{
+ "max_rows": 1080,
+ "width": 2590,
+ "steps": 2047,
+ "admissions": 23,
+ "shifts": 0,
+ "slab_gb": 54.4,
+ "seconds": 537.2,
+ "mean_step_s": 0.247,
+ "reasons": {
+  "eos": 670,
+  "loop": 51,
+  "answer_cap": 16,
+  "cap": 343
+ },
+ "think_end_token": 24
+}

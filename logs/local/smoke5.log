@@ -1,0 +1,171 @@
+workdir: %TEMP%\jl\smoke5
+1. loading
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  8.13it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  8.13it/s]
+  ok   checkpoint detected as sarvam_moe
+Loading weights:   0%|          | 0/117 [00:00<?, ?it/s]Loading weights: 100%|██████████| 117/117 [00:00<00:00, 5292.58it/s]
+[transformers] You are using a model of type `sarvam_moe` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+[transformers] `use_return_dict` is deprecated! Use `return_dict` instead!
+%TEMP%\jl\jppenv\Lib\site-packages\transformers\modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+%TEMP%\jl\jppenv\Lib\site-packages\transformers\modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+  ok   layout resolved: HFLensModel(SarvamMoEForCausalLM, n_layers=4, d_model=64)
+  ok   RoPE inv_freq rebuilt (first [1.0, 0.13712409138679504, 0.01880301535129547])
+  ok   BOS prefixes per mode: {'hf': ['<bos>', 'पानी'], 'chat': ['<bos>', '[@BOS@]', '\n'], 'sarvam_bos': ['[@BOS@]', 'पानी']}
+  ok   encode respects max_length
+2. LRP surgery
+  ok   LN-rule forward is bit-identical
+  ok   rlens: fp32 forward bit-identical
+  ok   rlens: LN-rule on the 8 residual norms + final norm, q/k norms untouched
+  ok   rlens: dense+shared MLPs 4, routed experts 0, MoE blocks 0
+  ok   r+moe: fp32 forward bit-identical
+  ok   r+moe: LN-rule on the 8 residual norms + final norm, q/k norms untouched
+  ok   r+moe: dense+shared MLPs 4, routed experts 24, MoE blocks 3
+  ok   every instance forward restored on exit
+Loading weights:   0%|          | 0/117 [00:00<?, ?it/s]Loading weights: 100%|██████████| 117/117 [00:00<00:00, 3210.33it/s]
+[transformers] You are using a model of type `sarvam_moe` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+  ok   rlens: bf16 forward bit-identical
+  ok   r+moe: bf16 forward bit-identical
+  ok   exact identity rule has jpp's gradient
+3. gradients through the eval-mode expert dispatch
+  ok   standard gradients finite and nonzero
+  ok   R+MoE gradients differ from standard (max relative diff 0.683)
+4. jpp pipeline through run_jpp
+Loading weights:   0%|          | 0/117 [00:00<?, ?it/s]Loading weights: 100%|██████████| 117/117 [00:00<00:00, 2884.11it/s]
+[transformers] You are using a model of type `sarvam_moe` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+2026-10-18 22:54:35,811 jpp_cli router saved to %TEMP%\jl\smoke5\router.pt (stamp %TEMP%\jl\smoke5\router_stamp.json)
+  ok   fit-router
+Loading weights:   0%|          | 0/117 [00:00<?, ?it/s]Loading weights: 100%|██████████| 117/117 [00:00<00:00, 2831.10it/s]
+[transformers] You are using a model of type `sarvam_moe` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+2026-10-18 22:54:39,604 jpp_cli ExpertJacobianTrainer shard 0/1: prompts [0, 6) of 6, K=[2], checkpoints in %TEMP%\jl\smoke5\artifacts_j\2026-10-18\tiny_j/shard0of1
+2026-10-18 22:54:39,605 workspace_lens.fitting.expert_fitting LensConfig(hf_model_name='%TEMP%\\jl\\smoke5\\tiny-sarvam', checkpoint_name='tiny_j/shard0of1', lens_type='jacobian', checkpoint_every_n_prompts=4, creation_time='2026-10-18_17-24-35', artifacts_base_dir='%TEMP%\\jl\\smoke5\\artifacts_j', checkpoint_path='%TEMP%\\jl\\smoke5\\artifacts_j\\2026-10-18\\tiny_j/shard0of1', source_layers=[0, 1, 2], relative_end_transport_layer=-1, d_model=64, num_prompts_trained_on=0, next_prompt_idx=0, jacobian_rows_per_pass=16, max_seq_len=48, skip_first_n_positions=4, num_clusters=0, cluster_projection_dim=0, lrp_mode='none')
+2026-10-18 22:54:39,605 workspace_lens.fitting.expert_fitting expert fit: Ks=[2]
+2026-10-18 22:54:47,337 workspace_lens.fitting.expert_fitting   prompt 1/6  seq_len=48 num_source_positions=43  8s
+2026-10-18 22:54:52,772 workspace_lens.fitting.expert_fitting   prompt 2/6  seq_len=44 num_source_positions=39  5s
+2026-10-18 22:54:56,820 workspace_lens.fitting.expert_fitting   prompt 3/6  seq_len=48 num_source_positions=43  4s
+2026-10-18 22:54:57,647 workspace_lens.fitting.expert_fitting   prompt 4/6  seq_len=48 num_source_positions=43  1s
+2026-10-18 22:54:58,231 workspace_lens.fitting.expert_fitting   prompt 5/6  seq_len=36 num_source_positions=31  1s
+2026-10-18 22:54:59,151 workspace_lens.fitting.expert_fitting   prompt 6/6  seq_len=48 num_source_positions=43  1s
+2026-10-18 22:54:59,157 workspace_lens.fitting.expert_fitting expert fit: done, 6 prompts
+2026-10-18 22:54:59,251 jpp_cli shard checkpoint in %TEMP%\jl\smoke5\artifacts_j\2026-10-18\tiny_j/shard0of1
+2026-10-18 22:54:59,256 workspace_lens.fitting.utils merging checkpoint 1/1: %TEMP%\jl\smoke5\artifacts_j\2026-10-18\tiny_j\shard0of1\experts_K2_checkpoint.pt
+2026-10-18 22:54:59,312 jpp_cli experts saved to %TEMP%\jl\smoke5\experts_j.pt (stamp %TEMP%\jl\smoke5\experts_j_stamp.json)
+2026-10-18 22:54:59,349 jpp_cli pooled lens (in-memory fp32 sums) saved to %TEMP%\jl\smoke5\tiny_j_lens.pt (stamp %TEMP%\jl\smoke5\tiny_j_lens_stamp.json)
+%TEMP%\jl\smoke5\artifacts_j\2026-10-18\tiny_j/shard0of1
+  ok   fit-shard --lrp-mode none
+  ok   shard checkpoint written (['%TEMP%\\jl\\smoke5\\artifacts_j\\2026-10-18\\tiny_j\\shard0of1'])
+  ok   merge-experts (j)
+Loading weights:   0%|          | 0/117 [00:00<?, ?it/s]Loading weights: 100%|██████████| 117/117 [00:00<00:00, 2084.98it/s]
+[transformers] You are using a model of type `sarvam_moe` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+2026-10-18 22:55:02,716 jpp_cli ExpertJacobianRelPTrainer shard 0/1: prompts [0, 6) of 6, K=[2], checkpoints in %TEMP%\jl\smoke5\artifacts_r\2026-10-18\tiny_r/shard0of1
+2026-10-18 22:55:02,716 workspace_lens.fitting.expert_fitting LensConfig(hf_model_name='%TEMP%\\jl\\smoke5\\tiny-sarvam', checkpoint_name='tiny_r/shard0of1', lens_type='jacobian', checkpoint_every_n_prompts=4, creation_time='2026-10-18_17-24-59', artifacts_base_dir='%TEMP%\\jl\\smoke5\\artifacts_r', checkpoint_path='%TEMP%\\jl\\smoke5\\artifacts_r\\2026-10-18\\tiny_r/shard0of1', source_layers=[0, 1, 2], relative_end_transport_layer=-1, d_model=64, num_prompts_trained_on=0, next_prompt_idx=0, jacobian_rows_per_pass=16, max_seq_len=48, skip_first_n_positions=4, num_clusters=0, cluster_projection_dim=0, lrp_mode='r+moe')
+2026-10-18 22:55:02,716 workspace_lens.fitting.expert_fitting expert fit: Ks=[2]
+2026-10-18 22:55:02,781 workspace_lens.fitting.relp_fitting LRP surgery (lrp_mode=r+moe): patched 9 RMSNorms, 4 gated MLPs
+2026-10-18 22:55:03,411 workspace_lens.fitting.expert_fitting   prompt 1/6  seq_len=48 num_source_positions=43  1s
+2026-10-18 22:55:04,017 workspace_lens.fitting.expert_fitting   prompt 2/6  seq_len=44 num_source_positions=39  1s
+2026-10-18 22:55:04,658 workspace_lens.fitting.expert_fitting   prompt 3/6  seq_len=48 num_source_positions=43  1s
+2026-10-18 22:55:05,327 workspace_lens.fitting.expert_fitting   prompt 4/6  seq_len=48 num_source_positions=43  1s
+2026-10-18 22:55:05,837 workspace_lens.fitting.expert_fitting   prompt 5/6  seq_len=36 num_source_positions=31  1s
+2026-10-18 22:55:06,498 workspace_lens.fitting.expert_fitting   prompt 6/6  seq_len=48 num_source_positions=43  1s
+2026-10-18 22:55:06,501 workspace_lens.fitting.expert_fitting expert fit: done, 6 prompts
+2026-10-18 22:55:06,571 jpp_cli shard checkpoint in %TEMP%\jl\smoke5\artifacts_r\2026-10-18\tiny_r/shard0of1
+2026-10-18 22:55:06,573 workspace_lens.fitting.utils merging checkpoint 1/1: %TEMP%\jl\smoke5\artifacts_r\2026-10-18\tiny_r\shard0of1\experts_K2_checkpoint.pt
+2026-10-18 22:55:06,629 jpp_cli experts saved to %TEMP%\jl\smoke5\experts_r.pt (stamp %TEMP%\jl\smoke5\experts_r_stamp.json)
+2026-10-18 22:55:06,673 jpp_cli pooled lens (in-memory fp32 sums) saved to %TEMP%\jl\smoke5\tiny_r_lens.pt (stamp %TEMP%\jl\smoke5\tiny_r_lens_stamp.json)
+%TEMP%\jl\smoke5\artifacts_r\2026-10-18\tiny_r/shard0of1
+  ok   fit-shard --lrp-mode r+moe
+  ok   shard checkpoint written (['%TEMP%\\jl\\smoke5\\artifacts_r\\2026-10-18\\tiny_r\\shard0of1'])
+  ok   merge-experts (r)
+association: copied
+multihop: copied
+multilingual: excluded (empty items)
+order-ops: copied
+poetry: copied
+typo: copied
+  ok   prepare-evals
+  ok   multilingual items emptied
+Loading weights:   0%|          | 0/117 [00:00<?, ?it/s]Loading weights: 100%|██████████| 117/117 [00:00<00:00, 3647.49it/s]
+[transformers] You are using a model of type `sarvam_moe` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+multihop: 0/93 correct
+multilingual: 0/107 correct
+order-ops: 0/55 correct
+poetry: 0/98 correct
+wrote %TEMP%\jl\smoke5\correctness.csv (353 gradeable rows)
+  ok   grade
+Loading weights:   0%|          | 0/117 [00:00<?, ?it/s]Loading weights: 100%|██████████| 117/117 [00:00<00:00, 3784.48it/s]
+[transformers] You are using a model of type `sarvam_moe` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+2026-10-18 22:55:34,012 lens_evals.readout_evals.readout_eval_items correctness filter kept 198/389 items
+2026-10-18 22:55:36,394 lens_evals.eval_utils non-semantic exclusion: 8243 token ids excluded (18 spared as scored surfaces)
+%TEMP%\jl\jppenv\Lib\site-packages\transformers\modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+%TEMP%\jl\jppenv\Lib\site-packages\transformers\modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+2026-10-18 22:55:40,019 lens_evals.readout_evals.readout_evals recorded item 25/198
+2026-10-18 22:55:43,236 lens_evals.readout_evals.readout_evals recorded item 50/198
+2026-10-18 22:55:44,755 lens_evals.readout_evals.readout_evals recorded item 75/198
+2026-10-18 22:55:46,145 lens_evals.readout_evals.readout_evals recorded item 100/198
+2026-10-18 22:55:47,799 lens_evals.readout_evals.readout_evals recorded item 125/198
+2026-10-18 22:55:49,845 lens_evals.readout_evals.readout_evals recorded item 150/198
+2026-10-18 22:55:52,504 lens_evals.readout_evals.readout_evals recorded item 175/198
+2026-10-18 22:55:54,061 lens_evals.readout_evals.readout_evals recorded item 198/198
+2026-10-18 22:55:55,881 workspace_lens.fitting.condense_experts.fitter layer 0: single-expert pass@10 [0.0, 0.0] -> learned 0.000 (uniform, step 3)
+2026-10-18 22:55:57,540 workspace_lens.fitting.condense_experts.fitter layer 1: single-expert pass@10 [0.0, 0.0] -> learned 0.000 (uniform, step 3)
+2026-10-18 22:55:59,885 workspace_lens.fitting.condense_experts.fitter layer 2: single-expert pass@10 [0.0, 0.0] -> learned 0.000 (select_best, step 3)
+2026-10-18 22:55:59,926 jpp_cli lens saved to %TEMP%\jl\smoke5\tiny_jpp.pt (weights %TEMP%\jl\smoke5\tiny_jpp_expert_weights.json)
+  ok   fit-weights (J++ from the R+MoE experts)
+  ok   evaluate refuses held-out items from a different list than fit-weights used
+Loading weights:   0%|          | 0/117 [00:00<?, ?it/s]Loading weights: 100%|██████████| 117/117 [00:00<00:00, 3202.28it/s]
+[transformers] You are using a model of type `sarvam_moe` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+2026-10-18 22:56:03,505 lens_evals.readout_evals.readout_eval_items correctness filter kept 198/389 items
+2026-10-18 22:56:05,410 lens_evals.eval_utils non-semantic exclusion: 8243 token ids excluded (18 spared as scored surfaces)
+%TEMP%\jl\jppenv\Lib\site-packages\transformers\modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+%TEMP%\jl\jppenv\Lib\site-packages\transformers\modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+2026-10-18 22:56:07,184 lens_evals.readout_evals.readout_evals scored item 25/159
+2026-10-18 22:56:07,505 lens_evals.readout_evals.readout_evals scored item 50/159
+2026-10-18 22:56:07,833 lens_evals.readout_evals.readout_evals scored item 75/159
+2026-10-18 22:56:08,193 lens_evals.readout_evals.readout_evals scored item 100/159
+2026-10-18 22:56:08,561 lens_evals.readout_evals.readout_evals scored item 125/159
+2026-10-18 22:56:08,960 lens_evals.readout_evals.readout_evals scored item 150/159
+2026-10-18 22:56:09,116 lens_evals.readout_evals.readout_evals scored item 159/159
+2026-10-18 22:56:09,237 jpp_cli ranks saved to %TEMP%\jl\smoke5\eval\ranks.csv (recall table %TEMP%\jl\smoke5\eval\ranks_pass_at_k.csv)
+ eval     lens  k weighting  pass_at_k
+macro tiny_jpp  1      item        NaN
+macro tiny_jpp 10      item        NaN
+macro tiny_jpp  1      pair        NaN
+macro tiny_jpp 10      pair        NaN
+  ok   evaluate on the held-out split of the weights' own item list
+association: excluded (empty items)
+multihop: excluded (empty items)
+multilingual: copied
+order-ops: excluded (empty items)
+poetry: excluded (empty items)
+typo: excluded (empty items)
+Loading weights:   0%|          | 0/117 [00:00<?, ?it/s]Loading weights: 100%|██████████| 117/117 [00:00<00:00, 3362.82it/s]
+[transformers] You are using a model of type `sarvam_moe` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+2026-10-18 22:56:11,141 lens_evals.readout_evals.readout_eval_items correctness filter kept 0/107 items
+2026-10-18 22:56:12,275 lens_evals.eval_utils non-semantic exclusion: 8261 token ids excluded (0 spared as scored surfaces)
+2026-10-18 22:56:12,348 jpp_cli ranks saved to %TEMP%\jl\smoke5\eval_multilingual\ranks.csv (recall table %TEMP%\jl\smoke5\eval_multilingual\ranks_pass_at_k.csv)
+Empty DataFrame
+Columns: [eval, lens, k, weighting, pass_at_k]
+Index: []
+  ok   evaluate all multilingual items (never seen by the weights)
+5. pivot experiment
+Loading weights:   0%|          | 0/117 [00:00<?, ?it/s]Loading weights: 100%|██████████| 117/117 [00:00<00:00, 3732.27it/s]
+[transformers] You are using a model of type `sarvam_moe` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+2026-10-18 22:56:14,176 pivot lenses ['logit', 'tiny_j_lens', 'tiny_r_lens', 'tiny_jpp'] at layers [0, 1, 2]
+%TEMP%\jl\jppenv\Lib\site-packages\transformers\modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+%TEMP%\jl\jppenv\Lib\site-packages\transformers\modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+2026-10-18 22:56:17,012 pivot ta-te: kept 4 items
+2026-10-18 22:56:17,682 pivot mr-bn: kept 4 items
+2026-10-18 22:56:18,267 pivot hi_latn-ta: kept 4 items
+2026-10-18 22:56:21,117 pivot kept 12 / 12 items; wrote %TEMP%\jl\smoke5\pivot
+  ok   pivot_experiment
+  ok   1008 rows over 4 lenses
+  ok   plots written: ['logit_mean_prob.png', 'logit_top10_rate.png', 'tiny_j_lens_mean_prob.png', 'tiny_j_lens_top10_rate.png', 'tiny_jpp_mean_prob.png', 'tiny_jpp_top10_rate.png', 'tiny_r_lens_mean_prob.png', 'tiny_r_lens_top10_rate.png']
+
+ALL CHECKS PASSED  (artifacts in %TEMP%\jl\smoke5)
+exit 0

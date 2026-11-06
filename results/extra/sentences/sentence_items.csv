@@ -1,0 +1,41 @@
+lang,concept,model_top,kept
+hi,water, पानी,True
+hi,sun, मुख,False
+hi,milk, पानी,False
+hi,fish, मछ,True
+hi,eye, क्षमता,False
+hi,king, राजा,True
+hi,book, सामग्री,False
+hi,rain, बारिश,True
+hi,moon, चंद्रमा,True
+hi,dog, विशेष,False
+ta,water, தண்ணீர்,True
+ta,sun, உள்ள,False
+ta,milk, ப,False
+ta,fish, த,False
+ta,eye,மை,False
+ta,king, பெரிய,False
+ta,book, இடம்,False
+ta,rain, ம,False
+ta,moon, நில,True
+ta,dog,போதும்,False
+te,water, నీరు,True
+te,sun, ఉన్న,False
+te,milk, ఆ,False
+te,fish, తక్కువ,False
+te,eye,లో,False
+te,king, చిన్న,False
+te,book, సమయం,False
+te,rain, వర్ష,True
+te,moon,గా,False
+te,dog, చిన్న,False
+bn,water, জল,True
+bn,sun, মুখ,False
+bn,milk, একটি,False
+bn,fish, বেশি,False
+bn,eye, নিজস্ব,False
+bn,king, বিশাল,False
+bn,book, সময়,False
+bn,rain, বৃষ্টি,True
+bn,moon,িম,False
+bn,dog," """,False

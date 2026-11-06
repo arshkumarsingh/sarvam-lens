@@ -1,0 +1,25 @@
+# concept: flower
+# page: flower
+# revid: 93694803
+# section_url: https://en.wiktionary.org/w/index.php?title=flower&action=raw&section=9
+## block: {{trans-top|reproductive structure in angiosperms}}
+* Assamese: {{t|as|ফুল}}
+* Odia: {{t+|or|ଫୁଲ}},  {{t+|or|ପୁଷ୍ପ}}
+* Punjabi:
+*: Gurmukhi: {{t|pa|ਫੁੱਲ|m}}
+*: Shahmukhi: {{t|pa|پُھلّ|m}}
+* Urdu: {{t|ur|پُھول|m}},  {{t|ur|پُشْپ|m}} {{qualifier|rare}}
+* Nepali: {{t+|ne|फूल}}
+* Sanskrit: {{t+|sa|पुष्प|n}},  {{t+|sa|पुल्ल}},  {{t+|sa|कुसुमम्}},  {{t+|sa|प्रसूनम्}},  {{t+|sa|सुमम्}}
+* Maithili: {{t-needed|mai}}
+* Sindhi: {{t+|sd|گلٍ|tr=gilaa}}
+* Kashmiri: {{t-needed|ks}}
+* Konkani: {{t|kok|ಪುಲ್}}
+MISSING Dogri
+MISSING Manipuri
+MISSING Bodo
+* Santali: {{t|sat|ᱯᱷᱩᱞ}},  {{t+|sat|ᱵᱟᱦᱟ}}
+* Japanese: {{t+|ja|花|tr=はな, hana}}
+* Russian: {{t+|ru|цвето́к|m}},  {{t+|ru|цветы́|p}}
+* Arabic: {{t+|ar|زَهْرَة|f}},  {{t|ar|زُهُور|p}},  {{t|ar|أَزْهَار|p}},  {{t|ar|وَرْدَة|f}}
+* Hindi: {{t+|hi|फूल|m}},  {{t+|hi|पुष्प|m}}

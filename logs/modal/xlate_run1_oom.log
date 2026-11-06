@@ -1,0 +1,175 @@
+✓ Initialized. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-nTutzlQInFQ8SFRxhgjJTc
+✓ Created objects.
+├── ✓ Uploaded %USERPROFILE%\OneDrive\Desktop\Sarvam 
+│   Lens\code\modal_translate.py
+├── ✓ Uploaded data\xling\en_sets.json
+├── ✓ Uploaded languages.py
+├── ✓ Uploaded translate.py
+└── ✓ Created Function translate_all.
+L40S at $2.39/h, hard timeout 75 min -> worst case $2.99
+Traceback (most recent call last):
+  File "/pkg/modal/_runtime/container_io_manager.py", line 987, in handle_input_exception
+    yield
+  File "/pkg/modal/_container_entrypoint.py", line 189, in run_input_sync
+    values = io_context.call_function_sync()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pkg/modal/_runtime/container_io_manager.py", line 266, in call_function_sync
+    expected_value_or_values = self.finalized_function.callable(*args, **kwargs)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/modal_translate.py", line 59, in translate_all
+    result = translate.run("/xlate/en_sets.json", OUT_DIR, langs=langs, commit=volume.commit, smoke=smoke)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/xlate/translate.py", line 141, in run
+    outs = translate_it2(texts, languages.LANGS[lang]["it2"], model=model, tokenizer=tokenizer, processor=processor)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/xlate/translate.py", line 83, in translate_it2
+    generated = model.generate(**inputs, use_cache=True, min_length=0, max_new_tokens=_max_new(inputs["input_ids"].shape[1]),
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/generation/utils.py", line 2484, in generate
+    result = self._beam_search(
+             ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/generation/utils.py", line 4010, in _beam_search
+    model_kwargs["past_key_values"] = self._temporary_reorder_cache(
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/transformers/generation/utils.py", line 3536, in _temporary_reorder_cache
+    past_key_values = self._reorder_cache(past_key_values, beam_idx)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/hf_cache/modules/transformers_modules/ai4bharat/indictrans2-en-indic-1B/89cd0007fd7b9e0693a2fd4404d187e07dac79fd/modeling_indictrans.py", line 1798, in _reorder_cache
+    tuple(
+  File "/vol/hf_cache/modules/transformers_modules/ai4bharat/indictrans2-en-indic-1B/89cd0007fd7b9e0693a2fd4404d187e07dac79fd/modeling_indictrans.py", line 1799, in <genexpr>
+    past_state.index_select(0, beam_idx) for past_state in layer_past
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 158.00 MiB. GPU 0 has a total capacity of 44.42 GiB of which 95.62 MiB is free. Process 1 has 44.32 GiB memory in use. Of the allocated memory 25.31 GiB is allocated by PyTorch, and 18.51 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Stopping app - uncaught exception raised locally: ExecutionError('Could not deserialize remote exception due to local error:\nDeserialization failed because the \'torch\' module is not available in the local environment.\nThis can happen if your local environment does not have the remote exception definitions.\nHere is the remote traceback:\nTraceback (most recent call last):\n  File "/pkg/modal/_runtime/container_io_manager.py", line 987, in handle_input_exception\n    yield\n  File "/pkg/modal/_container_entrypoint.py", line 189, in run_input_sync\n    values = io_context.call_function_sync()\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/pkg/modal/_runtime/container_io_manager.py", line 266, in call_function_sync\n    expected_value_or_values = self.finalized_function.callable(*args, **kwargs)\n                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/root/modal_translate.py", line 59, in translate_all\n    result = translate.run("/xlate/en_sets.json", OUT_DIR, langs=langs, commit=volume.co.
+┌───────────────────── Traceback (most recent call last) ─────────────────────┐
+│ %TEMP%\jl\modalenv\Lib\site-packages\modal\_seri │
+│ alization.py:117 in deserialize                                             │
+│                                                                             │
+│   116 │   try:                                                              │
+│ > 117 │   │   return Unpickler(client, io.BytesIO(s)).load()                │
+│   118 │   except AttributeError as exc:                                     │
+└─────────────────────────────────────────────────────────────────────────────┘
+ModuleNotFoundError: No module named 'torch'
+
+The above exception was the direct cause of the following exception:
+
+┌───────────────────── Traceback (most recent call last) ─────────────────────┐
+│ .\code\modal_translate.py:75 in   │
+│ main                                                                        │
+│                                                                             │
+│   74 │   │   print(f"L40S at ${USD_PER_HOUR:.2f}/h, hard timeout {TIMEOUT_M │
+│ > 75 │   │   print(json.dumps(translate_all.remote(chosen), ensure_ascii=Fa │
+│   76 │   else:                                                              │
+│                                                                             │
+│ %TEMP%\jl\modalenv\Lib\site-packages\modal\_obje │
+│ ct.py:49 in wrapped                                                         │
+│                                                                             │
+│    48 │   │   await self.hydrate()                                          │
+│ >  49 │   │   return await method(self, *args, **kwargs)                    │
+│    50                                                                       │
+│                                                                             │
+│ %TEMP%\jl\modalenv\Lib\site-packages\modal\_func │
+│ tions.py:2081 in remote                                                     │
+│                                                                             │
+│   2080 │   │                                                                │
+│ > 2081 │   │   return await self._call_function(args, kwargs)               │
+│   2082                                                                      │
+│                                                                             │
+│ %TEMP%\jl\modalenv\Lib\site-packages\modal\_func │
+│ tions.py:2018 in _call_function                                             │
+│                                                                             │
+│   2017 │   │                                                                │
+│ > 2018 │   │   return await invocation.run_function()                       │
+│   2019                                                                      │
+│                                                                             │
+│ %TEMP%\jl\modalenv\Lib\site-packages\modal\_func │
+│ tions.py:517 in run_function                                                │
+│                                                                             │
+│    516 │   │   │   # No more retries left.                                  │
+│ >  517 │   │   │   return await _process_result(                            │
+│    518 │   │   │   │   await_response.output.result, await_response.output. │
+│                                                                             │
+│ %TEMP%\jl\modalenv\Lib\site-packages\modal\_util │
+│ s\function_utils.py:547 in _process_result                                  │
+│                                                                             │
+│   546 │   │   │   except DeserializationError as deser_exc:                 │
+│ > 547 │   │   │   │   raise ExecutionError(                                 │
+│   548 │   │   │   │   │   "Could not deserialize remote exception due to lo │
+└─────────────────────────────────────────────────────────────────────────────┘
+ExecutionError: Could not deserialize remote exception due to local error:
+Deserialization failed because the 'torch' module is not available in the local
+environment.
+This can happen if your local environment does not have the remote exception 
+definitions.
+Here is the remote traceback:
+Traceback (most recent call last):
+  File "/pkg/modal/_runtime/container_io_manager.py", line 987, in 
+handle_input_exception
+    yield
+  File "/pkg/modal/_container_entrypoint.py", line 189, in run_input_sync
+    values = io_context.call_function_sync()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pkg/modal/_runtime/container_io_manager.py", line 266, in 
+call_function_sync
+    expected_value_or_values = self.finalized_function.callable(*args, 
+**kwargs)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^
+  File "/root/modal_translate.py", line 59, in translate_all
+    result = translate.run("/xlate/en_sets.json", OUT_DIR, langs=langs, 
+commit=volume.commit, smoke=smoke)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/xlate/translate.py", line 141, in run
+    outs = translate_it2(texts, languages.LANGS[lang]["it2"], model=model, 
+tokenizer=tokenizer, processor=processor)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/xlate/translate.py", line 83, in translate_it2
+    generated = model.generate(**inputs, use_cache=True, min_length=0, 
+max_new_tokens=_max_new(inputs["input_ids"].shape[1]),
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/torch/utils/_contextlib.py", 
+line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/transformers/generation/utils.py", 
+line 2484, in generate
+    result = self._beam_search(
+             ^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/transformers/generation/utils.py", 
+line 4010, in _beam_search
+    model_kwargs["past_key_values"] = self._temporary_reorder_cache(
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/transformers/generation/utils.py", 
+line 3536, in _temporary_reorder_cache
+    past_key_values = self._reorder_cache(past_key_values, beam_idx)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/vol/hf_cache/modules/transformers_modules/ai4bharat/indictrans2-en-indic-1B/8
+9cd0007fd7b9e0693a2fd4404d187e07dac79fd/modeling_indictrans.py", line 1798, in 
+_reorder_cache
+    tuple(
+  File 
+"/vol/hf_cache/modules/transformers_modules/ai4bharat/indictrans2-en-indic-1B/8
+9cd0007fd7b9e0693a2fd4404d187e07dac79fd/modeling_indictrans.py", line 1799, in 
+<genexpr>
+    past_state.index_select(0, beam_idx) for past_state in layer_past
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 158.00 MiB. GPU 0
+has a total capacity of 44.42 GiB of which 95.62 MiB is free. Process 1 has 
+44.32 GiB memory in use. Of the allocated memory 25.31 GiB is allocated by 
+PyTorch, and 18.51 GiB is reserved by PyTorch but unallocated. If reserved but 
+unallocated memory is large try setting 
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See 
+documentation for Memory Management  
+(https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+

@@ -1,0 +1,46 @@
+{
+ "usd_per_hour": 5.174,
+ "budget_minutes": 9.0,
+ "stages": [
+  {
+   "stage": "load",
+   "result": {
+    "model": "HFLensModel(SarvamMoEForCausalLM, n_layers=19, d_model=4096)",
+    "gpu_gb_allocated": 64.3
+   },
+   "status": "ok",
+   "minutes": 1.96,
+   "log_tail": []
+  },
+  {
+   "stage": "rows_probe",
+   "result": {
+    "32": {
+     "exit": 0,
+     "seconds_per_prompt": 80.0,
+     "peak_gpu_gb": 83.9
+    },
+    "64": {
+     "exit": 0,
+     "seconds_per_prompt": 70.2,
+     "peak_gpu_gb": 103.5
+    }
+   },
+   "status": "ok",
+   "minutes": 5.01,
+   "log_tail": [
+    "httpx: HTTP Request: GET https://us.gcp.cdn.hf.co/xet-bridge-us/621ffdd236468d709f18200d/8d76dead9d8253b6b8ec0ebefbd6882c9f7894b6c227791c44a9f2db8bd20882?X-Xet-Cas-Uid=public&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27train-00000-of-00002.parquet%3B+filename%3D%22train-00000-of-00002.parquet%22%3B&user_id=public&xip=pvG_tcdlSQo&Expires=1792335396&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly91cy5nY3AuY2RuLmhmLmNvL3hldC1icmlkZ2UtdXMvNjIxZmZkZDIzNjQ2OGQ3MDlmMTgyMDBkLzhkNzZkZWFkOWQ4MjUzYjZiOGVjMGViZWZiZDY4ODJjOWY3ODk0YjZjMjI3NzkxYzQ0YTlmMmRiOGJkMjA4ODJcXD9YLVhldC1DYXMtVWlkPXB1YmxpYyZyZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSomdXNlcl9pZD1wdWJsaWMmeGlwPXB2R190Y2RsU1FvIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJFcG9jaFRpbWUiOjE3OTIzMzUzOTZ9fX1dfQ__&Signature=MEUCIQC6Bo6cghSHqcI1CaVE-8JO0Gg63TZ4MhizgqtV7-BsVwIgZt%7EuWYcUuYa%7E5Teqbu9Vw1TdcZ7CIGQNbSxsqMJE3uw_&Key-Pair-Id=01KXEF4KZ1B6FV465MAWR4M21F&Hash-Algorithm=SHA256 \"HTTP/1.1 206 Partial Content\"",
+    "jpp_cli: ExpertJacobianTrainer shard 0/1: prompts [0, 2) of 2, K=[8], checkpoints in /tmp/rows_64/2026-10-18/rows_64/shard0of1",
+    "workspace_lens.fitting.expert_fitting: LensConfig(hf_model_name='/vol/sarvam-30b-bf16', checkpoint_name='rows_64/shard0of1', lens_type='jacobian', checkpoint_every_n_prompts=1000, creation_time='2026-10-18_13-56-35', artifacts_base_dir='/tmp/rows_64', checkpoint_path='/tmp/rows_64/2026-10-18/rows_64/shard0of1', source_layers=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17], relative_end_transport_layer=-1, d_model=4096, num_prompts_trained_on=0, next_prompt_idx=0, jacobian_rows_per_pass=64, max_seq_len=128, skip_first_n_positions=16, num_clusters=0, cluster_projection_dim=0, lrp_mode='none')",
+    "workspace_lens.fitting.expert_fitting: expert fit: Ks=[8]",
+    "workspace_lens.fitting.expert_fitting:   prompt 1/2  seq_len=128 num_source_positions=111  65s",
+    "workspace_lens.fitting.expert_fitting:   prompt 2/2  seq_len=128 num_source_positions=111  60s",
+    "workspace_lens.fitting.expert_fitting: expert fit: done, 2 prompts",
+    "jpp_cli: shard checkpoint in /tmp/rows_64/2026-10-18/rows_64/shard0of1"
+   ]
+  }
+ ],
+ "elapsed_minutes": 7.14,
+ "est_cost_usd_so_far": 0.62,
+ "done": true
+}

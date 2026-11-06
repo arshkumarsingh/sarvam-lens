@@ -1,0 +1,26 @@
+# concept: cat
+# page: cat/translations
+# revid: 93665753
+# section_url: https://en.wiktionary.org/w/index.php?title=cat/translations&action=raw
+## block: {{trans-top|domestic species}}{{multitrans|data=
+* Assamese: {{tt|as|মেকুৰী}}, {{tt|as|বিৰালী}}
+* Odia: {{tt+|or|ବିଲେଇ}},{{tt+|or|ବିରାଡ଼ି}}
+* Punjabi:
+*: Gurmukhi: {{tt|pa|ਬਿੱਲੀ|f}}
+*: Shahmukhi: {{tt|pa|بِلِّی|f}}
+*: Western Punjabi: {{tt+|pnb|بلی|f}}
+* Urdu: {{tt|ur|بِلّی|f}}, {{tt|ur|بِلَّا|m}}
+* Nepali: {{tt+|ne|बिरालो}}
+* Sanskrit: {{tt+|sa|मार्जार|m}}, {{tt+|sa|बिडाल|m}}
+MISSING Maithili
+* Sindhi: {{tt+|sd|ٻلي|tr=ḅilī|alt=ٻِليِ}}
+* Kashmiri: {{tt|ks|برٛور|tr=brōr|m}}, {{tt|ks|بیٛور|tr=byōr|m}}, {{tt|ks|برٛٲر|f}}, {{tt|ks|بیٛٲر|tr=byạ̄r|f}}
+* Konkani: {{t|kok|माजर|tr=mazar}}
+MISSING Dogri
+MISSING Manipuri
+MISSING Bodo
+* Santali: {{t+|sat|ᱯᱩᱥᱤ}}
+* Japanese: {{tt+|ja|家猫|tr=いえねこ, ieneko}}, {{tt+|ja|猫|tr=ねこ, neko}}, {{tt|ja|猫ま|tr=ねこま, nekoma}}
+* Russian: {{tt+|ru|ко́шка|f}}, {{tt+|ru|кот|m}}
+* Arabic: {{tt+|ar|قِطّ|m}}, {{tt+|ar|قِطَّة|f}}, {{tt+|ar|هِرّ|m}}, {{tt+|ar|هِرَّة|f}}, {{tt|ar|سَنُّور|m}}
+* Hindi: {{tt+|hi|बिल्ली|f}}, {{tt+|hi|बिल्ला|m}}

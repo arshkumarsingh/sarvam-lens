@@ -1,0 +1,124 @@
+{
+ "sarvam_J200": {
+  "n_blocks": 1,
+  "boundaries_rho": [],
+  "sensory_end": NaN,
+  "motor_start": NaN,
+  "blockiness": 0.0,
+  "layer_coupling": 0.9909251842517464,
+  "block_layers": [
+   [
+    0,
+    17
+   ]
+  ],
+  "n_layers": 19,
+  "fitted_layers": 18,
+  "gain_offset": false,
+  "n_prompts": 200
+ },
+ "sarvam_R25": {
+  "n_blocks": 2,
+  "boundaries_rho": [
+   0.6111111111111112
+  ],
+  "sensory_end": 0.6111111111111112,
+  "motor_start": 0.6111111111111112,
+  "blockiness": 0.05755696821294354,
+  "layer_coupling": 0.9686357836456854,
+  "block_layers": [
+   [
+    0,
+    10
+   ],
+   [
+    11,
+    17
+   ]
+  ],
+  "n_layers": 19,
+  "fitted_layers": 18,
+  "gain_offset": false,
+  "n_prompts": 25
+ },
+ "sarvam_JPP25": {
+  "n_blocks": 2,
+  "boundaries_rho": [
+   0.6111111111111112
+  ],
+  "sensory_end": 0.6111111111111112,
+  "motor_start": 0.6111111111111112,
+  "blockiness": 0.020225182029206423,
+  "layer_coupling": 0.9683335712760385,
+  "block_layers": [
+   [
+    0,
+    10
+   ],
+   [
+    11,
+    17
+   ]
+  ],
+  "n_layers": 19,
+  "fitted_layers": 18,
+  "gain_offset": false,
+  "n_prompts": 25
+ },
+ "qwen_J25": {
+  "n_blocks": 2,
+  "boundaries_rho": [
+   0.5128205128205128
+  ],
+  "sensory_end": 0.5128205128205128,
+  "motor_start": 0.5128205128205128,
+  "blockiness": 0.3219463690169272,
+  "layer_coupling": 0.693576162068542,
+  "block_layers": [
+   [
+    0,
+    19
+   ],
+   [
+    20,
+    38
+   ]
+  ],
+  "n_layers": 40,
+  "fitted_layers": 39,
+  "gain_offset": true,
+  "n_prompts": 25
+ },
+ "qwen_R25": {
+  "n_blocks": 2,
+  "boundaries_rho": [
+   0.5128205128205128
+  ],
+  "sensory_end": 0.5128205128205128,
+  "motor_start": 0.5128205128205128,
+  "blockiness": 0.31099722985195344,
+  "layer_coupling": 0.7085412975085772,
+  "block_layers": [
+   [
+    0,
+    19
+   ],
+   [
+    20,
+    38
+   ]
+  ],
+  "n_layers": 40,
+  "fitted_layers": 39,
+  "gain_offset": true,
+  "n_prompts": 25
+ },
+ "cross:sarvam_J200xqwen_J25": {
+  "matched_mean": 0.11472137509446509,
+  "n_shared_tokens": 4096
+ },
+ "cross:sarvam_R25xqwen_R25": {
+  "matched_mean": 0.08794476002510991,
+  "n_shared_tokens": 4096
+ }
+}

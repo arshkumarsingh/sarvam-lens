@@ -1,0 +1,7 @@
+layer,edited_before,jaccard_english,jaccard_control,control_minus_english,unchanged_english,unchanged_control,router_logit_cos_english,router_logit_cos_control
+13,False,1.0,1.0,0.0,1.0,1.0,1.0,1.0
+14,True,0.9496,0.9548,0.0053,0.824,0.842,0.9999,0.99995
+15,True,0.8838,0.9498,0.066,0.618,0.827,0.99948,0.99988
+16,True,0.9136,0.9632,0.0496,0.717,0.871,0.99929,0.99982
+17,True,0.9475,0.9769,0.0294,0.816,0.919,0.99895,0.99979
+18,True,0.9341,0.9674,0.0334,0.772,0.886,0.999,0.99987

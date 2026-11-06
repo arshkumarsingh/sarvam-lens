@@ -1,0 +1,46 @@
+✓ Initialized. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-HinDqVR31oROZKiblWXUC2
+✓ Created objects.
+├── ✓ Uploaded .\code\modal_app.py
+├── ✓ Uploaded .\code
+├── ✓ Created Function prepare_weights.
+├── ✓ Created Function smoke.
+├── ✓ Created Function smoke_2gpu.
+├── ✓ Created Function prepare_qwen.
+├── ✓ Created Function cka.
+├── ✓ Created Function pilot.
+├── ✓ Created Function pilot2.
+├── ✓ Created Function merge_j.
+├── ✓ Created Function cka_robust.
+└── ✓ Created Function diagnose.
+hard timeout 15 min -> worst case $0.44
+{
+ "mla_smoke_2gpu": "FAILED",
+ "checks": [
+  "  ok   105B and 30B code side by side (sarvam_hub_sarvam_mla.modeling_sarvam_moe, sarvam_moe_hub_code.modeling_sarvam_moe)",
+  "  ok   tied-weights shim maps lm_head to embed_tokens",
+  "  ok   checkpoint detected as sarvam_mla",
+  "  ok   sdpa request forced to eager (eager)",
+  "  ok   no missing/unexpected/mismatched weights (dict_keys(['missing_keys', 'unexpected_keys', 'mismatched_keys', 'error_msgs']))",
+  "  ok   jlens layout auto-detected: HFLensModel(SarvamMLAForCausalLM, n_layers=4, d_model=64)",
+  "  ok   BOS prefixes per mode (same tokenizer as the 30B): {'hf': ['<bos>', 'पानी'], 'chat': ['<bos>', '[@BOS@]', '\\n'], 'sarvam_bos': ['[@BOS@]', 'पानी']}",
+  "  ok   save/load round trip: logits match the in-memory model",
+  "  ok   RoPE caches match config.json: {'layers_checked': 4, 'cos_max_abs_diff': 0.0, 'softmax_scale': 0.382499}",
+  "  ok   RoPE check fails loudly on a corrupted cache",
+  "  ok   RoPE check catches a wrong attention temperature (YaRN mscale)",
+  "  ok   logit-lens directions are g * W_U rows",
+  "  ok   subspace basis is orthonormal (d x k)",
+  "  ok   2 GPUs visible",
+  "  ok   stage load: ok",
+  "  ok   stage sanity: ok",
+  "  ok   stage bos_probe: ok",
+  "  ok   stage pivot_logit: ok",
+  "  FAIL stage causal_logit: error: RuntimeError('indices should be either on cpu or on the same device as the indexed tensor (cuda:0)')"
+ ],
+ "stdout_tail": "workdir: /tmp/smoke_mla\n1. imports\n  ok   105B and 30B code side by side (sarvam_hub_sarvam_mla.modeling_sarvam_moe, sarvam_moe_hub_code.modeling_sarvam_moe)\n  ok   tied-weights shim maps lm_head to embed_tokens\n2. adapter\n  ok   checkpoint detected as sarvam_mla\n  ok   sdpa request forced to eager (eager)\n  ok   no missing/unexpected/mismatched weights (dict_keys(['missing_keys', 'unexpected_keys', 'mismatched_keys', 'error_msgs']))\n  ok   jlens layout auto-detected: HFLensModel(SarvamMLAForCausalLM, n_layers=4, d_model=64)\n  ok   BOS prefixes per mode (same tokenizer as the 30B): {'hf': ['<bos>', 'पानी'], 'chat': ['<bos>', '[@BOS@]', '\\n'], 'sarvam_bos': ['[@BOS@]', 'पानी']}\n  ok   save/load round trip: logits match the in-memory model\n3. RoPE runtime check\n  ok   RoPE caches match config.json: {'layers_checked': 4, 'cos_max_abs_diff': 0.0, 'softmax_scale': 0.382499}\n  ok   RoPE check fails loudly on a corrupted cache\n  ok   RoPE check catches a wrong attention temperature (YaRN mscale)\n4. logit-lens ablation directions\n  ok   logit-lens directions are g * W_U rows\n  ok   subspace basis is orthonormal (d x k)\n5. pilot stages (2 GPUs, bf16)\n  ok   2 GPUs visible\n  ok   stage load: ok\n  ok   stage sanity: ok\n  ok   stage bos_probe: ok\n  ok   stage pivot_logit: ok\n  FAIL stage causal_logit: error: RuntimeError('indices should be either on cpu or on the same device as the indexed tensor (cuda:0)')\nTraceback (most recent call last):\n  File \"/sarvam-lens/modal_pilot.py\", line 140, in stage\n    entry[\"result\"] = fn()\n                      ^^^^\n  File \"/sarvam-lens/modal_pilot.py\", line 505, in causal_logit\n    summary = causal_test.run(\n              ^^^^^^^^^^^^^^^^\n  File \"/sarvam-lens/causal_test.py\", line 120, in run\n    p_base, ok = measure()\n                 ^^^^^^^^^\n  File \"/sarvam-lens/causal_test.py\", line 118, in measure\n    return float(probs[target_tensor].sum()), int(logits.argmax()) in target_ids\n                 ~~~~~^^^^^^^^^^^^^^^\nRuntimeError: indices should be either on cpu or on the same device as the indexed tensor (cuda:0)\n\n",
+ "stderr_tail": "t the owner of the model architecture class, please contact the model code owner to update it.\n\nLoading weights:   0%|          | 0/121 [00:00<?, ?it/s]\nLoading weights: 100%|██████████| 121/121 [00:00<00:00, 2474.71it/s]\n[transformers] SarvamMLAForCausalLM has generative capabilities, as `prepare_inputs_for_generation` is explicitly defined. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.\n  - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes\n  - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).\n  - If you are not the owner of the model architecture class, please contact the model code owner to update it.\n[transformers] You are using a model of type `sarvam_mla` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.\n[transformers] PreTrainedConfig got `key=rope_scaling` in kwargs but hasn't set it as attribute. For RoPE standardization you need to set `self.rope_parameters` in model's config. \n[transformers] Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='deepseek_yarn'\n/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.\n  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)\n/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.\n  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)\n/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.\n  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)\n/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.\n  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)\nsmoke test failed: stage causal_logit: error: RuntimeError('indices should be either on cpu or on the same device as the indexed tensor (cuda:0)')\nTraceback (most recent call last):\n  File \"/sarvam-lens/modal_pilot.py\", line 140, in stage\n    entry[\"result\"] = fn()\n                      ^^^^\n  File \"/sarvam-lens/modal_pilot.py\", line 505, in causal_logit\n    summary = causal_test.run(\n              ^^^^^^^^^^^^^^^^\n  File \"/sarvam-lens/causal_test.py\", line 120, in run\n    p_base, ok = measure()\n                 ^^^^^^^^^\n  File \"/sarvam-lens/causal_test.py\", line 118, in measure\n    return float(probs[target_tensor].sum()), int(logits.argmax()) in target_ids\n                 ~~~~~^^^^^^^^^^^^^^^\nRuntimeError: indices should be either on cpu or on the same device as the indexed tensor (cuda:0)\n\n"
+}
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-HinDqVR31oROZKiblWXUC2
+exit 0

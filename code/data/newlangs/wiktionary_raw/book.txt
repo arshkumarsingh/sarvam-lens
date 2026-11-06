@@ -1,0 +1,26 @@
+# concept: book
+# page: book/translations
+# revid: 93596307
+# section_url: https://en.wiktionary.org/w/index.php?title=book/translations&action=raw
+## block: {{trans-top|collection of sheets of paper bound together containing printed or written material}}{{multitrans|data=
+* Assamese: {{tt|as|কিতাপ}}, {{t|as|পুথি}}
+* Odia: {{tt+|or|ବହି}}
+* Punjabi:
+*: Gurmukhi: {{tt|pa|ਪੋਥੀ|f}}, {{tt|pa|ਪੋਥਾ|m}} {{q|a big book}}, {{tt|pa|ਕਿਤਾਬ|f}}, {{tt|pa|ਪੁਸਤਕ|m}}
+*: Shahmukhi: {{tt|pa|پوتھی|f}}, {{tt|pa|پوتھا|m}} {{q|a big book}}, {{tt|pa|کِتاب|f}}, {{tt|pa|پُسْتَک|m}}
+*: Western Punjabi: {{tt|pnb|پُسْتَک|m}}, {{tt|pnb|کِتاب|f}}
+* Urdu: {{tt+|ur|کِتاب|f}}, {{tt|ur|پُسْتَک|f}}, {{tt|ur|بُک|f}}
+* Nepali: {{tt|ne|पुस्तक}}, {{tt+|ne|किताप}}
+* Sanskrit: {{tt+|sa|पुस्तक|n}}, {{tt+|sa|ग्रन्थ|n}}
+MISSING Maithili
+* Sindhi: {{tt+|sd|ڪِتابُ}}
+MISSING Kashmiri
+* Konkani: {{tt|kok|पुस्तक}}
+MISSING Dogri
+* Manipuri: {{t-needed|mni}}
+MISSING Bodo
+MISSING Santali
+* Japanese: {{tt+|ja|本|tr=ほん, hon}}, {{tt+|ja|書籍|tr=しょせき, shoseki}}, {{t+|ja|ブック|tr=bukku}}
+* Russian: {{tt+|ru|кни́га|f}}, {{tt+|ru|кни́жка|f}}
+* Arabic: {{tt+|ar|كِتَاب|m}}, {{t+|ar|سِفْر|m}}
+* Hindi: {{tt+|hi|पुस्तक|f}}, {{tt+|hi|किताब|f}}, {{tt+|hi|ग्रंथ|m}}, {{tt+|hi|बही|f}}, {{tt+|hi|पोथी|f}}, {{tt+|hi|पोथा|m}}, {{tt+|hi|पुस्तिका|f}}, {{t+|hi|पत्रिका|f}}

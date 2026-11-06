@@ -1,0 +1,17 @@
+lenses ['logit', 'j_200p', 'r_moe_25p', 'jpp_25p'] at layers [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+ta-te: kept 29 items
+te-kn: kept 29 items
+kn-ml: kept 27 items
+ml-ta: kept 28 items
+bn-gu: kept 30 items
+gu-mr: kept 12 items
+mr-bn: kept 28 items
+bn-ta: kept 24 items
+ta-bn: kept 31 items
+te-gu: kept 18 items
+hi-ta: kept 31 items
+hi_latn-ta: kept 32 items
+en-ta: kept 31 items
+ta-en: kept 32 items
+generated new fontManager
+kept 382 / 448 items; wrote /vol/runs/final/pivot_all

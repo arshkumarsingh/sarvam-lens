@@ -1,0 +1,32 @@
+ExpertJacobianTrainer shard 0/1: prompts [0, 27) of 27, K=[8], checkpoints in /vol/runs/jfit/j_indic_27p/2026-10-19/j_indic_27p/shard0of1
+LensConfig(hf_model_name='/vol/sarvam-30b-bf16', checkpoint_name='j_indic_27p/shard0of1', lens_type='jacobian', checkpoint_every_n_prompts=20, creation_time='2026-10-19_08-26-48', artifacts_base_dir='/vol/runs/jfit/j_indic_27p', checkpoint_path='/vol/runs/jfit/j_indic_27p/2026-10-19/j_indic_27p/shard0of1', source_layers=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17], relative_end_transport_layer=-1, d_model=4096, num_prompts_trained_on=0, next_prompt_idx=0, jacobian_rows_per_pass=64, max_seq_len=128, skip_first_n_positions=16, num_clusters=0, cluster_projection_dim=0, lrp_mode='none')
+expert fit: Ks=[8]
+  prompt 1/27  seq_len=128 num_source_positions=111  63s
+  prompt 2/27  seq_len=128 num_source_positions=111  53s
+  prompt 3/27  seq_len=128 num_source_positions=111  55s
+  prompt 4/27  seq_len=128 num_source_positions=111  57s
+  prompt 5/27  seq_len=128 num_source_positions=111  59s
+  prompt 6/27  seq_len=128 num_source_positions=111  54s
+  prompt 7/27  seq_len=128 num_source_positions=111  55s
+  prompt 8/27  seq_len=128 num_source_positions=111  52s
+  prompt 9/27  seq_len=128 num_source_positions=111  52s
+  prompt 10/27  seq_len=128 num_source_positions=111  62s
+  prompt 11/27  seq_len=128 num_source_positions=111  54s
+  prompt 12/27  seq_len=128 num_source_positions=111  54s
+  prompt 13/27  seq_len=128 num_source_positions=111  54s
+  prompt 14/27  seq_len=128 num_source_positions=111  57s
+  prompt 15/27  seq_len=128 num_source_positions=111  56s
+  prompt 16/27  seq_len=128 num_source_positions=111  54s
+  prompt 17/27  seq_len=128 num_source_positions=111  51s
+  prompt 18/27  seq_len=128 num_source_positions=111  57s
+  prompt 19/27  seq_len=128 num_source_positions=111  61s
+  prompt 20/27  seq_len=128 num_source_positions=111  54s
+  prompt 21/27  seq_len=128 num_source_positions=111  54s
+  prompt 22/27  seq_len=128 num_source_positions=111  52s
+  prompt 23/27  seq_len=128 num_source_positions=111  56s
+  prompt 24/27  seq_len=128 num_source_positions=111  55s
+  prompt 25/27  seq_len=128 num_source_positions=111  52s
+  prompt 26/27  seq_len=128 num_source_positions=111  57s
+  prompt 27/27  seq_len=128 num_source_positions=111  54s
+expert fit: done, 27 prompts
+shard checkpoint in /vol/runs/jfit/j_indic_27p/2026-10-19/j_indic_27p/shard0of1

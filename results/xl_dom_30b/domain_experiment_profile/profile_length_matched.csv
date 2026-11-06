@@ -1,0 +1,11 @@
+lens,metric,contrast,diff,lo,hi,cells,matched_items
+j_200p,eshare_band,mgsm-everyday,0.0324,0.0197,0.0447,17,39
+j_200p,eshare_band,science-everyday,-0.0112,-0.0176,-0.0056,105,718
+j_200p,eshare_band,technical-everyday,-0.0095,-0.0145,-0.0045,109,914
+j_200p,eshare_band,mgsm-science,0.0171,0.0123,0.0221,86,616
+j_200p,eshare_band,mgsm-technical,0.0293,0.0243,0.0352,93,507
+logit,eshare_band,mgsm-everyday,-0.0129,-0.0254,-0.0006,17,39
+logit,eshare_band,science-everyday,-0.0241,-0.0286,-0.0195,105,718
+logit,eshare_band,technical-everyday,-0.0085,-0.0123,-0.0046,109,914
+logit,eshare_band,mgsm-science,0.0095,0.0056,0.0136,86,616
+logit,eshare_band,mgsm-technical,0.005,0.0007,0.0093,93,507

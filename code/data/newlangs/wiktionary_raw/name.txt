@@ -1,0 +1,23 @@
+# concept: name
+# page: name
+# revid: 92744939
+# section_url: https://en.wiktionary.org/w/index.php?title=name&action=raw&section=9
+## block: {{trans-top|word or phrase indicating a particular person, place, class or thing}}
+* Assamese: {{tt|as|নাম}}
+* Odia: {{tt+|or|ନାମ}}
+* Punjabi: {{tt|pa|ਨਾਂ|m}}
+* Urdu: {{tt+|ur|نام|m}}, {{tt+|ur|اِسْم|m}}
+* Nepali: {{tt+|ne|नाम}}
+* Sanskrit: {{tt+|sa|नामन्|tr=nā́man|n}}
+MISSING Maithili
+* Sindhi: {{tt+|sd|نالو|tr=nālō}}
+* Kashmiri: {{t|ks|ناو}}
+MISSING Konkani
+MISSING Dogri
+MISSING Manipuri
+MISSING Bodo
+MISSING Santali
+* Japanese: {{tt+|ja|名前|tr=なまえ, namae}}, {{tt+|ja|名|tr=な, na}}, {{qualifier|honorific}} {{tt+|ja|名前|tr=おなまえ, o-namae|alt=お名前}}, {{qualifier|honorific}} {{tt+|ja|芳名|tr=ごほうめい, go-hōmei|alt=ご芳名}}, {{tt+|ja|名称|tr=めいしょう, meishō}} {{qualifier|thing or organisation}}
+* Russian: {{tt+|ru|и́мя|n}}, {{qualifier|of a place, class, etc.}} {{tt+|ru|назва́ние|n}}, {{t+|ru|наименова́ние|n}}
+* Arabic: {{tt+|ar|اِسْم|m}}, {{tt|ar|أَسْمَاء|m-p}}
+* Hindi: {{tt+|hi|नाम|m}}, {{t+|hi|इस्म|m|tr=ism}} {{qualifier|rare or Muslim context}}

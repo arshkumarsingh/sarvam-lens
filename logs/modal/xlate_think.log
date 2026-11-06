@@ -1,0 +1,59 @@
+✓ Initialized. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-BVWONI6sSTbTur8djKOyui
+✓ Created objects.
+├── ✓ Uploaded %USERPROFILE%\OneDrive\Desktop\Sarvam 
+│   Lens\code\modal_translate.py
+├── ✓ Uploaded data\xling\en_sets.json
+├── ✓ Uploaded languages.py
+├── ✓ Uploaded translate.py
+├── ✓ Created Function translate_all.
+├── ✓ Created Function translate_texts.
+└── ✓ Created Function fetch_dataset.
+L40S at $2.39/h, hard timeout 15 min -> worst case $0.60
+{
+ "source_en": [
+  "Think through this problem step by step in English, and write all of your reasoning in English.",
+  "Think through this problem step by step in Hindi, and write all of your reasoning in Hindi.",
+  "Think through this problem step by step in Tamil, and write all of your reasoning in Tamil.",
+  "Think through this problem step by step in Bengali, and write all of your reasoning in Bengali.",
+  "Think through this problem step by step in Telugu, and write all of your reasoning in Telugu.",
+  "Okay, let me solve this problem step by step."
+ ],
+ "translations": {
+  "hi": [
+   "इस समस्या के बारे में कदम दर कदम अंग्रेजी में सोचें, और अपने सभी तर्क अंग्रेजी में लिखें।",
+   "इस समस्या के बारे में कदम दर कदम हिंदी में सोचें, और अपने सभी तर्क हिंदी में लिखें।",
+   "इस समस्या के बारे में कदम दर कदम तमिल में सोचें, और अपने सभी तर्क तमिल में लिखें।",
+   "इस समस्या के बारे में बंगाली में चरण-दर-चरण सोचें, और अपने सभी तर्क बंगाली में लिखें।",
+   "इस समस्या के बारे में तेलुगु में चरण-दर-चरण सोचें, और अपने सभी तर्क तेलुगु में लिखें।",
+   "ठीक है, मुझे इस समस्या को चरण-दर-चरण हल करने दें।"
+  ],
+  "ta": [
+   "இந்த சிக்கலை படிப்படியாக ஆங்கிலத்தில் சிந்தித்து, உங்கள் காரணங்கள் அனைத்தையும் ஆங்கிலத்தில் எழுதுங்கள்.",
+   "இந்த சிக்கலை படிப்படியாக இந்தியில் சிந்தித்து, உங்கள் காரணங்கள் அனைத்தையும் இந்தியில் எழுதுங்கள்.",
+   "இந்த சிக்கலை படிப்படியாக தமிழில் சிந்தித்து, உங்கள் காரணங்கள் அனைத்தையும் தமிழில் எழுதுங்கள்.",
+   "இந்த சிக்கலை படிப்படியாக பெங்காலி மொழியில் சிந்தித்து, உங்கள் காரணங்கள் அனைத்தையும் பெங்காலி மொழியில் எழுதுங்கள்.",
+   "இந்த சிக்கலை படிப்படியாக தெலுங்கில் சிந்தித்து, உங்கள் காரணங்கள் அனைத்தையும் தெலுங்கில் எழுதுங்கள்.",
+   "சரி, இந்த சிக்கலை படிப்படியாக தீர்க்கிறேன்."
+  ],
+  "bn": [
+   "এই সমস্যাটি ধাপে ধাপে ইংরেজিতে ভাবুন এবং আপনার সমস্ত যুক্তি ইংরেজিতে লিখুন।",
+   "এই সমস্যার কথা ধাপে ধাপে হিন্দিতে ভাবুন এবং আপনার সমস্ত যুক্তি হিন্দিতে লিখুন।",
+   "এই সমস্যাটি ধাপে ধাপে তামিল ভাষায় ভাবুন এবং আপনার সমস্ত যুক্তি তামিল ভাষায় লিখুন।",
+   "এই সমস্যাটি বাংলায় ধাপে ধাপে ভাবুন এবং আপনার সমস্ত যুক্তি বাংলায় লিখুন।",
+   "এই সমস্যাটি ধাপে ধাপে তেলেগু ভাষায় ভাবুন এবং আপনার সমস্ত যুক্তি তেলেগু ভাষায় লিখুন।",
+   "ঠিক আছে, আমাকে ধাপে ধাপে এই সমস্যাটি সমাধান করতে দিন।"
+  ],
+  "te": [
+   "ఈ సమస్యను దశలవారీగా ఆంగ్లంలో ఆలోచించి, మీ తర్కం మొత్తాన్ని ఆంగ్లంలో వ్రాయండి.",
+   "ఈ సమస్యను దశలవారీగా హిందీలో ఆలోచించి, మీ తర్కం మొత్తాన్ని హిందీలో వ్రాయండి.",
+   "ఈ సమస్యను దశలవారీగా తమిళంలో ఆలోచించి, మీ తర్కం మొత్తాన్ని తమిళంలో వ్రాయండి.",
+   "ఈ సమస్యను బెంగాలీలో దశలవారీగా ఆలోచించి, మీ తర్కం మొత్తాన్ని బెంగాలీలో వ్రాయండి.",
+   "ఈ సమస్యను తెలుగు భాషలో దశలవారీగా ఆలోచించి, మీ తర్కం మొత్తాన్ని తెలుగులో వ్రాయండి.",
+   "సరే, ఈ సమస్యను దశలవారీగా పరిష్కరిస్తాను."
+  ]
+ }
+}
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-BVWONI6sSTbTur8djKOyui

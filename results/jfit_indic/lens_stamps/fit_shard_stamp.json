@@ -1,0 +1,50 @@
+{
+  "git_hash": "d7efc0de372e20589e899188c0cfe8434acc63ec",
+  "timestamp": "2026-10-19T08:52:25+00:00",
+  "library_version": null,
+  "stage": "fit-shard",
+  "args": {
+    "stage": "fit-shard",
+    "hf_model_name": "/vol/sarvam-30b-bf16",
+    "device_map": "cuda",
+    "attn_implementation": "sdpa",
+    "experts_implementation": null,
+    "dequantize_fp8": false,
+    "layers": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "router_path": [
+      "/vol/runs/wiki/router.pt"
+    ],
+    "shard_idx": 0,
+    "num_shards": 1,
+    "num_prompts": 27,
+    "prompts_json": null,
+    "target_offset": -1,
+    "lrp_mode": "none",
+    "jacobian_rows_per_pass": 64,
+    "max_seq_len": 128,
+    "skip_first_n_positions": 16,
+    "checkpoint_every_n_prompts": 20,
+    "artifacts_base_dir": "/vol/runs/jfit/j_indic_27p",
+    "checkpoint_name": "j_indic_27p"
+  },
+  "checkpoint_dir": "/vol/runs/jfit/j_indic_27p/2026-10-19/j_indic_27p/shard0of1"
+}

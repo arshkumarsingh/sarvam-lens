@@ -1,0 +1,75 @@
+{
+ "headline": {
+  "pooled": {
+   "default": {
+    "accuracy": 0.7583,
+    "accuracy_ci": [
+     0.7,
+     0.8167
+    ],
+    "own_share": 0.023,
+    "closed": 0.854,
+    "n": 240
+   },
+   "sys_en": {
+    "accuracy": 0.6917,
+    "accuracy_ci": [
+     0.625,
+     0.7625
+    ],
+    "own_share": 0.017,
+    "closed": 0.825,
+    "n": 240
+   },
+   "sys_native": {
+    "accuracy": 0.7125,
+    "accuracy_ci": [
+     0.6417,
+     0.7792
+    ],
+    "own_share": 0.043,
+    "closed": 0.825,
+    "n": 240
+   },
+   "sys_native_prefill": {
+    "accuracy": 0.6875,
+    "accuracy_ci": [
+     0.6167,
+     0.7584
+    ],
+    "own_share": 0.959,
+    "closed": 0.104,
+    "n": 240
+   }
+  },
+  "contrasts": {
+   "default_minus_sys_en": {
+    "pts": 6.6667,
+    "ci": [
+     1.25,
+     12.5
+    ],
+    "n": 240
+   },
+   "sys_native_minus_sys_en": {
+    "pts": 2.0833,
+    "ci": [
+     -4.1667,
+     8.3333
+    ],
+    "n": 240
+   },
+   "sys_native_prefill_minus_sys_en": {
+    "pts": -0.4167,
+    "ci": [
+     -7.0833,
+     6.25
+    ],
+    "n": 240
+   }
+  },
+  "compliant_arms": [
+   "sys_native_prefill"
+  ]
+ }
+}

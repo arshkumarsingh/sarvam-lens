@@ -1,0 +1,33 @@
+concept	close	assoc	note
+water	liquid	ice	close = near-synonym, hypernym or co-hyponym; assoc = thematic associate. Neither is a translation, and neither is one of the 32 concept words. Every word is a single Sarvam token (▁word).
+fire	flame	smoke
+sun	light	heat
+moon	planet	tide
+tree	forest	leaf
+flower	petal	garden
+bird	feather	nest
+dog	puppy	wolf
+cat	kitten	tiger
+house	home	roof
+book	page	library
+eye	sight	face
+hand	finger	arm
+mother	father	child
+milk	cream	butter
+river	stream	lake
+mountain	hill	valley
+sky	cloud	blue
+rain	storm	umbrella
+horse	donkey	saddle
+cow	bull	calf
+fish	shark	ocean
+salt	pepper	sugar
+gold	silver	coin
+night	evening	dark
+heart	blood	love
+village	town	farm
+king	queen	prince
+star	galaxy	comet
+tooth	mouth	dentist
+name	title	label
+road	street	car

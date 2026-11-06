@@ -1,0 +1,160 @@
+{
+ "n": 269,
+ "clusters": 32,
+ "base_p": 0.8911,
+ "base_correct": 1.0,
+ "english_last": {
+  "drop_pts": 5.7502,
+  "ci": [
+   3.992,
+   7.5041
+  ],
+  "n": 269,
+  "still_correct": 0.955,
+  "rel_norm": 0.0486
+ },
+ "control_last": {
+  "drop_pts": 0.1747,
+  "ci": [
+   -0.213,
+   0.5387
+  ],
+  "n": 269,
+  "still_correct": 0.993,
+  "rel_norm": 0.03
+ },
+ "english_src": {
+  "drop_pts": 0.033,
+  "ci": [
+   -0.3527,
+   0.3671
+  ],
+  "n": 269,
+  "still_correct": 0.996,
+  "rel_norm": 0.0447
+ },
+ "control_src": {
+  "drop_pts": 0.2114,
+  "ci": [
+   -0.1704,
+   0.624
+  ],
+  "n": 269,
+  "still_correct": 0.996,
+  "rel_norm": 0.0379
+ },
+ "english_all_but_last": {
+  "drop_pts": 1.4091,
+  "ci": [
+   0.728,
+   2.152
+  ],
+  "n": 269,
+  "still_correct": 0.974,
+  "rel_norm": 0.0377
+ },
+ "english_all": {
+  "drop_pts": 7.6312,
+  "ci": [
+   5.2394,
+   9.9635
+  ],
+  "n": 269,
+  "still_correct": 0.933,
+  "rel_norm": 0.0378
+ },
+ "control_all": {
+  "drop_pts": 1.3468,
+  "ci": [
+   0.654,
+   2.0788
+  ],
+  "n": 269,
+  "still_correct": 0.97,
+  "rel_norm": 0.0375
+ },
+ "english_all_early": {
+  "drop_pts": 2.0795,
+  "ci": [
+   1.2245,
+   2.9482
+  ],
+  "n": 269,
+  "still_correct": 0.97,
+  "rel_norm": 0.0389
+ },
+ "english_all@3": {
+  "drop_pts": 50.1825,
+  "ci": [
+   42.0656,
+   58.1828
+  ],
+  "n": 269,
+  "still_correct": 0.476,
+  "rel_norm": 0.5109
+ },
+ "control_all@3": {
+  "drop_pts": 17.7686,
+  "ci": [
+   14.4287,
+   21.72
+  ],
+  "n": 269,
+  "still_correct": 0.866,
+  "rel_norm": 0.5068
+ },
+ "english_all_minus_english_last": {
+  "pts": 1.881,
+  "ci": [
+   1.1111,
+   2.654
+  ],
+  "n": 269
+ },
+ "english_all_minus_control_all": {
+  "pts": 6.2844,
+  "ci": [
+   4.2035,
+   8.4315
+  ],
+  "n": 269
+ },
+ "english_src_minus_control_src": {
+  "pts": -0.1784,
+  "ci": [
+   -0.5811,
+   0.1808
+  ],
+  "n": 269
+ },
+ "english_last_minus_control_last": {
+  "pts": 5.5755,
+  "ci": [
+   3.6531,
+   7.4954
+  ],
+  "n": 269
+ },
+ "english_all@3_minus_control_all@3": {
+  "pts": 32.4139,
+  "ci": [
+   23.52,
+   41.4852
+  ],
+  "n": 269
+ },
+ "lens": "j_200p",
+ "band": [
+  13,
+  14,
+  15,
+  16
+ ],
+ "early_band": [
+  5,
+  6,
+  7,
+  8
+ ],
+ "prompts_aligned": "320/320"
+}

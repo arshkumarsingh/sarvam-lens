@@ -1,0 +1,477 @@
+pair,concept,target_word,n_shared_tokens,model_top_token,kept,reason
+ta-te,bird,పక్షి,0,ப,False,model's next token does not begin the target word
+ta-te,book,పుస్తకం,0,த,False,model's next token does not begin the target word
+ta-te,cat,పిల్లి,0,கு,False,model's next token does not begin the target word
+ta-te,cow,ఆవు,0,ఉ,False,model's next token does not begin the target word
+ta-te,dog,కుక్క,0,"
+",False,model's next token does not begin the target word
+ta-te,eye,కన్ను,0,தா,False,model's next token does not begin the target word
+ta-te,fire,నిప్పు,0,நெ,False,model's next token does not begin the target word
+ta-te,fish,చేప,0,ತ,False,model's next token does not begin the target word
+ta-te,flower,పువ్వు,0,பூ,False,model's next token does not begin the target word
+ta-te,gold,బంగారం,0,த,False,model's next token does not begin the target word
+ta-te,hand,చేయి,0,ఉ,False,model's next token does not begin the target word
+ta-te,heart,గుండె,0,ತ,False,model's next token does not begin the target word
+ta-te,horse,గుర్రం,0,கு,False,model's next token does not begin the target word
+ta-te,house,ఇల్లు,0,అ,False,model's next token does not begin the target word
+ta-te,king,రాజు,0,పే,False,model's next token does not begin the target word
+ta-te,milk,పాలు,0,ఉ,False,model's next token does not begin the target word
+ta-te,moon,చంద్రుడు,0,பூ,False,model's next token does not begin the target word
+ta-te,mother,అమ్మ,0,ತ,False,model's next token does not begin the target word
+ta-te,mountain,కొండ,0,ತ,False,model's next token does not begin the target word
+ta-te,name,పేరు,0,பெ,False,model's next token does not begin the target word
+ta-te,night,రాత్రి,0,த,False,model's next token does not begin the target word
+ta-te,rain,వర్షం,0,ఉ,False,model's next token does not begin the target word
+ta-te,river,నది,0,ತ,False,model's next token does not begin the target word
+ta-te,road,రోడ్డు,0,ತ,False,model's next token does not begin the target word
+ta-te,salt,ఉప్పు,0,உ,False,model's next token does not begin the target word
+ta-te,sky,ఆకాశం,0,கு,False,model's next token does not begin the target word
+ta-te,star,నక్షత్రం,0,கு,False,model's next token does not begin the target word
+ta-te,sun,సూర్యుడు,0,ತ,False,model's next token does not begin the target word
+ta-te,tooth,పన్ను,0,ತ,False,model's next token does not begin the target word
+ta-te,tree,చెట్టు,0,ఉ,False,model's next token does not begin the target word
+ta-te,village,గ్రామం,0,ఉ,False,model's next token does not begin the target word
+ta-te,water,నీరు,0,ತ,False,model's next token does not begin the target word
+te-kn,bird,ಹಕ್ಕಿ,0,ಉ,False,model's next token does not begin the target word
+te-kn,book,ಪುಸ್ತಕ,0,ತ,False,model's next token does not begin the target word
+te-kn,cat,ಬೆಕ್ಕು,0,ಲಿ,False,model's next token does not begin the target word
+te-kn,cow,ಹಸು,0,ಪು,False,model's next token does not begin the target word
+te-kn,dog,ನಾಯಿ,0,ಕ,False,model's next token does not begin the target word
+te-kn,eye,ಕಣ್ಣು,0,ఉ,False,model's next token does not begin the target word
+te-kn,fire,ಬೆಂಕಿ,0,ಉ,False,model's next token does not begin the target word
+te-kn,fish,ಮೀನು,0,ಉ,False,model's next token does not begin the target word
+te-kn,flower,ಹೂವು,0,ರಾಜ,False,model's next token does not begin the target word
+te-kn,gold,ಚಿನ್ನ,0,ತ,False,model's next token does not begin the target word
+te-kn,hand,ಕೈ,0,ಉ,False,model's next token does not begin the target word
+te-kn,heart,ಹೃದಯ,0,ತ,False,model's next token does not begin the target word
+te-kn,horse,ಕುದುರೆ,0,ರಾಜ,False,model's next token does not begin the target word
+te-kn,house,ಮನೆ,0,ಬೆ,False,model's next token does not begin the target word
+te-kn,king,ರಾಜ,0,ಉ,False,model's next token does not begin the target word
+te-kn,milk,ಹಾಲು,0,ಪ,False,model's next token does not begin the target word
+te-kn,moon,ಚಂದ್ರ,0,ఉ,False,model's next token does not begin the target word
+te-kn,mother,ಅಮ್ಮ,0,ರಾಜ,False,model's next token does not begin the target word
+te-kn,mountain,ಬೆಟ್ಟ,0,ತ್ರಿ,False,model's next token does not begin the target word
+te-kn,name,ಹೆಸರು,0,"
+",False,model's next token does not begin the target word
+te-kn,night,ರಾತ್ರಿ,0,ಉ,False,model's next token does not begin the target word
+te-kn,rain,ಮಳೆ,0,ಉ,False,model's next token does not begin the target word
+te-kn,river,ನದಿ,0,ತ,False,model's next token does not begin the target word
+te-kn,road,ರಸ್ತೆ,0,ತ,False,model's next token does not begin the target word
+te-kn,salt,ಉಪ್ಪು,0,ಉ,True,
+te-kn,sky,ಆಕಾಶ,0,ಉ,False,model's next token does not begin the target word
+te-kn,star,ನಕ್ಷತ್ರ,0,ఉ,False,model's next token does not begin the target word
+te-kn,sun,ಸೂರ್ಯ,0,ఉ,False,model's next token does not begin the target word
+te-kn,tooth,ಹಲ್ಲು,0,"
+",False,model's next token does not begin the target word
+te-kn,tree,ಮರ,0,ರಾಜ,False,model's next token does not begin the target word
+te-kn,village,ಹಳ್ಳಿ,0,"
+",False,model's next token does not begin the target word
+te-kn,water,ನೀರು,0,ಪ,False,model's next token does not begin the target word
+kn-ml,bird,പക്ഷി,0,ಅ,False,model's next token does not begin the target word
+kn-ml,book,പുസ്തകം,0,ಅ,False,model's next token does not begin the target word
+kn-ml,cat,പൂച്ച,0,ಯಾ,False,model's next token does not begin the target word
+kn-ml,cow,പശു,0,ಯಾ,False,model's next token does not begin the target word
+kn-ml,dog,നായ,0,ನ,False,model's next token does not begin the target word
+kn-ml,eye,കണ്ണ്,0,ನೆ,False,model's next token does not begin the target word
+kn-ml,fire,തീ,0,ಯಾ,False,model's next token does not begin the target word
+kn-ml,fish,മീൻ,0,ಯಾ,False,model's next token does not begin the target word
+kn-ml,flower,പൂവ്,0,ಯಾ,False,model's next token does not begin the target word
+kn-ml,gold,സ്വർണം,0,ಯಾ,False,model's next token does not begin the target word
+kn-ml,hand,കൈ,0,ಯಾ,False,model's next token does not begin the target word
+kn-ml,heart,ഹൃദയം,0,ಉ,False,model's next token does not begin the target word
+kn-ml,horse,കുതിര,0,ಉ,False,model's next token does not begin the target word
+kn-ml,house,വീട്,0,ನೆ,False,model's next token does not begin the target word
+kn-ml,king,രാജാവ്,0,ಯಾ,False,model's next token does not begin the target word
+kn-ml,milk,പാൽ,0,ಯಾ,False,model's next token does not begin the target word
+kn-ml,moon,ചന്ദ്രൻ,0,ಯಾ,False,model's next token does not begin the target word
+kn-ml,mother,അമ്മ,0,ಅ,False,model's next token does not begin the target word
+kn-ml,mountain,മല,0,ಯಾ,False,model's next token does not begin the target word
+kn-ml,name,പേര്,0,ಯಾ,False,model's next token does not begin the target word
+kn-ml,night,രാത്രി,0,യാ,False,model's next token does not begin the target word
+kn-ml,rain,മഴ,0,ಯಾ,False,model's next token does not begin the target word
+kn-ml,river,നദി,0,ಯಾ,False,model's next token does not begin the target word
+kn-ml,road,റോഡ്,0,ಕ,False,model's next token does not begin the target word
+kn-ml,salt,ഉപ്പ്,0,ಉ,False,model's next token does not begin the target word
+kn-ml,sky,ആകാശം,0,ಯಾ,False,model's next token does not begin the target word
+kn-ml,star,നക്ഷത്രം,0,ಯಾ,False,model's next token does not begin the target word
+kn-ml,sun,സൂര്യൻ,0,ಯಾ,False,model's next token does not begin the target word
+kn-ml,tooth,പല്ല്,0,ಉ,False,model's next token does not begin the target word
+kn-ml,tree,മരം,0,ಅ,False,model's next token does not begin the target word
+kn-ml,village,ഗ്രാമം,0,ಯಾ,False,model's next token does not begin the target word
+kn-ml,water,വെള്ളം,0,യാ,False,model's next token does not begin the target word
+ml-ta,bird,பறவை,0,யா,False,model's next token does not begin the target word
+ml-ta,book,புத்தகம்,0,അ,False,model's next token does not begin the target word
+ml-ta,cat,பூனை,0,പേ,False,model's next token does not begin the target word
+ml-ta,cow,பசு,0,யா,False,model's next token does not begin the target word
+ml-ta,dog,நாய்,0,യാ,False,model's next token does not begin the target word
+ml-ta,eye,கண்,0,അ,False,model's next token does not begin the target word
+ml-ta,fire,நெருப்பு,0,അ,False,model's next token does not begin the target word
+ml-ta,fish,மீன்,0,ഉ,False,model's next token does not begin the target word
+ml-ta,flower,பூ,0,வீ,False,model's next token does not begin the target word
+ml-ta,gold,தங்கம்,0,யா,False,model's next token does not begin the target word
+ml-ta,hand,கை,0,യാ,False,model's next token does not begin the target word
+ml-ta,heart,இதயம்,0,ദ,False,model's next token does not begin the target word
+ml-ta,horse,குதிரை,0,യാ,False,model's next token does not begin the target word
+ml-ta,house,வீடு,0,யா,False,model's next token does not begin the target word
+ml-ta,king,அரசன்,0,ജാ,False,model's next token does not begin the target word
+ml-ta,milk,பால்,0,அ,False,model's next token does not begin the target word
+ml-ta,moon,நிலா,0,யா,False,model's next token does not begin the target word
+ml-ta,mother,அம்மா,0,ஆ,False,model's next token does not begin the target word
+ml-ta,mountain,மலை,0,യാ,False,model's next token does not begin the target word
+ml-ta,name,பெயர்,0,പേ,False,model's next token does not begin the target word
+ml-ta,night,இரவு,0,പേ,False,model's next token does not begin the target word
+ml-ta,rain,மழை,0,യാ,False,model's next token does not begin the target word
+ml-ta,river,ஆறு,0,യാ,False,model's next token does not begin the target word
+ml-ta,road,சாலை,0,യാ,False,model's next token does not begin the target word
+ml-ta,salt,உப்பு,0,ഉ,False,model's next token does not begin the target word
+ml-ta,sky,வானம்,0,ம்,False,model's next token does not begin the target word
+ml-ta,star,நட்சத்திரம்,0,ന,False,model's next token does not begin the target word
+ml-ta,sun,சூரியன்,0,സൂ,False,model's next token does not begin the target word
+ml-ta,tooth,பல்,0,പ,False,model's next token does not begin the target word
+ml-ta,tree,மரம்,0,യാ,False,model's next token does not begin the target word
+ml-ta,village,கிராமம்,0,പേ,False,model's next token does not begin the target word
+ml-ta,water,தண்ணீர்,0,ம்,False,model's next token does not begin the target word
+bn-gu,bird,પક્ષી,0,আ,False,model's next token does not begin the target word
+bn-gu,book,પુસ્તક,0,ঘ,False,model's next token does not begin the target word
+bn-gu,cat,બિલાડી,0,স,False,model's next token does not begin the target word
+bn-gu,cow,ગાય,0,উ,False,model's next token does not begin the target word
+bn-gu,dog,કૂતરો,0,দ,False,model's next token does not begin the target word
+bn-gu,eye,આંખ,0,খ,False,model's next token does not begin the target word
+bn-gu,fire,આગ,0,দ,False,model's next token does not begin the target word
+bn-gu,fish,માછલી,0,ন,False,model's next token does not begin the target word
+bn-gu,flower,ફૂલ,0,উপ,False,model's next token does not begin the target word
+bn-gu,gold,સોનું,0,মা,False,model's next token does not begin the target word
+bn-gu,hand,હાથ,0,প,False,model's next token does not begin the target word
+bn-gu,heart,હૃદય,0,হ,False,model's next token does not begin the target word
+bn-gu,horse,ઘોડો,0,ঘ,False,model's next token does not begin the target word
+bn-gu,house,ઘર,0,দী,False,model's next token does not begin the target word
+bn-gu,king,રાજા,0,ক,False,model's next token does not begin the target word
+bn-gu,milk,દૂધ,0,ঠ,False,model's next token does not begin the target word
+bn-gu,moon,ચંદ્ર,0,দ,False,model's next token does not begin the target word
+bn-gu,mother,મા,0,আম,False,model's next token does not begin the target word
+bn-gu,mountain,પર્વત,0,ঠ,False,model's next token does not begin the target word
+bn-gu,name,નામ,0,প,False,model's next token does not begin the target word
+bn-gu,night,રાત,0,মা,False,model's next token does not begin the target word
+bn-gu,rain,વરસાદ,0,হ,False,model's next token does not begin the target word
+bn-gu,river,નદી,0,আ,False,model's next token does not begin the target word
+bn-gu,road,રસ્તો,0,আ,False,model's next token does not begin the target word
+bn-gu,salt,મીઠું,0,গ,False,model's next token does not begin the target word
+bn-gu,sky,આકાશ,0,দ,False,model's next token does not begin the target word
+bn-gu,star,તારો,0,প,False,model's next token does not begin the target word
+bn-gu,sun,સૂર્ય,0,আগ,False,model's next token does not begin the target word
+bn-gu,tooth,દાંત,0,হ,False,model's next token does not begin the target word
+bn-gu,tree,ઝાડ,0,হ,False,model's next token does not begin the target word
+bn-gu,village,ગામ,0,প,False,model's next token does not begin the target word
+bn-gu,water,પાણી,0,জল,False,model's next token does not begin the target word
+gu-mr,bird,पक्षी,5,,False,target tokens all shared with another role
+gu-mr,book,पुस्तक,5,,False,target tokens all shared with another role
+gu-mr,cat,मांजर,0,ગુ,False,model's next token does not begin the target word
+gu-mr,cow,गाय,4,,False,target tokens all shared with another role
+gu-mr,dog,कुत्रा,2,गु,False,model's next token does not begin the target word
+gu-mr,eye,डोळा,0,ગુ,False,model's next token does not begin the target word
+gu-mr,fire,आग,2,,False,target tokens all shared with another role
+gu-mr,fish,मासा,0,ગુ,False,model's next token does not begin the target word
+gu-mr,flower,फूल,3,,False,target tokens all shared with another role
+gu-mr,gold,सोने,3,ગુ,False,model's next token does not begin the target word
+gu-mr,hand,हात,2,ગુ,False,model's next token does not begin the target word
+gu-mr,heart,हृदय,3,,False,target tokens all shared with another role
+gu-mr,horse,घोडा,2,,False,target tokens all shared with another role
+gu-mr,house,घर,2,,False,target tokens all shared with another role
+gu-mr,king,राजा,6,,False,target tokens all shared with another role
+gu-mr,milk,दूध,3,,False,target tokens all shared with another role
+gu-mr,moon,चंद्र,5,,False,target tokens all shared with another role
+gu-mr,mother,आई,0,ગુ,False,model's next token does not begin the target word
+gu-mr,mountain,डोंगर,6,ગુ,False,model's next token does not begin the target word
+gu-mr,name,नाव,2,ગ,False,model's next token does not begin the target word
+gu-mr,night,रात्र,4,,False,target tokens all shared with another role
+gu-mr,rain,पाऊस,0,ગુ,False,model's next token does not begin the target word
+gu-mr,river,नदी,2,,False,target tokens all shared with another role
+gu-mr,road,रस्ता,0,દી,False,model's next token does not begin the target word
+gu-mr,salt,मीठ,0,ગુ,False,model's next token does not begin the target word
+gu-mr,sky,आकाश,3,,False,target tokens all shared with another role
+gu-mr,star,तारा,6,,False,target tokens all shared with another role
+gu-mr,sun,सूर्य,8,,False,target tokens all shared with another role
+gu-mr,tooth,दात,2,ગુ,False,model's next token does not begin the target word
+gu-mr,tree,झाड,3,ગુ,False,model's next token does not begin the target word
+gu-mr,village,गाव,2,ગુ,False,model's next token does not begin the target word
+gu-mr,water,पाणी,2,ગુ,False,model's next token does not begin the target word
+mr-bn,bird,পাখি,5,খ,False,model's next token does not begin the target word
+mr-bn,book,বই,5,ম,False,model's next token does not begin the target word
+mr-bn,cat,বিড়াল,0,रा,False,model's next token does not begin the target word
+mr-bn,cow,গরু,4,रा,False,model's next token does not begin the target word
+mr-bn,dog,কুকুর,2,रा,False,model's next token does not begin the target word
+mr-bn,eye,চোখ,0,ম,False,model's next token does not begin the target word
+mr-bn,fire,আগুন,2,ম,False,model's next token does not begin the target word
+mr-bn,fish,মাছ,0,रा,False,model's next token does not begin the target word
+mr-bn,flower,ফুল,3,ঘ,False,model's next token does not begin the target word
+mr-bn,gold,সোনা,3,ঘ,False,model's next token does not begin the target word
+mr-bn,hand,হাত,2,ম,False,model's next token does not begin the target word
+mr-bn,heart,হৃদয়,3,দ,False,model's next token does not begin the target word
+mr-bn,horse,ঘোড়া,2,रा,False,model's next token does not begin the target word
+mr-bn,house,বাড়ি,2,ম,False,model's next token does not begin the target word
+mr-bn,king,রাজা,6,বাংলা,False,model's next token does not begin the target word
+mr-bn,milk,দুধ,3,ম,False,model's next token does not begin the target word
+mr-bn,moon,চাঁদ,5,ম,False,model's next token does not begin the target word
+mr-bn,mother,মা,0,रा,False,model's next token does not begin the target word
+mr-bn,mountain,পাহাড়,6,"
+",False,model's next token does not begin the target word
+mr-bn,name,নাম,2,उ,False,model's next token does not begin the target word
+mr-bn,night,রাত,4,पा,False,model's next token does not begin the target word
+mr-bn,rain,বৃষ্টি,0,ম,False,model's next token does not begin the target word
+mr-bn,river,নদী,2,ন,True,
+mr-bn,road,রাস্তা,0,ম,False,model's next token does not begin the target word
+mr-bn,salt,লবণ,0,ম,False,model's next token does not begin the target word
+mr-bn,sky,আকাশ,3,ম,False,model's next token does not begin the target word
+mr-bn,star,তারা,6,খ,False,model's next token does not begin the target word
+mr-bn,sun,সূর্য,8,ম,False,model's next token does not begin the target word
+mr-bn,tooth,দাঁত,2,ম,False,model's next token does not begin the target word
+mr-bn,tree,গাছ,3,দ,False,model's next token does not begin the target word
+mr-bn,village,গ্রাম,2,ম,False,model's next token does not begin the target word
+mr-bn,water,জল,2,উ,False,model's next token does not begin the target word
+bn-ta,bird,பறவை,0,পা,False,model's next token does not begin the target word
+bn-ta,book,புத்தகம்,0,ব,False,model's next token does not begin the target word
+bn-ta,cat,பூனை,0,বাংলা,False,model's next token does not begin the target word
+bn-ta,cow,பசு,0,ঘ,False,model's next token does not begin the target word
+bn-ta,dog,நாய்,0,উ,False,model's next token does not begin the target word
+bn-ta,eye,கண்,0,খ,False,model's next token does not begin the target word
+bn-ta,fire,நெருப்பு,0,আগ,False,model's next token does not begin the target word
+bn-ta,fish,மீன்,0,খ,False,model's next token does not begin the target word
+bn-ta,flower,பூ,0,আ,False,model's next token does not begin the target word
+bn-ta,gold,தங்கம்,0,অন,False,model's next token does not begin the target word
+bn-ta,hand,கை,0,উ,False,model's next token does not begin the target word
+bn-ta,heart,இதயம்,0,হ,False,model's next token does not begin the target word
+bn-ta,horse,குதிரை,0,ঘ,False,model's next token does not begin the target word
+bn-ta,house,வீடு,0,আ,False,model's next token does not begin the target word
+bn-ta,king,அரசன்,0,রাজ,False,model's next token does not begin the target word
+bn-ta,milk,பால்,0,দ,False,model's next token does not begin the target word
+bn-ta,moon,நிலா,0,দ,False,model's next token does not begin the target word
+bn-ta,mother,அம்மா,0,দ,False,model's next token does not begin the target word
+bn-ta,mountain,மலை,0,আ,False,model's next token does not begin the target word
+bn-ta,name,பெயர்,0,দ,False,model's next token does not begin the target word
+bn-ta,night,இரவு,0,stanza,False,model's next token does not begin the target word
+bn-ta,rain,மழை,0,বে,False,model's next token does not begin the target word
+bn-ta,river,ஆறு,0,দ,False,model's next token does not begin the target word
+bn-ta,road,சாலை,0,দ,False,model's next token does not begin the target word
+bn-ta,salt,உப்பு,0,ল,False,model's next token does not begin the target word
+bn-ta,sky,வானம்,0,আ,False,model's next token does not begin the target word
+bn-ta,star,நட்சத்திரம்,0,ন,False,model's next token does not begin the target word
+bn-ta,sun,சூரியன்,0,বাংলা,False,model's next token does not begin the target word
+bn-ta,tooth,பல்,0,দ,False,model's next token does not begin the target word
+bn-ta,tree,மரம்,0,দ,False,model's next token does not begin the target word
+bn-ta,village,கிராமம்,0,বাংলা,False,model's next token does not begin the target word
+bn-ta,water,தண்ணீர்,0,জল,False,model's next token does not begin the target word
+ta-bn,bird,পাখি,0,"
+",False,model's next token does not begin the target word
+ta-bn,book,বই,0,আ,False,model's next token does not begin the target word
+ta-bn,cat,বিড়াল,0,বাংলা,False,model's next token does not begin the target word
+ta-bn,cow,গরু,0,Pham,False,model's next token does not begin the target word
+ta-bn,dog,কুকুর,0,"
+",False,model's next token does not begin the target word
+ta-bn,eye,চোখ,0,"
+",False,model's next token does not begin the target word
+ta-bn,fire,আগুন,0,ரு,False,model's next token does not begin the target word
+ta-bn,fish,মাছ,0,বাংলা,False,model's next token does not begin the target word
+ta-bn,flower,ফুল,0,"
+",False,model's next token does not begin the target word
+ta-bn,gold,সোনা,0,আ,False,model's next token does not begin the target word
+ta-bn,hand,হাত,0,পা,False,model's next token does not begin the target word
+ta-bn,heart,হৃদয়,0,puh,False,model's next token does not begin the target word
+ta-bn,horse,ঘোড়া,0,"
+",False,model's next token does not begin the target word
+ta-bn,house,বাড়ি,0,পা,False,model's next token does not begin the target word
+ta-bn,king,রাজা,0,ಅ,False,model's next token does not begin the target word
+ta-bn,milk,দুধ,0,"
+",False,model's next token does not begin the target word
+ta-bn,moon,চাঁদ,0,দ,False,model's next token does not begin the target word
+ta-bn,mother,মা,0,Pham,False,model's next token does not begin the target word
+ta-bn,mountain,পাহাড়,0,দ,False,model's next token does not begin the target word
+ta-bn,name,নাম,0,পে,False,model's next token does not begin the target word
+ta-bn,night,রাত,0,"
+",False,model's next token does not begin the target word
+ta-bn,rain,বৃষ্টি,0,"
+",False,model's next token does not begin the target word
+ta-bn,river,নদী,0,"
+",False,model's next token does not begin the target word
+ta-bn,road,রাস্তা,0,বাংলা,False,model's next token does not begin the target word
+ta-bn,salt,লবণ,0,"
+",False,model's next token does not begin the target word
+ta-bn,sky,আকাশ,0,ম,False,model's next token does not begin the target word
+ta-bn,star,তারা,0,"
+",False,model's next token does not begin the target word
+ta-bn,sun,সূর্য,0, u,False,model's next token does not begin the target word
+ta-bn,tooth,দাঁত,0,রাজ,False,model's next token does not begin the target word
+ta-bn,tree,গাছ,0,airline,False,model's next token does not begin the target word
+ta-bn,village,গ্রাম,0,ಅ,False,model's next token does not begin the target word
+ta-bn,water,জল,0,নী,False,model's next token does not begin the target word
+te-gu,bird,પક્ષી,0,ప,False,model's next token does not begin the target word
+te-gu,book,પુસ્તક,0,పు,False,model's next token does not begin the target word
+te-gu,cat,બિલાડી,0,પ,False,model's next token does not begin the target word
+te-gu,cow,ગાય,0,వు,False,model's next token does not begin the target word
+te-gu,dog,કૂતરો,0,ప,False,model's next token does not begin the target word
+te-gu,eye,આંખ,0,గు,False,model's next token does not begin the target word
+te-gu,fire,આગ,0,గు,False,model's next token does not begin the target word
+te-gu,fish,માછલી,0,ప,False,model's next token does not begin the target word
+te-gu,flower,ફૂલ,0,గు,False,model's next token does not begin the target word
+te-gu,gold,સોનું,0,గు,False,model's next token does not begin the target word
+te-gu,hand,હાથ,0,ઉ,False,model's next token does not begin the target word
+te-gu,heart,હૃદય,0,ఉ,False,model's next token does not begin the target word
+te-gu,horse,ઘોડો,0,గు,False,model's next token does not begin the target word
+te-gu,house,ઘર,0,ఉ,False,model's next token does not begin the target word
+te-gu,king,રાજા,0,ఉ,False,model's next token does not begin the target word
+te-gu,milk,દૂધ,0,ఉ,False,model's next token does not begin the target word
+te-gu,moon,ચંદ્ર,0,સ,False,model's next token does not begin the target word
+te-gu,mother,મા,0,અ,False,model's next token does not begin the target word
+te-gu,mountain,પર્વત,0,અ,False,model's next token does not begin the target word
+te-gu,name,નામ,0,గు,False,model's next token does not begin the target word
+te-gu,night,રાત,0,ઉ,False,model's next token does not begin the target word
+te-gu,rain,વરસાદ,0,ఉ,False,model's next token does not begin the target word
+te-gu,river,નદી,0,ఉ,False,model's next token does not begin the target word
+te-gu,road,રસ્તો,0,ఉ,False,model's next token does not begin the target word
+te-gu,salt,મીઠું,0,ఉ,False,model's next token does not begin the target word
+te-gu,sky,આકાશ,0,గు,False,model's next token does not begin the target word
+te-gu,star,તારો,0,గు,False,model's next token does not begin the target word
+te-gu,sun,સૂર્ય,0,ఉ,False,model's next token does not begin the target word
+te-gu,tooth,દાંત,0,ప,False,model's next token does not begin the target word
+te-gu,tree,ઝાડ,0,ઉ,False,model's next token does not begin the target word
+te-gu,village,ગામ,0,అ,False,model's next token does not begin the target word
+te-gu,water,પાણી,0,ઉ,False,model's next token does not begin the target word
+hi-ta,bird,பறவை,0,த,False,model's next token does not begin the target word
+hi-ta,book,புத்தகம்,0,"
+",False,model's next token does not begin the target word
+hi-ta,cat,பூனை,0,हि,False,model's next token does not begin the target word
+hi-ta,cow,பசு,0,हि,False,model's next token does not begin the target word
+hi-ta,dog,நாய்,0,हि,False,model's next token does not begin the target word
+hi-ta,eye,கண்,0,हि,False,model's next token does not begin the target word
+hi-ta,fire,நெருப்பு,0,हि,False,model's next token does not begin the target word
+hi-ta,fish,மீன்,0,"
+",False,model's next token does not begin the target word
+hi-ta,flower,பூ,0,हि,False,model's next token does not begin the target word
+hi-ta,gold,தங்கம்,0,निश्,False,model's next token does not begin the target word
+hi-ta,hand,கை,0,हि,False,model's next token does not begin the target word
+hi-ta,heart,இதயம்,0,हि,False,model's next token does not begin the target word
+hi-ta,horse,குதிரை,0,हि,False,model's next token does not begin the target word
+hi-ta,house,வீடு,0,हि,False,model's next token does not begin the target word
+hi-ta,king,அரசன்,0,ਂ,False,model's next token does not begin the target word
+hi-ta,milk,பால்,0,"
+",False,model's next token does not begin the target word
+hi-ta,moon,நிலா,0,"
+",False,model's next token does not begin the target word
+hi-ta,mother,அம்மா,0,த,True,
+hi-ta,mountain,மலை,0,প,False,model's next token does not begin the target word
+hi-ta,name,பெயர்,0,নাম,False,model's next token does not begin the target word
+hi-ta,night,இரவு,0,প,False,model's next token does not begin the target word
+hi-ta,rain,மழை,0,बार,False,model's next token does not begin the target word
+hi-ta,river,ஆறு,0,दी,False,model's next token does not begin the target word
+hi-ta,road,சாலை,0,हि,False,model's next token does not begin the target word
+hi-ta,salt,உப்பு,0,न,False,model's next token does not begin the target word
+hi-ta,sky,வானம்,0,निश्,False,model's next token does not begin the target word
+hi-ta,star,நட்சத்திரம்,0,हि,False,model's next token does not begin the target word
+hi-ta,sun,சூரியன்,0,हि,False,model's next token does not begin the target word
+hi-ta,tooth,பல்,0,দীন,False,model's next token does not begin the target word
+hi-ta,tree,மரம்,0,हि,False,model's next token does not begin the target word
+hi-ta,village,கிராமம்,0,பூ,False,model's next token does not begin the target word
+hi-ta,water,தண்ணீர்,0,हि,False,model's next token does not begin the target word
+hi_latn-ta,bird,பறவை,0,"
+",False,model's next token does not begin the target word
+hi_latn-ta,book,புத்தகம்,0,ab,False,model's next token does not begin the target word
+hi_latn-ta,cat,பூனை,0,Hindi,False,model's next token does not begin the target word
+hi_latn-ta,cow,பசு,0,Hindi,False,model's next token does not begin the target word
+hi_latn-ta,dog,நாய்,0,Hindi,False,model's next token does not begin the target word
+hi_latn-ta,eye,கண்,0,Hindi,False,model's next token does not begin the target word
+hi_latn-ta,fire,நெருப்பு,0,a,False,model's next token does not begin the target word
+hi_latn-ta,fish,மீன்,0,h,False,model's next token does not begin the target word
+hi_latn-ta,flower,பூ,0,Hindi,False,model's next token does not begin the target word
+hi_latn-ta,gold,தங்கம்,0,ha,False,model's next token does not begin the target word
+hi_latn-ta,hand,கை,6,ath,False,model's next token does not begin the target word
+hi_latn-ta,heart,இதயம்,0,Hindi,False,model's next token does not begin the target word
+hi_latn-ta,horse,குதிரை,0,gh,False,model's next token does not begin the target word
+hi_latn-ta,house,வீடு,0,a,False,model's next token does not begin the target word
+hi_latn-ta,king,அரசன்,0,yam,False,model's next token does not begin the target word
+hi_latn-ta,milk,பால்,0,h,False,model's next token does not begin the target word
+hi_latn-ta,moon,நிலா,0,ha,False,model's next token does not begin the target word
+hi_latn-ta,mother,அம்மா,0,Hindi,False,model's next token does not begin the target word
+hi_latn-ta,mountain,மலை,0,Hindi,False,model's next token does not begin the target word
+hi_latn-ta,name,பெயர்,13,Hindi,False,model's next token does not begin the target word
+hi_latn-ta,night,இரவு,0,ra,False,model's next token does not begin the target word
+hi_latn-ta,rain,மழை,0,Hindi,False,model's next token does not begin the target word
+hi_latn-ta,river,ஆறு,0,adi,False,model's next token does not begin the target word
+hi_latn-ta,road,சாலை,0,sad,False,model's next token does not begin the target word
+hi_latn-ta,salt,உப்பு,0,and,False,model's next token does not begin the target word
+hi_latn-ta,sky,வானம்,0,a,False,model's next token does not begin the target word
+hi_latn-ta,star,நட்சத்திரம்,0,Hindi,False,model's next token does not begin the target word
+hi_latn-ta,sun,சூரியன்,6,aj,False,model's next token does not begin the target word
+hi_latn-ta,tooth,பல்,0,ant,False,model's next token does not begin the target word
+hi_latn-ta,tree,மரம்,0,ab,False,model's next token does not begin the target word
+hi_latn-ta,village,கிராமம்,0,"
+",False,model's next token does not begin the target word
+hi_latn-ta,water,தண்ணீர்,0,pa,False,model's next token does not begin the target word
+en-ta,bird,பறவை,0,English,False,model's next token does not begin the target word
+en-ta,book,புத்தகம்,0,English,False,model's next token does not begin the target word
+en-ta,cat,பூனை,0,English,False,model's next token does not begin the target word
+en-ta,cow,பசு,0,English,False,model's next token does not begin the target word
+en-ta,dog,நாய்,0,English,False,model's next token does not begin the target word
+en-ta,eye,கண்,0,English,False,model's next token does not begin the target word
+en-ta,fire,நெருப்பு,0,English,False,model's next token does not begin the target word
+en-ta,fish,மீன்,0,English,False,model's next token does not begin the target word
+en-ta,flower,பூ,0,English,False,model's next token does not begin the target word
+en-ta,gold,தங்கம்,0,gold,False,model's next token does not begin the target word
+en-ta,hand,கை,0,English,False,model's next token does not begin the target word
+en-ta,heart,இதயம்,0,English,False,model's next token does not begin the target word
+en-ta,horse,குதிரை,0,English,False,model's next token does not begin the target word
+en-ta,house,வீடு,0,English,False,model's next token does not begin the target word
+en-ta,king,அரசன்,0,English,False,model's next token does not begin the target word
+en-ta,milk,பால்,0,"
+",False,model's next token does not begin the target word
+en-ta,moon,நிலா,0,English,False,model's next token does not begin the target word
+en-ta,mother,அம்மா,0,Tamil,False,model's next token does not begin the target word
+en-ta,mountain,மலை,0,Tamil,False,model's next token does not begin the target word
+en-ta,name,பெயர்,0,English,False,model's next token does not begin the target word
+en-ta,night,இரவு,0,English,False,model's next token does not begin the target word
+en-ta,rain,மழை,0,English,False,model's next token does not begin the target word
+en-ta,river,ஆறு,0,"
+",False,model's next token does not begin the target word
+en-ta,road,சாலை,0,English,False,model's next token does not begin the target word
+en-ta,salt,உப்பு,0,English,False,model's next token does not begin the target word
+en-ta,sky,வானம்,0,English,False,model's next token does not begin the target word
+en-ta,star,நட்சத்திரம்,0,Tamil,False,model's next token does not begin the target word
+en-ta,sun,சூரியன்,0,English,False,model's next token does not begin the target word
+en-ta,tooth,பல்,0,English,False,model's next token does not begin the target word
+en-ta,tree,மரம்,0,English,False,model's next token does not begin the target word
+en-ta,village,கிராமம்,0,English,False,model's next token does not begin the target word
+en-ta,water,தண்ணீர்,0,English,False,model's next token does not begin the target word
+ta-en,bird,bird,0,English,False,model's next token does not begin the target word
+ta-en,book,book,0,English,False,model's next token does not begin the target word
+ta-en,cat,cat,0,English,False,model's next token does not begin the target word
+ta-en,cow,cow,0,English,False,model's next token does not begin the target word
+ta-en,dog,dog,0,English,False,model's next token does not begin the target word
+ta-en,eye,eye,0,"
+",False,model's next token does not begin the target word
+ta-en,fire,fire,0,English,False,model's next token does not begin the target word
+ta-en,fish,fish,0,English,False,model's next token does not begin the target word
+ta-en,flower,flower,0,English,False,model's next token does not begin the target word
+ta-en,gold,gold,0,English,False,model's next token does not begin the target word
+ta-en,hand,hand,0,"
+",False,model's next token does not begin the target word
+ta-en,heart,heart,0,English,False,model's next token does not begin the target word
+ta-en,horse,horse,0,English,False,model's next token does not begin the target word
+ta-en,house,house,0,English,False,model's next token does not begin the target word
+ta-en,king,king,0,"
+",False,model's next token does not begin the target word
+ta-en,milk,milk,0,English,False,model's next token does not begin the target word
+ta-en,moon,moon,0,English,False,model's next token does not begin the target word
+ta-en,mother,mother,0,English,False,model's next token does not begin the target word
+ta-en,mountain,mountain,0,English,False,model's next token does not begin the target word
+ta-en,name,name,0,English,False,model's next token does not begin the target word
+ta-en,night,night,0,English,False,model's next token does not begin the target word
+ta-en,rain,rain,0,English,False,model's next token does not begin the target word
+ta-en,river,river,0,English,False,model's next token does not begin the target word
+ta-en,road,road,0,Tamil,False,model's next token does not begin the target word
+ta-en,salt,salt,0,"
+",False,model's next token does not begin the target word
+ta-en,sky,sky,0,English,False,model's next token does not begin the target word
+ta-en,star,star,0,English,False,model's next token does not begin the target word
+ta-en,sun,sun,0,English,False,model's next token does not begin the target word
+ta-en,tooth,tooth,0,English,False,model's next token does not begin the target word
+ta-en,tree,tree,0,English,False,model's next token does not begin the target word
+ta-en,village,village,0,English,False,model's next token does not begin the target word
+ta-en,water,water,0,English,False,model's next token does not begin the target word

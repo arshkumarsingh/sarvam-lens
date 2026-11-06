@@ -1,0 +1,151 @@
+{
+ "usd_per_hour": 5.174,
+ "budget_minutes": 22.0,
+ "stages": [
+  {
+   "stage": "load",
+   "result": {
+    "model": "HFLensModel(SarvamMoEForCausalLM, n_layers=19, d_model=4096)",
+    "gpu_gb_allocated": 64.3
+   },
+   "status": "ok",
+   "minutes": 0.51,
+   "log_tail": []
+  },
+  {
+   "stage": "pivot_all",
+   "result": {
+    "exit": 0,
+    "lenses": [
+     "logit",
+     "/vol/runs/lenses/j_200p.pt",
+     "/vol/runs/lenses/r_moe_25p.pt",
+     "/vol/runs/lenses/jpp_25p.pt"
+    ]
+   },
+   "status": "ok",
+   "minutes": 9.73,
+   "log_tail": [
+    "pivot: ta-bn: kept 31 items",
+    "pivot: te-gu: kept 18 items",
+    "pivot: hi-ta: kept 31 items",
+    "pivot: hi_latn-ta: kept 32 items",
+    "pivot: en-ta: kept 31 items",
+    "pivot: ta-en: kept 32 items",
+    "matplotlib.font_manager: generated new fontManager",
+    "pivot: kept 382 / 448 items; wrote /vol/runs/final/pivot_all"
+   ]
+  },
+  {
+   "stage": "causal",
+   "result": {
+    "j_200p": {
+     "n_items": 272,
+     "mid_layers": [
+      13,
+      14,
+      15,
+      16
+     ],
+     "early_layers": [
+      5,
+      6,
+      7,
+      8
+     ],
+     "base_mean_p": 0.8848039439934141,
+     "english_mid": {
+      "mean_p": 0.8277974159402006,
+      "mean_drop": 0.057006528053213566,
+      "drop_ci95": [
+       0.043457429678014976,
+       0.0711238865959732
+      ],
+      "still_correct": 0.9485294117647058
+     },
+     "control_mid": {
+      "mean_p": 0.8811243942336124,
+      "mean_drop": 0.0036795497598016962,
+      "drop_ci95": [
+       -0.0004657577969791258,
+       0.008066747584106287
+      ],
+      "still_correct": 0.9816176470588235
+     },
+     "english_early": {
+      "mean_p": 0.8814631094608236,
+      "mean_drop": 0.0033408345325904735,
+      "drop_ci95": [
+       -0.0006942235097727355,
+       0.007781747728586196
+      ],
+      "still_correct": 0.9779411764705882
+     },
+     "english_minus_control_drop": {
+      "mean": 0.053326978293411875,
+      "ci95": [
+       0.040021682453259606,
+       0.06748089013237721
+      ]
+     }
+    },
+    "r_moe_25p": {
+     "n_items": 272,
+     "mid_layers": [
+      13,
+      14,
+      15,
+      16
+     ],
+     "early_layers": [
+      5,
+      6,
+      7,
+      8
+     ],
+     "base_mean_p": 0.8848039439934141,
+     "english_mid": {
+      "mean_p": 0.8173211824888473,
+      "mean_drop": 0.06748276150456685,
+      "drop_ci95": [
+       0.05135912053999217,
+       0.08478207213612382
+      ],
+      "still_correct": 0.9448529411764706
+     },
+     "control_mid": {
+      "mean_p": 0.8702413593144978,
+      "mean_drop": 0.014562584678916371,
+      "drop_ci95": [
+       0.007457555307294516,
+       0.02196648266878636
+      ],
+      "still_correct": 0.9705882352941176
+     },
+     "english_early": {
+      "mean_p": 0.8709064783966717,
+      "mean_drop": 0.01389746559674249,
+      "drop_ci95": [
+       0.0050036396625835235,
+       0.023749082056148084
+      ],
+      "still_correct": 0.9632352941176471
+     },
+     "english_minus_control_drop": {
+      "mean": 0.05292017682565048,
+      "ci95": [
+       0.038762733331703415,
+       0.0685074678314028
+      ]
+     }
+    }
+   },
+   "status": "ok",
+   "minutes": 4.59,
+   "log_tail": []
+  }
+ ],
+ "elapsed_minutes": 15.04,
+ "est_cost_usd_so_far": 1.3,
+ "done": true
+}

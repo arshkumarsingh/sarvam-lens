@@ -1,0 +1,19 @@
+{
+ "n_items": 24,
+ "closed_think": 0.0,
+ "english_in_reasoning": 0.583,
+ "target_in_reasoning": 0.542,
+ "target_in_answer": 0.0,
+ "reasoning_script_share": {
+  "latin": 0.917,
+  "devanagari": 0.011,
+  "bengali": 0.015,
+  "gujarati": 0.001,
+  "tamil": 0.019,
+  "telugu": 0.011,
+  "kannada": 0.015,
+  "malayalam": 0.012,
+  "cjk": 0.0
+ },
+ "mean_tokens": 200.0
+}

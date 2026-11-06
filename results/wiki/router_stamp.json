@@ -1,0 +1,41 @@
+{
+  "git_hash": "d7efc0de372e20589e899188c0cfe8434acc63ec",
+  "timestamp": "2026-10-18T12:51:23+00:00",
+  "library_version": null,
+  "stage": "fit-router",
+  "args": {
+    "stage": "fit-router",
+    "hf_model_name": "/vol/sarvam-30b-bf16",
+    "device_map": "cuda",
+    "attn_implementation": "sdpa",
+    "experts_implementation": null,
+    "dequantize_fp8": false,
+    "layers": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "num_prompts": 128,
+    "num_clusters": 8,
+    "projection_dim": 64,
+    "skip_first_n_positions": 16,
+    "max_seq_len": 128,
+    "seed": 0,
+    "out": "/vol/runs/wiki/router.pt"
+  }
+}

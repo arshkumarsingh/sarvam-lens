@@ -1,0 +1,61 @@
+Sarvam Lens
+Copyright 2026 Arsh Kumar Singh
+
+This repository includes or adapts material from the following projects.
+
+1. Sarvam AI model code, Apache License 2.0.
+   https://huggingface.co/sarvamai/sarvam-30b (revision 071ae95e933605ca1104a6b4524a36a98488efa4)
+   https://huggingface.co/sarvamai/sarvam-105b (revision abe264bdb8fb2244daadaa59ebc2020b3c139e89)
+
+   - reference/sarvam-30b/ and reference/sarvam-105b/ are unmodified copies of files from those
+     revisions, Copyright Sarvam AI. A copy of the Apache License 2.0 is in reference/LICENSE,
+     and the file list is in reference/README.md.
+   - code/sarvam_support.py contains replacement forward methods for SarvamMoESparseMoeBlock and
+     SarvamMoEMLP that replicate the upstream methods value-for-value and add backward-only
+     gradient rules.
+
+2. J++ Lens (safety-research/jpp_lens), Copyright 2026 Kola Ayonrinde, Apache License 2.0.
+   https://github.com/safety-research/jpp_lens (commit d7efc0de372e20589e899188c0cfe8434acc63ec)
+
+   All lens fitting in this project runs through that codebase. It is cloned at run time and is
+   not included here. code/run_jpp.py wraps its CLI, and code/sarvam_support.py applies the
+   semantics of its LRP rules (src/workspace_lens/lrp/lrp.py) to Sarvam's modules. The NOTICE of
+   jpp_lens credits the following, which are reproduced here:
+
+   - Jacobian lens reference implementation, Copyright 2026 Anthropic PBC, Apache License 2.0.
+     https://github.com/anthropics/jacobian-lens
+   - R-Lens (Relevance Propagation Jacobian lens), by Camila Blank and Agam Bhatia.
+     https://huggingface.co/camilablank/workspace-lenses
+     The LRP backward-pass rules in jpp_lens are adapted from their implementation.
+
+The following are used at run time and are not included in this repository:
+
+3. eliebak/open-jlens-data (commit 49010193dee265e8521dda041a26d23d7a8bc027): the CKA explorer
+   code in code/jlens_cka, cloned by code/modal_app.py and imported by code/cka_compare.py. That
+   repository has no license file at this commit, so none of its code is copied here.
+4. camilablank/workspace-lenses (MIT License): the published Qwen3.6-35B-A3B J-lens and R-lens,
+   downloaded for the CKA comparison.
+5. Salesforce/wikitext, wikitext-103-raw-v1 (CC BY-SA, derived from Wikipedia): the fit corpus
+   for all lenses. No corpus text is included in this repository or in the lens files.
+6. Model weights for sarvamai/sarvam-30b (Apache License 2.0) and Qwen/Qwen3.6-35B-A3B (Apache
+   License 2.0). No base-model weights are included.
+
+Included prompt data (code/data/xling/, docs 11 and 12). Each set keeps its source's license. The
+machine translations of a set are derived from it and carry the same license, so translations of
+CC BY-SA material are CC BY-SA:
+
+7. XSTest, Röttger et al. (NAACL 2024), CC BY 4.0. https://github.com/paul-rottger/xstest
+8. MGSM, Shi et al. (2022), CC BY-SA 4.0, including its human translations.
+   https://huggingface.co/datasets/juletxara/mgsm
+9. ARC-Challenge, Clark et al. (2018), CC BY-SA 4.0. https://huggingface.co/datasets/allenai/ai2_arc
+10. MMLU, Hendrycks et al. (2021), MIT License. https://huggingface.co/datasets/cais/mmlu
+11. databricks-dolly-15k, Databricks (2023), CC BY-SA 3.0.
+    https://huggingface.co/datasets/databricks/databricks-dolly-15k
+12. The translations were made with ai4bharat/indictrans2-en-indic-1B (MIT License, revision
+    89cd0007fd7b9e0693a2fd4404d187e07dac79fd) for the 22 scheduled Indian languages, and with
+    facebook/nllb-200-3.3B (CC BY-NC 4.0, revision 1a07f7d195896b2114afcb79b7b57ab512e7b43e) for
+    Japanese, Russian and Arabic. No translation-model weights are included. NLLB-200 is licensed
+    for non-commercial use, so treat the ja/ru/ar translations as non-commercial.
+13. Word lists for the 14 added languages (code/data/concepts_new.tsv; source and page revision per
+    cell in code/data/concepts_new_sources.tsv and code/data/newlangs/): English Wiktionary and the
+    Meitei/Santali Swadesh appendices (CC BY-SA 4.0), and Wikidata labels (CC0).

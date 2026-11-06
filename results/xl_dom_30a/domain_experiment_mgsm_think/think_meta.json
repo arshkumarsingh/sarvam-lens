@@ -1,0 +1,19 @@
+{
+ "model_kind": "sarvam30",
+ "opts": {
+  "items": 16,
+  "batch": 48,
+  "max_new_tokens": 400,
+  "variants": [
+   "en",
+   "bn_h",
+   "te_h",
+   "ja_h",
+   "ru_h",
+   "zh_h"
+  ],
+  "langs": null
+ },
+ "n_jobs": 96,
+ "seconds": 372.3
+}

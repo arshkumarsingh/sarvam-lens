@@ -1,0 +1,42 @@
+✓ Initialized. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-umlZPCqTqp85R0f3j1zF2C
+✓ Created objects.
+├── ✓ Uploaded .\code\modal_app.py
+├── ✓ Uploaded .\code
+├── ✓ Created Function prepare_weights.
+├── ✓ Created Function smoke.
+├── ✓ Created Function smoke_2gpu.
+├── ✓ Created Function batch_probe.
+├── ✓ Created Function prepare_qwen.
+├── ✓ Created Function cka.
+├── ✓ Created Function pilot.
+├── ✓ Created Function pilot2.
+├── ✓ Created Function merge_j.
+├── ✓ Created Function build_corpus_fn.
+├── ✓ Created Function cka_robust.
+└── ✓ Created Function diagnose.
+hard timeout 15 min -> worst case $0.08
+
+[1ALoading weights:   0%|          | 0/117 [00:00<?, ?it/s]Loading weights: 100%|██████████| 117/117 [00:00<00:00, 5117.35it/s]
+[transformers] You are using a model of type `sarvam_moe` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+[transformers] `use_return_dict` is deprecated! Use `return_dict` instead!
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+{
+ "smoke_test": "passed",
+ "n_checks": 48,
+ "dry_pilot_stages": {
+  "load": "ok",
+  "newlang_experiment.geometry": "ok"
+ },
+ "dry_pilot_results": {
+  "load": {},
+  "newlang_experiment.geometry": "{'model_kind': 'sarvam30', 'n_cells': 20, 'band': [2], 'carriers': {'word': {'retrieval_band': 0.2, 'chance': 0.25, 'centred_order_band': [['ta', 'en', 'mni', 'hi', 'ja']], 'en_rank_centred_band': [2]}, 'line': {'retrieval_band': 0.2, 'chance': 0.25, 'centred_order_band': [['ja', 'en', 'ta', 'hi', 'mni']], 'en_rank_centred_band': [2]}}, 'fair': [{'group': 'original Indic pairs', 'lens': 'logit', 'role': 'english', 'items': 64, 'pct_script': 0.9389, 'top10_script': 0.0, 'top10_all': 0.0}, {'group': 'original Indic pairs', 'lens': 'logit', 'role': 'english_shuffled', 'items': 64, 'pct_script': 0.9428, 'top10_script': 0.0, 'top10_all': 0.0}, {'group': 'original Indic pairs', 'lens': 'logit', 'role': 'hindi', 'items': 64, 'pct_script': 0.8166, 'top10_script': 0.0, 'top10_all': 0.0}, {'group': 'original Indic pairs', 'lens': 'logit', 'role': 'hindi_shuffled', 'items': 64, 'pct_script': 0.8194, 'top10_script': 0.0, 'top10_all': 0.0}, {'group': 'original Indic pairs', 'lens': 'logit', 'role': 'target', 'items': 64, 'pct_script': 0.7788, 'top10_script': 0.0156, 'top10_all': 0.0}, {'group': 'original Indic pairs', 'lens': 'logit', 'role': 'source', 'items': 64, 'pct_script': 0.7842, 'top10_script': 0.0156, 'top10_all': 0.0}]}"
+ },
+ "dry_pilot_errors": {}
+}
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-umlZPCqTqp85R0f3j1zF2C

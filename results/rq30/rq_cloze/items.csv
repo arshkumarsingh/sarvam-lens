@@ -1,0 +1,182 @@
+pair,concept,kind,instr,model_top,found_at_step,generated_prefix,n_prompt_tokens,kept,reason
+bn,bird,cloze,,েন,, পিস (piece) খেল,9,False,target word not begun within 6 greedy tokens
+bn,book,cloze,, তাদের,," সময় অপেক্ষা করতে হয়, যা",8,False,target word not begun within 6 greedy tokens
+bn,cat,cloze,,{,," পারে।
+ \( \text",5,False,target word not begun within 6 greedy tokens
+bn,cow,cloze,,"
+",, খামারে কাজ করেন।,7,False,target word not begun within 6 greedy tokens
+bn,dog,cloze,,ক,1," """,9,True,
+bn,eye,cloze,, পারি,," নিজস্ব,-এর মধ্যে রাখতে",4,False,target word not begun within 6 greedy tokens
+bn,fire,cloze,,ৰ,," অগ্নিকাণ্ড, যা",6,False,target word not begun within 6 greedy tokens
+bn,fish,cloze,,**,," বেশি।
+
+1.  ",5,False,target word not begun within 6 greedy tokens
+bn,flower,cloze,, ফুল,0,,7,True,
+bn,gold,cloze,, উল্লেখ,, (1995),6,False,target word not begun within 6 greedy tokens
+bn,hand,cloze,, হাত,0,,8,True,
+bn,heart,cloze,, হৃদ,0,,11,True,
+bn,horse,cloze,,কে,,-লেজযুক্ত ঈগল,6,False,target word not begun within 6 greedy tokens
+bn,house,cloze,,।,, জন্য একটি বিশেষ খাবার তৈরি করে,10,False,target word not begun within 6 greedy tokens
+bn,king,cloze,, করেছিলেন,, বিশাল ভোজের আয়োজন,7,False,target word not begun within 6 greedy tokens
+bn,milk,cloze,,extra,," একটি ""অতিরিক্ত"" (",7,False,target word not begun within 6 greedy tokens
+bn,moon,cloze,, চাঁদ,2,িমার,7,True,
+bn,mother,cloze,, কোলে,," কাছে আসে, এবং সে তাকে",6,False,target word not begun within 6 greedy tokens
+bn,mountain,cloze,, পর্বত,0,,8,True,
+bn,name,cloze,, গবেষণ,, 2020 সালের,6,False,target word not begun within 6 greedy tokens
+bn,night,cloze,,-,,", 1990",3,False,target word not begun within 6 greedy tokens
+bn,rain,cloze,, বৃষ্টি,0,,8,True,
+bn,river,cloze,, নদী,0,,7,True,
+bn,road,cloze,,ও,,", চওড়া, চ",7,False,target word not begun within 6 greedy tokens
+bn,salt,cloze,,ক,," বেশি করে ""প্যানকে",10,False,target word not begun within 6 greedy tokens
+bn,sky,cloze,, আকাশ,0,,12,True,
+bn,star,cloze,, ন,0,,5,True,
+bn,sun,cloze,,1,," মুখ করে, এবং তারপর ",6,False,target word not begun within 6 greedy tokens
+bn,tooth,cloze,, মিনিট,, 10-15,6,False,target word not begun within 6 greedy tokens
+bn,tree,cloze,,text,," পারে না।
+ $ \",8,False,target word not begun within 6 greedy tokens
+bn,village,cloze,,1,," দোকান চালাতেন।
+<think>",13,False,target word not begun within 6 greedy tokens
+bn,water,cloze,, জল,0,,13,True,
+hi,bird,cloze,, ही,," थी, और वह एक बहुत",8,False,target word not begun within 6 greedy tokens
+hi,book,cloze,, बहुत,," सामग्री है, लेकिन यह एक",10,False,target word not begun within 6 greedy tokens
+hi,cat,cloze,, (,," एक ""प्रभावी""",9,False,target word not begun within 6 greedy tokens
+hi,cow,cloze,, अपनी,, ज़मीन पर जाते हैं और,5,False,target word not begun within 6 greedy tokens
+hi,dog,cloze,,**,," विशेष व्यवस्था की है।
+
+",9,False,target word not begun within 6 greedy tokens
+hi,eye,cloze,,।,, क्षमता के अनुसार कर रहे हैं,5,False,target word not begun within 6 greedy tokens
+hi,fire,cloze,, आग,0,,5,True,
+hi,fish,cloze,, मछ,0,,8,True,
+hi,flower,cloze,, फूल,0,,9,True,
+hi,gold,cloze,,0,, 10000,7,False,target word not begun within 6 greedy tokens
+hi,hand,cloze,, हाथ,0,,8,True,
+hi,heart,cloze,, दिल,0,,12,True,
+hi,horse,cloze,, सफ,," के लिए, और एक अन्य",9,False,target word not begun within 6 greedy tokens
+hi,house,cloze,, के,, परिवार के साथ समय बिताने,11,False,target word not begun within 6 greedy tokens
+hi,king,cloze,, राजा,0,,9,True,
+hi,milk,cloze,, और,," पानी की आवश्यकता होती है,",6,False,target word not begun within 6 greedy tokens
+hi,moon,cloze,, चंद्रमा,0,,9,True,
+hi,mother,cloze,, माँ,0,,7,True,
+hi,mountain,cloze,, पर्वत,0,,8,True,
+hi,name,cloze,,मैं,," दिन शुभ हो!
+    ",4,False,target word not begun within 6 greedy tokens
+hi,night,cloze,,0,,", 1000",4,False,target word not begun within 6 greedy tokens
+hi,rain,cloze,, बारिश,0,,13,True,
+hi,river,cloze,, नदी,0,,6,True,
+hi,road,cloze,, एक,," हो रही हैं, तो यह",9,False,target word not begun within 6 greedy tokens
+hi,salt,cloze,, नमक,0,,12,True,
+hi,sky,cloze,, आकाश,0,,14,True,
+hi,star,cloze,, तारे,0,,8,True,
+hi,sun,cloze,, घंटे,, मुख करके बैठें और एक,6,False,target word not begun within 6 greedy tokens
+hi,tooth,cloze,, मिनट,, 10-15,6,False,target word not begun within 6 greedy tokens
+hi,tree,cloze,, user,," बाहर गए।
+
+
+The",7,False,target word not begun within 6 greedy tokens
+hi,village,cloze,,-,," घर में रहते थे।
+",12,False,target word not begun within 6 greedy tokens
+hi,water,cloze,, पानी,0,,12,True,
+ta,bird,cloze,, ஒரு,,"போது, ஒருவேளை அவர்",8,False,target word not begun within 6 greedy tokens
+ta,book,cloze,,சிரியர்,," இடம் இல்லை.
+
+**ஆ",8,False,target word not begun within 6 greedy tokens
+ta,cat,cloze,,.,,"வும்.
+1.1",6,False,target word not begun within 6 greedy tokens
+ta,cow,cloze,,"
+
+",," நிலத்தை உழுகிறார்.""",8,False,target word not begun within 6 greedy tokens
+ta,dog,cloze,,1,,"போதும் அனுமதிக்க மாட்டோம்.
+
+",9,False,target word not begun within 6 greedy tokens
+ta,eye,cloze,,.,,மைப் போலவே நேசிக்க வேண்டும்,7,False,target word not begun within 6 greedy tokens
+ta,fire,cloze,,De,,"து.
+
+1. **",4,False,target word not begun within 6 greedy tokens
+ta,fish,cloze,,1,," தாதுக்கள் உள்ளன.
+",5,False,target word not begun within 6 greedy tokens
+ta,flower,cloze,, பூ,0,,6,True,
+ta,gold,cloze,,The,," பங்கேற்கலாம்.
+
+
+
+",6,False,target word not begun within 6 greedy tokens
+ta,hand,cloze,,.,," கழுவுதல்.
+1",9,False,target word not begun within 6 greedy tokens
+ta,heart,cloze,, இதய,0,,14,True,
+ta,horse,cloze,, கு,0,,9,True,
+ta,house,cloze,,.,, மேசைக்கு அண்டான்,11,False,target word not begun within 6 greedy tokens
+ta,king,cloze,, ),, பெரிய விருந்து ( விருந்து,11,False,target word not begun within 6 greedy tokens
+ta,milk,cloze,,ீர்,, பானம் (தண்ண,6,False,target word not begun within 6 greedy tokens
+ta,moon,cloze,, நில,0,,11,True,
+ta,mother,cloze,,த,3, தந்தை/,9,True,
+ta,mountain,cloze,, மலை,0,,8,True,
+ta,name,cloze,,வுகள்,, கணக்கீடுகள் மற்றும் முடி,5,False,target word not begun within 6 greedy tokens
+ta,night,cloze,, க,,", 100%",6,False,target word not begun within 6 greedy tokens
+ta,rain,cloze,, இடங்களில்,," மழையையும், சில",11,False,target word not begun within 6 greedy tokens
+ta,river,cloze,, ந,0,,7,True,
+ta,road,cloze,,Identify,,"வை.
+
+1. **",7,False,target word not begun within 6 greedy tokens
+ta,salt,cloze,,.,, பருப்பு சப்பென்று இருக்கிறது,10,False,target word not begun within 6 greedy tokens
+ta,sky,cloze,, வான,3, நிறம் கொண்ட,11,True,
+ta,star,cloze,,1,,"வை.
+10.",7,False,target word not begun within 6 greedy tokens
+ta,sun,cloze,,மான,," உள்ள ஒரு புதிய, தனித்துவ",8,False,target word not begun within 6 greedy tokens
+ta,tooth,cloze,,ளை,,", ஒருவேளை ஒருவே",7,False,target word not begun within 6 greedy tokens
+ta,tree,cloze,,"
+
+",,"க் களம்.
+
+
+",9,False,target word not begun within 6 greedy tokens
+ta,village,cloze,,ட்டை,,", தனிமைப்படுத்தப்பட்ட வீ",13,False,target word not begun within 6 greedy tokens
+ta,water,cloze,, தண்ணீர்,0,,14,True,
+te,bird,cloze,, చూ,,"ప్పుడు, ఆ చెట్టును",11,False,target word not begun within 6 greedy tokens
+te,book,cloze,,"
+",, సమయం కేటాయించాల్సి ఉంటుంది.,9,False,target word not begun within 6 greedy tokens
+te,cat,cloze,,9,," ప్రయత్నించారు.
+1",7,False,target word not begun within 6 greedy tokens
+te,cow,cloze,,స్తారు,, పొలంలో పని చేస్తూ కనిపి,7,False,target word not begun within 6 greedy tokens
+te,dog,cloze,, ,," చిన్న, పటిష్టమైన,",10,False,target word not begun within 6 greedy tokens
+te,eye,cloze,,ాలి,,లో లీనమైపోవ,6,False,target word not begun within 6 greedy tokens
+te,fire,cloze,,{,,"వి.
+
+ $ \text",8,False,target word not begun within 6 greedy tokens
+te,fish,cloze,, ర,, తక్కువ (1000,6,False,target word not begun within 6 greedy tokens
+te,flower,cloze,,0,,", పిల్ 10",7,False,target word not begun within 6 greedy tokens
+te,gold,cloze,,1,," పాల్గొని, ఆ తర్వాత ",8,False,target word not begun within 6 greedy tokens
+te,hand,cloze,, చే,0,,9,True,
+te,heart,cloze,,.,,"ని పరీక్షించడం.
+
+1",12,False,target word not begun within 6 greedy tokens
+te,horse,cloze,, ఇది,, కాంతి గల పక్షి.,13,False,target word not begun within 6 greedy tokens
+te,house,cloze,,"
+
+",, కుటుంబానికి తిరిగి వస్తాడు.,10,False,target word not begun within 6 greedy tokens
+te,king,cloze,, సంఘటన,," చిన్న, అసంబద్ధమైన",9,False,target word not begun within 6 greedy tokens
+te,milk,cloze,, $,, ఆ గర $ $ $,6,False,target word not begun within 6 greedy tokens
+te,moon,cloze,,  ,,"గా కనిపిస్తుంది.
+
+1.",11,False,target word not begun within 6 greedy tokens
+te,mother,cloze,, తల్లి,0,,8,True,
+te,mountain,cloze,, ప,5,వి. హిమాలయ,9,True,
+te,name,cloze,, ప్రశ్న,,లో చాలా మంది దీనిని ఒక సాధారణ,7,False,target word not begun within 6 greedy tokens
+te,night,cloze,,పు,,", ఆ వ్యక్తికి కడు",5,False,target word not begun within 6 greedy tokens
+te,rain,cloze,, వర్ష,0,,14,True,
+te,river,cloze,,రిగ,, పవిత్రమైనదిగా ప,9,False,target word not begun within 6 greedy tokens
+te,road,cloze,,హి,, మార్గాల గుండా ప్రవ,7,False,target word not begun within 6 greedy tokens
+te,salt,cloze,,"
+",, పులుపుగా ఉంది.,9,False,target word not begun within 6 greedy tokens
+te,sky,cloze,, ఆ,0,,13,True,
+te,star,cloze,, న,0,,11,True,
+te,sun,cloze,, సూర్,6, ఉన్న ఒక పర్వతం నుండి,8,True,
+te,tooth,cloze,,ంట,, 100 mg తీసుకు,6,False,target word not begun within 6 greedy tokens
+te,tree,cloze,,.,," సహాయం చేయడం.
+
+
+1",14,False,target word not begun within 6 greedy tokens
+te,village,cloze,,"
+
+",," ఇల్లు కట్టుకున్నారు.
+",15,False,target word not begun within 6 greedy tokens
+te,water,cloze,, నీరు,0,,12,True,

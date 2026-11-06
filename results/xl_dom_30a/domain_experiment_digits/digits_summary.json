@@ -1,0 +1,155 @@
+{
+ "primary_lens": "j_200p",
+ "band": [
+  13,
+  14,
+  15,
+  16
+ ],
+ "headline": {
+  "ascii": {
+   "acc": 1.0,
+   "ascii": 0.76,
+   "native": null,
+   "word": 0.833,
+   "ascii_ctrl": 0.003,
+   "native_ctrl": null,
+   "word_ctrl": 0.0
+  },
+  "devanagari": {
+   "acc": 0.903,
+   "ascii": 0.528,
+   "native": 0.115,
+   "word": 0.802,
+   "ascii_ctrl": 0.0,
+   "native_ctrl": 0.0,
+   "word_ctrl": 0.0
+  },
+  "bengali": {
+   "acc": 1.0,
+   "ascii": 0.476,
+   "native": 0.274,
+   "word": 0.83,
+   "ascii_ctrl": 0.0,
+   "native_ctrl": 0.0,
+   "word_ctrl": 0.0
+  },
+  "tamil": {
+   "acc": 0.014,
+   "ascii": 0.0,
+   "native": 0.172,
+   "word": 0.01,
+   "ascii_ctrl": 0.0,
+   "native_ctrl": 0.11,
+   "word_ctrl": 0.003
+  },
+  "telugu": {
+   "acc": 0.083,
+   "ascii": 0.007,
+   "native": 0.031,
+   "word": 0.076,
+   "ascii_ctrl": 0.0,
+   "native_ctrl": 0.009,
+   "word_ctrl": 0.007
+  },
+  "gujarati": {
+   "acc": 0.972,
+   "ascii": 0.337,
+   "native": 0.0,
+   "word": 0.722,
+   "ascii_ctrl": 0.0,
+   "native_ctrl": 0.0,
+   "word_ctrl": 0.0
+  },
+  "kannada": {
+   "acc": 0.486,
+   "ascii": 0.434,
+   "native": 0.0,
+   "word": 0.708,
+   "ascii_ctrl": 0.0,
+   "native_ctrl": 0.0,
+   "word_ctrl": 0.0
+  },
+  "malayalam": {
+   "acc": 0.639,
+   "ascii": 0.007,
+   "native": 0.0,
+   "word": 0.417,
+   "ascii_ctrl": 0.0,
+   "native_ctrl": 0.0,
+   "word_ctrl": 0.003
+  },
+  "oriya": {
+   "acc": 0.569,
+   "ascii": 0.486,
+   "native": 0.003,
+   "word": 0.816,
+   "ascii_ctrl": 0.0,
+   "native_ctrl": 0.0,
+   "word_ctrl": 0.0
+  },
+  "gurmukhi": {
+   "acc": 0.972,
+   "ascii": 0.045,
+   "native": 0.045,
+   "word": 0.75,
+   "ascii_ctrl": 0.0,
+   "native_ctrl": 0.0,
+   "word_ctrl": 0.0
+  },
+  "extended_arabic-indic": {
+   "acc": 1.0,
+   "ascii": 0.066,
+   "native": 0.073,
+   "word": 0.83,
+   "ascii_ctrl": 0.0,
+   "native_ctrl": 0.0,
+   "word_ctrl": 0.0
+  },
+  "meetei_mayek": {
+   "acc": 1.0,
+   "ascii": 0.455,
+   "native": 0.014,
+   "word": 0.799,
+   "ascii_ctrl": 0.0,
+   "native_ctrl": 0.0,
+   "word_ctrl": 0.0
+  },
+  "ol_chiki": {
+   "acc": 1.0,
+   "ascii": 0.479,
+   "native": 0.003,
+   "word": 0.823,
+   "ascii_ctrl": 0.0,
+   "native_ctrl": 0.0,
+   "word_ctrl": 0.0
+  },
+  "arabic-indic": {
+   "acc": 1.0,
+   "ascii": 0.149,
+   "native": 0.031,
+   "word": 0.858,
+   "ascii_ctrl": 0.0,
+   "native_ctrl": 0.0,
+   "word_ctrl": 0.0
+  },
+  "all_native": {
+   "acc": 0.741,
+   "ascii": 0.267,
+   "native": 0.054,
+   "word": 0.649,
+   "ascii_ctrl": 0.0,
+   "native_ctrl": 0.004,
+   "word_ctrl": 0.001
+  },
+  "native_tokenized": {
+   "acc": 0.867,
+   "ascii": 0.315,
+   "native": 0.051,
+   "word": 0.759,
+   "ascii_ctrl": 0.0,
+   "native_ctrl": 0.0,
+   "word_ctrl": 0.0
+  }
+ }
+}

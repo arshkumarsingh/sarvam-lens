@@ -1,0 +1,10 @@
+lenses ['logit'] at layers [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+ta-zh: kept 32 items
+te-zh: kept 32 items
+bn-zh: kept 32 items
+hi-zh: kept 31 items
+kn-zh: kept 31 items
+ml-zh: kept 32 items
+en-zh: kept 30 items
+generated new fontManager
+kept 220 / 224 items; wrote /vol/runs/rq30b/rq_zh

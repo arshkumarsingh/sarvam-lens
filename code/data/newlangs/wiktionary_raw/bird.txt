@@ -1,0 +1,25 @@
+# concept: bird
+# page: bird
+# revid: 93680572
+# section_url: https://en.wiktionary.org/w/index.php?title=bird&action=raw&section=9
+## block: {{trans-top|animal}}
+* Assamese: {{tt|as|চৰাই}}
+* Odia: {{tt+|or|ପକ୍ଷୀ}}, {{tt+|or|ଚଢ଼େଇ}}
+* Punjabi:
+*: Gurmukhi: {{tt|pa|ਪੰਖੀ}}, {{tt|pa|ਪੰਛੀ|m}}
+*: Western Punjabi: {{tt+|pnb|پَنْچھی|m}}, {{tt|pnb|پَرِنْدَہ|m}}
+* Urdu: {{tt|ur|چِڑْیا|f}}, {{tt|ur|پَنْچھی|f}}, {{tt|ur|پَکْشی|m}}, {{tt|ur|پَرِنْدَہ|m}}, {{tt|ur|پَکھیرو|m}}
+* Nepali: {{tt|ne|चरा}}
+* Sanskrit: {{tt+|sa|वि|m}}, {{tt+|sa|पक्षिन्|m}}
+* Maithili: {{tt|mai|चिड़ै}}
+* Sindhi: {{tt|sd|پکي|alt=پَکِي}}
+* Kashmiri: {{tt|ks|جاناوار|tr=jānāvār}}
+MISSING Konkani
+MISSING Dogri
+MISSING Manipuri
+* Bodo (India): {{tt|brx|दाव}}
+* Santali: {{tt|sat|ᱪᱮᱺᱬᱮᱹ}}
+* Japanese: {{tt+|ja|鳥|tr=とり, tori}}, {{tt+|ja|鳥類|tr=ちょうるい, chōrui}} {{q|taxonomic group}}
+* Russian: {{tt+|ru|пти́ца|f}}, {{tt+|ru|пта́шка|f}}, {{tt+|ru|пта́х|m}} {{q|obsolete}}, {{tt+|ru|пта́ха|f}} {{q|colloquial}}, {{tt+|ru|по́тка|f}} {{q|dialectal}}
+* Arabic: {{tt+|ar|طَائِر|m}}, {{tt|ar|عُصْفُور|m}}
+* Hindi: {{tt+|hi|चिड़िया|f}}, {{tt+|hi|पंछी|f}}, {{tt+|hi|पक्षी|m}}, {{tt+|hi|परन्दा|m}}, {{tt+|hi|पखेरू|m}}

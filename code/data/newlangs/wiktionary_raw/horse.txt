@@ -1,0 +1,23 @@
+# concept: horse
+# page: horse
+# revid: 93700208
+# section_url: https://en.wiktionary.org/w/index.php?title=horse&action=raw&section=11
+## block: {{trans-top-see|members of the species ''Equus ferus''|mare}}
+* Assamese: {{tt|as|ঘোঁৰা|c}}
+* Odia: {{tt+|or|ଘୋଡ଼ା}}
+* Punjabi: {{tt+|pa|ਘੋੜਾ|m}}
+* Urdu: {{tt|ur|گھوڑا|m}}, {{t|ur|اَسْپ|m}}, {{t|ur|اَشْو|m}}, {{t|ur|تُرَگ|m}}
+* Nepali: {{tt+|ne|घोडा}}
+* Sanskrit: {{tt+|sa|अश्व|m}}, {{tt+|sa|घोटक|m}}, {{tt+|sa|तुरग|m}}, {{tt+|sa|अर्वन्|m}}, {{tt+|sa|हय|m}}, {{tt+|sa|वातायन|m}}
+MISSING Maithili
+* Sindhi: {{t-needed|sd}}
+* Kashmiri: {{tt+|ks|گُر|m}}
+* Konkani: {{tt|kok|tokli}}
+MISSING Dogri
+MISSING Manipuri
+MISSING Bodo
+* Santali: {{tt|sat|ᱥᱚᱫᱳᱢ}}
+* Japanese: {{tt+|ja|馬|tr=うま, uma}}, {{tt+|ja|ウマ|tr=uma}}
+* Russian: {{tt+|ru|ло́шадь|f}}, {{tt+|ru|конь|m}}
+* Arabic: {{tt+|ar|حِصَان|m}}, {{tt|ar|فَرَس|m|f}}, {{tt+|ar|خَيْل|f}} {{q|collective}}
+* Hindi: {{tt+|hi|घोड़ा|m}}, {{tt+|hi|अश्व|m}}, {{tt+|hi|तुरग|m}}

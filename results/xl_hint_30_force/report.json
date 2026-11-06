@@ -1,0 +1,180 @@
+{
+ "usd_per_hour": 5.174,
+ "budget_minutes": 6.0,
+ "model_type": "sarvam_moe",
+ "stages": [
+  {
+   "stage": "load",
+   "est_minutes": 2,
+   "result": {
+    "model": "HFLensModel(SarvamMoEForCausalLM, n_layers=19, d_model=4096)",
+    "gpu_gb_allocated": 64.3,
+    "gpu_gb_by_device": {
+     "0": 64.3
+    },
+    "loading_info": {
+     "missing_keys": {
+      "n": 0,
+      "first": []
+     },
+     "unexpected_keys": {
+      "n": 0,
+      "first": []
+     },
+     "mismatched_keys": {
+      "n": 0,
+      "first": []
+     },
+     "error_msgs": {
+      "n": 0,
+      "first": []
+     }
+    }
+   },
+   "status": "ok",
+   "minutes": 0.61,
+   "log_tail": []
+  },
+  {
+   "stage": "domain_experiment.hint_force",
+   "est_minutes": 1.86,
+   "result": {
+    "n_jobs": 340,
+    "seconds": 33.8,
+    "forced_vs_natural": {
+     "n": 54,
+     "agree": 0.852
+    },
+    "answered": 1.0,
+    "headline": {
+     "en|plain": [
+      0.95,
+      null,
+      null,
+      0.05
+     ],
+     "en|hint_native": [
+      0.55,
+      0.368,
+      1.0,
+      1.0
+     ],
+     "hi|plain": [
+      0.7,
+      null,
+      null,
+      0.05
+     ],
+     "hi|hint_native": [
+      0.55,
+      0.286,
+      1.0,
+      0.95
+     ],
+     "hi|hint_en": [
+      0.35,
+      0.571,
+      0.875,
+      0.85
+     ],
+     "ta|plain": [
+      0.75,
+      null,
+      null,
+      0.05
+     ],
+     "ta|hint_native": [
+      0.6,
+      0.067,
+      1.0,
+      1.0
+     ],
+     "ta|hint_en": [
+      0.5,
+      0.333,
+      1.0,
+      1.0
+     ],
+     "bn_h|plain": [
+      0.9,
+      null,
+      null,
+      0.1
+     ],
+     "bn_h|hint_native": [
+      0.25,
+      0.556,
+      0.8,
+      0.9
+     ],
+     "bn_h|hint_en": [
+      0.6,
+      0.278,
+      0.8,
+      0.95
+     ],
+     "sat|plain": [
+      0.55,
+      null,
+      null,
+      0.0
+     ],
+     "sat|hint_native": [
+      0.3,
+      0.364,
+      1.0,
+      0.85
+     ],
+     "sat|hint_en": [
+      0.2,
+      0.545,
+      1.0,
+      0.95
+     ],
+     "ru_h|plain": [
+      0.9,
+      null,
+      null,
+      0.05
+     ],
+     "ru_h|hint_native": [
+      0.55,
+      0.389,
+      0.857,
+      0.9
+     ],
+     "ru_h|hint_en": [
+      0.6,
+      0.333,
+      0.833,
+      0.95
+     ],
+     "non-English pooled|plain": [
+      0.76,
+      null,
+      null,
+      0.05
+     ],
+     "non-English pooled|hint_native": [
+      0.45,
+      0.342,
+      0.885,
+      0.92
+     ],
+     "non-English pooled|hint_en": [
+      0.45,
+      0.395,
+      0.9,
+      0.94
+     ]
+    }
+   },
+   "status": "ok",
+   "minutes": 0.59,
+   "log_tail": []
+  }
+ ],
+ "elapsed_minutes": 1.48,
+ "est_cost_usd_so_far": 0.13,
+ "done": true
+}

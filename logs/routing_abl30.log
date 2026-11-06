@@ -1,0 +1,658 @@
+✓ Initialized. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-UsybLi2Sh4vcan7N9jKAz0
+✓ Created objects.
+├── ✓ Uploaded .\code\modal_app.py
+├── ✓ Uploaded .\code
+├── ✓ Created Function prepare_weights.
+├── ✓ Created Function smoke.
+├── ✓ Created Function smoke_2gpu.
+├── ✓ Created Function batch_probe.
+├── ✓ Created Function prepare_qwen.
+├── ✓ Created Function cka.
+├── ✓ Created Function pilot.
+├── ✓ Created Function pilot2.
+├── ✓ Created Function merge_j.
+├── ✓ Created Function build_corpus_fn.
+├── ✓ Created Function cka_robust.
+└── ✓ Created Function diagnose.
+1xH200 at $5.17/h, hard timeout 7 min -> worst case $0.58
+
+[1ALoading weights:   0%|          | 0/7122 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/7122 [00:02<4:27:39,  2.26s/it]
+[1ALoading weights:   0%|          | 10/7122 [00:02<20:32,  5.77it/s] 
+[1ALoading weights:   0%|          | 26/7122 [00:02<06:44, 17.54it/s]
+[1ALoading weights:   1%|          | 38/7122 [00:02<04:22, 27.03it/s]
+[1ALoading weights:   1%|          | 79/7122 [00:02<01:36, 73.13it/s]
+[1ALoading weights:   2%|▏         | 121/7122 [00:02<00:56, 123.75it/s]
+[1ALoading weights:   2%|▏         | 169/7122 [00:02<00:38, 182.41it/s]
+[1ALoading weights:   3%|▎         | 213/7122 [00:03<00:29, 232.75it/s]
+[1ALoading weights:   4%|▎         | 259/7122 [00:03<00:24, 279.88it/s]
+[1ALoading weights:   4%|▍         | 305/7122 [00:03<00:21, 319.09it/s]
+[1ALoading weights:   5%|▍         | 346/7122 [00:03<00:20, 323.45it/s]
+[1ALoading weights:   5%|▌         | 385/7122 [00:03<00:20, 336.53it/s]
+[1ALoading weights:   6%|▌         | 423/7122 [00:03<00:23, 287.60it/s]
+[1ALoading weights:   6%|▋         | 456/7122 [00:03<00:23, 285.18it/s]
+[1ALoading weights:   7%|▋         | 500/7122 [00:03<00:20, 319.47it/s]
+[1ALoading weights:   8%|▊         | 542/7122 [00:03<00:19, 343.85it/s]
+[1ALoading weights:   8%|▊         | 590/7122 [00:04<00:17, 370.71it/s]
+[1ALoading weights:   9%|▉         | 629/7122 [00:04<00:17, 367.76it/s]
+[1ALoading weights:   9%|▉         | 667/7122 [00:04<00:17, 361.21it/s]
+[1ALoading weights:  10%|▉         | 706/7122 [00:04<00:17, 361.90it/s]
+[1ALoading weights:  10%|█         | 743/7122 [00:04<00:18, 340.15it/s]
+[1ALoading weights:  11%|█         | 778/7122 [00:04<00:19, 324.14it/s]
+[1ALoading weights:  11%|█▏        | 811/7122 [00:04<00:20, 306.83it/s]
+[1ALoading weights:  12%|█▏        | 843/7122 [00:04<00:21, 290.88it/s]
+[1ALoading weights:  12%|█▏        | 885/7122 [00:04<00:19, 323.78it/s]
+[1ALoading weights:  13%|█▎        | 923/7122 [00:05<00:18, 336.41it/s]
+[1ALoading weights:  14%|█▎        | 963/7122 [00:05<00:17, 349.26it/s]
+[1ALoading weights:  14%|█▍        | 1003/7122 [00:05<00:17, 356.43it/s]
+[1ALoading weights:  15%|█▍        | 1043/7122 [00:05<00:16, 359.60it/s]
+[1ALoading weights:  15%|█▌        | 1083/7122 [00:05<00:16, 360.59it/s]
+[1ALoading weights:  16%|█▌        | 1122/7122 [00:05<00:16, 360.33it/s]
+[1ALoading weights:  16%|█▋        | 1162/7122 [00:05<00:16, 365.43it/s]
+[1ALoading weights:  17%|█▋        | 1203/7122 [00:05<00:16, 366.71it/s]
+[1ALoading weights:  17%|█▋        | 1240/7122 [00:06<00:23, 250.61it/s]
+[1ALoading weights:  18%|█▊        | 1286/7122 [00:06<00:19, 294.87it/s]
+[1ALoading weights:  19%|█▊        | 1328/7122 [00:06<00:18, 318.70it/s]
+[1ALoading weights:  19%|█▉        | 1374/7122 [00:06<00:16, 352.60it/s]
+[1ALoading weights:  20%|█▉        | 1418/7122 [00:06<00:15, 367.07it/s]
+[1ALoading weights:  21%|██        | 1465/7122 [00:06<00:14, 392.78it/s]
+[1ALoading weights:  21%|██        | 1507/7122 [00:06<00:14, 398.97it/s]
+[1ALoading weights:  22%|██▏       | 1549/7122 [00:06<00:15, 355.65it/s]
+[1ALoading weights:  22%|██▏       | 1587/7122 [00:07<00:16, 335.12it/s]
+[1ALoading weights:  23%|██▎       | 1622/7122 [00:07<00:20, 262.93it/s]
+[1ALoading weights:  23%|██▎       | 1655/7122 [00:07<00:20, 273.31it/s]
+[1ALoading weights:  24%|██▍       | 1697/7122 [00:07<00:17, 306.74it/s]
+[1ALoading weights:  25%|██▍       | 1745/7122 [00:07<00:15, 344.47it/s]
+[1ALoading weights:  25%|██▌       | 1787/7122 [00:07<00:14, 363.19it/s]
+[1ALoading weights:  26%|██▌       | 1826/7122 [00:07<00:14, 365.39it/s]
+[1ALoading weights:  26%|██▌       | 1864/7122 [00:07<00:14, 364.57it/s]
+[1ALoading weights:  27%|██▋       | 1902/7122 [00:07<00:14, 352.64it/s]
+[1ALoading weights:  27%|██▋       | 1943/7122 [00:08<00:14, 360.15it/s]
+[1ALoading weights:  28%|██▊       | 1982/7122 [00:08<00:13, 368.47it/s]
+[1ALoading weights:  28%|██▊       | 2020/7122 [00:08<00:15, 325.26it/s]
+[1ALoading weights:  29%|██▉       | 2062/7122 [00:08<00:14, 340.57it/s]
+[1ALoading weights:  30%|██▉       | 2104/7122 [00:08<00:14, 354.02it/s]
+[1ALoading weights:  30%|███       | 2144/7122 [00:08<00:13, 359.29it/s]
+[1ALoading weights:  31%|███       | 2183/7122 [00:08<00:13, 367.71it/s]
+[1ALoading weights:  31%|███       | 2221/7122 [00:08<00:13, 360.51it/s]
+[1ALoading weights:  32%|███▏      | 2260/7122 [00:08<00:13, 360.21it/s]
+[1ALoading weights:  32%|███▏      | 2297/7122 [00:09<00:14, 342.13it/s]
+[1ALoading weights:  33%|███▎      | 2340/7122 [00:09<00:13, 356.85it/s]
+[1ALoading weights:  33%|███▎      | 2383/7122 [00:09<00:13, 362.87it/s]
+[1ALoading weights:  34%|███▍      | 2420/7122 [00:09<00:18, 257.60it/s]
+[1ALoading weights:  34%|███▍      | 2457/7122 [00:09<00:16, 278.12it/s]
+[1ALoading weights:  35%|███▌      | 2505/7122 [00:09<00:14, 319.30it/s]
+[1ALoading weights:  36%|███▌      | 2547/7122 [00:09<00:13, 343.62it/s]
+[1ALoading weights:  36%|███▋      | 2595/7122 [00:09<00:12, 372.62it/s]
+[1ALoading weights:  37%|███▋      | 2637/7122 [00:10<00:11, 384.50it/s]
+[1ALoading weights:  38%|███▊      | 2682/7122 [00:10<00:11, 402.13it/s]
+[1ALoading weights:  38%|███▊      | 2724/7122 [00:10<00:11, 372.12it/s]
+[1ALoading weights:  39%|███▉      | 2763/7122 [00:10<00:12, 338.77it/s]
+[1ALoading weights:  39%|███▉      | 2799/7122 [00:10<00:16, 256.95it/s]
+[1ALoading weights:  40%|███▉      | 2840/7122 [00:10<00:14, 289.14it/s]
+[1ALoading weights:  41%|████      | 2886/7122 [00:10<00:13, 322.10it/s]
+[1ALoading weights:  41%|████      | 2934/7122 [00:11<00:11, 356.90it/s]
+[1ALoading weights:  42%|████▏     | 2980/7122 [00:11<00:10, 381.85it/s]
+[1ALoading weights:  42%|████▏     | 3021/7122 [00:11<00:11, 372.34it/s]
+[1ALoading weights:  43%|████▎     | 3060/7122 [00:11<00:10, 373.31it/s]
+[1ALoading weights:  44%|████▎     | 3099/7122 [00:11<00:11, 364.55it/s]
+[1ALoading weights:  44%|████▍     | 3137/7122 [00:11<00:11, 335.43it/s]
+[1ALoading weights:  45%|████▍     | 3172/7122 [00:11<00:12, 324.08it/s]
+[1ALoading weights:  45%|████▌     | 3206/7122 [00:11<00:13, 294.99it/s]
+[1ALoading weights:  46%|████▌     | 3247/7122 [00:11<00:12, 322.37it/s]
+[1ALoading weights:  46%|████▌     | 3288/7122 [00:12<00:11, 336.76it/s]
+[1ALoading weights:  47%|████▋     | 3329/7122 [00:12<00:10, 352.12it/s]
+[1ALoading weights:  47%|████▋     | 3369/7122 [00:12<00:10, 358.34it/s]
+[1ALoading weights:  48%|████▊     | 3409/7122 [00:12<00:10, 360.48it/s]
+[1ALoading weights:  48%|████▊     | 3449/7122 [00:12<00:09, 367.46it/s]
+[1ALoading weights:  49%|████▉     | 3487/7122 [00:12<00:10, 355.88it/s]
+[1ALoading weights:  50%|████▉     | 3528/7122 [00:12<00:09, 362.43it/s]
+[1ALoading weights:  50%|█████     | 3571/7122 [00:12<00:09, 380.64it/s]
+[1ALoading weights:  51%|█████     | 3610/7122 [00:13<00:12, 275.16it/s]
+[1ALoading weights:  51%|█████     | 3650/7122 [00:13<00:11, 300.16it/s]
+[1ALoading weights:  52%|█████▏    | 3695/7122 [00:13<00:10, 330.16it/s]
+[1ALoading weights:  52%|█████▏    | 3739/7122 [00:13<00:09, 358.02it/s]
+[1ALoading weights:  53%|█████▎    | 3784/7122 [00:13<00:08, 377.09it/s]
+[1ALoading weights:  54%|█████▎    | 3826/7122 [00:13<00:08, 387.81it/s]
+[1ALoading weights:  54%|█████▍    | 3872/7122 [00:13<00:08, 406.20it/s]
+[1ALoading weights:  55%|█████▍    | 3914/7122 [00:13<00:08, 386.79it/s]
+[1ALoading weights:  56%|█████▌    | 3958/7122 [00:13<00:08, 392.04it/s]
+[1ALoading weights:  56%|█████▌    | 3998/7122 [00:14<00:19, 159.57it/s]
+[1ALoading weights:  57%|█████▋    | 4041/7122 [00:14<00:15, 194.96it/s]
+[1ALoading weights:  57%|█████▋    | 4089/7122 [00:14<00:12, 239.66it/s]
+[1ALoading weights:  58%|█████▊    | 4135/7122 [00:14<00:10, 279.37it/s]
+[1ALoading weights:  59%|█████▊    | 4176/7122 [00:14<00:09, 301.08it/s]
+[1ALoading weights:  59%|█████▉    | 4217/7122 [00:15<00:09, 321.92it/s]
+[1ALoading weights:  60%|█████▉    | 4257/7122 [00:15<00:08, 339.23it/s]
+[1ALoading weights:  60%|██████    | 4296/7122 [00:15<00:08, 342.79it/s]
+[1ALoading weights:  61%|██████    | 4334/7122 [00:15<00:07, 348.84it/s]
+[1ALoading weights:  61%|██████▏   | 4372/7122 [00:15<00:08, 318.87it/s]
+[1ALoading weights:  62%|██████▏   | 4407/7122 [00:15<00:08, 326.83it/s]
+[1ALoading weights:  62%|██████▏   | 4449/7122 [00:15<00:07, 350.95it/s]
+[1ALoading weights:  63%|██████▎   | 4486/7122 [00:15<00:07, 343.45it/s]
+[1ALoading weights:  64%|██████▎   | 4526/7122 [00:15<00:07, 349.33it/s]
+[1ALoading weights:  64%|██████▍   | 4566/7122 [00:16<00:07, 356.23it/s]
+[1ALoading weights:  65%|██████▍   | 4606/7122 [00:16<00:06, 359.52it/s]
+[1ALoading weights:  65%|██████▌   | 4646/7122 [00:16<00:06, 364.90it/s]
+[1ALoading weights:  66%|██████▌   | 4683/7122 [00:16<00:06, 358.86it/s]
+[1ALoading weights:  66%|██████▋   | 4722/7122 [00:16<00:06, 362.35it/s]
+[1ALoading weights:  67%|██████▋   | 4765/7122 [00:16<00:06, 381.64it/s]
+[1ALoading weights:  67%|██████▋   | 4804/7122 [00:16<00:07, 297.07it/s]
+[1ALoading weights:  68%|██████▊   | 4843/7122 [00:16<00:07, 314.60it/s]
+[1ALoading weights:  69%|██████▊   | 4883/7122 [00:16<00:06, 328.65it/s]
+[1ALoading weights:  69%|██████▉   | 4928/7122 [00:17<00:06, 360.40it/s]
+[1ALoading weights:  70%|██████▉   | 4973/7122 [00:17<00:05, 375.56it/s]
+[1ALoading weights:  71%|███████   | 5023/7122 [00:17<00:05, 408.02it/s]
+[1ALoading weights:  71%|███████   | 5065/7122 [00:17<00:05, 402.51it/s]
+[1ALoading weights:  72%|███████▏  | 5107/7122 [00:17<00:05, 379.28it/s]
+[1ALoading weights:  72%|███████▏  | 5148/7122 [00:17<00:05, 377.70it/s]
+[1ALoading weights:  73%|███████▎  | 5187/7122 [00:17<00:06, 279.85it/s]
+[1ALoading weights:  73%|███████▎  | 5226/7122 [00:17<00:06, 301.72it/s]
+[1ALoading weights:  74%|███████▍  | 5271/7122 [00:18<00:05, 337.25it/s]
+[1ALoading weights:  75%|███████▍  | 5312/7122 [00:18<00:05, 353.71it/s]
+[1ALoading weights:  75%|███████▌  | 5358/7122 [00:18<00:04, 380.40it/s]
+[1ALoading weights:  76%|███████▌  | 5399/7122 [00:18<00:04, 365.69it/s]
+[1ALoading weights:  76%|███████▋  | 5438/7122 [00:18<00:04, 367.92it/s]
+[1ALoading weights:  77%|███████▋  | 5476/7122 [00:18<00:04, 349.19it/s]
+[1ALoading weights:  77%|███████▋  | 5512/7122 [00:18<00:04, 328.27it/s]
+[1ALoading weights:  78%|███████▊  | 5548/7122 [00:18<00:04, 328.49it/s]
+[1ALoading weights:  78%|███████▊  | 5582/7122 [00:19<00:05, 291.92it/s]
+[1ALoading weights:  79%|███████▉  | 5617/7122 [00:19<00:04, 302.63it/s]
+[1ALoading weights:  79%|███████▉  | 5659/7122 [00:19<00:04, 332.50it/s]
+[1ALoading weights:  80%|███████▉  | 5695/7122 [00:19<00:04, 335.79it/s]
+[1ALoading weights:  81%|████████  | 5735/7122 [00:19<00:03, 347.58it/s]
+[1ALoading weights:  81%|████████  | 5775/7122 [00:19<00:03, 356.28it/s]
+[1ALoading weights:  82%|████████▏ | 5815/7122 [00:19<00:03, 360.48it/s]
+[1ALoading weights:  82%|████████▏ | 5853/7122 [00:19<00:03, 354.39it/s]
+[1ALoading weights:  83%|████████▎ | 5891/7122 [00:19<00:03, 355.48it/s]
+[1ALoading weights:  83%|████████▎ | 5935/7122 [00:19<00:03, 370.91it/s]
+[1ALoading weights:  84%|████████▍ | 5973/7122 [00:20<00:03, 297.89it/s]
+[1ALoading weights:  84%|████████▍ | 6012/7122 [00:20<00:03, 316.29it/s]
+[1ALoading weights:  85%|████████▍ | 6052/7122 [00:20<00:03, 334.53it/s]
+[1ALoading weights:  86%|████████▌ | 6092/7122 [00:20<00:02, 346.20it/s]
+[1ALoading weights:  86%|████████▌ | 6132/7122 [00:20<00:02, 356.82it/s]
+[1ALoading weights:  87%|████████▋ | 6180/7122 [00:20<00:02, 384.26it/s]
+[1ALoading weights:  87%|████████▋ | 6222/7122 [00:20<00:02, 394.20it/s]
+[1ALoading weights:  88%|████████▊ | 6263/7122 [00:20<00:02, 393.70it/s]
+[1ALoading weights:  89%|████████▊ | 6303/7122 [00:21<00:02, 380.95it/s]
+[1ALoading weights:  89%|████████▉ | 6342/7122 [00:21<00:02, 344.28it/s]
+[1ALoading weights:  90%|████████▉ | 6378/7122 [00:21<00:02, 278.61it/s]
+[1ALoading weights:  90%|█████████ | 6415/7122 [00:21<00:02, 298.41it/s]
+[1ALoading weights:  91%|█████████ | 6459/7122 [00:21<00:02, 331.49it/s]
+[1ALoading weights:  91%|█████████▏| 6505/7122 [00:21<00:01, 362.17it/s]
+[1ALoading weights:  92%|█████████▏| 6554/7122 [00:21<00:01, 389.05it/s]
+[1ALoading weights:  93%|█████████▎| 6595/7122 [00:21<00:01, 379.26it/s]
+[1ALoading weights:  93%|█████████▎| 6634/7122 [00:21<00:01, 381.03it/s]
+[1ALoading weights:  94%|█████████▎| 6673/7122 [00:22<00:01, 344.19it/s]
+[1ALoading weights:  94%|█████████▍| 6709/7122 [00:22<00:01, 324.15it/s]
+[1ALoading weights:  95%|█████████▍| 6743/7122 [00:22<00:01, 288.03it/s]
+[1ALoading weights:  95%|█████████▌| 6789/7122 [00:22<00:01, 329.48it/s]
+[1ALoading weights:  96%|█████████▌| 6828/7122 [00:22<00:00, 344.61it/s]
+[1ALoading weights:  96%|█████████▋| 6864/7122 [00:22<00:00, 346.69it/s]
+[1ALoading weights:  97%|█████████▋| 6904/7122 [00:22<00:00, 352.15it/s]
+[1ALoading weights:  98%|█████████▊| 6944/7122 [00:22<00:00, 360.97it/s]
+[1ALoading weights:  98%|█████████▊| 6984/7122 [00:23<00:00, 368.59it/s]
+[1ALoading weights:  99%|█████████▊| 7028/7122 [00:23<00:00, 388.35it/s]
+[1ALoading weights:  99%|█████████▉| 7068/7122 [00:23<00:00, 359.48it/s]
+[1ALoading weights: 100%|█████████▉| 7112/7122 [00:23<00:00, 381.54it/s]
+[1ALoading weights: 100%|██████████| 7122/7122 [00:24<00:00, 293.42it/s]
+The repository /vol/sarvam-30b-bf16 contains custom code which must be executed to correctly load the model. You can inspect the repository content at /vol/sarvam-30b-bf16 .
+ You can inspect the repository content at https://hf.co//vol/sarvam-30b-bf16.
+You can avoid this prompt in future by passing the argument `trust_remote_code=True`.
+
+[transformers] You are using a model of type `sarvam_moe` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+Do you wish to run the custom code? [y/N] [transformers] `use_return_dict` is deprecated! Use `return_dict` instead!
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+{
+ "usd_per_hour": 5.174,
+ "budget_minutes": 4.7,
+ "model_type": "sarvam_moe",
+ "stages": [
+  {
+   "stage": "load",
+   "est_minutes": 2,
+   "result": {
+    "model": "HFLensModel(SarvamMoEForCausalLM, n_layers=19, d_model=4096)",
+    "gpu_gb_allocated": 64.3,
+    "gpu_gb_by_device": {
+     "0": 64.3
+    },
+    "loading_info": {
+     "missing_keys": {
+      "n": 0,
+      "first": []
+     },
+     "unexpected_keys": {
+      "n": 0,
+      "first": []
+     },
+     "mismatched_keys": {
+      "n": 0,
+      "first": []
+     },
+     "error_msgs": {
+      "n": 0,
+      "first": []
+     }
+    }
+   },
+   "status": "ok",
+   "minutes": 0.54,
+   "log_tail": []
+  },
+  {
+   "stage": "routing_ablation.english",
+   "est_minutes": 3.18,
+   "result": {
+    "lens": "j_200p",
+    "n_items": 272,
+    "n_candidates": 320,
+    "mid_layers": [
+     13,
+     14,
+     15,
+     16
+    ],
+    "layers": [
+     13,
+     14,
+     15,
+     16,
+     17,
+     18
+    ],
+    "top_k": 6,
+    "n_experts": 128,
+    "target_p": {
+     "clean": 0.8848,
+     "english_drop": 0.057,
+     "english_drop_ci": [
+      0.0435,
+      0.0711
+     ],
+     "control_drop": 0.0037,
+     "control_drop_ci": [
+      -0.0004,
+      0.008
+     ],
+     "still_correct_english": 0.949,
+     "still_correct_control": 0.982
+    },
+    "checks": {
+     "earlier_positions_unchanged": 0.994,
+     "first_layer_unchanged": 1.0,
+     "clean_rerun_identical": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "per_layer": [
+     {
+      "layer": 13,
+      "edited_before": false,
+      "jaccard_english": 1.0,
+      "jaccard_english_ci": [
+       1.0,
+       1.0
+      ],
+      "jaccard_control": 1.0,
+      "jaccard_control_ci": [
+       1.0,
+       1.0
+      ],
+      "control_minus_english": 0.0,
+      "control_minus_english_ci": [
+       0.0,
+       0.0
+      ],
+      "unchanged_english": 1.0,
+      "unchanged_control": 1.0,
+      "router_logit_cos_english": 1.0,
+      "router_logit_cos_control": 1.0
+     },
+     {
+      "layer": 14,
+      "edited_before": true,
+      "jaccard_english": 0.9496,
+      "jaccard_english_ci": [
+       0.937,
+       0.9632
+      ],
+      "jaccard_control": 0.9548,
+      "jaccard_control_ci": [
+       0.9422,
+       0.9664
+      ],
+      "control_minus_english": 0.0053,
+      "control_minus_english_ci": [
+       -0.0095,
+       0.021
+      ],
+      "unchanged_english": 0.824,
+      "unchanged_control": 0.842,
+      "router_logit_cos_english": 0.9999,
+      "router_logit_cos_control": 0.99995
+     },
+     {
+      "layer": 15,
+      "edited_before": true,
+      "jaccard_english": 0.8838,
+      "jaccard_english_ci": [
+       0.8655,
+       0.902
+      ],
+      "jaccard_control": 0.9498,
+      "jaccard_control_ci": [
+       0.9364,
+       0.9624
+      ],
+      "control_minus_english": 0.066,
+      "control_minus_english_ci": [
+       0.0479,
+       0.0855
+      ],
+      "unchanged_english": 0.618,
+      "unchanged_control": 0.827,
+      "router_logit_cos_english": 0.99948,
+      "router_logit_cos_control": 0.99988
+     },
+     {
+      "layer": 16,
+      "edited_before": true,
+      "jaccard_english": 0.9136,
+      "jaccard_english_ci": [
+       0.8965,
+       0.9307
+      ],
+      "jaccard_control": 0.9632,
+      "jaccard_control_ci": [
+       0.9527,
+       0.9737
+      ],
+      "control_minus_english": 0.0496,
+      "control_minus_english_ci": [
+       0.032,
+       0.0672
+      ],
+      "unchanged_english": 0.717,
+      "unchanged_control": 0.871,
+      "router_logit_cos_english": 0.99929,
+      "router_logit_cos_control": 0.99982
+     },
+     {
+      "layer": 17,
+      "edited_before": true,
+      "jaccard_english": 0.9475,
+      "jaccard_english_ci": [
+       0.9348,
+       0.9601
+      ],
+      "jaccard_control": 0.9769,
+      "jaccard_control_ci": [
+       0.9674,
+       0.9863
+      ],
+      "control_minus_english": 0.0294,
+      "control_minus_english_ci": [
+       0.0158,
+       0.0431
+      ],
+      "unchanged_english": 0.816,
+      "unchanged_control": 0.919,
+      "router_logit_cos_english": 0.99895,
+      "router_logit_cos_control": 0.99979
+     },
+     {
+      "layer": 18,
+      "edited_before": true,
+      "jaccard_english": 0.9341,
+      "jaccard_english_ci": [
+       0.9204,
+       0.9477
+      ],
+      "jaccard_control": 0.9674,
+      "jaccard_control_ci": [
+       0.9569,
+       0.9779
+      ],
+      "control_minus_english": 0.0334,
+      "control_minus_english_ci": [
+       0.0176,
+       0.0488
+      ],
+      "unchanged_english": 0.772,
+      "unchanged_control": 0.886,
+      "router_logit_cos_english": 0.999,
+      "router_logit_cos_control": 0.99987
+     }
+    ],
+    "downstream_mean": {
+     "layers": [
+      14,
+      15,
+      16,
+      17,
+      18
+     ],
+     "change_english": 0.0743,
+     "change_english_ci": [
+      0.0663,
+      0.0821
+     ],
+     "change_control": 0.0376,
+     "change_control_ci": [
+      0.0323,
+      0.043
+     ],
+     "english_minus_control": 0.0367,
+     "english_minus_control_ci": [
+      0.0286,
+      0.0447
+     ]
+    },
+    "removed_share": {
+     "english": 0.0488,
+     "control": 0.0301,
+     "by_layer_english": [
+      0.0723,
+      0.0467,
+      0.0306,
+      0.0457
+     ],
+     "by_layer_control": [
+      0.0438,
+      0.0245,
+      0.0221,
+      0.0299
+     ]
+    },
+    "equal_share_regression": {
+     "english_term": 0.0145,
+     "english_term_ci": [
+      0.0009,
+      0.0282
+     ],
+     "share_slope": 1.1906,
+     "intercept": 0.0017
+    },
+    "change_vs_drop": {
+     "english": {
+      "rho": 0.134,
+      "ci": [
+       0.012,
+       0.252
+      ]
+     },
+     "control": {
+      "rho": 0.016,
+      "ci": [
+       -0.104,
+       0.138
+      ]
+     },
+     "pooled": {
+      "rho": 0.177,
+      "ci": [
+       0.094,
+       0.259
+      ]
+     }
+    },
+    "selectivity": {
+     "scores": {
+      "en_word": "English bare words vs the other 9 languages",
+      "tgt_word": "target-language bare words vs the rest",
+      "tgt_out": "pivot prompts with this target vs other targets (final position, concept left out)",
+      "en_out": "pivot prompts translating INTO English (ta-en) vs Indic targets"
+     },
+     "layers": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+     ],
+     "lost_gained_counts": {
+      "english": {
+       "lost_en_top10": 18,
+       "gained_en_top10": 32,
+       "lost_tgt_top10": 157,
+       "gained_tgt_top10": 159,
+       "changed": 358
+      },
+      "control": {
+       "lost_en_top10": 9,
+       "gained_en_top10": 14,
+       "lost_tgt_top10": 78,
+       "gained_tgt_top10": 79,
+       "changed": 179
+      }
+     },
+     "en_word": {
+      "by_layer_english": [
+       0.0,
+       -0.00012,
+       0.00368,
+       0.0049,
+       -0.00223,
+       0.0044
+      ],
+      "by_layer_control": [
+       0.0,
+       0.00074,
+       0.00174,
+       0.00244,
+       0.00223,
+       0.00192
+      ],
+      "downstream_english": 0.00213,
+      "downstream_control": 0.00181,
+      "english_minus_control": 0.00031,
+      "english_minus_control_ci": [
+       -0.0012,
+       0.0018
+      ]
+     },
+     "tgt_word": {
+      "by_layer_english": [
+       0.0,
+       -0.0002,
+       -0.00045,
+       0.00052,
+       0.00147,
+       -0.00041
+      ],
+      "by_layer_control": [
+       0.0,
+       -0.00026,
+       -0.00052,
+       -0.00041,
+       0.00059,
+       -0.00144
+      ],
+      "downstream_english": 0.00018,
+      "downstream_control": -0.00041,
+      "english_minus_control": 0.00059,
+      "english_minus_control_ci": [
+       -0.00027,
+       0.00143
+      ]
+     },
+     "tgt_out": {
+      "by_layer_english": [
+       0.0,
+       0.00096,
+       -0.00028,
+       0.00338,
+       0.00033,
+       -0.00035
+      ],
+      "by_layer_control": [
+       0.0,
+       -0.00036,
+       -0.00029,
+       0.00084,
+       0.00234,
+       -0.00115
+      ],
+      "downstream_english": 0.00081,
+      "downstream_control": 0.00027,
+      "english_minus_control": 0.00053,
+      "english_minus_control_ci": [
+       -0.00093,
+       0.00194
+      ]
+     },
+     "en_out": {
+      "by_layer_english": [
+       0.0,
+       -0.00373,
+       0.00879,
+       0.00267,
+       -0.00321,
+       0.00024
+      ],
+      "by_layer_control": [
+       0.0,
+       -0.00051,
+       0.00172,
+       0.00355,
+       0.00233,
+       0.00321
+      ],
+      "downstream_english": 0.00095,
+      "downstream_control": 0.00206,
+      "english_minus_control": -0.00111,
+      "english_minus_control_ci": [
+       -0.0032,
+       0.00107
+      ]
+     }
+    }
+   },
+   "status": "ok",
+   "minutes": 1.87,
+   "log_tail": [
+    "routing_ablation: routing_ablation: 272 items; downstream change english 0.0743 vs control 0.0376"
+   ]
+  }
+ ],
+ "elapsed_minutes": 2.57,
+ "est_cost_usd_so_far": 0.22,
+ "done": true
+}
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-UsybLi2Sh4vcan7N9jKAz0

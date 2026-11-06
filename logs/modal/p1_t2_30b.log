@@ -1,0 +1,1339 @@
+✓ Initialized. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-9CTZ5ijva4KBSzPZi3V1zS
+✓ Created objects.
+├── ✓ Uploaded .\code\modal_app.py
+├── ✓ Uploaded .\code
+├── ✓ Created Function prepare_weights.
+├── ✓ Created Function smoke.
+├── ✓ Created Function smoke_2gpu.
+├── ✓ Created Function batch_probe.
+├── ✓ Created Function prepare_qwen.
+├── ✓ Created Function cka.
+├── ✓ Created Function pilot.
+├── ✓ Created Function pilot2.
+├── ✓ Created Function merge_j.
+├── ✓ Created Function build_corpus_fn.
+├── ✓ Created Function cka_robust.
+└── ✓ Created Function diagnose.
+1xH200 at $5.17/h, hard timeout 20 min -> worst case $1.72
+
+[1ALoading weights:   0%|          | 0/7122 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 8/7122 [00:00<02:01, 58.74it/s]
+[1ALoading weights:   0%|          | 21/7122 [00:00<01:15, 94.09it/s]
+[1ALoading weights:   0%|          | 35/7122 [00:00<01:08, 102.76it/s]
+[1ALoading weights:   1%|          | 79/7122 [00:00<00:32, 215.91it/s]
+[1ALoading weights:   2%|▏         | 130/7122 [00:00<00:22, 311.94it/s]
+[1ALoading weights:   2%|▏         | 177/7122 [00:00<00:19, 352.11it/s]
+[1ALoading weights:   3%|▎         | 229/7122 [00:00<00:17, 396.07it/s]
+[1ALoading weights:   4%|▍         | 275/7122 [00:00<00:16, 413.75it/s]
+[1ALoading weights:   4%|▍         | 317/7122 [00:00<00:16, 406.93it/s]
+[1ALoading weights:   5%|▌         | 359/7122 [00:01<00:17, 395.39it/s]
+[1ALoading weights:   6%|▌         | 402/7122 [00:01<00:16, 404.96it/s]
+[1ALoading weights:   6%|▌         | 443/7122 [00:01<00:22, 302.61it/s]
+[1ALoading weights:   7%|▋         | 482/7122 [00:01<00:20, 317.34it/s]
+[1ALoading weights:   7%|▋         | 534/7122 [00:01<00:18, 359.68it/s]
+[1ALoading weights:   8%|▊         | 580/7122 [00:01<00:17, 381.95it/s]
+[1ALoading weights:   9%|▊         | 622/7122 [00:01<00:16, 382.49it/s]
+[1ALoading weights:   9%|▉         | 662/7122 [00:01<00:16, 383.44it/s]
+[1ALoading weights:  10%|▉         | 702/7122 [00:02<00:16, 387.74it/s]
+[1ALoading weights:  10%|█         | 742/7122 [00:02<00:16, 376.62it/s]
+[1ALoading weights:  11%|█         | 781/7122 [00:02<00:16, 375.89it/s]
+[1ALoading weights:  11%|█▏        | 819/7122 [00:02<00:18, 337.62it/s]
+[1ALoading weights:  12%|█▏        | 856/7122 [00:02<00:18, 345.95it/s]
+[1ALoading weights:  13%|█▎        | 904/7122 [00:02<00:16, 374.85it/s]
+[1ALoading weights:  13%|█▎        | 943/7122 [00:02<00:16, 366.72it/s]
+[1ALoading weights:  14%|█▍        | 983/7122 [00:02<00:16, 369.85it/s]
+[1ALoading weights:  14%|█▍        | 1023/7122 [00:02<00:16, 377.92it/s]
+[1ALoading weights:  15%|█▍        | 1063/7122 [00:03<00:15, 381.87it/s]
+[1ALoading weights:  16%|█▌        | 1106/7122 [00:03<00:15, 394.67it/s]
+[1ALoading weights:  16%|█▌        | 1146/7122 [00:03<00:15, 382.79it/s]
+[1ALoading weights:  17%|█▋        | 1192/7122 [00:03<00:14, 397.41it/s]
+[1ALoading weights:  17%|█▋        | 1232/7122 [00:03<00:22, 264.31it/s]
+[1ALoading weights:  18%|█▊        | 1272/7122 [00:03<00:20, 291.08it/s]
+[1ALoading weights:  19%|█▊        | 1320/7122 [00:03<00:17, 334.86it/s]
+[1ALoading weights:  19%|█▉        | 1366/7122 [00:03<00:15, 362.95it/s]
+[1ALoading weights:  20%|█▉        | 1414/7122 [00:04<00:14, 390.17it/s]
+[1ALoading weights:  21%|██        | 1464/7122 [00:04<00:13, 418.40it/s]
+[1ALoading weights:  21%|██        | 1509/7122 [00:04<00:14, 399.97it/s]
+[1ALoading weights:  22%|██▏       | 1553/7122 [00:04<00:13, 407.89it/s]
+[1ALoading weights:  22%|██▏       | 1596/7122 [00:04<00:14, 393.14it/s]
+[1ALoading weights:  23%|██▎       | 1637/7122 [00:04<00:18, 300.83it/s]
+[1ALoading weights:  24%|██▎       | 1679/7122 [00:04<00:16, 327.23it/s]
+[1ALoading weights:  24%|██▍       | 1723/7122 [00:04<00:15, 349.69it/s]
+[1ALoading weights:  25%|██▍       | 1775/7122 [00:05<00:13, 384.66it/s]
+[1ALoading weights:  25%|██▌       | 1816/7122 [00:05<00:13, 383.46it/s]
+[1ALoading weights:  26%|██▌       | 1856/7122 [00:05<00:13, 386.73it/s]
+[1ALoading weights:  27%|██▋       | 1896/7122 [00:05<00:13, 375.80it/s]
+[1ALoading weights:  27%|██▋       | 1937/7122 [00:05<00:13, 377.97it/s]
+[1ALoading weights:  28%|██▊       | 1985/7122 [00:05<00:12, 401.54it/s]
+[1ALoading weights:  28%|██▊       | 2026/7122 [00:05<00:14, 350.63it/s]
+[1ALoading weights:  29%|██▉       | 2063/7122 [00:05<00:14, 352.30it/s]
+[1ALoading weights:  30%|██▉       | 2108/7122 [00:05<00:13, 372.62it/s]
+[1ALoading weights:  30%|███       | 2148/7122 [00:06<00:13, 374.71it/s]
+[1ALoading weights:  31%|███       | 2192/7122 [00:06<00:12, 383.32it/s]
+[1ALoading weights:  31%|███▏      | 2232/7122 [00:06<00:12, 386.57it/s]
+[1ALoading weights:  32%|███▏      | 2272/7122 [00:06<00:12, 390.39it/s]
+[1ALoading weights:  32%|███▏      | 2312/7122 [00:06<00:13, 364.31it/s]
+[1ALoading weights:  33%|███▎      | 2351/7122 [00:06<00:12, 370.72it/s]
+[1ALoading weights:  34%|███▎      | 2390/7122 [00:06<00:13, 362.59it/s]
+[1ALoading weights:  34%|███▍      | 2427/7122 [00:06<00:17, 273.43it/s]
+[1ALoading weights:  35%|███▍      | 2470/7122 [00:07<00:15, 308.93it/s]
+[1ALoading weights:  35%|███▌      | 2517/7122 [00:07<00:13, 341.43it/s]
+[1ALoading weights:  36%|███▌      | 2569/7122 [00:07<00:12, 379.10it/s]
+[1ALoading weights:  37%|███▋      | 2619/7122 [00:07<00:10, 409.45it/s]
+[1ALoading weights:  37%|███▋      | 2663/7122 [00:07<00:10, 415.15it/s]
+[1ALoading weights:  38%|███▊      | 2706/7122 [00:07<00:10, 410.59it/s]
+[1ALoading weights:  39%|███▊      | 2749/7122 [00:07<00:10, 415.61it/s]
+[1ALoading weights:  39%|███▉      | 2792/7122 [00:07<00:12, 336.31it/s]
+[1ALoading weights:  40%|███▉      | 2829/7122 [00:07<00:13, 327.05it/s]
+[1ALoading weights:  40%|████      | 2878/7122 [00:08<00:11, 363.14it/s]
+[1ALoading weights:  41%|████      | 2930/7122 [00:08<00:10, 398.49it/s]
+[1ALoading weights:  42%|████▏     | 2976/7122 [00:08<00:10, 410.43it/s]
+[1ALoading weights:  42%|████▏     | 3019/7122 [00:08<00:10, 390.67it/s]
+[1ALoading weights:  43%|████▎     | 3060/7122 [00:08<00:10, 389.53it/s]
+[1ALoading weights:  44%|████▎     | 3100/7122 [00:08<00:10, 380.27it/s]
+[1ALoading weights:  44%|████▍     | 3139/7122 [00:08<00:10, 381.15it/s]
+[1ALoading weights:  45%|████▍     | 3178/7122 [00:08<00:10, 368.46it/s]
+[1ALoading weights:  45%|████▌     | 3216/7122 [00:08<00:11, 339.61it/s]
+[1ALoading weights:  46%|████▌     | 3265/7122 [00:09<00:10, 375.17it/s]
+[1ALoading weights:  46%|████▋     | 3305/7122 [00:09<00:10, 377.14it/s]
+[1ALoading weights:  47%|████▋     | 3345/7122 [00:09<00:09, 380.87it/s]
+[1ALoading weights:  48%|████▊     | 3385/7122 [00:09<00:09, 380.56it/s]
+[1ALoading weights:  48%|████▊     | 3426/7122 [00:09<00:09, 388.81it/s]
+[1ALoading weights:  49%|████▊     | 3469/7122 [00:09<00:09, 394.87it/s]
+[1ALoading weights:  49%|████▉     | 3509/7122 [00:09<00:09, 377.02it/s]
+[1ALoading weights:  50%|████▉     | 3547/7122 [00:09<00:10, 348.00it/s]
+[1ALoading weights:  50%|█████     | 3583/7122 [00:09<00:10, 335.07it/s]
+[1ALoading weights:  51%|█████     | 3617/7122 [00:10<00:12, 280.24it/s]
+[1ALoading weights:  51%|█████▏    | 3654/7122 [00:10<00:11, 300.45it/s]
+[1ALoading weights:  52%|█████▏    | 3703/7122 [00:10<00:10, 340.51it/s]
+[1ALoading weights:  53%|█████▎    | 3754/7122 [00:10<00:08, 379.60it/s]
+[1ALoading weights:  53%|█████▎    | 3803/7122 [00:10<00:08, 409.43it/s]
+[1ALoading weights:  54%|█████▍    | 3852/7122 [00:10<00:07, 421.35it/s]
+[1ALoading weights:  55%|█████▍    | 3896/7122 [00:10<00:07, 421.26it/s]
+[1ALoading weights:  55%|█████▌    | 3939/7122 [00:10<00:07, 408.51it/s]
+[1ALoading weights:  56%|█████▌    | 3981/7122 [00:11<00:10, 309.68it/s]
+[1ALoading weights:  56%|█████▋    | 4016/7122 [00:11<00:09, 317.08it/s]
+[1ALoading weights:  57%|█████▋    | 4067/7122 [00:11<00:08, 357.10it/s]
+[1ALoading weights:  58%|█████▊    | 4119/7122 [00:11<00:07, 392.40it/s]
+[1ALoading weights:  58%|█████▊    | 4165/7122 [00:11<00:07, 408.98it/s]
+[1ALoading weights:  59%|█████▉    | 4208/7122 [00:11<00:07, 407.38it/s]
+[1ALoading weights:  60%|█████▉    | 4250/7122 [00:11<00:07, 398.74it/s]
+[1ALoading weights:  60%|██████    | 4291/7122 [00:11<00:07, 379.57it/s]
+[1ALoading weights:  61%|██████    | 4331/7122 [00:11<00:07, 384.41it/s]
+[1ALoading weights:  61%|██████▏   | 4370/7122 [00:12<00:08, 330.70it/s]
+[1ALoading weights:  62%|██████▏   | 4409/7122 [00:12<00:07, 344.64it/s]
+[1ALoading weights:  63%|██████▎   | 4454/7122 [00:12<00:07, 371.69it/s]
+[1ALoading weights:  63%|██████▎   | 4493/7122 [00:12<00:06, 376.40it/s]
+[1ALoading weights:  64%|██████▎   | 4532/7122 [00:12<00:06, 379.04it/s]
+[1ALoading weights:  64%|██████▍   | 4571/7122 [00:12<00:06, 381.58it/s]
+[1ALoading weights:  65%|██████▍   | 4612/7122 [00:12<00:06, 389.76it/s]
+[1ALoading weights:  65%|██████▌   | 4652/7122 [00:12<00:06, 390.48it/s]
+[1ALoading weights:  66%|██████▌   | 4692/7122 [00:12<00:06, 360.06it/s]
+[1ALoading weights:  66%|██████▋   | 4729/7122 [00:13<00:06, 344.71it/s]
+[1ALoading weights:  67%|██████▋   | 4764/7122 [00:13<00:06, 343.36it/s]
+[1ALoading weights:  67%|██████▋   | 4799/7122 [00:13<00:08, 279.57it/s]
+[1ALoading weights:  68%|██████▊   | 4839/7122 [00:13<00:07, 307.62it/s]
+[1ALoading weights:  69%|██████▊   | 4879/7122 [00:13<00:06, 330.81it/s]
+[1ALoading weights:  69%|██████▉   | 4927/7122 [00:13<00:05, 370.47it/s]
+[1ALoading weights:  70%|██████▉   | 4977/7122 [00:13<00:05, 395.57it/s]
+[1ALoading weights:  71%|███████   | 5025/7122 [00:13<00:05, 418.51it/s]
+[1ALoading weights:  71%|███████   | 5071/7122 [00:13<00:04, 429.70it/s]
+[1ALoading weights:  72%|███████▏  | 5115/7122 [00:14<00:04, 407.26it/s]
+[1ALoading weights:  72%|███████▏  | 5157/7122 [00:14<00:05, 344.86it/s]
+[1ALoading weights:  73%|███████▎  | 5194/7122 [00:14<00:06, 300.08it/s]
+[1ALoading weights:  74%|███████▎  | 5240/7122 [00:14<00:05, 337.03it/s]
+[1ALoading weights:  74%|███████▍  | 5286/7122 [00:14<00:05, 364.97it/s]
+[1ALoading weights:  75%|███████▍  | 5338/7122 [00:14<00:04, 397.75it/s]
+[1ALoading weights:  76%|███████▌  | 5380/7122 [00:14<00:04, 399.72it/s]
+[1ALoading weights:  76%|███████▌  | 5422/7122 [00:14<00:04, 390.65it/s]
+[1ALoading weights:  77%|███████▋  | 5462/7122 [00:15<00:04, 365.94it/s]
+[1ALoading weights:  77%|███████▋  | 5502/7122 [00:15<00:04, 373.40it/s]
+[1ALoading weights:  78%|███████▊  | 5547/7122 [00:15<00:04, 372.05it/s]
+[1ALoading weights:  78%|███████▊  | 5585/7122 [00:15<00:04, 337.99it/s]
+[1ALoading weights:  79%|███████▉  | 5625/7122 [00:15<00:04, 349.88it/s]
+[1ALoading weights:  80%|███████▉  | 5663/7122 [00:15<00:04, 351.13it/s]
+[1ALoading weights:  80%|████████  | 5707/7122 [00:15<00:03, 373.27it/s]
+[1ALoading weights:  81%|████████  | 5747/7122 [00:15<00:03, 373.61it/s]
+[1ALoading weights:  81%|████████▏ | 5787/7122 [00:15<00:03, 377.21it/s]
+[1ALoading weights:  82%|████████▏ | 5827/7122 [00:16<00:03, 380.03it/s]
+[1ALoading weights:  82%|████████▏ | 5866/7122 [00:16<00:03, 379.30it/s]
+[1ALoading weights:  83%|████████▎ | 5907/7122 [00:16<00:03, 378.46it/s]
+[1ALoading weights:  83%|████████▎ | 5946/7122 [00:16<00:03, 374.78it/s]
+[1ALoading weights:  84%|████████▍ | 5984/7122 [00:16<00:03, 311.89it/s]
+[1ALoading weights:  85%|████████▍ | 6024/7122 [00:16<00:03, 327.64it/s]
+[1ALoading weights:  85%|████████▌ | 6064/7122 [00:16<00:03, 342.64it/s]
+[1ALoading weights:  86%|████████▌ | 6104/7122 [00:16<00:02, 341.36it/s]
+[1ALoading weights:  86%|████████▋ | 6154/7122 [00:16<00:02, 376.38it/s]
+[1ALoading weights:  87%|████████▋ | 6203/7122 [00:17<00:02, 406.21it/s]
+[1ALoading weights:  88%|████████▊ | 6245/7122 [00:17<00:02, 409.86it/s]
+[1ALoading weights:  88%|████████▊ | 6287/7122 [00:17<00:02, 394.85it/s]
+[1ALoading weights:  89%|████████▉ | 6329/7122 [00:17<00:02, 394.42it/s]
+[1ALoading weights:  89%|████████▉ | 6369/7122 [00:17<00:02, 285.49it/s]
+[1ALoading weights:  90%|████████▉ | 6403/7122 [00:17<00:02, 295.46it/s]
+[1ALoading weights:  90%|█████████ | 6445/7122 [00:17<00:02, 323.15it/s]
+[1ALoading weights:  91%|█████████ | 6485/7122 [00:17<00:01, 340.59it/s]
+[1ALoading weights:  92%|█████████▏| 6531/7122 [00:18<00:01, 371.53it/s]
+[1ALoading weights:  92%|█████████▏| 6575/7122 [00:18<00:01, 385.11it/s]
+[1ALoading weights:  93%|█████████▎| 6615/7122 [00:18<00:01, 386.93it/s]
+[1ALoading weights:  93%|█████████▎| 6655/7122 [00:18<00:01, 375.71it/s]
+[1ALoading weights:  94%|█████████▍| 6694/7122 [00:18<00:01, 376.75it/s]
+[1ALoading weights:  95%|█████████▍| 6733/7122 [00:18<00:01, 378.58it/s]
+[1ALoading weights:  95%|█████████▌| 6772/7122 [00:18<00:01, 339.85it/s]
+[1ALoading weights:  96%|█████████▌| 6820/7122 [00:18<00:00, 368.53it/s]
+[1ALoading weights:  96%|█████████▋| 6860/7122 [00:18<00:00, 371.99it/s]
+[1ALoading weights:  97%|█████████▋| 6900/7122 [00:19<00:00, 378.08it/s]
+[1ALoading weights:  97%|█████████▋| 6939/7122 [00:19<00:00, 373.30it/s]
+[1ALoading weights:  98%|█████████▊| 6980/7122 [00:19<00:00, 382.37it/s]
+[1ALoading weights:  99%|█████████▊| 7020/7122 [00:19<00:00, 384.16it/s]
+[1ALoading weights:  99%|█████████▉| 7059/7122 [00:19<00:00, 382.27it/s]
+[1ALoading weights: 100%|█████████▉| 7098/7122 [00:19<00:00, 381.18it/s]
+[1ALoading weights: 100%|██████████| 7122/7122 [00:20<00:00, 348.61it/s]
+The repository /vol/sarvam-30b-bf16 contains custom code which must be executed to correctly load the model. You can inspect the repository content at /vol/sarvam-30b-bf16 .
+ You can inspect the repository content at https://hf.co//vol/sarvam-30b-bf16.
+You can avoid this prompt in future by passing the argument `trust_remote_code=True`.
+
+[transformers] You are using a model of type `sarvam_moe` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+[transformers] `use_return_dict` is deprecated! Use `return_dict` instead!
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+Do you wish to run the custom code? [y/N] {
+ "usd_per_hour": 5.174,
+ "budget_minutes": 18.0,
+ "model_type": "sarvam_moe",
+ "stages": [
+  {
+   "stage": "load",
+   "est_minutes": 2,
+   "result": {
+    "model": "HFLensModel(SarvamMoEForCausalLM, n_layers=19, d_model=4096)",
+    "gpu_gb_allocated": 64.3,
+    "gpu_gb_by_device": {
+     "0": 64.3
+    },
+    "loading_info": {
+     "missing_keys": {
+      "n": 0,
+      "first": []
+     },
+     "unexpected_keys": {
+      "n": 0,
+      "first": []
+     },
+     "mismatched_keys": {
+      "n": 0,
+      "first": []
+     },
+     "error_msgs": {
+      "n": 0,
+      "first": []
+     }
+    }
+   },
+   "status": "ok",
+   "minutes": 0.44,
+   "log_tail": []
+  },
+  {
+   "stage": "sanity",
+   "est_minutes": 1.0,
+   "result": {
+    "bos_first": true,
+    "n_tokens": 19,
+    "stock_rerun_max_abs_diff": 0.0,
+    "rlens": {
+     "max_abs_diff": 0.0,
+     "stock_abs_max": 123.0,
+     "patched": {
+      "ln_rule": 39,
+      "mlp_rule": 19,
+      "routed_experts": 0,
+      "moe_blocks": 0
+     }
+    },
+    "r+moe": {
+     "max_abs_diff": 0.0,
+     "stock_abs_max": 123.0,
+     "patched": {
+      "ln_rule": 39,
+      "mlp_rule": 19,
+      "routed_experts": 2304,
+      "moe_blocks": 18
+     }
+    },
+    "seconds_per_forward": 0.104,
+    "timing_prompt_tokens": 101,
+    "greedy": {
+     "हिन्दी: \"पानी\" - English: \"": "water\".\n\nThe user wants a function that takes a string",
+     "தமிழ்: \"நீர்\" - తెలుగు: \"": "நீர்\" - హిందీ: \"నీరు\" - బెంగ",
+     "भारत की राजधानी": " है?\n1. दिल्ली\n2. मुंबई\n3",
+     "The capital of Tamil Nadu is": " Chennai.\n\nThe user's question is a statement,"
+    },
+    "greedy_water_ok": true
+   },
+   "status": "ok",
+   "minutes": 0.21,
+   "log_tail": []
+  },
+  {
+   "stage": "post1_experiment.digits",
+   "est_minutes": 2.53,
+   "result": {
+    "lens": "j_200p",
+    "band": [
+     13,
+     14,
+     15,
+     16
+    ],
+    "native_systems": {
+     "n": 692,
+     "clusters": 72,
+     "base_p": 0.808,
+     "base_correct": 1.0,
+     "word": {
+      "drop_pts": -1.0399,
+      "ci": [
+       -1.5027,
+       -0.5566
+      ],
+      "n": 692,
+      "still_correct": 0.987,
+      "rel_norm": 0.031
+     },
+     "word_ctrl": {
+      "drop_pts": -0.8575,
+      "ci": [
+       -1.2023,
+       -0.5366
+      ],
+      "n": 692,
+      "still_correct": 0.994,
+      "rel_norm": 0.025
+     },
+     "word_early": {
+      "drop_pts": -0.4896,
+      "ci": [
+       -0.7766,
+       -0.2045
+      ],
+      "n": 692,
+      "still_correct": 0.994,
+      "rel_norm": 0.0306
+     },
+     "word@3": {
+      "drop_pts": 11.9585,
+      "ci": [
+       9.462,
+       14.6327
+      ],
+      "n": 692,
+      "still_correct": 0.876,
+      "rel_norm": 0.2774
+     },
+     "word_ctrl@3": {
+      "drop_pts": 3.8971,
+      "ci": [
+       2.5988,
+       5.3387
+      ],
+      "n": 692,
+      "still_correct": 0.935,
+      "rel_norm": 0.2255
+     },
+     "allwords": {
+      "drop_pts": 4.437,
+      "ci": [
+       3.3739,
+       5.5907
+      ],
+      "n": 692,
+      "still_correct": 0.97,
+      "rel_norm": 0.1049
+     },
+     "random_allwords": {
+      "drop_pts": 0.5163,
+      "ci": [
+       0.0575,
+       0.9486
+      ],
+      "n": 692,
+      "still_correct": 0.981,
+      "rel_norm": 0.1034
+     },
+     "allwords@3": {
+      "drop_pts": 67.7253,
+      "ci": [
+       64.8614,
+       70.4341
+      ],
+      "n": 692,
+      "still_correct": 0.195,
+      "rel_norm": 0.9296
+     },
+     "random_allwords@3": {
+      "drop_pts": 7.2065,
+      "ci": [
+       6.2552,
+       8.1501
+      ],
+      "n": 692,
+      "still_correct": 0.954,
+      "rel_norm": 0.3139
+     },
+     "ascii": {
+      "drop_pts": -1.1247,
+      "ci": [
+       -1.7481,
+       -0.4809
+      ],
+      "n": 692,
+      "still_correct": 0.981,
+      "rel_norm": 0.0413
+     },
+     "word_minus_word_ctrl": {
+      "pts": -0.1824,
+      "ci": [
+       -0.5204,
+       0.1897
+      ],
+      "n": 692
+     },
+     "word@3_minus_word_ctrl@3": {
+      "pts": 8.0614,
+      "ci": [
+       5.4094,
+       10.7177
+      ],
+      "n": 692
+     },
+     "allwords_minus_random_allwords": {
+      "pts": 3.9207,
+      "ci": [
+       2.7826,
+       5.1704
+      ],
+      "n": 692
+     },
+     "allwords@3_minus_random_allwords@3": {
+      "pts": 60.5187,
+      "ci": [
+       57.4176,
+       63.5309
+      ],
+      "n": 692
+     }
+    },
+    "ascii": {
+     "n": 72,
+     "clusters": 72,
+     "base_p": 0.9964,
+     "base_correct": 1.0,
+     "word": {
+      "drop_pts": -0.107,
+      "ci": [
+       -0.1727,
+       -0.0578
+      ],
+      "n": 72,
+      "still_correct": 1.0,
+      "rel_norm": 0.0306
+     },
+     "word_ctrl": {
+      "drop_pts": -0.0678,
+      "ci": [
+       -0.1484,
+       -0.0127
+      ],
+      "n": 72,
+      "still_correct": 1.0,
+      "rel_norm": 0.0232
+     },
+     "word_early": {
+      "drop_pts": -0.0643,
+      "ci": [
+       -0.1333,
+       -0.0145
+      ],
+      "n": 72,
+      "still_correct": 1.0,
+      "rel_norm": 0.0294
+     },
+     "word@3": {
+      "drop_pts": 0.257,
+      "ci": [
+       -0.0401,
+       0.6566
+      ],
+      "n": 72,
+      "still_correct": 1.0,
+      "rel_norm": 0.2815
+     },
+     "word_ctrl@3": {
+      "drop_pts": -0.1861,
+      "ci": [
+       -0.2657,
+       -0.1265
+      ],
+      "n": 72,
+      "still_correct": 1.0,
+      "rel_norm": 0.2227
+     },
+     "allwords": {
+      "drop_pts": 0.2363,
+      "ci": [
+       0.1408,
+       0.3412
+      ],
+      "n": 72,
+      "still_correct": 1.0,
+      "rel_norm": 0.0943
+     },
+     "random_allwords": {
+      "drop_pts": 0.0579,
+      "ci": [
+       -0.0015,
+       0.1334
+      ],
+      "n": 72,
+      "still_correct": 1.0,
+      "rel_norm": 0.1046
+     },
+     "allwords@3": {
+      "drop_pts": 33.2615,
+      "ci": [
+       23.3783,
+       43.6815
+      ],
+      "n": 72,
+      "still_correct": 0.681,
+      "rel_norm": 0.8901
+     },
+     "random_allwords@3": {
+      "drop_pts": 0.4197,
+      "ci": [
+       0.2204,
+       0.7432
+      ],
+      "n": 72,
+      "still_correct": 1.0,
+      "rel_norm": 0.3167
+     },
+     "word_minus_word_ctrl": {
+      "pts": -0.0391,
+      "ci": [
+       -0.076,
+       -0.0059
+      ],
+      "n": 72
+     },
+     "word@3_minus_word_ctrl@3": {
+      "pts": 0.4432,
+      "ci": [
+       0.1521,
+       0.8616
+      ],
+      "n": 72
+     },
+     "allwords_minus_random_allwords": {
+      "pts": 0.1784,
+      "ci": [
+       0.0683,
+       0.2956
+      ],
+      "n": 72
+     },
+     "allwords@3_minus_random_allwords@3": {
+      "pts": 32.8418,
+      "ci": [
+       22.9119,
+       43.2742
+      ],
+      "n": 72
+     }
+    }
+   },
+   "status": "ok",
+   "minutes": 0.97,
+   "log_tail": [
+    "post1: digits: kannada done (31 s)",
+    "post1: digits: malayalam done (35 s)",
+    "post1: digits: oriya done (38 s)",
+    "post1: digits: gurmukhi done (41 s)",
+    "post1: digits: extended_arabic-indic done (44 s)",
+    "post1: digits: meetei_mayek done (47 s)",
+    "post1: digits: ol_chiki done (50 s)",
+    "post1: digits: arabic-indic done (53 s)"
+   ]
+  },
+  {
+   "stage": "post1_experiment.push",
+   "est_minutes": 2.73,
+   "result": {
+    "n": 143,
+    "clusters": 32,
+    "base_p": 0.9162,
+    "base_correct": 1.0,
+    "english@1": {
+     "drop_pts": 6.2997,
+     "ci": [
+      4.2317,
+      8.539
+     ],
+     "n": 143,
+     "still_correct": 0.944,
+     "rel_norm": 0.048
+    },
+    "control@1": {
+     "drop_pts": -0.1953,
+     "ci": [
+      -0.9712,
+      0.6243
+     ],
+     "n": 143,
+     "still_correct": 0.993,
+     "rel_norm": 0.0297
+    },
+    "random@1": {
+     "drop_pts": 0.5442,
+     "ci": [
+      -0.0736,
+      1.2661
+     ],
+     "n": 143,
+     "still_correct": 0.993,
+     "rel_norm": 0.0902
+    },
+    "english@1.5": {
+     "drop_pts": 8.1865,
+     "ci": [
+      5.7672,
+      10.9467
+     ],
+     "n": 143,
+     "still_correct": 0.937,
+     "rel_norm": 0.0682
+    },
+    "control@1.5": {
+     "drop_pts": 0.1822,
+     "ci": [
+      -0.7145,
+      1.1784
+     ],
+     "n": 143,
+     "still_correct": 0.986,
+     "rel_norm": 0.0456
+    },
+    "random@1.5": {
+     "drop_pts": 1.6805,
+     "ci": [
+      0.8056,
+      2.7167
+     ],
+     "n": 143,
+     "still_correct": 0.993,
+     "rel_norm": 0.1346
+    },
+    "english@2": {
+     "drop_pts": 9.6874,
+     "ci": [
+      6.4778,
+      13.6767
+     ],
+     "n": 143,
+     "still_correct": 0.93,
+     "rel_norm": 0.1117
+    },
+    "control@2": {
+     "drop_pts": 0.5129,
+     "ci": [
+      -0.3869,
+      1.6077
+     ],
+     "n": 143,
+     "still_correct": 0.993,
+     "rel_norm": 0.0774
+    },
+    "random@2": {
+     "drop_pts": 3.0158,
+     "ci": [
+      1.7903,
+      4.3627
+     ],
+     "n": 143,
+     "still_correct": 0.972,
+     "rel_norm": 0.1786
+    },
+    "english@2.5": {
+     "drop_pts": 11.3734,
+     "ci": [
+      7.132,
+      16.9205
+     ],
+     "n": 143,
+     "still_correct": 0.895,
+     "rel_norm": 0.2198
+    },
+    "control@2.5": {
+     "drop_pts": 1.0243,
+     "ci": [
+      0.0108,
+      2.36
+     ],
+     "n": 143,
+     "still_correct": 0.979,
+     "rel_norm": 0.1471
+    },
+    "random@2.5": {
+     "drop_pts": 4.4256,
+     "ci": [
+      2.638,
+      6.2463
+     ],
+     "n": 143,
+     "still_correct": 0.958,
+     "rel_norm": 0.2217
+    },
+    "english@3": {
+     "drop_pts": 42.6185,
+     "ci": [
+      34.362,
+      51.2084
+     ],
+     "n": 143,
+     "still_correct": 0.587,
+     "rel_norm": 0.4257
+    },
+    "control@3": {
+     "drop_pts": 8.6097,
+     "ci": [
+      5.0258,
+      13.0674
+     ],
+     "n": 143,
+     "still_correct": 0.916,
+     "rel_norm": 0.2826
+    },
+    "random@3": {
+     "drop_pts": 7.219,
+     "ci": [
+      4.7815,
+      9.6665
+     ],
+     "n": 143,
+     "still_correct": 0.951,
+     "rel_norm": 0.2639
+    },
+    "english@1_minus_control@1": {
+     "pts": 6.495,
+     "ci": [
+      4.205,
+      8.8659
+     ],
+     "n": 143
+    },
+    "english@1_minus_random@1": {
+     "pts": 5.7556,
+     "ci": [
+      3.7302,
+      7.9757
+     ],
+     "n": 143
+    },
+    "english@1.5_minus_control@1.5": {
+     "pts": 8.0043,
+     "ci": [
+      5.2738,
+      10.833
+     ],
+     "n": 143
+    },
+    "english@1.5_minus_random@1.5": {
+     "pts": 6.5061,
+     "ci": [
+      4.2863,
+      9.1673
+     ],
+     "n": 143
+    },
+    "english@2_minus_control@2": {
+     "pts": 9.1745,
+     "ci": [
+      5.8034,
+      13.2876
+     ],
+     "n": 143
+    },
+    "english@2_minus_random@2": {
+     "pts": 6.6715,
+     "ci": [
+      3.4992,
+      10.5228
+     ],
+     "n": 143
+    },
+    "english@2.5_minus_control@2.5": {
+     "pts": 10.349,
+     "ci": [
+      6.166,
+      15.9207
+     ],
+     "n": 143
+    },
+    "english@2.5_minus_random@2.5": {
+     "pts": 6.9477,
+     "ci": [
+      2.3191,
+      12.6422
+     ],
+     "n": 143
+    },
+    "english@3_minus_control@3": {
+     "pts": 34.0088,
+     "ci": [
+      25.91,
+      42.1218
+     ],
+     "n": 143
+    },
+    "english@3_minus_random@3": {
+     "pts": 35.3995,
+     "ci": [
+      27.5487,
+      43.5585
+     ],
+     "n": 143
+    },
+    "decision": {
+     "alpha_star": 2.5,
+     "english_minus_random": {
+      "pts": 6.9477,
+      "ci": [
+       2.3191,
+       12.6422
+      ],
+      "n": 143
+     },
+     "english_minus_control": {
+      "pts": 10.349,
+      "ci": [
+       6.166,
+       15.9207
+      ],
+      "n": 143
+     }
+    },
+    "lens": "j_200p",
+    "band": [
+     13,
+     14,
+     15,
+     16
+    ],
+    "alphas": [
+     1.0,
+     1.5,
+     2.0,
+     2.5,
+     3.0
+    ]
+   },
+   "status": "ok",
+   "minutes": 0.68,
+   "log_tail": [
+    "post1: push: 1 / 160 items (1 s)",
+    "post1: push: 51 / 160 items (15 s)",
+    "post1: push: 101 / 160 items (25 s)",
+    "post1: push: 151 / 160 items (35 s)"
+   ]
+  },
+  {
+   "stage": "post1_experiment.positions",
+   "est_minutes": 3.28,
+   "result": {
+    "n": 269,
+    "clusters": 32,
+    "base_p": 0.8911,
+    "base_correct": 1.0,
+    "english_last": {
+     "drop_pts": 5.7502,
+     "ci": [
+      3.992,
+      7.5041
+     ],
+     "n": 269,
+     "still_correct": 0.955,
+     "rel_norm": 0.0486
+    },
+    "control_last": {
+     "drop_pts": 0.1747,
+     "ci": [
+      -0.213,
+      0.5387
+     ],
+     "n": 269,
+     "still_correct": 0.993,
+     "rel_norm": 0.03
+    },
+    "english_src": {
+     "drop_pts": 0.033,
+     "ci": [
+      -0.3527,
+      0.3671
+     ],
+     "n": 269,
+     "still_correct": 0.996,
+     "rel_norm": 0.0447
+    },
+    "control_src": {
+     "drop_pts": 0.2114,
+     "ci": [
+      -0.1704,
+      0.624
+     ],
+     "n": 269,
+     "still_correct": 0.996,
+     "rel_norm": 0.0379
+    },
+    "english_all_but_last": {
+     "drop_pts": 1.4091,
+     "ci": [
+      0.728,
+      2.152
+     ],
+     "n": 269,
+     "still_correct": 0.974,
+     "rel_norm": 0.0377
+    },
+    "english_all": {
+     "drop_pts": 7.6312,
+     "ci": [
+      5.2394,
+      9.9635
+     ],
+     "n": 269,
+     "still_correct": 0.933,
+     "rel_norm": 0.0378
+    },
+    "control_all": {
+     "drop_pts": 1.3468,
+     "ci": [
+      0.654,
+      2.0788
+     ],
+     "n": 269,
+     "still_correct": 0.97,
+     "rel_norm": 0.0375
+    },
+    "english_all_early": {
+     "drop_pts": 2.0795,
+     "ci": [
+      1.2245,
+      2.9482
+     ],
+     "n": 269,
+     "still_correct": 0.97,
+     "rel_norm": 0.0389
+    },
+    "english_all@3": {
+     "drop_pts": 50.1825,
+     "ci": [
+      42.0656,
+      58.1828
+     ],
+     "n": 269,
+     "still_correct": 0.476,
+     "rel_norm": 0.5109
+    },
+    "control_all@3": {
+     "drop_pts": 17.7686,
+     "ci": [
+      14.4287,
+      21.72
+     ],
+     "n": 269,
+     "still_correct": 0.866,
+     "rel_norm": 0.5068
+    },
+    "english_all_minus_english_last": {
+     "pts": 1.881,
+     "ci": [
+      1.1111,
+      2.654
+     ],
+     "n": 269
+    },
+    "english_all_minus_control_all": {
+     "pts": 6.2844,
+     "ci": [
+      4.2035,
+      8.4315
+     ],
+     "n": 269
+    },
+    "english_src_minus_control_src": {
+     "pts": -0.1784,
+     "ci": [
+      -0.5811,
+      0.1808
+     ],
+     "n": 269
+    },
+    "english_last_minus_control_last": {
+     "pts": 5.5755,
+     "ci": [
+      3.6531,
+      7.4954
+     ],
+     "n": 269
+    },
+    "english_all@3_minus_control_all@3": {
+     "pts": 32.4139,
+     "ci": [
+      23.52,
+      41.4852
+     ],
+     "n": 269
+    },
+    "lens": "j_200p",
+    "band": [
+     13,
+     14,
+     15,
+     16
+    ],
+    "early_band": [
+     5,
+     6,
+     7,
+     8
+    ],
+    "prompts_aligned": "320/320"
+   },
+   "status": "ok",
+   "minutes": 1.4,
+   "log_tail": [
+    "post1: positions: 1 / 320 items (1 s)",
+    "post1: positions: 151 / 320 items (40 s)",
+    "post1: positions: 201 / 320 items (51 s)"
+   ]
+  },
+  {
+   "stage": "post1_experiment.writers",
+   "est_minutes": 3.56,
+   "result": {
+    "lens": "j_200p",
+    "roles": [
+     "english",
+     "english_ctrl",
+     "hindi",
+     "target",
+     "source"
+    ],
+    "modes": [
+     "jlens",
+     "direct"
+    ],
+    "n_layers": 19,
+    "band": [
+     13,
+     14,
+     15,
+     16
+    ],
+    "moe_recompute_rel_err_max": 0.00303,
+    "n_items": 272,
+    "headline": {
+     "band": [
+      13,
+      14,
+      15,
+      16
+     ],
+     "attn_en_minus_ctrl_by_layer": {
+      "0": 0.0001,
+      "1": 0.0001,
+      "2": 0.0038,
+      "3": 0.0177,
+      "4": 0.0428,
+      "5": 0.0191,
+      "6": 0.036,
+      "7": -0.0021,
+      "8": 0.0755,
+      "9": 0.0045,
+      "10": -0.0057,
+      "11": 0.6562,
+      "12": 0.0372,
+      "13": 1.3663,
+      "14": 2.7357,
+      "15": 0.8793,
+      "16": 0.6509,
+      "17": -0.2583,
+      "18": 0.0489
+     },
+     "mlp_en_minus_ctrl_by_layer": {
+      "0": -0.0002,
+      "1": 0.0003,
+      "2": 0.001,
+      "3": 0.0077,
+      "4": 0.0035,
+      "5": 0.0147,
+      "6": 0.0079,
+      "7": 0.0164,
+      "8": 0.0259,
+      "9": 0.0126,
+      "10": 0.0026,
+      "11": 0.1115,
+      "12": 0.1641,
+      "13": 0.6075,
+      "14": 0.8933,
+      "15": 2.4593,
+      "16": 3.8984,
+      "17": 2.4717,
+      "18": -0.9324
+     },
+     "top_heads_en_minus_ctrl": [
+      {
+       "layer": 16,
+       "head": 23,
+       "mean": 0.7258
+      },
+      {
+       "layer": 14,
+       "head": 10,
+       "mean": 0.6273
+      },
+      {
+       "layer": 14,
+       "head": 24,
+       "mean": 0.6193
+      },
+      {
+       "layer": 17,
+       "head": 10,
+       "mean": 0.5857
+      },
+      {
+       "layer": 16,
+       "head": 29,
+       "mean": 0.4828
+      },
+      {
+       "layer": 13,
+       "head": 2,
+       "mean": 0.4464
+      },
+      {
+       "layer": 14,
+       "head": 2,
+       "mean": 0.4444
+      },
+      {
+       "layer": 15,
+       "head": 52,
+       "mean": 0.4319
+      },
+      {
+       "layer": 13,
+       "head": 14,
+       "mean": 0.4055
+      },
+      {
+       "layer": 16,
+       "head": 31,
+       "mean": 0.3706
+      }
+     ],
+     "top5_expert_share_english": 0.2413,
+     "top5_expert_share_target": 0.2796,
+     "top_english_experts": [
+      {
+       "layer": 16,
+       "expert": 106,
+       "items_routed": 83,
+       "sum_en": 182.587,
+       "mean_en": 2.1974,
+       "mean_ctrl": -0.1667,
+       "positive_share": 0.952
+      },
+      {
+       "layer": 16,
+       "expert": 114,
+       "items_routed": 110,
+       "sum_en": 170.397,
+       "mean_en": 1.5482,
+       "mean_ctrl": 0.0155,
+       "positive_share": 0.982
+      },
+      {
+       "layer": 17,
+       "expert": 52,
+       "items_routed": 189,
+       "sum_en": 105.922,
+       "mean_en": 0.5252,
+       "mean_ctrl": -0.0218,
+       "positive_share": 0.619
+      },
+      {
+       "layer": 17,
+       "expert": 57,
+       "items_routed": 245,
+       "sum_en": 105.775,
+       "mean_en": 0.2641,
+       "mean_ctrl": -0.1556,
+       "positive_share": 0.645
+      },
+      {
+       "layer": 15,
+       "expert": 7,
+       "items_routed": 95,
+       "sum_en": 101.96,
+       "mean_en": 1.0716,
+       "mean_ctrl": -0.016,
+       "positive_share": 0.937
+      }
+     ],
+     "english_writer_experts_criterion": false
+    }
+   },
+   "status": "ok",
+   "minutes": 0.95,
+   "log_tail": [
+    "post1: writers: 1 / 320 items (0 s)",
+    "post1: writers: 151 / 320 items (27 s)",
+    "post1: writers: 201 / 320 items (33 s)"
+   ]
+  },
+  {
+   "stage": "post1_experiment.zh",
+   "est_minutes": 3.07,
+   "result": {
+    "n": 267,
+    "clusters": 32,
+    "base_p": 0.8897,
+    "base_correct": 1.0,
+    "english_mid": {
+     "drop_pts": -0.0442,
+     "ci": [
+      -0.452,
+      0.3434
+     ],
+     "n": 267,
+     "still_correct": 1.0,
+     "rel_norm": 0.0
+    },
+    "control_mid": {
+     "drop_pts": 0.0524,
+     "ci": [
+      -0.3816,
+      0.5763
+     ],
+     "n": 267,
+     "still_correct": 0.993,
+     "rel_norm": 0.0
+    },
+    "english_early": {
+     "drop_pts": 0.2635,
+     "ci": [
+      -0.057,
+      0.5991
+     ],
+     "n": 267,
+     "still_correct": 1.0,
+     "rel_norm": 0.0
+    },
+    "english_mid@2": {
+     "drop_pts": 0.1103,
+     "ci": [
+      -0.3504,
+      0.5929
+     ],
+     "n": 267,
+     "still_correct": 0.996,
+     "rel_norm": 0.0
+    },
+    "control_mid@2": {
+     "drop_pts": 0.0835,
+     "ci": [
+      -0.2826,
+      0.4471
+     ],
+     "n": 267,
+     "still_correct": 0.996,
+     "rel_norm": 0.0
+    },
+    "english_mid@3": {
+     "drop_pts": 7.4756,
+     "ci": [
+      4.7667,
+      10.3333
+     ],
+     "n": 267,
+     "still_correct": 0.914,
+     "rel_norm": 0.0
+    },
+    "control_mid@3": {
+     "drop_pts": 5.8846,
+     "ci": [
+      3.7679,
+      8.0757
+     ],
+     "n": 267,
+     "still_correct": 0.944,
+     "rel_norm": 0.0
+    },
+    "english_mid_minus_control_mid": {
+     "pts": -0.0966,
+     "ci": [
+      -0.8693,
+      0.3908
+     ],
+     "n": 267
+    },
+    "english_mid@2_minus_control_mid@2": {
+     "pts": 0.0267,
+     "ci": [
+      -0.424,
+      0.4252
+     ],
+     "n": 267
+    },
+    "english_mid@3_minus_control_mid@3": {
+     "pts": 1.591,
+     "ci": [
+      -0.9216,
+      4.4434
+     ],
+     "n": 267
+    },
+    "lens": "j_200p",
+    "band": [
+     13,
+     14,
+     15,
+     16
+    ],
+    "early_band": [
+     5,
+     6,
+     7,
+     8
+    ],
+    "latent": "zh",
+    "note": "condition names are causal_test's: 'english_*' here means the CHINESE word's directions"
+   },
+   "status": "ok",
+   "minutes": 1.32,
+   "log_tail": []
+  }
+ ],
+ "elapsed_minutes": 6.2,
+ "est_cost_usd_so_far": 0.53,
+ "seconds_per_forward": 0.104,
+ "done": true
+}
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-9CTZ5ijva4KBSzPZi3V1zS

@@ -1,0 +1,23 @@
+# concept: eye
+# page: eye/translations
+# revid: 93642947
+# section_url: https://en.wiktionary.org/w/index.php?title=eye/translations&action=raw
+## block: {{trans-top|organ}}
+* Assamese: {{tt|as|চকু}}, {{tt|as|আঁখি}}
+* Odia: {{tt|or|ଆଖି}}
+* Punjabi: {{tt+|pa|ਅੱਖ|f}}
+* Urdu: {{tt+|ur|آن٘کھ|f}}, {{tt|ur|نَین|m}}, {{tt|ur|عَین|m}}, {{tt|ur|چَشْم|m|f}}
+* Nepali: {{tt+|ne|आँखा}}
+* Sanskrit: {{tt+|sa|नेत्र|n}}, {{tt+|sa|नयन|n}}, {{tt+|sa|लोचन|n}}, {{tt+|sa|चक्षुष्}}, {{tt+|sa|अक्षि|n|tr=ákṣi}}
+MISSING Maithili
+* Sindhi: {{tt+|sd|اک|f|tr=akh}}, {{tt|sd|अख|tr=akh}}
+* Kashmiri: {{tt+|ks|أچھ}}, {{tt+|ks|چٔشِم}}, {{tt+|ks|نیٔتھٕر}}
+* Konkani: {{tt|kok|दोळो}}
+MISSING Dogri
+MISSING Manipuri
+MISSING Bodo
+* Santali: {{tt+|sat|ᱢᱮᱫ}}
+* Japanese: {{tt+|ja|目|tr=め, me}}, {{tt+|ja|眼|tr=め, me}}, {{t+|ja|瞳|tr=ひとみ, hitomi}}
+* Russian: {{tt+|ru|глаз|m}}, {{qualifier|poetic, dated}} {{tt+|ru|о́ко|n}}
+* Arabic: {{tt+|ar|عَيْن|f}}
+* Hindi: {{tt+|hi|आँख|f}}, {{tt+|hi|नैन|f}}, {{tt+|hi|नेत्र|f}}, {{tt+|hi|नयन|m}}, {{tt+|hi|लोचन|m}}, {{tt+|hi|चक्षु|m}}, {{tt+|hi|अक्षि|f}}, {{tt|hi|नैना|m}}, {{tt+|hi|चश्म|m}}, {{tt+|hi|ऐन|m}}

@@ -1,0 +1,48 @@
+✓ Initialized. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-TAKpvyAJZVZWlIUo6xjAMf
+✓ Created objects.
+├── ✓ Uploaded .\code\modal_app.py
+├── ✓ Uploaded .\code
+├── ✓ Created Function prepare_weights.
+├── ✓ Created Function smoke.
+├── ✓ Created Function smoke_2gpu.
+├── ✓ Created Function prepare_qwen.
+├── ✓ Created Function cka.
+├── ✓ Created Function pilot.
+├── ✓ Created Function pilot2.
+├── ✓ Created Function merge_j.
+├── ✓ Created Function build_corpus_fn.
+├── ✓ Created Function cka_robust.
+└── ✓ Created Function diagnose.
+2026-10-19 08:54:10,244 workspace_lens.fitting.utils merging checkpoint 1/1: /vol/runs/jfit/j_indic_27p/2026-10-19/j_indic_27p/shard0of1/experts_K8_checkpoint.pt
+2026-10-19 08:54:22,967 workspace_lens.fitting.condense_experts.expert_jacobians layer 0: experts [1, 3, 4, 5] kept fewer than 50 position(s) (counts [778, 47, 107, 9, 0, 49, 1492, 515]); using the pooled Jacobian for them
+2026-10-19 08:54:23,064 workspace_lens.fitting.condense_experts.expert_jacobians layer 1: experts [1, 4] kept fewer than 50 position(s) (counts [453, 31, 100, 241, 0, 205, 1542, 425]); using the pooled Jacobian for them
+2026-10-19 08:54:23,169 workspace_lens.fitting.condense_experts.expert_jacobians layer 2: experts [6] kept fewer than 50 position(s) (counts [103, 339, 100, 222, 1633, 126, 0, 474]); using the pooled Jacobian for them
+2026-10-19 08:54:23,258 workspace_lens.fitting.condense_experts.expert_jacobians layer 3: experts [0, 2, 4] kept fewer than 50 position(s) (counts [25, 214, 38, 556, 0, 104, 1569, 491]); using the pooled Jacobian for them
+2026-10-19 08:54:23,350 workspace_lens.fitting.condense_experts.expert_jacobians layer 4: experts [0, 2, 4] kept fewer than 50 position(s) (counts [48, 230, 37, 393, 0, 486, 1700, 103]); using the pooled Jacobian for them
+2026-10-19 08:54:23,442 workspace_lens.fitting.condense_experts.expert_jacobians layer 5: experts [0, 2, 4] kept fewer than 50 position(s) (counts [37, 807, 49, 538, 0, 239, 937, 390]); using the pooled Jacobian for them
+2026-10-19 08:54:23,535 workspace_lens.fitting.condense_experts.expert_jacobians layer 6: experts [0, 1] kept fewer than 50 position(s) (counts [10, 0, 261, 345, 1142, 458, 422, 359]); using the pooled Jacobian for them
+2026-10-19 08:54:23,629 workspace_lens.fitting.condense_experts.expert_jacobians layer 7: experts [0, 1] kept fewer than 50 position(s) (counts [14, 4, 125, 549, 830, 697, 383, 395]); using the pooled Jacobian for them
+2026-10-19 08:54:23,720 workspace_lens.fitting.condense_experts.expert_jacobians layer 8: experts [0, 1, 2] kept fewer than 50 position(s) (counts [18, 5, 40, 450, 911, 803, 414, 356]); using the pooled Jacobian for them
+2026-10-19 08:54:23,805 workspace_lens.fitting.condense_experts.expert_jacobians layer 9: experts [0, 1, 2] kept fewer than 50 position(s) (counts [30, 5, 40, 637, 841, 707, 447, 290]); using the pooled Jacobian for them
+2026-10-19 08:54:23,896 workspace_lens.fitting.condense_experts.expert_jacobians layer 10: experts [0, 1] kept fewer than 50 position(s) (counts [19, 3, 86, 480, 862, 664, 416, 467]); using the pooled Jacobian for them
+2026-10-19 08:54:23,988 workspace_lens.fitting.condense_experts.expert_jacobians layer 11: experts [0, 1] kept fewer than 50 position(s) (counts [20, 2, 88, 580, 773, 598, 466, 470]); using the pooled Jacobian for them
+2026-10-19 08:54:24,078 workspace_lens.fitting.condense_experts.expert_jacobians layer 12: experts [0, 1, 5] kept fewer than 50 position(s) (counts [35, 2, 499, 600, 959, 25, 472, 405]); using the pooled Jacobian for them
+2026-10-19 08:54:24,171 workspace_lens.fitting.condense_experts.expert_jacobians layer 13: experts [0, 1, 5] kept fewer than 50 position(s) (counts [12, 0, 332, 378, 1076, 25, 356, 818]); using the pooled Jacobian for them
+2026-10-19 08:54:24,244 workspace_lens.fitting.condense_experts.expert_jacobians layer 14: experts [0, 1, 2, 3, 5] kept fewer than 50 position(s) (counts [40, 35, 3, 25, 1491, 49, 642, 712]); using the pooled Jacobian for them
+2026-10-19 08:54:24,322 workspace_lens.fitting.condense_experts.expert_jacobians layer 15: experts [0, 2, 3, 5, 7] kept fewer than 50 position(s) (counts [0, 836, 0, 37, 1786, 29, 307, 2]); using the pooled Jacobian for them
+2026-10-19 08:54:24,398 workspace_lens.fitting.condense_experts.expert_jacobians layer 16: experts [0, 1, 2, 4, 7] kept fewer than 50 position(s) (counts [15, 43, 0, 883, 0, 1899, 156, 1]); using the pooled Jacobian for them
+2026-10-19 08:54:24,482 workspace_lens.fitting.condense_experts.expert_jacobians layer 17: experts [0, 2, 3, 7] kept fewer than 50 position(s) (counts [0, 147, 0, 32, 406, 2006, 406, 0]); using the pooled Jacobian for them
+2026-10-19 08:54:32,171 jpp_cli experts saved to /vol/runs/lenses/j_indic_27p_experts.pt (stamp /vol/runs/lenses/j_indic_27p_experts_stamp.json)
+2026-10-19 08:54:34,333 jpp_cli pooled lens (in-memory fp32 sums) saved to /vol/runs/lenses/j_indic_27p.pt (stamp /vol/runs/lenses/j_indic_27p_stamp.json)
+{
+ "exit": 0,
+ "shards": [
+  "/vol/runs/jfit/j_indic_27p/2026-10-19/j_indic_27p/shard0of1"
+ ],
+ "lens": "/vol/runs/lenses/j_indic_27p.pt"
+}
+Stopping app - local entrypoint completed.
+[modal-client] 2026-10-19T14:25:19+0530 Timed out waiting for final app logs.
+✓ App completed. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-TAKpvyAJZVZWlIUo6xjAMf

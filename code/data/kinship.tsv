@@ -1,0 +1,17 @@
+kin	group	en	ta	te	kn	ml	note
+mothers_brother	uncle	uncle	மாமா	మామయ్య|మామ	ಮಾವ	അമ്മാവൻ
+fathers_younger_brother	uncle	uncle	சித்தப்பா	బాబాయ్|బాబాయి|చిన్నాన్న	ಚಿಕ್ಕಪ್ಪ	ചെറിയച്ഛൻ|ഇളയച്ഛൻ
+fathers_elder_brother	uncle	uncle	பெரியப்பா	పెదనాన్న	ದೊಡ್ಡಪ್ಪ	വല്യച്ഛൻ|വലിയച്ഛൻ
+fathers_sister	aunt	aunt	அத்தை	అత్తయ్య|అత్త	ಅತ್ತೆ	അപ്പച്ചി|അമ്മായി	ml varies by region
+mothers_younger_sister	aunt	aunt	சித்தி	పిన్ని|చిన్నమ్మ	ಚಿಕ್ಕಮ್ಮ	ചെറിയമ്മ|ഇളയമ്മ
+mothers_elder_sister	aunt	aunt	பெரியம்மா	పెద్దమ్మ	ದೊಡ್ಡಮ್ಮ	വല്യമ്മ|വലിയമ്മ
+elder_brother	brother	brother	அண்ணன்|அண்ணா	అన్నయ్య|అన్న	ಅಣ್ಣ	ചേട്ടൻ|ജ്യേഷ്ഠൻ
+younger_brother	brother	brother	தம்பி	తమ్ముడు	ತಮ್ಮ	അനിയൻ|അനുജൻ
+elder_sister	sister	sister	அக்கா	అక్క|అక్కయ్య	ಅಕ್ಕ	ചേച്ചി
+younger_sister	sister	sister	தங்கை	చెల్లెలు|చెల్లి	ತಂಗಿ	അനിയത്തി|അനുജത്തി
+father	father	father	அப்பா|தந்தை	నాన్న|తండ్రి	ಅಪ್ಪ|ತಂದೆ	അച്ഛൻ	control: one English word
+son	son	son	மகன்	కొడుకు	ಮಗ	മകൻ	control
+daughter	daughter	daughter	மகள்	కూతురు	ಮಗಳು	മകൾ	control
+husband	husband	husband	கணவன்|கணவர்	భర్త	ಗಂಡ|ಪತಿ	ഭർത്താവ്	control
+wife	wife	wife	மனைவி	భార్య	ಹೆಂಡತಿ|ಪತ್ನಿ	ഭാര്യ	control
+grandson	grandson	grandson	பேரன்	మనవడు	ಮೊಮ್ಮಗ	കൊച്ചുമകൻ|പേരക്കുട്ടി	control

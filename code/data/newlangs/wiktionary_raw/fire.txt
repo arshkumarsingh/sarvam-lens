@@ -1,0 +1,46 @@
+# concept: fire
+# page: fire/translations
+# revid: 93661657
+# section_url: https://en.wiktionary.org/w/index.php?title=fire/translations&action=raw
+## block: {{trans-top|oxidation reaction}}
+* Assamese: {{tt|as|জুই}}
+* Odia: {{tt+|or|ଅଗ୍ନି}}
+* Punjabi: {{tt+|pa|ਅੱਗ|f}}, {{tt+|pa|ਅਗਨ|m}}
+* Urdu: {{tt+|ur|آگ|f}}, {{tt+|ur|آتِش|f}}, {{tt|ur|اَگْنی|f}}
+* Nepali: {{tt+|ne|आगो}}
+* Sanskrit: {{tt+|sa|अग्नि|m}}, {{tt+|sa|भारत|m}}, {{tt+|sa|पृथु|m}}, {{tt+|sa|हरि}}, {{tt+|sa|यज्ञ|m}}, {{tt+|sa|तीर्थ|n}}, {{tt+|sa|सरल|m}}
+* Maithili: {{tt|mai|आगि}}
+* Sindhi: {{tt|sd|باھ|f|tr=bāhi|alt=باھِ}}
+* Kashmiri:
+*: Devanagari: {{tt|ks|ऒगुन}}
+*: Perso-Arabic: {{tt+|ks|اۆگُن}}
+*: Sharada : {{tt|ks|𑆏𑆓𑆶𑆤𑇀}}
+MISSING Konkani
+* Dogri: {{tt|doi|अग्ग}}
+* Manipuri: {{t+|mni|ꯃꯩ}}
+MISSING Bodo
+* Santali: {{tt+|sat|ᱥᱮᱺᱜᱮᱹᱞ}}
+* Japanese: {{tt+|ja|火|tr=ひ, hi}}
+*: Old Japanese: {{tt|ojp|火|tr=ひ, pi<sub>2</sub>}}
+* Russian: {{tt+|ru|ого́нь|m}}
+* Arabic: {{tt+|ar|نَار|f}}
+* Hindi: {{tt+|hi|आग|f}}, {{tt+|hi|अग्नि|m}}, {{tt+|hi|आतिश|f}}, {{tt+|hi|जलन|f}}, {{tt+|hi|अगनी|f}}, {{tt+|hi|अगन|m}}, {{tt+|hi|आगि|f}}, {{tt+|hi|शोला|m}}
+## block: {{trans-top|instance of this chemical reaction}}
+MISSING Assamese
+MISSING Odia
+MISSING Punjabi
+MISSING Urdu
+MISSING Nepali
+MISSING Sanskrit
+MISSING Maithili
+MISSING Sindhi
+MISSING Kashmiri
+MISSING Konkani
+MISSING Dogri
+MISSING Manipuri
+MISSING Bodo
+MISSING Santali
+* Japanese: {{tt+|ja|火|tr=ひ, hi}}, {{tt+|ja|炎|tr=ほのお, honō}}
+* Russian: {{tt+|ru|ого́нь|m}}, {{tt+|ru|оча́г|m}} {{qualifier|hearth}}, {{tt+|ru|костёр|m}} {{qualifier|bonfire}}
+MISSING Arabic
+MISSING Hindi

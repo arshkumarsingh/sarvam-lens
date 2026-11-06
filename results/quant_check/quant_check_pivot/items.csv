@@ -1,0 +1,449 @@
+pair,concept,target_word,n_shared_tokens,model_top_token,kept,reason,fp32_top_token,fp32_top_in_target,top_agree
+ta-te,bird,పక్షి,0,ప,True,,ప,True,True
+ta-te,book,పుస్తకం,0,పు,True,,పు,True,True
+ta-te,cat,పిల్లి,0,ప,True,,ప,True,True
+ta-te,cow,ఆవు,0,ఆ,True,,ఆ,True,True
+ta-te,dog,కుక్క,0,కు,True,,కు,True,True
+ta-te,eye,కన్ను,0,క,True,,క,True,True
+ta-te,fire,నిప్పు,0,అ,False,model's next token does not begin the target word,అ,False,True
+ta-te,fish,చేప,0,చే,True,,చే,True,True
+ta-te,flower,పువ్వు,0,పు,True,,పు,True,True
+ta-te,gold,బంగారం,0,బ,True,,బ,True,True
+ta-te,hand,చేయి,0,చే,True,,చే,True,True
+ta-te,heart,గుండె,0,హ,True,,హ,True,True
+ta-te,horse,గుర్రం,0,గు,True,,గు,True,True
+ta-te,house,ఇల్లు,0,ఇ,True,,ఇ,True,True
+ta-te,king,రాజు,0,అ,False,model's next token does not begin the target word,అ,False,True
+ta-te,milk,పాలు,0,పాలు,True,,పాలు,True,True
+ta-te,moon,చంద్రుడు,0,చ,True,,చ,True,True
+ta-te,mother,అమ్మ,0,అ,True,,అ,True,True
+ta-te,mountain,కొండ,0,కొ,True,,కొ,True,True
+ta-te,name,పేరు,0,పే,True,,పే,True,True
+ta-te,night,రాత్రి,0,ర,True,,ర,True,True
+ta-te,rain,వర్షం,0,వర్,True,,వర్,True,True
+ta-te,river,నది,0,న,True,,న,True,True
+ta-te,road,రోడ్డు,0,రో,True,,రో,True,True
+ta-te,salt,ఉప్పు,0,ఉ,True,,ఉ,True,True
+ta-te,sky,ఆకాశం,0,ఆ,True,,ఆ,True,True
+ta-te,star,నక్షత్రం,0,న,True,,న,True,True
+ta-te,sun,సూర్యుడు,0,స,True,,స,True,True
+ta-te,tooth,పన్ను,0,ప,True,,ప,True,True
+ta-te,tree,చెట్టు,0,వ,False,model's next token does not begin the target word,వ,False,True
+ta-te,village,గ్రామం,0,గ్ర,True,,గ్ర,True,True
+ta-te,water,నీరు,0,నీ,True,,నీ,True,True
+te-kn,bird,ಹಕ್ಕಿ,0,ಪಕ್ಷ,True,,ಪಕ್ಷ,True,True
+te-kn,book,ಪುಸ್ತಕ,0,ಪು,True,,ಪು,True,True
+te-kn,cat,ಬೆಕ್ಕು,0,ಬೆ,True,,ಬೆ,True,True
+te-kn,cow,ಹಸು,0,ಹ,True,,ಹ,True,True
+te-kn,dog,ನಾಯಿ,0,ನ,True,,ನ,True,True
+te-kn,eye,ಕಣ್ಣು,0,ಕ,True,,ಕ,True,True
+te-kn,fire,ಬೆಂಕಿ,0,ಅ,False,model's next token does not begin the target word,ಅ,False,True
+te-kn,fish,ಮೀನು,0,ಮೀ,True,,ಮೀ,True,True
+te-kn,flower,ಹೂವು,0,ಹೂ,True,,ಹೂ,True,True
+te-kn,gold,ಚಿನ್ನ,0,ಚಿ,True,,ಚಿ,True,True
+te-kn,hand,ಕೈ,0,ಕೈ,True,,ಕೈ,True,True
+te-kn,heart,ಹೃದಯ,0,ಹ,True,,ಹ,True,True
+te-kn,horse,ಕುದುರೆ,0,ಕ,True,,ಕ,True,True
+te-kn,house,ಮನೆ,0,ಮ,True,,ಮ,True,True
+te-kn,king,ರಾಜ,0,ರಾಜ,True,,ರಾಜ,True,True
+te-kn,milk,ಹಾಲು,0,ಹಾ,True,,ಹಾ,True,True
+te-kn,moon,ಚಂದ್ರ,0,ಚ,True,,ಚ,True,True
+te-kn,mother,ಅಮ್ಮ,0,ತ,True,,ತ,True,True
+te-kn,mountain,ಬೆಟ್ಟ,0,కొ,False,model's next token does not begin the target word,కొ,False,True
+te-kn,name,ಹೆಸರು,0,ಹೆ,True,,ಹೆ,True,True
+te-kn,night,ರಾತ್ರಿ,0,ರಾ,True,,ರಾ,True,True
+te-kn,rain,ಮಳೆ,0,ಮ,True,,ಮ,True,True
+te-kn,river,ನದಿ,0,ನದ,True,,ನದ,True,True
+te-kn,road,ರಸ್ತೆ,0,ರಸ್,True,,ರಸ್,True,True
+te-kn,salt,ಉಪ್ಪು,0,ಉ,True,,ಉ,True,True
+te-kn,sky,ಆಕಾಶ,0,ಆ,True,,ಆ,True,True
+te-kn,star,ನಕ್ಷತ್ರ,0,ನ,True,,ನ,True,True
+te-kn,sun,ಸೂರ್ಯ,0,ಸ,True,,ಸ,True,True
+te-kn,tooth,ಹಲ್ಲು,0,ಪೆ,False,model's next token does not begin the target word,ಪೆ,False,True
+te-kn,tree,ಮರ,0,ಮ,True,,ಮ,True,True
+te-kn,village,ಹಳ್ಳಿ,0,ಗ್ರ,True,,ಗ್ರ,True,True
+te-kn,water,ನೀರು,0,ನೀ,True,,ನೀ,True,True
+kn-ml,bird,പക്ഷി,0,പക്ഷ,True,,പക്ഷ,True,True
+kn-ml,book,പുസ്തകം,0,പു,True,,പു,True,True
+kn-ml,cat,പൂച്ച,0,പൂ,True,,പൂ,True,True
+kn-ml,cow,പശു,0,பசு,False,model's next token does not begin the target word,பசு,False,True
+kn-ml,dog,നായ,0,നായ,True,,നായ,True,True
+kn-ml,eye,കണ്ണ്,0,ക,True,,ക,True,True
+kn-ml,fire,തീ,0,അ,False,model's next token does not begin the target word,അ,False,True
+kn-ml,fish,മീൻ,0,മീ,True,,മീ,True,True
+kn-ml,flower,പൂവ്,0,പൂ,True,,പൂ,True,True
+kn-ml,gold,സ്വർണം,0,ಚಿ,False,model's next token does not begin the target word,ಚಿ,False,True
+kn-ml,hand,കൈ,0,ക,True,,ക,True,True
+kn-ml,heart,ഹൃദയം,0,ഹൃ,True,,ഹൃ,True,True
+kn-ml,horse,കുതിര,0,കു,True,,കു,True,True
+kn-ml,house,വീട്,0,വീ,True,,വീ,True,True
+kn-ml,king,രാജാവ്,0,രാ,True,,രാ,True,True
+kn-ml,milk,പാൽ,0,ಹಾ,False,model's next token does not begin the target word,ಹಾ,False,True
+kn-ml,moon,ചന്ദ്രൻ,0,ച,True,,ച,True,True
+kn-ml,mother,അമ്മ,0,അമ്മ,True,,അമ്മ,True,True
+kn-ml,mountain,മല,0,കുന്ന,False,model's next token does not begin the target word,കുന്ന,False,True
+kn-ml,name,പേര്,0,പേ,True,,പേ,True,True
+kn-ml,night,രാത്രി,0,രാ,True,,രാ,True,True
+kn-ml,rain,മഴ,0,മ,True,,മ,True,True
+kn-ml,river,നദി,0,ന,True,,ന,True,True
+kn-ml,road,റോഡ്,0,റോ,True,,റോ,True,True
+kn-ml,salt,ഉപ്പ്,0,ഉ,True,,ഉ,True,True
+kn-ml,sky,ആകാശം,0,ആ,True,,ആ,True,True
+kn-ml,star,നക്ഷത്രം,0,ന,True,,ന,True,True
+kn-ml,sun,സൂര്യൻ,0,സൂ,True,,സൂ,True,True
+kn-ml,tooth,പല്ല്,0,പ,True,,പ,True,True
+kn-ml,tree,മരം,0,മ,True,,മ,True,True
+kn-ml,village,ഗ്രാമം,0,ഗ്ര,True,,ഗ്ര,True,True
+kn-ml,water,വെള്ളം,0,വെള്ള,True,,വെള്ള,True,True
+ml-ta,bird,பறவை,0,ப,True,,ப,True,True
+ml-ta,book,புத்தகம்,0,பு,True,,பு,True,True
+ml-ta,cat,பூனை,0,பூ,True,,பூ,True,True
+ml-ta,cow,பசு,0,பசு,True,,பசு,True,True
+ml-ta,dog,நாய்,0,നായ,False,model's next token does not begin the target word,ந,True,False
+ml-ta,eye,கண்,0,க,True,,க,True,True
+ml-ta,fire,நெருப்பு,0,தீ,True,,தீ,True,True
+ml-ta,fish,மீன்,0,மீ,True,,மீ,True,True
+ml-ta,flower,பூ,0,പൂ,False,model's next token does not begin the target word,പൂ,False,True
+ml-ta,gold,தங்கம்,0,த,True,,த,True,True
+ml-ta,hand,கை,0,கை,True,,கை,True,True
+ml-ta,heart,இதயம்,0,இத,True,,இத,True,True
+ml-ta,horse,குதிரை,0,കു,False,model's next token does not begin the target word,കു,False,True
+ml-ta,house,வீடு,0,வீ,True,,வீ,True,True
+ml-ta,king,அரசன்,0,ரா,True,,ரா,True,True
+ml-ta,milk,பால்,0,பால்,True,,பால்,True,True
+ml-ta,moon,நிலா,0,ച,False,model's next token does not begin the target word,ച,False,True
+ml-ta,mother,அம்மா,0,அ,True,,அ,True,True
+ml-ta,mountain,மலை,0,மலை,True,,மலை,True,True
+ml-ta,name,பெயர்,0,பெ,True,,பெ,True,True
+ml-ta,night,இரவு,0,இர,True,,இர,True,True
+ml-ta,rain,மழை,0,ம,True,,ம,True,True
+ml-ta,river,ஆறு,0,ந,True,,ந,True,True
+ml-ta,road,சாலை,0,சாலை,True,,சாலை,True,True
+ml-ta,salt,உப்பு,0,உ,True,,உ,True,True
+ml-ta,sky,வானம்,0,வான,True,,வான,True,True
+ml-ta,star,நட்சத்திரம்,0,ந,True,,ந,True,True
+ml-ta,sun,சூரியன்,0,சூ,True,,சூ,True,True
+ml-ta,tooth,பல்,0,ப,True,,ப,True,True
+ml-ta,tree,மரம்,0,ம,True,,ம,True,True
+ml-ta,village,கிராமம்,0,கிர,True,,கிர,True,True
+ml-ta,water,தண்ணீர்,0,த,True,,த,True,True
+bn-gu,bird,પક્ષી,0,પ,True,,પ,True,True
+bn-gu,book,પુસ્તક,0,પુ,True,,પુ,True,True
+bn-gu,cat,બિલાડી,0,બ,True,,બ,True,True
+bn-gu,cow,ગાય,0,ગ,True,,ગ,True,True
+bn-gu,dog,કૂતરો,0,ક,True,,ક,True,True
+bn-gu,eye,આંખ,0,આ,True,,આ,True,True
+bn-gu,fire,આગ,0,અ,False,model's next token does not begin the target word,અ,False,True
+bn-gu,fish,માછલી,0,મા,True,,મા,True,True
+bn-gu,flower,ફૂલ,0,ફ,True,,ફ,True,True
+bn-gu,gold,સોનું,0,સો,True,,સો,True,True
+bn-gu,hand,હાથ,0,હા,True,,હા,True,True
+bn-gu,heart,હૃદય,0,હ,True,,હ,True,True
+bn-gu,horse,ઘોડો,0,ઘ,True,,ઘ,True,True
+bn-gu,house,ઘર,0,ઘ,True,,ઘ,True,True
+bn-gu,king,રાજા,0,રા,True,,રા,True,True
+bn-gu,milk,દૂધ,0,દ,True,,દ,True,True
+bn-gu,moon,ચંદ્ર,0,ચ,True,,ચ,True,True
+bn-gu,mother,મા,0,માતા,True,,માતા,True,True
+bn-gu,mountain,પર્વત,0,પ,True,,પ,True,True
+bn-gu,name,નામ,0,નામ,True,,નામ,True,True
+bn-gu,night,રાત,0,રાત,True,,રાત,True,True
+bn-gu,rain,વરસાદ,0,વર,True,,વર,True,True
+bn-gu,river,નદી,0,ન,True,,ન,True,True
+bn-gu,road,રસ્તો,0,ર,True,,ર,True,True
+bn-gu,salt,મીઠું,0,મી,True,,મી,True,True
+bn-gu,sky,આકાશ,0,આ,True,,આ,True,True
+bn-gu,star,તારો,0,ત,True,,ત,True,True
+bn-gu,sun,સૂર્ય,0,સ,True,,સ,True,True
+bn-gu,tooth,દાંત,0,દા,True,,દા,True,True
+bn-gu,tree,ઝાડ,0,વ,True,,વ,True,True
+bn-gu,village,ગામ,0,ગ,True,,ગ,True,True
+bn-gu,water,પાણી,0,જ,False,model's next token does not begin the target word,જ,False,True
+gu-mr,cat,मांजर,0,બ,False,model's next token does not begin the target word,બ,False,True
+gu-mr,dog,कुत्रा,2,कु,True,,कु,True,True
+gu-mr,eye,डोळा,0,डो,True,,डो,True,True
+gu-mr,fish,मासा,0,मा,True,,मा,True,True
+gu-mr,gold,सोने,3,सो,True,,सो,True,True
+gu-mr,hand,हात,2,हात,True,,हात,True,True
+gu-mr,mother,आई,0,मा,False,model's next token does not begin the target word,मा,False,True
+gu-mr,mountain,डोंगर,6,प,True,,प,True,True
+gu-mr,name,नाव,2,नाव,True,,नाव,True,True
+gu-mr,rain,पाऊस,0,વર,False,model's next token does not begin the target word,વર,False,True
+gu-mr,road,रस्ता,0,र,True,,र,True,True
+gu-mr,salt,मीठ,0,मी,True,,मी,True,True
+gu-mr,tooth,दात,2,दा,True,,दा,True,True
+gu-mr,tree,झाड,3,झा,True,,झा,True,True
+gu-mr,village,गाव,2,गा,True,,गांव,False,False
+gu-mr,water,पाणी,2,પા,False,model's next token does not begin the target word,પા,False,True
+mr-bn,bird,পাখি,5,পা,True,,পা,True,True
+mr-bn,book,বই,5,ব,True,,ব,True,True
+mr-bn,cat,বিড়াল,0,বি,True,,বি,True,True
+mr-bn,cow,গরু,4,গর,True,,গর,True,True
+mr-bn,dog,কুকুর,2,ক,True,,ক,True,True
+mr-bn,eye,চোখ,0,চো,True,,চো,True,True
+mr-bn,fire,আগুন,2,আগ,True,,আগ,True,True
+mr-bn,fish,মাছ,0,মা,True,,মা,True,True
+mr-bn,flower,ফুল,3,ফুল,True,,ফুল,True,True
+mr-bn,gold,সোনা,3,শো,False,model's next token does not begin the target word,শো,False,True
+mr-bn,hand,হাত,2,হাত,True,,হাত,True,True
+mr-bn,heart,হৃদয়,3,হ,True,,হ,True,True
+mr-bn,horse,ঘোড়া,2,ঘ,True,,ঘ,True,True
+mr-bn,house,বাড়ি,2,ঘর,True,,ঘর,True,True
+mr-bn,king,রাজা,6,রাজ,True,,রাজ,True,True
+mr-bn,milk,দুধ,3,দ,True,,দ,True,True
+mr-bn,moon,চাঁদ,5,চাঁ,True,,চাঁ,True,True
+mr-bn,mother,মা,0,আই,False,model's next token does not begin the target word,আই,False,True
+mr-bn,mountain,পাহাড়,6,পর্ব,True,,পর্ব,True,True
+mr-bn,name,নাম,2,ন,False,model's next token does not begin the target word,ন,False,True
+mr-bn,night,রাত,4,রাত,True,,রাত,True,True
+mr-bn,rain,বৃষ্টি,0,বৃষ্টি,True,,বৃষ্টি,True,True
+mr-bn,river,নদী,2,ন,True,,ন,True,True
+mr-bn,road,রাস্তা,0,রা,True,,রা,True,True
+mr-bn,salt,লবণ,0,মি,False,model's next token does not begin the target word,মি,False,True
+mr-bn,sky,আকাশ,3,আ,True,,আ,True,True
+mr-bn,star,তারা,6,তার,True,,তার,True,True
+mr-bn,sun,সূর্য,8,সূ,True,,সূ,True,True
+mr-bn,tooth,দাঁত,2,দ,True,,দ,True,True
+mr-bn,tree,গাছ,3,গা,True,,গা,True,True
+mr-bn,village,গ্রাম,2,গ্রাম,True,,গ্রাম,True,True
+mr-bn,water,জল,2,জল,True,,জল,True,True
+bn-ta,bird,பறவை,0,പക്ഷ,False,model's next token does not begin the target word,പക്ഷ,False,True
+bn-ta,book,புத்தகம்,0,பு,True,,பு,True,True
+bn-ta,cat,பூனை,0,பூ,True,,பூ,True,True
+bn-ta,cow,பசு,0,பசு,True,,பசு,True,True
+bn-ta,dog,நாய்,0,ক,False,model's next token does not begin the target word,ক,False,True
+bn-ta,eye,கண்,0,க,True,,க,True,True
+bn-ta,fire,நெருப்பு,0,தீ,True,,தீ,True,True
+bn-ta,fish,மீன்,0,மீ,True,,மீ,True,True
+bn-ta,flower,பூ,0,ফুল,False,model's next token does not begin the target word,ফুল,False,True
+bn-ta,gold,தங்கம்,0,த,True,,த,True,True
+bn-ta,hand,கை,0,கை,True,,கை,True,True
+bn-ta,heart,இதயம்,0,இத,True,,இத,True,True
+bn-ta,horse,குதிரை,0,ঘ,False,model's next token does not begin the target word,ঘ,False,True
+bn-ta,house,வீடு,0,வீ,True,,বাড়ি,False,False
+bn-ta,king,அரசன்,0,ம,False,model's next token does not begin the target word,ம,False,True
+bn-ta,milk,பால்,0,பால்,True,,பால்,True,True
+bn-ta,moon,நிலா,0,ச,True,,ச,True,True
+bn-ta,mother,அம்மா,0,আম,False,model's next token does not begin the target word,আম,False,True
+bn-ta,mountain,மலை,0,மலை,True,,மலை,True,True
+bn-ta,name,பெயர்,0,பெ,True,,பெ,True,True
+bn-ta,night,இரவு,0,இர,True,,இர,True,True
+bn-ta,rain,மழை,0,ம,True,,ம,True,True
+bn-ta,river,ஆறு,0,ন,False,model's next token does not begin the target word,ন,False,True
+bn-ta,road,சாலை,0,சாலை,True,,சாலை,True,True
+bn-ta,salt,உப்பு,0,உ,True,,உ,True,True
+bn-ta,sky,வானம்,0,வான,True,,வான,True,True
+bn-ta,star,நட்சத்திரம்,0,வி,False,model's next token does not begin the target word,வி,False,True
+bn-ta,sun,சூரியன்,0,சூ,True,,சூ,True,True
+bn-ta,tooth,பல்,0,ப,True,,ப,True,True
+bn-ta,tree,மரம்,0,ம,True,,ம,True,True
+bn-ta,village,கிராமம்,0,கிர,True,,கிர,True,True
+bn-ta,water,தண்ணீர்,0,த,True,,த,True,True
+ta-bn,bird,পাখি,0,পা,True,,পা,True,True
+ta-bn,book,বই,0,ব,True,,ব,True,True
+ta-bn,cat,বিড়াল,0,বি,True,,বি,True,True
+ta-bn,cow,গরু,0,গর,True,,গর,True,True
+ta-bn,dog,কুকুর,0,ক,True,,ক,True,True
+ta-bn,eye,চোখ,0,চো,True,,চো,True,True
+ta-bn,fire,আগুন,0,আগ,True,,আগ,True,True
+ta-bn,fish,মাছ,0,মা,True,,মা,True,True
+ta-bn,flower,ফুল,0,ফুল,True,,ফুল,True,True
+ta-bn,gold,সোনা,0,স,True,,স,True,True
+ta-bn,hand,হাত,0,হাত,True,,হাত,True,True
+ta-bn,heart,হৃদয়,0,হ,True,,হ,True,True
+ta-bn,horse,ঘোড়া,0,ঘ,True,,ঘ,True,True
+ta-bn,house,বাড়ি,0,বা,True,,বা,True,True
+ta-bn,king,রাজা,0,রাজ,True,,রাজ,True,True
+ta-bn,milk,দুধ,0,দ,True,,দ,True,True
+ta-bn,moon,চাঁদ,0,চাঁ,True,,চাঁ,True,True
+ta-bn,mother,মা,0,মা,True,,মা,True,True
+ta-bn,mountain,পাহাড়,0,পর্ব,True,,পর্ব,True,True
+ta-bn,name,নাম,0,নাম,True,,নাম,True,True
+ta-bn,night,রাত,0,রাত,True,,রাত,True,True
+ta-bn,rain,বৃষ্টি,0,বৃষ্টি,True,,বৃষ্টি,True,True
+ta-bn,river,নদী,0,ন,True,,ন,True,True
+ta-bn,road,রাস্তা,0,রা,True,,রা,True,True
+ta-bn,salt,লবণ,0,ল,True,,ল,True,True
+ta-bn,sky,আকাশ,0,আ,True,,আ,True,True
+ta-bn,star,তারা,0,তার,True,,তার,True,True
+ta-bn,sun,সূর্য,0,সূ,True,,সূ,True,True
+ta-bn,tooth,দাঁত,0, பல்,False,model's next token does not begin the target word, பல்,False,True
+ta-bn,tree,গাছ,0,গা,True,,গা,True,True
+ta-bn,village,গ্রাম,0,গ্রাম,True,,গ্রাম,True,True
+ta-bn,water,জল,0,জল,True,,জল,True,True
+te-gu,bird,પક્ષી,0,પ,True,,પ,True,True
+te-gu,book,પુસ્તક,0,પુ,True,,પુ,True,True
+te-gu,cat,બિલાડી,0,બ,True,,બ,True,True
+te-gu,cow,ગાય,0,ગ,True,,ગ,True,True
+te-gu,dog,કૂતરો,0,కు,False,model's next token does not begin the target word,కు,False,True
+te-gu,eye,આંખ,0,క,False,model's next token does not begin the target word,క,False,True
+te-gu,fire,આગ,0,આગ,True,,આગ,True,True
+te-gu,fish,માછલી,0,મા,True,,મા,True,True
+te-gu,flower,ફૂલ,0,फूल,False,model's next token does not begin the target word,फूल,False,True
+te-gu,gold,સોનું,0,સો,True,,સો,True,True
+te-gu,hand,હાથ,0,હા,True,,હા,True,True
+te-gu,heart,હૃદય,0,హ,False,model's next token does not begin the target word,హ,False,True
+te-gu,horse,ઘોડો,0,గు,False,model's next token does not begin the target word,గు,False,True
+te-gu,house,ઘર,0,ઘ,True,,ઘ,True,True
+te-gu,king,રાજા,0,રા,True,,રા,True,True
+te-gu,milk,દૂધ,0,દ,True,,દ,True,True
+te-gu,moon,ચંદ્ર,0,చ,False,model's next token does not begin the target word,చ,False,True
+te-gu,mother,મા,0,મા,True,,મા,True,True
+te-gu,mountain,પર્વત,0,కొ,False,model's next token does not begin the target word,కొ,False,True
+te-gu,name,નામ,0,નામ,True,,નામ,True,True
+te-gu,night,રાત,0,રાત,True,,રાત,True,True
+te-gu,rain,વરસાદ,0,વર,True,,વર,True,True
+te-gu,river,નદી,0,న,False,model's next token does not begin the target word,ન,True,False
+te-gu,road,રસ્તો,0,ર,True,,ર,True,True
+te-gu,salt,મીઠું,0,ఉ,False,model's next token does not begin the target word,ఉ,False,True
+te-gu,sky,આકાશ,0,ఆ,False,model's next token does not begin the target word,ఆ,False,True
+te-gu,star,તારો,0,న,False,model's next token does not begin the target word,న,False,True
+te-gu,sun,સૂર્ય,0,స,False,model's next token does not begin the target word,స,False,True
+te-gu,tooth,દાંત,0,પ,False,model's next token does not begin the target word,પ,False,True
+te-gu,tree,ઝાડ,0,વ,True,,વ,True,True
+te-gu,village,ગામ,0,గ్ర,False,model's next token does not begin the target word,గ్ర,False,True
+te-gu,water,પાણી,0,પા,True,,પા,True,True
+hi-ta,bird,பறவை,0,ப,True,,ப,True,True
+hi-ta,book,புத்தகம்,0,பு,True,,பு,True,True
+hi-ta,cat,பூனை,0,பூ,True,,பூ,True,True
+hi-ta,cow,பசு,0,மா,True,,மா,True,True
+hi-ta,dog,நாய்,0,ந,True,,ந,True,True
+hi-ta,eye,கண்,0,க,True,,க,True,True
+hi-ta,fire,நெருப்பு,0,நெ,True,,தீ,True,False
+hi-ta,fish,மீன்,0,மீ,True,,மீ,True,True
+hi-ta,flower,பூ,0,பூ,True,,பூ,True,True
+hi-ta,gold,தங்கம்,0,த,True,,த,True,True
+hi-ta,hand,கை,0,கை,True,,கை,True,True
+hi-ta,heart,இதயம்,0,இத,True,,இத,True,True
+hi-ta,horse,குதிரை,0,கு,True,,கு,True,True
+hi-ta,house,வீடு,0,வீ,True,,வீ,True,True
+hi-ta,king,அரசன்,0,அ,True,,அ,True,True
+hi-ta,milk,பால்,0,பால்,True,,பால்,True,True
+hi-ta,moon,நிலா,0,நில,True,,நில,True,True
+hi-ta,mother,அம்மா,0,அ,True,,அ,True,True
+hi-ta,mountain,மலை,0,மலை,True,,மலை,True,True
+hi-ta,name,பெயர்,0,பெ,True,,பெ,True,True
+hi-ta,night,இரவு,0,இர,True,,இர,True,True
+hi-ta,rain,மழை,0,ம,True,,ம,True,True
+hi-ta,river,ஆறு,0,ஆ,True,,ஆ,True,True
+hi-ta,road,சாலை,0,வீ,False,model's next token does not begin the target word,வீ,False,True
+hi-ta,salt,உப்பு,0,உ,True,,உ,True,True
+hi-ta,sky,வானம்,0,வான,True,,வான,True,True
+hi-ta,star,நட்சத்திரம்,0,ந,True,,ந,True,True
+hi-ta,sun,சூரியன்,0,சூ,True,,சூ,True,True
+hi-ta,tooth,பல்,0,ப,True,,ப,True,True
+hi-ta,tree,மரம்,0,ம,True,,ம,True,True
+hi-ta,village,கிராமம்,0,கிர,True,,கிர,True,True
+hi-ta,water,தண்ணீர்,0,த,True,,த,True,True
+hi_latn-ta,bird,பறவை,0,ப,True,,ப,True,True
+hi_latn-ta,book,புத்தகம்,0,பு,True,,பு,True,True
+hi_latn-ta,cat,பூனை,0,பூ,True,,பூ,True,True
+hi_latn-ta,cow,பசு,0,பசு,True,,பசு,True,True
+hi_latn-ta,dog,நாய்,0,ந,True,,ந,True,True
+hi_latn-ta,eye,கண்,0,க,True,,க,True,True
+hi_latn-ta,fire,நெருப்பு,0,நெ,True,,நெ,True,True
+hi_latn-ta,fish,மீன்,0,மீ,True,,மீ,True,True
+hi_latn-ta,flower,பூ,0,பூ,True,,பூ,True,True
+hi_latn-ta,gold,தங்கம்,0,த,True,,த,True,True
+hi_latn-ta,hand,கை,6,கை,True,,கை,True,True
+hi_latn-ta,heart,இதயம்,0,இத,True,,இத,True,True
+hi_latn-ta,horse,குதிரை,0,கு,True,,கு,True,True
+hi_latn-ta,house,வீடு,0,வீ,True,,வீ,True,True
+hi_latn-ta,king,அரசன்,0,அ,True,,அ,True,True
+hi_latn-ta,milk,பால்,0,பால்,True,,பால்,True,True
+hi_latn-ta,moon,நிலா,0,நில,True,,நில,True,True
+hi_latn-ta,mother,அம்மா,0,த,True,,த,True,True
+hi_latn-ta,mountain,மலை,0,மலை,True,,மலை,True,True
+hi_latn-ta,name,பெயர்,13,பெ,True,,பெ,True,True
+hi_latn-ta,night,இரவு,0,இர,True,,இர,True,True
+hi_latn-ta,rain,மழை,0,ம,True,,ம,True,True
+hi_latn-ta,river,ஆறு,0,ஆ,True,,ஆ,True,True
+hi_latn-ta,road,சாலை,0,சாலை,True,,சாலை,True,True
+hi_latn-ta,salt,உப்பு,0,உ,True,,உ,True,True
+hi_latn-ta,sky,வானம்,0,வான,True,,வான,True,True
+hi_latn-ta,star,நட்சத்திரம்,0,ந,True,,ந,True,True
+hi_latn-ta,sun,சூரியன்,6,சூ,True,,சூ,True,True
+hi_latn-ta,tooth,பல்,0,ப,True,,ப,True,True
+hi_latn-ta,tree,மரம்,0,ம,True,,ம,True,True
+hi_latn-ta,village,கிராமம்,0,கிர,True,,கிர,True,True
+hi_latn-ta,water,தண்ணீர்,0,நீர்,True,,நீர்,True,True
+en-ta,bird,பறவை,0,ப,True,,ப,True,True
+en-ta,book,புத்தகம்,0,பு,True,,பு,True,True
+en-ta,cat,பூனை,0,பூ,True,,பூ,True,True
+en-ta,cow,பசு,0,மா,True,,மா,True,True
+en-ta,dog,நாய்,0,ந,True,,ந,True,True
+en-ta,eye,கண்,0,க,True,,க,True,True
+en-ta,fire,நெருப்பு,0,தீ,True,,தீ,True,True
+en-ta,fish,மீன்,0,மீ,True,,மீ,True,True
+en-ta,flower,பூ,0,பூ,True,,பூ,True,True
+en-ta,gold,தங்கம்,0,த,True,,த,True,True
+en-ta,hand,கை,0,கை,True,,கை,True,True
+en-ta,heart,இதயம்,0,இத,True,,இத,True,True
+en-ta,horse,குதிரை,0,கு,True,,கு,True,True
+en-ta,house,வீடு,0,வீ,True,,வீ,True,True
+en-ta,king,அரசன்,0,ம,False,model's next token does not begin the target word,அ,True,False
+en-ta,milk,பால்,0,பால்,True,,பால்,True,True
+en-ta,moon,நிலா,0,நில,True,,நில,True,True
+en-ta,mother,அம்மா,0,அ,True,,அ,True,True
+en-ta,mountain,மலை,0,மலை,True,,மலை,True,True
+en-ta,name,பெயர்,0,பெ,True,,பெ,True,True
+en-ta,night,இரவு,0,இர,True,,இர,True,True
+en-ta,rain,மழை,0,ம,True,,ம,True,True
+en-ta,river,ஆறு,0,ஆ,True,,ஆ,True,True
+en-ta,road,சாலை,0,சாலை,True,,சாலை,True,True
+en-ta,salt,உப்பு,0,உ,True,,உ,True,True
+en-ta,sky,வானம்,0,வான,True,,வான,True,True
+en-ta,star,நட்சத்திரம்,0,ந,True,,ந,True,True
+en-ta,sun,சூரியன்,0,சூ,True,,சூ,True,True
+en-ta,tooth,பல்,0,ப,True,,ப,True,True
+en-ta,tree,மரம்,0,ம,True,,ம,True,True
+en-ta,village,கிராமம்,0,கிர,True,,கிர,True,True
+en-ta,water,தண்ணீர்,0,நீர்,True,,நீர்,True,True
+ta-en,bird,bird,0,bird,True,,bird,True,True
+ta-en,book,book,0,book,True,,book,True,True
+ta-en,cat,cat,0,cat,True,,cat,True,True
+ta-en,cow,cow,0,cow,True,,cow,True,True
+ta-en,dog,dog,0,dog,True,,dog,True,True
+ta-en,eye,eye,0,eye,True,,eye,True,True
+ta-en,fire,fire,0,fire,True,,fire,True,True
+ta-en,fish,fish,0,fish,True,,fish,True,True
+ta-en,flower,flower,0,flower,True,,flower,True,True
+ta-en,gold,gold,0,gold,True,,gold,True,True
+ta-en,hand,hand,0,hand,True,,hand,True,True
+ta-en,heart,heart,0,heart,True,,heart,True,True
+ta-en,horse,horse,0,horse,True,,horse,True,True
+ta-en,house,house,0,house,True,,house,True,True
+ta-en,king,king,0,king,True,,king,True,True
+ta-en,milk,milk,0,milk,True,,milk,True,True
+ta-en,moon,moon,0,moon,True,,moon,True,True
+ta-en,mother,mother,0,mother,True,,mother,True,True
+ta-en,mountain,mountain,0,mountain,True,,mountain,True,True
+ta-en,name,name,0,name,True,,name,True,True
+ta-en,night,night,0,night,True,,night,True,True
+ta-en,rain,rain,0,rain,True,,rain,True,True
+ta-en,river,river,0,river,True,,river,True,True
+ta-en,road,road,0,road,True,,road,True,True
+ta-en,salt,salt,0,salt,True,,salt,True,True
+ta-en,sky,sky,0,sky,True,,sky,True,True
+ta-en,star,star,0,star,True,,star,True,True
+ta-en,sun,sun,0,sun,True,,sun,True,True
+ta-en,tooth,tooth,0,tooth,True,,tooth,True,True
+ta-en,tree,tree,0,tree,True,,tree,True,True
+ta-en,village,village,0,village,True,,village,True,True
+ta-en,water,water,0,water,True,,water,True,True
+gu-mr,bird,पक्षी,5,,False,target tokens all shared with another role,,,
+gu-mr,book,पुस्तक,5,,False,target tokens all shared with another role,,,
+gu-mr,cow,गाय,4,,False,target tokens all shared with another role,,,
+gu-mr,fire,आग,2,,False,target tokens all shared with another role,,,
+gu-mr,flower,फूल,3,,False,target tokens all shared with another role,,,
+gu-mr,heart,हृदय,3,,False,target tokens all shared with another role,,,
+gu-mr,horse,घोडा,2,,False,target tokens all shared with another role,,,
+gu-mr,house,घर,2,,False,target tokens all shared with another role,,,
+gu-mr,king,राजा,6,,False,target tokens all shared with another role,,,
+gu-mr,milk,दूध,3,,False,target tokens all shared with another role,,,
+gu-mr,moon,चंद्र,5,,False,target tokens all shared with another role,,,
+gu-mr,night,रात्र,4,,False,target tokens all shared with another role,,,
+gu-mr,river,नदी,2,,False,target tokens all shared with another role,,,
+gu-mr,sky,आकाश,3,,False,target tokens all shared with another role,,,
+gu-mr,star,तारा,6,,False,target tokens all shared with another role,,,
+gu-mr,sun,सूर्य,8,,False,target tokens all shared with another role,,,

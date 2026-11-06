@@ -1,0 +1,42 @@
+✓ Initialized. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-VP6ll8LdNcdmuXLPABqQEl
+✓ Created objects.
+├── ✓ Uploaded .\code\modal_app.py
+├── ✓ Uploaded .\code
+├── ✓ Created Function prepare_weights.
+├── ✓ Created Function smoke.
+├── ✓ Created Function smoke_2gpu.
+├── ✓ Created Function batch_probe.
+├── ✓ Created Function prepare_qwen.
+├── ✓ Created Function cka.
+├── ✓ Created Function pilot.
+├── ✓ Created Function pilot2.
+├── ✓ Created Function merge_j.
+├── ✓ Created Function build_corpus_fn.
+├── ✓ Created Function cka_robust.
+└── ✓ Created Function diagnose.
+hard timeout 15 min -> worst case $0.08
+
+[1ALoading weights:   0%|          | 0/117 [00:00<?, ?it/s]Loading weights: 100%|██████████| 117/117 [00:00<00:00, 3890.08it/s]
+[transformers] You are using a model of type `sarvam_moe` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+[transformers] `use_return_dict` is deprecated! Use `return_dict` instead!
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+{
+ "smoke_test": "passed",
+ "n_checks": 48,
+ "dry_pilot_stages": {
+  "load": "ok",
+  "routing_ablation.english": "ok"
+ },
+ "dry_pilot_results": {
+  "load": {},
+  "routing_ablation.english": "{'lens': 'logit', 'n_items': 64, 'n_candidates': 64, 'mid_layers': [2], 'layers': [2, 3], 'top_k': 2, 'n_experts': 8, 'target_p': {'clean': 0.0, 'english_drop': -0.0, 'english_drop_ci': [-0.0, 0.0], 'control_drop': -0.0, 'control_drop_ci': [-0.0, 0.0], 'still_correct_english': 0.0, 'still_correct_control': 0.0}, 'checks': {'earlier_positions_unchanged': 1.0, 'first_layer_unchanged': 1.0, 'clean_rerun_identical': [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]}, 'per_layer': [{'layer': 2, 'edited_before': False, 'jaccard_english': 1.0, 'jaccard_english_ci': [1.0, 1.0], 'jaccard_control': 1.0, 'jaccard_control_ci': [1.0, 1.0], 'control_minus_english': 0.0, 'control_minus_english_ci': [0.0, 0.0], 'unchanged_english': 1.0, 'unchanged_control': 1.0, 'router_logit_cos_english': 1.0, 'router_logit_cos_control': 1.0}, {'layer': 3, 'edited_before': True, 'jaccard_english': 0.75, 'jaccard_english_ci': [0.6771, 0.8229], 'jaccard_control': 0.7708, 'jaccard_control_ci': [0.6875, 0.8438], 'control_minus_english': 0.0208, 'control_minus_english_ci': [-0.0625, 0.1146], 'unchanged_english': 0.625, 'unchanged_control': 0.656, 'router_logit_cos_english': 0.93047, 'router_logit_cos_control': 0.93099}], 'downstream_mean': {'layers': [3], 'change_english': 0.25, 'change_english_ci': [0.1771, 0.3229], 'change_control': 0.2292, 'change_control_ci': [0.1562, 0.3125], 'english_minus_control': 0.0208, 'english_minus_control_ci': [-0.0625, 0.1146]}, 'removed_share': {'english': 0.3454, 'control': 0.3561, 'by_l"
+ },
+ "dry_pilot_errors": {}
+}
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-VP6ll8LdNcdmuXLPABqQEl

@@ -1,0 +1,545 @@
+concept	lang	word	tier	source	note
+water	as	পানী	table	https://en.wiktionary.org/w/index.php?title=water/translations&oldid=93665583#Translations	first word of the table
+water	or	ପାଣି|ଜଳ	override	https://en.wiktionary.org/w/index.php?title=water/translations&oldid=93665583#Translations	table lists ଜଳ (Sanskrit, formal) first; ପାଣି is the everyday word, also listed
+water	pa	ਪਾਣੀ	table	https://en.wiktionary.org/w/index.php?title=water/translations&oldid=93665583#Translations	first word of the table; other listed: ਜਲ, ਆਬ
+water	ur	پانی	table	https://en.wiktionary.org/w/index.php?title=water/translations&oldid=93665583#Translations	first word of the table; other listed: آب, جل
+water	ne	पानी	table	https://en.wiktionary.org/w/index.php?title=water/translations&oldid=93665583#Translations	first word of the table; other listed: जल
+water	sa	जल|अप्	override	https://en.wiktionary.org/w/index.php?title=water/translations&oldid=93665583#Translations	table lists अप् (Vedic) first; जल is the common word, also listed
+water	mai	पानि	table	https://en.wiktionary.org/w/index.php?title=water/translations&oldid=93665583#Translations	first word of the table
+water	sd	پاڻي	table	https://en.wiktionary.org/w/index.php?title=water/translations&oldid=93665583#Translations	first word of the table; other listed: آب
+water	ks	آب	table	https://en.wiktionary.org/w/index.php?title=water/translations&oldid=93665583#Translations	first word of the table; other listed: پونؠ, زَل
+water	kok	उदक	table	https://en.wiktionary.org/w/index.php?title=water/translations&oldid=93665583#Translations	first word of the table; other listed: उद्धा
+water	doi	पानी	override	https://en.wiktionary.org/w/index.php?title=%E0%A4%AA%E0%A4%BE%E0%A4%A8%E0%A5%80&oldid=92486221	"Wiktionary entry (Dogri section): ""# [[water]]"""
+water	mni	ꯏꯁꯤꯡ	swadesh	https://en.wiktionary.org/w/index.php?title=Appendix:Manipuri_Swadesh_list&oldid=82427215	Swadesh list no. 150, first listed word (table has only ইসিং (other script/multiword)); other listed: ꯂꯥꯏꯖ, ꯂꯥꯏꯖꯥ, ꯇꯔꯪ, ꯇꯔꯡ, ꯂꯣꯛꯂꯧ
+water	brx	दै	override	https://en.wiktionary.org/w/index.php?title=%E0%A4%A6%E0%A5%88&oldid=92769336	"table has only the romanization dwi; Wiktionary entry दै: ""# [[water]]"""
+water	sat	ᱫᱟᱜ	table	https://en.wiktionary.org/w/index.php?title=water/translations&oldid=93665583#Translations	first word of the table
+water	ja	水	table	https://en.wiktionary.org/w/index.php?title=water/translations&oldid=93665583#Translations	first word of the table
+water	ru	вода|вода́	table	https://en.wiktionary.org/w/index.php?title=water/translations&oldid=93665583#Translations	first word of the table
+water	ar	ماء|مَاء	table	https://en.wiktionary.org/w/index.php?title=water/translations&oldid=93665583#Translations	first word of the table
+fire	as	জুই	table	https://en.wiktionary.org/w/index.php?title=fire/translations&oldid=93661657#Translations	first word of the table
+fire	or	ଅଗ୍ନି	table	https://en.wiktionary.org/w/index.php?title=fire/translations&oldid=93661657#Translations	first word of the table
+fire	pa	ਅੱਗ	table	https://en.wiktionary.org/w/index.php?title=fire/translations&oldid=93661657#Translations	first word of the table; other listed: ਅਗਨ
+fire	ur	آگ	table	https://en.wiktionary.org/w/index.php?title=fire/translations&oldid=93661657#Translations	first word of the table; other listed: آتِش, اَگْنی
+fire	ne	आगो	table	https://en.wiktionary.org/w/index.php?title=fire/translations&oldid=93661657#Translations	first word of the table
+fire	sa	अग्नि	table	https://en.wiktionary.org/w/index.php?title=fire/translations&oldid=93661657#Translations	first word of the table; other listed: भारत, पृथु, हरि, यज्ञ, तीर्थ, सरल
+fire	mai	आगि	table	https://en.wiktionary.org/w/index.php?title=fire/translations&oldid=93661657#Translations	first word of the table
+fire	sd	باھ	table	https://en.wiktionary.org/w/index.php?title=fire/translations&oldid=93661657#Translations	first word of the table
+fire	ks	اۆگُن	table	https://en.wiktionary.org/w/index.php?title=fire/translations&oldid=93661657#Translations	first word of the table
+fire	kok	उजो	entry	https://en.wiktionary.org/w/index.php?title=उजो&oldid=83792472	Wiktionary entry, definition '# [[fire]]' (no line in the table); single candidate
+fire	doi	अग्ग	table	https://en.wiktionary.org/w/index.php?title=fire/translations&oldid=93661657#Translations	first word of the table
+fire	mni	ꯃꯩ	table	https://en.wiktionary.org/w/index.php?title=fire/translations&oldid=93661657#Translations	first word of the table
+fire	brx	अर	override	https://en.wiktionary.org/w/index.php?title=%E0%A4%85%E0%A4%B0&oldid=93636711	"Wiktionary entry: ""# [[fire]]"""
+fire	sat	ᱥᱮᱺᱜᱮᱹᱞ|ᱥᱮᱸᱜᱮᱞ	override	https://en.wiktionary.org/w/index.php?title=fire/translations&oldid=93661657#Translations	table spelling first; the Swadesh list's and Wikidata's ᱥᱮᱸᱜᱮᱞ kept as a variant
+fire	ja	火	table	https://en.wiktionary.org/w/index.php?title=fire/translations&oldid=93661657#Translations	first word of the table; other listed: 火, 炎
+fire	ru	огонь|ого́нь	table	https://en.wiktionary.org/w/index.php?title=fire/translations&oldid=93661657#Translations	first word of the table; other listed: ого́нь, оча́г, костёр
+fire	ar	نار|نَار	table	https://en.wiktionary.org/w/index.php?title=fire/translations&oldid=93661657#Translations	first word of the table
+sun	as	বেলি	table	https://en.wiktionary.org/w/index.php?title=sun/translations&oldid=93563681#Translations	first word of the table; other listed: সূৰ্য, সূৰ্য
+sun	or	ସୂର୍ଯ୍ୟ	table	https://en.wiktionary.org/w/index.php?title=sun/translations&oldid=93563681#Translations	first word of the table; other listed: ସୂର୍ଯ୍ୟ
+sun	pa	ਸੂਰਜ	table	https://en.wiktionary.org/w/index.php?title=sun/translations&oldid=93563681#Translations	first word of the table; other listed: ਸੂਰਜ
+sun	ur	سورج|سوریہ	override	https://en.wiktionary.org/w/index.php?title=sun/translations&oldid=93563681#Translations	table lists سُورْیَہ (Sanskritized) first; سُورَج is the everyday word, also listed
+sun	ne	घाम	table	https://en.wiktionary.org/w/index.php?title=sun/translations&oldid=93563681#Translations	first word of the table; other listed: सूर्य, सूर्य
+sun	sa	सूर्य	table	https://en.wiktionary.org/w/index.php?title=sun/translations&oldid=93563681#Translations	first word of the table; other listed: रवि, आदित्य, अंशुमत्, सूर्य, सूर
+sun	mai	बेरि	table	https://en.wiktionary.org/w/index.php?title=sun/translations&oldid=93563681#Translations	first word of the table
+sun	sd	سورج	table	https://en.wiktionary.org/w/index.php?title=sun/translations&oldid=93563681#Translations	first word of the table
+sun	ks	آکھتاب	table	https://en.wiktionary.org/w/index.php?title=sun/translations&oldid=93563681#Translations	first word of the table; other listed: آفتاب, رَو
+sun	kok	सुर्यू	table	https://en.wiktionary.org/w/index.php?title=sun/translations&oldid=93563681#Translations	first word of the table
+sun	doi		empty	https://en.wiktionary.org/w/index.php?title=sun/translations&oldid=93563681#Translations	no line in the table
+sun	mni	ꯅꯨꯃꯤꯠ	table	https://en.wiktionary.org/w/index.php?title=sun/translations&oldid=93563681#Translations	first word of the table; other listed: ꯀꯣꯔꯧꯍꯟꯕ
+sun	brx		empty	https://en.wiktionary.org/w/index.php?title=sun/translations&oldid=93563681#Translations	no line in the table
+sun	sat	ᱥᱤᱸᱜᱤ	swadesh	https://en.wiktionary.org/w/index.php?title=Appendix:Santali_Swadesh_list&oldid=82403268	Swadesh list no. 147, first listed word (no line in the table)
+sun	ja	太陽	table	https://en.wiktionary.org/w/index.php?title=sun/translations&oldid=93563681#Translations	first word of the table; other listed: 日, 太陽, 恒星, 日
+sun	ru	солнце|со́лнце	table	https://en.wiktionary.org/w/index.php?title=sun/translations&oldid=93563681#Translations	first word of the table; other listed: со́лнце
+sun	ar	شمس|شَمْس	table	https://en.wiktionary.org/w/index.php?title=sun/translations&oldid=93563681#Translations	first word of the table; other listed: شَمْس
+moon	as	জোন	table	https://en.wiktionary.org/w/index.php?title=moon/translations&oldid=93664298#Translations	first word of the table
+moon	or	ଜହ୍ନ|ଚନ୍ଦ୍ର	override	https://en.wiktionary.org/w/index.php?title=moon/translations&oldid=93664298#Translations	table lists ଚନ୍ଦ୍ର (Sanskrit) first; ଜହ୍ନ is the everyday word, also listed
+moon	pa	ਚੰਦਰਮਾ	table	https://en.wiktionary.org/w/index.php?title=moon/translations&oldid=93664298#Translations	first word of the table
+moon	ur	چاند|چانْد	table	https://en.wiktionary.org/w/index.php?title=moon/translations&oldid=93664298#Translations	first word of the table; other listed: چَنْدْرَما, قَمَر, ماہ, مَہْتاب
+moon	ne	चन्द्रमा	table	https://en.wiktionary.org/w/index.php?title=moon/translations&oldid=93664298#Translations	first word of the table
+moon	sa	चन्द्र	table	https://en.wiktionary.org/w/index.php?title=moon/translations&oldid=93664298#Translations	first word of the table; other listed: सोम
+moon	mai		empty	https://en.wiktionary.org/w/index.php?title=moon/translations&oldid=93664298#Translations	no line in the table
+moon	sd	چنڊ	table	https://en.wiktionary.org/w/index.php?title=moon/translations&oldid=93664298#Translations	first word of the table
+moon	ks	زوٗن	entry	https://en.wiktionary.org/w/index.php?title=زوٗن&oldid=91072616	"Wiktionary entry, definition '# [[moon]], [[moonlight]] // # [[egg yolk]]' (no line in the table); Noun section; the same page also has a Proper noun section ""# [[Moon]]"""
+moon	kok	चन्द्र	entry	https://en.wiktionary.org/w/index.php?title=चन्द्र&oldid=93635752	Wiktionary entry, definition '# the [[Moon]]' (no line in the table); Konkani section of multi-language page (definition read from search snippet of wikitext)
+moon	doi		empty	https://en.wiktionary.org/w/index.php?title=moon/translations&oldid=93664298#Translations	no line in the table
+moon	mni	ꯊꯥ	table	https://en.wiktionary.org/w/index.php?title=moon/translations&oldid=93664298#Translations	first word of the table
+moon	brx		empty	https://en.wiktionary.org/w/index.php?title=moon/translations&oldid=93664298#Translations	no line in the table
+moon	sat	ᱪᱟᱸᱫᱚ	swadesh	https://en.wiktionary.org/w/index.php?title=Appendix:Santali_Swadesh_list&oldid=82403268	Swadesh list no. 148, first listed word (no line in the table)
+moon	ja	月	table	https://en.wiktionary.org/w/index.php?title=moon/translations&oldid=93664298#Translations	first word of the table
+moon	ru	луна|луна́	table	https://en.wiktionary.org/w/index.php?title=moon/translations&oldid=93664298#Translations	first word of the table; other listed: ме́сяц
+moon	ar	قمر|قَمَر	table	https://en.wiktionary.org/w/index.php?title=moon/translations&oldid=93664298#Translations	first word of the table
+tree	as	গছ	table	https://en.wiktionary.org/w/index.php?title=tree&oldid=93665228#Translations	first word of the table
+tree	or	ଗଛ	table	https://en.wiktionary.org/w/index.php?title=tree&oldid=93665228#Translations	first word of the table
+tree	pa	ਰੁੱਖ	table	https://en.wiktionary.org/w/index.php?title=tree&oldid=93665228#Translations	first word of the table; other listed: ਰੁੱਖੜਾ, ਦਰੱਖ਼ਤ, ਪੇੜ
+tree	ur	پیڑ	table	https://en.wiktionary.org/w/index.php?title=tree&oldid=93665228#Translations	first word of the table; other listed: دَرَخْت
+tree	ne	रूख	table	https://en.wiktionary.org/w/index.php?title=tree&oldid=93665228#Translations	first word of the table
+tree	sa	वृक्ष|तरु	override	https://en.wiktionary.org/w/index.php?title=tree&oldid=93665228#Translations	table lists तरु first; वृक्ष is the common word, also listed
+tree	mai	गाछ	override	https://en.wiktionary.org/w/index.php?title=%E0%A4%97%E0%A4%BE%E0%A4%9B&oldid=91380366	"Wiktionary entry: ""# [[tree]]"""
+tree	sd	وڻ	table	https://en.wiktionary.org/w/index.php?title=tree&oldid=93665228#Translations	first word of the table
+tree	ks	کُل	entry	https://en.wiktionary.org/w/index.php?title=کُل&oldid=89366614	Wiktionary entry, definition '# a [[tree]]' (no line in the table); primary candidate
+tree	kok	झाड	entry	https://en.wiktionary.org/w/index.php?title=झाड&oldid=92464305	Wiktionary entry, definition '# {{l|en|tree}}' (no line in the table); Konkani section of multi-language page (definition read from search snippet of wikitext)
+tree	doi		empty	https://en.wiktionary.org/w/index.php?title=tree&oldid=93665228#Translations	no line in the table
+tree	mni	ꯎ	swadesh	https://en.wiktionary.org/w/index.php?title=Appendix:Manipuri_Swadesh_list&oldid=82427215	Swadesh list no. 51, first listed word (no line in the table); other listed: ꯄꯥꯃꯦꯜ, ꯄꯥꯃꯦꯟ, ꯇꯂꯥ
+tree	brx		empty	https://en.wiktionary.org/w/index.php?title=tree&oldid=93665228#Translations	no line in the table
+tree	sat	ᱫᱟᱨᱮ	table	https://en.wiktionary.org/w/index.php?title=tree&oldid=93665228#Translations	first word of the table
+tree	ja	木	table	https://en.wiktionary.org/w/index.php?title=tree&oldid=93665228#Translations	first word of the table; other listed: 樹木
+tree	ru	дерево|де́рево	table	https://en.wiktionary.org/w/index.php?title=tree&oldid=93665228#Translations	first word of the table; other listed: дре́во
+tree	ar	شجر|شَجَر	table	https://en.wiktionary.org/w/index.php?title=tree&oldid=93665228#Translations	first word of the table; qualifier: collective; other listed: شَجَرَة
+flower	as	ফুল	table	https://en.wiktionary.org/w/index.php?title=flower&oldid=93694803#Translations	first word of the table
+flower	or	ଫୁଲ	table	https://en.wiktionary.org/w/index.php?title=flower&oldid=93694803#Translations	first word of the table; other listed: ପୁଷ୍ପ
+flower	pa	ਫੁੱਲ	table	https://en.wiktionary.org/w/index.php?title=flower&oldid=93694803#Translations	first word of the table
+flower	ur	پھول|پُھول	table	https://en.wiktionary.org/w/index.php?title=flower&oldid=93694803#Translations	first word of the table; other listed: پُشْپ
+flower	ne	फूल	table	https://en.wiktionary.org/w/index.php?title=flower&oldid=93694803#Translations	first word of the table
+flower	sa	पुष्प	table	https://en.wiktionary.org/w/index.php?title=flower&oldid=93694803#Translations	first word of the table; other listed: पुल्ल, कुसुमम्, प्रसूनम्, सुमम्
+flower	mai		empty	https://en.wiktionary.org/w/index.php?title=flower&oldid=93694803#Translations	{{t-needed}}: the table asks for a translation
+flower	sd	گل|گلٍ	table	https://en.wiktionary.org/w/index.php?title=flower&oldid=93694803#Translations	first word of the table
+flower	ks	گُل	entry	https://en.wiktionary.org/w/index.php?title=گُل&oldid=89824909	Wiktionary entry, definition '# [[flower]]' ({{t-needed}}: the table asks for a translation); two candidates (گُل, پوش); each lists the other as synonym
+flower	kok	फूल	entry	https://en.wiktionary.org/w/index.php?title=फूल&oldid=92463384	Wiktionary entry, definition '# [[flower]]' (table has only ಪುಲ್ (other script/multiword)); Konkani section of multi-language page (definition read from search snippet of wikitext)
+flower	doi		empty	https://en.wiktionary.org/w/index.php?title=flower&oldid=93694803#Translations	no line in the table
+flower	mni	ꯂꯩꯔꯥꯡ	swadesh	https://en.wiktionary.org/w/index.php?title=Appendix:Manipuri_Swadesh_list&oldid=82427215	Swadesh list no. 59, first listed word (no line in the table); other listed: ꯂꯩ, ꯁꯤꯉꯦꯜ, ꯁꯤꯉꯦꯟ, ꯁꯤꯡꯉꯦꯜ, ꯁꯤꯡꯉꯦꯟ
+flower	brx		empty	https://en.wiktionary.org/w/index.php?title=flower&oldid=93694803#Translations	no line in the table
+flower	sat	ᱵᱟᱦᱟ|ᱯᱷᱩᱞ	override	https://en.wiktionary.org/w/index.php?title=Appendix:Santali_Swadesh_list&oldid=82403268	table lists ᱯᱷᱩᱞ (an Indo-Aryan loan, phul) first; ᱵᱟᱦᱟ (native baha) is also in the table and is the Swadesh list's word
+flower	ja	花	table	https://en.wiktionary.org/w/index.php?title=flower&oldid=93694803#Translations	first word of the table
+flower	ru	цветок|цвето́к	table	https://en.wiktionary.org/w/index.php?title=flower&oldid=93694803#Translations	first word of the table; other listed: цветы́
+flower	ar	زهرة|زَهْرَة	table	https://en.wiktionary.org/w/index.php?title=flower&oldid=93694803#Translations	first word of the table; other listed: زُهُور, أَزْهَار, وَرْدَة
+bird	as	চৰাই	table	https://en.wiktionary.org/w/index.php?title=bird&oldid=93680572#Translations	first word of the table
+bird	or	ଚଢ଼େଇ|ପକ୍ଷୀ	override	https://en.wiktionary.org/w/index.php?title=bird&oldid=93680572#Translations	table lists ପକ୍ଷୀ (Sanskrit) first; ଚଢ଼େଇ is the everyday word, also listed
+bird	pa	ਪੰਖੀ	table	https://en.wiktionary.org/w/index.php?title=bird&oldid=93680572#Translations	first word of the table; other listed: ਪੰਛੀ
+bird	ur	چڑیا|چِڑْیا	table	https://en.wiktionary.org/w/index.php?title=bird&oldid=93680572#Translations	first word of the table; other listed: پَنْچھی, پَکْشی, پَرِنْدَہ, پَکھیرو
+bird	ne	चरा	table	https://en.wiktionary.org/w/index.php?title=bird&oldid=93680572#Translations	first word of the table
+bird	sa	पक्षिन्	override	https://en.wiktionary.org/w/index.php?title=bird&oldid=93680572#Translations	table lists वि (a one-letter Vedic word) first; पक्षिन् also listed
+bird	mai	चिड़ै	table	https://en.wiktionary.org/w/index.php?title=bird&oldid=93680572#Translations	first word of the table
+bird	sd	پکي	table	https://en.wiktionary.org/w/index.php?title=bird&oldid=93680572#Translations	first word of the table
+bird	ks	جاناوار	table	https://en.wiktionary.org/w/index.php?title=bird&oldid=93680572#Translations	first word of the table
+bird	kok	सुकणें|पक्षी	override	https://en.wiktionary.org/w/index.php?title=%E0%A4%B8%E0%A5%81%E0%A4%95%E0%A4%A3%E0%A5%87%E0%A4%82&oldid=78227838	"Wiktionary entries सुकणें, पक्षी (91927843) and सवणें (76141370) are all ""# [[bird]]""; पक्षी (Sanskrit, identical to Hindi) put second"
+bird	doi		empty	https://en.wiktionary.org/w/index.php?title=bird&oldid=93680572#Translations	no line in the table
+bird	mni	ꯎꯆꯦꯛ	swadesh	https://en.wiktionary.org/w/index.php?title=Appendix:Manipuri_Swadesh_list&oldid=82427215	Swadesh list no. 46, first listed word (no line in the table); other listed: ꯆꯦꯛꯂꯥ, ꯄꯣꯟꯕꯤ, ꯄꯣꯟꯄꯤ
+bird	brx	दाव	table	https://en.wiktionary.org/w/index.php?title=bird&oldid=93680572#Translations	first word of the table
+bird	sat	ᱪᱮᱺᱬᱮᱹ|ᱪᱮᱬᱮ	override	https://en.wiktionary.org/w/index.php?title=bird&oldid=93680572#Translations	table spelling first; the Swadesh list's ᱪᱮᱬᱮ (no nasal/length marks) kept as a variant
+bird	ja	鳥	table	https://en.wiktionary.org/w/index.php?title=bird&oldid=93680572#Translations	first word of the table; other listed: 鳥類
+bird	ru	птица|пти́ца	table	https://en.wiktionary.org/w/index.php?title=bird&oldid=93680572#Translations	first word of the table; other listed: пта́шка, пта́х, пта́ха, по́тка
+bird	ar	طائر|طَائِر	table	https://en.wiktionary.org/w/index.php?title=bird&oldid=93680572#Translations	first word of the table; other listed: عُصْفُور
+dog	as	কুকুৰ	table	https://en.wiktionary.org/w/index.php?title=dog/translations&oldid=93622345#Translations	first word of the table
+dog	or	କୁକୁର	table	https://en.wiktionary.org/w/index.php?title=dog/translations&oldid=93622345#Translations	first word of the table
+dog	pa	ਕੁੱਤਾ	table	https://en.wiktionary.org/w/index.php?title=dog/translations&oldid=93622345#Translations	first word of the table
+dog	ur	کتا|کُتّا	table	https://en.wiktionary.org/w/index.php?title=dog/translations&oldid=93622345#Translations	first word of the table; other listed: سَگ
+dog	ne	कुकुर	table	https://en.wiktionary.org/w/index.php?title=dog/translations&oldid=93622345#Translations	first word of the table; other listed: कुकुरनी
+dog	sa	श्वन्	table	https://en.wiktionary.org/w/index.php?title=dog/translations&oldid=93622345#Translations	first word of the table; other listed: शुनक, भषक, कुर्कुर
+dog	mai		empty	https://en.wiktionary.org/w/index.php?title=dog/translations&oldid=93622345#Translations	{{t-needed}}: the table asks for a translation
+dog	sd	ڪتو	table	https://en.wiktionary.org/w/index.php?title=dog/translations&oldid=93622345#Translations	first word of the table
+dog	ks	ہوٗن	table	https://en.wiktionary.org/w/index.php?title=dog/translations&oldid=93622345#Translations	first word of the table
+dog	kok	सूणे	table	https://en.wiktionary.org/w/index.php?title=dog/translations&oldid=93622345#Translations	first word of the table
+dog	doi		empty	https://en.wiktionary.org/w/index.php?title=dog/translations&oldid=93622345#Translations	no line in the table
+dog	mni	ꯍꯨꯏ	swadesh	https://en.wiktionary.org/w/index.php?title=Appendix:Manipuri_Swadesh_list&oldid=82427215	Swadesh list no. 47, first listed word ({{t-needed}}: the table asks for a translation); other listed: ꯇꯥꯎꯕ, ꯇꯥꯑꯣꯕ
+dog	brx		empty	https://en.wiktionary.org/w/index.php?title=dog/translations&oldid=93622345#Translations	no line in the table
+dog	sat	ᱥᱮᱛᱟ|ᱥᱮᱛᱚ	override	https://en.wiktionary.org/w/index.php?title=Appendix:Santali_Swadesh_list&oldid=82403268	table spells ᱥᱮᱛᱚ; the Swadesh list and Wikidata (Q144) both spell ᱥᱮᱛᱟ, kept first
+dog	ja	犬	table	https://en.wiktionary.org/w/index.php?title=dog/translations&oldid=93622345#Translations	first word of the table; other listed: 狗
+dog	ru	собака|соба́ка	table	https://en.wiktionary.org/w/index.php?title=dog/translations&oldid=93622345#Translations	first word of the table; other listed: пёс, пси́на
+dog	ar	كلب|كَلْب	table	https://en.wiktionary.org/w/index.php?title=dog/translations&oldid=93622345#Translations	first word of the table
+cat	as	মেকুৰী	table	https://en.wiktionary.org/w/index.php?title=cat/translations&oldid=93665753#Translations	first word of the table; other listed: বিৰালী
+cat	or	ବିଲେଇ	table	https://en.wiktionary.org/w/index.php?title=cat/translations&oldid=93665753#Translations	first word of the table; other listed: ବିରାଡ଼ି
+cat	pa	ਬਿੱਲੀ	table	https://en.wiktionary.org/w/index.php?title=cat/translations&oldid=93665753#Translations	first word of the table
+cat	ur	بلی|بِلّی	table	https://en.wiktionary.org/w/index.php?title=cat/translations&oldid=93665753#Translations	first word of the table; other listed: بِلَّا
+cat	ne	बिरालो	table	https://en.wiktionary.org/w/index.php?title=cat/translations&oldid=93665753#Translations	first word of the table
+cat	sa	मार्जार	table	https://en.wiktionary.org/w/index.php?title=cat/translations&oldid=93665753#Translations	first word of the table; other listed: बिडाल
+cat	mai		empty	https://en.wiktionary.org/w/index.php?title=cat/translations&oldid=93665753#Translations	no line in the table
+cat	sd	ٻلي	table	https://en.wiktionary.org/w/index.php?title=cat/translations&oldid=93665753#Translations	first word of the table
+cat	ks	برٛور	table	https://en.wiktionary.org/w/index.php?title=cat/translations&oldid=93665753#Translations	first word of the table; other listed: بیٛور, برٛٲر, بیٛٲر
+cat	kok	माजर	table	https://en.wiktionary.org/w/index.php?title=cat/translations&oldid=93665753#Translations	first word of the table
+cat	doi		empty	https://en.wiktionary.org/w/index.php?title=cat/translations&oldid=93665753#Translations	no line in the table
+cat	mni	ꯍꯧꯗꯣꯡ	entry	https://en.wiktionary.org/w/index.php?title=ꯍꯧꯗꯣꯡ&oldid=64612003	Wiktionary entry, definition '# [[cat]].' (no line in the table); single candidate
+cat	brx	मावजि	override	https://en.wiktionary.org/w/index.php?title=%E0%A4%AE%E0%A4%BE%E0%A4%B5%E0%A4%9C%E0%A4%BF&oldid=51789654	"Wiktionary entry: ""# [[cat]]"""
+cat	sat	ᱯᱩᱥᱤ	table	https://en.wiktionary.org/w/index.php?title=cat/translations&oldid=93665753#Translations	first word of the table
+cat	ja	猫	override	https://en.wiktionary.org/w/index.php?title=cat/translations&oldid=93665753#Translations	table lists 家猫 (house cat) first; 猫 is the everyday word, also listed
+cat	ru	кошка|ко́шка	table	https://en.wiktionary.org/w/index.php?title=cat/translations&oldid=93665753#Translations	first word of the table; other listed: кот
+cat	ar	قط|قِطّ	table	https://en.wiktionary.org/w/index.php?title=cat/translations&oldid=93665753#Translations	first word of the table; other listed: قِطَّة, هِرّ, هِرَّة, سَنُّور
+house	as	ঘৰ	table	https://en.wiktionary.org/w/index.php?title=house/translations&oldid=93665499#Translations	first word of the table
+house	or	ଘର	table	https://en.wiktionary.org/w/index.php?title=house/translations&oldid=93665499#Translations	first word of the table
+house	pa	ਘਰ|ਮਕਾਨ	override	https://en.wiktionary.org/w/index.php?title=house/translations&oldid=93665499#Translations	table lists ਮਕਾਨ (Persian loan) first; ਘਰ is the everyday word, also listed
+house	ur	گھر|گَھر	table	https://en.wiktionary.org/w/index.php?title=house/translations&oldid=93665499#Translations	first word of the table; other listed: مَکان
+house	ne	घर	table	https://en.wiktionary.org/w/index.php?title=house/translations&oldid=93665499#Translations	first word of the table; other listed: बास्स्थान
+house	sa	गृह	table	https://en.wiktionary.org/w/index.php?title=house/translations&oldid=93665499#Translations	first word of the table; other listed: गेह, अस्त, अगार
+house	mai		empty	https://en.wiktionary.org/w/index.php?title=house/translations&oldid=93665499#Translations	no line in the table
+house	sd	گھر	table	https://en.wiktionary.org/w/index.php?title=house/translations&oldid=93665499#Translations	first word of the table
+house	ks	گَرٕ	table	https://en.wiktionary.org/w/index.php?title=house/translations&oldid=93665499#Translations	first word of the table
+house	kok	घर	entry	https://en.wiktionary.org/w/index.php?title=घर&oldid=90910492	Wiktionary entry, definition '# [[house]]' (no line in the table); Konkani section of multi-language page (definition read from search snippet of wikitext)
+house	doi	घर	override	https://en.wiktionary.org/w/index.php?title=%E0%A4%98%E0%A4%B0&oldid=90910492	"Wiktionary entry (Dogri section): ""# [[house]]; [[home]]"""
+house	mni	ꯌꯨꯝ	entry	https://en.wiktionary.org/w/index.php?title=ꯌꯨꯝ&oldid=83376391	Wiktionary entry, definition '# [[house]] // # [[residence]]' (no line in the table); single candidate
+house	brx		empty	https://en.wiktionary.org/w/index.php?title=house/translations&oldid=93665499#Translations	no line in the table
+house	sat	ᱚᱲᱟᱜ	entry	https://en.wiktionary.org/w/index.php?title=ᱚᱲᱟᱜ&oldid=51406780	Wiktionary entry, definition '# [[home]], [[house]]' (no line in the table); single candidate
+house	ja	家	table	https://en.wiktionary.org/w/index.php?title=house/translations&oldid=93665499#Translations	first word of the table; other listed: 建物, 家屋, 一戸建て, お宅, 住まい
+house	ru	дом	table	https://en.wiktionary.org/w/index.php?title=house/translations&oldid=93665499#Translations	first word of the table
+house	ar	بيت|بَيْت	table	https://en.wiktionary.org/w/index.php?title=house/translations&oldid=93665499#Translations	first word of the table; other listed: مَنْزِل, دَار
+book	as	কিতাপ	table	https://en.wiktionary.org/w/index.php?title=book/translations&oldid=93596307#Translations	first word of the table; other listed: পুথি
+book	or	ବହି	table	https://en.wiktionary.org/w/index.php?title=book/translations&oldid=93596307#Translations	first word of the table
+book	pa	ਕਿਤਾਬ|ਪੋਥੀ	override	https://en.wiktionary.org/w/index.php?title=book/translations&oldid=93596307#Translations	table lists ਪੋਥੀ first; ਕਿਤਾਬ is the everyday word, also listed
+book	ur	کتاب|کِتاب	table	https://en.wiktionary.org/w/index.php?title=book/translations&oldid=93596307#Translations	first word of the table; other listed: پُسْتَک, بُک
+book	ne	पुस्तक	table	https://en.wiktionary.org/w/index.php?title=book/translations&oldid=93596307#Translations	first word of the table; other listed: किताप
+book	sa	पुस्तक	table	https://en.wiktionary.org/w/index.php?title=book/translations&oldid=93596307#Translations	first word of the table; other listed: ग्रन्थ
+book	mai	पोथी|किताप	override	https://en.wiktionary.org/w/index.php?title=%E0%A4%AA%E0%A5%8B%E0%A4%A5%E0%A5%80&oldid=87512098	"Wiktionary entries पोथी, किताप (87165187) and पुस्तक (93640506) are all ""# [[book]]""; पुस्तक left out (identical to Hindi)"
+book	sd	ڪتاب|ڪِتابُ	table	https://en.wiktionary.org/w/index.php?title=book/translations&oldid=93596307#Translations	first word of the table
+book	ks	کِتاب	entry	https://en.wiktionary.org/w/index.php?title=کِتاب&oldid=89710323	Wiktionary entry, definition '# [[book]]' (no line in the table); three candidates (کِتاب, پوٗتھ, پوٗتھؠ)
+book	kok	पुस्तक	table	https://en.wiktionary.org/w/index.php?title=book/translations&oldid=93596307#Translations	first word of the table
+book	doi		empty	https://en.wiktionary.org/w/index.php?title=book/translations&oldid=93596307#Translations	no line in the table
+book	mni	ꯂꯥꯏꯔꯤꯛ	wikidata	https://www.wikidata.org/wiki/Q571	Wikidata label of Q571 (book), fetched 2026-10-19 ({{t-needed}}: the table asks for a translation)
+book	brx		empty	https://en.wiktionary.org/w/index.php?title=book/translations&oldid=93596307#Translations	no line in the table
+book	sat	ᱯᱚᱛᱚᱵ	entry	https://en.wiktionary.org/w/index.php?title=ᱯᱚᱛᱚᱵ&oldid=50258681	Wiktionary entry, definition '# [[book]]' (no line in the table); three candidates (ᱯᱚᱛᱚᱵ, ᱯᱚᱛᱚᱰ, ᱯᱩᱛᱷᱤ)
+book	ja	本	table	https://en.wiktionary.org/w/index.php?title=book/translations&oldid=93596307#Translations	first word of the table; other listed: 書籍, ブック
+book	ru	книга|кни́га	table	https://en.wiktionary.org/w/index.php?title=book/translations&oldid=93596307#Translations	first word of the table; other listed: кни́жка
+book	ar	كتاب|كِتَاب	table	https://en.wiktionary.org/w/index.php?title=book/translations&oldid=93596307#Translations	first word of the table; other listed: سِفْر
+eye	as	চকু	table	https://en.wiktionary.org/w/index.php?title=eye/translations&oldid=93642947#Translations	first word of the table; other listed: আঁখি
+eye	or	ଆଖି	table	https://en.wiktionary.org/w/index.php?title=eye/translations&oldid=93642947#Translations	first word of the table
+eye	pa	ਅੱਖ	table	https://en.wiktionary.org/w/index.php?title=eye/translations&oldid=93642947#Translations	first word of the table
+eye	ur	آنکھ|آن٘کھ	table	https://en.wiktionary.org/w/index.php?title=eye/translations&oldid=93642947#Translations	first word of the table; other listed: نَین, عَین, چَشْم
+eye	ne	आँखा	table	https://en.wiktionary.org/w/index.php?title=eye/translations&oldid=93642947#Translations	first word of the table
+eye	sa	नेत्र	table	https://en.wiktionary.org/w/index.php?title=eye/translations&oldid=93642947#Translations	first word of the table; other listed: नयन, लोचन, चक्षुष्, अक्षि
+eye	mai		empty	https://en.wiktionary.org/w/index.php?title=eye/translations&oldid=93642947#Translations	no line in the table
+eye	sd	اک	table	https://en.wiktionary.org/w/index.php?title=eye/translations&oldid=93642947#Translations	first word of the table
+eye	ks	أچھ	table	https://en.wiktionary.org/w/index.php?title=eye/translations&oldid=93642947#Translations	first word of the table; other listed: چٔشِم, نیٔتھٕر
+eye	kok	दोळो	table	https://en.wiktionary.org/w/index.php?title=eye/translations&oldid=93642947#Translations	first word of the table
+eye	doi	अक्ख	override	https://en.wiktionary.org/w/index.php?title=%E0%A4%85%E0%A4%95%E0%A5%8D%E0%A4%96&oldid=76140162	"Wiktionary entry: ""# {{lb|doi|anatomy}} [[eye]]"""
+eye	mni	ꯃꯤꯠ	swadesh	https://en.wiktionary.org/w/index.php?title=Appendix:Manipuri_Swadesh_list&oldid=82427215	Swadesh list no. 74, first listed word (no line in the table); other listed: ꯃꯃꯤꯠ
+eye	brx		empty	https://en.wiktionary.org/w/index.php?title=eye/translations&oldid=93642947#Translations	no line in the table
+eye	sat	ᱢᱮᱫ	table	https://en.wiktionary.org/w/index.php?title=eye/translations&oldid=93642947#Translations	first word of the table
+eye	ja	目	table	https://en.wiktionary.org/w/index.php?title=eye/translations&oldid=93642947#Translations	first word of the table; other listed: 眼, 瞳
+eye	ru	глаз	table	https://en.wiktionary.org/w/index.php?title=eye/translations&oldid=93642947#Translations	first word of the table; other listed: о́ко
+eye	ar	عين|عَيْن	table	https://en.wiktionary.org/w/index.php?title=eye/translations&oldid=93642947#Translations	first word of the table
+hand	as	হাত	table	https://en.wiktionary.org/w/index.php?title=hand/translations&oldid=93585158#Translations	first word of the table
+hand	or	ହାତ	table	https://en.wiktionary.org/w/index.php?title=hand/translations&oldid=93585158#Translations	first word of the table
+hand	pa	ਹੱਥ	table	https://en.wiktionary.org/w/index.php?title=hand/translations&oldid=93585158#Translations	first word of the table
+hand	ur	ہاتھ	table	https://en.wiktionary.org/w/index.php?title=hand/translations&oldid=93585158#Translations	first word of the table; other listed: دَسْت
+hand	ne	हात	table	https://en.wiktionary.org/w/index.php?title=hand/translations&oldid=93585158#Translations	first word of the table
+hand	sa	हस्त	table	https://en.wiktionary.org/w/index.php?title=hand/translations&oldid=93585158#Translations	first word of the table; other listed: पाणि
+hand	mai		empty	https://en.wiktionary.org/w/index.php?title=hand/translations&oldid=93585158#Translations	no line in the table
+hand	sd	ھٿ|هٿ	override	https://www.wikidata.org/wiki/Q33767	table form ھَٿُ (U+06BE heh doachashmee); Wikidata's label هٿ (U+0647 heh) kept as a spelling variant
+hand	ks	اَتھٕ	table	https://en.wiktionary.org/w/index.php?title=hand/translations&oldid=93585158#Translations	first word of the table
+hand	kok	हाथु	table	https://en.wiktionary.org/w/index.php?title=hand/translations&oldid=93585158#Translations	first word of the table
+hand	doi		empty	https://en.wiktionary.org/w/index.php?title=hand/translations&oldid=93585158#Translations	no line in the table
+hand	mni	ꯈꯨꯠ	swadesh	https://en.wiktionary.org/w/index.php?title=Appendix:Manipuri_Swadesh_list&oldid=82427215	Swadesh list no. 83, first listed word ({{t-needed}}: the table asks for a translation); other listed: ꯃꯈꯨꯠ, ꯈꯨꯗꯥꯡ
+hand	brx	आखाय	override	https://en.wiktionary.org/w/index.php?title=%E0%A4%86%E0%A4%96%E0%A4%BE%E0%A4%AF&oldid=47793893	"Wiktionary entry: ""# {{lb|brx|anatomy}} [[hand]]"""
+hand	sat	ᱛᱤ	table	https://en.wiktionary.org/w/index.php?title=hand/translations&oldid=93585158#Translations	first word of the table
+hand	ja	手	table	https://en.wiktionary.org/w/index.php?title=hand/translations&oldid=93585158#Translations	first word of the table
+hand	ru	рука|рука́	table	https://en.wiktionary.org/w/index.php?title=hand/translations&oldid=93585158#Translations	first word of the table
+hand	ar	يد|يَد	table	https://en.wiktionary.org/w/index.php?title=hand/translations&oldid=93585158#Translations	first word of the table
+mother	as	মা	table	https://en.wiktionary.org/w/index.php?title=mother/translations&oldid=93472620#Translations	first word of the table; other listed: আই
+mother	or	ମା	table	https://en.wiktionary.org/w/index.php?title=mother/translations&oldid=93472620#Translations	first word of the table
+mother	pa	ਮਾਂ	table	https://en.wiktionary.org/w/index.php?title=mother/translations&oldid=93472620#Translations	first word of the table; other listed: ਮਾਤਾ
+mother	ur	ماں|ماتا	override	https://en.wiktionary.org/w/index.php?title=mother/translations&oldid=93472620#Translations	table lists ماتا first; ماں is the everyday word, also listed
+mother	ne	आमा	table	https://en.wiktionary.org/w/index.php?title=mother/translations&oldid=93472620#Translations	first word of the table
+mother	sa	मातृ|अम्बा	override	https://en.wiktionary.org/w/index.php?title=mother/translations&oldid=93472620#Translations	every Sanskrit word in the table is {{t-check}} (unverified); मातृ (stem of माता) chosen, अम्बा kept as variant
+mother	mai		empty	https://en.wiktionary.org/w/index.php?title=mother/translations&oldid=93472620#Translations	no line in the table
+mother	sd	ماء	table	https://en.wiktionary.org/w/index.php?title=mother/translations&oldid=93472620#Translations	first word of the table; other listed: اما
+mother	ks	موج	table	https://en.wiktionary.org/w/index.php?title=mother/translations&oldid=93472620#Translations	first word of the table; other listed: مٲج
+mother	kok	आवय	entry	https://en.wiktionary.org/w/index.php?title=आवय&oldid=80497453	Wiktionary entry, definition '# [[mother]]' (no line in the table); primary candidate; lists synonyms मांय, जननी, माता
+mother	doi		empty	https://en.wiktionary.org/w/index.php?title=mother/translations&oldid=93472620#Translations	no line in the table
+mother	mni	ꯃꯃꯥ	swadesh	https://en.wiktionary.org/w/index.php?title=Appendix:Manipuri_Swadesh_list&oldid=82427215	Swadesh list no. 42, first listed word (no line in the table); other listed: ꯏꯃꯥ, ꯄꯂꯦꯝ, ꯑꯄꯣꯛꯄꯤ
+mother	brx	बिमा	override	https://en.wiktionary.org/w/index.php?title=%E0%A4%AC%E0%A4%BF%E0%A4%AE%E0%A4%BE&oldid=77910414	"table: आइ (1st person, ""my mother""), बिमा (3rd person); the entry बिमा is defined ""# [[mother]]"""
+mother	sat	ᱮᱝᱜᱚ|ᱮᱸᱜᱟ	override	https://en.wiktionary.org/w/index.php?title=mother/translations&oldid=93472620#Translations	table spelling first; the Swadesh list's ᱮᱸᱜᱟ kept as a variant
+mother	ja	お母さん	table	https://en.wiktionary.org/w/index.php?title=mother/translations&oldid=93472620#Translations	first word of the table; other listed: 母, ママ, お袋
+mother	ru	мать	table	https://en.wiktionary.org/w/index.php?title=mother/translations&oldid=93472620#Translations	first word of the table; other listed: ма́ма, ма́тушка, мама́ша
+mother	ar	أم|أُمّ	table	https://en.wiktionary.org/w/index.php?title=mother/translations&oldid=93472620#Translations	first word of the table; other listed: وَالِدَة, مَامَا
+milk	as	গাখীৰ	table	https://en.wiktionary.org/w/index.php?title=milk/translations&oldid=92983178#Translations	first word of the table
+milk	or	ଖିର	table	https://en.wiktionary.org/w/index.php?title=milk/translations&oldid=92983178#Translations	first word of the table; other listed: ଦୁଧ, ଖିର
+milk	pa	ਦੁੱਧ	table	https://en.wiktionary.org/w/index.php?title=milk/translations&oldid=92983178#Translations	first word of the table
+milk	ur	دودھ|دُودھ	table	https://en.wiktionary.org/w/index.php?title=milk/translations&oldid=92983178#Translations	first word of the table; other listed: شِیر
+milk	ne	दुध	table	https://en.wiktionary.org/w/index.php?title=milk/translations&oldid=92983178#Translations	first word of the table; other listed: दूध
+milk	sa	दुग्ध	table	https://en.wiktionary.org/w/index.php?title=milk/translations&oldid=92983178#Translations	first word of the table; other listed: क्षीर, पायस
+milk	mai		empty	https://en.wiktionary.org/w/index.php?title=milk/translations&oldid=92983178#Translations	no line in the table
+milk	sd	شير|کير	override	https://www.wikidata.org/wiki/Q8495	table form شير first; Wikidata's label کير kept as a variant
+milk	ks	دۄد	table	https://en.wiktionary.org/w/index.php?title=milk/translations&oldid=92983178#Translations	first word of the table
+milk	kok	दूद	table	https://en.wiktionary.org/w/index.php?title=milk/translations&oldid=92983178#Translations	first word of the table
+milk	doi		empty	https://en.wiktionary.org/w/index.php?title=milk/translations&oldid=92983178#Translations	no line in the table
+milk	mni	ꯈꯣꯝ	entry	https://en.wiktionary.org/w/index.php?title=ꯈꯣꯝ&oldid=83407620	"Wiktionary entry, definition '# [[milk]] // # [[breast]]' (no line in the table); Etymology 1 noun (Etymology 2 is a verb ""to collect"")"
+milk	brx		empty	https://en.wiktionary.org/w/index.php?title=milk/translations&oldid=92983178#Translations	no line in the table
+milk	sat	ᱛᱳᱚ	table	https://en.wiktionary.org/w/index.php?title=milk/translations&oldid=92983178#Translations	first word of the table
+milk	ja	牛乳|乳	override	https://en.wiktionary.org/w/index.php?title=milk/translations&oldid=92983178#Translations	table lists 乳 (milk in general, also breast) first; 牛乳 (the drink) is the everyday word, also listed
+milk	ru	молоко|молоко́	table	https://en.wiktionary.org/w/index.php?title=milk/translations&oldid=92983178#Translations	first word of the table
+milk	ar	حليب|حَلِيب	table	https://en.wiktionary.org/w/index.php?title=milk/translations&oldid=92983178#Translations	first word of the table; other listed: لَبَن
+river	as	নৈ	table	https://en.wiktionary.org/w/index.php?title=river/translations&oldid=93598116#Translations	first word of the table; other listed: নদী, গাং
+river	or	ନଦୀ	table	https://en.wiktionary.org/w/index.php?title=river/translations&oldid=93598116#Translations	first word of the table
+river	pa	ਦਰਿਆ	table	https://en.wiktionary.org/w/index.php?title=river/translations&oldid=93598116#Translations	first word of the table; other listed: ਨਦੀ
+river	ur	ندی|نَدی	table	https://en.wiktionary.org/w/index.php?title=river/translations&oldid=93598116#Translations	first word of the table; other listed: دَرْیا, نَہْر
+river	ne	नदी	table	https://en.wiktionary.org/w/index.php?title=river/translations&oldid=93598116#Translations	first word of the table
+river	sa	नदी	table	https://en.wiktionary.org/w/index.php?title=river/translations&oldid=93598116#Translations	first word of the table; other listed: स्रोतस्
+river	mai		empty	https://en.wiktionary.org/w/index.php?title=river/translations&oldid=93598116#Translations	no line in the table
+river	sd	درياء	table	https://en.wiktionary.org/w/index.php?title=river/translations&oldid=93598116#Translations	first word of the table
+river	ks	دٔرؠ‌یاو	wikidata	https://www.wikidata.org/wiki/Q4022	Wikidata label of Q4022 (river), fetched 2026-10-19 (table has only नदी (other script/multiword))
+river	kok	न्हंय	entry	https://en.wiktionary.org/w/index.php?title=न्हंय&oldid=85390130	Wiktionary entry, definition '# [[river]]' (no line in the table); single candidate
+river	doi		empty	https://en.wiktionary.org/w/index.php?title=river/translations&oldid=93598116#Translations	no line in the table
+river	mni	ꯇꯨꯔꯦꯜ	swadesh	https://en.wiktionary.org/w/index.php?title=Appendix:Manipuri_Swadesh_list&oldid=82427215	Swadesh list no. 152, first listed word (no line in the table); other listed: ꯇꯨꯔꯦꯟ
+river	brx	दैमा	override	https://en.wiktionary.org/w/index.php?title=%E0%A4%A6%E0%A5%88%E0%A4%AE%E0%A4%BE&oldid=47793633	"Wiktionary entry: ""# [[river]]"""
+river	sat	ᱜᱟᱰᱟ	table	https://en.wiktionary.org/w/index.php?title=river/translations&oldid=93598116#Translations	first word of the table; other listed: ᱠᱷᱟᱹᱲᱤ
+river	ja	川	table	https://en.wiktionary.org/w/index.php?title=river/translations&oldid=93598116#Translations	first word of the table
+river	ru	река|река́	table	https://en.wiktionary.org/w/index.php?title=river/translations&oldid=93598116#Translations	first word of the table; other listed: ре́чка
+river	ar	نهر|نَهْر	table	https://en.wiktionary.org/w/index.php?title=river/translations&oldid=93598116#Translations	first word of the table; other listed: أَنْهَار, أَنْهُر
+mountain	as	পর্বত	table	https://en.wiktionary.org/w/index.php?title=mountain&oldid=93665641#Translations	first word of the table
+mountain	or	ପର୍ବତ	table	https://en.wiktionary.org/w/index.php?title=mountain&oldid=93665641#Translations	first word of the table
+mountain	pa	ਪਹਾੜ|ਪਰਬਤ	override	https://en.wiktionary.org/w/index.php?title=mountain&oldid=93665641#Translations	table lists ਪਰਬਤ first; ਪਹਾੜ is the everyday word, also listed
+mountain	ur	پہاڑ|پَہاڑ	table	https://en.wiktionary.org/w/index.php?title=mountain&oldid=93665641#Translations	first word of the table; other listed: پَرْوَت, کوہ, جَبَل
+mountain	ne	पहाड	table	https://en.wiktionary.org/w/index.php?title=mountain&oldid=93665641#Translations	first word of the table
+mountain	sa	गिरि	table	https://en.wiktionary.org/w/index.php?title=mountain&oldid=93665641#Translations	first word of the table; other listed: पर्वत
+mountain	mai		empty	https://en.wiktionary.org/w/index.php?title=mountain&oldid=93665641#Translations	no line in the table
+mountain	sd	جبل	table	https://en.wiktionary.org/w/index.php?title=mountain&oldid=93665641#Translations	first word of the table
+mountain	ks	کۆہ	table	https://en.wiktionary.org/w/index.php?title=mountain&oldid=93665641#Translations	first word of the table; other listed: کۄہ
+mountain	kok	दोंगर	entry	https://en.wiktionary.org/w/index.php?title=दोंगर&oldid=81456233	Wiktionary entry, definition '# [[mountain]] // # [[cliff]]' (no line in the table); single candidate
+mountain	doi		empty	https://en.wiktionary.org/w/index.php?title=mountain&oldid=93665641#Translations	no line in the table
+mountain	mni	ꯆꯤꯡ	swadesh	https://en.wiktionary.org/w/index.php?title=Appendix:Manipuri_Swadesh_list&oldid=82427215	Swadesh list no. 171, first listed word (no line in the table); other listed: ꯆꯤꯡꯆꯥꯎ, ꯆꯤꯡꯆꯥꯑꯣ, ꯆꯤꯡꯖꯥꯎ, ꯆꯤꯡꯖꯥꯑꯣ
+mountain	brx	हाजो	override	https://en.wiktionary.org/w/index.php?title=%E0%A4%B9%E0%A4%BE%E0%A4%9C%E0%A5%8B&oldid=47793639	"Wiktionary entry: ""# [[mountain]]"""
+mountain	sat	ᱵᱩᱨᱩ	swadesh	https://en.wiktionary.org/w/index.php?title=Appendix:Santali_Swadesh_list&oldid=82403268	Swadesh list no. 171, first listed word (no line in the table)
+mountain	ja	山	table	https://en.wiktionary.org/w/index.php?title=mountain&oldid=93665641#Translations	first word of the table; other listed: 山地, 山岳
+mountain	ru	гора|гора́	table	https://en.wiktionary.org/w/index.php?title=mountain&oldid=93665641#Translations	first word of the table
+mountain	ar	جبل|جَبَل	table	https://en.wiktionary.org/w/index.php?title=mountain&oldid=93665641#Translations	first word of the table; other listed: طُور
+sky	as	আকাশ	table	https://en.wiktionary.org/w/index.php?title=sky/translations&oldid=93631366#Translations	first word of the table
+sky	or	ଆକାଶ	table	https://en.wiktionary.org/w/index.php?title=sky/translations&oldid=93631366#Translations	first word of the table
+sky	pa	ਅਸਮਾਨ	table	https://en.wiktionary.org/w/index.php?title=sky/translations&oldid=93631366#Translations	first word of the table; other listed: ਆਕਾਸ਼
+sky	ur	آسمان|آسْمان	table	https://en.wiktionary.org/w/index.php?title=sky/translations&oldid=93631366#Translations	first word of the table; other listed: آکاش, گَگَن, اَمْبَر
+sky	ne	आकाश	table	https://en.wiktionary.org/w/index.php?title=sky/translations&oldid=93631366#Translations	first word of the table
+sky	sa	आकाश|दिव	override	https://en.wiktionary.org/w/index.php?title=sky/translations&oldid=93631366#Translations	table lists दिव (Vedic stem) first; आकाश, the common word, is also listed
+sky	mai		empty	https://en.wiktionary.org/w/index.php?title=sky/translations&oldid=93631366#Translations	no line in the table
+sky	sd	آسمان	wikidata	https://www.wikidata.org/wiki/Q527	Wikidata label of Q527 (sky), fetched 2026-10-19 (no line in the table)
+sky	ks	نَب	wikidata	https://www.wikidata.org/wiki/Q527	Wikidata label of Q527 (sky), fetched 2026-10-19 (no line in the table)
+sky	kok	मळब|आकाश	override	https://en.wiktionary.org/w/index.php?title=sky/translations&oldid=93631366#Translations	table lists आकाश (Sanskrit, identical to Hindi) first; the native मळब is also listed
+sky	doi		empty	https://en.wiktionary.org/w/index.php?title=sky/translations&oldid=93631366#Translations	no line in the table
+sky	mni	ꯅꯣꯡꯊꯛ	swadesh	https://en.wiktionary.org/w/index.php?title=Appendix:Manipuri_Swadesh_list&oldid=82427215	Swadesh list no. 162, first listed word (no line in the table); other listed: ꯅꯣꯡꯃꯗꯣꯟ, ꯅꯣꯡꯃꯗꯣꯜ, ꯅꯣꯡꯃꯇꯣꯟ, ꯅꯣꯡꯃꯇꯣꯜ, ꯅꯣꯡꯗꯣꯟ, ꯅꯣꯡꯗꯣꯜ, ꯅꯣꯡꯇꯣꯟ, ꯅꯣꯡꯇꯣꯜ, ꯑꯇꯤꯌꯥ, ꯅꯣꯡꯃꯥꯏ, ꯀꯣꯔꯧ
+sky	brx	अख्रां	override	https://en.wiktionary.org/w/index.php?title=%E0%A4%85%E0%A4%96%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%82&oldid=48244635	"Wiktionary entry: ""# [[sky]]"" (first sense)"
+sky	sat	ᱥᱮᱨᱢᱟ	swadesh	https://en.wiktionary.org/w/index.php?title=Appendix:Santali_Swadesh_list&oldid=82403268	Swadesh list no. 162, first listed word (no line in the table)
+sky	ja	空	table	https://en.wiktionary.org/w/index.php?title=sky/translations&oldid=93631366#Translations	first word of the table; other listed: 大空, 天空, あめ
+sky	ru	небо|не́бо	table	https://en.wiktionary.org/w/index.php?title=sky/translations&oldid=93631366#Translations	first word of the table
+sky	ar	سماء|سَمَاء	table	https://en.wiktionary.org/w/index.php?title=sky/translations&oldid=93631366#Translations	first word of the table
+rain	as	বৰষুণ	table	https://en.wiktionary.org/w/index.php?title=rain&oldid=93423420#Translations	first word of the table
+rain	or	ବର୍ଷା	table	https://en.wiktionary.org/w/index.php?title=rain&oldid=93423420#Translations	first word of the table
+rain	pa	ਮੀਂਹ	table	https://en.wiktionary.org/w/index.php?title=rain&oldid=93423420#Translations	first word of the table; other listed: ਵਰਖਾ, ਬਰਸਾਤ, ਬਾਰਸ਼
+rain	ur	بارش|بارِش	table	https://en.wiktionary.org/w/index.php?title=rain&oldid=93423420#Translations	first word of the table; other listed: مین٘ہ, بَرْسات, باراں, مَطَر, باران
+rain	ne	झरी|वर्षा	override	https://en.wiktionary.org/w/index.php?title=rain&oldid=93423420#Translations	table lists वर्षा (formal, identical to Hindi) first; the everyday झरी is also listed
+rain	sa	वृष्टि	table	https://en.wiktionary.org/w/index.php?title=rain&oldid=93423420#Translations	first word of the table; other listed: वर्षा, पर्जन्य
+rain	mai		empty	https://en.wiktionary.org/w/index.php?title=rain&oldid=93423420#Translations	no line in the table
+rain	sd	برسات	table	https://en.wiktionary.org/w/index.php?title=rain&oldid=93423420#Translations	first word of the table
+rain	ks	روٗد	table	https://en.wiktionary.org/w/index.php?title=rain&oldid=93423420#Translations	first word of the table; other listed: بٲرِش, وَرشا
+rain	kok		empty	https://en.wiktionary.org/w/index.php?title=rain&oldid=93423420#Translations	no line in the table
+rain	doi		empty	https://en.wiktionary.org/w/index.php?title=rain&oldid=93423420#Translations	no line in the table
+rain	mni	ꯅꯣꯡꯖꯨ	swadesh	https://en.wiktionary.org/w/index.php?title=Appendix:Manipuri_Swadesh_list&oldid=82427215	Swadesh list no. 151, first listed word (no line in the table); other listed: ꯅꯣꯡ, ꯅꯣꯡꯆꯨ
+rain	brx		empty	https://en.wiktionary.org/w/index.php?title=rain&oldid=93423420#Translations	no line in the table
+rain	sat	ᱡᱟᱹᱲᱤ	override	https://en.wiktionary.org/w/index.php?title=Appendix:Santali_Swadesh_list&oldid=82403268	the table gives ᱫᱟᱜ, the same word as water; the Swadesh list's rain word ᱡᱟᱹᱲᱤ keeps the two concepts distinct
+rain	ja	雨	table	https://en.wiktionary.org/w/index.php?title=rain&oldid=93423420#Translations	first word of the table
+rain	ru	дождь	table	https://en.wiktionary.org/w/index.php?title=rain&oldid=93423420#Translations	first word of the table
+rain	ar	مطر|مَطَر	table	https://en.wiktionary.org/w/index.php?title=rain&oldid=93423420#Translations	first word of the table
+horse	as	ঘোঁৰা	table	https://en.wiktionary.org/w/index.php?title=horse&oldid=93700208#Translations	first word of the table
+horse	or	ଘୋଡ଼ା	table	https://en.wiktionary.org/w/index.php?title=horse&oldid=93700208#Translations	first word of the table
+horse	pa	ਘੋੜਾ	table	https://en.wiktionary.org/w/index.php?title=horse&oldid=93700208#Translations	first word of the table
+horse	ur	گھوڑا	table	https://en.wiktionary.org/w/index.php?title=horse&oldid=93700208#Translations	first word of the table; other listed: اَسْپ, اَشْو, تُرَگ
+horse	ne	घोडा	table	https://en.wiktionary.org/w/index.php?title=horse&oldid=93700208#Translations	first word of the table
+horse	sa	अश्व	table	https://en.wiktionary.org/w/index.php?title=horse&oldid=93700208#Translations	first word of the table; other listed: घोटक, तुरग, अर्वन्, हय, वातायन
+horse	mai		empty	https://en.wiktionary.org/w/index.php?title=horse&oldid=93700208#Translations	no line in the table
+horse	sd	گهوڙو	wikidata	https://www.wikidata.org/wiki/Q726	Wikidata label of Q726 (horse), fetched 2026-10-19 ({{t-needed}}: the table asks for a translation)
+horse	ks	گُر	table	https://en.wiktionary.org/w/index.php?title=horse&oldid=93700208#Translations	first word of the table
+horse	kok		empty	https://en.wiktionary.org/w/index.php?title=horse&oldid=93700208#Translations	table has only tokli (other script/multiword)
+horse	doi		empty	https://en.wiktionary.org/w/index.php?title=horse&oldid=93700208#Translations	no line in the table
+horse	mni	ꯁꯒꯣꯜ	entry	https://en.wiktionary.org/w/index.php?title=ꯁꯒꯣꯜ&oldid=77749421	Wiktionary entry, definition '# [[horse]]' (no line in the table); single candidate
+horse	brx		empty	https://en.wiktionary.org/w/index.php?title=horse&oldid=93700208#Translations	no line in the table
+horse	sat	ᱥᱚᱫᱳᱢ	table	https://en.wiktionary.org/w/index.php?title=horse&oldid=93700208#Translations	first word of the table
+horse	ja	馬	table	https://en.wiktionary.org/w/index.php?title=horse&oldid=93700208#Translations	first word of the table; other listed: ウマ
+horse	ru	лошадь|ло́шадь	table	https://en.wiktionary.org/w/index.php?title=horse&oldid=93700208#Translations	first word of the table; other listed: конь
+horse	ar	حصان|حِصَان	table	https://en.wiktionary.org/w/index.php?title=horse&oldid=93700208#Translations	first word of the table; other listed: فَرَس, خَيْل
+cow	as	গাইগৰু	table	https://en.wiktionary.org/w/index.php?title=cow/translations&oldid=93476320#Translations	first word of the table; other listed: গৰু
+cow	or		empty	https://en.wiktionary.org/w/index.php?title=cow/translations&oldid=93476320#Translations	no line in the table
+cow	pa		empty	https://en.wiktionary.org/w/index.php?title=cow/translations&oldid=93476320#Translations	no line in the table
+cow	ur	گائے	table	https://en.wiktionary.org/w/index.php?title=cow/translations&oldid=93476320#Translations	first word of the table; other listed: گو, گَئُو, بَقَر
+cow	ne	गाई	table	https://en.wiktionary.org/w/index.php?title=cow/translations&oldid=93476320#Translations	first word of the table
+cow	sa	धेनु	table	https://en.wiktionary.org/w/index.php?title=cow/translations&oldid=93476320#Translations	first word of the table; other listed: गो, अघ्न्या
+cow	mai	गाय	override	https://en.wiktionary.org/w/index.php?title=%E0%A4%97%E0%A4%BE%E0%A4%AF&oldid=91399346	"Wiktionary entry (Maithili section): ""# [[cow]]"""
+cow	sd	ڳئون|ڳَئُون	table	https://en.wiktionary.org/w/index.php?title=cow/translations&oldid=93476320#Translations	first word of the table
+cow	ks	گاو	wikidata	https://www.wikidata.org/wiki/Q830	Wikidata label of Q830 (cattle), fetched 2026-10-19 (no line in the table)
+cow	kok	गाय	table	https://en.wiktionary.org/w/index.php?title=cow/translations&oldid=93476320#Translations	first word of the table
+cow	doi		empty	https://en.wiktionary.org/w/index.php?title=cow/translations&oldid=93476320#Translations	no line in the table
+cow	mni	ꯁꯟ	entry	https://en.wiktionary.org/w/index.php?title=ꯁꯟ&oldid=80002172	Wiktionary entry, definition '# [[cow]], [[ox]]' (no line in the table); single candidate
+cow	brx		empty	https://en.wiktionary.org/w/index.php?title=cow/translations&oldid=93476320#Translations	no line in the table
+cow	sat	ᱜᱟᱤ	table	https://en.wiktionary.org/w/index.php?title=cow/translations&oldid=93476320#Translations	first word of the table
+cow	ja	牛|雌牛	override	https://en.wiktionary.org/w/index.php?title=cow/translations&oldid=93476320#Translations	table lists 雌牛 (female bovine, technical) first; 牛, the everyday word, is also listed
+cow	ru	корова|коро́ва	table	https://en.wiktionary.org/w/index.php?title=cow/translations&oldid=93476320#Translations	first word of the table
+cow	ar	بقرة|بَقَرَة	table	https://en.wiktionary.org/w/index.php?title=cow/translations&oldid=93476320#Translations	first word of the table
+fish	as	মাছ	table	https://en.wiktionary.org/w/index.php?title=fish/translations&oldid=93580922#Translations	first word of the table
+fish	or	ମୀନ|ମତ୍ସ୍ଯ	override	https://en.wiktionary.org/w/index.php?title=fish/translations&oldid=93580922#Translations	both table words are Sanskrit; the everyday Odia ମାଛ is not listed (kept as found: a known word-list gap)
+fish	pa	ਮੱਛੀ	table	https://en.wiktionary.org/w/index.php?title=fish/translations&oldid=93580922#Translations	first word of the table
+fish	ur	مچھلی|مَچْھلی	table	https://en.wiktionary.org/w/index.php?title=fish/translations&oldid=93580922#Translations	first word of the table; other listed: ماہی, مَتْسیَہ
+fish	ne	माछा	table	https://en.wiktionary.org/w/index.php?title=fish/translations&oldid=93580922#Translations	first word of the table
+fish	sa	मत्स्य	table	https://en.wiktionary.org/w/index.php?title=fish/translations&oldid=93580922#Translations	first word of the table; other listed: मीन, झष
+fish	mai		empty	https://en.wiktionary.org/w/index.php?title=fish/translations&oldid=93580922#Translations	no line in the table
+fish	sd		empty	https://en.wiktionary.org/w/index.php?title=fish/translations&oldid=93580922#Translations	table has only मच्छी (other script/multiword)
+fish	ks	گاڈٕ	wikidata	https://www.wikidata.org/wiki/Q152	Wikidata label of Q152 (fish), fetched 2026-10-19 (no line in the table)
+fish	kok	मासोळि	table	https://en.wiktionary.org/w/index.php?title=fish/translations&oldid=93580922#Translations	first word of the table; other listed: जळ्के
+fish	doi	मच्छी	override	https://en.wiktionary.org/w/index.php?title=%E0%A4%AE%E0%A4%9A%E0%A5%8D%E0%A4%9B%E0%A5%80&oldid=87516272	"Wiktionary entry: ""# [[fish]]"""
+fish	mni	ꯉꯥ	table	https://en.wiktionary.org/w/index.php?title=fish/translations&oldid=93580922#Translations	first word of the table; other listed: ꯂꯦꯝꯂꯩ
+fish	brx	ना	override	https://en.wiktionary.org/w/index.php?title=%E0%A4%A8%E0%A4%BE&oldid=91927814	"Wiktionary entry: ""# [[fish]]"""
+fish	sat	ᱦᱟᱹᱠᱩ	table	https://en.wiktionary.org/w/index.php?title=fish/translations&oldid=93580922#Translations	first word of the table
+fish	ja	魚	table	https://en.wiktionary.org/w/index.php?title=fish/translations&oldid=93580922#Translations	first word of the table; other listed: 魚類
+fish	ru	рыба|ры́ба	table	https://en.wiktionary.org/w/index.php?title=fish/translations&oldid=93580922#Translations	first word of the table
+fish	ar	سمكة|سَمَكَة	table	https://en.wiktionary.org/w/index.php?title=fish/translations&oldid=93580922#Translations	first word of the table; qualifier: singular; other listed: سَمَك, حُوت
+salt	as	লোণ	table	https://en.wiktionary.org/w/index.php?title=salt/translations&oldid=93563637#Translations	first word of the table; other listed: নিমখ
+salt	or	ଲୁଣ	table	https://en.wiktionary.org/w/index.php?title=salt/translations&oldid=93563637#Translations	first word of the table
+salt	pa	ਨਮਕ	table	https://en.wiktionary.org/w/index.php?title=salt/translations&oldid=93563637#Translations	first word of the table; other listed: ਲੂਣ, ਲਵਣ
+salt	ur	نمک|نَمَک	table	https://en.wiktionary.org/w/index.php?title=salt/translations&oldid=93563637#Translations	first word of the table
+salt	ne	नून	table	https://en.wiktionary.org/w/index.php?title=salt/translations&oldid=93563637#Translations	first word of the table; other listed: लवण
+salt	sa	लवण	table	https://en.wiktionary.org/w/index.php?title=salt/translations&oldid=93563637#Translations	first word of the table
+salt	mai	नून	override	https://en.wiktionary.org/w/index.php?title=%E0%A4%A8%E0%A5%82%E0%A4%A8&oldid=90461741	"Wiktionary entry (Maithili section): ""# [[salt]]"""
+salt	sd	لوڻ	table	https://en.wiktionary.org/w/index.php?title=salt/translations&oldid=93563637#Translations	first word of the table
+salt	ks	نوٗن	wikidata	https://www.wikidata.org/wiki/Q11254	Wikidata label of Q11254 (table salt), fetched 2026-10-19 (no line in the table)
+salt	kok		empty	https://en.wiktionary.org/w/index.php?title=salt/translations&oldid=93563637#Translations	no line in the table
+salt	doi	लून	table	https://en.wiktionary.org/w/index.php?title=salt/translations&oldid=93563637#Translations	first word of the table
+salt	mni	ꯊꯨꯝ	swadesh	https://en.wiktionary.org/w/index.php?title=Appendix:Manipuri_Swadesh_list&oldid=82427215	Swadesh list no. 155, first listed word (no line in the table); other listed: ꯅꯣꯏꯅꯨ
+salt	brx	संख्रि	override	https://en.wiktionary.org/w/index.php?title=%E0%A4%B8%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%B0%E0%A4%BF&oldid=47793866	"Wiktionary entry: ""# [[salt]]"""
+salt	sat	ᱵᱩᱞᱩᱝ	swadesh	https://en.wiktionary.org/w/index.php?title=Appendix:Santali_Swadesh_list&oldid=82403268	Swadesh list no. 155, first listed word (no line in the table)
+salt	ja	塩	table	https://en.wiktionary.org/w/index.php?title=salt/translations&oldid=93563637#Translations	first word of the table
+salt	ru	соль	table	https://en.wiktionary.org/w/index.php?title=salt/translations&oldid=93563637#Translations	first word of the table
+salt	ar	ملح|مِلْح	table	https://en.wiktionary.org/w/index.php?title=salt/translations&oldid=93563637#Translations	first word of the table
+gold	as	সোণ	table	https://en.wiktionary.org/w/index.php?title=gold/translations&oldid=92549374#Translations	first word of the table; other listed: স্বৰ্ণ
+gold	or	ସୁନା	table	https://en.wiktionary.org/w/index.php?title=gold/translations&oldid=92549374#Translations	first word of the table
+gold	pa	ਸੋਨਾ	table	https://en.wiktionary.org/w/index.php?title=gold/translations&oldid=92549374#Translations	first word of the table
+gold	ur	سونا	table	https://en.wiktionary.org/w/index.php?title=gold/translations&oldid=92549374#Translations	first word of the table; other listed: زَر
+gold	ne	सुन	table	https://en.wiktionary.org/w/index.php?title=gold/translations&oldid=92549374#Translations	first word of the table
+gold	sa	सुवर्ण	table	https://en.wiktionary.org/w/index.php?title=gold/translations&oldid=92549374#Translations	first word of the table; other listed: काञ्चन, हिरण्य, कनक, भृङ्गार, हेमन्
+gold	mai	सोन	table	https://en.wiktionary.org/w/index.php?title=gold/translations&oldid=92549374#Translations	first word of the table; other listed: कनक, कञ्चन
+gold	sd	سون	table	https://en.wiktionary.org/w/index.php?title=gold/translations&oldid=92549374#Translations	first word of the table
+gold	ks	سۄن	wikidata	https://www.wikidata.org/wiki/Q897	Wikidata label of Q897 (gold), fetched 2026-10-19 (no line in the table)
+gold	kok	भांगर	table	https://en.wiktionary.org/w/index.php?title=gold/translations&oldid=92549374#Translations	first word of the table
+gold	doi		empty	https://en.wiktionary.org/w/index.php?title=gold/translations&oldid=92549374#Translations	no line in the table
+gold	mni	ꯁꯅꯥ	entry	https://en.wiktionary.org/w/index.php?title=ꯁꯅꯥ&oldid=69816197	Wiktionary entry, definition '# [[gold]]' (no line in the table); single candidate
+gold	brx		empty	https://en.wiktionary.org/w/index.php?title=gold/translations&oldid=92549374#Translations	no line in the table
+gold	sat	ᱥᱚᱱᱟ	table	https://en.wiktionary.org/w/index.php?title=gold/translations&oldid=92549374#Translations	first word of the table
+gold	ja	金	table	https://en.wiktionary.org/w/index.php?title=gold/translations&oldid=92549374#Translations	first word of the table; other listed: 黄金
+gold	ru	золото|зо́лото	table	https://en.wiktionary.org/w/index.php?title=gold/translations&oldid=92549374#Translations	first word of the table; other listed: а́урум, зла́то
+gold	ar	ذهب|ذَهَب	table	https://en.wiktionary.org/w/index.php?title=gold/translations&oldid=92549374#Translations	first word of the table; other listed: إِبْرِيز
+night	as	ৰাতি	table	https://en.wiktionary.org/w/index.php?title=night&oldid=93665616#Translations	first word of the table
+night	or	ରାତି	table	https://en.wiktionary.org/w/index.php?title=night&oldid=93665616#Translations	first word of the table
+night	pa	ਰਾਤ	table	https://en.wiktionary.org/w/index.php?title=night&oldid=93665616#Translations	first word of the table
+night	ur	رات	table	https://en.wiktionary.org/w/index.php?title=night&oldid=93665616#Translations	first word of the table; other listed: شَب
+night	ne	रात	table	https://en.wiktionary.org/w/index.php?title=night&oldid=93665616#Translations	first word of the table
+night	sa	रात्रि	table	https://en.wiktionary.org/w/index.php?title=night&oldid=93665616#Translations	first word of the table; other listed: क्षप्, नक्त्
+night	mai	राति	table	https://en.wiktionary.org/w/index.php?title=night&oldid=93665616#Translations	first word of the table
+night	sd	رات|راتِ	table	https://en.wiktionary.org/w/index.php?title=night&oldid=93665616#Translations	first word of the table
+night	ks	راتھ	table	https://en.wiktionary.org/w/index.php?title=night&oldid=93665616#Translations	first word of the table
+night	kok	रात	entry	https://en.wiktionary.org/w/index.php?title=रात&oldid=91483650	Wiktionary entry, definition '# [[night]]' (no line in the table); Konkani section of multi-language page (definition read from search snippet of wikitext)
+night	doi		empty	https://en.wiktionary.org/w/index.php?title=night&oldid=93665616#Translations	no line in the table
+night	mni	ꯑꯍꯤꯡ	swadesh	https://en.wiktionary.org/w/index.php?title=Appendix:Manipuri_Swadesh_list&oldid=82427215	Swadesh list no. 177, first listed word (no line in the table); other listed: ꯅꯨꯃꯤꯗꯥꯡ, ꯅꯨꯃꯤꯠꯇꯥꯡ, ꯅꯨꯃꯤꯇꯥꯡ
+night	brx		empty	https://en.wiktionary.org/w/index.php?title=night&oldid=93665616#Translations	no line in the table
+night	sat	ᱧᱤᱫᱟᱹ	swadesh	https://en.wiktionary.org/w/index.php?title=Appendix:Santali_Swadesh_list&oldid=82403268	Swadesh list no. 177, first listed word ({{t-needed}}: the table asks for a translation)
+night	ja	夜	table	https://en.wiktionary.org/w/index.php?title=night&oldid=93665616#Translations	first word of the table
+night	ru	ночь	table	https://en.wiktionary.org/w/index.php?title=night&oldid=93665616#Translations	first word of the table
+night	ar	ليلة|لَيْلَة	table	https://en.wiktionary.org/w/index.php?title=night&oldid=93665616#Translations	first word of the table; other listed: لَيْل
+heart	as	ডিল	table	https://en.wiktionary.org/w/index.php?title=heart/translations&oldid=93591606#Translations	first word of the table; other listed: হিয়া-জালী, হৃদযন্ত্ৰ, হৃদপিণ্ড, কলিজা
+heart	or	ହୃତ୍ପିଣ୍ଡ	table	https://en.wiktionary.org/w/index.php?title=heart/translations&oldid=93591606#Translations	first word of the table
+heart	pa	ਦਿਲ	table	https://en.wiktionary.org/w/index.php?title=heart/translations&oldid=93591606#Translations	first word of the table; other listed: ਜਿਗਰਾ, ਹਿਰਦਾ
+heart	ur	دل|دِل	table	https://en.wiktionary.org/w/index.php?title=heart/translations&oldid=93591606#Translations	first word of the table; other listed: قَلْب, ہْرِدَی
+heart	ne	मुटु	table	https://en.wiktionary.org/w/index.php?title=heart/translations&oldid=93591606#Translations	first word of the table; other listed: हृदय
+heart	sa	हृदय	table	https://en.wiktionary.org/w/index.php?title=heart/translations&oldid=93591606#Translations	first word of the table; other listed: हृद्
+heart	mai		empty	https://en.wiktionary.org/w/index.php?title=heart/translations&oldid=93591606#Translations	{{t-needed}}: the table asks for a translation
+heart	sd	دل	table	https://en.wiktionary.org/w/index.php?title=heart/translations&oldid=93591606#Translations	first word of the table
+heart	ks	وٲلِنٛج	entry	https://en.wiktionary.org/w/index.php?title=وٲلِنٛج&oldid=83970115	Wiktionary entry, definition '# [[heart]]' (no line in the table); candidates: وٲلِنٛج / وٲنِج (listed as alternative forms of each other), وۄندٕ
+heart	kok	हड्डें	entry	https://en.wiktionary.org/w/index.php?title=हड्डें&oldid=80991961	Wiktionary entry, definition '# {{lb|kok|anatomy}} [[heart]]' (no line in the table); only candidate found; the page lists synonyms छाती, वक्षस्थळ, ऊर
+heart	doi		empty	https://en.wiktionary.org/w/index.php?title=heart/translations&oldid=93591606#Translations	no line in the table
+heart	mni	ꯊꯃꯣꯏ	swadesh	https://en.wiktionary.org/w/index.php?title=Appendix:Manipuri_Swadesh_list&oldid=82427215	Swadesh list no. 90, first listed word (no line in the table)
+heart	brx		empty	https://en.wiktionary.org/w/index.php?title=heart/translations&oldid=93591606#Translations	no line in the table
+heart	sat	ᱵᱳᱨᱳ	table	https://en.wiktionary.org/w/index.php?title=heart/translations&oldid=93591606#Translations	first word of the table
+heart	ja	心臓	table	https://en.wiktionary.org/w/index.php?title=heart/translations&oldid=93591606#Translations	first word of the table; other listed: 心
+heart	ru	сердце|се́рдце	table	https://en.wiktionary.org/w/index.php?title=heart/translations&oldid=93591606#Translations	first word of the table
+heart	ar	قلب|قَلْب	table	https://en.wiktionary.org/w/index.php?title=heart/translations&oldid=93591606#Translations	first word of the table; other listed: فُؤَاد
+village	as	গাঁও	table	https://en.wiktionary.org/w/index.php?title=village&oldid=93598618#Translations	first word of the table
+village	or	ଗାଁ	table	https://en.wiktionary.org/w/index.php?title=village&oldid=93598618#Translations	first word of the table
+village	pa	ਪਿੰਡ	table	https://en.wiktionary.org/w/index.php?title=village&oldid=93598618#Translations	first word of the table
+village	ur	گاؤں	table	https://en.wiktionary.org/w/index.php?title=village&oldid=93598618#Translations	first word of the table; other listed: دیہات, دیہ
+village	ne	गाँउ	table	https://en.wiktionary.org/w/index.php?title=village&oldid=93598618#Translations	first word of the table
+village	sa	ग्राम	table	https://en.wiktionary.org/w/index.php?title=village&oldid=93598618#Translations	first word of the table
+village	mai		empty	https://en.wiktionary.org/w/index.php?title=village&oldid=93598618#Translations	no line in the table
+village	sd	ڳوٺ	entry	https://en.wiktionary.org/w/index.php?title=ڳوٺ&oldid=89467871	"Wiktionary entry, definition ""# [[village]], [[town]], one's [[native]] [[place]] // # [[pasture]]"" (no line in the table); headword in {{sd-noun}} is vocalised ڳوٺُ"
+village	ks	گام	entry	https://en.wiktionary.org/w/index.php?title=گام&oldid=93354348	Wiktionary entry, definition '# [[village]]' (no line in the table); Kashmiri section of multi-language page
+village	kok	गांव	entry	https://en.wiktionary.org/w/index.php?title=गांव&oldid=87509330	Wiktionary entry, definition '# [[village]]' (no line in the table); primary candidate; lists synonyms नाड, ग्राम, हळ्ळि (definition read from search snippet)
+village	doi		empty	https://en.wiktionary.org/w/index.php?title=village&oldid=93598618#Translations	no line in the table
+village	mni	ꯈꯨꯟ	entry	https://en.wiktionary.org/w/index.php?title=ꯈꯨꯟ&oldid=83421407	Wiktionary entry, definition '# [[village]].' (no line in the table); two candidates; ꯈꯨꯟ and ꯈꯨꯜ list each other as alternative forms
+village	brx		empty	https://en.wiktionary.org/w/index.php?title=village&oldid=93598618#Translations	no line in the table
+village	sat	ᱚᱛᱳ	table	https://en.wiktionary.org/w/index.php?title=village&oldid=93598618#Translations	first word of the table
+village	ja	村	table	https://en.wiktionary.org/w/index.php?title=village&oldid=93598618#Translations	first word of the table; other listed: 田舎, 村落
+village	ru	деревня|дере́вня	table	https://en.wiktionary.org/w/index.php?title=village&oldid=93598618#Translations	first word of the table; other listed: село́, селе́ние, кишла́к, ау́л, ху́тор, весь, ве́слина, весца́, вёска, стани́ца, слобода́
+village	ar	قرية|قَرْيَة	table	https://en.wiktionary.org/w/index.php?title=village&oldid=93598618#Translations	first word of the table; other listed: كَفْر, ضَيْعَة, دَشْرَة
+king	as	ৰজা	table	https://en.wiktionary.org/w/index.php?title=king/translations&oldid=93476354#Translations	first word of the table
+king	or	ରାଜା	table	https://en.wiktionary.org/w/index.php?title=king/translations&oldid=93476354#Translations	first word of the table
+king	pa	ਰਾਜਾ	table	https://en.wiktionary.org/w/index.php?title=king/translations&oldid=93476354#Translations	first word of the table
+king	ur	راجا	table	https://en.wiktionary.org/w/index.php?title=king/translations&oldid=93476354#Translations	first word of the table; other listed: بَادْشَاہ, مَلِک
+king	ne	राजा	table	https://en.wiktionary.org/w/index.php?title=king/translations&oldid=93476354#Translations	first word of the table
+king	sa	राजा	table	https://en.wiktionary.org/w/index.php?title=king/translations&oldid=93476354#Translations	first word of the table; other listed: केसरी, भूपति
+king	mai		empty	https://en.wiktionary.org/w/index.php?title=king/translations&oldid=93476354#Translations	no line in the table
+king	sd	سلطان|بادشاھ	override	https://en.wiktionary.org/w/index.php?title=king/translations&oldid=93476354#Translations	both listed in the table
+king	ks	رازٕ	entry	https://en.wiktionary.org/w/index.php?title=رازٕ&oldid=63587528	Wiktionary entry, definition '# a [[king]]' (no line in the table); single candidate
+king	kok		empty	https://en.wiktionary.org/w/index.php?title=king/translations&oldid=93476354#Translations	no line in the table
+king	doi		empty	https://en.wiktionary.org/w/index.php?title=king/translations&oldid=93476354#Translations	no line in the table
+king	mni	ꯅꯤꯡꯊꯧ	entry	https://en.wiktionary.org/w/index.php?title=ꯅꯤꯡꯊꯧ&oldid=83373694	Wiktionary entry, definition '# [[king]]' (no line in the table); single candidate
+king	brx		empty	https://en.wiktionary.org/w/index.php?title=king/translations&oldid=93476354#Translations	no line in the table
+king	sat	ᱨᱟᱡᱽ	table	https://en.wiktionary.org/w/index.php?title=king/translations&oldid=93476354#Translations	first word of the table
+king	ja	国王	table	https://en.wiktionary.org/w/index.php?title=king/translations&oldid=93476354#Translations	first word of the table; other listed: 王様, 王, 大君
+king	ru	король|коро́ль	table	https://en.wiktionary.org/w/index.php?title=king/translations&oldid=93476354#Translations	first word of the table; other listed: царь, князь
+king	ar	ملك|مَلِك	table	https://en.wiktionary.org/w/index.php?title=king/translations&oldid=93476354#Translations	first word of the table; other listed: سُلْطَان
+star	as	তৰা	table	https://en.wiktionary.org/w/index.php?title=star/translations&oldid=93664346#Translations	first word of the table
+star	or	ତାରା	table	https://en.wiktionary.org/w/index.php?title=star/translations&oldid=93664346#Translations	first word of the table
+star	pa	ਤਾਰਾ	table	https://en.wiktionary.org/w/index.php?title=star/translations&oldid=93664346#Translations	first word of the table; other listed: ਸਿਤਾਰਾ
+star	ur	ستارہ|سِتارَہ	table	https://en.wiktionary.org/w/index.php?title=star/translations&oldid=93664346#Translations	first word of the table; other listed: تارا, تارَہ⁩, اَخْتَر
+star	ne	तारा	table	https://en.wiktionary.org/w/index.php?title=star/translations&oldid=93664346#Translations	first word of the table
+star	sa	तारा	table	https://en.wiktionary.org/w/index.php?title=star/translations&oldid=93664346#Translations	first word of the table; other listed: तारका, तारिका, नक्षत्र
+star	mai		empty	https://en.wiktionary.org/w/index.php?title=star/translations&oldid=93664346#Translations	no line in the table
+star	sd	تارو	table	https://en.wiktionary.org/w/index.php?title=star/translations&oldid=93664346#Translations	first word of the table
+star	ks	تارُکھ	entry	https://en.wiktionary.org/w/index.php?title=تارُکھ&oldid=89566894	Wiktionary entry, definition '# a [[star]]' (no line in the table); single candidate
+star	kok		empty	https://en.wiktionary.org/w/index.php?title=star/translations&oldid=93664346#Translations	no line in the table
+star	doi		empty	https://en.wiktionary.org/w/index.php?title=star/translations&oldid=93664346#Translations	no line in the table
+star	mni	ꯊꯧꯋꯥꯟꯃꯤꯆꯥꯛ	swadesh	https://en.wiktionary.org/w/index.php?title=Appendix:Manipuri_Swadesh_list&oldid=82427215	Swadesh list no. 149, first listed word (no line in the table); other listed: ꯊꯋꯥꯟꯃꯤꯆꯥꯛ, ꯊꯧꯋꯥꯏꯃꯤꯆꯥꯛ, ꯊꯋꯥꯏꯃꯤꯆꯥꯛ
+star	brx		empty	https://en.wiktionary.org/w/index.php?title=star/translations&oldid=93664346#Translations	no line in the table
+star	sat	ᱤᱯᱤᱞ	swadesh	https://en.wiktionary.org/w/index.php?title=Appendix:Santali_Swadesh_list&oldid=82403268	Swadesh list no. 149, first listed word (no line in the table)
+star	ja	星	table	https://en.wiktionary.org/w/index.php?title=star/translations&oldid=93664346#Translations	first word of the table; other listed: 恒星, お星様, 恒星
+star	ru	звезда|звезда́	table	https://en.wiktionary.org/w/index.php?title=star/translations&oldid=93664346#Translations	first word of the table; other listed: звезда́
+star	ar	نجم|نَجْم	table	https://en.wiktionary.org/w/index.php?title=star/translations&oldid=93664346#Translations	first word of the table; other listed: كوكب, نَجْم
+tooth	as	দাঁত	table	https://en.wiktionary.org/w/index.php?title=tooth&oldid=93668959#Translations	first word of the table
+tooth	or	ଦାନ୍ତ	table	https://en.wiktionary.org/w/index.php?title=tooth&oldid=93668959#Translations	first word of the table
+tooth	pa	ਦੰਦ	table	https://en.wiktionary.org/w/index.php?title=tooth&oldid=93668959#Translations	first word of the table; other listed: ਡੰਦ
+tooth	ur	دانت|دان٘ت	table	https://en.wiktionary.org/w/index.php?title=tooth&oldid=93668959#Translations	first word of the table; other listed: دَنْدان
+tooth	ne	दाँत	table	https://en.wiktionary.org/w/index.php?title=tooth&oldid=93668959#Translations	first word of the table
+tooth	sa	दन्त	table	https://en.wiktionary.org/w/index.php?title=tooth&oldid=93668959#Translations	first word of the table
+tooth	mai		empty	https://en.wiktionary.org/w/index.php?title=tooth&oldid=93668959#Translations	{{t-needed}}: the table asks for a translation
+tooth	sd	ڏند	entry	https://en.wiktionary.org/w/index.php?title=ڏند&oldid=91054656	Wiktionary entry, definition '# {{lb|sd|anatomy}} [[tooth]]' (no line in the table); headword in {{sd-noun}} is vocalised ڏَندُ
+tooth	ks	دَنٛد	entry	https://en.wiktionary.org/w/index.php?title=دَنٛد&oldid=91059800	Wiktionary entry, definition '# a [[tooth]], [[teeth]] // # the [[tusk]] of an elephant' (no line in the table); single candidate
+tooth	kok		empty	https://en.wiktionary.org/w/index.php?title=tooth&oldid=93668959#Translations	no line in the table
+tooth	doi		empty	https://en.wiktionary.org/w/index.php?title=tooth&oldid=93668959#Translations	no line in the table
+tooth	mni	ꯌꯥ	swadesh	https://en.wiktionary.org/w/index.php?title=Appendix:Manipuri_Swadesh_list&oldid=82427215	Swadesh list no. 77, first listed word (no line in the table); other listed: ꯃꯌꯥ
+tooth	brx		empty	https://en.wiktionary.org/w/index.php?title=tooth&oldid=93668959#Translations	no line in the table
+tooth	sat	ᱰᱟᱴᱟ	table	https://en.wiktionary.org/w/index.php?title=tooth&oldid=93668959#Translations	first word of the table
+tooth	ja	歯	table	https://en.wiktionary.org/w/index.php?title=tooth&oldid=93668959#Translations	first word of the table
+tooth	ru	зуб	table	https://en.wiktionary.org/w/index.php?title=tooth&oldid=93668959#Translations	first word of the table
+tooth	ar	سن|سِنّ	table	https://en.wiktionary.org/w/index.php?title=tooth&oldid=93668959#Translations	first word of the table
+name	as	নাম	table	https://en.wiktionary.org/w/index.php?title=name&oldid=92744939#Translations	first word of the table
+name	or	ନାମ	table	https://en.wiktionary.org/w/index.php?title=name&oldid=92744939#Translations	first word of the table
+name	pa	ਨਾਂ	table	https://en.wiktionary.org/w/index.php?title=name&oldid=92744939#Translations	first word of the table
+name	ur	نام	table	https://en.wiktionary.org/w/index.php?title=name&oldid=92744939#Translations	first word of the table; other listed: اِسْم
+name	ne	नाम	table	https://en.wiktionary.org/w/index.php?title=name&oldid=92744939#Translations	first word of the table
+name	sa	नामन्	table	https://en.wiktionary.org/w/index.php?title=name&oldid=92744939#Translations	first word of the table
+name	mai		empty	https://en.wiktionary.org/w/index.php?title=name&oldid=92744939#Translations	no line in the table
+name	sd	نالو	table	https://en.wiktionary.org/w/index.php?title=name&oldid=92744939#Translations	first word of the table
+name	ks	ناو	table	https://en.wiktionary.org/w/index.php?title=name&oldid=92744939#Translations	first word of the table
+name	kok	नाव	entry	https://en.wiktionary.org/w/index.php?title=नाव&oldid=92463382	Wiktionary entry, definition '# [[name]]' (no line in the table); two candidates (नाव, नाम); Konkani section of multi-language page (search snippet)
+name	doi		empty	https://en.wiktionary.org/w/index.php?title=name&oldid=92744939#Translations	no line in the table
+name	mni	ꯃꯤꯡ	swadesh	https://en.wiktionary.org/w/index.php?title=Appendix:Manipuri_Swadesh_list&oldid=82427215	Swadesh list no. 207, first listed word (no line in the table); other listed: ꯃꯃꯤꯡ, ꯃꯤꯡꯂꯦꯟ, ꯃꯤꯡꯂꯦꯜ, ꯀꯣꯂꯣꯏ
+name	brx	मुं	override	https://en.wiktionary.org/w/index.php?title=%E0%A4%AE%E0%A5%81%E0%A4%82&oldid=47793111	"Wiktionary entry: ""# [[name]]"""
+name	sat	ᱧᱩᱛᱩᱢ	swadesh	https://en.wiktionary.org/w/index.php?title=Appendix:Santali_Swadesh_list&oldid=82403268	Swadesh list no. 207, first listed word (no line in the table)
+name	ja	名前	table	https://en.wiktionary.org/w/index.php?title=name&oldid=92744939#Translations	first word of the table; other listed: 名, 名前, 芳名, 名称
+name	ru	имя|и́мя	table	https://en.wiktionary.org/w/index.php?title=name&oldid=92744939#Translations	first word of the table; other listed: назва́ние, наименова́ние
+name	ar	اسم|اِسْم	table	https://en.wiktionary.org/w/index.php?title=name&oldid=92744939#Translations	first word of the table; other listed: أَسْمَاء
+road	as	বাট	table	https://en.wiktionary.org/w/index.php?title=road&oldid=92953670#Translations	first word of the table; other listed: আলি, ৰাস্তা
+road	or	ରାସ୍ତା	table	https://en.wiktionary.org/w/index.php?title=road&oldid=92953670#Translations	first word of the table
+road	pa	ਸੜਕ	table	https://en.wiktionary.org/w/index.php?title=road&oldid=92953670#Translations	first word of the table; other listed: ਰਸਤਾ
+road	ur	سڑک|سَڑَک	table	https://en.wiktionary.org/w/index.php?title=road&oldid=92953670#Translations	first word of the table; other listed: راسْتَہ, جادَہ
+road	ne	सडक	table	https://en.wiktionary.org/w/index.php?title=road&oldid=92953670#Translations	first word of the table
+road	sa	मार्ग	table	https://en.wiktionary.org/w/index.php?title=road&oldid=92953670#Translations	first word of the table; other listed: पथ
+road	mai		empty	https://en.wiktionary.org/w/index.php?title=road&oldid=92953670#Translations	no line in the table
+road	sd	رستو	entry	https://en.wiktionary.org/w/index.php?title=رستو&oldid=89702930	Wiktionary entry, definition '# [[road]], [[way]]' (no line in the table); headword in {{sd-noun}} is vocalised رَسْتو
+road	ks	وَتھ	entry	https://en.wiktionary.org/w/index.php?title=وَتھ&oldid=91957452	Wiktionary entry, definition '# a [[road]] // # a [[way]] // # a [[path]] // # a [[route]] // # a [[course]] // # a [[manner]] // # a [[teaching]], an [[instruction]]' (no line in the table); page lists synonym سَڑَک (t=road); no entry fetched for it
+road	kok	रस्तो	entry	https://en.wiktionary.org/w/index.php?title=रस्तो&oldid=87533515	Wiktionary entry, definition '# [[road]]' (no line in the table); primary candidate; Konkani section of page that also has Hindi
+road	doi		empty	https://en.wiktionary.org/w/index.php?title=road&oldid=92953670#Translations	no line in the table
+road	mni	ꯂꯝꯕꯤ	swadesh	https://en.wiktionary.org/w/index.php?title=Appendix:Manipuri_Swadesh_list&oldid=82427215	Swadesh list no. 170, first listed word (no line in the table); other listed: ꯂꯝꯕꯦꯜ, ꯂꯝꯕꯦꯟ
+road	brx	लामा	override	https://en.wiktionary.org/w/index.php?title=%E0%A4%B2%E0%A4%BE%E0%A4%AE%E0%A4%BE&oldid=71736884	"Wiktionary entry: ""# [[road]]"""
+road	sat	ᱰᱟᱦᱟᱨ	swadesh	https://en.wiktionary.org/w/index.php?title=Appendix:Santali_Swadesh_list&oldid=82403268	Swadesh list no. 170, first listed word (no line in the table); other listed: ᱦᱚᱨᱟ
+road	ja	道	table	https://en.wiktionary.org/w/index.php?title=road&oldid=92953670#Translations	first word of the table; other listed: 道路
+road	ru	дорога|доро́га	table	https://en.wiktionary.org/w/index.php?title=road&oldid=92953670#Translations	first word of the table; other listed: путь
+road	ar	طريق|طَرِيق	table	https://en.wiktionary.org/w/index.php?title=road&oldid=92953670#Translations	first word of the table; other listed: طُرُق, سِكَّة

@@ -1,0 +1,23 @@
+# concept: heart
+# page: heart/translations
+# revid: 93591606
+# section_url: https://en.wiktionary.org/w/index.php?title=heart/translations&action=raw
+## block: {{trans-top|an organ}}
+* Assamese: {{t+|as|ডিল}}, {{t+|as|হিয়া-জালী}}, {{t+|as|হৃদযন্ত্ৰ|n}} {{q|literary}}, {{t+|as|হৃদপিণ্ড}} {{q|literary}}, {{t+|as|কলিজা}}
+* Odia: {{t+|or|ହୃତ୍ପିଣ୍ଡ}}
+* Punjabi: {{t+|pa|ਦਿਲ|m}}, {{t+|pa|ਜਿਗਰਾ|m}}, {{t+|pa|ਹਿਰਦਾ|m}}
+* Urdu: {{t+|ur|دِل|m}}, {{t+|ur|قَلْب|m}}, {{t+|ur|ہْرِدَی|m}}
+* Nepali: {{t+|ne|मुटु}}, {{t+|ne|हृदय}}
+* Sanskrit: {{t+|sa|हृदय|n}}, {{t+|sa|हृद्|n}}
+* Maithili: {{t-needed|mai}}
+* Sindhi: {{t+|sd|دل|tr=dili|alt=دِلِ}}
+MISSING Kashmiri
+MISSING Konkani
+MISSING Dogri
+MISSING Manipuri
+MISSING Bodo
+* Santali: {{t+|sat|ᱵᱳᱨᱳ}}
+* Japanese: {{t+|ja|心臓|tr=しんぞう, shinzō}}, {{t+|ja|心|tr=こころ, kokoro}}
+* Russian: {{t+|ru|се́рдце|n}}
+* Arabic: {{t+|ar|قَلْب|m}}, {{t+|ar|فُؤَاد|m}}
+* Hindi: {{t+|hi|दिल|m}}, {{t+|hi|हृदय|m}}, {{t+|hi|हिया|m}}, {{t+|hi|कलेजा|m}}, {{t+|hi|जिगर|m}}, {{t+|hi|क़ल्ब|m}}, {{t+|hi|कल्ब|m}}, {{t+|hi|हार्ट|m}}, {{t+|hi|हृद्|m}}, {{t+|hi|हिवड़ा|m}}, {{t+|hi|जिगरा|m}}, {{t+|hi|गूदा|m}}

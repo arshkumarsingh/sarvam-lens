@@ -1,0 +1,207 @@
+{
+ "usd_per_hour": 5.174,
+ "budget_minutes": 10.0,
+ "model_type": "sarvam_moe",
+ "stages": [
+  {
+   "stage": "load",
+   "est_minutes": 2,
+   "result": {
+    "model": "HFLensModel(SarvamMoEForCausalLM, n_layers=19, d_model=4096)",
+    "gpu_gb_allocated": 64.3,
+    "gpu_gb_by_device": {
+     "0": 64.3
+    },
+    "loading_info": {
+     "missing_keys": {
+      "n": 0,
+      "first": []
+     },
+     "unexpected_keys": {
+      "n": 0,
+      "first": []
+     },
+     "mismatched_keys": {
+      "n": 0,
+      "first": []
+     },
+     "error_msgs": {
+      "n": 0,
+      "first": []
+     }
+    }
+   },
+   "status": "ok",
+   "minutes": 0.58,
+   "log_tail": []
+  },
+  {
+   "stage": "pivot_ext",
+   "est_minutes": 5.98,
+   "result": {
+    "exit": 0,
+    "lenses": [
+     "logit",
+     "/vol/runs/lenses/j_indic_27p.pt",
+     "/vol/runs/lenses/j_wiki_40p.pt",
+     "/vol/runs/lenses/j_200p.pt"
+    ],
+    "missing": [],
+    "items_kept": "382/448",
+    "all_indic_peak_top10_and_prob": {
+     "j_200p": {
+      "target": [
+       0.84375,
+       0.25933575215639093
+      ],
+      "english": [
+       0.9921875,
+       0.7403603421498701
+      ],
+      "hindi": [
+       0.67578125,
+       0.06667543992943097
+      ],
+      "source": [
+       0.50390625,
+       0.056541180814967125
+      ],
+      "chinese": [
+       0.10546875,
+       0.0034043225990808834
+      ],
+      "english_shuffled": [
+       0.01953125,
+       0.00018351682344652787
+      ],
+      "hindi_shuffled": [
+       0.0,
+       5.618362760467758e-05
+      ],
+      "chinese_shuffled": [
+       0.0,
+       1.2979455701875309e-05
+      ]
+     },
+     "j_indic_27p": {
+      "target": [
+       0.6953125,
+       0.18062273356569292
+      ],
+      "english": [
+       0.98828125,
+       0.6134262497166674
+      ],
+      "hindi": [
+       0.61328125,
+       0.03231279218226477
+      ],
+      "source": [
+       0.39453125,
+       0.031732539532052496
+      ],
+      "chinese": [
+       0.6796875,
+       0.05116744283274688
+      ],
+      "english_shuffled": [
+       0.00390625,
+       3.2012383165752644e-05
+      ],
+      "hindi_shuffled": [
+       0.0,
+       3.188353189254728e-05
+      ],
+      "chinese_shuffled": [
+       0.0,
+       2.748816134069286e-05
+      ]
+     },
+     "j_wiki_40p": {
+      "target": [
+       0.84375,
+       0.2610680734551204
+      ],
+      "english": [
+       0.9921875,
+       0.7326947360229497
+      ],
+      "hindi": [
+       0.65625,
+       0.0629784781137069
+      ],
+      "source": [
+       0.50390625,
+       0.05618313022792869
+      ],
+      "chinese": [
+       0.140625,
+       0.004106240171463452
+      ],
+      "english_shuffled": [
+       0.0078125,
+       0.00012423314763812532
+      ],
+      "hindi_shuffled": [
+       0.0,
+       4.4815182702221364e-05
+      ],
+      "chinese_shuffled": [
+       0.0,
+       1.4383867861431118e-05
+      ]
+     },
+     "logit": {
+      "target": [
+       0.8046875,
+       0.17576283810118032
+      ],
+      "english": [
+       0.953125,
+       0.44980483683195516
+      ],
+      "hindi": [
+       0.57421875,
+       0.03541677290130131
+      ],
+      "source": [
+       0.3671875,
+       0.03808443599354402
+      ],
+      "chinese": [
+       0.25,
+       0.01383847723216066
+      ],
+      "english_shuffled": [
+       0.0,
+       7.061478430436807e-05
+      ],
+      "hindi_shuffled": [
+       0.0,
+       1.1240060464171031e-05
+      ],
+      "chinese_shuffled": [
+       0.0,
+       7.261237202266235e-06
+      ]
+     }
+    }
+   },
+   "status": "ok",
+   "minutes": 9.1,
+   "log_tail": [
+    "pivot: ta-bn: kept 31 items",
+    "pivot: te-gu: kept 18 items",
+    "pivot: hi-ta: kept 31 items",
+    "pivot: hi_latn-ta: kept 32 items",
+    "pivot: en-ta: kept 31 items",
+    "pivot: ta-en: kept 32 items",
+    "matplotlib.font_manager: generated new fontManager",
+    "pivot: kept 382 / 448 items; wrote /vol/runs/pivot_indic_lens/pivot_ext"
+   ]
+  }
+ ],
+ "elapsed_minutes": 9.84,
+ "est_cost_usd_so_far": 0.85,
+ "done": true
+}

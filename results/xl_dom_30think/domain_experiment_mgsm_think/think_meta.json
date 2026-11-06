@@ -1,0 +1,42 @@
+{
+ "model_kind": "sarvam30",
+ "opts": {
+  "items": 8,
+  "batch": 256,
+  "max_new_tokens": 400,
+  "variants": [
+   "hi",
+   "bn",
+   "ta",
+   "te",
+   "mr",
+   "gu",
+   "kn",
+   "ml",
+   "as",
+   "or",
+   "pa",
+   "ur",
+   "ne",
+   "sa",
+   "mai",
+   "sd",
+   "ks",
+   "kok",
+   "doi",
+   "mni",
+   "brx",
+   "sat",
+   "ja",
+   "ru",
+   "ar"
+  ],
+  "max_tokens": 1000000000,
+  "lean": true,
+  "strict": true,
+  "max_prompt_tokens": 400,
+  "langs": null
+ },
+ "n_jobs": 200,
+ "seconds": 251.9
+}

@@ -1,0 +1,42 @@
+# concept: sun
+# page: sun/translations
+# revid: 93563681
+# section_url: https://en.wiktionary.org/w/index.php?title=sun/translations&action=raw
+## block: {{trans-top-also|id=Q525|the star around which the Earth revolves|Sun}}
+* Assamese: {{tt|as|বেলি}}, {{tt|as|সূৰ্য}}
+* Odia: {{tt|or|ସୂର୍ଯ୍ୟ}}
+* Punjabi: {{tt+|pa|ਸੂਰਜ|f}}
+* Urdu: {{tt|ur|سُورْیَہ|m}}, {{tt+|ur|سُورَج|m}}, {{tt|ur|خورْشِید|m}}, {{tt|ur|رَوی|m}}
+* Nepali: {{tt+|ne|घाम}}, {{tt|ne|सूर्य}}
+* Sanskrit: {{tt+|sa|सूर्य|m}}, {{tt+|sa|रवि|m}}, {{tt+|sa|आदित्य|f}}, {{tt+|sa|अंशुमत्|m}}
+* Maithili: {{tt|mai|बेरि|tr=beri}}
+* Sindhi: {{tt|sd|سورج|m|alt=سوُرَجُ|tr=sūraju}}
+* Kashmiri: {{t|ks|سِرؠ یہِ}}, {{t|ks|آکھتاب}}, {{t|ks|آفتاب}}, {{t|ks|رَو}}
+* Konkani: {{tt|kok|सुर्यू|m}}
+MISSING Dogri
+* Manipuri: {{tt|mni|ꯅꯨꯃꯤꯠ}}, {{tt+|mni|ꯀꯣꯔꯧꯍꯟꯕ}}
+MISSING Bodo
+* Santali: {{tt+|sat|ᱥᱤᱧ ᱪᱟᱸᱫᱚ}}
+* Japanese: {{tt+|ja|太陽|tr=たいよう, taiyō}}, {{tt+|ja|日|tr=ひ, hi}}
+* Russian: {{tt+|ru|со́лнце|n}}
+* Arabic: {{tt+|ar|شَمْس|f}}
+* Hindi: {{tt+|hi|सूर्य|m}}, {{tt+|hi|सूरज|m}}, {{tt+|hi|आदित्य|m}}, {{tt+|hi|दिनेश|m}}, {{tt+|hi|प्रभाकर|m}}, {{tt+|hi|दिवाकर|m}}, {{tt+|hi|दिनकर|m}}, {{tt+|hi|भास्कर|m}}, {{tt+|hi|रवि|m}}, {{tt+|hi|अंशुमान|m}}, {{tt|hi|ख़्वुरशेद|m}},  {{tt+|hi|खुरशीद|m}}, {{tt+|hi|आफ़ताब|m}}, {{tt+|hi|शम्स|m}}
+## block: {{trans-top|a star, especially when seen as the centre of any single solar system}}
+* Assamese: {{tt|as|সূৰ্য}}
+* Odia: {{tt|or|ସୂର୍ଯ୍ୟ}}
+* Punjabi: {{tt+|pa|ਸੂਰਜ}}
+* Urdu: {{tt+|ur|سُورَج|m}}, {{tt|ur|خورْشِید|m|tr=xurśīd}}, {{tt|ur|رَوی|m}}, {{tt|ur|سُورْیَہ|m}}, {{t+|ur|شَمْس|m}}
+* Nepali: {{tt|ne|सूर्य}}
+* Sanskrit: {{tt+|sa|सूर्य|m}}, {{tt+|sa|सूर|m}}
+MISSING Maithili
+MISSING Sindhi
+MISSING Kashmiri
+MISSING Konkani
+MISSING Dogri
+MISSING Manipuri
+MISSING Bodo
+MISSING Santali
+* Japanese: {{qualifier|general}} {{tt+|ja|太陽|tr=taiyō}}, {{qualifier|astronomy}} {{tt+|ja|恒星|tr=kōsei}}, {{tt+|ja|日|tr=ひ, hi}}
+* Russian: {{tt+|ru|со́лнце|n}}
+* Arabic: {{tt+|ar|شَمْس|f}}
+* Hindi: {{tt+|hi|सूरज|m}}, {{tt|hi|ख़्वुरशेद|m}}, {{tt+|hi|रवि|m}}, {{tt+|hi|सूर्य|m}}, {{tt+|hi|खुरशीद|m}}, {{tt+|hi|शम्स|m}}, {{tt+|hi|आफ़ताब|m}}

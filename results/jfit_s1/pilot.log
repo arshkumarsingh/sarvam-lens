@@ -1,0 +1,62 @@
+HTTP Request: HEAD https://huggingface.co/datasets/Salesforce/wikitext/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/Salesforce/wikitext/b08601e04326c79dfdd32d625aee71d232d685c3/README.md "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/datasets/Salesforce/wikitext/resolve/b08601e04326c79dfdd32d625aee71d232d685c3/wikitext.py "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/Salesforce/wikitext/Salesforce/wikitext.py "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/datasets/Salesforce/wikitext/revision/b08601e04326c79dfdd32d625aee71d232d685c3 "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/datasets/Salesforce/wikitext/resolve/b08601e04326c79dfdd32d625aee71d232d685c3/.huggingface.yaml "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=Salesforce/wikitext "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/datasets/Salesforce/wikitext/tree/b08601e04326c79dfdd32d625aee71d232d685c3/wikitext-103-raw-v1?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/datasets/Salesforce/wikitext/tree/b08601e04326c79dfdd32d625aee71d232d685c3?recursive=false&expand=false "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/datasets/Salesforce/wikitext/resolve/b08601e04326c79dfdd32d625aee71d232d685c3/dataset_infos.json "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/datasets/Salesforce/wikitext/resolve/b08601e04326c79dfdd32d625aee71d232d685c3/wikitext-103-raw-v1/train-00000-of-00002.parquet "HTTP/1.1 302 Found"
+HTTP Request: GET https://us.gcp.cdn.hf.co/xet-bridge-us/621ffdd236468d709f18200d/8d76dead9d8253b6b8ec0ebefbd6882c9f7894b6c227791c44a9f2db8bd20882?X-Xet-Cas-Uid=public&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27train-00000-of-00002.parquet%3B+filename%3D%22train-00000-of-00002.parquet%22%3B&user_id=public&xip=eqiG84lqxrA&Expires=1792335634&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly91cy5nY3AuY2RuLmhmLmNvL3hldC1icmlkZ2UtdXMvNjIxZmZkZDIzNjQ2OGQ3MDlmMTgyMDBkLzhkNzZkZWFkOWQ4MjUzYjZiOGVjMGViZWZiZDY4ODJjOWY3ODk0YjZjMjI3NzkxYzQ0YTlmMmRiOGJkMjA4ODJcXD9YLVhldC1DYXMtVWlkPXB1YmxpYyZyZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSomdXNlcl9pZD1wdWJsaWMmeGlwPWVxaUc4NGxxeHJBIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJFcG9jaFRpbWUiOjE3OTIzMzU2MzR9fX1dfQ__&Signature=MEYCIQC0GvxrYY9y7fSOf9MANiG6Ww9tQufyhPDijVvl1Jww%7EwIhAIj-mksiBnJ2S1HDibtH-h8218vvUIOGXEvNJUwEKWzM&Key-Pair-Id=01KXEF4KZ1B6FV465MAWR4M21F&Hash-Algorithm=SHA256 "HTTP/1.1 206 Partial Content"
+HTTP Request: GET https://huggingface.co/datasets/Salesforce/wikitext/resolve/b08601e04326c79dfdd32d625aee71d232d685c3/wikitext-103-raw-v1/train-00000-of-00002.parquet "HTTP/1.1 302 Found"
+HTTP Request: GET https://us.gcp.cdn.hf.co/xet-bridge-us/621ffdd236468d709f18200d/8d76dead9d8253b6b8ec0ebefbd6882c9f7894b6c227791c44a9f2db8bd20882?user_id=public&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27train-00000-of-00002.parquet%3B+filename%3D%22train-00000-of-00002.parquet%22%3B&X-Xet-Cas-Uid=public&xip=eqiG84lqxrA&Expires=1792335634&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly91cy5nY3AuY2RuLmhmLmNvL3hldC1icmlkZ2UtdXMvNjIxZmZkZDIzNjQ2OGQ3MDlmMTgyMDBkLzhkNzZkZWFkOWQ4MjUzYjZiOGVjMGViZWZiZDY4ODJjOWY3ODk0YjZjMjI3NzkxYzQ0YTlmMmRiOGJkMjA4ODJcXD91c2VyX2lkPXB1YmxpYyZyZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSomWC1YZXQtQ2FzLVVpZD1wdWJsaWMmeGlwPWVxaUc4NGxxeHJBIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJFcG9jaFRpbWUiOjE3OTIzMzU2MzR9fX1dfQ__&Signature=MEUCICQubf6amqyaCrvEuAfYFb6bmzPNNCyMs%7Egw8I5RZ8lYAiEAvP-qaBFO5-QtWVVhacGxh%7E5pz-X--d0mewPcRDkMZ2A_&Key-Pair-Id=01KXEF4KZ1B6FV465MAWR4M21F&Hash-Algorithm=SHA256 "HTTP/1.1 206 Partial Content"
+HTTP Request: GET https://huggingface.co/datasets/Salesforce/wikitext/resolve/b08601e04326c79dfdd32d625aee71d232d685c3/wikitext-103-raw-v1/train-00000-of-00002.parquet "HTTP/1.1 302 Found"
+HTTP Request: GET https://us.gcp.cdn.hf.co/xet-bridge-us/621ffdd236468d709f18200d/8d76dead9d8253b6b8ec0ebefbd6882c9f7894b6c227791c44a9f2db8bd20882?user_id=public&X-Xet-Cas-Uid=public&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27train-00000-of-00002.parquet%3B+filename%3D%22train-00000-of-00002.parquet%22%3B&xip=eqiG84lqxrA&Expires=1792335634&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly91cy5nY3AuY2RuLmhmLmNvL3hldC1icmlkZ2UtdXMvNjIxZmZkZDIzNjQ2OGQ3MDlmMTgyMDBkLzhkNzZkZWFkOWQ4MjUzYjZiOGVjMGViZWZiZDY4ODJjOWY3ODk0YjZjMjI3NzkxYzQ0YTlmMmRiOGJkMjA4ODJcXD91c2VyX2lkPXB1YmxpYyZYLVhldC1DYXMtVWlkPXB1YmxpYyZyZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSomeGlwPWVxaUc4NGxxeHJBIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJFcG9jaFRpbWUiOjE3OTIzMzU2MzR9fX1dfQ__&Signature=MEUCIQDnLQWergHM-P1Xbi5YV7a82cKocJ3P8maoc0hgb8McVgIge-C18cn66Rf6DFoeYBA1GX23yGV59mDgarid25HEsLU_&Key-Pair-Id=01KXEF4KZ1B6FV465MAWR4M21F&Hash-Algorithm=SHA256 "HTTP/1.1 206 Partial Content"
+ExpertJacobianTrainer shard 1/5: prompts [40, 80) of 200, K=[8], checkpoints in /vol/runs/jfit/j_200p/2026-10-18/j_200p/shard1of5
+LensConfig(hf_model_name='/vol/sarvam-30b-bf16', checkpoint_name='j_200p/shard1of5', lens_type='jacobian', checkpoint_every_n_prompts=20, creation_time='2026-10-18_14-00-33', artifacts_base_dir='/vol/runs/jfit/j_200p', checkpoint_path='/vol/runs/jfit/j_200p/2026-10-18/j_200p/shard1of5', source_layers=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17], relative_end_transport_layer=-1, d_model=4096, num_prompts_trained_on=0, next_prompt_idx=0, jacobian_rows_per_pass=64, max_seq_len=128, skip_first_n_positions=16, num_clusters=0, cluster_projection_dim=0, lrp_mode='none')
+expert fit: Ks=[8]
+  prompt 1/40  seq_len=128 num_source_positions=111  64s
+  prompt 2/40  seq_len=128 num_source_positions=111  55s
+  prompt 3/40  seq_len=128 num_source_positions=111  55s
+  prompt 4/40  seq_len=128 num_source_positions=111  62s
+  prompt 5/40  seq_len=128 num_source_positions=111  61s
+  prompt 6/40  seq_len=128 num_source_positions=111  62s
+  prompt 7/40  seq_len=128 num_source_positions=111  63s
+  prompt 8/40  seq_len=128 num_source_positions=111  61s
+  prompt 9/40  seq_len=128 num_source_positions=111  62s
+  prompt 10/40  seq_len=128 num_source_positions=111  61s
+  prompt 11/40  seq_len=128 num_source_positions=111  59s
+  prompt 12/40  seq_len=128 num_source_positions=111  63s
+  prompt 13/40  seq_len=128 num_source_positions=111  62s
+  prompt 14/40  seq_len=128 num_source_positions=111  62s
+  prompt 15/40  seq_len=128 num_source_positions=111  60s
+  prompt 16/40  seq_len=128 num_source_positions=111  60s
+  prompt 17/40  seq_len=128 num_source_positions=111  61s
+  prompt 18/40  seq_len=128 num_source_positions=111  62s
+  prompt 19/40  seq_len=128 num_source_positions=111  63s
+  prompt 20/40  seq_len=128 num_source_positions=111  66s
+  prompt 21/40  seq_len=128 num_source_positions=111  64s
+  prompt 22/40  seq_len=128 num_source_positions=111  63s
+  prompt 23/40  seq_len=128 num_source_positions=111  65s
+  prompt 24/40  seq_len=128 num_source_positions=111  62s
+  prompt 25/40  seq_len=128 num_source_positions=111  63s
+  prompt 26/40  seq_len=128 num_source_positions=111  63s
+  prompt 27/40  seq_len=128 num_source_positions=111  61s
+  prompt 28/40  seq_len=128 num_source_positions=111  56s
+  prompt 29/40  seq_len=128 num_source_positions=111  60s
+  prompt 30/40  seq_len=128 num_source_positions=111  63s
+  prompt 31/40  seq_len=128 num_source_positions=111  63s
+  prompt 32/40  seq_len=128 num_source_positions=111  63s
+  prompt 33/40  seq_len=128 num_source_positions=111  62s
+  prompt 34/40  seq_len=128 num_source_positions=111  61s
+  prompt 35/40  seq_len=128 num_source_positions=111  64s
+  prompt 36/40  seq_len=128 num_source_positions=111  55s
+  prompt 37/40  seq_len=128 num_source_positions=111  58s
+  prompt 38/40  seq_len=128 num_source_positions=111  64s
+  prompt 39/40  seq_len=128 num_source_positions=111  63s
+  prompt 40/40  seq_len=128 num_source_positions=111  62s
+expert fit: done, 40 prompts
+shard checkpoint in /vol/runs/jfit/j_200p/2026-10-18/j_200p/shard1of5

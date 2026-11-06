@@ -1,0 +1,4956 @@
+{
+"words": [
+{
+"lang": "en",
+"concept": "bird",
+"script": "latin",
+"text": "bird",
+"n_tokens": 1
+},
+{
+"lang": "en",
+"concept": "book",
+"script": "latin",
+"text": "book",
+"n_tokens": 1
+},
+{
+"lang": "en",
+"concept": "cat",
+"script": "latin",
+"text": "cat",
+"n_tokens": 1
+},
+{
+"lang": "en",
+"concept": "cow",
+"script": "latin",
+"text": "cow",
+"n_tokens": 1
+},
+{
+"lang": "en",
+"concept": "dog",
+"script": "latin",
+"text": "dog",
+"n_tokens": 1
+},
+{
+"lang": "en",
+"concept": "eye",
+"script": "latin",
+"text": "eye",
+"n_tokens": 1
+},
+{
+"lang": "en",
+"concept": "fire",
+"script": "latin",
+"text": "fire",
+"n_tokens": 1
+},
+{
+"lang": "en",
+"concept": "fish",
+"script": "latin",
+"text": "fish",
+"n_tokens": 1
+},
+{
+"lang": "en",
+"concept": "flower",
+"script": "latin",
+"text": "flower",
+"n_tokens": 1
+},
+{
+"lang": "en",
+"concept": "gold",
+"script": "latin",
+"text": "gold",
+"n_tokens": 1
+},
+{
+"lang": "en",
+"concept": "hand",
+"script": "latin",
+"text": "hand",
+"n_tokens": 1
+},
+{
+"lang": "en",
+"concept": "heart",
+"script": "latin",
+"text": "heart",
+"n_tokens": 1
+},
+{
+"lang": "en",
+"concept": "horse",
+"script": "latin",
+"text": "horse",
+"n_tokens": 1
+},
+{
+"lang": "en",
+"concept": "house",
+"script": "latin",
+"text": "house",
+"n_tokens": 1
+},
+{
+"lang": "en",
+"concept": "king",
+"script": "latin",
+"text": "king",
+"n_tokens": 1
+},
+{
+"lang": "en",
+"concept": "milk",
+"script": "latin",
+"text": "milk",
+"n_tokens": 1
+},
+{
+"lang": "en",
+"concept": "moon",
+"script": "latin",
+"text": "moon",
+"n_tokens": 1
+},
+{
+"lang": "en",
+"concept": "mother",
+"script": "latin",
+"text": "mother",
+"n_tokens": 1
+},
+{
+"lang": "en",
+"concept": "mountain",
+"script": "latin",
+"text": "mountain",
+"n_tokens": 1
+},
+{
+"lang": "en",
+"concept": "name",
+"script": "latin",
+"text": "name",
+"n_tokens": 1
+},
+{
+"lang": "en",
+"concept": "night",
+"script": "latin",
+"text": "night",
+"n_tokens": 1
+},
+{
+"lang": "en",
+"concept": "rain",
+"script": "latin",
+"text": "rain",
+"n_tokens": 1
+},
+{
+"lang": "en",
+"concept": "river",
+"script": "latin",
+"text": "river",
+"n_tokens": 1
+},
+{
+"lang": "en",
+"concept": "road",
+"script": "latin",
+"text": "road",
+"n_tokens": 1
+},
+{
+"lang": "en",
+"concept": "salt",
+"script": "latin",
+"text": "salt",
+"n_tokens": 1
+},
+{
+"lang": "en",
+"concept": "sky",
+"script": "latin",
+"text": "sky",
+"n_tokens": 1
+},
+{
+"lang": "en",
+"concept": "star",
+"script": "latin",
+"text": "star",
+"n_tokens": 1
+},
+{
+"lang": "en",
+"concept": "sun",
+"script": "latin",
+"text": "sun",
+"n_tokens": 1
+},
+{
+"lang": "en",
+"concept": "tooth",
+"script": "latin",
+"text": "tooth",
+"n_tokens": 1
+},
+{
+"lang": "en",
+"concept": "tree",
+"script": "latin",
+"text": "tree",
+"n_tokens": 1
+},
+{
+"lang": "en",
+"concept": "village",
+"script": "latin",
+"text": "village",
+"n_tokens": 1
+},
+{
+"lang": "en",
+"concept": "water",
+"script": "latin",
+"text": "water",
+"n_tokens": 1
+},
+{
+"lang": "hi",
+"concept": "bird",
+"script": "devanagari",
+"text": "पक्षी",
+"n_tokens": 2
+},
+{
+"lang": "hi",
+"concept": "book",
+"script": "devanagari",
+"text": "किताब",
+"n_tokens": 2
+},
+{
+"lang": "hi",
+"concept": "cat",
+"script": "devanagari",
+"text": "बिल्ली",
+"n_tokens": 2
+},
+{
+"lang": "hi",
+"concept": "cow",
+"script": "devanagari",
+"text": "गाय",
+"n_tokens": 1
+},
+{
+"lang": "hi",
+"concept": "dog",
+"script": "devanagari",
+"text": "कुत्ता",
+"n_tokens": 2
+},
+{
+"lang": "hi",
+"concept": "eye",
+"script": "devanagari",
+"text": "आँख",
+"n_tokens": 3
+},
+{
+"lang": "hi",
+"concept": "fire",
+"script": "devanagari",
+"text": "आग",
+"n_tokens": 2
+},
+{
+"lang": "hi",
+"concept": "fish",
+"script": "devanagari",
+"text": "मछली",
+"n_tokens": 3
+},
+{
+"lang": "hi",
+"concept": "flower",
+"script": "devanagari",
+"text": "फूल",
+"n_tokens": 1
+},
+{
+"lang": "hi",
+"concept": "gold",
+"script": "devanagari",
+"text": "सोना",
+"n_tokens": 2
+},
+{
+"lang": "hi",
+"concept": "hand",
+"script": "devanagari",
+"text": "हाथ",
+"n_tokens": 2
+},
+{
+"lang": "hi",
+"concept": "heart",
+"script": "devanagari",
+"text": "दिल",
+"n_tokens": 1
+},
+{
+"lang": "hi",
+"concept": "horse",
+"script": "devanagari",
+"text": "घोड़ा",
+"n_tokens": 2
+},
+{
+"lang": "hi",
+"concept": "house",
+"script": "devanagari",
+"text": "घर",
+"n_tokens": 1
+},
+{
+"lang": "hi",
+"concept": "king",
+"script": "devanagari",
+"text": "राजा",
+"n_tokens": 1
+},
+{
+"lang": "hi",
+"concept": "milk",
+"script": "devanagari",
+"text": "दूध",
+"n_tokens": 2
+},
+{
+"lang": "hi",
+"concept": "moon",
+"script": "devanagari",
+"text": "चाँद",
+"n_tokens": 3
+},
+{
+"lang": "hi",
+"concept": "mother",
+"script": "devanagari",
+"text": "माँ",
+"n_tokens": 1
+},
+{
+"lang": "hi",
+"concept": "mountain",
+"script": "devanagari",
+"text": "पहाड़",
+"n_tokens": 3
+},
+{
+"lang": "hi",
+"concept": "name",
+"script": "devanagari",
+"text": "नाम",
+"n_tokens": 1
+},
+{
+"lang": "hi",
+"concept": "night",
+"script": "devanagari",
+"text": "रात",
+"n_tokens": 1
+},
+{
+"lang": "hi",
+"concept": "rain",
+"script": "devanagari",
+"text": "बारिश",
+"n_tokens": 2
+},
+{
+"lang": "hi",
+"concept": "river",
+"script": "devanagari",
+"text": "नदी",
+"n_tokens": 2
+},
+{
+"lang": "hi",
+"concept": "road",
+"script": "devanagari",
+"text": "सड़क",
+"n_tokens": 2
+},
+{
+"lang": "hi",
+"concept": "salt",
+"script": "devanagari",
+"text": "नमक",
+"n_tokens": 2
+},
+{
+"lang": "hi",
+"concept": "sky",
+"script": "devanagari",
+"text": "आसमान",
+"n_tokens": 3
+},
+{
+"lang": "hi",
+"concept": "star",
+"script": "devanagari",
+"text": "तारा",
+"n_tokens": 2
+},
+{
+"lang": "hi",
+"concept": "sun",
+"script": "devanagari",
+"text": "सूरज",
+"n_tokens": 2
+},
+{
+"lang": "hi",
+"concept": "tooth",
+"script": "devanagari",
+"text": "दाँत",
+"n_tokens": 3
+},
+{
+"lang": "hi",
+"concept": "tree",
+"script": "devanagari",
+"text": "पेड़",
+"n_tokens": 2
+},
+{
+"lang": "hi",
+"concept": "village",
+"script": "devanagari",
+"text": "गाँव",
+"n_tokens": 2
+},
+{
+"lang": "hi",
+"concept": "water",
+"script": "devanagari",
+"text": "पानी",
+"n_tokens": 1
+},
+{
+"lang": "bn",
+"concept": "bird",
+"script": "bengali",
+"text": "পাখি",
+"n_tokens": 2
+},
+{
+"lang": "bn",
+"concept": "book",
+"script": "bengali",
+"text": "বই",
+"n_tokens": 2
+},
+{
+"lang": "bn",
+"concept": "cat",
+"script": "bengali",
+"text": "বিড়াল",
+"n_tokens": 2
+},
+{
+"lang": "bn",
+"concept": "cow",
+"script": "bengali",
+"text": "গরু",
+"n_tokens": 2
+},
+{
+"lang": "bn",
+"concept": "dog",
+"script": "bengali",
+"text": "কুকুর",
+"n_tokens": 3
+},
+{
+"lang": "bn",
+"concept": "eye",
+"script": "bengali",
+"text": "চোখ",
+"n_tokens": 2
+},
+{
+"lang": "bn",
+"concept": "fire",
+"script": "bengali",
+"text": "আগুন",
+"n_tokens": 2
+},
+{
+"lang": "bn",
+"concept": "fish",
+"script": "bengali",
+"text": "মাছ",
+"n_tokens": 2
+},
+{
+"lang": "bn",
+"concept": "flower",
+"script": "bengali",
+"text": "ফুল",
+"n_tokens": 1
+},
+{
+"lang": "bn",
+"concept": "gold",
+"script": "bengali",
+"text": "সোনা",
+"n_tokens": 2
+},
+{
+"lang": "bn",
+"concept": "hand",
+"script": "bengali",
+"text": "হাত",
+"n_tokens": 1
+},
+{
+"lang": "bn",
+"concept": "heart",
+"script": "bengali",
+"text": "হৃদয়",
+"n_tokens": 3
+},
+{
+"lang": "bn",
+"concept": "horse",
+"script": "bengali",
+"text": "ঘোড়া",
+"n_tokens": 3
+},
+{
+"lang": "bn",
+"concept": "house",
+"script": "bengali",
+"text": "বাড়ি",
+"n_tokens": 2
+},
+{
+"lang": "bn",
+"concept": "king",
+"script": "bengali",
+"text": "রাজা",
+"n_tokens": 2
+},
+{
+"lang": "bn",
+"concept": "milk",
+"script": "bengali",
+"text": "দুধ",
+"n_tokens": 2
+},
+{
+"lang": "bn",
+"concept": "moon",
+"script": "bengali",
+"text": "চাঁদ",
+"n_tokens": 2
+},
+{
+"lang": "bn",
+"concept": "mother",
+"script": "bengali",
+"text": "মা",
+"n_tokens": 1
+},
+{
+"lang": "bn",
+"concept": "mountain",
+"script": "bengali",
+"text": "পাহাড়",
+"n_tokens": 3
+},
+{
+"lang": "bn",
+"concept": "name",
+"script": "bengali",
+"text": "নাম",
+"n_tokens": 1
+},
+{
+"lang": "bn",
+"concept": "night",
+"script": "bengali",
+"text": "রাত",
+"n_tokens": 1
+},
+{
+"lang": "bn",
+"concept": "rain",
+"script": "bengali",
+"text": "বৃষ্টি",
+"n_tokens": 1
+},
+{
+"lang": "bn",
+"concept": "river",
+"script": "bengali",
+"text": "নদী",
+"n_tokens": 2
+},
+{
+"lang": "bn",
+"concept": "road",
+"script": "bengali",
+"text": "রাস্তা",
+"n_tokens": 2
+},
+{
+"lang": "bn",
+"concept": "salt",
+"script": "bengali",
+"text": "লবণ",
+"n_tokens": 2
+},
+{
+"lang": "bn",
+"concept": "sky",
+"script": "bengali",
+"text": "আকাশ",
+"n_tokens": 2
+},
+{
+"lang": "bn",
+"concept": "star",
+"script": "bengali",
+"text": "তারা",
+"n_tokens": 1
+},
+{
+"lang": "bn",
+"concept": "sun",
+"script": "bengali",
+"text": "সূর্য",
+"n_tokens": 2
+},
+{
+"lang": "bn",
+"concept": "tooth",
+"script": "bengali",
+"text": "দাঁত",
+"n_tokens": 3
+},
+{
+"lang": "bn",
+"concept": "tree",
+"script": "bengali",
+"text": "গাছ",
+"n_tokens": 2
+},
+{
+"lang": "bn",
+"concept": "village",
+"script": "bengali",
+"text": "গ্রাম",
+"n_tokens": 1
+},
+{
+"lang": "bn",
+"concept": "water",
+"script": "bengali",
+"text": "জল",
+"n_tokens": 1
+},
+{
+"lang": "ta",
+"concept": "bird",
+"script": "tamil",
+"text": "பறவை",
+"n_tokens": 3
+},
+{
+"lang": "ta",
+"concept": "book",
+"script": "tamil",
+"text": "புத்தகம்",
+"n_tokens": 3
+},
+{
+"lang": "ta",
+"concept": "cat",
+"script": "tamil",
+"text": "பூனை",
+"n_tokens": 2
+},
+{
+"lang": "ta",
+"concept": "cow",
+"script": "tamil",
+"text": "பசு",
+"n_tokens": 1
+},
+{
+"lang": "ta",
+"concept": "dog",
+"script": "tamil",
+"text": "நாய்",
+"n_tokens": 2
+},
+{
+"lang": "ta",
+"concept": "eye",
+"script": "tamil",
+"text": "கண்",
+"n_tokens": 2
+},
+{
+"lang": "ta",
+"concept": "fire",
+"script": "tamil",
+"text": "நெருப்பு",
+"n_tokens": 3
+},
+{
+"lang": "ta",
+"concept": "fish",
+"script": "tamil",
+"text": "மீன்",
+"n_tokens": 2
+},
+{
+"lang": "ta",
+"concept": "flower",
+"script": "tamil",
+"text": "பூ",
+"n_tokens": 1
+},
+{
+"lang": "ta",
+"concept": "gold",
+"script": "tamil",
+"text": "தங்கம்",
+"n_tokens": 2
+},
+{
+"lang": "ta",
+"concept": "hand",
+"script": "tamil",
+"text": "கை",
+"n_tokens": 1
+},
+{
+"lang": "ta",
+"concept": "heart",
+"script": "tamil",
+"text": "இதயம்",
+"n_tokens": 2
+},
+{
+"lang": "ta",
+"concept": "horse",
+"script": "tamil",
+"text": "குதிரை",
+"n_tokens": 3
+},
+{
+"lang": "ta",
+"concept": "house",
+"script": "tamil",
+"text": "வீடு",
+"n_tokens": 2
+},
+{
+"lang": "ta",
+"concept": "king",
+"script": "tamil",
+"text": "அரசன்",
+"n_tokens": 3
+},
+{
+"lang": "ta",
+"concept": "milk",
+"script": "tamil",
+"text": "பால்",
+"n_tokens": 1
+},
+{
+"lang": "ta",
+"concept": "moon",
+"script": "tamil",
+"text": "நிலா",
+"n_tokens": 2
+},
+{
+"lang": "ta",
+"concept": "mother",
+"script": "tamil",
+"text": "அம்மா",
+"n_tokens": 2
+},
+{
+"lang": "ta",
+"concept": "mountain",
+"script": "tamil",
+"text": "மலை",
+"n_tokens": 1
+},
+{
+"lang": "ta",
+"concept": "name",
+"script": "tamil",
+"text": "பெயர்",
+"n_tokens": 2
+},
+{
+"lang": "ta",
+"concept": "night",
+"script": "tamil",
+"text": "இரவு",
+"n_tokens": 2
+},
+{
+"lang": "ta",
+"concept": "rain",
+"script": "tamil",
+"text": "மழை",
+"n_tokens": 2
+},
+{
+"lang": "ta",
+"concept": "river",
+"script": "tamil",
+"text": "ஆறு",
+"n_tokens": 2
+},
+{
+"lang": "ta",
+"concept": "road",
+"script": "tamil",
+"text": "சாலை",
+"n_tokens": 1
+},
+{
+"lang": "ta",
+"concept": "salt",
+"script": "tamil",
+"text": "உப்பு",
+"n_tokens": 2
+},
+{
+"lang": "ta",
+"concept": "sky",
+"script": "tamil",
+"text": "வானம்",
+"n_tokens": 2
+},
+{
+"lang": "ta",
+"concept": "star",
+"script": "tamil",
+"text": "நட்சத்திரம்",
+"n_tokens": 3
+},
+{
+"lang": "ta",
+"concept": "sun",
+"script": "tamil",
+"text": "சூரியன்",
+"n_tokens": 3
+},
+{
+"lang": "ta",
+"concept": "tooth",
+"script": "tamil",
+"text": "பல்",
+"n_tokens": 2
+},
+{
+"lang": "ta",
+"concept": "tree",
+"script": "tamil",
+"text": "மரம்",
+"n_tokens": 2
+},
+{
+"lang": "ta",
+"concept": "village",
+"script": "tamil",
+"text": "கிராமம்",
+"n_tokens": 3
+},
+{
+"lang": "ta",
+"concept": "water",
+"script": "tamil",
+"text": "தண்ணீர்",
+"n_tokens": 3
+},
+{
+"lang": "te",
+"concept": "bird",
+"script": "telugu",
+"text": "పక్షి",
+"n_tokens": 2
+},
+{
+"lang": "te",
+"concept": "book",
+"script": "telugu",
+"text": "పుస్తకం",
+"n_tokens": 3
+},
+{
+"lang": "te",
+"concept": "cat",
+"script": "telugu",
+"text": "పిల్లి",
+"n_tokens": 3
+},
+{
+"lang": "te",
+"concept": "cow",
+"script": "telugu",
+"text": "ఆవు",
+"n_tokens": 2
+},
+{
+"lang": "te",
+"concept": "dog",
+"script": "telugu",
+"text": "కుక్క",
+"n_tokens": 2
+},
+{
+"lang": "te",
+"concept": "eye",
+"script": "telugu",
+"text": "కన్ను",
+"n_tokens": 2
+},
+{
+"lang": "te",
+"concept": "fire",
+"script": "telugu",
+"text": "నిప్పు",
+"n_tokens": 2
+},
+{
+"lang": "te",
+"concept": "fish",
+"script": "telugu",
+"text": "చేప",
+"n_tokens": 2
+},
+{
+"lang": "te",
+"concept": "flower",
+"script": "telugu",
+"text": "పువ్వు",
+"n_tokens": 2
+},
+{
+"lang": "te",
+"concept": "gold",
+"script": "telugu",
+"text": "బంగారం",
+"n_tokens": 3
+},
+{
+"lang": "te",
+"concept": "hand",
+"script": "telugu",
+"text": "చేయి",
+"n_tokens": 2
+},
+{
+"lang": "te",
+"concept": "heart",
+"script": "telugu",
+"text": "గుండె",
+"n_tokens": 2
+},
+{
+"lang": "te",
+"concept": "horse",
+"script": "telugu",
+"text": "గుర్రం",
+"n_tokens": 4
+},
+{
+"lang": "te",
+"concept": "house",
+"script": "telugu",
+"text": "ఇల్లు",
+"n_tokens": 2
+},
+{
+"lang": "te",
+"concept": "king",
+"script": "telugu",
+"text": "రాజు",
+"n_tokens": 1
+},
+{
+"lang": "te",
+"concept": "milk",
+"script": "telugu",
+"text": "పాలు",
+"n_tokens": 1
+},
+{
+"lang": "te",
+"concept": "moon",
+"script": "telugu",
+"text": "చంద్రుడు",
+"n_tokens": 4
+},
+{
+"lang": "te",
+"concept": "mother",
+"script": "telugu",
+"text": "అమ్మ",
+"n_tokens": 2
+},
+{
+"lang": "te",
+"concept": "mountain",
+"script": "telugu",
+"text": "కొండ",
+"n_tokens": 2
+},
+{
+"lang": "te",
+"concept": "name",
+"script": "telugu",
+"text": "పేరు",
+"n_tokens": 2
+},
+{
+"lang": "te",
+"concept": "night",
+"script": "telugu",
+"text": "రాత్రి",
+"n_tokens": 2
+},
+{
+"lang": "te",
+"concept": "rain",
+"script": "telugu",
+"text": "వర్షం",
+"n_tokens": 3
+},
+{
+"lang": "te",
+"concept": "river",
+"script": "telugu",
+"text": "నది",
+"n_tokens": 2
+},
+{
+"lang": "te",
+"concept": "road",
+"script": "telugu",
+"text": "రోడ్డు",
+"n_tokens": 2
+},
+{
+"lang": "te",
+"concept": "salt",
+"script": "telugu",
+"text": "ఉప్పు",
+"n_tokens": 2
+},
+{
+"lang": "te",
+"concept": "sky",
+"script": "telugu",
+"text": "ఆకాశం",
+"n_tokens": 3
+},
+{
+"lang": "te",
+"concept": "star",
+"script": "telugu",
+"text": "నక్షత్రం",
+"n_tokens": 3
+},
+{
+"lang": "te",
+"concept": "sun",
+"script": "telugu",
+"text": "సూర్యుడు",
+"n_tokens": 3
+},
+{
+"lang": "te",
+"concept": "tooth",
+"script": "telugu",
+"text": "పన్ను",
+"n_tokens": 2
+},
+{
+"lang": "te",
+"concept": "tree",
+"script": "telugu",
+"text": "చెట్టు",
+"n_tokens": 3
+},
+{
+"lang": "te",
+"concept": "village",
+"script": "telugu",
+"text": "గ్రామం",
+"n_tokens": 3
+},
+{
+"lang": "te",
+"concept": "water",
+"script": "telugu",
+"text": "నీరు",
+"n_tokens": 2
+},
+{
+"lang": "mr",
+"concept": "bird",
+"script": "devanagari",
+"text": "पक्षी",
+"n_tokens": 2
+},
+{
+"lang": "mr",
+"concept": "book",
+"script": "devanagari",
+"text": "पुस्तक",
+"n_tokens": 1
+},
+{
+"lang": "mr",
+"concept": "cat",
+"script": "devanagari",
+"text": "मांजर",
+"n_tokens": 2
+},
+{
+"lang": "mr",
+"concept": "cow",
+"script": "devanagari",
+"text": "गाय",
+"n_tokens": 1
+},
+{
+"lang": "mr",
+"concept": "dog",
+"script": "devanagari",
+"text": "कुत्रा",
+"n_tokens": 2
+},
+{
+"lang": "mr",
+"concept": "eye",
+"script": "devanagari",
+"text": "डोळा",
+"n_tokens": 2
+},
+{
+"lang": "mr",
+"concept": "fire",
+"script": "devanagari",
+"text": "आग",
+"n_tokens": 2
+},
+{
+"lang": "mr",
+"concept": "fish",
+"script": "devanagari",
+"text": "मासा",
+"n_tokens": 2
+},
+{
+"lang": "mr",
+"concept": "flower",
+"script": "devanagari",
+"text": "फूल",
+"n_tokens": 1
+},
+{
+"lang": "mr",
+"concept": "gold",
+"script": "devanagari",
+"text": "सोने",
+"n_tokens": 2
+},
+{
+"lang": "mr",
+"concept": "hand",
+"script": "devanagari",
+"text": "हात",
+"n_tokens": 1
+},
+{
+"lang": "mr",
+"concept": "heart",
+"script": "devanagari",
+"text": "हृदय",
+"n_tokens": 3
+},
+{
+"lang": "mr",
+"concept": "horse",
+"script": "devanagari",
+"text": "घोडा",
+"n_tokens": 2
+},
+{
+"lang": "mr",
+"concept": "house",
+"script": "devanagari",
+"text": "घर",
+"n_tokens": 1
+},
+{
+"lang": "mr",
+"concept": "king",
+"script": "devanagari",
+"text": "राजा",
+"n_tokens": 1
+},
+{
+"lang": "mr",
+"concept": "milk",
+"script": "devanagari",
+"text": "दूध",
+"n_tokens": 2
+},
+{
+"lang": "mr",
+"concept": "moon",
+"script": "devanagari",
+"text": "चंद्र",
+"n_tokens": 1
+},
+{
+"lang": "mr",
+"concept": "mother",
+"script": "devanagari",
+"text": "आई",
+"n_tokens": 1
+},
+{
+"lang": "mr",
+"concept": "mountain",
+"script": "devanagari",
+"text": "डोंगर",
+"n_tokens": 3
+},
+{
+"lang": "mr",
+"concept": "name",
+"script": "devanagari",
+"text": "नाव",
+"n_tokens": 1
+},
+{
+"lang": "mr",
+"concept": "night",
+"script": "devanagari",
+"text": "रात्र",
+"n_tokens": 2
+},
+{
+"lang": "mr",
+"concept": "rain",
+"script": "devanagari",
+"text": "पाऊस",
+"n_tokens": 2
+},
+{
+"lang": "mr",
+"concept": "river",
+"script": "devanagari",
+"text": "नदी",
+"n_tokens": 2
+},
+{
+"lang": "mr",
+"concept": "road",
+"script": "devanagari",
+"text": "रस्ता",
+"n_tokens": 2
+},
+{
+"lang": "mr",
+"concept": "salt",
+"script": "devanagari",
+"text": "मीठ",
+"n_tokens": 2
+},
+{
+"lang": "mr",
+"concept": "sky",
+"script": "devanagari",
+"text": "आकाश",
+"n_tokens": 2
+},
+{
+"lang": "mr",
+"concept": "star",
+"script": "devanagari",
+"text": "तारा",
+"n_tokens": 2
+},
+{
+"lang": "mr",
+"concept": "sun",
+"script": "devanagari",
+"text": "सूर्य",
+"n_tokens": 1
+},
+{
+"lang": "mr",
+"concept": "tooth",
+"script": "devanagari",
+"text": "दात",
+"n_tokens": 1
+},
+{
+"lang": "mr",
+"concept": "tree",
+"script": "devanagari",
+"text": "झाड",
+"n_tokens": 2
+},
+{
+"lang": "mr",
+"concept": "village",
+"script": "devanagari",
+"text": "गाव",
+"n_tokens": 1
+},
+{
+"lang": "mr",
+"concept": "water",
+"script": "devanagari",
+"text": "पाणी",
+"n_tokens": 2
+},
+{
+"lang": "gu",
+"concept": "bird",
+"script": "gujarati",
+"text": "પક્ષી",
+"n_tokens": 2
+},
+{
+"lang": "gu",
+"concept": "book",
+"script": "gujarati",
+"text": "પુસ્તક",
+"n_tokens": 3
+},
+{
+"lang": "gu",
+"concept": "cat",
+"script": "gujarati",
+"text": "બિલાડી",
+"n_tokens": 4
+},
+{
+"lang": "gu",
+"concept": "cow",
+"script": "gujarati",
+"text": "ગાય",
+"n_tokens": 2
+},
+{
+"lang": "gu",
+"concept": "dog",
+"script": "gujarati",
+"text": "કૂતરો",
+"n_tokens": 3
+},
+{
+"lang": "gu",
+"concept": "eye",
+"script": "gujarati",
+"text": "આંખ",
+"n_tokens": 3
+},
+{
+"lang": "gu",
+"concept": "fire",
+"script": "gujarati",
+"text": "આગ",
+"n_tokens": 1
+},
+{
+"lang": "gu",
+"concept": "fish",
+"script": "gujarati",
+"text": "માછલી",
+"n_tokens": 2
+},
+{
+"lang": "gu",
+"concept": "flower",
+"script": "gujarati",
+"text": "ફૂલ",
+"n_tokens": 2
+},
+{
+"lang": "gu",
+"concept": "gold",
+"script": "gujarati",
+"text": "સોનું",
+"n_tokens": 2
+},
+{
+"lang": "gu",
+"concept": "hand",
+"script": "gujarati",
+"text": "હાથ",
+"n_tokens": 2
+},
+{
+"lang": "gu",
+"concept": "heart",
+"script": "gujarati",
+"text": "હૃદય",
+"n_tokens": 2
+},
+{
+"lang": "gu",
+"concept": "horse",
+"script": "gujarati",
+"text": "ઘોડો",
+"n_tokens": 3
+},
+{
+"lang": "gu",
+"concept": "house",
+"script": "gujarati",
+"text": "ઘર",
+"n_tokens": 2
+},
+{
+"lang": "gu",
+"concept": "king",
+"script": "gujarati",
+"text": "રાજા",
+"n_tokens": 2
+},
+{
+"lang": "gu",
+"concept": "milk",
+"script": "gujarati",
+"text": "દૂધ",
+"n_tokens": 3
+},
+{
+"lang": "gu",
+"concept": "moon",
+"script": "gujarati",
+"text": "ચંદ્ર",
+"n_tokens": 2
+},
+{
+"lang": "gu",
+"concept": "mother",
+"script": "gujarati",
+"text": "મા",
+"n_tokens": 1
+},
+{
+"lang": "gu",
+"concept": "mountain",
+"script": "gujarati",
+"text": "પર્વત",
+"n_tokens": 3
+},
+{
+"lang": "gu",
+"concept": "name",
+"script": "gujarati",
+"text": "નામ",
+"n_tokens": 1
+},
+{
+"lang": "gu",
+"concept": "night",
+"script": "gujarati",
+"text": "રાત",
+"n_tokens": 1
+},
+{
+"lang": "gu",
+"concept": "rain",
+"script": "gujarati",
+"text": "વરસાદ",
+"n_tokens": 2
+},
+{
+"lang": "gu",
+"concept": "river",
+"script": "gujarati",
+"text": "નદી",
+"n_tokens": 2
+},
+{
+"lang": "gu",
+"concept": "road",
+"script": "gujarati",
+"text": "રસ્તો",
+"n_tokens": 2
+},
+{
+"lang": "gu",
+"concept": "salt",
+"script": "gujarati",
+"text": "મીઠું",
+"n_tokens": 3
+},
+{
+"lang": "gu",
+"concept": "sky",
+"script": "gujarati",
+"text": "આકાશ",
+"n_tokens": 2
+},
+{
+"lang": "gu",
+"concept": "star",
+"script": "gujarati",
+"text": "તારો",
+"n_tokens": 2
+},
+{
+"lang": "gu",
+"concept": "sun",
+"script": "gujarati",
+"text": "સૂર્ય",
+"n_tokens": 3
+},
+{
+"lang": "gu",
+"concept": "tooth",
+"script": "gujarati",
+"text": "દાંત",
+"n_tokens": 2
+},
+{
+"lang": "gu",
+"concept": "tree",
+"script": "gujarati",
+"text": "ઝાડ",
+"n_tokens": 2
+},
+{
+"lang": "gu",
+"concept": "village",
+"script": "gujarati",
+"text": "ગામ",
+"n_tokens": 2
+},
+{
+"lang": "gu",
+"concept": "water",
+"script": "gujarati",
+"text": "પાણી",
+"n_tokens": 2
+},
+{
+"lang": "kn",
+"concept": "bird",
+"script": "kannada",
+"text": "ಹಕ್ಕಿ",
+"n_tokens": 2
+},
+{
+"lang": "kn",
+"concept": "book",
+"script": "kannada",
+"text": "ಪುಸ್ತಕ",
+"n_tokens": 2
+},
+{
+"lang": "kn",
+"concept": "cat",
+"script": "kannada",
+"text": "ಬೆಕ್ಕು",
+"n_tokens": 2
+},
+{
+"lang": "kn",
+"concept": "cow",
+"script": "kannada",
+"text": "ಹಸು",
+"n_tokens": 2
+},
+{
+"lang": "kn",
+"concept": "dog",
+"script": "kannada",
+"text": "ನಾಯಿ",
+"n_tokens": 2
+},
+{
+"lang": "kn",
+"concept": "eye",
+"script": "kannada",
+"text": "ಕಣ್ಣು",
+"n_tokens": 2
+},
+{
+"lang": "kn",
+"concept": "fire",
+"script": "kannada",
+"text": "ಬೆಂಕಿ",
+"n_tokens": 3
+},
+{
+"lang": "kn",
+"concept": "fish",
+"script": "kannada",
+"text": "ಮೀನು",
+"n_tokens": 2
+},
+{
+"lang": "kn",
+"concept": "flower",
+"script": "kannada",
+"text": "ಹೂವು",
+"n_tokens": 2
+},
+{
+"lang": "kn",
+"concept": "gold",
+"script": "kannada",
+"text": "ಚಿನ್ನ",
+"n_tokens": 2
+},
+{
+"lang": "kn",
+"concept": "hand",
+"script": "kannada",
+"text": "ಕೈ",
+"n_tokens": 1
+},
+{
+"lang": "kn",
+"concept": "heart",
+"script": "kannada",
+"text": "ಹೃದಯ",
+"n_tokens": 3
+},
+{
+"lang": "kn",
+"concept": "horse",
+"script": "kannada",
+"text": "ಕುದುರೆ",
+"n_tokens": 3
+},
+{
+"lang": "kn",
+"concept": "house",
+"script": "kannada",
+"text": "ಮನೆ",
+"n_tokens": 2
+},
+{
+"lang": "kn",
+"concept": "king",
+"script": "kannada",
+"text": "ರಾಜ",
+"n_tokens": 1
+},
+{
+"lang": "kn",
+"concept": "milk",
+"script": "kannada",
+"text": "ಹಾಲು",
+"n_tokens": 2
+},
+{
+"lang": "kn",
+"concept": "moon",
+"script": "kannada",
+"text": "ಚಂದ್ರ",
+"n_tokens": 2
+},
+{
+"lang": "kn",
+"concept": "mother",
+"script": "kannada",
+"text": "ಅಮ್ಮ",
+"n_tokens": 2
+},
+{
+"lang": "kn",
+"concept": "mountain",
+"script": "kannada",
+"text": "ಬೆಟ್ಟ",
+"n_tokens": 2
+},
+{
+"lang": "kn",
+"concept": "name",
+"script": "kannada",
+"text": "ಹೆಸರು",
+"n_tokens": 2
+},
+{
+"lang": "kn",
+"concept": "night",
+"script": "kannada",
+"text": "ರಾತ್ರಿ",
+"n_tokens": 2
+},
+{
+"lang": "kn",
+"concept": "rain",
+"script": "kannada",
+"text": "ಮಳೆ",
+"n_tokens": 2
+},
+{
+"lang": "kn",
+"concept": "river",
+"script": "kannada",
+"text": "ನದಿ",
+"n_tokens": 2
+},
+{
+"lang": "kn",
+"concept": "road",
+"script": "kannada",
+"text": "ರಸ್ತೆ",
+"n_tokens": 2
+},
+{
+"lang": "kn",
+"concept": "salt",
+"script": "kannada",
+"text": "ಉಪ್ಪು",
+"n_tokens": 2
+},
+{
+"lang": "kn",
+"concept": "sky",
+"script": "kannada",
+"text": "ಆಕಾಶ",
+"n_tokens": 2
+},
+{
+"lang": "kn",
+"concept": "star",
+"script": "kannada",
+"text": "ನಕ್ಷತ್ರ",
+"n_tokens": 3
+},
+{
+"lang": "kn",
+"concept": "sun",
+"script": "kannada",
+"text": "ಸೂರ್ಯ",
+"n_tokens": 2
+},
+{
+"lang": "kn",
+"concept": "tooth",
+"script": "kannada",
+"text": "ಹಲ್ಲು",
+"n_tokens": 2
+},
+{
+"lang": "kn",
+"concept": "tree",
+"script": "kannada",
+"text": "ಮರ",
+"n_tokens": 2
+},
+{
+"lang": "kn",
+"concept": "village",
+"script": "kannada",
+"text": "ಹಳ್ಳಿ",
+"n_tokens": 2
+},
+{
+"lang": "kn",
+"concept": "water",
+"script": "kannada",
+"text": "ನೀರು",
+"n_tokens": 2
+},
+{
+"lang": "ml",
+"concept": "bird",
+"script": "malayalam",
+"text": "പക്ഷി",
+"n_tokens": 2
+},
+{
+"lang": "ml",
+"concept": "book",
+"script": "malayalam",
+"text": "പുസ്തകം",
+"n_tokens": 3
+},
+{
+"lang": "ml",
+"concept": "cat",
+"script": "malayalam",
+"text": "പൂച്ച",
+"n_tokens": 2
+},
+{
+"lang": "ml",
+"concept": "cow",
+"script": "malayalam",
+"text": "പശു",
+"n_tokens": 2
+},
+{
+"lang": "ml",
+"concept": "dog",
+"script": "malayalam",
+"text": "നായ",
+"n_tokens": 1
+},
+{
+"lang": "ml",
+"concept": "eye",
+"script": "malayalam",
+"text": "കണ്ണ്",
+"n_tokens": 3
+},
+{
+"lang": "ml",
+"concept": "fire",
+"script": "malayalam",
+"text": "തീ",
+"n_tokens": 1
+},
+{
+"lang": "ml",
+"concept": "fish",
+"script": "malayalam",
+"text": "മീൻ",
+"n_tokens": 2
+},
+{
+"lang": "ml",
+"concept": "flower",
+"script": "malayalam",
+"text": "പൂവ്",
+"n_tokens": 2
+},
+{
+"lang": "ml",
+"concept": "gold",
+"script": "malayalam",
+"text": "സ്വർണം",
+"n_tokens": 3
+},
+{
+"lang": "ml",
+"concept": "hand",
+"script": "malayalam",
+"text": "കൈ",
+"n_tokens": 2
+},
+{
+"lang": "ml",
+"concept": "heart",
+"script": "malayalam",
+"text": "ഹൃദയം",
+"n_tokens": 3
+},
+{
+"lang": "ml",
+"concept": "horse",
+"script": "malayalam",
+"text": "കുതിര",
+"n_tokens": 2
+},
+{
+"lang": "ml",
+"concept": "house",
+"script": "malayalam",
+"text": "വീട്",
+"n_tokens": 2
+},
+{
+"lang": "ml",
+"concept": "king",
+"script": "malayalam",
+"text": "രാജാവ്",
+"n_tokens": 3
+},
+{
+"lang": "ml",
+"concept": "milk",
+"script": "malayalam",
+"text": "പാൽ",
+"n_tokens": 2
+},
+{
+"lang": "ml",
+"concept": "moon",
+"script": "malayalam",
+"text": "ചന്ദ്രൻ",
+"n_tokens": 3
+},
+{
+"lang": "ml",
+"concept": "mother",
+"script": "malayalam",
+"text": "അമ്മ",
+"n_tokens": 1
+},
+{
+"lang": "ml",
+"concept": "mountain",
+"script": "malayalam",
+"text": "മല",
+"n_tokens": 1
+},
+{
+"lang": "ml",
+"concept": "name",
+"script": "malayalam",
+"text": "പേര്",
+"n_tokens": 2
+},
+{
+"lang": "ml",
+"concept": "night",
+"script": "malayalam",
+"text": "രാത്രി",
+"n_tokens": 2
+},
+{
+"lang": "ml",
+"concept": "rain",
+"script": "malayalam",
+"text": "മഴ",
+"n_tokens": 2
+},
+{
+"lang": "ml",
+"concept": "river",
+"script": "malayalam",
+"text": "നദി",
+"n_tokens": 2
+},
+{
+"lang": "ml",
+"concept": "road",
+"script": "malayalam",
+"text": "റോഡ്",
+"n_tokens": 2
+},
+{
+"lang": "ml",
+"concept": "salt",
+"script": "malayalam",
+"text": "ഉപ്പ്",
+"n_tokens": 2
+},
+{
+"lang": "ml",
+"concept": "sky",
+"script": "malayalam",
+"text": "ആകാശം",
+"n_tokens": 3
+},
+{
+"lang": "ml",
+"concept": "star",
+"script": "malayalam",
+"text": "നക്ഷത്രം",
+"n_tokens": 3
+},
+{
+"lang": "ml",
+"concept": "sun",
+"script": "malayalam",
+"text": "സൂര്യൻ",
+"n_tokens": 3
+},
+{
+"lang": "ml",
+"concept": "tooth",
+"script": "malayalam",
+"text": "പല്ല്",
+"n_tokens": 3
+},
+{
+"lang": "ml",
+"concept": "tree",
+"script": "malayalam",
+"text": "മരം",
+"n_tokens": 2
+},
+{
+"lang": "ml",
+"concept": "village",
+"script": "malayalam",
+"text": "ഗ്രാമം",
+"n_tokens": 3
+},
+{
+"lang": "ml",
+"concept": "water",
+"script": "malayalam",
+"text": "വെള്ളം",
+"n_tokens": 2
+},
+{
+"lang": "zh",
+"concept": "bird",
+"script": "han",
+"text": "鸟",
+"n_tokens": 1
+},
+{
+"lang": "zh",
+"concept": "book",
+"script": "han",
+"text": "书",
+"n_tokens": 1
+},
+{
+"lang": "zh",
+"concept": "cat",
+"script": "han",
+"text": "猫",
+"n_tokens": 1
+},
+{
+"lang": "zh",
+"concept": "cow",
+"script": "han",
+"text": "牛",
+"n_tokens": 1
+},
+{
+"lang": "zh",
+"concept": "dog",
+"script": "han",
+"text": "狗",
+"n_tokens": 1
+},
+{
+"lang": "zh",
+"concept": "eye",
+"script": "han",
+"text": "眼睛",
+"n_tokens": 1
+},
+{
+"lang": "zh",
+"concept": "fire",
+"script": "han",
+"text": "火",
+"n_tokens": 1
+},
+{
+"lang": "zh",
+"concept": "fish",
+"script": "han",
+"text": "鱼",
+"n_tokens": 1
+},
+{
+"lang": "zh",
+"concept": "flower",
+"script": "han",
+"text": "花",
+"n_tokens": 1
+},
+{
+"lang": "zh",
+"concept": "gold",
+"script": "han",
+"text": "金",
+"n_tokens": 1
+},
+{
+"lang": "zh",
+"concept": "hand",
+"script": "han",
+"text": "手",
+"n_tokens": 1
+},
+{
+"lang": "zh",
+"concept": "heart",
+"script": "han",
+"text": "心",
+"n_tokens": 1
+},
+{
+"lang": "zh",
+"concept": "horse",
+"script": "han",
+"text": "马",
+"n_tokens": 1
+},
+{
+"lang": "zh",
+"concept": "house",
+"script": "han",
+"text": "房子",
+"n_tokens": 1
+},
+{
+"lang": "zh",
+"concept": "king",
+"script": "han",
+"text": "国王",
+"n_tokens": 1
+},
+{
+"lang": "zh",
+"concept": "milk",
+"script": "han",
+"text": "牛奶",
+"n_tokens": 1
+},
+{
+"lang": "zh",
+"concept": "moon",
+"script": "han",
+"text": "月亮",
+"n_tokens": 2
+},
+{
+"lang": "zh",
+"concept": "mother",
+"script": "han",
+"text": "母亲",
+"n_tokens": 1
+},
+{
+"lang": "zh",
+"concept": "mountain",
+"script": "han",
+"text": "山",
+"n_tokens": 1
+},
+{
+"lang": "zh",
+"concept": "name",
+"script": "han",
+"text": "名字",
+"n_tokens": 1
+},
+{
+"lang": "zh",
+"concept": "night",
+"script": "han",
+"text": "夜",
+"n_tokens": 1
+},
+{
+"lang": "zh",
+"concept": "rain",
+"script": "han",
+"text": "雨",
+"n_tokens": 1
+},
+{
+"lang": "zh",
+"concept": "river",
+"script": "han",
+"text": "河",
+"n_tokens": 1
+},
+{
+"lang": "zh",
+"concept": "road",
+"script": "han",
+"text": "路",
+"n_tokens": 1
+},
+{
+"lang": "zh",
+"concept": "salt",
+"script": "han",
+"text": "盐",
+"n_tokens": 1
+},
+{
+"lang": "zh",
+"concept": "sky",
+"script": "han",
+"text": "天空",
+"n_tokens": 1
+},
+{
+"lang": "zh",
+"concept": "star",
+"script": "han",
+"text": "星",
+"n_tokens": 1
+},
+{
+"lang": "zh",
+"concept": "sun",
+"script": "han",
+"text": "太阳",
+"n_tokens": 1
+},
+{
+"lang": "zh",
+"concept": "tooth",
+"script": "han",
+"text": "牙",
+"n_tokens": 1
+},
+{
+"lang": "zh",
+"concept": "tree",
+"script": "han",
+"text": "树",
+"n_tokens": 1
+},
+{
+"lang": "zh",
+"concept": "village",
+"script": "han",
+"text": "村",
+"n_tokens": 1
+},
+{
+"lang": "zh",
+"concept": "water",
+"script": "han",
+"text": "水",
+"n_tokens": 1
+}
+],
+"prompts": [
+{
+"pair": "ta-te",
+"src": "ta",
+"tgt": "te",
+"concept": "bird"
+},
+{
+"pair": "ta-te",
+"src": "ta",
+"tgt": "te",
+"concept": "book"
+},
+{
+"pair": "ta-te",
+"src": "ta",
+"tgt": "te",
+"concept": "cat"
+},
+{
+"pair": "ta-te",
+"src": "ta",
+"tgt": "te",
+"concept": "cow"
+},
+{
+"pair": "ta-te",
+"src": "ta",
+"tgt": "te",
+"concept": "dog"
+},
+{
+"pair": "ta-te",
+"src": "ta",
+"tgt": "te",
+"concept": "eye"
+},
+{
+"pair": "ta-te",
+"src": "ta",
+"tgt": "te",
+"concept": "fire"
+},
+{
+"pair": "ta-te",
+"src": "ta",
+"tgt": "te",
+"concept": "fish"
+},
+{
+"pair": "ta-te",
+"src": "ta",
+"tgt": "te",
+"concept": "flower"
+},
+{
+"pair": "ta-te",
+"src": "ta",
+"tgt": "te",
+"concept": "gold"
+},
+{
+"pair": "ta-te",
+"src": "ta",
+"tgt": "te",
+"concept": "hand"
+},
+{
+"pair": "ta-te",
+"src": "ta",
+"tgt": "te",
+"concept": "heart"
+},
+{
+"pair": "ta-te",
+"src": "ta",
+"tgt": "te",
+"concept": "horse"
+},
+{
+"pair": "ta-te",
+"src": "ta",
+"tgt": "te",
+"concept": "house"
+},
+{
+"pair": "ta-te",
+"src": "ta",
+"tgt": "te",
+"concept": "king"
+},
+{
+"pair": "ta-te",
+"src": "ta",
+"tgt": "te",
+"concept": "milk"
+},
+{
+"pair": "ta-te",
+"src": "ta",
+"tgt": "te",
+"concept": "moon"
+},
+{
+"pair": "ta-te",
+"src": "ta",
+"tgt": "te",
+"concept": "mother"
+},
+{
+"pair": "ta-te",
+"src": "ta",
+"tgt": "te",
+"concept": "mountain"
+},
+{
+"pair": "ta-te",
+"src": "ta",
+"tgt": "te",
+"concept": "name"
+},
+{
+"pair": "ta-te",
+"src": "ta",
+"tgt": "te",
+"concept": "night"
+},
+{
+"pair": "ta-te",
+"src": "ta",
+"tgt": "te",
+"concept": "rain"
+},
+{
+"pair": "ta-te",
+"src": "ta",
+"tgt": "te",
+"concept": "river"
+},
+{
+"pair": "ta-te",
+"src": "ta",
+"tgt": "te",
+"concept": "road"
+},
+{
+"pair": "ta-te",
+"src": "ta",
+"tgt": "te",
+"concept": "salt"
+},
+{
+"pair": "ta-te",
+"src": "ta",
+"tgt": "te",
+"concept": "sky"
+},
+{
+"pair": "ta-te",
+"src": "ta",
+"tgt": "te",
+"concept": "star"
+},
+{
+"pair": "ta-te",
+"src": "ta",
+"tgt": "te",
+"concept": "sun"
+},
+{
+"pair": "ta-te",
+"src": "ta",
+"tgt": "te",
+"concept": "tooth"
+},
+{
+"pair": "ta-te",
+"src": "ta",
+"tgt": "te",
+"concept": "tree"
+},
+{
+"pair": "ta-te",
+"src": "ta",
+"tgt": "te",
+"concept": "village"
+},
+{
+"pair": "ta-te",
+"src": "ta",
+"tgt": "te",
+"concept": "water"
+},
+{
+"pair": "te-kn",
+"src": "te",
+"tgt": "kn",
+"concept": "bird"
+},
+{
+"pair": "te-kn",
+"src": "te",
+"tgt": "kn",
+"concept": "book"
+},
+{
+"pair": "te-kn",
+"src": "te",
+"tgt": "kn",
+"concept": "cat"
+},
+{
+"pair": "te-kn",
+"src": "te",
+"tgt": "kn",
+"concept": "cow"
+},
+{
+"pair": "te-kn",
+"src": "te",
+"tgt": "kn",
+"concept": "dog"
+},
+{
+"pair": "te-kn",
+"src": "te",
+"tgt": "kn",
+"concept": "eye"
+},
+{
+"pair": "te-kn",
+"src": "te",
+"tgt": "kn",
+"concept": "fire"
+},
+{
+"pair": "te-kn",
+"src": "te",
+"tgt": "kn",
+"concept": "fish"
+},
+{
+"pair": "te-kn",
+"src": "te",
+"tgt": "kn",
+"concept": "flower"
+},
+{
+"pair": "te-kn",
+"src": "te",
+"tgt": "kn",
+"concept": "gold"
+},
+{
+"pair": "te-kn",
+"src": "te",
+"tgt": "kn",
+"concept": "hand"
+},
+{
+"pair": "te-kn",
+"src": "te",
+"tgt": "kn",
+"concept": "heart"
+},
+{
+"pair": "te-kn",
+"src": "te",
+"tgt": "kn",
+"concept": "horse"
+},
+{
+"pair": "te-kn",
+"src": "te",
+"tgt": "kn",
+"concept": "house"
+},
+{
+"pair": "te-kn",
+"src": "te",
+"tgt": "kn",
+"concept": "king"
+},
+{
+"pair": "te-kn",
+"src": "te",
+"tgt": "kn",
+"concept": "milk"
+},
+{
+"pair": "te-kn",
+"src": "te",
+"tgt": "kn",
+"concept": "moon"
+},
+{
+"pair": "te-kn",
+"src": "te",
+"tgt": "kn",
+"concept": "mother"
+},
+{
+"pair": "te-kn",
+"src": "te",
+"tgt": "kn",
+"concept": "mountain"
+},
+{
+"pair": "te-kn",
+"src": "te",
+"tgt": "kn",
+"concept": "name"
+},
+{
+"pair": "te-kn",
+"src": "te",
+"tgt": "kn",
+"concept": "night"
+},
+{
+"pair": "te-kn",
+"src": "te",
+"tgt": "kn",
+"concept": "rain"
+},
+{
+"pair": "te-kn",
+"src": "te",
+"tgt": "kn",
+"concept": "river"
+},
+{
+"pair": "te-kn",
+"src": "te",
+"tgt": "kn",
+"concept": "road"
+},
+{
+"pair": "te-kn",
+"src": "te",
+"tgt": "kn",
+"concept": "salt"
+},
+{
+"pair": "te-kn",
+"src": "te",
+"tgt": "kn",
+"concept": "sky"
+},
+{
+"pair": "te-kn",
+"src": "te",
+"tgt": "kn",
+"concept": "star"
+},
+{
+"pair": "te-kn",
+"src": "te",
+"tgt": "kn",
+"concept": "sun"
+},
+{
+"pair": "te-kn",
+"src": "te",
+"tgt": "kn",
+"concept": "tooth"
+},
+{
+"pair": "te-kn",
+"src": "te",
+"tgt": "kn",
+"concept": "tree"
+},
+{
+"pair": "te-kn",
+"src": "te",
+"tgt": "kn",
+"concept": "village"
+},
+{
+"pair": "te-kn",
+"src": "te",
+"tgt": "kn",
+"concept": "water"
+},
+{
+"pair": "kn-ml",
+"src": "kn",
+"tgt": "ml",
+"concept": "bird"
+},
+{
+"pair": "kn-ml",
+"src": "kn",
+"tgt": "ml",
+"concept": "book"
+},
+{
+"pair": "kn-ml",
+"src": "kn",
+"tgt": "ml",
+"concept": "cat"
+},
+{
+"pair": "kn-ml",
+"src": "kn",
+"tgt": "ml",
+"concept": "cow"
+},
+{
+"pair": "kn-ml",
+"src": "kn",
+"tgt": "ml",
+"concept": "dog"
+},
+{
+"pair": "kn-ml",
+"src": "kn",
+"tgt": "ml",
+"concept": "eye"
+},
+{
+"pair": "kn-ml",
+"src": "kn",
+"tgt": "ml",
+"concept": "fire"
+},
+{
+"pair": "kn-ml",
+"src": "kn",
+"tgt": "ml",
+"concept": "fish"
+},
+{
+"pair": "kn-ml",
+"src": "kn",
+"tgt": "ml",
+"concept": "flower"
+},
+{
+"pair": "kn-ml",
+"src": "kn",
+"tgt": "ml",
+"concept": "gold"
+},
+{
+"pair": "kn-ml",
+"src": "kn",
+"tgt": "ml",
+"concept": "hand"
+},
+{
+"pair": "kn-ml",
+"src": "kn",
+"tgt": "ml",
+"concept": "heart"
+},
+{
+"pair": "kn-ml",
+"src": "kn",
+"tgt": "ml",
+"concept": "horse"
+},
+{
+"pair": "kn-ml",
+"src": "kn",
+"tgt": "ml",
+"concept": "house"
+},
+{
+"pair": "kn-ml",
+"src": "kn",
+"tgt": "ml",
+"concept": "king"
+},
+{
+"pair": "kn-ml",
+"src": "kn",
+"tgt": "ml",
+"concept": "milk"
+},
+{
+"pair": "kn-ml",
+"src": "kn",
+"tgt": "ml",
+"concept": "moon"
+},
+{
+"pair": "kn-ml",
+"src": "kn",
+"tgt": "ml",
+"concept": "mother"
+},
+{
+"pair": "kn-ml",
+"src": "kn",
+"tgt": "ml",
+"concept": "mountain"
+},
+{
+"pair": "kn-ml",
+"src": "kn",
+"tgt": "ml",
+"concept": "name"
+},
+{
+"pair": "kn-ml",
+"src": "kn",
+"tgt": "ml",
+"concept": "night"
+},
+{
+"pair": "kn-ml",
+"src": "kn",
+"tgt": "ml",
+"concept": "rain"
+},
+{
+"pair": "kn-ml",
+"src": "kn",
+"tgt": "ml",
+"concept": "river"
+},
+{
+"pair": "kn-ml",
+"src": "kn",
+"tgt": "ml",
+"concept": "road"
+},
+{
+"pair": "kn-ml",
+"src": "kn",
+"tgt": "ml",
+"concept": "salt"
+},
+{
+"pair": "kn-ml",
+"src": "kn",
+"tgt": "ml",
+"concept": "sky"
+},
+{
+"pair": "kn-ml",
+"src": "kn",
+"tgt": "ml",
+"concept": "star"
+},
+{
+"pair": "kn-ml",
+"src": "kn",
+"tgt": "ml",
+"concept": "sun"
+},
+{
+"pair": "kn-ml",
+"src": "kn",
+"tgt": "ml",
+"concept": "tooth"
+},
+{
+"pair": "kn-ml",
+"src": "kn",
+"tgt": "ml",
+"concept": "tree"
+},
+{
+"pair": "kn-ml",
+"src": "kn",
+"tgt": "ml",
+"concept": "village"
+},
+{
+"pair": "kn-ml",
+"src": "kn",
+"tgt": "ml",
+"concept": "water"
+},
+{
+"pair": "ml-ta",
+"src": "ml",
+"tgt": "ta",
+"concept": "bird"
+},
+{
+"pair": "ml-ta",
+"src": "ml",
+"tgt": "ta",
+"concept": "book"
+},
+{
+"pair": "ml-ta",
+"src": "ml",
+"tgt": "ta",
+"concept": "cat"
+},
+{
+"pair": "ml-ta",
+"src": "ml",
+"tgt": "ta",
+"concept": "cow"
+},
+{
+"pair": "ml-ta",
+"src": "ml",
+"tgt": "ta",
+"concept": "dog"
+},
+{
+"pair": "ml-ta",
+"src": "ml",
+"tgt": "ta",
+"concept": "eye"
+},
+{
+"pair": "ml-ta",
+"src": "ml",
+"tgt": "ta",
+"concept": "fire"
+},
+{
+"pair": "ml-ta",
+"src": "ml",
+"tgt": "ta",
+"concept": "fish"
+},
+{
+"pair": "ml-ta",
+"src": "ml",
+"tgt": "ta",
+"concept": "flower"
+},
+{
+"pair": "ml-ta",
+"src": "ml",
+"tgt": "ta",
+"concept": "gold"
+},
+{
+"pair": "ml-ta",
+"src": "ml",
+"tgt": "ta",
+"concept": "hand"
+},
+{
+"pair": "ml-ta",
+"src": "ml",
+"tgt": "ta",
+"concept": "heart"
+},
+{
+"pair": "ml-ta",
+"src": "ml",
+"tgt": "ta",
+"concept": "horse"
+},
+{
+"pair": "ml-ta",
+"src": "ml",
+"tgt": "ta",
+"concept": "house"
+},
+{
+"pair": "ml-ta",
+"src": "ml",
+"tgt": "ta",
+"concept": "king"
+},
+{
+"pair": "ml-ta",
+"src": "ml",
+"tgt": "ta",
+"concept": "milk"
+},
+{
+"pair": "ml-ta",
+"src": "ml",
+"tgt": "ta",
+"concept": "moon"
+},
+{
+"pair": "ml-ta",
+"src": "ml",
+"tgt": "ta",
+"concept": "mother"
+},
+{
+"pair": "ml-ta",
+"src": "ml",
+"tgt": "ta",
+"concept": "mountain"
+},
+{
+"pair": "ml-ta",
+"src": "ml",
+"tgt": "ta",
+"concept": "name"
+},
+{
+"pair": "ml-ta",
+"src": "ml",
+"tgt": "ta",
+"concept": "night"
+},
+{
+"pair": "ml-ta",
+"src": "ml",
+"tgt": "ta",
+"concept": "rain"
+},
+{
+"pair": "ml-ta",
+"src": "ml",
+"tgt": "ta",
+"concept": "river"
+},
+{
+"pair": "ml-ta",
+"src": "ml",
+"tgt": "ta",
+"concept": "road"
+},
+{
+"pair": "ml-ta",
+"src": "ml",
+"tgt": "ta",
+"concept": "salt"
+},
+{
+"pair": "ml-ta",
+"src": "ml",
+"tgt": "ta",
+"concept": "sky"
+},
+{
+"pair": "ml-ta",
+"src": "ml",
+"tgt": "ta",
+"concept": "star"
+},
+{
+"pair": "ml-ta",
+"src": "ml",
+"tgt": "ta",
+"concept": "sun"
+},
+{
+"pair": "ml-ta",
+"src": "ml",
+"tgt": "ta",
+"concept": "tooth"
+},
+{
+"pair": "ml-ta",
+"src": "ml",
+"tgt": "ta",
+"concept": "tree"
+},
+{
+"pair": "ml-ta",
+"src": "ml",
+"tgt": "ta",
+"concept": "village"
+},
+{
+"pair": "ml-ta",
+"src": "ml",
+"tgt": "ta",
+"concept": "water"
+},
+{
+"pair": "bn-gu",
+"src": "bn",
+"tgt": "gu",
+"concept": "bird"
+},
+{
+"pair": "bn-gu",
+"src": "bn",
+"tgt": "gu",
+"concept": "book"
+},
+{
+"pair": "bn-gu",
+"src": "bn",
+"tgt": "gu",
+"concept": "cat"
+},
+{
+"pair": "bn-gu",
+"src": "bn",
+"tgt": "gu",
+"concept": "cow"
+},
+{
+"pair": "bn-gu",
+"src": "bn",
+"tgt": "gu",
+"concept": "dog"
+},
+{
+"pair": "bn-gu",
+"src": "bn",
+"tgt": "gu",
+"concept": "eye"
+},
+{
+"pair": "bn-gu",
+"src": "bn",
+"tgt": "gu",
+"concept": "fire"
+},
+{
+"pair": "bn-gu",
+"src": "bn",
+"tgt": "gu",
+"concept": "fish"
+},
+{
+"pair": "bn-gu",
+"src": "bn",
+"tgt": "gu",
+"concept": "flower"
+},
+{
+"pair": "bn-gu",
+"src": "bn",
+"tgt": "gu",
+"concept": "gold"
+},
+{
+"pair": "bn-gu",
+"src": "bn",
+"tgt": "gu",
+"concept": "hand"
+},
+{
+"pair": "bn-gu",
+"src": "bn",
+"tgt": "gu",
+"concept": "heart"
+},
+{
+"pair": "bn-gu",
+"src": "bn",
+"tgt": "gu",
+"concept": "horse"
+},
+{
+"pair": "bn-gu",
+"src": "bn",
+"tgt": "gu",
+"concept": "house"
+},
+{
+"pair": "bn-gu",
+"src": "bn",
+"tgt": "gu",
+"concept": "king"
+},
+{
+"pair": "bn-gu",
+"src": "bn",
+"tgt": "gu",
+"concept": "milk"
+},
+{
+"pair": "bn-gu",
+"src": "bn",
+"tgt": "gu",
+"concept": "moon"
+},
+{
+"pair": "bn-gu",
+"src": "bn",
+"tgt": "gu",
+"concept": "mother"
+},
+{
+"pair": "bn-gu",
+"src": "bn",
+"tgt": "gu",
+"concept": "mountain"
+},
+{
+"pair": "bn-gu",
+"src": "bn",
+"tgt": "gu",
+"concept": "name"
+},
+{
+"pair": "bn-gu",
+"src": "bn",
+"tgt": "gu",
+"concept": "night"
+},
+{
+"pair": "bn-gu",
+"src": "bn",
+"tgt": "gu",
+"concept": "rain"
+},
+{
+"pair": "bn-gu",
+"src": "bn",
+"tgt": "gu",
+"concept": "river"
+},
+{
+"pair": "bn-gu",
+"src": "bn",
+"tgt": "gu",
+"concept": "road"
+},
+{
+"pair": "bn-gu",
+"src": "bn",
+"tgt": "gu",
+"concept": "salt"
+},
+{
+"pair": "bn-gu",
+"src": "bn",
+"tgt": "gu",
+"concept": "sky"
+},
+{
+"pair": "bn-gu",
+"src": "bn",
+"tgt": "gu",
+"concept": "star"
+},
+{
+"pair": "bn-gu",
+"src": "bn",
+"tgt": "gu",
+"concept": "sun"
+},
+{
+"pair": "bn-gu",
+"src": "bn",
+"tgt": "gu",
+"concept": "tooth"
+},
+{
+"pair": "bn-gu",
+"src": "bn",
+"tgt": "gu",
+"concept": "tree"
+},
+{
+"pair": "bn-gu",
+"src": "bn",
+"tgt": "gu",
+"concept": "village"
+},
+{
+"pair": "bn-gu",
+"src": "bn",
+"tgt": "gu",
+"concept": "water"
+},
+{
+"pair": "gu-mr",
+"src": "gu",
+"tgt": "mr",
+"concept": "bird"
+},
+{
+"pair": "gu-mr",
+"src": "gu",
+"tgt": "mr",
+"concept": "book"
+},
+{
+"pair": "gu-mr",
+"src": "gu",
+"tgt": "mr",
+"concept": "cat"
+},
+{
+"pair": "gu-mr",
+"src": "gu",
+"tgt": "mr",
+"concept": "cow"
+},
+{
+"pair": "gu-mr",
+"src": "gu",
+"tgt": "mr",
+"concept": "dog"
+},
+{
+"pair": "gu-mr",
+"src": "gu",
+"tgt": "mr",
+"concept": "eye"
+},
+{
+"pair": "gu-mr",
+"src": "gu",
+"tgt": "mr",
+"concept": "fire"
+},
+{
+"pair": "gu-mr",
+"src": "gu",
+"tgt": "mr",
+"concept": "fish"
+},
+{
+"pair": "gu-mr",
+"src": "gu",
+"tgt": "mr",
+"concept": "flower"
+},
+{
+"pair": "gu-mr",
+"src": "gu",
+"tgt": "mr",
+"concept": "gold"
+},
+{
+"pair": "gu-mr",
+"src": "gu",
+"tgt": "mr",
+"concept": "hand"
+},
+{
+"pair": "gu-mr",
+"src": "gu",
+"tgt": "mr",
+"concept": "heart"
+},
+{
+"pair": "gu-mr",
+"src": "gu",
+"tgt": "mr",
+"concept": "horse"
+},
+{
+"pair": "gu-mr",
+"src": "gu",
+"tgt": "mr",
+"concept": "house"
+},
+{
+"pair": "gu-mr",
+"src": "gu",
+"tgt": "mr",
+"concept": "king"
+},
+{
+"pair": "gu-mr",
+"src": "gu",
+"tgt": "mr",
+"concept": "milk"
+},
+{
+"pair": "gu-mr",
+"src": "gu",
+"tgt": "mr",
+"concept": "moon"
+},
+{
+"pair": "gu-mr",
+"src": "gu",
+"tgt": "mr",
+"concept": "mother"
+},
+{
+"pair": "gu-mr",
+"src": "gu",
+"tgt": "mr",
+"concept": "mountain"
+},
+{
+"pair": "gu-mr",
+"src": "gu",
+"tgt": "mr",
+"concept": "name"
+},
+{
+"pair": "gu-mr",
+"src": "gu",
+"tgt": "mr",
+"concept": "night"
+},
+{
+"pair": "gu-mr",
+"src": "gu",
+"tgt": "mr",
+"concept": "rain"
+},
+{
+"pair": "gu-mr",
+"src": "gu",
+"tgt": "mr",
+"concept": "river"
+},
+{
+"pair": "gu-mr",
+"src": "gu",
+"tgt": "mr",
+"concept": "road"
+},
+{
+"pair": "gu-mr",
+"src": "gu",
+"tgt": "mr",
+"concept": "salt"
+},
+{
+"pair": "gu-mr",
+"src": "gu",
+"tgt": "mr",
+"concept": "sky"
+},
+{
+"pair": "gu-mr",
+"src": "gu",
+"tgt": "mr",
+"concept": "star"
+},
+{
+"pair": "gu-mr",
+"src": "gu",
+"tgt": "mr",
+"concept": "sun"
+},
+{
+"pair": "gu-mr",
+"src": "gu",
+"tgt": "mr",
+"concept": "tooth"
+},
+{
+"pair": "gu-mr",
+"src": "gu",
+"tgt": "mr",
+"concept": "tree"
+},
+{
+"pair": "gu-mr",
+"src": "gu",
+"tgt": "mr",
+"concept": "village"
+},
+{
+"pair": "gu-mr",
+"src": "gu",
+"tgt": "mr",
+"concept": "water"
+},
+{
+"pair": "mr-bn",
+"src": "mr",
+"tgt": "bn",
+"concept": "bird"
+},
+{
+"pair": "mr-bn",
+"src": "mr",
+"tgt": "bn",
+"concept": "book"
+},
+{
+"pair": "mr-bn",
+"src": "mr",
+"tgt": "bn",
+"concept": "cat"
+},
+{
+"pair": "mr-bn",
+"src": "mr",
+"tgt": "bn",
+"concept": "cow"
+},
+{
+"pair": "mr-bn",
+"src": "mr",
+"tgt": "bn",
+"concept": "dog"
+},
+{
+"pair": "mr-bn",
+"src": "mr",
+"tgt": "bn",
+"concept": "eye"
+},
+{
+"pair": "mr-bn",
+"src": "mr",
+"tgt": "bn",
+"concept": "fire"
+},
+{
+"pair": "mr-bn",
+"src": "mr",
+"tgt": "bn",
+"concept": "fish"
+},
+{
+"pair": "mr-bn",
+"src": "mr",
+"tgt": "bn",
+"concept": "flower"
+},
+{
+"pair": "mr-bn",
+"src": "mr",
+"tgt": "bn",
+"concept": "gold"
+},
+{
+"pair": "mr-bn",
+"src": "mr",
+"tgt": "bn",
+"concept": "hand"
+},
+{
+"pair": "mr-bn",
+"src": "mr",
+"tgt": "bn",
+"concept": "heart"
+},
+{
+"pair": "mr-bn",
+"src": "mr",
+"tgt": "bn",
+"concept": "horse"
+},
+{
+"pair": "mr-bn",
+"src": "mr",
+"tgt": "bn",
+"concept": "house"
+},
+{
+"pair": "mr-bn",
+"src": "mr",
+"tgt": "bn",
+"concept": "king"
+},
+{
+"pair": "mr-bn",
+"src": "mr",
+"tgt": "bn",
+"concept": "milk"
+},
+{
+"pair": "mr-bn",
+"src": "mr",
+"tgt": "bn",
+"concept": "moon"
+},
+{
+"pair": "mr-bn",
+"src": "mr",
+"tgt": "bn",
+"concept": "mother"
+},
+{
+"pair": "mr-bn",
+"src": "mr",
+"tgt": "bn",
+"concept": "mountain"
+},
+{
+"pair": "mr-bn",
+"src": "mr",
+"tgt": "bn",
+"concept": "name"
+},
+{
+"pair": "mr-bn",
+"src": "mr",
+"tgt": "bn",
+"concept": "night"
+},
+{
+"pair": "mr-bn",
+"src": "mr",
+"tgt": "bn",
+"concept": "rain"
+},
+{
+"pair": "mr-bn",
+"src": "mr",
+"tgt": "bn",
+"concept": "river"
+},
+{
+"pair": "mr-bn",
+"src": "mr",
+"tgt": "bn",
+"concept": "road"
+},
+{
+"pair": "mr-bn",
+"src": "mr",
+"tgt": "bn",
+"concept": "salt"
+},
+{
+"pair": "mr-bn",
+"src": "mr",
+"tgt": "bn",
+"concept": "sky"
+},
+{
+"pair": "mr-bn",
+"src": "mr",
+"tgt": "bn",
+"concept": "star"
+},
+{
+"pair": "mr-bn",
+"src": "mr",
+"tgt": "bn",
+"concept": "sun"
+},
+{
+"pair": "mr-bn",
+"src": "mr",
+"tgt": "bn",
+"concept": "tooth"
+},
+{
+"pair": "mr-bn",
+"src": "mr",
+"tgt": "bn",
+"concept": "tree"
+},
+{
+"pair": "mr-bn",
+"src": "mr",
+"tgt": "bn",
+"concept": "village"
+},
+{
+"pair": "mr-bn",
+"src": "mr",
+"tgt": "bn",
+"concept": "water"
+},
+{
+"pair": "bn-ta",
+"src": "bn",
+"tgt": "ta",
+"concept": "bird"
+},
+{
+"pair": "bn-ta",
+"src": "bn",
+"tgt": "ta",
+"concept": "book"
+},
+{
+"pair": "bn-ta",
+"src": "bn",
+"tgt": "ta",
+"concept": "cat"
+},
+{
+"pair": "bn-ta",
+"src": "bn",
+"tgt": "ta",
+"concept": "cow"
+},
+{
+"pair": "bn-ta",
+"src": "bn",
+"tgt": "ta",
+"concept": "dog"
+},
+{
+"pair": "bn-ta",
+"src": "bn",
+"tgt": "ta",
+"concept": "eye"
+},
+{
+"pair": "bn-ta",
+"src": "bn",
+"tgt": "ta",
+"concept": "fire"
+},
+{
+"pair": "bn-ta",
+"src": "bn",
+"tgt": "ta",
+"concept": "fish"
+},
+{
+"pair": "bn-ta",
+"src": "bn",
+"tgt": "ta",
+"concept": "flower"
+},
+{
+"pair": "bn-ta",
+"src": "bn",
+"tgt": "ta",
+"concept": "gold"
+},
+{
+"pair": "bn-ta",
+"src": "bn",
+"tgt": "ta",
+"concept": "hand"
+},
+{
+"pair": "bn-ta",
+"src": "bn",
+"tgt": "ta",
+"concept": "heart"
+},
+{
+"pair": "bn-ta",
+"src": "bn",
+"tgt": "ta",
+"concept": "horse"
+},
+{
+"pair": "bn-ta",
+"src": "bn",
+"tgt": "ta",
+"concept": "house"
+},
+{
+"pair": "bn-ta",
+"src": "bn",
+"tgt": "ta",
+"concept": "king"
+},
+{
+"pair": "bn-ta",
+"src": "bn",
+"tgt": "ta",
+"concept": "milk"
+},
+{
+"pair": "bn-ta",
+"src": "bn",
+"tgt": "ta",
+"concept": "moon"
+},
+{
+"pair": "bn-ta",
+"src": "bn",
+"tgt": "ta",
+"concept": "mother"
+},
+{
+"pair": "bn-ta",
+"src": "bn",
+"tgt": "ta",
+"concept": "mountain"
+},
+{
+"pair": "bn-ta",
+"src": "bn",
+"tgt": "ta",
+"concept": "name"
+},
+{
+"pair": "bn-ta",
+"src": "bn",
+"tgt": "ta",
+"concept": "night"
+},
+{
+"pair": "bn-ta",
+"src": "bn",
+"tgt": "ta",
+"concept": "rain"
+},
+{
+"pair": "bn-ta",
+"src": "bn",
+"tgt": "ta",
+"concept": "river"
+},
+{
+"pair": "bn-ta",
+"src": "bn",
+"tgt": "ta",
+"concept": "road"
+},
+{
+"pair": "bn-ta",
+"src": "bn",
+"tgt": "ta",
+"concept": "salt"
+},
+{
+"pair": "bn-ta",
+"src": "bn",
+"tgt": "ta",
+"concept": "sky"
+},
+{
+"pair": "bn-ta",
+"src": "bn",
+"tgt": "ta",
+"concept": "star"
+},
+{
+"pair": "bn-ta",
+"src": "bn",
+"tgt": "ta",
+"concept": "sun"
+},
+{
+"pair": "bn-ta",
+"src": "bn",
+"tgt": "ta",
+"concept": "tooth"
+},
+{
+"pair": "bn-ta",
+"src": "bn",
+"tgt": "ta",
+"concept": "tree"
+},
+{
+"pair": "bn-ta",
+"src": "bn",
+"tgt": "ta",
+"concept": "village"
+},
+{
+"pair": "bn-ta",
+"src": "bn",
+"tgt": "ta",
+"concept": "water"
+},
+{
+"pair": "ta-bn",
+"src": "ta",
+"tgt": "bn",
+"concept": "bird"
+},
+{
+"pair": "ta-bn",
+"src": "ta",
+"tgt": "bn",
+"concept": "book"
+},
+{
+"pair": "ta-bn",
+"src": "ta",
+"tgt": "bn",
+"concept": "cat"
+},
+{
+"pair": "ta-bn",
+"src": "ta",
+"tgt": "bn",
+"concept": "cow"
+},
+{
+"pair": "ta-bn",
+"src": "ta",
+"tgt": "bn",
+"concept": "dog"
+},
+{
+"pair": "ta-bn",
+"src": "ta",
+"tgt": "bn",
+"concept": "eye"
+},
+{
+"pair": "ta-bn",
+"src": "ta",
+"tgt": "bn",
+"concept": "fire"
+},
+{
+"pair": "ta-bn",
+"src": "ta",
+"tgt": "bn",
+"concept": "fish"
+},
+{
+"pair": "ta-bn",
+"src": "ta",
+"tgt": "bn",
+"concept": "flower"
+},
+{
+"pair": "ta-bn",
+"src": "ta",
+"tgt": "bn",
+"concept": "gold"
+},
+{
+"pair": "ta-bn",
+"src": "ta",
+"tgt": "bn",
+"concept": "hand"
+},
+{
+"pair": "ta-bn",
+"src": "ta",
+"tgt": "bn",
+"concept": "heart"
+},
+{
+"pair": "ta-bn",
+"src": "ta",
+"tgt": "bn",
+"concept": "horse"
+},
+{
+"pair": "ta-bn",
+"src": "ta",
+"tgt": "bn",
+"concept": "house"
+},
+{
+"pair": "ta-bn",
+"src": "ta",
+"tgt": "bn",
+"concept": "king"
+},
+{
+"pair": "ta-bn",
+"src": "ta",
+"tgt": "bn",
+"concept": "milk"
+},
+{
+"pair": "ta-bn",
+"src": "ta",
+"tgt": "bn",
+"concept": "moon"
+},
+{
+"pair": "ta-bn",
+"src": "ta",
+"tgt": "bn",
+"concept": "mother"
+},
+{
+"pair": "ta-bn",
+"src": "ta",
+"tgt": "bn",
+"concept": "mountain"
+},
+{
+"pair": "ta-bn",
+"src": "ta",
+"tgt": "bn",
+"concept": "name"
+},
+{
+"pair": "ta-bn",
+"src": "ta",
+"tgt": "bn",
+"concept": "night"
+},
+{
+"pair": "ta-bn",
+"src": "ta",
+"tgt": "bn",
+"concept": "rain"
+},
+{
+"pair": "ta-bn",
+"src": "ta",
+"tgt": "bn",
+"concept": "river"
+},
+{
+"pair": "ta-bn",
+"src": "ta",
+"tgt": "bn",
+"concept": "road"
+},
+{
+"pair": "ta-bn",
+"src": "ta",
+"tgt": "bn",
+"concept": "salt"
+},
+{
+"pair": "ta-bn",
+"src": "ta",
+"tgt": "bn",
+"concept": "sky"
+},
+{
+"pair": "ta-bn",
+"src": "ta",
+"tgt": "bn",
+"concept": "star"
+},
+{
+"pair": "ta-bn",
+"src": "ta",
+"tgt": "bn",
+"concept": "sun"
+},
+{
+"pair": "ta-bn",
+"src": "ta",
+"tgt": "bn",
+"concept": "tooth"
+},
+{
+"pair": "ta-bn",
+"src": "ta",
+"tgt": "bn",
+"concept": "tree"
+},
+{
+"pair": "ta-bn",
+"src": "ta",
+"tgt": "bn",
+"concept": "village"
+},
+{
+"pair": "ta-bn",
+"src": "ta",
+"tgt": "bn",
+"concept": "water"
+},
+{
+"pair": "te-gu",
+"src": "te",
+"tgt": "gu",
+"concept": "bird"
+},
+{
+"pair": "te-gu",
+"src": "te",
+"tgt": "gu",
+"concept": "book"
+},
+{
+"pair": "te-gu",
+"src": "te",
+"tgt": "gu",
+"concept": "cat"
+},
+{
+"pair": "te-gu",
+"src": "te",
+"tgt": "gu",
+"concept": "cow"
+},
+{
+"pair": "te-gu",
+"src": "te",
+"tgt": "gu",
+"concept": "dog"
+},
+{
+"pair": "te-gu",
+"src": "te",
+"tgt": "gu",
+"concept": "eye"
+},
+{
+"pair": "te-gu",
+"src": "te",
+"tgt": "gu",
+"concept": "fire"
+},
+{
+"pair": "te-gu",
+"src": "te",
+"tgt": "gu",
+"concept": "fish"
+},
+{
+"pair": "te-gu",
+"src": "te",
+"tgt": "gu",
+"concept": "flower"
+},
+{
+"pair": "te-gu",
+"src": "te",
+"tgt": "gu",
+"concept": "gold"
+},
+{
+"pair": "te-gu",
+"src": "te",
+"tgt": "gu",
+"concept": "hand"
+},
+{
+"pair": "te-gu",
+"src": "te",
+"tgt": "gu",
+"concept": "heart"
+},
+{
+"pair": "te-gu",
+"src": "te",
+"tgt": "gu",
+"concept": "horse"
+},
+{
+"pair": "te-gu",
+"src": "te",
+"tgt": "gu",
+"concept": "house"
+},
+{
+"pair": "te-gu",
+"src": "te",
+"tgt": "gu",
+"concept": "king"
+},
+{
+"pair": "te-gu",
+"src": "te",
+"tgt": "gu",
+"concept": "milk"
+},
+{
+"pair": "te-gu",
+"src": "te",
+"tgt": "gu",
+"concept": "moon"
+},
+{
+"pair": "te-gu",
+"src": "te",
+"tgt": "gu",
+"concept": "mother"
+},
+{
+"pair": "te-gu",
+"src": "te",
+"tgt": "gu",
+"concept": "mountain"
+},
+{
+"pair": "te-gu",
+"src": "te",
+"tgt": "gu",
+"concept": "name"
+},
+{
+"pair": "te-gu",
+"src": "te",
+"tgt": "gu",
+"concept": "night"
+},
+{
+"pair": "te-gu",
+"src": "te",
+"tgt": "gu",
+"concept": "rain"
+},
+{
+"pair": "te-gu",
+"src": "te",
+"tgt": "gu",
+"concept": "river"
+},
+{
+"pair": "te-gu",
+"src": "te",
+"tgt": "gu",
+"concept": "road"
+},
+{
+"pair": "te-gu",
+"src": "te",
+"tgt": "gu",
+"concept": "salt"
+},
+{
+"pair": "te-gu",
+"src": "te",
+"tgt": "gu",
+"concept": "sky"
+},
+{
+"pair": "te-gu",
+"src": "te",
+"tgt": "gu",
+"concept": "star"
+},
+{
+"pair": "te-gu",
+"src": "te",
+"tgt": "gu",
+"concept": "sun"
+},
+{
+"pair": "te-gu",
+"src": "te",
+"tgt": "gu",
+"concept": "tooth"
+},
+{
+"pair": "te-gu",
+"src": "te",
+"tgt": "gu",
+"concept": "tree"
+},
+{
+"pair": "te-gu",
+"src": "te",
+"tgt": "gu",
+"concept": "village"
+},
+{
+"pair": "te-gu",
+"src": "te",
+"tgt": "gu",
+"concept": "water"
+},
+{
+"pair": "hi-ta",
+"src": "hi",
+"tgt": "ta",
+"concept": "bird"
+},
+{
+"pair": "hi-ta",
+"src": "hi",
+"tgt": "ta",
+"concept": "book"
+},
+{
+"pair": "hi-ta",
+"src": "hi",
+"tgt": "ta",
+"concept": "cat"
+},
+{
+"pair": "hi-ta",
+"src": "hi",
+"tgt": "ta",
+"concept": "cow"
+},
+{
+"pair": "hi-ta",
+"src": "hi",
+"tgt": "ta",
+"concept": "dog"
+},
+{
+"pair": "hi-ta",
+"src": "hi",
+"tgt": "ta",
+"concept": "eye"
+},
+{
+"pair": "hi-ta",
+"src": "hi",
+"tgt": "ta",
+"concept": "fire"
+},
+{
+"pair": "hi-ta",
+"src": "hi",
+"tgt": "ta",
+"concept": "fish"
+},
+{
+"pair": "hi-ta",
+"src": "hi",
+"tgt": "ta",
+"concept": "flower"
+},
+{
+"pair": "hi-ta",
+"src": "hi",
+"tgt": "ta",
+"concept": "gold"
+},
+{
+"pair": "hi-ta",
+"src": "hi",
+"tgt": "ta",
+"concept": "hand"
+},
+{
+"pair": "hi-ta",
+"src": "hi",
+"tgt": "ta",
+"concept": "heart"
+},
+{
+"pair": "hi-ta",
+"src": "hi",
+"tgt": "ta",
+"concept": "horse"
+},
+{
+"pair": "hi-ta",
+"src": "hi",
+"tgt": "ta",
+"concept": "house"
+},
+{
+"pair": "hi-ta",
+"src": "hi",
+"tgt": "ta",
+"concept": "king"
+},
+{
+"pair": "hi-ta",
+"src": "hi",
+"tgt": "ta",
+"concept": "milk"
+},
+{
+"pair": "hi-ta",
+"src": "hi",
+"tgt": "ta",
+"concept": "moon"
+},
+{
+"pair": "hi-ta",
+"src": "hi",
+"tgt": "ta",
+"concept": "mother"
+},
+{
+"pair": "hi-ta",
+"src": "hi",
+"tgt": "ta",
+"concept": "mountain"
+},
+{
+"pair": "hi-ta",
+"src": "hi",
+"tgt": "ta",
+"concept": "name"
+},
+{
+"pair": "hi-ta",
+"src": "hi",
+"tgt": "ta",
+"concept": "night"
+},
+{
+"pair": "hi-ta",
+"src": "hi",
+"tgt": "ta",
+"concept": "rain"
+},
+{
+"pair": "hi-ta",
+"src": "hi",
+"tgt": "ta",
+"concept": "river"
+},
+{
+"pair": "hi-ta",
+"src": "hi",
+"tgt": "ta",
+"concept": "road"
+},
+{
+"pair": "hi-ta",
+"src": "hi",
+"tgt": "ta",
+"concept": "salt"
+},
+{
+"pair": "hi-ta",
+"src": "hi",
+"tgt": "ta",
+"concept": "sky"
+},
+{
+"pair": "hi-ta",
+"src": "hi",
+"tgt": "ta",
+"concept": "star"
+},
+{
+"pair": "hi-ta",
+"src": "hi",
+"tgt": "ta",
+"concept": "sun"
+},
+{
+"pair": "hi-ta",
+"src": "hi",
+"tgt": "ta",
+"concept": "tooth"
+},
+{
+"pair": "hi-ta",
+"src": "hi",
+"tgt": "ta",
+"concept": "tree"
+},
+{
+"pair": "hi-ta",
+"src": "hi",
+"tgt": "ta",
+"concept": "village"
+},
+{
+"pair": "hi-ta",
+"src": "hi",
+"tgt": "ta",
+"concept": "water"
+},
+{
+"pair": "hi_latn-ta",
+"src": "hi_latn",
+"tgt": "ta",
+"concept": "bird"
+},
+{
+"pair": "hi_latn-ta",
+"src": "hi_latn",
+"tgt": "ta",
+"concept": "book"
+},
+{
+"pair": "hi_latn-ta",
+"src": "hi_latn",
+"tgt": "ta",
+"concept": "cat"
+},
+{
+"pair": "hi_latn-ta",
+"src": "hi_latn",
+"tgt": "ta",
+"concept": "cow"
+},
+{
+"pair": "hi_latn-ta",
+"src": "hi_latn",
+"tgt": "ta",
+"concept": "dog"
+},
+{
+"pair": "hi_latn-ta",
+"src": "hi_latn",
+"tgt": "ta",
+"concept": "eye"
+},
+{
+"pair": "hi_latn-ta",
+"src": "hi_latn",
+"tgt": "ta",
+"concept": "fire"
+},
+{
+"pair": "hi_latn-ta",
+"src": "hi_latn",
+"tgt": "ta",
+"concept": "fish"
+},
+{
+"pair": "hi_latn-ta",
+"src": "hi_latn",
+"tgt": "ta",
+"concept": "flower"
+},
+{
+"pair": "hi_latn-ta",
+"src": "hi_latn",
+"tgt": "ta",
+"concept": "gold"
+},
+{
+"pair": "hi_latn-ta",
+"src": "hi_latn",
+"tgt": "ta",
+"concept": "hand"
+},
+{
+"pair": "hi_latn-ta",
+"src": "hi_latn",
+"tgt": "ta",
+"concept": "heart"
+},
+{
+"pair": "hi_latn-ta",
+"src": "hi_latn",
+"tgt": "ta",
+"concept": "horse"
+},
+{
+"pair": "hi_latn-ta",
+"src": "hi_latn",
+"tgt": "ta",
+"concept": "house"
+},
+{
+"pair": "hi_latn-ta",
+"src": "hi_latn",
+"tgt": "ta",
+"concept": "king"
+},
+{
+"pair": "hi_latn-ta",
+"src": "hi_latn",
+"tgt": "ta",
+"concept": "milk"
+},
+{
+"pair": "hi_latn-ta",
+"src": "hi_latn",
+"tgt": "ta",
+"concept": "moon"
+},
+{
+"pair": "hi_latn-ta",
+"src": "hi_latn",
+"tgt": "ta",
+"concept": "mother"
+},
+{
+"pair": "hi_latn-ta",
+"src": "hi_latn",
+"tgt": "ta",
+"concept": "mountain"
+},
+{
+"pair": "hi_latn-ta",
+"src": "hi_latn",
+"tgt": "ta",
+"concept": "name"
+},
+{
+"pair": "hi_latn-ta",
+"src": "hi_latn",
+"tgt": "ta",
+"concept": "night"
+},
+{
+"pair": "hi_latn-ta",
+"src": "hi_latn",
+"tgt": "ta",
+"concept": "rain"
+},
+{
+"pair": "hi_latn-ta",
+"src": "hi_latn",
+"tgt": "ta",
+"concept": "river"
+},
+{
+"pair": "hi_latn-ta",
+"src": "hi_latn",
+"tgt": "ta",
+"concept": "road"
+},
+{
+"pair": "hi_latn-ta",
+"src": "hi_latn",
+"tgt": "ta",
+"concept": "salt"
+},
+{
+"pair": "hi_latn-ta",
+"src": "hi_latn",
+"tgt": "ta",
+"concept": "sky"
+},
+{
+"pair": "hi_latn-ta",
+"src": "hi_latn",
+"tgt": "ta",
+"concept": "star"
+},
+{
+"pair": "hi_latn-ta",
+"src": "hi_latn",
+"tgt": "ta",
+"concept": "sun"
+},
+{
+"pair": "hi_latn-ta",
+"src": "hi_latn",
+"tgt": "ta",
+"concept": "tooth"
+},
+{
+"pair": "hi_latn-ta",
+"src": "hi_latn",
+"tgt": "ta",
+"concept": "tree"
+},
+{
+"pair": "hi_latn-ta",
+"src": "hi_latn",
+"tgt": "ta",
+"concept": "village"
+},
+{
+"pair": "hi_latn-ta",
+"src": "hi_latn",
+"tgt": "ta",
+"concept": "water"
+},
+{
+"pair": "en-ta",
+"src": "en",
+"tgt": "ta",
+"concept": "bird"
+},
+{
+"pair": "en-ta",
+"src": "en",
+"tgt": "ta",
+"concept": "book"
+},
+{
+"pair": "en-ta",
+"src": "en",
+"tgt": "ta",
+"concept": "cat"
+},
+{
+"pair": "en-ta",
+"src": "en",
+"tgt": "ta",
+"concept": "cow"
+},
+{
+"pair": "en-ta",
+"src": "en",
+"tgt": "ta",
+"concept": "dog"
+},
+{
+"pair": "en-ta",
+"src": "en",
+"tgt": "ta",
+"concept": "eye"
+},
+{
+"pair": "en-ta",
+"src": "en",
+"tgt": "ta",
+"concept": "fire"
+},
+{
+"pair": "en-ta",
+"src": "en",
+"tgt": "ta",
+"concept": "fish"
+},
+{
+"pair": "en-ta",
+"src": "en",
+"tgt": "ta",
+"concept": "flower"
+},
+{
+"pair": "en-ta",
+"src": "en",
+"tgt": "ta",
+"concept": "gold"
+},
+{
+"pair": "en-ta",
+"src": "en",
+"tgt": "ta",
+"concept": "hand"
+},
+{
+"pair": "en-ta",
+"src": "en",
+"tgt": "ta",
+"concept": "heart"
+},
+{
+"pair": "en-ta",
+"src": "en",
+"tgt": "ta",
+"concept": "horse"
+},
+{
+"pair": "en-ta",
+"src": "en",
+"tgt": "ta",
+"concept": "house"
+},
+{
+"pair": "en-ta",
+"src": "en",
+"tgt": "ta",
+"concept": "king"
+},
+{
+"pair": "en-ta",
+"src": "en",
+"tgt": "ta",
+"concept": "milk"
+},
+{
+"pair": "en-ta",
+"src": "en",
+"tgt": "ta",
+"concept": "moon"
+},
+{
+"pair": "en-ta",
+"src": "en",
+"tgt": "ta",
+"concept": "mother"
+},
+{
+"pair": "en-ta",
+"src": "en",
+"tgt": "ta",
+"concept": "mountain"
+},
+{
+"pair": "en-ta",
+"src": "en",
+"tgt": "ta",
+"concept": "name"
+},
+{
+"pair": "en-ta",
+"src": "en",
+"tgt": "ta",
+"concept": "night"
+},
+{
+"pair": "en-ta",
+"src": "en",
+"tgt": "ta",
+"concept": "rain"
+},
+{
+"pair": "en-ta",
+"src": "en",
+"tgt": "ta",
+"concept": "river"
+},
+{
+"pair": "en-ta",
+"src": "en",
+"tgt": "ta",
+"concept": "road"
+},
+{
+"pair": "en-ta",
+"src": "en",
+"tgt": "ta",
+"concept": "salt"
+},
+{
+"pair": "en-ta",
+"src": "en",
+"tgt": "ta",
+"concept": "sky"
+},
+{
+"pair": "en-ta",
+"src": "en",
+"tgt": "ta",
+"concept": "star"
+},
+{
+"pair": "en-ta",
+"src": "en",
+"tgt": "ta",
+"concept": "sun"
+},
+{
+"pair": "en-ta",
+"src": "en",
+"tgt": "ta",
+"concept": "tooth"
+},
+{
+"pair": "en-ta",
+"src": "en",
+"tgt": "ta",
+"concept": "tree"
+},
+{
+"pair": "en-ta",
+"src": "en",
+"tgt": "ta",
+"concept": "village"
+},
+{
+"pair": "en-ta",
+"src": "en",
+"tgt": "ta",
+"concept": "water"
+},
+{
+"pair": "ta-en",
+"src": "ta",
+"tgt": "en",
+"concept": "bird"
+},
+{
+"pair": "ta-en",
+"src": "ta",
+"tgt": "en",
+"concept": "book"
+},
+{
+"pair": "ta-en",
+"src": "ta",
+"tgt": "en",
+"concept": "cat"
+},
+{
+"pair": "ta-en",
+"src": "ta",
+"tgt": "en",
+"concept": "cow"
+},
+{
+"pair": "ta-en",
+"src": "ta",
+"tgt": "en",
+"concept": "dog"
+},
+{
+"pair": "ta-en",
+"src": "ta",
+"tgt": "en",
+"concept": "eye"
+},
+{
+"pair": "ta-en",
+"src": "ta",
+"tgt": "en",
+"concept": "fire"
+},
+{
+"pair": "ta-en",
+"src": "ta",
+"tgt": "en",
+"concept": "fish"
+},
+{
+"pair": "ta-en",
+"src": "ta",
+"tgt": "en",
+"concept": "flower"
+},
+{
+"pair": "ta-en",
+"src": "ta",
+"tgt": "en",
+"concept": "gold"
+},
+{
+"pair": "ta-en",
+"src": "ta",
+"tgt": "en",
+"concept": "hand"
+},
+{
+"pair": "ta-en",
+"src": "ta",
+"tgt": "en",
+"concept": "heart"
+},
+{
+"pair": "ta-en",
+"src": "ta",
+"tgt": "en",
+"concept": "horse"
+},
+{
+"pair": "ta-en",
+"src": "ta",
+"tgt": "en",
+"concept": "house"
+},
+{
+"pair": "ta-en",
+"src": "ta",
+"tgt": "en",
+"concept": "king"
+},
+{
+"pair": "ta-en",
+"src": "ta",
+"tgt": "en",
+"concept": "milk"
+},
+{
+"pair": "ta-en",
+"src": "ta",
+"tgt": "en",
+"concept": "moon"
+},
+{
+"pair": "ta-en",
+"src": "ta",
+"tgt": "en",
+"concept": "mother"
+},
+{
+"pair": "ta-en",
+"src": "ta",
+"tgt": "en",
+"concept": "mountain"
+},
+{
+"pair": "ta-en",
+"src": "ta",
+"tgt": "en",
+"concept": "name"
+},
+{
+"pair": "ta-en",
+"src": "ta",
+"tgt": "en",
+"concept": "night"
+},
+{
+"pair": "ta-en",
+"src": "ta",
+"tgt": "en",
+"concept": "rain"
+},
+{
+"pair": "ta-en",
+"src": "ta",
+"tgt": "en",
+"concept": "river"
+},
+{
+"pair": "ta-en",
+"src": "ta",
+"tgt": "en",
+"concept": "road"
+},
+{
+"pair": "ta-en",
+"src": "ta",
+"tgt": "en",
+"concept": "salt"
+},
+{
+"pair": "ta-en",
+"src": "ta",
+"tgt": "en",
+"concept": "sky"
+},
+{
+"pair": "ta-en",
+"src": "ta",
+"tgt": "en",
+"concept": "star"
+},
+{
+"pair": "ta-en",
+"src": "ta",
+"tgt": "en",
+"concept": "sun"
+},
+{
+"pair": "ta-en",
+"src": "ta",
+"tgt": "en",
+"concept": "tooth"
+},
+{
+"pair": "ta-en",
+"src": "ta",
+"tgt": "en",
+"concept": "tree"
+},
+{
+"pair": "ta-en",
+"src": "ta",
+"tgt": "en",
+"concept": "village"
+},
+{
+"pair": "ta-en",
+"src": "ta",
+"tgt": "en",
+"concept": "water"
+}
+],
+"layers": [
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+10,
+11,
+12,
+13,
+14,
+15,
+16,
+17,
+18
+],
+"n_experts": 128,
+"top_k": 6
+}

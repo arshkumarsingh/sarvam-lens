@@ -1,0 +1,348 @@
+{
+ "usd_per_hour": 5.174,
+ "budget_minutes": 4.1,
+ "model_type": "sarvam_moe",
+ "stages": [
+  {
+   "stage": "load",
+   "est_minutes": 2,
+   "result": {
+    "model": "HFLensModel(SarvamMoEForCausalLM, n_layers=19, d_model=4096)",
+    "gpu_gb_allocated": 64.3,
+    "gpu_gb_by_device": {
+     "0": 64.3
+    },
+    "loading_info": {
+     "missing_keys": {
+      "n": 0,
+      "first": []
+     },
+     "unexpected_keys": {
+      "n": 0,
+      "first": []
+     },
+     "mismatched_keys": {
+      "n": 0,
+      "first": []
+     },
+     "error_msgs": {
+      "n": 0,
+      "first": []
+     }
+    }
+   },
+   "status": "ok",
+   "minutes": 0.58,
+   "log_tail": []
+  },
+  {
+   "stage": "newlang_experiment.misses",
+   "est_minutes": 2.58,
+   "result": {
+    "pairs": 12,
+    "lenses": [
+     "j_200p",
+     "logit"
+    ],
+    "band": [
+     13,
+     14,
+     15,
+     16
+    ],
+    "items": 339,
+    "kept": 99,
+    "by_group": [
+     {
+      "target": "ALL",
+      "from": "English",
+      "status": "kept",
+      "lens": "j_200p",
+      "items": 55,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 0.9864,
+      "target_top10": 0.0273,
+      "hindi_top10": 0.5864
+     },
+     {
+      "target": "ALL",
+      "from": "English",
+      "status": "kept",
+      "lens": "logit",
+      "items": 55,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 0.9091,
+      "target_top10": 0.0682,
+      "hindi_top10": 0.4864
+     },
+     {
+      "target": "ALL",
+      "from": "English",
+      "status": "missed",
+      "lens": "j_200p",
+      "items": 54,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 0.9722,
+      "target_top10": 0.0046,
+      "hindi_top10": 0.5741
+     },
+     {
+      "target": "ALL",
+      "from": "English",
+      "status": "missed",
+      "lens": "logit",
+      "items": 54,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 0.8843,
+      "target_top10": 0.0046,
+      "hindi_top10": 0.4213
+     },
+     {
+      "target": "ALL",
+      "from": "English",
+      "status": "missed: listed word (first-token miss)",
+      "lens": "j_200p",
+      "items": 2,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 1.0,
+      "target_top10": 0.0,
+      "hindi_top10": 1.0
+     },
+     {
+      "target": "ALL",
+      "from": "English",
+      "status": "missed: listed word (first-token miss)",
+      "lens": "logit",
+      "items": 2,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 1.0,
+      "target_top10": 0.0,
+      "hindi_top10": 0.75
+     },
+     {
+      "target": "ALL",
+      "from": "English",
+      "status": "missed: neighbour language",
+      "lens": "j_200p",
+      "items": 5,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 1.0,
+      "target_top10": 0.0,
+      "hindi_top10": 0.5
+     },
+     {
+      "target": "ALL",
+      "from": "English",
+      "status": "missed: neighbour language",
+      "lens": "logit",
+      "items": 5,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 0.95,
+      "target_top10": 0.0,
+      "hindi_top10": 0.3
+     },
+     {
+      "target": "ALL",
+      "from": "English",
+      "status": "missed: target script, unlisted",
+      "lens": "j_200p",
+      "items": 47,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 0.9681,
+      "target_top10": 0.0053,
+      "hindi_top10": 0.5638
+     },
+     {
+      "target": "ALL",
+      "from": "English",
+      "status": "missed: target script, unlisted",
+      "lens": "logit",
+      "items": 47,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 0.8723,
+      "target_top10": 0.0053,
+      "hindi_top10": 0.4202
+     },
+     {
+      "target": "ALL",
+      "from": "Indian/world",
+      "status": "kept",
+      "lens": "j_200p",
+      "items": 44,
+      "english_top10": 0.9602,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 0.142,
+      "target_top10": 0.0852,
+      "hindi_top10": 0.5682
+     },
+     {
+      "target": "ALL",
+      "from": "Indian/world",
+      "status": "kept",
+      "lens": "logit",
+      "items": 44,
+      "english_top10": 0.8068,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 0.1705,
+      "target_top10": 0.142,
+      "hindi_top10": 0.392
+     },
+     {
+      "target": "ALL",
+      "from": "Indian/world",
+      "status": "missed",
+      "lens": "j_200p",
+      "items": 178,
+      "english_top10": 0.882,
+      "english_shuffled_top10": 0.0126,
+      "source_top10": 0.125,
+      "target_top10": 0.0056,
+      "hindi_top10": 0.4087
+     },
+     {
+      "target": "ALL",
+      "from": "Indian/world",
+      "status": "missed",
+      "lens": "logit",
+      "items": 178,
+      "english_top10": 0.6896,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 0.1306,
+      "target_top10": 0.0211,
+      "hindi_top10": 0.2907
+     },
+     {
+      "target": "ALL",
+      "from": "Indian/world",
+      "status": "missed: listed word (first-token miss)",
+      "lens": "j_200p",
+      "items": 1,
+      "english_top10": 1.0,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 0.0,
+      "target_top10": 0.0,
+      "hindi_top10": 0.75
+     },
+     {
+      "target": "ALL",
+      "from": "Indian/world",
+      "status": "missed: listed word (first-token miss)",
+      "lens": "logit",
+      "items": 1,
+      "english_top10": 1.0,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 0.0,
+      "target_top10": 0.0,
+      "hindi_top10": 0.75
+     },
+     {
+      "target": "ALL",
+      "from": "Indian/world",
+      "status": "missed: neighbour language",
+      "lens": "j_200p",
+      "items": 24,
+      "english_top10": 0.9688,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 0.1562,
+      "target_top10": 0.0104,
+      "hindi_top10": 0.3958
+     },
+     {
+      "target": "ALL",
+      "from": "Indian/world",
+      "status": "missed: neighbour language",
+      "lens": "logit",
+      "items": 24,
+      "english_top10": 0.8125,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 0.1354,
+      "target_top10": 0.0,
+      "hindi_top10": 0.2083
+     },
+     {
+      "target": "ALL",
+      "from": "Indian/world",
+      "status": "missed: other",
+      "lens": "j_200p",
+      "items": 4,
+      "english_top10": 0.9375,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 0.25,
+      "target_top10": 0.0,
+      "hindi_top10": 0.625
+     },
+     {
+      "target": "ALL",
+      "from": "Indian/world",
+      "status": "missed: other",
+      "lens": "logit",
+      "items": 4,
+      "english_top10": 0.75,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 0.1875,
+      "target_top10": 0.0,
+      "hindi_top10": 0.4375
+     },
+     {
+      "target": "ALL",
+      "from": "Indian/world",
+      "status": "missed: source copy",
+      "lens": "j_200p",
+      "items": 104,
+      "english_top10": 0.8894,
+      "english_shuffled_top10": 0.0024,
+      "source_top10": 0.113,
+      "target_top10": 0.0048,
+      "hindi_top10": 0.4399
+     },
+     {
+      "target": "ALL",
+      "from": "Indian/world",
+      "status": "missed: source copy",
+      "lens": "logit",
+      "items": 104,
+      "english_top10": 0.7019,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 0.113,
+      "target_top10": 0.0337,
+      "hindi_top10": 0.3245
+     },
+     {
+      "target": "ALL",
+      "from": "Indian/world",
+      "status": "missed: target script, unlisted",
+      "lens": "j_200p",
+      "items": 45,
+      "english_top10": 0.8111,
+      "english_shuffled_top10": 0.0444,
+      "source_top10": 0.1278,
+      "target_top10": 0.0056,
+      "hindi_top10": 0.3167
+     },
+     {
+      "target": "ALL",
+      "from": "Indian/world",
+      "status": "missed: target script, unlisted",
+      "lens": "logit",
+      "items": 45,
+      "english_top10": 0.5833,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 0.1667,
+      "target_top10": 0.0056,
+      "hindi_top10": 0.2333
+     }
+    ]
+   },
+   "status": "ok",
+   "minutes": 2.27,
+   "log_tail": [
+    "newlang: 331 items to read over 12 pairs (8 skipped: target tokens all shared)",
+    "newlang: read 16 / 331 items",
+    "newlang: read 331 / 331 items"
+   ]
+  }
+ ],
+ "elapsed_minutes": 3.04,
+ "est_cost_usd_so_far": 0.26,
+ "done": true
+}

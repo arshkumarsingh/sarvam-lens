@@ -1,0 +1,120 @@
+{
+ "usd_per_hour": 5.174,
+ "budget_minutes": 9.0,
+ "model_type": null,
+ "stages": [
+  {
+   "stage": "load",
+   "est_minutes": 2,
+   "result": {
+    "model": "HFLensModel(Qwen3_5MoeForCausalLM, n_layers=40, d_model=2048)",
+    "gpu_gb_allocated": 69.3,
+    "gpu_gb_by_device": {
+     "0": 69.3
+    },
+    "loading_info": {}
+   },
+   "status": "ok",
+   "minutes": 0.5,
+   "log_tail": []
+  },
+  {
+   "stage": "pivot_ext",
+   "est_minutes": 3.74,
+   "result": {
+    "exit": 0,
+    "lenses": [
+     "logit",
+     "/vol/ext_lenses/qwen3.6-35b-a3b/j-lens/lens.pt"
+    ],
+    "missing": [],
+    "items_kept": "363/448",
+    "all_indic_peak_top10_and_prob": {
+     "lens": {
+      "target": [
+       0.9066147859922179,
+       0.23794942174866934
+      ],
+      "english": [
+       0.9571984435797666,
+       0.6060781736098148
+      ],
+      "hindi": [
+       0.19066147859922178,
+       0.011614155795890705
+      ],
+      "source": [
+       0.058365758754863814,
+       0.0022650154077723528
+      ],
+      "chinese": [
+       0.8754863813229572,
+       0.19484530195202412
+      ],
+      "english_shuffled": [
+       0.0,
+       9.084698660036844e-05
+      ],
+      "hindi_shuffled": [
+       0.0038910505836575876,
+       7.710870130657352e-05
+      ],
+      "chinese_shuffled": [
+       0.0,
+       2.0288310764822847e-05
+      ]
+     },
+     "logit": {
+      "target": [
+       0.9066147859922179,
+       0.23794942174866934
+      ],
+      "english": [
+       0.933852140077821,
+       0.46113031991518194
+      ],
+      "hindi": [
+       0.19066147859922178,
+       0.012265816058820002
+      ],
+      "source": [
+       0.058365758754863814,
+       0.0022650154077723528
+      ],
+      "chinese": [
+       0.9221789883268483,
+       0.15298616688651342
+      ],
+      "english_shuffled": [
+       0.0038910505836575876,
+       0.0001302495332767599
+      ],
+      "hindi_shuffled": [
+       0.0038910505836575876,
+       7.710870130657352e-05
+      ],
+      "chinese_shuffled": [
+       0.0,
+       4.033896018011366e-05
+      ]
+     }
+    }
+   },
+   "status": "ok",
+   "minutes": 5.67,
+   "log_tail": [
+    "pivot: ta-bn: kept 31 items",
+    "pivot: te-gu: kept 28 items",
+    "pivot: hi-ta: kept 26 items",
+    "pivot: hi_latn-ta: kept 26 items",
+    "pivot: en-ta: kept 24 items",
+    "pivot: ta-en: kept 30 items",
+    "matplotlib.font_manager: generated new fontManager",
+    "pivot: kept 363 / 448 items; wrote /vol/runs/qwen_j/pivot_ext"
+   ]
+  }
+ ],
+ "elapsed_minutes": 6.34,
+ "est_cost_usd_so_far": 0.55,
+ "done": true
+}

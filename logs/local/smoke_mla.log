@@ -1,0 +1,90 @@
+workdir: %TEMP%\jl\mla_smoke3
+1. imports
+  ok   105B and 30B code side by side (sarvam_hub_sarvam_mla.modeling_sarvam_moe, sarvam_moe_hub_code.modeling_sarvam_moe)
+  ok   tied-weights shim maps lm_head to embed_tokens
+[transformers] Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='deepseek_yarn'
+[transformers] Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='deepseek_yarn'
+[transformers] SarvamMLAForCausalLM has generative capabilities, as `prepare_inputs_for_generation` is explicitly defined. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
+  - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
+  - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).
+  - If you are not the owner of the model architecture class, please contact the model code owner to update it.
+[transformers] Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='deepseek_yarn'
+[transformers] Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='deepseek_yarn'
+[transformers] Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='deepseek_yarn'
+[transformers] Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='deepseek_yarn'
+[transformers] Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='deepseek_yarn'
+[transformers] SarvamMLAForCausalLM has generative capabilities, as `prepare_inputs_for_generation` is explicitly defined. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
+  - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
+  - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).
+  - If you are not the owner of the model architecture class, please contact the model code owner to update it.
+2. adapter
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  9.59it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  9.59it/s]
+[transformers] `use_return_dict` is deprecated! Use `return_dict` instead!
+%TEMP%\jl\jppenv\Lib\site-packages\transformers\modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+%TEMP%\jl\jppenv\Lib\site-packages\transformers\modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+  ok   checkpoint detected as sarvam_mla
+[transformers] Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='deepseek_yarn'
+[transformers] Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='deepseek_yarn'
+[transformers] Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='deepseek_yarn'
+[transformers] Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='deepseek_yarn'
+[transformers] SarvamMLAForCausalLM has generative capabilities, as `prepare_inputs_for_generation` is explicitly defined. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
+  - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
+  - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).
+  - If you are not the owner of the model architecture class, please contact the model code owner to update it.
+Loading weights:   0%|          | 0/121 [00:00<?, ?it/s]Loading weights: 100%|██████████| 121/121 [00:00<00:00, 6780.64it/s]
+[transformers] SarvamMLAForCausalLM has generative capabilities, as `prepare_inputs_for_generation` is explicitly defined. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
+  - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
+  - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).
+  - If you are not the owner of the model architecture class, please contact the model code owner to update it.
+[transformers] You are using a model of type `sarvam_mla` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+[transformers] PreTrainedConfig got `key=rope_scaling` in kwargs but hasn't set it as attribute. For RoPE standardization you need to set `self.rope_parameters` in model's config. 
+[transformers] Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='deepseek_yarn'
+  ok   sdpa request forced to eager (eager)
+  ok   no missing/unexpected/mismatched weights (dict_keys(['missing_keys', 'unexpected_keys', 'mismatched_keys', 'error_msgs']))
+  ok   jlens layout auto-detected: HFLensModel(SarvamMLAForCausalLM, n_layers=4, d_model=64)
+  ok   BOS prefixes per mode (same tokenizer as the 30B): {'hf': ['<bos>', 'पानी'], 'chat': ['<bos>', '[@BOS@]', '\n'], 'sarvam_bos': ['[@BOS@]', 'पानी']}
+  ok   save/load round trip: logits match the in-memory model
+3. RoPE runtime check
+  ok   RoPE caches match config.json: {'layers_checked': 4, 'cos_max_abs_diff': 0.0, 'softmax_scale': 0.382499}
+  ok   RoPE check fails loudly on a corrupted cache
+  ok   RoPE check catches a wrong attention temperature (YaRN mscale)
+4. logit-lens ablation directions
+  ok   logit-lens directions are g * W_U rows
+  ok   subspace basis is orthonormal (d x k)
+[transformers] Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='deepseek_yarn'
+[transformers] Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='deepseek_yarn'
+[transformers] Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='deepseek_yarn'
+[transformers] Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='deepseek_yarn'
+[transformers] SarvamMLAForCausalLM has generative capabilities, as `prepare_inputs_for_generation` is explicitly defined. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
+  - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
+  - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).
+  - If you are not the owner of the model architecture class, please contact the model code owner to update it.
+5. pilot stages (CPU, fp32)
+Loading weights:   0%|          | 0/121 [00:00<?, ?it/s]Loading weights: 100%|██████████| 121/121 [00:00<00:00, 5106.00it/s]
+[transformers] SarvamMLAForCausalLM has generative capabilities, as `prepare_inputs_for_generation` is explicitly defined. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
+  - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
+  - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).
+  - If you are not the owner of the model architecture class, please contact the model code owner to update it.
+[transformers] You are using a model of type `sarvam_mla` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+[transformers] PreTrainedConfig got `key=rope_scaling` in kwargs but hasn't set it as attribute. For RoPE standardization you need to set `self.rope_parameters` in model's config. 
+[transformers] Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='deepseek_yarn'
+%TEMP%\jl\jppenv\Lib\site-packages\transformers\modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+%TEMP%\jl\jppenv\Lib\site-packages\transformers\modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+  ok   stage load: ok
+  ok   stage sanity: ok
+  ok   stage bos_probe: ok
+  ok   stage pivot_logit: ok
+  ok   stage causal_logit: ok
+  ok   sanity: RoPE checked, LRP skipped, 0.188 s/forward
+  ok   bos_probe ran only the requested modes (['chat', 'sarvam_bos'])
+  ok   a random model trips the BOS stop rule (best BOS-probe accuracy 0.0 < 0.6: the model is broken); ignored in smoke mode
+  ok   pivot_logit: kept 42/45
+  ok   causal_logit: 64 items, mid [2], early [1] (fallback fractions)
+  ok   report has a price and no stop rule fired (smoke)
+
+ALL CHECKS PASSED  (artifacts in %TEMP%\jl\mla_smoke3)
+exit 0

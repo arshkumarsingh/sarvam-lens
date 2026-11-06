@@ -1,0 +1,23 @@
+# concept: road
+# page: road
+# revid: 92953670
+# section_url: https://en.wiktionary.org/w/index.php?title=road&action=raw&section=10
+## block: {{trans-top-see|a way for travel|route|street|path|way|track}}
+* Assamese: {{t|as|বাট}}, {{t|as|আলি}}, {{t|as|ৰাস্তা}}
+* Odia: {{t+|or|ରାସ୍ତା}}
+* Punjabi: {{t+|pa|ਸੜਕ|f}}, {{t|pa|ਰਸਤਾ|m}}
+* Urdu: {{t|ur|سَڑَک|f}}, {{t|ur|راسْتَہ|m}}, {{t|ur|جادَہ|m}}
+* Nepali: {{t|ne|सडक}}
+* Sanskrit: {{t+|sa|मार्ग|m}}, {{t+|sa|पथ|m}}
+MISSING Maithili
+MISSING Sindhi
+MISSING Kashmiri
+MISSING Konkani
+MISSING Dogri
+MISSING Manipuri
+MISSING Bodo
+MISSING Santali
+* Japanese: {{t+|ja|道|tr=みち, michi}}, {{t+|ja|道路|tr=どうろ, dōro}}
+* Russian: {{t+|ru|доро́га|f}}, {{t+|ru|путь|m}}
+* Arabic: {{t+|ar|طَرِيق|m|f}} ({{t+|ar|طُرُق|m-p}}), {{t|ar|سِكَّة|f}}
+* Hindi: {{t+|hi|सड़क|f}}, {{t+|hi|रास्ता|m}}, {{t+|hi|मार्ग|m}},  {{t+|hi|पथ|m}}

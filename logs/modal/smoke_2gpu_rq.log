@@ -1,0 +1,70 @@
+✓ Initialized. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-vOdYBD5CDnBOuQBy1KQ4js
+✓ Created objects.
+├── ✓ Uploaded .\code\modal_app.py
+├── ✓ Uploaded .\code
+├── ✓ Created Function prepare_weights.
+├── ✓ Created Function smoke.
+├── ✓ Created Function smoke_2gpu.
+├── ✓ Created Function prepare_qwen.
+├── ✓ Created Function cka.
+├── ✓ Created Function pilot.
+├── ✓ Created Function pilot2.
+├── ✓ Created Function merge_j.
+├── ✓ Created Function cka_robust.
+└── ✓ Created Function diagnose.
+hard timeout 15 min -> worst case $0.44
+{
+ "mla_smoke_2gpu": "passed",
+ "checks": [
+  "  ok   105B and 30B code side by side (sarvam_hub_sarvam_mla.modeling_sarvam_moe, sarvam_moe_hub_code.modeling_sarvam_moe)",
+  "  ok   tied-weights shim maps lm_head to embed_tokens",
+  "  ok   checkpoint detected as sarvam_mla",
+  "  ok   sdpa request forced to eager (eager)",
+  "  ok   no missing/unexpected/mismatched weights (dict_keys(['missing_keys', 'unexpected_keys', 'mismatched_keys', 'error_msgs']))",
+  "  ok   jlens layout auto-detected: HFLensModel(SarvamMLAForCausalLM, n_layers=4, d_model=64)",
+  "  ok   BOS prefixes per mode (same tokenizer as the 30B): {'hf': ['<bos>', 'पानी'], 'chat': ['<bos>', '[@BOS@]', '\\n'], 'sarvam_bos': ['[@BOS@]', 'पानी']}",
+  "  ok   save/load round trip: logits match the in-memory model",
+  "  ok   RoPE caches match config.json: {'layers_checked': 4, 'cos_max_abs_diff': 0.0, 'softmax_scale': 0.382499}",
+  "  ok   RoPE check fails loudly on a corrupted cache",
+  "  ok   RoPE check catches a wrong attention temperature (YaRN mscale)",
+  "  ok   logit-lens directions are g * W_U rows",
+  "  ok   subspace basis is orthonormal (d x k)",
+  "  ok   2 GPUs visible",
+  "  ok   stage load: ok",
+  "  ok   stage sanity: ok",
+  "  ok   stage bos_probe: ok",
+  "  ok   stage pivot_logit: ok",
+  "  ok   stage causal_logit: ok",
+  "  ok   stage rq_chat_word_src: ok",
+  "  ok   stage rq_chat_sentence: ok",
+  "  ok   stage rq_chat_word_en: ok",
+  "  ok   stage rq_collapse: ok",
+  "  ok   stage rq_cloze: ok",
+  "  ok   stage rq_zh: ok",
+  "  ok   stage causal_steer: ok",
+  "  ok   stage rq_think: ok",
+  "  ok   model split over 2 GPUs: {'0': 3, '1': 4}",
+  "  ok   sanity: RoPE checked, LRP skipped, 0.028 s/forward",
+  "  ok   bos_probe ran only the requested modes (['chat', 'sarvam_bos'])",
+  "  ok   a random model trips the BOS stop rule (best BOS-probe accuracy 0.0 < 0.6: the model is broken); ignored in smoke mode",
+  "  ok   pivot_logit: kept 42/45",
+  "  ok   causal_logit: 64 items, mid [2], early [1] (fallback fractions)",
+  "  ok   rq_chat_word_src: 28/31 items, steps {None: 28}",
+  "  ok   rq_chat_sentence: 24/24 items, steps {None: 24}",
+  "  ok   rq_chat_word_en: 28/31 items, steps {None: 28}",
+  "  ok   rq_cloze: 8/8 items, steps {None: 8}",
+  "  ok   rq_collapse: homonyms {'target': 0.0, 'sibling': 0.0, 'control': 0.0, 'other': 1.0}, kinship n 32",
+  "  ok   rq_zh: {'ta-zh': '0/32', 'en-zh': '0/32'}",
+  "  ok   causal_steer: 32 items, alphas 1/2/3",
+  "  ok   rq_think: 1 item(s), 6.0 tokens (KV-cached)",
+  "  ok   report has a price and no stop rule fired (smoke)",
+  "ALL CHECKS PASSED  (artifacts in /tmp/smoke_mla)"
+ ],
+ "stdout_tail": "_mla\n1. imports\n  ok   105B and 30B code side by side (sarvam_hub_sarvam_mla.modeling_sarvam_moe, sarvam_moe_hub_code.modeling_sarvam_moe)\n  ok   tied-weights shim maps lm_head to embed_tokens\n2. adapter\n  ok   checkpoint detected as sarvam_mla\n  ok   sdpa request forced to eager (eager)\n  ok   no missing/unexpected/mismatched weights (dict_keys(['missing_keys', 'unexpected_keys', 'mismatched_keys', 'error_msgs']))\n  ok   jlens layout auto-detected: HFLensModel(SarvamMLAForCausalLM, n_layers=4, d_model=64)\n  ok   BOS prefixes per mode (same tokenizer as the 30B): {'hf': ['<bos>', 'पानी'], 'chat': ['<bos>', '[@BOS@]', '\\n'], 'sarvam_bos': ['[@BOS@]', 'पानी']}\n  ok   save/load round trip: logits match the in-memory model\n3. RoPE runtime check\n  ok   RoPE caches match config.json: {'layers_checked': 4, 'cos_max_abs_diff': 0.0, 'softmax_scale': 0.382499}\n  ok   RoPE check fails loudly on a corrupted cache\n  ok   RoPE check catches a wrong attention temperature (YaRN mscale)\n4. logit-lens ablation directions\n  ok   logit-lens directions are g * W_U rows\n  ok   subspace basis is orthonormal (d x k)\n5. pilot stages (2 GPUs, bf16)\n  ok   2 GPUs visible\n  ok   stage load: ok\n  ok   stage sanity: ok\n  ok   stage bos_probe: ok\n  ok   stage pivot_logit: ok\n  ok   stage causal_logit: ok\n  ok   stage rq_chat_word_src: ok\n  ok   stage rq_chat_sentence: ok\n  ok   stage rq_chat_word_en: ok\n  ok   stage rq_collapse: ok\n  ok   stage rq_cloze: ok\n  ok   stage rq_zh: ok\n  ok   stage causal_steer: ok\n  ok   stage rq_think: ok\n  ok   model split over 2 GPUs: {'0': 3, '1': 4}\n  ok   sanity: RoPE checked, LRP skipped, 0.028 s/forward\n  ok   bos_probe ran only the requested modes (['chat', 'sarvam_bos'])\n  ok   a random model trips the BOS stop rule (best BOS-probe accuracy 0.0 < 0.6: the model is broken); ignored in smoke mode\n  ok   pivot_logit: kept 42/45\n  ok   causal_logit: 64 items, mid [2], early [1] (fallback fractions)\n  ok   rq_chat_word_src: 28/31 items, steps {None: 28}\n  ok   rq_chat_sentence: 24/24 items, steps {None: 24}\n  ok   rq_chat_word_en: 28/31 items, steps {None: 28}\n  ok   rq_cloze: 8/8 items, steps {None: 8}\n  ok   rq_collapse: homonyms {'target': 0.0, 'sibling': 0.0, 'control': 0.0, 'other': 1.0}, kinship n 32\n  ok   rq_zh: {'ta-zh': '0/32', 'en-zh': '0/32'}\n  ok   causal_steer: 32 items, alphas 1/2/3\n  ok   rq_think: 1 item(s), 6.0 tokens (KV-cached)\n  ok   report has a price and no stop rule fired (smoke)\n\nALL CHECKS PASSED  (artifacts in /tmp/smoke_mla)\n",
+ "stderr_tail": ""
+}
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-vOdYBD5CDnBOuQBy1KQ4js
+exit 0

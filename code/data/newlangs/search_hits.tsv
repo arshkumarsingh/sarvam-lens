@@ -1,0 +1,67 @@
+lang	concept	word	page_title	revid	definition	note
+kok	fire	उजो	उजो	83792472	# [[fire]]	single candidate
+kok	moon	चन्द्र	चन्द्र	93635752	# the [[Moon]]	Konkani section of multi-language page (definition read from search snippet of wikitext)
+kok	tree	झाड	झाड	92464305	# {{l|en|tree}}	Konkani section of multi-language page (definition read from search snippet of wikitext)
+kok	flower	फूल	फूल	92463384	# [[flower]]	Konkani section of multi-language page (definition read from search snippet of wikitext)
+kok	bird	पक्षी	पक्षी	91927843	# [[bird]]	three candidates (पक्षी, सुकणें, सवणें); Konkani section of multi-language page (search snippet)
+kok	bird	सुकणें	सुकणें	78227838	# [[bird]]	three candidates; lists synonym पक्षी
+kok	bird	सवणें	सवणें	76141370	# a [[bird]]	three candidates
+kok	house	घर	घर	90910492	# [[house]]	Konkani section of multi-language page (definition read from search snippet of wikitext)
+kok	mother	आवय	आवय	80497453	# [[mother]]	primary candidate; lists synonyms मांय, जननी, माता
+kok	mother	मांय	मांय	85012037	# {{lb|kok|Catholic}} [[mother]] // # [[mother-in-law]]	second candidate; labelled Catholic
+kok	river	न्हंय	न्हंय	85390130	# [[river]]	single candidate
+kok	mountain	दोंगर	दोंगर	81456233	# [[mountain]] // # [[cliff]]	single candidate
+kok	night	रात	रात	91483650	# [[night]]	Konkani section of multi-language page (definition read from search snippet of wikitext)
+kok	heart	हड्डें	हड्डें	80991961	# {{lb|kok|anatomy}} [[heart]]	only candidate found; the page lists synonyms छाती, वक्षस्थळ, ऊर
+kok	village	गांव	गांव	87509330	# [[village]]	primary candidate; lists synonyms नाड, ग्राम, हळ्ळि (definition read from search snippet)
+kok	village	नाड	नाड	76483694	# [[village]] // # {{lb|kok|figurative}} [[villa]]	second candidate
+kok	village	हळ्ळि	हळ्ळि	81450921	# [[village]]	third candidate
+kok	king					not found
+kok	star					not found
+kok	tooth					not found
+kok	name	नाव	नाव	92463382	# [[name]]	two candidates (नाव, नाम); Konkani section of multi-language page (search snippet)
+kok	name	नाम	नाम	92458168	# [[name]] // # {{lb|kok|grammar}} [[noun]]	two candidates; Konkani section of multi-language page (search snippet)
+kok	road	रस्तो	रस्तो	87533515	# [[road]]	primary candidate; Konkani section of page that also has Hindi
+kok	road	वाट	वाट	93635902	# [[way]], [[road]], [[path]]	other candidate; Konkani section of multi-language page (search snippet)
+kok	road	पथ	पथ	93636619	# [[way]], [[road]], [[path]]	other candidate; Konkani section of multi-language page (search snippet)
+kok	road	बिदि	बिदि	81486241	# {{lb|kok|Canara}} [[road]]	other candidate; labelled Canara (regional)
+ks	moon	زوٗن	زوٗن	91072616	# [[moon]], [[moonlight]] // # [[egg yolk]]	Noun section; the same page also has a Proper noun section "# [[Moon]]"
+ks	tree	کُل	کُل	89366614	# a [[tree]]	primary candidate
+ks	tree	ورَٛکھ	व्रख	63508047	# a [[tree]]	alt script form from {{ks-script-box}} on Devanagari page व्रख; no Perso-Arabic page exists
+ks	flower	گُل	گُل	89824909	# [[flower]]	two candidates (گُل, پوش); each lists the other as synonym
+ks	flower	پوش	پوش	93665634	# [[flower]]	two candidates
+ks	book	کِتاب	کِتاب	89710323	# [[book]]	three candidates (کِتاب, پوٗتھ, پوٗتھؠ)
+ks	book	پوٗتھ	پوٗتھ	85532585	# a [[book]] // # a [[manuscript]]	three candidates
+ks	book	پوٗتھؠ	پوٗتھؠ	90807443	# [[book]] // # a [[manuscript]]	three candidates
+ks	river					not found; river/translations lists Kashmiri only in Devanagari (नदी) and no Kashmiri entry exists for it
+ks	heart	وٲلِنٛج	وٲلِنٛج	83970115	# [[heart]]	candidates: وٲلِنٛج / وٲنِج (listed as alternative forms of each other), وۄندٕ
+ks	heart	وٲنِج	وٲنِج	84000065	# [[heart]]	alternative form of وٲلِنٛج
+ks	heart	وۄندٕ	व्वंदॖ	79450649	# [[heart]] // # [[feelings]] // # a person's inner [[intention]] // # [[determination]] // # [[resolve]] // # [[character]] // # a person's [[innate]] [[disposition]] // # [[imagination]]	alt script form from pa= in {{ks-noun}} on Devanagari page व्वंदॖ; no Perso-Arabic page exists
+ks	village	گام	گام	93354348	# [[village]]	Kashmiri section of multi-language page
+ks	king	رازٕ	رازٕ	63587528	# a [[king]]	single candidate
+ks	star	تارُکھ	تارُکھ	89566894	# a [[star]]	single candidate
+ks	tooth	دَنٛد	دَنٛد	91059800	# a [[tooth]], [[teeth]] // # the [[tusk]] of an elephant	single candidate
+ks	road	وَتھ	وَتھ	91957452	# a [[road]] // # a [[way]] // # a [[path]] // # a [[route]] // # a [[course]] // # a [[manner]] // # a [[teaching]], an [[instruction]]	page lists synonym سَڑَک (t=road); no entry fetched for it
+mni	cat	ꯍꯧꯗꯣꯡ	ꯍꯧꯗꯣꯡ	64612003	# [[cat]].	single candidate
+mni	house	ꯌꯨꯝ	ꯌꯨꯝ	83376391	# [[house]] // # [[residence]]	single candidate
+mni	book					not found; book/translations has {{t-needed|mni}}
+mni	milk	ꯈꯣꯝ	ꯈꯣꯝ	83407620	# [[milk]] // # [[breast]]	Etymology 1 noun (Etymology 2 is a verb "to collect")
+mni	village	ꯈꯨꯟ	ꯈꯨꯟ	83421407	# [[village]].	two candidates; ꯈꯨꯟ and ꯈꯨꯜ list each other as alternative forms
+mni	village	ꯈꯨꯜ	ꯈꯨꯜ	83393853	# [[village]].	alternative form of ꯈꯨꯟ
+mni	king	ꯅꯤꯡꯊꯧ	ꯅꯤꯡꯊꯧ	83373694	# [[king]]	single candidate
+mni	horse	ꯁꯒꯣꯜ	ꯁꯒꯣꯜ	77749421	# [[horse]]	single candidate
+mni	cow	ꯁꯟ	ꯁꯟ	80002172	# [[cow]], [[ox]]	single candidate
+mni	gold	ꯁꯅꯥ	ꯁꯅꯥ	69816197	# [[gold]]	single candidate
+sd	village	ڳوٺ	ڳوٺ	89467871	# [[village]], [[town]], one's [[native]] [[place]] // # [[pasture]]	headword in {{sd-noun}} is vocalised ڳوٺُ
+sd	tooth	ڏند	ڏند	91054656	# {{lb|sd|anatomy}} [[tooth]]	headword in {{sd-noun}} is vocalised ڏَندُ
+sd	road	رستو	رستو	89702930	# [[road]], [[way]]	headword in {{sd-noun}} is vocalised رَسْتو
+sat	house	ᱚᱲᱟᱜ	ᱚᱲᱟᱜ	51406780	# [[home]], [[house]]	single candidate
+sat	book	ᱯᱚᱛᱚᱵ	ᱯᱚᱛᱚᱵ	50258681	# [[book]]	three candidates (ᱯᱚᱛᱚᱵ, ᱯᱚᱛᱚᱰ, ᱯᱩᱛᱷᱤ)
+sat	book	ᱯᱚᱛᱚᱰ	ᱯᱚᱛᱚᱰ	77739530	# [[book]]	three candidates
+sat	book	ᱯᱩᱛᱷᱤ	ᱯᱩᱛᱷᱤ	77739552	# [[book]]	three candidates
+sat	horse	ᱥᱚᱫᱳᱢ	ᱥᱚᱫᱳᱢ	81791301	# [[horse]]	page lists alternative form ᱥᱟᱫᱚᱢ (not fetched)
+sat	cow	ᱜᱟᱤ	ᱜᱟᱤ	75485546	# [[cow]]	three candidates (ᱜᱟᱤ, ᱜᱟᱹᱭ, ᱰᱟᱝᱨᱟ)
+sat	cow	ᱜᱟᱹᱭ	ᱜᱟᱹᱭ	68881083	# [[cow]]	three candidates; lists synonym ᱰᱟᱝᱨᱟ
+sat	cow	ᱰᱟᱝᱨᱟ	ᱰᱟᱝᱨᱟ	54312324	# [[cattle]], [[cow]]	three candidates; primary sense is cattle
+sat	gold	ᱥᱳᱱᱚ	ᱥᱳᱱᱚ	81791403	# [[gold]]	two candidates (ᱥᱳᱱᱚ, ᱥᱚᱱᱟ)
+sat	gold	ᱥᱚᱱᱟ	ᱥᱚᱱᱟ	81791309	# [[gold]]	two candidates

@@ -1,0 +1,342 @@
+{
+ "usd_per_hour": 5.174,
+ "budget_minutes": 12.0,
+ "model_type": "sarvam_moe",
+ "stages": [
+  {
+   "stage": "load",
+   "est_minutes": 2,
+   "result": {
+    "model": "HFLensModel(SarvamMoEForCausalLM, n_layers=19, d_model=4096)",
+    "gpu_gb_allocated": 64.3,
+    "gpu_gb_by_device": {
+     "0": 64.3
+    },
+    "loading_info": {
+     "missing_keys": {
+      "n": 0,
+      "first": []
+     },
+     "unexpected_keys": {
+      "n": 0,
+      "first": []
+     },
+     "mismatched_keys": {
+      "n": 0,
+      "first": []
+     },
+     "error_msgs": {
+      "n": 0,
+      "first": []
+     }
+    }
+   },
+   "status": "ok",
+   "minutes": 1.24,
+   "log_tail": []
+  },
+  {
+   "stage": "sanity",
+   "est_minutes": 1.12,
+   "result": {
+    "bos_first": true,
+    "n_tokens": 19,
+    "stock_rerun_max_abs_diff": 0.0,
+    "rlens": {
+     "max_abs_diff": 0.0,
+     "stock_abs_max": 123.0,
+     "patched": {
+      "ln_rule": 39,
+      "mlp_rule": 19,
+      "routed_experts": 0,
+      "moe_blocks": 0
+     }
+    },
+    "r+moe": {
+     "max_abs_diff": 0.0,
+     "stock_abs_max": 123.0,
+     "patched": {
+      "ln_rule": 39,
+      "mlp_rule": 19,
+      "routed_experts": 2304,
+      "moe_blocks": 18
+     }
+    },
+    "seconds_per_forward": 0.11,
+    "timing_prompt_tokens": 101,
+    "greedy": {
+     "हिन्दी: \"पानी\" - English: \"": "water\".\n\nThe user wants a function that takes a string",
+     "தமிழ்: \"நீர்\" - తెలుగు: \"": "நீர்\" - హిందీ: \"నీరు\" - బెంగ",
+     "भारत की राजधानी": " है?\n1. दिल्ली\n2. मुंबई\n3",
+     "The capital of Tamil Nadu is": " Chennai.\n\nThe user's question is a statement,"
+    },
+    "greedy_water_ok": true
+   },
+   "status": "ok",
+   "minutes": 0.24,
+   "log_tail": []
+  },
+  {
+   "stage": "patch",
+   "est_minutes": 6.85,
+   "result": {
+    "lens": "j_200p",
+    "n_items": 230,
+    "layers": [
+     13,
+     14,
+     15,
+     16
+    ],
+    "pairs": "ta-te,te-kn,kn-ml,ml-ta,bn-gu,gu-mr,mr-bn,bn-ta,ta-bn,te-gu",
+    "skipped": {
+     "A_wrong": 47,
+     "B_wrong": 42,
+     "no_B_target": 1,
+     "no_B_english": 0
+    },
+    "base_pB": 0.0007563527366380635,
+    "B_run_pB": 0.8814932932748216,
+    "whole": {
+     "n": 230,
+     "rank_mean": 4096.0,
+     "share_of_diff": 1.0,
+     "flip_to_B_rate": 0.9869565217391304,
+     "flip_ci95": [
+      0.9695652173913043,
+      1.0
+     ],
+     "still_A_rate": 0.008695652173913044,
+     "mean_pB_gain": 0.8861812939831561,
+     "pB_gain_ci95": [
+      0.8648581574411015,
+      0.9053594746850673
+     ],
+     "mean_pA_drop": 0.8808155269035949,
+     "frac_of_ceiling_pB_gain": 1.0
+    },
+    "english": {
+     "n": 230,
+     "rank_mean": 10.304347826086957,
+     "share_of_diff": 0.017988241990046252,
+     "flip_to_B_rate": 0.004347826086956522,
+     "flip_ci95": [
+      0.0,
+      0.013043478260869565
+     ],
+     "still_A_rate": 0.991304347826087,
+     "mean_pB_gain": 0.005877508579324543,
+     "pB_gain_ci95": [
+      0.001632883316852044,
+      0.011830913089019658
+     ],
+     "mean_pA_drop": 0.006989013889561529,
+     "frac_of_ceiling_pB_gain": 0.006632399734942113
+    },
+    "english_ab": {
+     "n": 230,
+     "rank_mean": 20.608695652173914,
+     "share_of_diff": 0.08192559466899738,
+     "flip_to_B_rate": 0.5478260869565217,
+     "flip_ci95": [
+      0.4826086956521739,
+      0.6130434782608696
+     ],
+     "still_A_rate": 0.20869565217391303,
+     "mean_pB_gain": 0.4299807815051251,
+     "pB_gain_ci95": [
+      0.3830382961254446,
+      0.4784560916009787
+     ],
+     "mean_pA_drop": 0.7137750539855663,
+     "frac_of_ceiling_pB_gain": 0.4852063391819889
+    },
+    "english_other": {
+     "n": 230,
+     "rank_mean": 10.273913043478261,
+     "share_of_diff": 0.0037939269820328816,
+     "flip_to_B_rate": 0.0,
+     "flip_ci95": [
+      0.0,
+      0.0
+     ],
+     "still_A_rate": 0.9869565217391304,
+     "mean_pB_gain": 8.687614717064087e-05,
+     "pB_gain_ci95": [
+      -0.0001851105397146149,
+      0.00043401109343165167
+     ],
+     "mean_pA_drop": 0.002214855473974477,
+     "frac_of_ceiling_pB_gain": 9.803428233082535e-05
+    },
+    "hindi": {
+     "n": 230,
+     "rank_mean": 4.195652173913044,
+     "share_of_diff": 0.01139584853748226,
+     "flip_to_B_rate": 0.004347826086956522,
+     "flip_ci95": [
+      0.0,
+      0.013043478260869565
+     ],
+     "still_A_rate": 0.991304347826087,
+     "mean_pB_gain": 0.003550304407753882,
+     "pB_gain_ci95": [
+      0.0002779645548123938,
+      0.00880270167578383
+     ],
+     "mean_pA_drop": 0.005868992079859195,
+     "frac_of_ceiling_pB_gain": 0.0040062958131244
+    },
+    "target": {
+     "n": 230,
+     "rank_mean": 4.095652173913043,
+     "share_of_diff": 0.01048645617588294,
+     "flip_to_B_rate": 0.0,
+     "flip_ci95": [
+      0.0,
+      0.0
+     ],
+     "still_A_rate": 0.9695652173913043,
+     "mean_pB_gain": 0.0008580863205200522,
+     "pB_gain_ci95": [
+      -5.759387248439643e-06,
+      0.001908050670978645
+     ],
+     "mean_pA_drop": 0.015628615086493283,
+     "frac_of_ceiling_pB_gain": 0.0009682965848479781
+    },
+    "random": {
+     "n": 230,
+     "rank_mean": 10.304347826086957,
+     "share_of_diff": 0.0025118414496398105,
+     "flip_to_B_rate": 0.0,
+     "flip_ci95": [
+      0.0,
+      0.0
+     ],
+     "still_A_rate": 1.0,
+     "mean_pB_gain": 0.00014235979707433709,
+     "pB_gain_ci95": [
+      1.3330467737674343e-05,
+      0.0003718168894808445
+     ],
+     "mean_pA_drop": 0.0008144882710083672,
+     "frac_of_ceiling_pB_gain": 0.0001606441007510625
+    },
+    "contrasts": {
+     "english_minus_english_other": {
+      "n": 230,
+      "flip": 0.004347826086956522,
+      "flip_ci95": [
+       0.0,
+       0.013043478260869565
+      ],
+      "pB_gain": 0.005790632432153902,
+      "pB_gain_ci95": [
+       0.0016435202918291326,
+       0.01157109574483264
+      ]
+     },
+     "english_minus_random": {
+      "n": 230,
+      "flip": 0.004347826086956522,
+      "flip_ci95": [
+       0.0,
+       0.013043478260869565
+      ],
+      "pB_gain": 0.005735148782250206,
+      "pB_gain_ci95": [
+       0.001584921908880585,
+       0.012094581752901887
+      ]
+     },
+     "english_ab_minus_english_other": {
+      "n": 230,
+      "flip": 0.5478260869565217,
+      "flip_ci95": [
+       0.4826086956521739,
+       0.6086956521739131
+      ],
+      "pB_gain": 0.4298939053579545,
+      "pB_gain_ci95": [
+       0.3837067772633379,
+       0.47490485388126136
+      ]
+     },
+     "english_ab_minus_random": {
+      "n": 230,
+      "flip": 0.5478260869565217,
+      "flip_ci95": [
+       0.4826086956521739,
+       0.6130434782608696
+      ],
+      "pB_gain": 0.42983842170805076,
+      "pB_gain_ci95": [
+       0.3845361148990584,
+       0.47952285778367226
+      ]
+     },
+     "hindi_minus_english_other": {
+      "n": 230,
+      "flip": 0.004347826086956522,
+      "flip_ci95": [
+       0.0,
+       0.013043478260869565
+      ],
+      "pB_gain": 0.003463428260583241,
+      "pB_gain_ci95": [
+       0.00032426189622181785,
+       0.008320080572933817
+      ]
+     },
+     "hindi_minus_random": {
+      "n": 230,
+      "flip": 0.004347826086956522,
+      "flip_ci95": [
+       0.0,
+       0.013043478260869565
+      ],
+      "pB_gain": 0.003407944610679545,
+      "pB_gain_ci95": [
+       0.0002728298605704075,
+       0.008217346579938415
+      ]
+     },
+     "target_minus_english_other": {
+      "n": 230,
+      "flip": 0.0,
+      "flip_ci95": [
+       0.0,
+       0.0
+      ],
+      "pB_gain": 0.0007712101733494114,
+      "pB_gain_ci95": [
+       0.00013066479720169843,
+       0.0016126111143219758
+      ]
+     },
+     "target_minus_random": {
+      "n": 230,
+      "flip": 0.0,
+      "flip_ci95": [
+       0.0,
+       0.0
+      ],
+      "pB_gain": 0.0007157265234457151,
+      "pB_gain_ci95": [
+       3.2364356563059888e-06,
+       0.00169776409259787
+      ]
+     }
+    }
+   },
+   "status": "ok",
+   "minutes": 4.14,
+   "log_tail": []
+  }
+ ],
+ "elapsed_minutes": 5.83,
+ "est_cost_usd_so_far": 0.5,
+ "seconds_per_forward": 0.11,
+ "done": true
+}

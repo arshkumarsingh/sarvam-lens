@@ -1,0 +1,24 @@
+# concept: king
+# page: king/translations
+# revid: 93476354
+# section_url: https://en.wiktionary.org/w/index.php?title=king/translations&action=raw
+## block: {{trans-top|a male of a royal family who is the supreme ruler of his nation}}
+* Assamese: {{t|as|ৰজা|m}}
+*: Early Assamese: {{t|inc-oas|ৰাজা}}, {{t|inc-oas|ৰাই}}
+* Odia: {{t+|or|ରାଜା}}
+* Punjabi: {{t|pa|ਰਾਜਾ|m}}
+* Urdu: {{t|ur|راجا|m}}, {{t+|ur|بَادْشَاہ|m}}, {{t|ur|مَلِک|m}}
+* Nepali: {{t+|ne|राजा}}
+* Sanskrit: {{t+|sa|राजा|m}}, {{t+|sa|केसरी|m}}, {{t+|sa|भूपति|m}}
+MISSING Maithili
+* Sindhi: {{t|sd|سلطان|m|tr=sultānu|alt=سُلطانُ}}, {{t|sd|بادشاھ|m}}
+MISSING Kashmiri
+MISSING Konkani
+MISSING Dogri
+MISSING Manipuri
+MISSING Bodo
+* Santali: {{t+|sat|ᱨᱟᱡᱽ}}
+* Japanese: {{t+|ja|国王|tr=kokuō}}, {{t+|ja|王様|tr=ōsama}}, {{t+|ja|王|tr=ō}}, {{t+|ja|大君|tr=ōkimi}}
+* Russian: {{t+|ru|коро́ль|m}}, {{t+|ru|царь|m}}, {{t+|ru|князь|m}}
+* Arabic: {{t+|ar|مَلِك|m}}, {{t|ar|سُلْطَان|m}}
+* Hindi: {{t+|hi|राजा|m}}, {{t+|hi|राणा|m}}, {{t+|hi|नृप|m}}, {{t|hi|राजन्|m}}, {{t+|hi|बादशाह|m}}, {{t+|hi|मलिक|m}}

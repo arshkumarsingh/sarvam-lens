@@ -1,0 +1,23 @@
+# concept: milk
+# page: milk/translations
+# revid: 92983178
+# section_url: https://en.wiktionary.org/w/index.php?title=milk/translations&action=raw
+## block: {{trans-top-see|liquid|dairy}}
+* Assamese: {{t|as|গাখীৰ}}
+* Odia: {{t+|or|ଖିର}}, {{t+|or|ଦୁଧ}}, {{t+|or|ଖିର|tr=Khira}}
+* Punjabi: {{t|pa|ਦੁੱਧ|m}}
+* Urdu: {{t|ur|دُودھ|m}}, {{t+|ur|شِیر|m}}
+* Nepali: {{t+|ne|दुध}}, {{t|ne|दूध}}
+* Sanskrit: {{t+|sa|दुग्ध|n}}, {{t+|sa|क्षीर|n}}, {{t+|sa|पायस|n}}
+MISSING Maithili
+* Sindhi: {{t|sd|شير|tr=šīru}}
+* Kashmiri: {{t+|ks|دۄد}}, {{t|ks|द्वद}}
+* Konkani: {{t|kok|दूद}}
+MISSING Dogri
+MISSING Manipuri
+MISSING Bodo
+* Santali: {{t|sat|ᱛᱳᱚ}}
+* Japanese: {{t+|ja|乳|tr=ちち, chichi}}, {{t+|ja|乳汁|tr=にゅうじゅう, nyūjū}}, {{t+|ja|ミルク|tr=miruku}}, {{t+|ja|牛乳|tr=ぎゅうにゅう, gyūnyū}} {{q|cow's milk}}
+* Russian: {{t+|ru|молоко́|n}}
+* Arabic: {{t+|ar|حَلِيب|m}}, {{t+|ar|لَبَن|m}}
+* Hindi: {{t+|hi|दूध|m}}, {{t+|hi|शीर|m}}

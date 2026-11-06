@@ -1,0 +1,208 @@
+{
+ "usd_per_hour": 5.174,
+ "budget_minutes": 15.0,
+ "stages": [
+  {
+   "stage": "load",
+   "result": {
+    "model": "HFLensModel(SarvamMoEForCausalLM, n_layers=19, d_model=4096)",
+    "gpu_gb_allocated": 64.3
+   },
+   "status": "ok",
+   "minutes": 0.59,
+   "log_tail": []
+  },
+  {
+   "stage": "sanity",
+   "result": {
+    "bos_first": false,
+    "n_tokens": 21,
+    "stock_rerun_max_abs_diff": 0.0,
+    "rlens": {
+     "max_abs_diff": 0.0,
+     "stock_abs_max": 103.5,
+     "patched": {
+      "ln_rule": 39,
+      "mlp_rule": 19,
+      "routed_experts": 0,
+      "moe_blocks": 0
+     }
+    },
+    "r+moe": {
+     "max_abs_diff": 0.0,
+     "stock_abs_max": 103.5,
+     "patched": {
+      "ln_rule": 39,
+      "mlp_rule": 19,
+      "routed_experts": 2304,
+      "moe_blocks": 18
+     }
+    },
+    "greedy": {
+     "हिन्दी: \"पानी\" - English: \"": "water\"\n\nपानी - English: \"water\"\n\nपानी",
+     "தமிழ்: \"நீர்\" - తెలుగు: \"": "తెలుగు\" - హిందీ: \"తెల",
+     "भारत की राजधानी": " के लिए एक योजना\n\n**1. भारत की राजधानी के",
+     "The capital of Tamil Nadu is": " Chennai.\n\nThe capital of Tamil Nadu is Chennai.\n\n"
+    }
+   },
+   "status": "ok",
+   "minutes": 0.2,
+   "log_tail": []
+  },
+  {
+   "stage": "bos_probe",
+   "result": {
+    "hf": {
+     "accuracy": 0.606,
+     "per_pair": {
+      "ta-te": "22/32",
+      "hi-ta": "4/32",
+      "ta-en": "29/32",
+      "bn-gu": "15/32",
+      "en-hi": "27/32"
+     },
+     "greedy_hindi": " capsid capsid capsid capsid capsid capsid capsid capsid capsid capsid"
+    },
+    "chat": {
+     "accuracy": 0.912,
+     "per_pair": {
+      "ta-te": "27/32",
+      "hi-ta": "30/32",
+      "ta-en": "31/32",
+      "bn-gu": "26/32",
+      "en-hi": "32/32"
+     },
+     "greedy_hindi": " के लिए एक योजना\n\n**1. भारत की"
+    },
+    "sarvam_bos": {
+     "accuracy": 0.963,
+     "per_pair": {
+      "ta-te": "29/32",
+      "hi-ta": "31/32",
+      "ta-en": "32/32",
+      "bn-gu": "30/32",
+      "en-hi": "32/32"
+     },
+     "greedy_hindi": " है?\n1. दिल्ली\n2. मुंबई"
+    },
+    "chosen": "sarvam_bos"
+   },
+   "status": "ok",
+   "minutes": 0.98,
+   "log_tail": []
+  },
+  {
+   "stage": "pivot_logit",
+   "result": {
+    "exit": 0,
+    "items_kept": "382/448",
+    "all_indic_mean_prob_by_layer": {
+     "target": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0002,
+      0.0071,
+      0.0329,
+      0.0815,
+      0.1758
+     ],
+     "english": [
+      0.0001,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0001,
+      0.0,
+      0.0001,
+      0.0001,
+      0.0,
+      0.0,
+      0.0003,
+      0.0002,
+      0.0399,
+      0.3516,
+      0.4334,
+      0.4498,
+      0.1732
+     ],
+     "hindi": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0005,
+      0.0105,
+      0.0212,
+      0.0354,
+      0.0316
+     ],
+     "source": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0004,
+      0.0069,
+      0.0193,
+      0.0381,
+      0.032
+     ]
+    }
+   },
+   "status": "ok",
+   "minutes": 1.07,
+   "log_tail": [
+    "pivot: ta-bn: kept 31 items",
+    "pivot: te-gu: kept 18 items",
+    "pivot: hi-ta: kept 31 items",
+    "pivot: hi_latn-ta: kept 32 items",
+    "pivot: en-ta: kept 31 items",
+    "pivot: ta-en: kept 32 items",
+    "matplotlib.font_manager: generated new fontManager",
+    "pivot: kept 382 / 448 items; wrote /vol/runs/ropefix/pivot_logit"
+   ]
+  },
+  {
+   "stage": "grade",
+   "result": {
+    "exit": 0
+   },
+   "status": "ok",
+   "minutes": 0.51,
+   "log_tail": []
+  }
+ ],
+ "elapsed_minutes": 3.55,
+ "est_cost_usd_so_far": 0.31,
+ "done": true
+}

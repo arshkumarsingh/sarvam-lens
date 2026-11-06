@@ -1,0 +1,24 @@
+# concept: rain
+# page: rain
+# revid: 93423420
+# section_url: https://en.wiktionary.org/w/index.php?title=rain&action=raw&section=10
+## block: {{trans-top|condensed water from a cloud}}
+* Assamese: {{tt|as|বৰষুণ}}
+* Odia: {{tt+|or|ବର୍ଷା}}
+* Punjabi:
+*: Gurmukhi: {{tt|pa|ਮੀਂਹ|m}}, {{tt|pa|ਵਰਖਾ|f}}, {{tt|pa|ਬਰਸਾਤ|f}}, {{tt|pa|ਬਾਰਸ਼|f}}
+* Urdu: {{tt|ur|بارِش|f}}, {{tt|ur|مین٘ہ|f}}, {{tt|ur|بَرْسات|f}}, {{t|ur|باراں|m}}, {{t|ur|مَطَر|m}}, {{t|ur|باران|m}}
+* Nepali: {{tt|ne|वर्षा}}, {{tt|ne|झरी}}
+* Sanskrit: {{tt+|sa|वृष्टि|f}}, {{tt+|sa|वर्षा|f}}, {{tt+|sa|पर्जन्य|m}}
+MISSING Maithili
+* Sindhi: {{tt|sd|برسات|f|tr=barsāta|alt=بَرساتَ}}
+* Kashmiri: {{tt|ks|روٗد}}, {{tt|ks|بٲرِش}}, {{tt|ks|وَرشا}}
+MISSING Konkani
+MISSING Dogri
+MISSING Manipuri
+MISSING Bodo
+* Santali: {{tt+|sat|ᱫᱟᱜ}}
+* Japanese: {{tt+|ja|雨|tr=あめ, ame}}
+* Russian: {{tt+|ru|дождь|m}}
+* Arabic: {{tt+|ar|مَطَر|m}}
+* Hindi: {{tt+|hi|बारिश|f}}, {{tt+|hi|बरसात}}, {{tt|hi|मेंह|f}}, {{tt+|hi|वर्षा|f}}, {{tt+|hi|वृष्टि|f}}

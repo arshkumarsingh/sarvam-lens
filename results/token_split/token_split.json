@@ -1,0 +1,172 @@
+{
+ "token_counts": {
+  "en": {
+   "single_token_share": 1,
+   "mean_tokens": 1
+  },
+  "hi": {
+   "single_token_share": 0.281,
+   "mean_tokens": 1.91
+  },
+  "ta": {
+   "single_token_share": 0.188,
+   "mean_tokens": 2.09
+  },
+  "te": {
+   "single_token_share": 0.062,
+   "mean_tokens": 2.34
+  },
+  "kn": {
+   "single_token_share": 0.062,
+   "mean_tokens": 2.06
+  },
+  "ml": {
+   "single_token_share": 0.125,
+   "mean_tokens": 2.22
+  },
+  "bn": {
+   "single_token_share": 0.281,
+   "mean_tokens": 1.88
+  },
+  "gu": {
+   "single_token_share": 0.125,
+   "mean_tokens": 2.19
+  },
+  "mr": {
+   "single_token_share": 0.375,
+   "mean_tokens": 1.69
+  },
+  "zh": {
+   "single_token_share": 0.969,
+   "mean_tokens": 1.03
+  }
+ },
+ "Sarvam-30B, J-lens": {
+  "n_items": 256,
+  "band": [
+   14,
+   15,
+   16
+  ],
+  "by_target_tokens": {
+   "1 token": {
+    "n": 42,
+    "english": 0.992,
+    "hindi": 0.54,
+    "target_band": 0.23,
+    "target_last": 0.786
+   },
+   "2+ tokens": {
+    "n": 214,
+    "english": 0.983,
+    "hindi": 0.623,
+    "target_band": 0.318,
+    "target_last": 0.855
+   }
+  },
+  "by_hindi_tokens": {
+   "1 token": {
+    "n": 71,
+    "english": 0.991,
+    "hindi": 0.709,
+    "target_band": 0.244,
+    "target_last": 0.845
+   },
+   "2+ tokens": {
+    "n": 185,
+    "english": 0.982,
+    "hindi": 0.571,
+    "target_band": 0.326,
+    "target_last": 0.843
+   }
+  },
+  "by_english_tokens": {
+   "1 token": {
+    "n": 256,
+    "english": 0.984,
+    "hindi": 0.609,
+    "target_band": 0.303,
+    "target_last": 0.844
+   },
+   "2+ tokens": {
+    "n": 0,
+    "english": null,
+    "hindi": null,
+    "target_band": null,
+    "target_last": null
+   }
+  },
+  "english_minus_hindi_when_hindi_is_1_token": {
+   "n": 71,
+   "mean": 0.282,
+   "ci95": [
+    0.183,
+    0.385
+   ]
+  }
+ },
+ "Sarvam-30B, logit lens": {
+  "n_items": 256,
+  "band": [
+   14,
+   15,
+   16
+  ],
+  "by_target_tokens": {
+   "1 token": {
+    "n": 42,
+    "english": 0.905,
+    "hindi": 0.294,
+    "target_band": 0.286,
+    "target_last": 0.786
+   },
+   "2+ tokens": {
+    "n": 214,
+    "english": 0.941,
+    "hindi": 0.534,
+    "target_band": 0.397,
+    "target_last": 0.808
+   }
+  },
+  "by_hindi_tokens": {
+   "1 token": {
+    "n": 71,
+    "english": 0.939,
+    "hindi": 0.441,
+    "target_band": 0.352,
+    "target_last": 0.859
+   },
+   "2+ tokens": {
+    "n": 185,
+    "english": 0.933,
+    "hindi": 0.515,
+    "target_band": 0.389,
+    "target_last": 0.784
+   }
+  },
+  "by_english_tokens": {
+   "1 token": {
+    "n": 256,
+    "english": 0.935,
+    "hindi": 0.495,
+    "target_band": 0.379,
+    "target_last": 0.805
+   },
+   "2+ tokens": {
+    "n": 0,
+    "english": null,
+    "hindi": null,
+    "target_band": null,
+    "target_last": null
+   }
+  },
+  "english_minus_hindi_when_hindi_is_1_token": {
+   "n": 71,
+   "mean": 0.498,
+   "ci95": [
+    0.408,
+    0.587
+   ]
+  }
+ }
+}

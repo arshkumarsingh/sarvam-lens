@@ -1,0 +1,108 @@
+
+[1ALoading weights:  50%|█████     | 3579/7122 [00:10<00:10, 326.43it/s]
+[1ALoading weights:  51%|█████     | 3612/7122 [00:11<00:14, 247.70it/s]
+[1ALoading weights:  51%|█████     | 3650/7122 [00:11<00:12, 273.99it/s]
+[1ALoading weights:  52%|█████▏    | 3693/7122 [00:11<00:10, 312.42it/s]
+[1ALoading weights:  52%|█████▏    | 3732/7122 [00:11<00:10, 327.32it/s]
+[1ALoading weights:  53%|█████▎    | 3778/7122 [00:11<00:09, 362.67it/s]
+[1ALoading weights:  54%|█████▎    | 3818/7122 [00:11<00:08, 368.34it/s]
+[1ALoading weights:  54%|█████▍    | 3863/7122 [00:11<00:08, 390.81it/s]
+[1ALoading weights:  55%|█████▍    | 3904/7122 [00:11<00:08, 373.03it/s]
+[1ALoading weights:  55%|█████▌    | 3943/7122 [00:11<00:08, 367.20it/s]
+[1ALoading weights:  56%|█████▌    | 3981/7122 [00:12<00:11, 277.49it/s]
+[1ALoading weights:  57%|█████▋    | 4025/7122 [00:12<00:09, 310.07it/s]
+[1ALoading weights:  57%|█████▋    | 4067/7122 [00:12<00:09, 332.33it/s]
+[1ALoading weights:  58%|█████▊    | 4115/7122 [00:12<00:08, 360.60it/s]
+[1ALoading weights:  58%|█████▊    | 4157/7122 [00:12<00:07, 374.12it/s]
+[1ALoading weights:  59%|█████▉    | 4197/7122 [00:12<00:07, 369.00it/s]
+[1ALoading weights:  59%|█████▉    | 4236/7122 [00:12<00:07, 366.46it/s]
+[1ALoading weights:  60%|██████    | 4274/7122 [00:12<00:08, 352.08it/s]
+[1ALoading weights:  61%|██████    | 4313/7122 [00:12<00:07, 352.76it/s]
+[1ALoading weights:  61%|██████    | 4358/7122 [00:13<00:07, 368.34it/s]
+[1ALoading weights:  62%|██████▏   | 4396/7122 [00:13<00:08, 318.24it/s]
+[1ALoading weights:  62%|██████▏   | 4436/7122 [00:13<00:08, 334.99it/s]
+[1ALoading weights:  63%|██████▎   | 4477/7122 [00:13<00:07, 346.53it/s]
+[1ALoading weights:  63%|██████▎   | 4518/7122 [00:13<00:07, 354.49it/s]
+[1ALoading weights:  64%|██████▍   | 4558/7122 [00:13<00:07, 360.53it/s]
+[1ALoading weights:  65%|██████▍   | 4598/7122 [00:13<00:06, 366.37it/s]
+[1ALoading weights:  65%|██████▌   | 4638/7122 [00:13<00:06, 369.56it/s]
+[1ALoading weights:  66%|██████▌   | 4676/7122 [00:13<00:06, 365.82it/s]
+[1ALoading weights:  66%|██████▌   | 4714/7122 [00:14<00:06, 363.84it/s]
+[1ALoading weights:  67%|██████▋   | 4753/7122 [00:14<00:06, 371.01it/s]
+[1ALoading weights:  67%|██████▋   | 4791/7122 [00:14<00:08, 282.76it/s]
+[1ALoading weights:  68%|██████▊   | 4827/7122 [00:14<00:07, 300.99it/s]
+[1ALoading weights:  68%|██████▊   | 4867/7122 [00:14<00:07, 320.28it/s]
+[1ALoading weights:  69%|██████▉   | 4907/7122 [00:14<00:06, 335.36it/s]
+[1ALoading weights:  70%|██████▉   | 4951/7122 [00:14<00:06, 355.61it/s]
+[1ALoading weights:  70%|███████   | 4997/7122 [00:14<00:05, 384.02it/s]
+[1ALoading weights:  71%|███████   | 5037/7122 [00:15<00:05, 383.83it/s]
+[1ALoading weights:  71%|███████▏  | 5077/7122 [00:15<00:05, 368.13it/s]
+[1ALoading weights:  72%|███████▏  | 5116/7122 [00:15<00:05, 373.41it/s]
+[1ALoading weights:  72%|███████▏  | 5154/7122 [00:15<00:05, 341.48it/s]
+[1ALoading weights:  73%|███████▎  | 5189/7122 [00:15<00:06, 276.91it/s]
+[1ALoading weights:  73%|███████▎  | 5222/7122 [00:15<00:06, 287.81it/s]
+[1ALoading weights:  74%|███████▍  | 5270/7122 [00:15<00:05, 331.56it/s]
+[1ALoading weights:  75%|███████▍  | 5312/7122 [00:15<00:05, 350.68it/s]
+[1ALoading weights:  75%|███████▌  | 5362/7122 [00:15<00:04, 389.85it/s]
+[1ALoading weights:  76%|███████▌  | 5403/7122 [00:16<00:04, 368.16it/s]
+[1ALoading weights:  76%|███████▋  | 5442/7122 [00:16<00:04, 362.74it/s]
+[1ALoading weights:  77%|███████▋  | 5480/7122 [00:16<00:04, 347.74it/s]
+[1ALoading weights:  77%|███████▋  | 5516/7122 [00:16<00:04, 327.22it/s]
+[1ALoading weights:  78%|███████▊  | 5550/7122 [00:16<00:05, 312.14it/s]
+[1ALoading weights:  78%|███████▊  | 5582/7122 [00:16<00:05, 296.92it/s]
+[1ALoading weights:  79%|███████▉  | 5624/7122 [00:16<00:04, 329.09it/s]
+[1ALoading weights:  80%|███████▉  | 5663/7122 [00:16<00:04, 341.22it/s]
+[1ALoading weights:  80%|████████  | 5699/7122 [00:17<00:04, 345.80it/s]
+[1ALoading weights:  81%|████████  | 5739/7122 [00:17<00:03, 351.96it/s]
+[1ALoading weights:  81%|████████  | 5775/7122 [00:17<00:03, 353.36it/s]
+[1ALoading weights:  82%|████████▏ | 5811/7122 [00:17<00:03, 353.87it/s]
+[1ALoading weights:  82%|████████▏ | 5850/7122 [00:17<00:03, 355.84it/s]
+[1ALoading weights:  83%|████████▎ | 5886/7122 [00:17<00:03, 346.30it/s]
+[1ALoading weights:  83%|████████▎ | 5932/7122 [00:17<00:03, 371.81it/s]
+[1ALoading weights:  84%|████████▍ | 5970/7122 [00:17<00:03, 295.38it/s]
+[1ALoading weights:  84%|████████▍ | 6004/7122 [00:17<00:03, 303.80it/s]
+[1ALoading weights:  85%|████████▍ | 6040/7122 [00:18<00:03, 317.99it/s]
+[1ALoading weights:  85%|████████▌ | 6080/7122 [00:18<00:03, 332.04it/s]
+[1ALoading weights:  86%|████████▌ | 6120/7122 [00:18<00:02, 341.57it/s]
+[1ALoading weights:  87%|████████▋ | 6162/7122 [00:18<00:02, 360.70it/s]
+[1ALoading weights:  87%|████████▋ | 6210/7122 [00:18<00:02, 391.61it/s]
+[1ALoading weights:  88%|████████▊ | 6250/7122 [00:18<00:02, 393.64it/s]
+[1ALoading weights:  88%|████████▊ | 6290/7122 [00:18<00:02, 379.02it/s]
+[1ALoading weights:  89%|████████▉ | 6331/7122 [00:18<00:02, 387.03it/s]
+[1ALoading weights:  89%|████████▉ | 6371/7122 [00:19<00:02, 280.61it/s]
+[1ALoading weights:  90%|████████▉ | 6404/7122 [00:19<00:02, 291.76it/s]
+[1ALoading weights:  90%|█████████ | 6445/7122 [00:19<00:02, 320.00it/s]
+[1ALoading weights:  91%|█████████ | 6489/7122 [00:19<00:01, 350.10it/s]
+[1ALoading weights:  92%|█████████▏| 6535/7122 [00:19<00:01, 378.21it/s]
+[1ALoading weights:  92%|█████████▏| 6575/7122 [00:19<00:01, 384.23it/s]
+[1ALoading weights:  93%|█████████▎| 6615/7122 [00:19<00:01, 377.28it/s]
+[1ALoading weights:  93%|█████████▎| 6654/7122 [00:19<00:01, 374.45it/s]
+[1ALoading weights:  94%|█████████▍| 6693/7122 [00:19<00:01, 344.77it/s]
+[1ALoading weights:  94%|█████████▍| 6729/7122 [00:19<00:01, 339.53it/s]
+[1ALoading weights:  95%|█████████▍| 6764/7122 [00:20<00:01, 303.75it/s]
+[1ALoading weights:  95%|█████████▌| 6798/7122 [00:20<00:01, 307.90it/s]
+[1ALoading weights:  96%|█████████▌| 6848/7122 [00:20<00:00, 358.38it/s]
+[1ALoading weights:  97%|█████████▋| 6886/7122 [00:20<00:00, 352.00it/s]
+[1ALoading weights:  97%|█████████▋| 6924/7122 [00:20<00:00, 353.26it/s]
+[1ALoading weights:  98%|█████████▊| 6964/7122 [00:20<00:00, 359.65it/s]
+[1ALoading weights:  98%|█████████▊| 7004/7122 [00:20<00:00, 363.21it/s]
+[1ALoading weights:  99%|█████████▉| 7042/7122 [00:20<00:00, 366.05it/s]
+[1ALoading weights:  99%|█████████▉| 7080/7122 [00:20<00:00, 367.49it/s]
+[1ALoading weights: 100%|██████████| 7122/7122 [00:21<00:00, 111.04it/s]
+[1ALoading weights: 100%|██████████| 7122/7122 [00:21<00:00, 324.85it/s]
+The repository /vol/sarvam-30b-bf16 contains custom code which must be executed to correctly load the model. You can inspect the repository content at /vol/sarvam-30b-bf16 .
+ You can inspect the repository content at https://hf.co//vol/sarvam-30b-bf16.
+You can avoid this prompt in future by passing the argument `trust_remote_code=True`.
+
+[transformers] You are using a model of type `sarvam_moe` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `use_return_dict` is deprecated! Use `return_dict` instead!
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+Do you wish to run the custom code? [y/N] 

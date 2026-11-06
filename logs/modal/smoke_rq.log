@@ -1,0 +1,75 @@
+✓ Initialized. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-BEhyks9cvOb4AB09hQembD
+✓ Created objects.
+├── ✓ Uploaded .\code\modal_app.py
+├── ✓ Uploaded .\code
+├── ✓ Created Function prepare_weights.
+├── ✓ Created Function smoke.
+├── ✓ Created Function smoke_2gpu.
+├── ✓ Created Function prepare_qwen.
+├── ✓ Created Function cka.
+├── ✓ Created Function pilot.
+├── ✓ Created Function pilot2.
+├── ✓ Created Function merge_j.
+├── ✓ Created Function cka_robust.
+└── ✓ Created Function diagnose.
+hard timeout 15 min -> worst case $0.08
+
+[1ALoading weights:   0%|          | 0/117 [00:00<?, ?it/s]
+[1ALoading weights: 100%|██████████| 117/117 [00:00<00:00, 3911.54it/s]
+[transformers] You are using a model of type `sarvam_moe` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+[transformers] `use_return_dict` is deprecated! Use `return_dict` instead!
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+{
+ "smoke_test": "passed",
+ "n_checks": 48,
+ "dry_pilot_stages": {
+  "load": "ok",
+  "sanity": "ok",
+  "rq_chat_word_src": "ok",
+  "rq_chat_sentence": "ok",
+  "rq_chat_word_en": "ok",
+  "rq_collapse": "ok",
+  "rq_cloze": "ok",
+  "rq_zh": "ok",
+  "causal_steer": "ok",
+  "rq_think": "ok"
+ },
+ "dry_pilot_results": {
+  "load": {},
+  "sanity": {},
+  "rq_chat_word_src": {
+   "n_items": 31
+  },
+  "rq_chat_sentence": {
+   "n_items": 24
+  },
+  "rq_chat_word_en": {
+   "n_items": 31
+  },
+  "rq_collapse": {},
+  "rq_cloze": {
+   "n_items": 8
+  },
+  "rq_zh": {},
+  "causal_steer": {
+   "lens": "j_200p",
+   "n_items": 32
+  },
+  "rq_think": {
+   "n_items": 1
+  }
+ },
+ "dry_pilot_errors": {}
+}
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-BEhyks9cvOb4AB09hQembD
+exit 0

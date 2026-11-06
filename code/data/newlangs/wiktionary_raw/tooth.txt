@@ -1,0 +1,24 @@
+# concept: tooth
+# page: tooth
+# revid: 93668959
+# section_url: https://en.wiktionary.org/w/index.php?title=tooth&action=raw&section=6
+## block: {{trans-top|anatomy: tooth}}
+* Assamese: {{tt|as|দাঁত}}
+* Odia: {{tt+|or|ଦାନ୍ତ}}
+* Punjabi:
+*: Gurmukhi: {{tt|pa|ਦੰਦ|m}}, {{tt|pa|ਡੰਦ|m}}
+* Urdu: {{tt|ur|دان٘ت|m}}, {{tt|ur|دَنْدان|m}}
+* Nepali: {{tt+|ne|दाँत}}
+* Sanskrit: {{tt+|sa|दन्त|m}}
+* Maithili: {{t-needed|mai}}
+MISSING Sindhi
+MISSING Kashmiri
+MISSING Konkani
+MISSING Dogri
+MISSING Manipuri
+MISSING Bodo
+* Santali: {{tt+|sat|ᱰᱟᱴᱟ}}
+* Japanese: {{tt+|ja|歯|tr=は, ha}}
+* Russian: {{tt+|ru|зуб|m}}
+* Arabic: {{tt+|ar|سِنّ|f}}
+* Hindi: {{tt+|hi|दाँत|m}}, {{tt+|hi|दान्त|m}}, {{t+|hi|दांत}}

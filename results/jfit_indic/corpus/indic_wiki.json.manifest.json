@@ -1,0 +1,42 @@
+{
+ "dataset": "wikimedia/wikipedia",
+ "dump": "20231101",
+ "order": "round-robin over languages",
+ "langs": [
+  "en",
+  "hi",
+  "bn",
+  "ta",
+  "te",
+  "mr",
+  "gu",
+  "kn",
+  "ml"
+ ],
+ "counts": {
+  "en": 4,
+  "hi": 4,
+  "bn": 4,
+  "ta": 4,
+  "te": 4,
+  "mr": 4,
+  "gu": 4,
+  "kn": 4,
+  "ml": 4
+ },
+ "min_chars": 600,
+ "max_chars": 1500,
+ "skip_articles": 1000,
+ "dedupe_chars": 100,
+ "template_duplicates_skipped": {
+  "en": 0,
+  "hi": 0,
+  "bn": 0,
+  "ta": 0,
+  "te": 24,
+  "mr": 0,
+  "gu": 0,
+  "kn": 0,
+  "ml": 2
+ }
+}

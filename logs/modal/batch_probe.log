@@ -1,0 +1,206 @@
+✓ Initialized. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-8bg1bAVpxyVaQ9N2APhEHa
+✓ Created objects.
+├── ✓ Uploaded .\code\modal_app.py
+├── ✓ Uploaded .\code
+├── ✓ Created Function prepare_weights.
+├── ✓ Created Function smoke.
+├── ✓ Created Function smoke_2gpu.
+├── ✓ Created Function batch_probe.
+├── ✓ Created Function prepare_qwen.
+├── ✓ Created Function cka.
+├── ✓ Created Function pilot.
+├── ✓ Created Function pilot2.
+├── ✓ Created Function merge_j.
+├── ✓ Created Function build_corpus_fn.
+├── ✓ Created Function cka_robust.
+└── ✓ Created Function diagnose.
+hard timeout 15 min -> worst case $0.44
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='deepseek_yarn'
+[transformers] Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='deepseek_yarn'
+[transformers] SarvamMLAForCausalLM has generative capabilities, as `prepare_inputs_for_generation` is explicitly defined. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
+  - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
+  - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).
+  - If you are not the owner of the model architecture class, please contact the model code owner to update it.
+[transformers] Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='deepseek_yarn'
+[transformers] Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='deepseek_yarn'
+[transformers] Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='deepseek_yarn'
+[transformers] Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='deepseek_yarn'
+[transformers] Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='deepseek_yarn'
+[transformers] SarvamMLAForCausalLM has generative capabilities, as `prepare_inputs_for_generation` is explicitly defined. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
+  - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
+  - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).
+  - If you are not the owner of the model architecture class, please contact the model code owner to update it.
+
+[1AWriting model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00, 20.85it/s]
+[transformers] `use_return_dict` is deprecated! Use `return_dict` instead!
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+[transformers] Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='deepseek_yarn'
+[transformers] Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='deepseek_yarn'
+[transformers] Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='deepseek_yarn'
+[transformers] Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='deepseek_yarn'
+[transformers] SarvamMLAForCausalLM has generative capabilities, as `prepare_inputs_for_generation` is explicitly defined. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
+  - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
+  - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).
+  - If you are not the owner of the model architecture class, please contact the model code owner to update it.
+
+[1ALoading weights:   0%|          | 0/121 [00:00<?, ?it/s]
+[1ALoading weights: 100%|██████████| 121/121 [00:00<00:00, 2895.10it/s]
+[transformers] SarvamMLAForCausalLM has generative capabilities, as `prepare_inputs_for_generation` is explicitly defined. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
+  - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
+  - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).
+  - If you are not the owner of the model architecture class, please contact the model code owner to update it.
+[transformers] You are using a model of type `sarvam_mla` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+[transformers] PreTrainedConfig got `key=rope_scaling` in kwargs but hasn't set it as attribute. For RoPE standardization you need to set `self.rope_parameters` in model's config. 
+[transformers] Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='deepseek_yarn'
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+[transformers] `get_max_cache_shape` is deprecated, and will be removed in version 5.16. Please use `get_max_length` instead
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+[transformers] Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='deepseek_yarn'
+[transformers] Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='deepseek_yarn'
+[transformers] Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='deepseek_yarn'
+[transformers] Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='deepseek_yarn'
+[transformers] SarvamMLAForCausalLM has generative capabilities, as `prepare_inputs_for_generation` is explicitly defined. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
+  - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
+  - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).
+  - If you are not the owner of the model architecture class, please contact the model code owner to update it.
+
+[1ALoading weights:   0%|          | 0/121 [00:00<?, ?it/s]Loading weights: 100%|██████████| 121/121 [00:00<00:00, 2555.38it/s]
+[transformers] SarvamMLAForCausalLM has generative capabilities, as `prepare_inputs_for_generation` is explicitly defined. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
+  - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
+  - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).
+  - If you are not the owner of the model architecture class, please contact the model code owner to update it.
+[transformers] You are using a model of type `sarvam_mla` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+[transformers] PreTrainedConfig got `key=rope_scaling` in kwargs but hasn't set it as attribute. For RoPE standardization you need to set `self.rope_parameters` in model's config. 
+[transformers] Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='deepseek_yarn'
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+
+[1AWriting model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00, 22.92it/s]
+
+[1ALoading weights:   0%|          | 0/117 [00:00<?, ?it/s]
+[1ALoading weights: 100%|██████████| 117/117 [00:00<00:00, 3580.51it/s]
+[transformers] You are using a model of type `sarvam_moe` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+
+[1ALoading weights:   0%|          | 0/117 [00:00<?, ?it/s]
+[1ALoading weights: 100%|██████████| 117/117 [00:00<00:00, 2384.59it/s]
+[transformers] You are using a model of type `sarvam_moe` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+{
+ "results": [
+  {
+   "model": "tiny-105B 2 GPUs float32",
+   "padded": {
+    "top1_agree": 1.0,
+    "max_abs_dlogprob": 0.0,
+    "max_kl": 0.0,
+    "rows_identical": null
+   },
+   "generate": {
+    "exact_match_rate": 1.0
+   },
+   "no_pad": {
+    "top1_agree": 1.0,
+    "max_abs_dlogprob": 0.0,
+    "max_kl": 0.0,
+    "rows_identical": null
+   },
+   "replicated": {
+    "top1_agree": 1.0,
+    "max_abs_dlogprob": 0.0,
+    "max_kl": 0.0,
+    "rows_identical": true
+   }
+  },
+  {
+   "model": "tiny-105B 2 GPUs bfloat16",
+   "padded": {
+    "top1_agree": 1.0,
+    "max_abs_dlogprob": 0.0,
+    "max_kl": 0.0,
+    "rows_identical": null
+   },
+   "generate": {
+    "exact_match_rate": 1.0
+   },
+   "no_pad": {
+    "top1_agree": 1.0,
+    "max_abs_dlogprob": 0.0,
+    "max_kl": 0.0,
+    "rows_identical": null
+   },
+   "replicated": {
+    "top1_agree": 1.0,
+    "max_abs_dlogprob": 0.0,
+    "max_kl": 0.0,
+    "rows_identical": true
+   }
+  },
+  {
+   "model": "tiny-30B 1 GPU float32",
+   "padded": {
+    "top1_agree": 1.0,
+    "max_abs_dlogprob": 0.0,
+    "max_kl": 0.0,
+    "rows_identical": null
+   },
+   "generate": {
+    "exact_match_rate": 1.0
+   },
+   "no_pad": {
+    "top1_agree": 1.0,
+    "max_abs_dlogprob": 0.0,
+    "max_kl": 0.0,
+    "rows_identical": null
+   },
+   "replicated": {
+    "top1_agree": 1.0,
+    "max_abs_dlogprob": 0.0,
+    "max_kl": -0.0,
+    "rows_identical": true
+   }
+  },
+  {
+   "model": "tiny-30B 1 GPU bfloat16",
+   "padded": {
+    "top1_agree": 1.0,
+    "max_abs_dlogprob": 0.0,
+    "max_kl": 0.0,
+    "rows_identical": null
+   },
+   "generate": {
+    "exact_match_rate": 1.0
+   },
+   "no_pad": {
+    "top1_agree": 1.0,
+    "max_abs_dlogprob": 0.0,
+    "max_kl": 0.0,
+    "rows_identical": null
+   },
+   "replicated": {
+    "top1_agree": 1.0,
+    "max_abs_dlogprob": 0.0,
+    "max_kl": 0.0,
+    "rows_identical": true
+   }
+  }
+ ]
+}
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-8bg1bAVpxyVaQ9N2APhEHa

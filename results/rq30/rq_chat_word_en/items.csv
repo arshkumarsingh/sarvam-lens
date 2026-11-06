@@ -1,0 +1,473 @@
+pair,concept,kind,instr,model_top,found_at_step,generated_prefix,n_prompt_tokens,kept,reason
+ta-te,bird,chat_word,en,ప,0,,34,True,
+ta-te,book,chat_word,en,పు,0,,34,True,
+ta-te,cat,chat_word,en,<|end_of_turn|>,,பூனை,33,False,target word not begun within 2 greedy tokens
+ta-te,cow,chat_word,en,<|end_of_turn|>,,గోవు,32,False,target word not begun within 2 greedy tokens
+ta-te,dog,chat_word,en,<|end_of_turn|>,,నక్క,33,False,target word not begun within 2 greedy tokens
+ta-te,eye,chat_word,en,క,0,,33,True,
+ta-te,fire,chat_word,en,రు,,నెము,34,False,target word not begun within 2 greedy tokens
+ta-te,fish,chat_word,en,<|end_of_turn|>,,ಮೀನು,33,False,target word not begun within 2 greedy tokens
+ta-te,flower,chat_word,en,"
+",,పూ<|end_of_turn|>,32,False,target word not begun within 2 greedy tokens
+ta-te,gold,chat_word,en,<|end_of_turn|>,,தங்கம்,33,False,target word not begun within 2 greedy tokens
+ta-te,hand,chat_word,en,చే,0,,32,True,
+ta-te,heart,chat_word,en,మ్,,ఇద,33,False,target word not begun within 2 greedy tokens
+ta-te,horse,chat_word,en,గు,0,,34,True,
+ta-te,house,chat_word,en,ఇ,0,,33,True,
+ta-te,king,chat_word,en,స,,అర,34,False,target word not begun within 2 greedy tokens
+ta-te,milk,chat_word,en,పాలు,0,,32,True,
+ta-te,moon,chat_word,en,<|end_of_turn|>,,భూమి,33,False,target word not begun within 2 greedy tokens
+ta-te,mother,chat_word,en,అ,0,,33,True,
+ta-te,mountain,chat_word,en,పర్,0,,32,True,
+ta-te,name,chat_word,en,<|end_of_turn|>,,பெயர்,33,False,target word not begun within 2 greedy tokens
+ta-te,night,chat_word,en,ర,0,,33,True,
+ta-te,rain,chat_word,en,<|end_of_turn|>,,మంచి,33,False,target word not begun within 2 greedy tokens
+ta-te,river,chat_word,en,<|end_of_turn|>,,ఆరు,33,False,target word not begun within 2 greedy tokens
+ta-te,road,chat_word,en,రో,0,,32,True,
+ta-te,salt,chat_word,en,ఉ,0,,33,True,
+ta-te,sky,chat_word,en,ఆ,0,,33,True,
+ta-te,star,chat_word,en,న,0,,34,True,
+ta-te,sun,chat_word,en,స,0,,34,True,
+ta-te,tooth,chat_word,en,ప,0,,33,True,
+ta-te,tree,chat_word,en,ము,,మర,33,False,target word not begun within 2 greedy tokens
+ta-te,village,chat_word,en,ம்,,கிராம,34,False,target word not begun within 2 greedy tokens
+ta-te,water,chat_word,en,నీ,0,,34,True,
+te-kn,bird,chat_word,en,<|end_of_turn|>,,పక్షి,33,False,target word not begun within 2 greedy tokens
+te-kn,book,chat_word,en,కం,,పుస్త,34,False,target word not begun within 2 greedy tokens
+te-kn,cat,chat_word,en,ಬೆ,0,,34,True,
+te-kn,cow,chat_word,en,<|end_of_turn|>,,ಆವು,33,False,target word not begun within 2 greedy tokens
+te-kn,dog,chat_word,en,<|end_of_turn|>,,కుక్క,33,False,target word not begun within 2 greedy tokens
+te-kn,eye,chat_word,en,<|end_of_turn|>,,కన్ను,33,False,target word not begun within 2 greedy tokens
+te-kn,fire,chat_word,en,<|end_of_turn|>,,నిప్పు,33,False,target word not begun within 2 greedy tokens
+te-kn,fish,chat_word,en,<|end_of_turn|>,,చేప,33,False,target word not begun within 2 greedy tokens
+te-kn,flower,chat_word,en,ಹೂ,0,,33,True,
+te-kn,gold,chat_word,en,ారం,,బంగ,34,False,target word not begun within 2 greedy tokens
+te-kn,hand,chat_word,en,<|end_of_turn|>,,చేయి,33,False,target word not begun within 2 greedy tokens
+te-kn,heart,chat_word,en,<|end_of_turn|>,,గుండె,33,False,target word not begun within 2 greedy tokens
+te-kn,horse,chat_word,en,్ర,,గుర,35,False,target word not begun within 2 greedy tokens
+te-kn,house,chat_word,en,<|end_of_turn|>,,ఇల్లు,33,False,target word not begun within 2 greedy tokens
+te-kn,king,chat_word,en,ರಾಜ,0,,32,True,
+te-kn,milk,chat_word,en,"
+",,పాలు<|end_of_turn|>,32,False,target word not begun within 2 greedy tokens
+te-kn,moon,chat_word,en,ಚ,0,,35,True,
+te-kn,mother,chat_word,en,ಅ,0,,33,True,
+te-kn,mountain,chat_word,en,<|end_of_turn|>,,కొండ,33,False,target word not begun within 2 greedy tokens
+te-kn,name,chat_word,en,ಹೆ,0,,33,True,
+te-kn,night,chat_word,en,<|end_of_turn|>,,రాత్రి,33,False,target word not begun within 2 greedy tokens
+te-kn,rain,chat_word,en,ం,,వర్ష,34,False,target word not begun within 2 greedy tokens
+te-kn,river,chat_word,en,<|end_of_turn|>,,నది,33,False,target word not begun within 2 greedy tokens
+te-kn,road,chat_word,en,<|end_of_turn|>,,రోడ్డు,33,False,target word not begun within 2 greedy tokens
+te-kn,salt,chat_word,en,<|end_of_turn|>,,ఉప్పు,33,False,target word not begun within 2 greedy tokens
+te-kn,sky,chat_word,en,ం,,ఆకాశ,34,False,target word not begun within 2 greedy tokens
+te-kn,star,chat_word,en,త్రం,,నక్ష,34,False,target word not begun within 2 greedy tokens
+te-kn,sun,chat_word,en,యుడు,,సూర్,34,False,target word not begun within 2 greedy tokens
+te-kn,tooth,chat_word,en,<|end_of_turn|>,,పన్ను,33,False,target word not begun within 2 greedy tokens
+te-kn,tree,chat_word,en,టు,,చెట్,34,False,target word not begun within 2 greedy tokens
+te-kn,village,chat_word,en,ం,,గ్రామ,34,False,target word not begun within 2 greedy tokens
+te-kn,water,chat_word,en,ನೀ,0,,33,True,
+kn-ml,bird,chat_word,en,പക്ഷ,0,,33,True,
+kn-ml,book,chat_word,en,പു,0,,33,True,
+kn-ml,cat,chat_word,en,പൂ,0,,33,True,
+kn-ml,cow,chat_word,en,പ,0,,33,True,
+kn-ml,dog,chat_word,en,നായ,0,,33,True,
+kn-ml,eye,chat_word,en,ക,0,,33,True,
+kn-ml,fire,chat_word,en,ಕಿ,,ಬೆಂ,34,False,target word not begun within 2 greedy tokens
+kn-ml,fish,chat_word,en,<|end_of_turn|>,,ಮೀನು,33,False,target word not begun within 2 greedy tokens
+kn-ml,flower,chat_word,en,<|end_of_turn|>,,ಹೂವು,33,False,target word not begun within 2 greedy tokens
+kn-ml,gold,chat_word,en,<|end_of_turn|>,,ಚಿನ್ನ,33,False,target word not begun within 2 greedy tokens
+kn-ml,hand,chat_word,en,ക,0,,32,True,
+kn-ml,heart,chat_word,en,ഹൃ,0,,34,True,
+kn-ml,horse,chat_word,en,കു,0,,34,True,
+kn-ml,house,chat_word,en,<|end_of_turn|>,,മനം,33,False,target word not begun within 2 greedy tokens
+kn-ml,king,chat_word,en,രാജ,0,,32,True,
+kn-ml,milk,chat_word,en,<|end_of_turn|>,,ಹಾಲು,33,False,target word not begun within 2 greedy tokens
+kn-ml,moon,chat_word,en,ച,0,,33,True,
+kn-ml,mother,chat_word,en,അമ്മ,0,,33,True,
+kn-ml,mountain,chat_word,en,മല,0,,33,True,
+kn-ml,name,chat_word,en,<|end_of_turn|>,,ಹೆಸರು,33,False,target word not begun within 2 greedy tokens
+kn-ml,night,chat_word,en,രാ,0,,33,True,
+kn-ml,rain,chat_word,en,മ,0,,33,True,
+kn-ml,river,chat_word,en,ന,0,,33,True,
+kn-ml,road,chat_word,en,റോ,0,,33,True,
+kn-ml,salt,chat_word,en,ഉ,0,,33,True,
+kn-ml,sky,chat_word,en,ആ,0,,33,True,
+kn-ml,star,chat_word,en,ന,0,,34,True,
+kn-ml,sun,chat_word,en,സൂ,0,,33,True,
+kn-ml,tooth,chat_word,en,പ,0,,33,True,
+kn-ml,tree,chat_word,en,മ,0,,33,True,
+kn-ml,village,chat_word,en,<|end_of_turn|>,,ಗ್ರಾಮ,33,False,target word not begun within 2 greedy tokens
+kn-ml,water,chat_word,en,വെള്ള,0,,33,True,
+ml-ta,bird,chat_word,en,ப,0,,33,True,
+ml-ta,book,chat_word,en,பு,0,,34,True,
+ml-ta,cat,chat_word,en,பூ,0,,33,True,
+ml-ta,cow,chat_word,en,<|end_of_turn|>,,പശു,33,False,target word not begun within 2 greedy tokens
+ml-ta,dog,chat_word,en,"
+",,നായ<|end_of_turn|>,32,False,target word not begun within 2 greedy tokens
+ml-ta,eye,chat_word,en,க,0,,34,True,
+ml-ta,fire,chat_word,en,தீ,0,,32,True,
+ml-ta,fish,chat_word,en,மீ,0,,33,True,
+ml-ta,flower,chat_word,en,பூ,0,,33,True,
+ml-ta,gold,chat_word,en,த,0,,34,True,
+ml-ta,hand,chat_word,en,<|end_of_turn|>,,கைய,33,False,target word not begun within 2 greedy tokens
+ml-ta,heart,chat_word,en,"
+",,heart<|end_of_turn|>,34,False,target word not begun within 2 greedy tokens
+ml-ta,horse,chat_word,en,கு,0,,33,True,
+ml-ta,house,chat_word,en,வீ,0,,33,True,
+ml-ta,king,chat_word,en,വ്,,രാജാ,34,False,target word not begun within 2 greedy tokens
+ml-ta,milk,chat_word,en,பால்,0,,33,True,
+ml-ta,moon,chat_word,en,ச,0,,34,True,
+ml-ta,mother,chat_word,en,"
+",,അമ്മ<|end_of_turn|>,32,False,target word not begun within 2 greedy tokens
+ml-ta,mountain,chat_word,en,<|end_of_turn|>,,மால,32,False,target word not begun within 2 greedy tokens
+ml-ta,name,chat_word,en,பெ,0,,33,True,
+ml-ta,night,chat_word,en,<|end_of_turn|>,,രാത്രി,33,False,target word not begun within 2 greedy tokens
+ml-ta,rain,chat_word,en,ம,0,,33,True,
+ml-ta,river,chat_word,en,<|end_of_turn|>,,നദി,33,False,target word not begun within 2 greedy tokens
+ml-ta,road,chat_word,en,<|end_of_turn|>,,റോഡ്,33,False,target word not begun within 2 greedy tokens
+ml-ta,salt,chat_word,en,உ,0,,33,True,
+ml-ta,sky,chat_word,en,ம்,,ஆകാശ,34,False,target word not begun within 2 greedy tokens
+ml-ta,star,chat_word,en,ந,0,,34,True,
+ml-ta,sun,chat_word,en,சூ,0,,34,True,
+ml-ta,tooth,chat_word,en,ப,0,,34,True,
+ml-ta,tree,chat_word,en,ம,0,,33,True,
+ml-ta,village,chat_word,en,கிர,0,,34,True,
+ml-ta,water,chat_word,en,த,0,,33,True,
+bn-gu,bird,chat_word,en,<|end_of_turn|>,,পাখি,33,False,target word not begun within 2 greedy tokens
+bn-gu,book,chat_word,en,પુ,0,,33,True,
+bn-gu,cat,chat_word,en,બ,0,,33,True,
+bn-gu,cow,chat_word,en,ગ,0,,33,True,
+bn-gu,dog,chat_word,en,ક,0,,34,True,
+bn-gu,eye,chat_word,en,<|end_of_turn|>,,চোখ,33,False,target word not begun within 2 greedy tokens
+bn-gu,fire,chat_word,en,આગ,0,,33,True,
+bn-gu,fish,chat_word,en,<|end_of_turn|>,,মাছ,33,False,target word not begun within 2 greedy tokens
+bn-gu,flower,chat_word,en,"
+",,ফুল<|end_of_turn|>,32,False,target word not begun within 2 greedy tokens
+bn-gu,gold,chat_word,en,સો,0,,33,True,
+bn-gu,hand,chat_word,en,હા,0,,32,True,
+bn-gu,heart,chat_word,en,હ,0,,34,True,
+bn-gu,horse,chat_word,en,ઘ,0,,34,True,
+bn-gu,house,chat_word,en,<|end_of_turn|>,,বাড়ি,33,False,target word not begun within 2 greedy tokens
+bn-gu,king,chat_word,en,રા,0,,33,True,
+bn-gu,milk,chat_word,en,દ,0,,33,True,
+bn-gu,moon,chat_word,en,<|end_of_turn|>,,চাঁদ,33,False,target word not begun within 2 greedy tokens
+bn-gu,mother,chat_word,en,મા,0,,32,True,
+bn-gu,mountain,chat_word,en,પ,0,,34,True,
+bn-gu,name,chat_word,en,નામ,0,,32,True,
+bn-gu,night,chat_word,en,"
+",,রাত<|end_of_turn|>,32,False,target word not begun within 2 greedy tokens
+bn-gu,rain,chat_word,en,"
+",,বৃষ্টি<|end_of_turn|>,32,False,target word not begun within 2 greedy tokens
+bn-gu,river,chat_word,en,ન,0,,33,True,
+bn-gu,road,chat_word,en,<|end_of_turn|>,,রাস্তা,33,False,target word not begun within 2 greedy tokens
+bn-gu,salt,chat_word,en,<|end_of_turn|>,,লবণ,33,False,target word not begun within 2 greedy tokens
+bn-gu,sky,chat_word,en,આ,0,,33,True,
+bn-gu,star,chat_word,en,ત,0,,32,True,
+bn-gu,sun,chat_word,en,સ,0,,33,True,
+bn-gu,tooth,chat_word,en,ত,,দাঁ,34,False,target word not begun within 2 greedy tokens
+bn-gu,tree,chat_word,en,<|end_of_turn|>,,গাছ,33,False,target word not begun within 2 greedy tokens
+bn-gu,village,chat_word,en,"
+",,গ্রাম<|end_of_turn|>,32,False,target word not begun within 2 greedy tokens
+bn-gu,water,chat_word,en,"
+",,जल<|end_of_turn|>,32,False,target word not begun within 2 greedy tokens
+gu-mr,bird,chat_word,en,,,,,False,target tokens all shared with another role
+gu-mr,book,chat_word,en,,,,,False,target tokens all shared with another role
+gu-mr,cat,chat_word,en,मां,0,,35,True,
+gu-mr,cow,chat_word,en,,,,,False,target tokens all shared with another role
+gu-mr,dog,chat_word,en,રો,,कૂત,34,False,target word not begun within 2 greedy tokens
+gu-mr,eye,chat_word,en,ખ,,આં,34,False,target word not begun within 2 greedy tokens
+gu-mr,fire,chat_word,en,,,,,False,target tokens all shared with another role
+gu-mr,fish,chat_word,en,<|end_of_turn|>,,માછલી,33,False,target word not begun within 2 greedy tokens
+gu-mr,flower,chat_word,en,,,,,False,target tokens all shared with another role
+gu-mr,gold,chat_word,en,सो,0,,33,True,
+gu-mr,hand,chat_word,en,हा,0,,33,True,
+gu-mr,heart,chat_word,en,,,,,False,target tokens all shared with another role
+gu-mr,horse,chat_word,en,,,,,False,target tokens all shared with another role
+gu-mr,house,chat_word,en,,,,,False,target tokens all shared with another role
+gu-mr,king,chat_word,en,,,,,False,target tokens all shared with another role
+gu-mr,milk,chat_word,en,,,,,False,target tokens all shared with another role
+gu-mr,moon,chat_word,en,,,,,False,target tokens all shared with another role
+gu-mr,mother,chat_word,en,"
+",,मा<|end_of_turn|>,32,False,target word not begun within 2 greedy tokens
+gu-mr,mountain,chat_word,en,प,0,,34,True,
+gu-mr,name,chat_word,en,"
+",,नाम<|end_of_turn|>,32,False,target word not begun within 2 greedy tokens
+gu-mr,night,chat_word,en,,,,,False,target tokens all shared with another role
+gu-mr,rain,chat_word,en,<|end_of_turn|>,,વરસાદ,33,False,target word not begun within 2 greedy tokens
+gu-mr,river,chat_word,en,,,,,False,target tokens all shared with another role
+gu-mr,road,chat_word,en,र,0,,33,True,
+gu-mr,salt,chat_word,en,मी,0,,34,True,
+gu-mr,sky,chat_word,en,,,,,False,target tokens all shared with another role
+gu-mr,star,chat_word,en,,,,,False,target tokens all shared with another role
+gu-mr,sun,chat_word,en,,,,,False,target tokens all shared with another role
+gu-mr,tooth,chat_word,en,दा,0,,33,True,
+gu-mr,tree,chat_word,en,<|end_of_turn|>,,ઝાડ,33,False,target word not begun within 2 greedy tokens
+gu-mr,village,chat_word,en,गा,0,,33,True,
+gu-mr,water,chat_word,en,पा,0,,33,True,
+mr-bn,bird,chat_word,en,পা,0,,33,True,
+mr-bn,book,chat_word,en,ব,0,,32,True,
+mr-bn,cat,chat_word,en,<|end_of_turn|>,,मांजर,33,False,target word not begun within 2 greedy tokens
+mr-bn,cow,chat_word,en,<|end_of_turn|>,,গাই,32,False,target word not begun within 2 greedy tokens
+mr-bn,dog,chat_word,en,ो,,कुत्र,33,False,target word not begun within 2 greedy tokens
+mr-bn,eye,chat_word,en,<|end_of_turn|>,,डोळा,33,False,target word not begun within 2 greedy tokens
+mr-bn,fire,chat_word,en,্‌,,আগ,33,False,target word not begun within 2 greedy tokens
+mr-bn,fish,chat_word,en,মা,0,,33,True,
+mr-bn,flower,chat_word,en,ফুল,0,,32,True,
+mr-bn,gold,chat_word,en,সো,0,,33,True,
+mr-bn,hand,chat_word,en,টা,,হাঁ,32,False,target word not begun within 2 greedy tokens
+mr-bn,heart,chat_word,en,হ,0,,34,True,
+mr-bn,horse,chat_word,en,<|end_of_turn|>,,घोडा,33,False,target word not begun within 2 greedy tokens
+mr-bn,house,chat_word,en,ী,,আগর,32,False,target word not begun within 2 greedy tokens
+mr-bn,king,chat_word,en,রাজ,0,,32,True,
+mr-bn,milk,chat_word,en,দ,0,,33,True,
+mr-bn,moon,chat_word,en,"
+",,চন্দ্র<|end_of_turn|>,32,False,target word not begun within 2 greedy tokens
+mr-bn,mother,chat_word,en,"
+",,আই<|end_of_turn|>,32,False,target word not begun within 2 greedy tokens
+mr-bn,mountain,chat_word,en,গর,,ডং,34,False,target word not begun within 2 greedy tokens
+mr-bn,name,chat_word,en,নাম,0,,32,True,
+mr-bn,night,chat_word,en,রা,0,,33,True,
+mr-bn,rain,chat_word,en,বৃষ্টি,0,,33,True,
+mr-bn,river,chat_word,en,ন,0,,33,True,
+mr-bn,road,chat_word,en,রা,0,,33,True,
+mr-bn,salt,chat_word,en,ু,,মিঠ,33,False,target word not begun within 2 greedy tokens
+mr-bn,sky,chat_word,en,আ,0,,33,True,
+mr-bn,star,chat_word,en,তার,0,,33,True,
+mr-bn,sun,chat_word,en,<|end_of_turn|>,,আকাশ,32,False,target word not begun within 2 greedy tokens
+mr-bn,tooth,chat_word,en,দ,0,,32,True,
+mr-bn,tree,chat_word,en,গা,0,,33,True,
+mr-bn,village,chat_word,en,গ্রাম,0,,32,True,
+mr-bn,water,chat_word,en,জল,0,,33,True,
+bn-ta,bird,chat_word,en,<|end_of_turn|>,,পাখি,33,False,target word not begun within 2 greedy tokens
+bn-ta,book,chat_word,en,பு,0,,33,True,
+bn-ta,cat,chat_word,en,பூ,0,,33,True,
+bn-ta,cow,chat_word,en,<|end_of_turn|>,,গরু,33,False,target word not begun within 2 greedy tokens
+bn-ta,dog,chat_word,en,க்கு,,குக்,34,False,target word not begun within 2 greedy tokens
+bn-ta,eye,chat_word,en,க,0,,33,True,
+bn-ta,fire,chat_word,en,<|end_of_turn|>,,আগুন,33,False,target word not begun within 2 greedy tokens
+bn-ta,fish,chat_word,en,மீ,0,,33,True,
+bn-ta,flower,chat_word,en,<|end_of_turn|>,,மலர்,32,False,target word not begun within 2 greedy tokens
+bn-ta,gold,chat_word,en,த,0,,33,True,
+bn-ta,hand,chat_word,en,<|end_of_turn|>,,பட்டு,32,False,target word not begun within 2 greedy tokens
+bn-ta,heart,chat_word,en,য়,,হৃদ,34,False,target word not begun within 2 greedy tokens
+bn-ta,horse,chat_word,en,ড়া,,ঘো,34,False,target word not begun within 2 greedy tokens
+bn-ta,house,chat_word,en,<|end_of_turn|>,,বাড়ি,33,False,target word not begun within 2 greedy tokens
+bn-ta,king,chat_word,en,ர்,,மன்ன,33,False,target word not begun within 2 greedy tokens
+bn-ta,milk,chat_word,en,<|end_of_turn|>,,দুধ,33,False,target word not begun within 2 greedy tokens
+bn-ta,moon,chat_word,en,ச,0,,33,True,
+bn-ta,mother,chat_word,en,அ,0,,32,True,
+bn-ta,mountain,chat_word,en,மலை,0,,34,True,
+bn-ta,name,chat_word,en,பெ,0,,32,True,
+bn-ta,night,chat_word,en,இர,0,,32,True,
+bn-ta,rain,chat_word,en,ம,0,,32,True,
+bn-ta,river,chat_word,en,ந,0,,33,True,
+bn-ta,road,chat_word,en,<|end_of_turn|>,,রাস্তা,33,False,target word not begun within 2 greedy tokens
+bn-ta,salt,chat_word,en,<|end_of_turn|>,,লবণ,33,False,target word not begun within 2 greedy tokens
+bn-ta,sky,chat_word,en,<|end_of_turn|>,,আকাশ,33,False,target word not begun within 2 greedy tokens
+bn-ta,star,chat_word,en,<|end_of_turn|>,,அவர்கள்,32,False,target word not begun within 2 greedy tokens
+bn-ta,sun,chat_word,en,சூ,0,,33,True,
+bn-ta,tooth,chat_word,en,ত,,দাঁ,34,False,target word not begun within 2 greedy tokens
+bn-ta,tree,chat_word,en,<|end_of_turn|>,,গাছ,33,False,target word not begun within 2 greedy tokens
+bn-ta,village,chat_word,en,கிர,0,,32,True,
+bn-ta,water,chat_word,en,த,0,,32,True,
+ta-bn,bird,chat_word,en,পা,0,,34,True,
+ta-bn,book,chat_word,en,கம்,,புத்த,34,False,target word not begun within 2 greedy tokens
+ta-bn,cat,chat_word,en,বি,0,,33,True,
+ta-bn,cow,chat_word,en,গর,0,,32,True,
+ta-bn,dog,chat_word,en,।,,নয়,33,False,target word not begun within 2 greedy tokens
+ta-bn,eye,chat_word,en,চো,0,,33,True,
+ta-bn,fire,chat_word,en,্‌,,নেগ,34,False,target word not begun within 2 greedy tokens
+ta-bn,fish,chat_word,en,<|end_of_turn|>,,ಮೀನು,33,False,target word not begun within 2 greedy tokens
+ta-bn,flower,chat_word,en,<|end_of_turn|>,,পু,32,False,target word not begun within 2 greedy tokens
+ta-bn,gold,chat_word,en,স্ব,0,,33,True,
+ta-bn,hand,chat_word,en,<|end_of_turn|>,,হাঁ,32,False,target word not begun within 2 greedy tokens
+ta-bn,heart,chat_word,en,হ,0,,33,True,
+ta-bn,horse,chat_word,en,ঘ,0,,34,True,
+ta-bn,house,chat_word,en,বা,0,,33,True,
+ta-bn,king,chat_word,en,শ,,অর,34,False,target word not begun within 2 greedy tokens
+ta-bn,milk,chat_word,en,"
+",,பால்<|end_of_turn|>,32,False,target word not begun within 2 greedy tokens
+ta-bn,moon,chat_word,en,ত্র,,নক্ষ,33,False,target word not begun within 2 greedy tokens
+ta-bn,mother,chat_word,en,মা,1,অ,33,True,
+ta-bn,mountain,chat_word,en,প,0,,32,True,
+ta-bn,name,chat_word,en,নাম,0,,33,True,
+ta-bn,night,chat_word,en,রাত,0,,33,True,
+ta-bn,rain,chat_word,en,বৃষ্টি,0,,33,True,
+ta-bn,river,chat_word,en,<|end_of_turn|>,,আহা,33,False,target word not begun within 2 greedy tokens
+ta-bn,road,chat_word,en,রা,0,,32,True,
+ta-bn,salt,chat_word,en,ল,0,,33,True,
+ta-bn,sky,chat_word,en,আ,0,,33,True,
+ta-bn,star,chat_word,en,ন,0,,34,True,
+ta-bn,sun,chat_word,en,সূ,0,,34,True,
+ta-bn,tooth,chat_word,en,<|end_of_turn|>,,পলা,33,False,target word not begun within 2 greedy tokens
+ta-bn,tree,chat_word,en,গা,0,,33,True,
+ta-bn,village,chat_word,en,ம்,,கிராம,34,False,target word not begun within 2 greedy tokens
+ta-bn,water,chat_word,en,জল,0,,34,True,
+te-gu,bird,chat_word,en,પ,0,,33,True,
+te-gu,book,chat_word,en,కం,,పుస్త,34,False,target word not begun within 2 greedy tokens
+te-gu,cat,chat_word,en,બ,0,,34,True,
+te-gu,cow,chat_word,en,<|end_of_turn|>,,ఆవు,33,False,target word not begun within 2 greedy tokens
+te-gu,dog,chat_word,en,<|end_of_turn|>,,కుక్క,33,False,target word not begun within 2 greedy tokens
+te-gu,eye,chat_word,en,<|end_of_turn|>,,కన్ను,33,False,target word not begun within 2 greedy tokens
+te-gu,fire,chat_word,en,આગ,0,,33,True,
+te-gu,fish,chat_word,en,<|end_of_turn|>,,చేప,33,False,target word not begun within 2 greedy tokens
+te-gu,flower,chat_word,en,<|end_of_turn|>,,పువ్వు,33,False,target word not begun within 2 greedy tokens
+te-gu,gold,chat_word,en,<|end_of_turn|>,,سونو,34,False,target word not begun within 2 greedy tokens
+te-gu,hand,chat_word,en,<|end_of_turn|>,,చేయి,33,False,target word not begun within 2 greedy tokens
+te-gu,heart,chat_word,en,તી,,ગુજરા,33,False,target word not begun within 2 greedy tokens
+te-gu,horse,chat_word,en,్ర,,గుర,35,False,target word not begun within 2 greedy tokens
+te-gu,house,chat_word,en,<|end_of_turn|>,,ఇల్లు,33,False,target word not begun within 2 greedy tokens
+te-gu,king,chat_word,en,"
+",,రాజు<|end_of_turn|>,32,False,target word not begun within 2 greedy tokens
+te-gu,milk,chat_word,en,"
+",,పాలు<|end_of_turn|>,32,False,target word not begun within 2 greedy tokens
+te-gu,moon,chat_word,en,్రు,,చంద,35,False,target word not begun within 2 greedy tokens
+te-gu,mother,chat_word,en,મા,2,અમ્,33,True,
+te-gu,mountain,chat_word,en,<|end_of_turn|>,,కొండ,33,False,target word not begun within 2 greedy tokens
+te-gu,name,chat_word,en,ું,,પાર,33,False,target word not begun within 2 greedy tokens
+te-gu,night,chat_word,en,રા,0,,33,True,
+te-gu,rain,chat_word,en,વર,0,,34,True,
+te-gu,river,chat_word,en,ન,0,,33,True,
+te-gu,road,chat_word,en,<|end_of_turn|>,,రోడ్డు,33,False,target word not begun within 2 greedy tokens
+te-gu,salt,chat_word,en,<|end_of_turn|>,,ఉప్పు,33,False,target word not begun within 2 greedy tokens
+te-gu,sky,chat_word,en,આ,0,,34,True,
+te-gu,star,chat_word,en,త్రం,,నక్ష,34,False,target word not begun within 2 greedy tokens
+te-gu,sun,chat_word,en,સ,0,,34,True,
+te-gu,tooth,chat_word,en,ચ,,પન,33,False,target word not begun within 2 greedy tokens
+te-gu,tree,chat_word,en,టు,,చెట్,34,False,target word not begun within 2 greedy tokens
+te-gu,village,chat_word,en,ం,,గ్రామ,34,False,target word not begun within 2 greedy tokens
+te-gu,water,chat_word,en,<|end_of_turn|>,,నీరు,33,False,target word not begun within 2 greedy tokens
+hi-ta,bird,chat_word,en,ப,0,,33,True,
+hi-ta,book,chat_word,en,பு,0,,33,True,
+hi-ta,cat,chat_word,en,பூ,0,,33,True,
+hi-ta,cow,chat_word,en,மா,0,,32,True,
+hi-ta,dog,chat_word,en,ந,0,,33,True,
+hi-ta,eye,chat_word,en,க,0,,34,True,
+hi-ta,fire,chat_word,en,<|end_of_turn|>,,ஆல,33,False,target word not begun within 2 greedy tokens
+hi-ta,fish,chat_word,en,மீ,0,,34,True,
+hi-ta,flower,chat_word,en,பூ,0,,32,True,
+hi-ta,gold,chat_word,en,த,0,,33,True,
+hi-ta,hand,chat_word,en,<|end_of_turn|>,,பட்டு,33,False,target word not begun within 2 greedy tokens
+hi-ta,heart,chat_word,en,ு,,தில,32,False,target word not begun within 2 greedy tokens
+hi-ta,horse,chat_word,en,கு,0,,33,True,
+hi-ta,house,chat_word,en,வீ,0,,32,True,
+hi-ta,king,chat_word,en,ர்,,மன்ன,32,False,target word not begun within 2 greedy tokens
+hi-ta,milk,chat_word,en,<|end_of_turn|>,,दुध,33,False,target word not begun within 2 greedy tokens
+hi-ta,moon,chat_word,en,ச,0,,34,True,
+hi-ta,mother,chat_word,en,அ,0,,32,True,
+hi-ta,mountain,chat_word,en,டு,,பள்ள,34,False,target word not begun within 2 greedy tokens
+hi-ta,name,chat_word,en,பெ,0,,32,True,
+hi-ta,night,chat_word,en,இர,0,,32,True,
+hi-ta,rain,chat_word,en,ம,0,,33,True,
+hi-ta,river,chat_word,en,ஆ,0,,33,True,
+hi-ta,road,chat_word,en,<|end_of_turn|>,,வீதி,33,False,target word not begun within 2 greedy tokens
+hi-ta,salt,chat_word,en,உ,0,,33,True,
+hi-ta,sky,chat_word,en,ணம்,,ஆகா,34,False,target word not begun within 2 greedy tokens
+hi-ta,star,chat_word,en,<|end_of_turn|>,,தாரா,33,False,target word not begun within 2 greedy tokens
+hi-ta,sun,chat_word,en,சூ,0,,33,True,
+hi-ta,tooth,chat_word,en,.,,தனி,34,False,target word not begun within 2 greedy tokens
+hi-ta,tree,chat_word,en,ம,0,,33,True,
+hi-ta,village,chat_word,en,கிர,0,,33,True,
+hi-ta,water,chat_word,en,த,0,,32,True,
+hi_latn-ta,bird,chat_word,en,ப,0,,33,True,
+hi_latn-ta,book,chat_word,en,பு,0,,33,True,
+hi_latn-ta,cat,chat_word,en,<|end_of_turn|>,,பில்லி,33,False,target word not begun within 2 greedy tokens
+hi_latn-ta,cow,chat_word,en,மா,0,,33,True,
+hi_latn-ta,dog,chat_word,en,<|end_of_turn|>,,குட்டை,33,False,target word not begun within 2 greedy tokens
+hi_latn-ta,eye,chat_word,en,க,0,,34,True,
+hi_latn-ta,fire,chat_word,en,<|end_of_turn|>,,ஆக்,33,False,target word not begun within 2 greedy tokens
+hi_latn-ta,fish,chat_word,en,மீ,0,,34,True,
+hi_latn-ta,flower,chat_word,en,பூ,0,,33,True,
+hi_latn-ta,gold,chat_word,en,த,0,,33,True,
+hi_latn-ta,hand,chat_word,en,<|end_of_turn|>,,கைய,33,False,target word not begun within 2 greedy tokens
+hi_latn-ta,heart,chat_word,en,ன்,,திற,32,False,target word not begun within 2 greedy tokens
+hi_latn-ta,horse,chat_word,en,ড়া,,ঘো,33,False,target word not begun within 2 greedy tokens
+hi_latn-ta,house,chat_word,en,வீ,0,,32,True,
+hi_latn-ta,king,chat_word,en,ர்,,மன்ன,33,False,target word not begun within 2 greedy tokens
+hi_latn-ta,milk,chat_word,en,h,,dood,34,False,target word not begun within 2 greedy tokens
+hi_latn-ta,moon,chat_word,en,ச,0,,33,True,
+hi_latn-ta,mother,chat_word,en,<|end_of_turn|>,,"ம
+
+
+",32,False,target word not begun within 2 greedy tokens
+hi_latn-ta,mountain,chat_word,en,மலை,0,,34,True,
+hi_latn-ta,name,chat_word,en,<|end_of_turn|>,,நாமை,32,False,target word not begun within 2 greedy tokens
+hi_latn-ta,night,chat_word,en,இர,0,,33,True,
+hi_latn-ta,rain,chat_word,en,ம,0,,33,True,
+hi_latn-ta,river,chat_word,en,ந,0,,33,True,
+hi_latn-ta,road,chat_word,en,ைய,,சால,33,False,target word not begun within 2 greedy tokens
+hi_latn-ta,salt,chat_word,en,உ,0,,33,True,
+hi_latn-ta,sky,chat_word,en,வான,0,,34,True,
+hi_latn-ta,star,chat_word,en,<|end_of_turn|>,,தாரா,33,False,target word not begun within 2 greedy tokens
+hi_latn-ta,sun,chat_word,en,சூ,0,,33,True,
+hi_latn-ta,tooth,chat_word,en,ம்,,தண்ட,33,False,target word not begun within 2 greedy tokens
+hi_latn-ta,tree,chat_word,en,"
+",,ped<|end_of_turn|>,32,False,target word not begun within 2 greedy tokens
+hi_latn-ta,village,chat_word,en,கிர,0,,32,True,
+hi_latn-ta,water,chat_word,en,த,0,,33,True,
+en-ta,bird,chat_word,en,ப,0,,32,True,
+en-ta,book,chat_word,en,பு,0,,32,True,
+en-ta,cat,chat_word,en,பூ,0,,32,True,
+en-ta,cow,chat_word,en,மா,0,,32,True,
+en-ta,dog,chat_word,en,ஷ,,விரு,32,False,target word not begun within 2 greedy tokens
+en-ta,eye,chat_word,en,க,0,,32,True,
+en-ta,fire,chat_word,en,"
+",,எரி,32,False,target word not begun within 2 greedy tokens
+en-ta,fish,chat_word,en,மீ,0,,32,True,
+en-ta,flower,chat_word,en,ரை,,தாம,32,False,target word not begun within 2 greedy tokens
+en-ta,gold,chat_word,en,த,0,,32,True,
+en-ta,hand,chat_word,en,<|end_of_turn|>,,கை,32,False,target word not begun within 2 greedy tokens
+en-ta,heart,chat_word,en,இத,0,,32,True,
+en-ta,horse,chat_word,en,கு,0,,32,True,
+en-ta,house,chat_word,en,வீ,0,,32,True,
+en-ta,king,chat_word,en,ர்,,மன்ன,32,False,target word not begun within 2 greedy tokens
+en-ta,milk,chat_word,en,பால்,0,,32,True,
+en-ta,moon,chat_word,en,<|end_of_turn|>,,மூன்,32,False,target word not begun within 2 greedy tokens
+en-ta,mother,chat_word,en,<|end_of_turn|>,,மகள்,32,False,target word not begun within 2 greedy tokens
+en-ta,mountain,chat_word,en,மலை,0,,32,True,
+en-ta,name,chat_word,en,பெ,0,,32,True,
+en-ta,night,chat_word,en,இர,0,,32,True,
+en-ta,rain,chat_word,en,ம,0,,32,True,
+en-ta,river,chat_word,en,ஆ,0,,32,True,
+en-ta,road,chat_word,en,ட்,,ரொ,32,False,target word not begun within 2 greedy tokens
+en-ta,salt,chat_word,en,உ,0,,32,True,
+en-ta,sky,chat_word,en,வான,0,,32,True,
+en-ta,star,chat_word,en,கம்,,விண்ண,32,False,target word not begun within 2 greedy tokens
+en-ta,sun,chat_word,en,சூ,0,,32,True,
+en-ta,tooth,chat_word,en,ப,0,,32,True,
+en-ta,tree,chat_word,en,ம,0,,32,True,
+en-ta,village,chat_word,en,கிர,0,,32,True,
+en-ta,water,chat_word,en,த,0,,32,True,
+ta-en,bird,chat_word,en,Bird,0,,34,True,
+ta-en,book,chat_word,en,Book,0,,34,True,
+ta-en,cat,chat_word,en,Cat,0,,33,True,
+ta-en,cow,chat_word,en,Cow,0,,32,True,
+ta-en,dog,chat_word,en,Dog,0,,33,True,
+ta-en,eye,chat_word,en,eye,0,,33,True,
+ta-en,fire,chat_word,en,Fire,0,,34,True,
+ta-en,fish,chat_word,en,Fish,0,,33,True,
+ta-en,flower,chat_word,en,flower,0,,32,True,
+ta-en,gold,chat_word,en,Gold,0,,33,True,
+ta-en,hand,chat_word,en,hand,0,,32,True,
+ta-en,heart,chat_word,en,Heart,0,,33,True,
+ta-en,horse,chat_word,en,Horse,0,,34,True,
+ta-en,house,chat_word,en,"
+",,Home<|end_of_turn|>,33,False,target word not begun within 2 greedy tokens
+ta-en,king,chat_word,en,King,0,,34,True,
+ta-en,milk,chat_word,en,Milk,0,,32,True,
+ta-en,moon,chat_word,en,Moon,0,,33,True,
+ta-en,mother,chat_word,en,Mother,0,,33,True,
+ta-en,mountain,chat_word,en,Mountain,0,,32,True,
+ta-en,name,chat_word,en,Name,0,,33,True,
+ta-en,night,chat_word,en,night,0,,33,True,
+ta-en,rain,chat_word,en,Rain,0,,33,True,
+ta-en,river,chat_word,en,River,0,,33,True,
+ta-en,road,chat_word,en,road,0,,32,True,
+ta-en,salt,chat_word,en,Salt,0,,33,True,
+ta-en,sky,chat_word,en,sky,0,,33,True,
+ta-en,star,chat_word,en,star,0,,34,True,
+ta-en,sun,chat_word,en,Sun,0,,34,True,
+ta-en,tooth,chat_word,en,"
+",,teeth<|end_of_turn|>,33,False,target word not begun within 2 greedy tokens
+ta-en,tree,chat_word,en,Tree,0,,33,True,
+ta-en,village,chat_word,en,Village,0,,34,True,
+ta-en,water,chat_word,en,Water,0,,34,True,

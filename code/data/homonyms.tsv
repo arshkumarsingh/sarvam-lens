@@ -1,0 +1,24 @@
+sense	group	en	hi	bn	ta	te	kn	ml	zh	note
+nail_finger	nail	nail	नाखून	নখ	நகம்	గోరు	ಉಗುರು	നഖം	指甲
+nail_metal	nail	nail	कील	পেরেক	ஆணி	మేకు	ಮೊಳೆ	ആണി	钉子|钉
+letter_alphabet	letter	letter	अक्षर	অক্ষর	எழுத்து	అక్షరం	ಅಕ್ಷರ	അക്ഷരം	字母
+letter_mail	letter	letter	चिट्ठी|पत्र	চিঠি	கடிதம்	ఉత్తరం	ಪತ್ರ	കത്ത്	信
+date_fruit	date	date	खजूर	খেজুর	பேரீச்சை|பேரீச்சம்பழம்	ఖర్జూరం	ಖರ್ಜೂರ	ഈന്തപ്പഴം	枣|椰枣
+date_calendar	date	date	तारीख़|तारीख|तिथि	তারিখ	தேதி	తేదీ	ದಿನಾಂಕ	തീയതി	日期
+iron_metal	iron	iron	लोहा	লোহা	இரும்பு	ఇనుము	ಕಬ್ಬಿಣ	ഇരുമ്പ്	铁
+iron_press	iron	iron	इस्त्री	ইস্ত্রি	இஸ்திரிப்பெட்டி|இஸ்திரி	ఇస్త్రీ	ಇಸ್ತ್ರಿ	ഇസ്തിരിപ്പെട്ടി	熨斗
+palm_hand	palm	palm	हथेली		உள்ளங்கை	అరచేయి	ಅಂಗೈ	ഉള്ളംകൈ	手掌	bn left out: তালু/তাল share a stem
+palm_tree	palm	palm	ताड़		பனை	తాటి	ತಾಳೆ	പന	棕榈	bn left out
+spring_season	spring	spring	वसंत	বসন্ত	வசந்தம்	వసంతం	ವಸಂತ	വസന്തം	春天|春
+spring_water	spring	spring	झरना|सोता	ঝরনা	நீரூற்று	ఊట	ಚಿಲುಮೆ	നീരുറവ	泉|泉水
+trunk_elephant	trunk	trunk	सूंड|सूँड	শুঁড়	தும்பிக்கை	తొండం	ಸೊಂಡಿಲು	തുമ്പിക്കൈ	象鼻|鼻子
+trunk_tree	trunk	trunk	तना	কাণ্ড|গুঁড়ি	அடிமரம்	కాండం	ಕಾಂಡ	തടി	树干
+trunk_box	trunk	trunk	संदूक	তোরঙ্গ	பெட்டி	పెట్టె	ಪೆಟ್ಟಿಗೆ	പെട്ടി	箱子
+bank_river	bank	bank	किनारा|तट	তীর|পাড়	கரை	ఒడ్డు	ದಡ	തീരം|കര	河岸|岸
+bank_money	bank	bank	बैंक	ব্যাংক	வங்கி	బ్యాంకు	ಬ್ಯಾಂಕ್	ബാങ്ക്	银行	loanword in most languages (not ta)
+bat_animal	bat	bat	चमगादड़	বাদুড়	வௌவால்	గబ్బిలం	ಬಾವಲಿ	വവ്വാൽ	蝙蝠
+bat_cricket	bat	bat	बल्ला	ব্যাট	மட்டை	బ్యాట్	ಬ್ಯಾಟ್	ബാറ്റ്	球拍|球棒	loanword in bn/te/kn/ml
+crane_bird	crane	crane	सारस	সারস	கொக்கு|நாரை	కొంగ	ಕೊಕ್ಕರೆ	കൊക്ക്	鹤
+crane_machine	crane	crane	क्रेन	ক্রেন	கிரேன்	క్రేన్	ಕ್ರೇನ್	ക്രെയിൻ	起重机	loanword everywhere
+mouse_animal	mouse	mouse	चूहा	ইঁদুর	எலி	ఎలుక	ಇಲಿ	എലി	老鼠
+mouse_computer	mouse	mouse	माउस	মাউস	மவுஸ்|சுட்டி	మౌస్	ಮೌಸ್	മൗസ്	鼠标	loanword (ta also சுட்டி)

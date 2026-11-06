@@ -1,0 +1,23 @@
+# concept: salt
+# page: salt/translations
+# revid: 93563637
+# section_url: https://en.wiktionary.org/w/index.php?title=salt/translations&action=raw
+## block: {{trans-top|sodium chloride}}
+* Assamese: {{tt|as|লোণ}}, {{tt|as|নিমখ}}
+* Odia: {{tt+|or|ଲୁଣ}}
+* Punjabi: {{tt|pa|ਨਮਕ}}, {{tt|pa|ਲੂਣ}}, {{tt|pa|ਲਵਣ}}
+* Urdu: {{tt|ur|نَمَک|m}}
+* Nepali: {{tt|ne|नून}}, {{tt|ne|लवण}}
+* Sanskrit: {{tt+|sa|लवण|n}}
+* Maithili: {{tt|mai|नून}}
+* Sindhi: {{tt|sd|لوڻ|m|tr=luurnu|alt=لوُڻُ}}
+MISSING Kashmiri
+MISSING Konkani
+* Dogri: {{tt|doi|लून}}
+MISSING Manipuri
+MISSING Bodo
+MISSING Santali
+* Japanese: {{tt+|ja|塩|tr=しお, shio}}
+* Russian: {{tt+|ru|соль|f}}, {{tt+|ru|пова́ренная соль|f}}
+* Arabic: {{tt|ar|مِلْح|m}}
+* Hindi: {{tt+|hi|नमक|m}}, {{tt+|hi|लोन}}, {{tt+|hi|लवण|m}}, {{t|hi|मिल्ह}}

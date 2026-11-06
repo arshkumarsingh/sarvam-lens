@@ -1,0 +1,268 @@
+{
+ "usd_per_hour": 5.174,
+ "budget_minutes": 7.5,
+ "model_type": "sarvam_moe",
+ "stages": [
+  {
+   "stage": "load",
+   "est_minutes": 2,
+   "result": {
+    "model": "HFLensModel(SarvamMoEForCausalLM, n_layers=19, d_model=4096)",
+    "gpu_gb_allocated": 64.3,
+    "gpu_gb_by_device": {
+     "0": 64.3
+    },
+    "loading_info": {
+     "missing_keys": {
+      "n": 0,
+      "first": []
+     },
+     "unexpected_keys": {
+      "n": 0,
+      "first": []
+     },
+     "mismatched_keys": {
+      "n": 0,
+      "first": []
+     },
+     "error_msgs": {
+      "n": 0,
+      "first": []
+     }
+    }
+   },
+   "status": "ok",
+   "minutes": 0.46,
+   "log_tail": []
+  },
+  {
+   "stage": "sanity",
+   "est_minutes": 1.12,
+   "result": {
+    "bos_first": true,
+    "n_tokens": 19,
+    "stock_rerun_max_abs_diff": 0.0,
+    "rlens": {
+     "max_abs_diff": 0.0,
+     "stock_abs_max": 123.0,
+     "patched": {
+      "ln_rule": 39,
+      "mlp_rule": 19,
+      "routed_experts": 0,
+      "moe_blocks": 0
+     }
+    },
+    "r+moe": {
+     "max_abs_diff": 0.0,
+     "stock_abs_max": 123.0,
+     "patched": {
+      "ln_rule": 39,
+      "mlp_rule": 19,
+      "routed_experts": 2304,
+      "moe_blocks": 18
+     }
+    },
+    "seconds_per_forward": 0.12,
+    "timing_prompt_tokens": 101,
+    "greedy": {
+     "हिन्दी: \"पानी\" - English: \"": "water\".\n\nThe user wants a function that takes a string",
+     "தமிழ்: \"நீர்\" - తెలుగు: \"": "நீர்\" - హిందీ: \"నీరు\" - బెంగ",
+     "भारत की राजधानी": " है?\n1. दिल्ली\n2. मुंबई\n3",
+     "The capital of Tamil Nadu is": " Chennai.\n\nThe user's question is a statement,"
+    },
+    "greedy_water_ok": true
+   },
+   "status": "ok",
+   "minutes": 0.26,
+   "log_tail": []
+  },
+  {
+   "stage": "patch_rank",
+   "est_minutes": 4.99,
+   "result": {
+    "lens": "j_200p",
+    "n_items": 230,
+    "layers": [
+     13,
+     14,
+     15,
+     16
+    ],
+    "pairs": "ta-te,te-kn,kn-ml,ml-ta,bn-gu,gu-mr,mr-bn,bn-ta,ta-bn,te-gu",
+    "skipped": {
+     "A_wrong": 47,
+     "B_wrong": 42,
+     "no_B_target": 1,
+     "no_B_english": 0
+    },
+    "conditions": [
+     "english_eq",
+     "hindi_eq",
+     "target_eq",
+     "random_eq"
+    ],
+    "base_pB": 0.0007563527366380635,
+    "B_run_pB": 0.8814932932748216,
+    "english_eq": {
+     "n": 230,
+     "rank_mean": 6.765217391304348,
+     "share_of_diff": 0.07630868501374093,
+     "flip_to_B_rate": 0.5260869565217391,
+     "flip_ci95": [
+      0.4608695652173913,
+      0.5869565217391305
+     ],
+     "still_A_rate": 0.22608695652173913,
+     "mean_pB_gain": 0.42286368608578034,
+     "pB_gain_ci95": [
+      0.37954168287449214,
+      0.4706566348527756
+     ],
+     "mean_pA_drop": 0.6979278935918427,
+     "frac_of_ceiling_pB_gain": NaN
+    },
+    "hindi_eq": {
+     "n": 230,
+     "rank_mean": 6.765217391304348,
+     "share_of_diff": 0.06107914359485933,
+     "flip_to_B_rate": 0.2956521739130435,
+     "flip_ci95": [
+      0.2391304347826087,
+      0.3565217391304348
+     ],
+     "still_A_rate": 0.49130434782608695,
+     "mean_pB_gain": 0.2428723602629509,
+     "pB_gain_ci95": [
+      0.20226860285884776,
+      0.28443256430435027
+     ],
+     "mean_pA_drop": 0.4990693906667255,
+     "frac_of_ceiling_pB_gain": NaN
+    },
+    "target_eq": {
+     "n": 230,
+     "rank_mean": 6.765217391304348,
+     "share_of_diff": 0.04374648741491989,
+     "flip_to_B_rate": 0.3,
+     "flip_ci95": [
+      0.24347826086956523,
+      0.36086956521739133
+     ],
+     "still_A_rate": 0.4434782608695652,
+     "mean_pB_gain": 0.2605156027385231,
+     "pB_gain_ci95": [
+      0.21629926485094514,
+      0.3045442408119583
+     ],
+     "mean_pA_drop": 0.5247295937790113,
+     "frac_of_ceiling_pB_gain": NaN
+    },
+    "random_eq": {
+     "n": 230,
+     "rank_mean": 6.765217391304348,
+     "share_of_diff": 0.0016590385138284625,
+     "flip_to_B_rate": 0.0,
+     "flip_ci95": [
+      0.0,
+      0.0
+     ],
+     "still_A_rate": 0.9869565217391304,
+     "mean_pB_gain": -5.072160129036744e-05,
+     "pB_gain_ci95": [
+      -0.00016349322190496295,
+      1.4131976828819254e-05
+     ],
+     "mean_pA_drop": 0.0027569896501043567,
+     "frac_of_ceiling_pB_gain": NaN
+    },
+    "contrasts": {
+     "english_eq_minus_hindi_eq": {
+      "n": 230,
+      "flip": 0.23043478260869565,
+      "flip_ci95": [
+       0.16956521739130434,
+       0.2956521739130435
+      ],
+      "pB_gain": 0.17999132582282942,
+      "pB_gain_ci95": [
+       0.14031425401652914,
+       0.21828048387458454
+      ]
+     },
+     "english_eq_minus_target_eq": {
+      "n": 230,
+      "flip": 0.22608695652173913,
+      "flip_ci95": [
+       0.1565217391304348,
+       0.3
+      ],
+      "pB_gain": 0.16234808334725723,
+      "pB_gain_ci95": [
+       0.11689259678925351,
+       0.2101723676491631
+      ]
+     },
+     "hindi_eq_minus_target_eq": {
+      "n": 230,
+      "flip": -0.004347826086956522,
+      "flip_ci95": [
+       -0.06521739130434782,
+       0.06521739130434782
+      ],
+      "pB_gain": -0.01764324247557219,
+      "pB_gain_ci95": [
+       -0.057288586503454884,
+       0.02308267619597102
+      ]
+     },
+     "english_eq_minus_random_eq": {
+      "n": 230,
+      "flip": 0.5260869565217391,
+      "flip_ci95": [
+       0.4652173913043478,
+       0.5869565217391305
+      ],
+      "pB_gain": 0.42291440768707067,
+      "pB_gain_ci95": [
+       0.3769231268230539,
+       0.46787783905018143
+      ]
+     },
+     "hindi_eq_minus_random_eq": {
+      "n": 230,
+      "flip": 0.2956521739130435,
+      "flip_ci95": [
+       0.2391304347826087,
+       0.3565217391304348
+      ],
+      "pB_gain": 0.24292308186424127,
+      "pB_gain_ci95": [
+       0.19898197521970148,
+       0.2833575590350906
+      ]
+     },
+     "target_eq_minus_random_eq": {
+      "n": 230,
+      "flip": 0.3,
+      "flip_ci95": [
+       0.24347826086956523,
+       0.36086956521739133
+      ],
+      "pB_gain": 0.26056632433981347,
+      "pB_gain_ci95": [
+       0.21883281573003505,
+       0.30332922030369425
+      ]
+     }
+    }
+   },
+   "status": "ok",
+   "minutes": 3.27,
+   "log_tail": []
+  }
+ ],
+ "elapsed_minutes": 4.19,
+ "est_cost_usd_so_far": 0.36,
+ "seconds_per_forward": 0.12,
+ "done": true
+}

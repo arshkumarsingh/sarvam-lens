@@ -1,0 +1,152 @@
+workdir: %TEMP%\jl\smoke2
+1. loading
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00, 10.12it/s]
+  ok   checkpoint detected as sarvam_moe
+Loading weights:   0%|          | 0/117 [00:00<?, ?it/s]Loading weights: 100%|██████████| 117/117 [00:00<00:00, 5967.96it/s]
+[transformers] You are using a model of type `sarvam_moe` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+[transformers] `use_return_dict` is deprecated! Use `return_dict` instead!
+  ok   layout resolved: HFLensModel(SarvamMoEForCausalLM, n_layers=4, d_model=64)
+  ok   BOS prepended
+2. LRP surgery
+  ok   LN-rule forward is bit-identical
+  ok   rlens: fp32 forward bit-identical
+  ok   rlens: LN-rule on the 8 residual norms + final norm, q/k norms untouched
+  ok   rlens: dense+shared MLPs 4, routed experts 0, MoE blocks 0
+  ok   r+moe: fp32 forward bit-identical
+  ok   r+moe: LN-rule on the 8 residual norms + final norm, q/k norms untouched
+  ok   r+moe: dense+shared MLPs 4, routed experts 24, MoE blocks 3
+  ok   every instance forward restored on exit
+Loading weights:   0%|          | 0/117 [00:00<?, ?it/s]Loading weights: 100%|██████████| 117/117 [00:00<00:00, 3573.86it/s]
+[transformers] You are using a model of type `sarvam_moe` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+  ok   rlens: bf16 forward bit-identical
+  ok   r+moe: bf16 forward bit-identical
+  ok   exact identity rule has jpp's gradient
+3. gradients through the eval-mode expert dispatch
+  ok   standard gradients finite and nonzero
+  ok   R+MoE gradients differ from standard (max relative diff 0.660)
+4. jpp pipeline through run_jpp
+Loading weights:   0%|          | 0/117 [00:00<?, ?it/s]Loading weights: 100%|██████████| 117/117 [00:00<00:00, 4782.61it/s]
+[transformers] You are using a model of type `sarvam_moe` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+2026-10-18 17:46:44,862 jpp_cli router saved to %TEMP%\jl\smoke2\router.pt (stamp %TEMP%\jl\smoke2\router_stamp.json)
+  ok   fit-router
+Loading weights:   0%|          | 0/117 [00:00<?, ?it/s]Loading weights: 100%|██████████| 117/117 [00:00<00:00, 3544.56it/s]
+[transformers] You are using a model of type `sarvam_moe` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+2026-10-18 17:46:47,740 jpp_cli ExpertJacobianTrainer shard 0/1: prompts [0, 6) of 6, K=[2], checkpoints in %TEMP%\jl\smoke2\artifacts_j\2026-10-18\tiny_j/shard0of1
+2026-10-18 17:46:47,740 workspace_lens.fitting.expert_fitting LensConfig(hf_model_name='%TEMP%\\jl\\smoke2\\tiny-sarvam', checkpoint_name='tiny_j/shard0of1', lens_type='jacobian', checkpoint_every_n_prompts=4, creation_time='2026-10-18_12-16-44', artifacts_base_dir='%TEMP%\\jl\\smoke2\\artifacts_j', checkpoint_path='%TEMP%\\jl\\smoke2\\artifacts_j\\2026-10-18\\tiny_j/shard0of1', source_layers=[0, 1, 2], relative_end_transport_layer=-1, d_model=64, num_prompts_trained_on=0, next_prompt_idx=0, jacobian_rows_per_pass=16, max_seq_len=48, skip_first_n_positions=4, num_clusters=0, cluster_projection_dim=0, lrp_mode='none')
+2026-10-18 17:46:47,741 workspace_lens.fitting.expert_fitting expert fit: Ks=[2]
+2026-10-18 17:46:48,374 workspace_lens.fitting.expert_fitting   prompt 1/6  seq_len=48 num_source_positions=43  1s
+2026-10-18 17:46:48,925 workspace_lens.fitting.expert_fitting   prompt 2/6  seq_len=44 num_source_positions=39  1s
+2026-10-18 17:46:49,564 workspace_lens.fitting.expert_fitting   prompt 3/6  seq_len=48 num_source_positions=43  1s
+2026-10-18 17:46:50,213 workspace_lens.fitting.expert_fitting   prompt 4/6  seq_len=48 num_source_positions=43  1s
+2026-10-18 17:46:50,723 workspace_lens.fitting.expert_fitting   prompt 5/6  seq_len=36 num_source_positions=31  1s
+2026-10-18 17:46:51,361 workspace_lens.fitting.expert_fitting   prompt 6/6  seq_len=48 num_source_positions=43  1s
+2026-10-18 17:46:51,365 workspace_lens.fitting.expert_fitting expert fit: done, 6 prompts
+2026-10-18 17:46:51,421 jpp_cli shard checkpoint in %TEMP%\jl\smoke2\artifacts_j\2026-10-18\tiny_j/shard0of1
+2026-10-18 17:46:51,425 workspace_lens.fitting.utils merging checkpoint 1/1: %TEMP%\jl\smoke2\artifacts_j\2026-10-18\tiny_j\shard0of1\experts_K2_checkpoint.pt
+2026-10-18 17:46:51,466 jpp_cli experts saved to %TEMP%\jl\smoke2\experts_j.pt (stamp %TEMP%\jl\smoke2\experts_j_stamp.json)
+2026-10-18 17:46:51,492 jpp_cli pooled lens (in-memory fp32 sums) saved to %TEMP%\jl\smoke2\tiny_j_lens.pt (stamp %TEMP%\jl\smoke2\tiny_j_lens_stamp.json)
+%TEMP%\jl\smoke2\artifacts_j\2026-10-18\tiny_j/shard0of1
+  ok   fit-shard --lrp-mode none
+  ok   shard checkpoint written (['%TEMP%\\jl\\smoke2\\artifacts_j\\2026-10-18\\tiny_j\\shard0of1'])
+  ok   merge-experts (j)
+Loading weights:   0%|          | 0/117 [00:00<?, ?it/s]Loading weights: 100%|██████████| 117/117 [00:00<00:00, 3015.61it/s]
+[transformers] You are using a model of type `sarvam_moe` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+2026-10-18 17:46:54,237 jpp_cli ExpertJacobianRelPTrainer shard 0/1: prompts [0, 6) of 6, K=[2], checkpoints in %TEMP%\jl\smoke2\artifacts_r\2026-10-18\tiny_r/shard0of1
+2026-10-18 17:46:54,237 workspace_lens.fitting.expert_fitting LensConfig(hf_model_name='%TEMP%\\jl\\smoke2\\tiny-sarvam', checkpoint_name='tiny_r/shard0of1', lens_type='jacobian', checkpoint_every_n_prompts=4, creation_time='2026-10-18_12-16-51', artifacts_base_dir='%TEMP%\\jl\\smoke2\\artifacts_r', checkpoint_path='%TEMP%\\jl\\smoke2\\artifacts_r\\2026-10-18\\tiny_r/shard0of1', source_layers=[0, 1, 2], relative_end_transport_layer=-1, d_model=64, num_prompts_trained_on=0, next_prompt_idx=0, jacobian_rows_per_pass=16, max_seq_len=48, skip_first_n_positions=4, num_clusters=0, cluster_projection_dim=0, lrp_mode='r+moe')
+2026-10-18 17:46:54,237 workspace_lens.fitting.expert_fitting expert fit: Ks=[2]
+2026-10-18 17:46:54,278 workspace_lens.fitting.relp_fitting LRP surgery (lrp_mode=r+moe): patched 9 RMSNorms, 4 gated MLPs
+2026-10-18 17:46:54,888 workspace_lens.fitting.expert_fitting   prompt 1/6  seq_len=48 num_source_positions=43  1s
+2026-10-18 17:46:55,465 workspace_lens.fitting.expert_fitting   prompt 2/6  seq_len=44 num_source_positions=39  1s
+2026-10-18 17:46:56,084 workspace_lens.fitting.expert_fitting   prompt 3/6  seq_len=48 num_source_positions=43  1s
+2026-10-18 17:46:56,752 workspace_lens.fitting.expert_fitting   prompt 4/6  seq_len=48 num_source_positions=43  1s
+2026-10-18 17:46:57,240 workspace_lens.fitting.expert_fitting   prompt 5/6  seq_len=36 num_source_positions=31  0s
+2026-10-18 17:46:57,876 workspace_lens.fitting.expert_fitting   prompt 6/6  seq_len=48 num_source_positions=43  1s
+2026-10-18 17:46:57,880 workspace_lens.fitting.expert_fitting expert fit: done, 6 prompts
+2026-10-18 17:46:57,950 jpp_cli shard checkpoint in %TEMP%\jl\smoke2\artifacts_r\2026-10-18\tiny_r/shard0of1
+2026-10-18 17:46:57,954 workspace_lens.fitting.utils merging checkpoint 1/1: %TEMP%\jl\smoke2\artifacts_r\2026-10-18\tiny_r\shard0of1\experts_K2_checkpoint.pt
+2026-10-18 17:46:57,994 jpp_cli experts saved to %TEMP%\jl\smoke2\experts_r.pt (stamp %TEMP%\jl\smoke2\experts_r_stamp.json)
+2026-10-18 17:46:58,019 jpp_cli pooled lens (in-memory fp32 sums) saved to %TEMP%\jl\smoke2\tiny_r_lens.pt (stamp %TEMP%\jl\smoke2\tiny_r_lens_stamp.json)
+%TEMP%\jl\smoke2\artifacts_r\2026-10-18\tiny_r/shard0of1
+  ok   fit-shard --lrp-mode r+moe
+  ok   shard checkpoint written (['%TEMP%\\jl\\smoke2\\artifacts_r\\2026-10-18\\tiny_r\\shard0of1'])
+  ok   merge-experts (r)
+association: copied
+multihop: copied
+multilingual: excluded (empty items)
+order-ops: copied
+poetry: copied
+typo: copied
+  ok   prepare-evals
+  ok   multilingual items emptied
+Loading weights:   0%|          | 0/117 [00:00<?, ?it/s]Loading weights: 100%|██████████| 117/117 [00:00<00:00, 3544.87it/s]
+[transformers] You are using a model of type `sarvam_moe` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+multihop: 0/93 correct
+multilingual: 0/107 correct
+order-ops: 0/55 correct
+poetry: 0/98 correct
+wrote %TEMP%\jl\smoke2\correctness.csv (353 gradeable rows)
+  ok   grade
+Loading weights:   0%|          | 0/117 [00:00<?, ?it/s]Loading weights: 100%|██████████| 117/117 [00:00<00:00, 3856.39it/s]
+[transformers] You are using a model of type `sarvam_moe` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+2026-10-18 17:47:07,336 lens_evals.readout_evals.readout_eval_items correctness filter kept 198/389 items
+2026-10-18 17:47:09,454 lens_evals.eval_utils non-semantic exclusion: 8243 token ids excluded (18 spared as scored surfaces)
+2026-10-18 17:47:09,700 lens_evals.readout_evals.readout_evals recorded item 25/198
+2026-10-18 17:47:09,899 lens_evals.readout_evals.readout_evals recorded item 50/198
+2026-10-18 17:47:10,087 lens_evals.readout_evals.readout_evals recorded item 75/198
+2026-10-18 17:47:10,274 lens_evals.readout_evals.readout_evals recorded item 100/198
+2026-10-18 17:47:10,443 lens_evals.readout_evals.readout_evals recorded item 125/198
+2026-10-18 17:47:10,670 lens_evals.readout_evals.readout_evals recorded item 150/198
+2026-10-18 17:47:10,896 lens_evals.readout_evals.readout_evals recorded item 175/198
+2026-10-18 17:47:11,078 lens_evals.readout_evals.readout_evals recorded item 198/198
+2026-10-18 17:47:11,853 workspace_lens.fitting.condense_experts.fitter layer 0: single-expert pass@10 [0.0, 0.0] -> learned 0.000 (select_best, step 0)
+2026-10-18 17:47:12,688 workspace_lens.fitting.condense_experts.fitter layer 1: single-expert pass@10 [0.0, 0.0] -> learned 0.000 (select_best, step 3)
+2026-10-18 17:47:13,561 workspace_lens.fitting.condense_experts.fitter layer 2: single-expert pass@10 [0.0, 0.0] -> learned 0.000 (uniform, step 3)
+2026-10-18 17:47:13,604 jpp_cli lens saved to %TEMP%\jl\smoke2\tiny_jpp.pt (weights %TEMP%\jl\smoke2\tiny_jpp_expert_weights.json)
+  ok   fit-weights (J++ from the R+MoE experts)
+  ok   evaluate refuses held-out items from a different list than fit-weights used
+Loading weights:   0%|          | 0/117 [00:00<?, ?it/s]Loading weights: 100%|██████████| 117/117 [00:00<00:00, 3806.26it/s]
+[transformers] You are using a model of type `sarvam_moe` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+2026-10-18 17:47:16,490 lens_evals.readout_evals.readout_eval_items correctness filter kept 198/389 items
+2026-10-18 17:47:18,195 lens_evals.eval_utils non-semantic exclusion: 8243 token ids excluded (18 spared as scored surfaces)
+2026-10-18 17:47:18,516 lens_evals.readout_evals.readout_evals scored item 25/159
+2026-10-18 17:47:18,843 lens_evals.readout_evals.readout_evals scored item 50/159
+2026-10-18 17:47:19,179 lens_evals.readout_evals.readout_evals scored item 75/159
+2026-10-18 17:47:19,547 lens_evals.readout_evals.readout_evals scored item 100/159
+2026-10-18 17:47:19,904 lens_evals.readout_evals.readout_evals scored item 125/159
+2026-10-18 17:47:20,261 lens_evals.readout_evals.readout_evals scored item 150/159
+2026-10-18 17:47:20,399 lens_evals.readout_evals.readout_evals scored item 159/159
+2026-10-18 17:47:20,475 jpp_cli ranks saved to %TEMP%\jl\smoke2\eval\ranks.csv (recall table %TEMP%\jl\smoke2\eval\ranks_pass_at_k.csv)
+ eval     lens  k weighting  pass_at_k
+macro tiny_jpp  1      item        NaN
+macro tiny_jpp 10      item        NaN
+macro tiny_jpp  1      pair        NaN
+macro tiny_jpp 10      pair        NaN
+  ok   evaluate on the held-out split of the weights' own item list
+association: excluded (empty items)
+multihop: excluded (empty items)
+multilingual: copied
+order-ops: excluded (empty items)
+poetry: excluded (empty items)
+typo: excluded (empty items)
+Loading weights:   0%|          | 0/117 [00:00<?, ?it/s]Loading weights: 100%|██████████| 117/117 [00:00<00:00, 3833.53it/s]
+[transformers] You are using a model of type `sarvam_moe` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+2026-10-18 17:47:23,184 lens_evals.readout_evals.readout_eval_items correctness filter kept 0/107 items
+2026-10-18 17:47:25,150 lens_evals.eval_utils non-semantic exclusion: 8261 token ids excluded (0 spared as scored surfaces)
+2026-10-18 17:47:25,215 jpp_cli ranks saved to %TEMP%\jl\smoke2\eval_multilingual\ranks.csv (recall table %TEMP%\jl\smoke2\eval_multilingual\ranks_pass_at_k.csv)
+Empty DataFrame
+Columns: [eval, lens, k, weighting, pass_at_k]
+Index: []
+  ok   evaluate all multilingual items (never seen by the weights)
+5. pivot experiment
+Loading weights:   0%|          | 0/117 [00:00<?, ?it/s]Loading weights: 100%|██████████| 117/117 [00:00<00:00, 3818.20it/s]
+[transformers] You are using a model of type `sarvam_moe` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+2026-10-18 17:47:28,180 pivot lenses ['logit', 'tiny_j_lens', 'tiny_r_lens', 'tiny_jpp'] at layers [0, 1, 2]
+2026-10-18 17:47:32,313 pivot ta-te: kept 4 items
+2026-10-18 17:47:32,810 pivot mr-bn: kept 4 items
+2026-10-18 17:47:33,300 pivot hi_latn-ta: kept 4 items
+2026-10-18 17:47:37,866 pivot kept 12 / 12 items; wrote %TEMP%\jl\smoke2\pivot
+  ok   pivot_experiment
+  ok   576 rows over 4 lenses
+  ok   plots written: ['logit_mean_prob.png', 'logit_top10_rate.png', 'tiny_j_lens_mean_prob.png', 'tiny_j_lens_top10_rate.png', 'tiny_jpp_mean_prob.png', 'tiny_jpp_top10_rate.png', 'tiny_r_lens_mean_prob.png', 'tiny_r_lens_top10_rate.png']
+
+ALL CHECKS PASSED  (artifacts in %TEMP%\jl\smoke2)

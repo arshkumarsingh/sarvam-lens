@@ -1,0 +1,594 @@
+✓ Initialized. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-pMj4YHByuDKiPqEHBz5ZIC
+✓ Created objects.
+├── ✓ Uploaded .\code\modal_app.py
+├── ✓ Uploaded .\code
+├── ✓ Created Function prepare_weights.
+├── ✓ Created Function smoke.
+├── ✓ Created Function smoke_2gpu.
+├── ✓ Created Function batch_probe.
+├── ✓ Created Function prepare_qwen.
+├── ✓ Created Function cka.
+├── ✓ Created Function pilot.
+├── ✓ Created Function pilot2.
+├── ✓ Created Function merge_j.
+├── ✓ Created Function build_corpus_fn.
+├── ✓ Created Function cka_robust.
+└── ✓ Created Function diagnose.
+1xH200 at $5.17/h, hard timeout 6 min -> worst case $0.53
+
+[1ALoading weights:   0%|          | 0/7122 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 22/7122 [00:00<00:35, 200.36it/s]
+[1ALoading weights:   1%|          | 43/7122 [00:00<00:53, 133.38it/s]
+[1ALoading weights:   1%|          | 75/7122 [00:00<00:35, 196.50it/s]
+[1ALoading weights:   2%|▏         | 113/7122 [00:00<00:27, 251.39it/s]
+[1ALoading weights:   2%|▏         | 147/7122 [00:00<00:25, 277.69it/s]
+[1ALoading weights:   3%|▎         | 182/7122 [00:00<00:23, 299.94it/s]
+[1ALoading weights:   3%|▎         | 225/7122 [00:00<00:21, 328.24it/s]
+[1ALoading weights:   4%|▎         | 263/7122 [00:00<00:20, 336.45it/s]
+[1ALoading weights:   4%|▍         | 301/7122 [00:01<00:19, 342.71it/s]
+[1ALoading weights:   5%|▍         | 336/7122 [00:01<00:21, 310.06it/s]
+[1ALoading weights:   5%|▌         | 368/7122 [00:01<00:24, 280.15it/s]
+[1ALoading weights:   6%|▌         | 397/7122 [00:01<00:24, 271.73it/s]
+[1ALoading weights:   6%|▌         | 425/7122 [00:01<00:33, 197.12it/s]
+[1ALoading weights:   6%|▋         | 454/7122 [00:01<00:31, 214.44it/s]
+[1ALoading weights:   7%|▋         | 495/7122 [00:01<00:25, 259.29it/s]
+[1ALoading weights:   7%|▋         | 528/7122 [00:01<00:23, 275.60it/s]
+[1ALoading weights:   8%|▊         | 564/7122 [00:02<00:22, 290.39it/s]
+[1ALoading weights:   8%|▊         | 599/7122 [00:02<00:21, 306.13it/s]
+[1ALoading weights:   9%|▉         | 632/7122 [00:02<00:21, 301.97it/s]
+[1ALoading weights:   9%|▉         | 664/7122 [00:02<00:21, 305.37it/s]
+[1ALoading weights:  10%|▉         | 696/7122 [00:02<00:21, 299.70it/s]
+[1ALoading weights:  10%|█         | 727/7122 [00:02<00:21, 290.80it/s]
+[1ALoading weights:  11%|█         | 757/7122 [00:02<00:22, 289.03it/s]
+[1ALoading weights:  11%|█         | 796/7122 [00:02<00:20, 312.61it/s]
+[1ALoading weights:  12%|█▏        | 828/7122 [00:03<00:25, 250.63it/s]
+[1ALoading weights:  12%|█▏        | 865/7122 [00:03<00:22, 279.62it/s]
+[1ALoading weights:  13%|█▎        | 904/7122 [00:03<00:20, 302.80it/s]
+[1ALoading weights:  13%|█▎        | 936/7122 [00:03<00:21, 291.12it/s]
+[1ALoading weights:  14%|█▎        | 967/7122 [00:03<00:21, 290.35it/s]
+[1ALoading weights:  14%|█▍        | 999/7122 [00:03<00:20, 293.68it/s]
+[1ALoading weights:  14%|█▍        | 1031/7122 [00:03<00:20, 299.79it/s]
+[1ALoading weights:  15%|█▍        | 1063/7122 [00:03<00:20, 302.80it/s]
+[1ALoading weights:  15%|█▌        | 1095/7122 [00:03<00:20, 301.09it/s]
+[1ALoading weights:  16%|█▌        | 1126/7122 [00:04<00:21, 284.96it/s]
+[1ALoading weights:  16%|█▋        | 1158/7122 [00:04<00:20, 290.44it/s]
+[1ALoading weights:  17%|█▋        | 1194/7122 [00:04<00:19, 306.19it/s]
+[1ALoading weights:  17%|█▋        | 1225/7122 [00:04<00:30, 194.42it/s]
+[1ALoading weights:  18%|█▊        | 1250/7122 [00:04<00:28, 204.80it/s]
+[1ALoading weights:  18%|█▊        | 1290/7122 [00:04<00:24, 242.82it/s]
+[1ALoading weights:  19%|█▊        | 1328/7122 [00:04<00:21, 271.98it/s]
+[1ALoading weights:  19%|█▉        | 1366/7122 [00:04<00:19, 294.86it/s]
+[1ALoading weights:  20%|█▉        | 1409/7122 [00:05<00:17, 329.27it/s]
+[1ALoading weights:  20%|██        | 1445/7122 [00:05<00:17, 330.91it/s]
+[1ALoading weights:  21%|██        | 1482/7122 [00:05<00:16, 332.28it/s]
+[1ALoading weights:  21%|██▏       | 1517/7122 [00:05<00:17, 324.71it/s]
+[1ALoading weights:  22%|██▏       | 1551/7122 [00:05<00:17, 324.98it/s]
+[1ALoading weights:  22%|██▏       | 1586/7122 [00:05<00:16, 331.94it/s]
+[1ALoading weights:  23%|██▎       | 1620/7122 [00:05<00:23, 234.47it/s]
+[1ALoading weights:  23%|██▎       | 1651/7122 [00:05<00:21, 251.15it/s]
+[1ALoading weights:  24%|██▎       | 1689/7122 [00:06<00:19, 276.70it/s]
+[1ALoading weights:  24%|██▍       | 1731/7122 [00:06<00:17, 304.65it/s]
+[1ALoading weights:  25%|██▍       | 1775/7122 [00:06<00:15, 336.44it/s]
+[1ALoading weights:  25%|██▌       | 1811/7122 [00:06<00:16, 327.57it/s]
+[1ALoading weights:  26%|██▌       | 1847/7122 [00:06<00:16, 329.63it/s]
+[1ALoading weights:  26%|██▋       | 1883/7122 [00:06<00:15, 332.93it/s]
+[1ALoading weights:  27%|██▋       | 1918/7122 [00:06<00:16, 323.73it/s]
+[1ALoading weights:  27%|██▋       | 1953/7122 [00:06<00:15, 327.43it/s]
+[1ALoading weights:  28%|██▊       | 1989/7122 [00:06<00:15, 331.22it/s]
+[1ALoading weights:  28%|██▊       | 2023/7122 [00:07<00:17, 289.25it/s]
+[1ALoading weights:  29%|██▉       | 2062/7122 [00:07<00:16, 306.46it/s]
+[1ALoading weights:  29%|██▉       | 2100/7122 [00:07<00:15, 319.64it/s]
+[1ALoading weights:  30%|██▉       | 2136/7122 [00:07<00:15, 325.12it/s]
+[1ALoading weights:  30%|███       | 2172/7122 [00:07<00:15, 328.06it/s]
+[1ALoading weights:  31%|███       | 2208/7122 [00:07<00:14, 331.60it/s]
+[1ALoading weights:  31%|███▏      | 2242/7122 [00:07<00:14, 332.03it/s]
+[1ALoading weights:  32%|███▏      | 2276/7122 [00:07<00:15, 304.39it/s]
+[1ALoading weights:  32%|███▏      | 2307/7122 [00:07<00:16, 292.96it/s]
+[1ALoading weights:  33%|███▎      | 2338/7122 [00:08<00:16, 297.22it/s]
+[1ALoading weights:  33%|███▎      | 2377/7122 [00:08<00:14, 321.55it/s]
+[1ALoading weights:  34%|███▍      | 2410/7122 [00:08<00:22, 206.96it/s]
+[1ALoading weights:  34%|███▍      | 2441/7122 [00:08<00:20, 224.20it/s]
+[1ALoading weights:  35%|███▍      | 2483/7122 [00:08<00:17, 263.87it/s]
+[1ALoading weights:  35%|███▌      | 2521/7122 [00:08<00:15, 289.91it/s]
+[1ALoading weights:  36%|███▌      | 2563/7122 [00:08<00:14, 313.58it/s]
+[1ALoading weights:  37%|███▋      | 2602/7122 [00:09<00:13, 333.15it/s]
+[1ALoading weights:  37%|███▋      | 2638/7122 [00:09<00:13, 330.89it/s]
+[1ALoading weights:  38%|███▊      | 2673/7122 [00:09<00:13, 323.12it/s]
+[1ALoading weights:  38%|███▊      | 2707/7122 [00:09<00:15, 292.55it/s]
+[1ALoading weights:  38%|███▊      | 2740/7122 [00:09<00:14, 296.31it/s]
+[1ALoading weights:  39%|███▉      | 2773/7122 [00:09<00:15, 287.26it/s]
+[1ALoading weights:  39%|███▉      | 2803/7122 [00:09<00:21, 200.01it/s]
+[1ALoading weights:  40%|███▉      | 2838/7122 [00:09<00:19, 223.59it/s]
+[1ALoading weights:  40%|████      | 2878/7122 [00:10<00:16, 257.99it/s]
+[1ALoading weights:  41%|████      | 2912/7122 [00:10<00:15, 276.62it/s]
+[1ALoading weights:  41%|████▏     | 2943/7122 [00:10<00:14, 279.66it/s]
+[1ALoading weights:  42%|████▏     | 2984/7122 [00:10<00:13, 298.37it/s]
+[1ALoading weights:  42%|████▏     | 3016/7122 [00:10<00:16, 244.77it/s]
+[1ALoading weights:  43%|████▎     | 3043/7122 [00:10<00:17, 230.10it/s]
+[1ALoading weights:  43%|████▎     | 3072/7122 [00:10<00:16, 243.48it/s]
+[1ALoading weights:  43%|████▎     | 3098/7122 [00:10<00:16, 237.82it/s]
+[1ALoading weights:  44%|████▍     | 3128/7122 [00:11<00:15, 252.28it/s]
+[1ALoading weights:  44%|████▍     | 3155/7122 [00:11<00:16, 241.80it/s]
+[1ALoading weights:  45%|████▍     | 3180/7122 [00:11<00:18, 218.02it/s]
+[1ALoading weights:  45%|████▌     | 3206/7122 [00:11<00:18, 217.49it/s]
+[1ALoading weights:  45%|████▌     | 3239/7122 [00:11<00:16, 238.54it/s]
+[1ALoading weights:  46%|████▌     | 3273/7122 [00:11<00:14, 262.34it/s]
+[1ALoading weights:  46%|████▋     | 3300/7122 [00:11<00:14, 258.41it/s]
+[1ALoading weights:  47%|████▋     | 3327/7122 [00:11<00:14, 255.81it/s]
+[1ALoading weights:  47%|████▋     | 3357/7122 [00:12<00:14, 259.80it/s]
+[1ALoading weights:  48%|████▊     | 3384/7122 [00:12<00:14, 259.28it/s]
+[1ALoading weights:  48%|████▊     | 3417/7122 [00:12<00:13, 274.95it/s]
+[1ALoading weights:  48%|████▊     | 3449/7122 [00:12<00:12, 283.81it/s]
+[1ALoading weights:  49%|████▉     | 3480/7122 [00:12<00:13, 278.41it/s]
+[1ALoading weights:  49%|████▉     | 3519/7122 [00:12<00:11, 305.13it/s]
+[1ALoading weights:  50%|████▉     | 3556/7122 [00:12<00:11, 300.52it/s]
+[1ALoading weights:  50%|█████     | 3587/7122 [00:12<00:13, 270.84it/s]
+[1ALoading weights:  51%|█████     | 3615/7122 [00:12<00:14, 236.65it/s]
+[1ALoading weights:  51%|█████     | 3650/7122 [00:13<00:13, 260.25it/s]
+[1ALoading weights:  52%|█████▏    | 3691/7122 [00:13<00:11, 292.71it/s]
+[1ALoading weights:  52%|█████▏    | 3730/7122 [00:13<00:10, 310.42it/s]
+[1ALoading weights:  53%|█████▎    | 3780/7122 [00:13<00:09, 350.80it/s]
+[1ALoading weights:  54%|█████▎    | 3822/7122 [00:13<00:09, 358.05it/s]
+[1ALoading weights:  54%|█████▍    | 3868/7122 [00:13<00:08, 385.00it/s]
+[1ALoading weights:  55%|█████▍    | 3908/7122 [00:13<00:09, 353.88it/s]
+[1ALoading weights:  55%|█████▌    | 3945/7122 [00:13<00:08, 353.30it/s]
+[1ALoading weights:  56%|█████▌    | 3981/7122 [00:14<00:12, 252.77it/s]
+[1ALoading weights:  56%|█████▋    | 4011/7122 [00:14<00:12, 259.18it/s]
+[1ALoading weights:  57%|█████▋    | 4054/7122 [00:14<00:10, 299.18it/s]
+[1ALoading weights:  57%|█████▋    | 4093/7122 [00:14<00:09, 315.97it/s]
+[1ALoading weights:  58%|█████▊    | 4135/7122 [00:14<00:08, 339.94it/s]
+[1ALoading weights:  59%|█████▊    | 4175/7122 [00:14<00:08, 346.46it/s]
+[1ALoading weights:  59%|█████▉    | 4212/7122 [00:14<00:08, 345.78it/s]
+[1ALoading weights:  60%|█████▉    | 4248/7122 [00:14<00:08, 342.12it/s]
+[1ALoading weights:  60%|██████    | 4283/7122 [00:14<00:08, 319.58it/s]
+[1ALoading weights:  61%|██████    | 4316/7122 [00:15<00:08, 322.01it/s]
+[1ALoading weights:  61%|██████    | 4353/7122 [00:15<00:08, 330.01it/s]
+[1ALoading weights:  62%|██████▏   | 4387/7122 [00:15<00:09, 281.92it/s]
+[1ALoading weights:  62%|██████▏   | 4417/7122 [00:15<00:09, 284.63it/s]
+[1ALoading weights:  63%|██████▎   | 4454/7122 [00:15<00:08, 305.99it/s]
+[1ALoading weights:  63%|██████▎   | 4486/7122 [00:15<00:08, 306.48it/s]
+[1ALoading weights:  63%|██████▎   | 4522/7122 [00:15<00:08, 312.77it/s]
+[1ALoading weights:  64%|██████▍   | 4558/7122 [00:15<00:07, 324.13it/s]
+[1ALoading weights:  65%|██████▍   | 4594/7122 [00:15<00:07, 325.55it/s]
+[1ALoading weights:  65%|██████▌   | 4630/7122 [00:16<00:07, 326.60it/s]
+[1ALoading weights:  66%|██████▌   | 4665/7122 [00:16<00:07, 331.97it/s]
+[1ALoading weights:  66%|██████▌   | 4699/7122 [00:16<00:07, 314.79it/s]
+[1ALoading weights:  66%|██████▋   | 4731/7122 [00:16<00:07, 314.22it/s]
+[1ALoading weights:  67%|██████▋   | 4763/7122 [00:16<00:07, 308.69it/s]
+[1ALoading weights:  67%|██████▋   | 4794/7122 [00:16<00:09, 237.35it/s]
+[1ALoading weights:  68%|██████▊   | 4827/7122 [00:16<00:09, 254.25it/s]
+[1ALoading weights:  68%|██████▊   | 4859/7122 [00:16<00:08, 270.44it/s]
+[1ALoading weights:  69%|██████▊   | 4895/7122 [00:17<00:07, 292.06it/s]
+[1ALoading weights:  69%|██████▉   | 4935/7122 [00:17<00:06, 314.10it/s]
+[1ALoading weights:  70%|██████▉   | 4973/7122 [00:17<00:06, 329.65it/s]
+[1ALoading weights:  70%|███████   | 5011/7122 [00:17<00:06, 338.23it/s]
+[1ALoading weights:  71%|███████   | 5052/7122 [00:17<00:05, 357.98it/s]
+[1ALoading weights:  71%|███████▏  | 5089/7122 [00:17<00:06, 329.04it/s]
+[1ALoading weights:  72%|███████▏  | 5125/7122 [00:17<00:05, 337.24it/s]
+[1ALoading weights:  72%|███████▏  | 5160/7122 [00:17<00:07, 265.42it/s]
+[1ALoading weights:  73%|███████▎  | 5190/7122 [00:18<00:07, 249.41it/s]
+[1ALoading weights:  73%|███████▎  | 5233/7122 [00:18<00:06, 291.99it/s]
+[1ALoading weights:  74%|███████▍  | 5270/7122 [00:18<00:06, 307.19it/s]
+[1ALoading weights:  75%|███████▍  | 5308/7122 [00:18<00:05, 320.09it/s]
+[1ALoading weights:  75%|███████▌  | 5342/7122 [00:18<00:05, 324.89it/s]
+[1ALoading weights:  76%|███████▌  | 5378/7122 [00:18<00:05, 327.42it/s]
+[1ALoading weights:  76%|███████▌  | 5412/7122 [00:18<00:05, 327.01it/s]
+[1ALoading weights:  76%|███████▋  | 5446/7122 [00:18<00:05, 313.32it/s]
+[1ALoading weights:  77%|███████▋  | 5478/7122 [00:18<00:05, 281.98it/s]
+[1ALoading weights:  77%|███████▋  | 5507/7122 [00:19<00:05, 273.79it/s]
+[1ALoading weights:  78%|███████▊  | 5539/7122 [00:19<00:05, 284.89it/s]
+[1ALoading weights:  78%|███████▊  | 5568/7122 [00:19<00:06, 235.40it/s]
+[1ALoading weights:  79%|███████▉  | 5609/7122 [00:19<00:05, 271.86it/s]
+[1ALoading weights:  79%|███████▉  | 5651/7122 [00:19<00:04, 309.29it/s]
+[1ALoading weights:  80%|███████▉  | 5684/7122 [00:19<00:04, 302.56it/s]
+[1ALoading weights:  80%|████████  | 5716/7122 [00:19<00:04, 304.52it/s]
+[1ALoading weights:  81%|████████  | 5748/7122 [00:19<00:04, 307.07it/s]
+[1ALoading weights:  81%|████████  | 5780/7122 [00:19<00:04, 307.16it/s]
+[1ALoading weights:  82%|████████▏ | 5812/7122 [00:20<00:04, 302.79it/s]
+[1ALoading weights:  82%|████████▏ | 5847/7122 [00:20<00:04, 309.88it/s]
+[1ALoading weights:  83%|████████▎ | 5879/7122 [00:20<00:04, 307.50it/s]
+[1ALoading weights:  83%|████████▎ | 5911/7122 [00:20<00:03, 308.36it/s]
+[1ALoading weights:  84%|████████▎ | 5947/7122 [00:20<00:03, 315.66it/s]
+[1ALoading weights:  84%|████████▍ | 5979/7122 [00:20<00:04, 260.42it/s]
+[1ALoading weights:  84%|████████▍ | 6011/7122 [00:20<00:04, 275.22it/s]
+[1ALoading weights:  85%|████████▍ | 6044/7122 [00:20<00:03, 287.01it/s]
+[1ALoading weights:  85%|████████▌ | 6080/7122 [00:20<00:03, 305.09it/s]
+[1ALoading weights:  86%|████████▌ | 6116/7122 [00:21<00:03, 314.21it/s]
+[1ALoading weights:  86%|████████▋ | 6158/7122 [00:21<00:02, 338.98it/s]
+[1ALoading weights:  87%|████████▋ | 6205/7122 [00:21<00:02, 375.10it/s]
+[1ALoading weights:  88%|████████▊ | 6245/7122 [00:21<00:02, 375.26it/s]
+[1ALoading weights:  88%|████████▊ | 6283/7122 [00:21<00:02, 359.59it/s]
+[1ALoading weights:  89%|████████▊ | 6320/7122 [00:21<00:02, 357.52it/s]
+[1ALoading weights:  89%|████████▉ | 6357/7122 [00:21<00:03, 248.77it/s]
+[1ALoading weights:  90%|████████▉ | 6392/7122 [00:21<00:02, 270.88it/s]
+[1ALoading weights:  90%|█████████ | 6425/7122 [00:22<00:02, 282.83it/s]
+[1ALoading weights:  91%|█████████ | 6467/7122 [00:22<00:02, 311.10it/s]
+[1ALoading weights:  91%|█████████▏| 6511/7122 [00:22<00:01, 343.44it/s]
+[1ALoading weights:  92%|█████████▏| 6550/7122 [00:22<00:01, 351.42it/s]
+[1ALoading weights:  92%|█████████▏| 6587/7122 [00:22<00:01, 333.83it/s]
+[1ALoading weights:  93%|█████████▎| 6622/7122 [00:22<00:01, 337.97it/s]
+[1ALoading weights:  93%|█████████▎| 6657/7122 [00:22<00:01, 315.16it/s]
+[1ALoading weights:  94%|█████████▍| 6690/7122 [00:22<00:01, 318.94it/s]
+[1ALoading weights:  94%|█████████▍| 6728/7122 [00:22<00:01, 318.72it/s]
+[1ALoading weights:  95%|█████████▍| 6761/7122 [00:23<00:01, 264.23it/s]
+[1ALoading weights:  95%|█████████▌| 6796/7122 [00:23<00:01, 285.00it/s]
+[1ALoading weights:  96%|█████████▌| 6828/7122 [00:23<00:01, 293.08it/s]
+[1ALoading weights:  96%|█████████▋| 6859/7122 [00:23<00:00, 297.31it/s]
+[1ALoading weights:  97%|█████████▋| 6890/7122 [00:23<00:00, 292.63it/s]
+[1ALoading weights:  97%|█████████▋| 6920/7122 [00:23<00:00, 279.56it/s]
+[1ALoading weights:  98%|█████████▊| 6952/7122 [00:23<00:00, 285.72it/s]
+[1ALoading weights:  98%|█████████▊| 6984/7122 [00:23<00:00, 293.47it/s]
+[1ALoading weights:  99%|█████████▊| 7016/7122 [00:24<00:00, 289.68it/s]
+[1ALoading weights:  99%|█████████▉| 7046/7122 [00:24<00:00, 290.66it/s]
+[1ALoading weights:  99%|█████████▉| 7076/7122 [00:24<00:00, 286.42it/s]
+[1ALoading weights: 100%|█████████▉| 7116/7122 [00:24<00:00, 310.67it/s]
+[1ALoading weights: 100%|██████████| 7122/7122 [00:25<00:00, 280.26it/s]
+The repository /vol/sarvam-30b-bf16 contains custom code which must be executed to correctly load the model. You can inspect the repository content at /vol/sarvam-30b-bf16 .
+ You can inspect the repository content at https://hf.co//vol/sarvam-30b-bf16.
+You can avoid this prompt in future by passing the argument `trust_remote_code=True`.
+
+[transformers] You are using a model of type `sarvam_moe` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+Do you wish to run the custom code? [y/N] [transformers] `use_return_dict` is deprecated! Use `return_dict` instead!
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+{
+ "usd_per_hour": 5.174,
+ "budget_minutes": 4.1,
+ "model_type": "sarvam_moe",
+ "stages": [
+  {
+   "stage": "load",
+   "est_minutes": 2,
+   "result": {
+    "model": "HFLensModel(SarvamMoEForCausalLM, n_layers=19, d_model=4096)",
+    "gpu_gb_allocated": 64.3,
+    "gpu_gb_by_device": {
+     "0": 64.3
+    },
+    "loading_info": {
+     "missing_keys": {
+      "n": 0,
+      "first": []
+     },
+     "unexpected_keys": {
+      "n": 0,
+      "first": []
+     },
+     "mismatched_keys": {
+      "n": 0,
+      "first": []
+     },
+     "error_msgs": {
+      "n": 0,
+      "first": []
+     }
+    }
+   },
+   "status": "ok",
+   "minutes": 0.58,
+   "log_tail": []
+  },
+  {
+   "stage": "newlang_experiment.misses",
+   "est_minutes": 2.58,
+   "result": {
+    "pairs": 12,
+    "lenses": [
+     "j_200p",
+     "logit"
+    ],
+    "band": [
+     13,
+     14,
+     15,
+     16
+    ],
+    "items": 339,
+    "kept": 99,
+    "by_group": [
+     {
+      "target": "ALL",
+      "from": "English",
+      "status": "kept",
+      "lens": "j_200p",
+      "items": 55,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 0.9864,
+      "target_top10": 0.0273,
+      "hindi_top10": 0.5864
+     },
+     {
+      "target": "ALL",
+      "from": "English",
+      "status": "kept",
+      "lens": "logit",
+      "items": 55,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 0.9091,
+      "target_top10": 0.0682,
+      "hindi_top10": 0.4864
+     },
+     {
+      "target": "ALL",
+      "from": "English",
+      "status": "missed",
+      "lens": "j_200p",
+      "items": 54,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 0.9722,
+      "target_top10": 0.0046,
+      "hindi_top10": 0.5741
+     },
+     {
+      "target": "ALL",
+      "from": "English",
+      "status": "missed",
+      "lens": "logit",
+      "items": 54,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 0.8843,
+      "target_top10": 0.0046,
+      "hindi_top10": 0.4213
+     },
+     {
+      "target": "ALL",
+      "from": "English",
+      "status": "missed: listed word (first-token miss)",
+      "lens": "j_200p",
+      "items": 2,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 1.0,
+      "target_top10": 0.0,
+      "hindi_top10": 1.0
+     },
+     {
+      "target": "ALL",
+      "from": "English",
+      "status": "missed: listed word (first-token miss)",
+      "lens": "logit",
+      "items": 2,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 1.0,
+      "target_top10": 0.0,
+      "hindi_top10": 0.75
+     },
+     {
+      "target": "ALL",
+      "from": "English",
+      "status": "missed: neighbour language",
+      "lens": "j_200p",
+      "items": 5,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 1.0,
+      "target_top10": 0.0,
+      "hindi_top10": 0.5
+     },
+     {
+      "target": "ALL",
+      "from": "English",
+      "status": "missed: neighbour language",
+      "lens": "logit",
+      "items": 5,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 0.95,
+      "target_top10": 0.0,
+      "hindi_top10": 0.3
+     },
+     {
+      "target": "ALL",
+      "from": "English",
+      "status": "missed: target script, unlisted",
+      "lens": "j_200p",
+      "items": 47,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 0.9681,
+      "target_top10": 0.0053,
+      "hindi_top10": 0.5638
+     },
+     {
+      "target": "ALL",
+      "from": "English",
+      "status": "missed: target script, unlisted",
+      "lens": "logit",
+      "items": 47,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 0.8723,
+      "target_top10": 0.0053,
+      "hindi_top10": 0.4202
+     },
+     {
+      "target": "ALL",
+      "from": "Indian/world",
+      "status": "kept",
+      "lens": "j_200p",
+      "items": 44,
+      "english_top10": 0.9602,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 0.142,
+      "target_top10": 0.0852,
+      "hindi_top10": 0.5682
+     },
+     {
+      "target": "ALL",
+      "from": "Indian/world",
+      "status": "kept",
+      "lens": "logit",
+      "items": 44,
+      "english_top10": 0.8068,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 0.1705,
+      "target_top10": 0.142,
+      "hindi_top10": 0.392
+     },
+     {
+      "target": "ALL",
+      "from": "Indian/world",
+      "status": "missed",
+      "lens": "j_200p",
+      "items": 178,
+      "english_top10": 0.882,
+      "english_shuffled_top10": 0.0126,
+      "source_top10": 0.125,
+      "target_top10": 0.0056,
+      "hindi_top10": 0.4087
+     },
+     {
+      "target": "ALL",
+      "from": "Indian/world",
+      "status": "missed",
+      "lens": "logit",
+      "items": 178,
+      "english_top10": 0.6896,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 0.1306,
+      "target_top10": 0.0211,
+      "hindi_top10": 0.2907
+     },
+     {
+      "target": "ALL",
+      "from": "Indian/world",
+      "status": "missed: listed word (first-token miss)",
+      "lens": "j_200p",
+      "items": 1,
+      "english_top10": 1.0,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 0.0,
+      "target_top10": 0.0,
+      "hindi_top10": 0.75
+     },
+     {
+      "target": "ALL",
+      "from": "Indian/world",
+      "status": "missed: listed word (first-token miss)",
+      "lens": "logit",
+      "items": 1,
+      "english_top10": 1.0,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 0.0,
+      "target_top10": 0.0,
+      "hindi_top10": 0.75
+     },
+     {
+      "target": "ALL",
+      "from": "Indian/world",
+      "status": "missed: neighbour language",
+      "lens": "j_200p",
+      "items": 24,
+      "english_top10": 0.9688,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 0.1562,
+      "target_top10": 0.0104,
+      "hindi_top10": 0.3958
+     },
+     {
+      "target": "ALL",
+      "from": "Indian/world",
+      "status": "missed: neighbour language",
+      "lens": "logit",
+      "items": 24,
+      "english_top10": 0.8125,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 0.1354,
+      "target_top10": 0.0,
+      "hindi_top10": 0.2083
+     },
+     {
+      "target": "ALL",
+      "from": "Indian/world",
+      "status": "missed: other",
+      "lens": "j_200p",
+      "items": 4,
+      "english_top10": 0.9375,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 0.25,
+      "target_top10": 0.0,
+      "hindi_top10": 0.625
+     },
+     {
+      "target": "ALL",
+      "from": "Indian/world",
+      "status": "missed: other",
+      "lens": "logit",
+      "items": 4,
+      "english_top10": 0.75,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 0.1875,
+      "target_top10": 0.0,
+      "hindi_top10": 0.4375
+     },
+     {
+      "target": "ALL",
+      "from": "Indian/world",
+      "status": "missed: source copy",
+      "lens": "j_200p",
+      "items": 104,
+      "english_top10": 0.8894,
+      "english_shuffled_top10": 0.0024,
+      "source_top10": 0.113,
+      "target_top10": 0.0048,
+      "hindi_top10": 0.4399
+     },
+     {
+      "target": "ALL",
+      "from": "Indian/world",
+      "status": "missed: source copy",
+      "lens": "logit",
+      "items": 104,
+      "english_top10": 0.7019,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 0.113,
+      "target_top10": 0.0337,
+      "hindi_top10": 0.3245
+     },
+     {
+      "target": "ALL",
+      "from": "Indian/world",
+      "status": "missed: target script, unlisted",
+      "lens": "j_200p",
+      "items": 45,
+      "english_top10": 0.8111,
+      "english_shuffled_top10": 0.0444,
+      "source_top10": 0.1278,
+      "target_top10": 0.0056,
+      "hindi_top10": 0.3167
+     },
+     {
+      "target": "ALL",
+      "from": "Indian/world",
+      "status": "missed: target script, unlisted",
+      "lens": "logit",
+      "items": 45,
+      "english_top10": 0.5833,
+      "english_shuffled_top10": 0.0,
+      "source_top10": 0.1667,
+      "target_top10": 0.0056,
+      "hindi_top10": 0.2333
+     }
+    ]
+   },
+   "status": "ok",
+   "minutes": 2.27,
+   "log_tail": [
+    "newlang: 331 items to read over 12 pairs (8 skipped: target tokens all shared)",
+    "newlang: read 16 / 331 items",
+    "newlang: read 331 / 331 items"
+   ]
+  }
+ ],
+ "elapsed_minutes": 3.04,
+ "est_cost_usd_so_far": 0.26,
+ "done": true
+}
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-pMj4YHByuDKiPqEHBz5ZIC

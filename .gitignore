@@ -1,0 +1,38 @@
+# Weights live on Hugging Face, not in git (see lenses/MODEL_CARD.md).
+# lenses/: 4 pooled lenses incl. the Indic-fit J-lens (1.2 GB each) + expert-Jacobian files (5.4 GB each).
+# results/wiki/router.pt (19 MB): the J++ k-means router, uploaded with the lenses.
+# The small *_stamp.json / *.json provenance files next to them stay in git.
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+lenses/*.pt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Credentials: never commit a filled-in copy of code/modal_env.example.sh or a token file
+code/modal_env.sh
+*modal_token*
+.env
+.env.*
+*.key
+
+# Local tooling and OS files
+.claude/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Staging folder for the Hugging Face upload, if you make one here
+hf_upload/
+.gstack/
+

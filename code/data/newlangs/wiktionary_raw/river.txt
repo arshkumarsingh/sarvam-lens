@@ -1,0 +1,26 @@
+# concept: river
+# page: river/translations
+# revid: 93598116
+# section_url: https://en.wiktionary.org/w/index.php?title=river/translations&action=raw
+## block: {{trans-top|large stream which drains a landmass}}{{multitrans|data=
+* Assamese: {{tt|as|নৈ|n}}, {{tt|as|নদী|n}}, {{tt|as|গাং}}
+* Odia: {{tt+|or|ନଦୀ}}
+* Punjabi:
+*: Gurmukhi: {{tt+|pa|ਦਰਿਆ|m}}, {{tt|pa|ਨਦੀ|f}}
+*: Shahmukhi: {{t|pa|دَریا|m}}, {{t|pa|نَدی|f}}
+*: Western Punjabi: {{tt+|pnb|دریا|m|tr=daryā}}, {{tt|pnb|ندی|f|tr=nadī}}
+* Urdu: {{tt|ur|نَدی|f}}, {{tt|ur|دَرْیا|m}}, {{tt+|ur|نَہْر|f}}
+* Nepali: {{tt+|ne|नदी}}
+* Sanskrit: {{tt+|sa|नदी|f}}, {{tt+|sa|स्रोतस्|n}}
+MISSING Maithili
+* Sindhi: {{tt|sd|درياء|m|tr=daryāu|alt=دَرياءُ}}
+* Kashmiri: {{tt|ks|नदी}}
+MISSING Konkani
+MISSING Dogri
+MISSING Manipuri
+MISSING Bodo
+* Santali: {{t+|sat|ᱜᱟᱰᱟ}}, {{t|sat|ᱠᱷᱟᱹᱲᱤ}}
+* Japanese: {{tt+|ja|川|tr=かわ, kawa}}
+* Russian: {{tt+|ru|река́|f}}, {{qualifier|small}} {{tt+|ru|ре́чка|f}}
+* Arabic: {{tt+|ar|نَهْر|m}}, {{tt|ar|أَنْهَار|p}}, {{tt|ar|أَنْهُر|p}}
+* Hindi: {{tt+|hi|नदी|f}}, {{t+|hi|सरिता|f}}, {{t+|hi|शैलजा|f}}

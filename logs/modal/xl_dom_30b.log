@@ -1,0 +1,387 @@
+✓ Initialized. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-KPTq3sWB6zr3VkZrqEyxHW
+✓ Created objects.
+├── ✓ Uploaded .\code\modal_app.py
+├── ✓ Uploaded .\code
+├── ✓ Created Function prepare_weights.
+├── ✓ Created Function smoke.
+├── ✓ Created Function smoke_2gpu.
+├── ✓ Created Function prepare_qwen.
+├── ✓ Created Function cka.
+├── ✓ Created Function pilot.
+├── ✓ Created Function pilot2.
+├── ✓ Created Function merge_j.
+├── ✓ Created Function build_corpus_fn.
+├── ✓ Created Function cka_robust.
+└── ✓ Created Function diagnose.
+1xH200 at $5.17/h, hard timeout 14 min -> worst case $1.21
+
+[1ALoading weights:   0%|          | 0/7122 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/7122 [00:00<20:02,  5.92it/s]
+[1ALoading weights:   0%|          | 13/7122 [00:00<02:05, 56.84it/s]
+[1ALoading weights:   0%|          | 22/7122 [00:00<01:47, 66.10it/s]
+[1ALoading weights:   0%|          | 34/7122 [00:00<01:30, 78.55it/s]
+[1ALoading weights:   1%|          | 52/7122 [00:00<01:05, 108.24it/s]
+[1ALoading weights:   1%|▏         | 91/7122 [00:00<00:36, 191.62it/s]
+[1ALoading weights:   2%|▏         | 135/7122 [00:00<00:26, 263.92it/s]
+[1ALoading weights:   2%|▏         | 173/7122 [00:00<00:23, 293.64it/s]
+[1ALoading weights:   3%|▎         | 215/7122 [00:01<00:20, 329.14it/s]
+[1ALoading weights:   4%|▎         | 259/7122 [00:01<00:19, 353.17it/s]
+[1ALoading weights:   4%|▍         | 297/7122 [00:01<00:18, 359.35it/s]
+[1ALoading weights:   5%|▍         | 334/7122 [00:01<00:20, 329.83it/s]
+[1ALoading weights:   5%|▌         | 369/7122 [00:01<00:20, 329.40it/s]
+[1ALoading weights:   6%|▌         | 408/7122 [00:01<00:19, 339.58it/s]
+[1ALoading weights:   6%|▌         | 443/7122 [00:01<00:26, 250.25it/s]
+[1ALoading weights:   7%|▋         | 482/7122 [00:01<00:23, 278.43it/s]
+[1ALoading weights:   7%|▋         | 530/7122 [00:02<00:20, 319.02it/s]
+[1ALoading weights:   8%|▊         | 568/7122 [00:02<00:20, 318.68it/s]
+[1ALoading weights:   9%|▊         | 606/7122 [00:02<00:19, 332.93it/s]
+[1ALoading weights:   9%|▉         | 646/7122 [00:02<00:18, 344.46it/s]
+[1ALoading weights:  10%|▉         | 682/7122 [00:02<00:19, 336.75it/s]
+[1ALoading weights:  10%|█         | 717/7122 [00:02<00:19, 331.63it/s]
+[1ALoading weights:  11%|█         | 751/7122 [00:02<00:20, 312.20it/s]
+[1ALoading weights:  11%|█         | 787/7122 [00:02<00:19, 324.99it/s]
+[1ALoading weights:  12%|█▏        | 821/7122 [00:02<00:23, 270.01it/s]
+[1ALoading weights:  12%|█▏        | 851/7122 [00:03<00:23, 265.87it/s]
+[1ALoading weights:  13%|█▎        | 899/7122 [00:03<00:19, 318.89it/s]
+[1ALoading weights:  13%|█▎        | 933/7122 [00:03<00:20, 308.31it/s]
+[1ALoading weights:  14%|█▎        | 966/7122 [00:03<00:19, 312.93it/s]
+[1ALoading weights:  14%|█▍        | 999/7122 [00:03<00:19, 307.13it/s]
+[1ALoading weights:  14%|█▍        | 1031/7122 [00:03<00:19, 310.43it/s]
+[1ALoading weights:  15%|█▍        | 1063/7122 [00:03<00:19, 310.95it/s]
+[1ALoading weights:  15%|█▌        | 1095/7122 [00:03<00:19, 309.63it/s]
+[1ALoading weights:  16%|█▌        | 1127/7122 [00:03<00:19, 300.86it/s]
+[1ALoading weights:  16%|█▋        | 1163/7122 [00:04<00:19, 308.51it/s]
+[1ALoading weights:  17%|█▋        | 1202/7122 [00:04<00:20, 290.77it/s]
+[1ALoading weights:  17%|█▋        | 1232/7122 [00:04<00:27, 213.64it/s]
+[1ALoading weights:  18%|█▊        | 1268/7122 [00:04<00:24, 242.19it/s]
+[1ALoading weights:  18%|█▊        | 1310/7122 [00:04<00:20, 281.58it/s]
+[1ALoading weights:  19%|█▉        | 1354/7122 [00:04<00:18, 316.00it/s]
+[1ALoading weights:  20%|█▉        | 1392/7122 [00:04<00:17, 332.33it/s]
+[1ALoading weights:  20%|██        | 1437/7122 [00:04<00:15, 362.86it/s]
+[1ALoading weights:  21%|██        | 1476/7122 [00:05<00:15, 369.99it/s]
+[1ALoading weights:  21%|██▏       | 1515/7122 [00:05<00:15, 352.42it/s]
+[1ALoading weights:  22%|██▏       | 1553/7122 [00:05<00:15, 348.76it/s]
+[1ALoading weights:  22%|██▏       | 1591/7122 [00:05<00:15, 349.45it/s]
+[1ALoading weights:  23%|██▎       | 1627/7122 [00:05<00:21, 253.28it/s]
+[1ALoading weights:  23%|██▎       | 1667/7122 [00:05<00:19, 279.13it/s]
+[1ALoading weights:  24%|██▍       | 1713/7122 [00:05<00:16, 321.84it/s]
+[1ALoading weights:  25%|██▍       | 1749/7122 [00:05<00:16, 330.16it/s]
+[1ALoading weights:  25%|██▌       | 1787/7122 [00:06<00:15, 339.49it/s]
+[1ALoading weights:  26%|██▌       | 1823/7122 [00:06<00:15, 331.37it/s]
+[1ALoading weights:  26%|██▌       | 1859/7122 [00:06<00:15, 337.30it/s]
+[1ALoading weights:  27%|██▋       | 1894/7122 [00:06<00:15, 340.15it/s]
+[1ALoading weights:  27%|██▋       | 1929/7122 [00:06<00:16, 317.54it/s]
+[1ALoading weights:  28%|██▊       | 1964/7122 [00:06<00:15, 323.97it/s]
+[1ALoading weights:  28%|██▊       | 1997/7122 [00:06<00:16, 308.18it/s]
+[1ALoading weights:  28%|██▊       | 2029/7122 [00:06<00:17, 298.77it/s]
+[1ALoading weights:  29%|██▉       | 2070/7122 [00:06<00:15, 327.73it/s]
+[1ALoading weights:  30%|██▉       | 2104/7122 [00:07<00:15, 328.21it/s]
+[1ALoading weights:  30%|███       | 2140/7122 [00:07<00:15, 327.57it/s]
+[1ALoading weights:  31%|███       | 2176/7122 [00:07<00:14, 333.96it/s]
+[1ALoading weights:  31%|███       | 2212/7122 [00:07<00:14, 335.12it/s]
+[1ALoading weights:  32%|███▏      | 2248/7122 [00:07<00:14, 337.56it/s]
+[1ALoading weights:  32%|███▏      | 2284/7122 [00:07<00:14, 339.46it/s]
+[1ALoading weights:  33%|███▎      | 2319/7122 [00:07<00:15, 317.38it/s]
+[1ALoading weights:  33%|███▎      | 2352/7122 [00:07<00:15, 311.10it/s]
+[1ALoading weights:  33%|███▎      | 2384/7122 [00:07<00:16, 295.69it/s]
+[1ALoading weights:  34%|███▍      | 2414/7122 [00:08<00:21, 216.54it/s]
+[1ALoading weights:  34%|███▍      | 2441/7122 [00:08<00:21, 222.49it/s]
+[1ALoading weights:  35%|███▍      | 2479/7122 [00:08<00:17, 259.20it/s]
+[1ALoading weights:  35%|███▌      | 2517/7122 [00:08<00:15, 288.24it/s]
+[1ALoading weights:  36%|███▌      | 2565/7122 [00:08<00:13, 331.42it/s]
+[1ALoading weights:  37%|███▋      | 2605/7122 [00:08<00:12, 349.42it/s]
+[1ALoading weights:  37%|███▋      | 2645/7122 [00:08<00:12, 359.90it/s]
+[1ALoading weights:  38%|███▊      | 2692/7122 [00:08<00:11, 390.22it/s]
+[1ALoading weights:  38%|███▊      | 2733/7122 [00:09<00:12, 349.97it/s]
+[1ALoading weights:  39%|███▉      | 2770/7122 [00:09<00:12, 341.49it/s]
+[1ALoading weights:  39%|███▉      | 2806/7122 [00:09<00:17, 244.58it/s]
+[1ALoading weights:  40%|███▉      | 2835/7122 [00:09<00:16, 253.53it/s]
+[1ALoading weights:  40%|████      | 2874/7122 [00:09<00:15, 279.54it/s]
+[1ALoading weights:  41%|████      | 2912/7122 [00:09<00:14, 298.68it/s]
+[1ALoading weights:  42%|████▏     | 2958/7122 [00:09<00:12, 339.71it/s]
+[1ALoading weights:  42%|████▏     | 2995/7122 [00:09<00:12, 335.02it/s]
+[1ALoading weights:  43%|████▎     | 3031/7122 [00:10<00:12, 330.43it/s]
+[1ALoading weights:  43%|████▎     | 3066/7122 [00:10<00:12, 322.61it/s]
+[1ALoading weights:  44%|████▎     | 3100/7122 [00:10<00:12, 310.49it/s]
+[1ALoading weights:  44%|████▍     | 3132/7122 [00:10<00:13, 290.54it/s]
+[1ALoading weights:  44%|████▍     | 3162/7122 [00:10<00:13, 285.33it/s]
+[1ALoading weights:  45%|████▍     | 3191/7122 [00:10<00:16, 232.26it/s]
+[1ALoading weights:  45%|████▌     | 3235/7122 [00:10<00:13, 278.98it/s]
+[1ALoading weights:  46%|████▌     | 3273/7122 [00:10<00:12, 302.73it/s]
+[1ALoading weights:  46%|████▋     | 3306/7122 [00:11<00:12, 305.63it/s]
+[1ALoading weights:  47%|████▋     | 3341/7122 [00:11<00:12, 309.17it/s]
+[1ALoading weights:  47%|████▋     | 3377/7122 [00:11<00:11, 313.19it/s]
+[1ALoading weights:  48%|████▊     | 3413/7122 [00:11<00:11, 316.12it/s]
+[1ALoading weights:  48%|████▊     | 3449/7122 [00:11<00:11, 324.41it/s]
+[1ALoading weights:  49%|████▉     | 3484/7122 [00:11<00:11, 325.33it/s]
+[1ALoading weights:  49%|████▉     | 3517/7122 [00:11<00:11, 305.78it/s]
+[1ALoading weights:  50%|████▉     | 3548/7122 [00:11<00:12, 285.92it/s]
+[1ALoading weights:  50%|█████     | 3578/7122 [00:11<00:12, 285.82it/s]
+[1ALoading weights:  51%|█████     | 3607/7122 [00:12<00:16, 215.28it/s]
+[1ALoading weights:  51%|█████     | 3642/7122 [00:12<00:14, 239.74it/s]
+[1ALoading weights:  52%|█████▏    | 3674/7122 [00:12<00:13, 258.82it/s]
+[1ALoading weights:  52%|█████▏    | 3720/7122 [00:12<00:11, 302.53it/s]
+[1ALoading weights:  53%|█████▎    | 3758/7122 [00:12<00:10, 321.35it/s]
+[1ALoading weights:  53%|█████▎    | 3800/7122 [00:12<00:09, 344.13it/s]
+[1ALoading weights:  54%|█████▍    | 3844/7122 [00:12<00:08, 369.63it/s]
+[1ALoading weights:  55%|█████▍    | 3883/7122 [00:12<00:08, 374.46it/s]
+[1ALoading weights:  55%|█████▌    | 3922/7122 [00:13<00:08, 355.65it/s]
+[1ALoading weights:  56%|█████▌    | 3959/7122 [00:13<00:08, 359.10it/s]
+[1ALoading weights:  56%|█████▌    | 3996/7122 [00:13<00:12, 251.44it/s]
+[1ALoading weights:  57%|█████▋    | 4026/7122 [00:13<00:12, 256.94it/s]
+[1ALoading weights:  57%|█████▋    | 4067/7122 [00:13<00:10, 287.27it/s]
+[1ALoading weights:  58%|█████▊    | 4112/7122 [00:13<00:09, 327.51it/s]
+[1ALoading weights:  58%|█████▊    | 4149/7122 [00:13<00:08, 335.97it/s]
+[1ALoading weights:  59%|█████▉    | 4185/7122 [00:13<00:08, 333.17it/s]
+[1ALoading weights:  59%|█████▉    | 4221/7122 [00:14<00:08, 334.05it/s]
+[1ALoading weights:  60%|█████▉    | 4257/7122 [00:14<00:08, 333.34it/s]
+[1ALoading weights:  60%|██████    | 4292/7122 [00:14<00:09, 304.81it/s]
+[1ALoading weights:  61%|██████    | 4324/7122 [00:14<00:09, 297.45it/s]
+[1ALoading weights:  61%|██████    | 4356/7122 [00:14<00:09, 300.99it/s]
+[1ALoading weights:  62%|██████▏   | 4387/7122 [00:14<00:10, 258.27it/s]
+[1ALoading weights:  62%|██████▏   | 4419/7122 [00:14<00:09, 273.05it/s]
+[1ALoading weights:  63%|██████▎   | 4454/7122 [00:14<00:09, 292.93it/s]
+[1ALoading weights:  63%|██████▎   | 4486/7122 [00:14<00:08, 295.29it/s]
+[1ALoading weights:  63%|██████▎   | 4522/7122 [00:15<00:08, 303.65it/s]
+[1ALoading weights:  64%|██████▍   | 4558/7122 [00:15<00:08, 309.35it/s]
+[1ALoading weights:  65%|██████▍   | 4594/7122 [00:15<00:07, 316.52it/s]
+[1ALoading weights:  65%|██████▍   | 4626/7122 [00:15<00:07, 317.45it/s]
+[1ALoading weights:  65%|██████▌   | 4660/7122 [00:15<00:07, 317.45it/s]
+[1ALoading weights:  66%|██████▌   | 4692/7122 [00:15<00:07, 316.54it/s]
+[1ALoading weights:  66%|██████▋   | 4726/7122 [00:15<00:07, 312.95it/s]
+[1ALoading weights:  67%|██████▋   | 4761/7122 [00:15<00:07, 322.33it/s]
+[1ALoading weights:  67%|██████▋   | 4794/7122 [00:16<00:09, 247.90it/s]
+[1ALoading weights:  68%|██████▊   | 4827/7122 [00:16<00:08, 261.34it/s]
+[1ALoading weights:  68%|██████▊   | 4859/7122 [00:16<00:08, 275.92it/s]
+[1ALoading weights:  69%|██████▊   | 4895/7122 [00:16<00:07, 295.08it/s]
+[1ALoading weights:  69%|██████▉   | 4935/7122 [00:16<00:06, 317.38it/s]
+[1ALoading weights:  70%|██████▉   | 4973/7122 [00:16<00:06, 332.96it/s]
+[1ALoading weights:  70%|███████   | 5011/7122 [00:16<00:06, 340.50it/s]
+[1ALoading weights:  71%|███████   | 5056/7122 [00:16<00:05, 362.34it/s]
+[1ALoading weights:  72%|███████▏  | 5093/7122 [00:16<00:05, 340.94it/s]
+[1ALoading weights:  72%|███████▏  | 5128/7122 [00:16<00:05, 337.49it/s]
+[1ALoading weights:  72%|███████▏  | 5163/7122 [00:17<00:07, 265.26it/s]
+[1ALoading weights:  73%|███████▎  | 5193/7122 [00:17<00:08, 232.90it/s]
+[1ALoading weights:  73%|███████▎  | 5230/7122 [00:17<00:07, 263.48it/s]
+[1ALoading weights:  74%|███████▍  | 5272/7122 [00:17<00:06, 301.27it/s]
+[1ALoading weights:  75%|███████▍  | 5308/7122 [00:17<00:05, 316.21it/s]
+[1ALoading weights:  75%|███████▌  | 5346/7122 [00:17<00:05, 328.47it/s]
+[1ALoading weights:  76%|███████▌  | 5382/7122 [00:17<00:05, 332.67it/s]
+[1ALoading weights:  76%|███████▌  | 5418/7122 [00:17<00:05, 329.66it/s]
+[1ALoading weights:  77%|███████▋  | 5452/7122 [00:18<00:05, 325.94it/s]
+[1ALoading weights:  77%|███████▋  | 5486/7122 [00:18<00:05, 313.47it/s]
+[1ALoading weights:  77%|███████▋  | 5518/7122 [00:18<00:05, 312.77it/s]
+[1ALoading weights:  78%|███████▊  | 5550/7122 [00:18<00:05, 302.99it/s]
+[1ALoading weights:  78%|███████▊  | 5581/7122 [00:18<00:05, 290.93it/s]
+[1ALoading weights:  79%|███████▉  | 5613/7122 [00:18<00:05, 298.04it/s]
+[1ALoading weights:  79%|███████▉  | 5655/7122 [00:18<00:04, 330.16it/s]
+[1ALoading weights:  80%|███████▉  | 5689/7122 [00:18<00:04, 329.50it/s]
+[1ALoading weights:  80%|████████  | 5723/7122 [00:18<00:04, 323.95it/s]
+[1ALoading weights:  81%|████████  | 5759/7122 [00:19<00:04, 324.02it/s]
+[1ALoading weights:  81%|████████▏ | 5795/7122 [00:19<00:04, 324.12it/s]
+[1ALoading weights:  82%|████████▏ | 5831/7122 [00:19<00:03, 325.34it/s]
+[1ALoading weights:  82%|████████▏ | 5864/7122 [00:19<00:04, 313.49it/s]
+[1ALoading weights:  83%|████████▎ | 5899/7122 [00:19<00:03, 314.34it/s]
+[1ALoading weights:  83%|████████▎ | 5936/7122 [00:19<00:03, 329.08it/s]
+[1ALoading weights:  84%|████████▍ | 5970/7122 [00:19<00:04, 259.62it/s]
+[1ALoading weights:  84%|████████▍ | 5999/7122 [00:19<00:04, 266.11it/s]
+[1ALoading weights:  85%|████████▍ | 6036/7122 [00:20<00:03, 286.29it/s]
+[1ALoading weights:  85%|████████▌ | 6072/7122 [00:20<00:03, 297.38it/s]
+[1ALoading weights:  86%|████████▌ | 6108/7122 [00:20<00:03, 305.99it/s]
+[1ALoading weights:  86%|████████▋ | 6150/7122 [00:20<00:02, 329.83it/s]
+[1ALoading weights:  87%|████████▋ | 6192/7122 [00:20<00:02, 347.80it/s]
+[1ALoading weights:  88%|████████▊ | 6234/7122 [00:20<00:02, 364.22it/s]
+[1ALoading weights:  88%|████████▊ | 6271/7122 [00:20<00:02, 355.50it/s]
+[1ALoading weights:  89%|████████▊ | 6307/7122 [00:20<00:02, 320.71it/s]
+[1ALoading weights:  89%|████████▉ | 6340/7122 [00:20<00:02, 285.30it/s]
+[1ALoading weights:  89%|████████▉ | 6370/7122 [00:21<00:03, 216.03it/s]
+[1ALoading weights:  90%|████████▉ | 6407/7122 [00:21<00:02, 247.97it/s]
+[1ALoading weights:  91%|█████████ | 6449/7122 [00:21<00:02, 287.63it/s]
+[1ALoading weights:  91%|█████████ | 6489/7122 [00:21<00:02, 306.46it/s]
+[1ALoading weights:  92%|█████████▏| 6527/7122 [00:21<00:01, 322.28it/s]
+[1ALoading weights:  92%|█████████▏| 6567/7122 [00:21<00:01, 338.12it/s]
+[1ALoading weights:  93%|█████████▎| 6603/7122 [00:21<00:01, 336.15it/s]
+[1ALoading weights:  93%|█████████▎| 6640/7122 [00:21<00:01, 344.74it/s]
+[1ALoading weights:  94%|█████████▎| 6676/7122 [00:22<00:01, 325.14it/s]
+[1ALoading weights:  94%|█████████▍| 6716/7122 [00:22<00:01, 345.35it/s]
+[1ALoading weights:  95%|█████████▍| 6752/7122 [00:22<00:01, 277.48it/s]
+[1ALoading weights:  95%|█████████▌| 6794/7122 [00:22<00:01, 305.74it/s]
+[1ALoading weights:  96%|█████████▌| 6832/7122 [00:22<00:00, 323.94it/s]
+[1ALoading weights:  96%|█████████▋| 6868/7122 [00:22<00:00, 325.71it/s]
+[1ALoading weights:  97%|█████████▋| 6902/7122 [00:22<00:00, 327.09it/s]
+[1ALoading weights:  97%|█████████▋| 6936/7122 [00:22<00:00, 319.47it/s]
+[1ALoading weights:  98%|█████████▊| 6969/7122 [00:22<00:00, 318.91it/s]
+[1ALoading weights:  98%|█████████▊| 7004/7122 [00:23<00:00, 323.35it/s]
+[1ALoading weights:  99%|█████████▉| 7040/7122 [00:23<00:00, 333.17it/s]
+[1ALoading weights:  99%|█████████▉| 7074/7122 [00:23<00:00, 297.04it/s]
+[1ALoading weights: 100%|█████████▉| 7105/7122 [00:23<00:00, 275.02it/s]Loading weights: 100%|██████████| 7122/7122 [00:24<00:00, 290.87it/s]
+The repository /vol/sarvam-30b-bf16 contains custom code which must be executed to correctly load the model. You can inspect the repository content at /vol/sarvam-30b-bf16 .
+ You can inspect the repository content at https://hf.co//vol/sarvam-30b-bf16.
+You can avoid this prompt in future by passing the argument `trust_remote_code=True`.
+
+[transformers] You are using a model of type `sarvam_moe` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+Do you wish to run the custom code? [y/N] [transformers] `use_return_dict` is deprecated! Use `return_dict` instead!
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/sarvam-lens/domain_experiment.py:846: RuntimeWarning: Mean of empty slice
+  return class_metrics(np.nanmean(m_items_layers[:, idx], axis=1), variant)
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+{
+ "usd_per_hour": 5.174,
+ "budget_minutes": 12.0,
+ "model_type": "sarvam_moe",
+ "stages": [
+  {
+   "stage": "load",
+   "est_minutes": 2,
+   "result": {
+    "model": "HFLensModel(SarvamMoEForCausalLM, n_layers=19, d_model=4096)",
+    "gpu_gb_allocated": 64.3,
+    "gpu_gb_by_device": {
+     "0": 64.3
+    },
+    "loading_info": {
+     "missing_keys": {
+      "n": 0,
+      "first": []
+     },
+     "unexpected_keys": {
+      "n": 0,
+      "first": []
+     },
+     "mismatched_keys": {
+      "n": 0,
+      "first": []
+     },
+     "error_msgs": {
+      "n": 0,
+      "first": []
+     }
+    }
+   },
+   "status": "ok",
+   "minutes": 0.52,
+   "log_tail": []
+  },
+  {
+   "stage": "domain_experiment.profile",
+   "est_minutes": 6.72,
+   "result": {
+    "n_jobs": 8720,
+    "n_batches": 276,
+    "seconds": 228.2,
+    "lenses": [
+     "j_200p",
+     "logit"
+    ],
+    "jobs_by_domain": {
+     "mgsm": 2480,
+     "science": 2080,
+     "technical": 2080,
+     "everyday": 2080
+    },
+    "n_variants": 31,
+    "headline": {
+     "World|mgsm": [
+      0.8511,
+      0.1111,
+      3,
+      0
+     ],
+     "World|science": [
+      0.8132,
+      0.0732,
+      3,
+      0
+     ],
+     "World|technical": [
+      0.7581,
+      0.0181,
+      2,
+      0
+     ],
+     "World|everyday": [
+      0.74,
+      null,
+      null,
+      null
+     ],
+     "All 22 scheduled|mgsm": [
+      0.8408,
+      0.0824,
+      22,
+      0
+     ],
+     "All 22 scheduled|science": [
+      0.7845,
+      0.0261,
+      17,
+      0
+     ],
+     "All 22 scheduled|technical": [
+      0.7736,
+      0.0152,
+      7,
+      0
+     ],
+     "All 22 scheduled|everyday": [
+      0.7584,
+      null,
+      null,
+      null
+     ],
+     "English|mgsm": [
+      0.9756,
+      0.0318,
+      1,
+      0
+     ],
+     "English|science": [
+      0.9652,
+      0.0214,
+      1,
+      0
+     ],
+     "English|technical": [
+      0.9629,
+      0.019,
+      1,
+      0
+     ],
+     "English|everyday": [
+      0.9438,
+      null,
+      null,
+      null
+     ]
+    }
+   },
+   "status": "ok",
+   "minutes": 4.06,
+   "log_tail": []
+  },
+  {
+   "stage": "domain_experiment.mgsm",
+   "est_minutes": 3.03,
+   "status": "error: OutOfMemoryError('CUDA out of memory. Tried to allocate 53.09 GiB. GPU 0 has a total capacity of 139.79 GiB of which 24.15 GiB is free. Process 1 has 115.64 GiB memory in use. Of the allocated memory 96.93 GiB is allocated by PyTorch, and 18.00 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)')",
+   "traceback": "Traceback (most recent call last):\n  File \"/sarvam-lens/modal_pilot.py\", line 155, in stage\n    entry[\"result\"] = fn()\n                      ^^^^\n  File \"/sarvam-lens/modal_pilot.py\", line 825, in run\n    result = importlib.import_module(module_name).run(xl_ctx(name), analysis)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/sarvam-lens/domain_experiment.py\", line 1226, in run\n    return RUNNERS[analysis](ctx, _opts(ctx, analysis))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/sarvam-lens/domain_experiment.py\", line 718, in run_mgsm\n    generated, captured = _generate_with_readout(model, [jobs[j][\"ids\"] for j in batch], layers,\n                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/sarvam-lens/domain_experiment.py\", line 690, in _generate_with_readout\n    generated = batch_gen.generate(model, ids_list, max_new_tokens=max_new_tokens, end_ids=end_ids, batch_size=len(rows))\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/sarvam-lens/batch_gen.py\", line 51, in generate\n    step_out = hf(input_ids=input_ids, attention_mask=mask, position_ids=positions,\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/site-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/site-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n    return forward_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/__modal/volumes/vo-cdiSfszx6aDRfVJtmL9Lm5/hf/hub/models--sarvamai--sarvam-30b/snapshots/071ae95e933605ca1104a6b4524a36a98488efa4/modeling_sarvam_moe.py\", line 1009, in forward\n    logits = logits.float()\n             ^^^^^^^^^^^^^^\ntorch.OutOfMemoryError: CUDA out of memory. Tried to allocate 53.09 GiB. GPU 0 has a total capacity of 139.79 GiB of which 24.15 GiB is free. Process 1 has 115.64 GiB memory in use. Of the allocated memory 96.93 GiB is allocated by PyTorch, and 18.00 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)\n",
+   "minutes": 1.56,
+   "log_tail": []
+  }
+ ],
+ "elapsed_minutes": 6.42,
+ "est_cost_usd_so_far": 0.55,
+ "done": true
+}
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-KPTq3sWB6zr3VkZrqEyxHW

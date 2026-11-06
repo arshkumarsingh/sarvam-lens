@@ -1,0 +1,24 @@
+{
+ "n_blocks": 2,
+ "boundaries_rho": [
+  0.5128205128205128
+ ],
+ "sensory_end": 0.5128205128205128,
+ "motor_start": 0.5128205128205128,
+ "blockiness": 0.3219463690169272,
+ "layer_coupling": 0.693576162068542,
+ "block_layers": [
+  [
+   0,
+   19
+  ],
+  [
+   20,
+   38
+  ]
+ ],
+ "n_layers": 40,
+ "fitted_layers": 39,
+ "gain_offset": true,
+ "n_prompts": 25
+}

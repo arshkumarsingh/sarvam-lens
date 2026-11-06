@@ -1,0 +1,296 @@
+✓ Initialized. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-f1oVVxvatwbWEwhr4jmbEV
+✓ Created objects.
+├── ✓ Uploaded 
+│   .\sarvam-lens\modal_app.py
+├── ✓ Uploaded .\sarvam-lens
+├── ✓ Created Function prepare_weights.
+├── ✓ Created Function smoke.
+├── ✓ Created Function prepare_qwen.
+└── ✓ Created Function pilot.
+hard timeout 12 min -> worst case $1.03
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+
+[1ALoading weights:   0%|          | 0/693 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 1/693 [00:46<8:53:25, 46.25s/it]
+[1ALoading weights:   2%|▏         | 13/693 [00:46<29:07,  2.57s/it] 
+[1ALoading weights:   3%|▎         | 18/693 [00:54<25:11,  2.24s/it]
+[1ALoading weights:   4%|▍         | 31/693 [00:55<10:42,  1.03it/s]
+[1ALoading weights:   5%|▌         | 35/693 [00:55<08:59,  1.22it/s]
+[1ALoading weights:   7%|▋         | 49/693 [00:56<04:30,  2.38it/s]
+[1ALoading weights:   8%|▊         | 53/693 [00:56<03:57,  2.70it/s]
+[1ALoading weights:   8%|▊         | 56/693 [00:56<03:27,  3.07it/s]
+[1ALoading weights:   9%|▊         | 59/693 [00:57<03:07,  3.38it/s]
+[1ALoading weights:  12%|█▏        | 80/693 [00:57<01:10,  8.66it/s]
+[1ALoading weights:  12%|█▏        | 84/693 [00:58<01:10,  8.67it/s]
+[1ALoading weights:  14%|█▍        | 98/693 [00:58<00:44, 13.44it/s]
+[1ALoading weights:  15%|█▍        | 102/693 [00:58<00:47, 12.45it/s]
+[1ALoading weights:  17%|█▋        | 118/693 [00:59<00:29, 19.61it/s]
+[1ALoading weights:  18%|█▊        | 122/693 [00:59<00:34, 16.37it/s]
+[1ALoading weights:  18%|█▊        | 125/693 [00:59<00:35, 15.84it/s]
+[1ALoading weights:  18%|█▊        | 128/693 [01:00<00:45, 12.51it/s]
+[1ALoading weights:  22%|██▏       | 151/693 [01:00<00:20, 26.33it/s]
+[1ALoading weights:  22%|██▏       | 155/693 [01:01<00:26, 20.41it/s]
+[1ALoading weights:  24%|██▍       | 169/693 [01:01<00:19, 27.38it/s]
+[1ALoading weights:  25%|██▍       | 173/693 [01:01<00:25, 20.75it/s]
+[1ALoading weights:  27%|██▋       | 186/693 [01:02<00:19, 25.91it/s]
+[1ALoading weights:  27%|██▋       | 190/693 [01:02<00:25, 19.67it/s]
+[1ALoading weights:  28%|██▊       | 195/693 [01:03<00:35, 14.19it/s]
+[1ALoading weights:  32%|███▏      | 220/693 [01:03<00:16, 28.59it/s]
+[1ALoading weights:  32%|███▏      | 225/693 [01:04<00:20, 23.07it/s]
+[1ALoading weights:  34%|███▍      | 237/693 [01:04<00:16, 27.61it/s]
+[1ALoading weights:  35%|███▍      | 241/693 [01:04<00:21, 21.12it/s]
+[1ALoading weights:  37%|███▋      | 256/693 [01:05<00:15, 28.84it/s]
+[1ALoading weights:  38%|███▊      | 260/693 [01:05<00:20, 21.26it/s]
+[1ALoading weights:  38%|███▊      | 264/693 [01:06<00:29, 14.71it/s]
+[1ALoading weights:  42%|████▏     | 289/693 [01:06<00:13, 29.54it/s]
+[1ALoading weights:  42%|████▏     | 294/693 [01:07<00:16, 24.12it/s]
+[1ALoading weights:  44%|████▍     | 306/693 [01:07<00:13, 29.03it/s]
+[1ALoading weights:  45%|████▍     | 310/693 [01:07<00:17, 22.38it/s]
+[1ALoading weights:  47%|████▋     | 325/693 [01:08<00:12, 30.19it/s]
+[1ALoading weights:  47%|████▋     | 329/693 [01:08<00:15, 23.08it/s]
+[1ALoading weights:  48%|████▊     | 332/693 [01:08<00:16, 21.40it/s]
+[1ALoading weights:  48%|████▊     | 335/693 [01:09<00:22, 16.19it/s]
+[1ALoading weights:  52%|█████▏    | 357/693 [01:09<00:14, 23.55it/s]
+[1ALoading weights:  54%|█████▍    | 375/693 [01:10<00:12, 24.91it/s]
+[1ALoading weights:  57%|█████▋    | 393/693 [01:11<00:11, 25.92it/s]
+[1ALoading weights:  58%|█████▊    | 403/693 [01:11<00:10, 28.91it/s]
+[1ALoading weights:  59%|█████▊    | 407/693 [01:11<00:12, 23.10it/s]
+[1ALoading weights:  62%|██████▏   | 427/693 [01:12<00:07, 33.79it/s]
+[1ALoading weights:  62%|██████▏   | 432/693 [01:12<00:09, 26.43it/s]
+[1ALoading weights:  64%|██████▍   | 445/693 [01:12<00:07, 32.35it/s]
+[1ALoading weights:  65%|██████▍   | 449/693 [01:13<00:09, 24.63it/s]
+[1ALoading weights:  67%|██████▋   | 463/693 [01:13<00:07, 31.97it/s]
+[1ALoading weights:  67%|██████▋   | 467/693 [01:13<00:09, 23.51it/s]
+[1ALoading weights:  68%|██████▊   | 472/693 [01:14<00:13, 16.81it/s]
+[1ALoading weights:  72%|███████▏  | 496/693 [01:14<00:06, 31.82it/s]
+[1ALoading weights:  72%|███████▏  | 501/693 [01:15<00:07, 25.37it/s]
+[1ALoading weights:  74%|███████▍  | 513/693 [01:15<00:05, 30.01it/s]
+[1ALoading weights:  75%|███████▍  | 517/693 [01:15<00:07, 23.15it/s]
+[1ALoading weights:  76%|███████▋  | 530/693 [01:16<00:06, 25.11it/s]
+[1ALoading weights:  77%|███████▋  | 533/693 [01:16<00:06, 23.30it/s]
+[1ALoading weights:  78%|███████▊  | 541/693 [01:16<00:05, 26.29it/s]
+[1ALoading weights:  78%|███████▊  | 544/693 [01:17<00:07, 19.07it/s]
+[1ALoading weights:  82%|████████▏ | 565/693 [01:17<00:03, 34.87it/s]
+[1ALoading weights:  82%|████████▏ | 570/693 [01:17<00:04, 26.52it/s]
+[1ALoading weights:  84%|████████▍ | 583/693 [01:18<00:03, 32.73it/s]
+[1ALoading weights:  85%|████████▍ | 587/693 [01:18<00:04, 24.26it/s]
+[1ALoading weights:  87%|████████▋ | 601/693 [01:19<00:03, 23.09it/s]
+[1ALoading weights:  88%|████████▊ | 609/693 [01:19<00:03, 25.29it/s]
+[1ALoading weights:  88%|████████▊ | 612/693 [01:19<00:04, 19.65it/s]
+[1ALoading weights:  91%|█████████▏| 634/693 [01:19<00:01, 34.79it/s]
+[1ALoading weights:  92%|█████████▏| 639/693 [01:20<00:01, 27.25it/s]
+[1ALoading weights:  94%|█████████▍| 652/693 [01:20<00:01, 33.07it/s]
+[1ALoading weights:  95%|█████████▍| 656/693 [01:21<00:01, 24.84it/s]
+[1ALoading weights:  97%|█████████▋| 670/693 [01:21<00:00, 32.91it/s]
+[1ALoading weights:  97%|█████████▋| 675/693 [01:21<00:00, 25.53it/s]
+[1ALoading weights:  98%|█████████▊| 679/693 [01:21<00:00, 24.29it/s]
+[1ALoading weights:  98%|█████████▊| 682/693 [01:22<00:00, 17.88it/s]
+[1ALoading weights: 100%|██████████| 693/693 [01:22<00:00,  8.42it/s]
+{
+ "usd_per_hour": 5.174,
+ "budget_minutes": 6.0,
+ "stages": [
+  {
+   "stage": "load",
+   "result": {
+    "model": "HFLensModel(Qwen3_5MoeForCausalLM, n_layers=40, d_model=2048)",
+    "gpu_gb_allocated": 69.3
+   },
+   "status": "ok",
+   "minutes": 1.44,
+   "log_tail": []
+  },
+  {
+   "stage": "pivot_logit",
+   "result": {
+    "exit": 0,
+    "items_kept": "363/448",
+    "all_indic_mean_prob_by_layer": {
+     "target": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0001,
+      0.0001,
+      0.0001,
+      0.0001,
+      0.0001,
+      0.0001,
+      0.0,
+      0.0002,
+      0.0051,
+      0.2379
+     ],
+     "english": [
+      0.0001,
+      0.0001,
+      0.0001,
+      0.0001,
+      0.0001,
+      0.0001,
+      0.0001,
+      0.0001,
+      0.0001,
+      0.0001,
+      0.0001,
+      0.0001,
+      0.0005,
+      0.0005,
+      0.0006,
+      0.0004,
+      0.0005,
+      0.0004,
+      0.0011,
+      0.001,
+      0.0016,
+      0.0019,
+      0.0021,
+      0.0019,
+      0.0029,
+      0.0031,
+      0.0034,
+      0.0049,
+      0.0037,
+      0.0021,
+      0.0386,
+      0.0558,
+      0.043,
+      0.0874,
+      0.0711,
+      0.4611,
+      0.4332,
+      0.2091,
+      0.0412
+     ],
+     "hindi": [
+      0.0001,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0001,
+      0.0001,
+      0.0001,
+      0.0001,
+      0.0001,
+      0.0001,
+      0.0002,
+      0.0002,
+      0.0003,
+      0.0002,
+      0.0004,
+      0.0015,
+      0.0123,
+      0.0116
+     ],
+     "source": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0001,
+      0.0001,
+      0.0001,
+      0.0001,
+      0.0,
+      0.0,
+      0.0004,
+      0.0004,
+      0.0023
+     ]
+    }
+   },
+   "status": "ok",
+   "minutes": 3.31,
+   "log_tail": [
+    "pivot: ta-bn: kept 31 items",
+    "pivot: te-gu: kept 28 items",
+    "pivot: hi-ta: kept 26 items",
+    "pivot: hi_latn-ta: kept 26 items",
+    "pivot: en-ta: kept 24 items",
+    "pivot: ta-en: kept 30 items",
+    "matplotlib.font_manager: generated new fontManager",
+    "pivot: kept 363 / 448 items; wrote /vol/runs/qwen/pivot_logit"
+   ]
+  }
+ ],
+ "elapsed_minutes": 4.91,
+ "est_cost_usd_so_far": 0.42,
+ "done": true
+}
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-f1oVVxvatwbWEwhr4jmbEV

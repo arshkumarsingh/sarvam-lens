@@ -1,0 +1,566 @@
+{
+ "usd_per_hour": 5.174,
+ "budget_minutes": 7.0,
+ "model_type": "sarvam_moe",
+ "stages": [
+  {
+   "stage": "load",
+   "est_minutes": 2,
+   "result": {
+    "model": "HFLensModel(SarvamMoEForCausalLM, n_layers=19, d_model=4096)",
+    "gpu_gb_allocated": 64.3,
+    "gpu_gb_by_device": {
+     "0": 64.3
+    },
+    "loading_info": {
+     "missing_keys": {
+      "n": 0,
+      "first": []
+     },
+     "unexpected_keys": {
+      "n": 0,
+      "first": []
+     },
+     "mismatched_keys": {
+      "n": 0,
+      "first": []
+     },
+     "error_msgs": {
+      "n": 0,
+      "first": []
+     }
+    }
+   },
+   "status": "ok",
+   "minutes": 0.66,
+   "log_tail": []
+  },
+  {
+   "stage": "sanity",
+   "est_minutes": 1.0,
+   "result": {
+    "bos_first": true,
+    "n_tokens": 19,
+    "stock_rerun_max_abs_diff": 0.0,
+    "rlens": {
+     "max_abs_diff": 0.0,
+     "stock_abs_max": 123.0,
+     "patched": {
+      "ln_rule": 39,
+      "mlp_rule": 19,
+      "routed_experts": 0,
+      "moe_blocks": 0
+     }
+    },
+    "r+moe": {
+     "max_abs_diff": 0.0,
+     "stock_abs_max": 123.0,
+     "patched": {
+      "ln_rule": 39,
+      "mlp_rule": 19,
+      "routed_experts": 2304,
+      "moe_blocks": 18
+     }
+    },
+    "seconds_per_forward": 0.126,
+    "timing_prompt_tokens": 101,
+    "greedy": {
+     "हिन्दी: \"पानी\" - English: \"": "water\".\n\nThe user wants a function that takes a string",
+     "தமிழ்: \"நீர்\" - తెలుగు: \"": "நீர்\" - హిందీ: \"నీరు\" - బెంగ",
+     "भारत की राजधानी": " है?\n1. दिल्ली\n2. मुंबई\n3",
+     "The capital of Tamil Nadu is": " Chennai.\n\nThe user's question is a statement,"
+    },
+    "greedy_water_ok": true
+   },
+   "status": "ok",
+   "minutes": 0.28,
+   "log_tail": []
+  },
+  {
+   "stage": "post1_experiment.push",
+   "est_minutes": 2.92,
+   "result": {
+    "n": 143,
+    "clusters": 32,
+    "base_p": 0.9099,
+    "base_correct": 1.0,
+    "english@1": {
+     "drop_pts": 5.8528,
+     "ci": [
+      3.8875,
+      8.0211
+     ],
+     "n": 143,
+     "still_correct": 0.937,
+     "rel_norm": 0.048
+    },
+    "control@1": {
+     "drop_pts": 0.0881,
+     "ci": [
+      -0.5909,
+      0.8741
+     ],
+     "n": 143,
+     "still_correct": 0.993,
+     "rel_norm": 0.0296
+    },
+    "random@1": {
+     "drop_pts": 0.7641,
+     "ci": [
+      -0.0572,
+      1.6208
+     ],
+     "n": 143,
+     "still_correct": 0.986,
+     "rel_norm": 0.09
+    },
+    "random_en@1": {
+     "drop_pts": 0.1885,
+     "ci": [
+      -0.4383,
+      0.7654
+     ],
+     "n": 143,
+     "still_correct": 0.993,
+     "rel_norm": 0.0472
+    },
+    "random_ctrl@1": {
+     "drop_pts": 0.6562,
+     "ci": [
+      0.1993,
+      1.2402
+     ],
+     "n": 143,
+     "still_correct": 0.986,
+     "rel_norm": 0.0296
+    },
+    "english@1.5": {
+     "drop_pts": 7.625,
+     "ci": [
+      5.125,
+      10.5057
+     ],
+     "n": 143,
+     "still_correct": 0.937,
+     "rel_norm": 0.068
+    },
+    "control@1.5": {
+     "drop_pts": 0.1265,
+     "ci": [
+      -0.5862,
+      0.9405
+     ],
+     "n": 143,
+     "still_correct": 0.979,
+     "rel_norm": 0.0454
+    },
+    "random@1.5": {
+     "drop_pts": 1.8169,
+     "ci": [
+      0.8491,
+      2.8399
+     ],
+     "n": 143,
+     "still_correct": 0.986,
+     "rel_norm": 0.1345
+    },
+    "random_en@1.5": {
+     "drop_pts": 0.6764,
+     "ci": [
+      -0.2083,
+      1.6707
+     ],
+     "n": 143,
+     "still_correct": 0.979,
+     "rel_norm": 0.0668
+    },
+    "random_ctrl@1.5": {
+     "drop_pts": 0.4663,
+     "ci": [
+      -0.2126,
+      1.2665
+     ],
+     "n": 143,
+     "still_correct": 0.979,
+     "rel_norm": 0.0455
+    },
+    "english@2": {
+     "drop_pts": 9.3619,
+     "ci": [
+      5.9823,
+      13.5257
+     ],
+     "n": 143,
+     "still_correct": 0.944,
+     "rel_norm": 0.1106
+    },
+    "control@2": {
+     "drop_pts": 0.119,
+     "ci": [
+      -0.6413,
+      1.0605
+     ],
+     "n": 143,
+     "still_correct": 0.979,
+     "rel_norm": 0.0769
+    },
+    "random@2": {
+     "drop_pts": 3.0725,
+     "ci": [
+      1.732,
+      4.5766
+     ],
+     "n": 143,
+     "still_correct": 0.972,
+     "rel_norm": 0.1783
+    },
+    "random_en@2": {
+     "drop_pts": 1.5899,
+     "ci": [
+      0.5039,
+      2.8046
+     ],
+     "n": 143,
+     "still_correct": 0.986,
+     "rel_norm": 0.1083
+    },
+    "random_ctrl@2": {
+     "drop_pts": 0.8539,
+     "ci": [
+      0.1133,
+      1.8036
+     ],
+     "n": 143,
+     "still_correct": 0.972,
+     "rel_norm": 0.0771
+    },
+    "english@2.5": {
+     "drop_pts": 10.6182,
+     "ci": [
+      6.4879,
+      16.111
+     ],
+     "n": 143,
+     "still_correct": 0.895,
+     "rel_norm": 0.2172
+    },
+    "control@2.5": {
+     "drop_pts": 0.9358,
+     "ci": [
+      -0.2387,
+      2.3225
+     ],
+     "n": 143,
+     "still_correct": 0.986,
+     "rel_norm": 0.1465
+    },
+    "random@2.5": {
+     "drop_pts": 4.6054,
+     "ci": [
+      2.6807,
+      6.5417
+     ],
+     "n": 143,
+     "still_correct": 0.972,
+     "rel_norm": 0.2218
+    },
+    "random_en@2.5": {
+     "drop_pts": 5.2042,
+     "ci": [
+      2.8005,
+      8.1527
+     ],
+     "n": 143,
+     "still_correct": 0.958,
+     "rel_norm": 0.2103
+    },
+    "random_ctrl@2.5": {
+     "drop_pts": 2.3822,
+     "ci": [
+      1.1935,
+      3.7309
+     ],
+     "n": 143,
+     "still_correct": 0.951,
+     "rel_norm": 0.1469
+    },
+    "english@3": {
+     "drop_pts": 39.8733,
+     "ci": [
+      32.0374,
+      47.4098
+     ],
+     "n": 143,
+     "still_correct": 0.587,
+     "rel_norm": 0.4226
+    },
+    "control@3": {
+     "drop_pts": 8.0641,
+     "ci": [
+      4.6323,
+      12.2224
+     ],
+     "n": 143,
+     "still_correct": 0.916,
+     "rel_norm": 0.2817
+    },
+    "random@3": {
+     "drop_pts": 6.9755,
+     "ci": [
+      4.437,
+      9.6859
+     ],
+     "n": 143,
+     "still_correct": 0.944,
+     "rel_norm": 0.2638
+    },
+    "random_en@3": {
+     "drop_pts": 29.932,
+     "ci": [
+      23.3492,
+      36.908
+     ],
+     "n": 143,
+     "still_correct": 0.769,
+     "rel_norm": 0.4043
+    },
+    "random_ctrl@3": {
+     "drop_pts": 13.5835,
+     "ci": [
+      10.1774,
+      17.3454
+     ],
+     "n": 143,
+     "still_correct": 0.888,
+     "rel_norm": 0.2813
+    },
+    "english@1_minus_control@1": {
+     "pts": 5.7647,
+     "ci": [
+      3.7168,
+      7.8643
+     ],
+     "n": 143
+    },
+    "english@1_minus_random@1": {
+     "pts": 5.0887,
+     "ci": [
+      2.8703,
+      7.3693
+     ],
+     "n": 143
+    },
+    "english@1_minus_random_en@1": {
+     "pts": 5.6643,
+     "ci": [
+      3.7042,
+      7.7593
+     ],
+     "n": 143
+    },
+    "english@1.5_minus_control@1.5": {
+     "pts": 7.4986,
+     "ci": [
+      4.8855,
+      10.238
+     ],
+     "n": 143
+    },
+    "english@1.5_minus_random@1.5": {
+     "pts": 5.8081,
+     "ci": [
+      3.2409,
+      8.6332
+     ],
+     "n": 143
+    },
+    "english@1.5_minus_random_en@1.5": {
+     "pts": 6.9487,
+     "ci": [
+      4.0675,
+      10.1071
+     ],
+     "n": 143
+    },
+    "english@2_minus_control@2": {
+     "pts": 9.2429,
+     "ci": [
+      5.6517,
+      13.4472
+     ],
+     "n": 143
+    },
+    "english@2_minus_random@2": {
+     "pts": 6.2895,
+     "ci": [
+      2.6353,
+      10.6402
+     ],
+     "n": 143
+    },
+    "english@2_minus_random_en@2": {
+     "pts": 7.772,
+     "ci": [
+      3.8261,
+      12.0064
+     ],
+     "n": 143
+    },
+    "english@2.5_minus_control@2.5": {
+     "pts": 9.6824,
+     "ci": [
+      5.528,
+      15.4021
+     ],
+     "n": 143
+    },
+    "english@2.5_minus_random@2.5": {
+     "pts": 6.0129,
+     "ci": [
+      1.2864,
+      11.7753
+     ],
+     "n": 143
+    },
+    "english@2.5_minus_random_en@2.5": {
+     "pts": 5.4141,
+     "ci": [
+      -0.0681,
+      11.5982
+     ],
+     "n": 143
+    },
+    "english@3_minus_control@3": {
+     "pts": 31.8092,
+     "ci": [
+      23.9766,
+      39.3665
+     ],
+     "n": 143
+    },
+    "english@3_minus_random@3": {
+     "pts": 32.8978,
+     "ci": [
+      25.9055,
+      39.8617
+     ],
+     "n": 143
+    },
+    "english@3_minus_random_en@3": {
+     "pts": 9.9412,
+     "ci": [
+      2.8226,
+      17.8579
+     ],
+     "n": 143
+    },
+    "control@1_minus_random_ctrl@1": {
+     "pts": -0.568,
+     "ci": [
+      -1.0968,
+      -0.0901
+     ],
+     "n": 143
+    },
+    "control@1.5_minus_random_ctrl@1.5": {
+     "pts": -0.3399,
+     "ci": [
+      -0.9708,
+      0.2133
+     ],
+     "n": 143
+    },
+    "control@2_minus_random_ctrl@2": {
+     "pts": -0.7349,
+     "ci": [
+      -1.5779,
+      0.0106
+     ],
+     "n": 143
+    },
+    "control@2.5_minus_random_ctrl@2.5": {
+     "pts": -1.4464,
+     "ci": [
+      -2.7797,
+      -0.2409
+     ],
+     "n": 143
+    },
+    "control@3_minus_random_ctrl@3": {
+     "pts": -5.5194,
+     "ci": [
+      -9.4832,
+      -1.9237
+     ],
+     "n": 143
+    },
+    "decision": {
+     "random_en": {
+      "alpha_star": 2.0,
+      "english_minus_random": {
+       "pts": 7.772,
+       "ci": [
+        3.8261,
+        12.0064
+       ],
+       "n": 143
+      },
+      "english_minus_control": {
+       "pts": 9.2429,
+       "ci": [
+        5.6517,
+        13.4472
+       ],
+       "n": 143
+      }
+     },
+     "random": {
+      "alpha_star": 2.5,
+      "english_minus_random": {
+       "pts": 6.0129,
+       "ci": [
+        1.2864,
+        11.7753
+       ],
+       "n": 143
+      },
+      "english_minus_control": {
+       "pts": 9.6824,
+       "ci": [
+        5.528,
+        15.4021
+       ],
+       "n": 143
+      }
+     }
+    },
+    "lens": "j_200p",
+    "band": [
+     13,
+     14,
+     15,
+     16
+    ],
+    "alphas": [
+     1.0,
+     1.5,
+     2.0,
+     2.5,
+     3.0
+    ]
+   },
+   "status": "ok",
+   "minutes": 1.01,
+   "log_tail": [
+    "post1: push: 1 / 160 items (1 s)",
+    "post1: push: 51 / 160 items (22 s)",
+    "post1: push: 101 / 160 items (36 s)",
+    "post1: push: 151 / 160 items (48 s)"
+   ]
+  }
+ ],
+ "elapsed_minutes": 2.23,
+ "est_cost_usd_so_far": 0.19,
+ "seconds_per_forward": 0.126,
+ "done": true
+}

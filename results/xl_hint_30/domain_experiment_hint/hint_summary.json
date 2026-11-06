@@ -1,0 +1,124 @@
+{
+ "headline": {
+  "en|plain": [
+   0.857,
+   null,
+   null,
+   0.05
+  ],
+  "en|hint_native": [
+   null,
+   null,
+   null,
+   1.0
+  ],
+  "hi|plain": [
+   0.857,
+   null,
+   null,
+   0.05
+  ],
+  "hi|hint_native": [
+   null,
+   null,
+   null,
+   0.95
+  ],
+  "hi|hint_en": [
+   null,
+   null,
+   null,
+   0.9
+  ],
+  "ta|plain": [
+   0.889,
+   null,
+   null,
+   0.05
+  ],
+  "ta|hint_native": [
+   0.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "ta|hint_en": [
+   1.0,
+   0.0,
+   null,
+   1.0
+  ],
+  "bn_h|plain": [
+   1.0,
+   null,
+   null,
+   0.1
+  ],
+  "bn_h|hint_native": [
+   null,
+   null,
+   null,
+   1.0
+  ],
+  "bn_h|hint_en": [
+   null,
+   null,
+   null,
+   1.0
+  ],
+  "sat|plain": [
+   0.833,
+   null,
+   null,
+   0.0
+  ],
+  "sat|hint_native": [
+   0.0,
+   null,
+   null,
+   0.85
+  ],
+  "sat|hint_en": [
+   0.0,
+   null,
+   null,
+   1.0
+  ],
+  "ru_h|plain": [
+   0.917,
+   null,
+   null,
+   0.05
+  ],
+  "ru_h|hint_native": [
+   0.0,
+   0.0,
+   null,
+   1.0
+  ],
+  "ru_h|hint_en": [
+   1.0,
+   0.0,
+   null,
+   1.0
+  ],
+  "non-English pooled|plain": [
+   0.9,
+   null,
+   null,
+   0.05
+  ],
+  "non-English pooled|hint_native": [
+   0.0,
+   0.333,
+   1.0,
+   0.96
+  ],
+  "non-English pooled|hint_en": [
+   0.667,
+   0.0,
+   null,
+   0.98
+  ]
+ }
+}

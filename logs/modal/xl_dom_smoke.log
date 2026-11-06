@@ -1,0 +1,54 @@
+✓ Initialized. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-t3eZAr7JobN8uWXlMUDEJM
+✓ Created objects.
+├── ✓ Uploaded .\code\modal_app.py
+├── ✓ Uploaded .\code
+├── ✓ Created Function prepare_weights.
+├── ✓ Created Function smoke.
+├── ✓ Created Function smoke_2gpu.
+├── ✓ Created Function prepare_qwen.
+├── ✓ Created Function cka.
+├── ✓ Created Function pilot.
+├── ✓ Created Function pilot2.
+├── ✓ Created Function merge_j.
+├── ✓ Created Function build_corpus_fn.
+├── ✓ Created Function cka_robust.
+└── ✓ Created Function diagnose.
+hard timeout 15 min -> worst case $0.08
+
+[1ALoading weights:   0%|          | 0/117 [00:00<?, ?it/s]
+[1ALoading weights: 100%|██████████| 117/117 [00:00<00:00, 3597.17it/s]
+[transformers] You are using a model of type `sarvam_moe` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+[transformers] `use_return_dict` is deprecated! Use `return_dict` instead!
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/sarvam-lens/domain_experiment.py:981: RuntimeWarning: Mean of empty slice
+  p = np.nanmean(prob[sel, name_i][:, band_idx, ri], axis=1)
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+{
+ "smoke_test": "passed",
+ "n_checks": 48,
+ "dry_pilot_stages": {
+  "domain_experiment.hello": "ok",
+  "domain_experiment.profile": "ok",
+  "domain_experiment.digits": "ok",
+  "domain_experiment.mgsm": "ok",
+  "domain_experiment.mgsm_think": "ok"
+ },
+ "dry_pilot_results": {
+  "domain_experiment.hello": "{'model_kind': 'sarvam30', 'lens_specs': ['logit'], 'n_layers': 4, 'band': [2], 'batch_size': 16, 'args': {}}",
+  "domain_experiment.profile": "{'n_jobs': 18, 'n_batches': 5, 'seconds': 3.4, 'lenses': ['logit'], 'jobs_by_domain': {'mgsm': 12, 'science': 2, 'technical': 2, 'everyday': 2}, 'n_variants': 6, 'headline': {'English|mgsm': [0.6018, -0.0, 0, 0], 'English|science': [0.6018, 0.0, 0, 0], 'English|technical': [0.6018, 0.0, 0, 0], 'English|everyday': [0.6018, None, None, None]}}",
+  "domain_experiment.digits": "{'n_jobs': 9, 'seconds': 0.1, 'headline': {'ascii': {'acc': 0.0, 'ascii': 0.0, 'native': None, 'word': 0.0, 'ascii_ctrl': 0.0, 'native_ctrl': None, 'word_ctrl': 0.0}, 'devanagari': {'acc': 0.0, 'ascii': 0.0, 'native': 0.0, 'word': 0.0, 'ascii_ctrl': 0.0, 'native_ctrl': 0.0, 'word_ctrl': 0.0}, 'bengali': {'acc': 0.0, 'ascii': 0.0, 'native': 0.0, 'word': 0.0, 'ascii_ctrl': 0.0, 'native_ctrl': 0.0, 'word_ctrl': 0.0}, 'all_native': {'acc': 0.0, 'ascii': 0.0, 'native': 0.0, 'word': 0.0, 'ascii_ctrl': 0.0, 'native_ctrl': 0.0, 'word_ctrl': 0.0}}}",
+  "domain_experiment.mgsm": "{'n_jobs': 12, 'seconds': 0.8, 'headline': {'en': [0.0, None, 0.6013], 'bn_h': [0.0, None, 0.6012], 'te_h': [0.0, None, 0.6018], 'ja_h': [0.0, None, 0.6021], 'ru_h': [0.0, None, 0.6021], 'zh_h': [0.0, None, 0.6019]}}",
+  "domain_experiment.mgsm_think": "{'n_jobs': 2, 'seconds': 0.1, 'headline': {'bn_h': [0.526, 0.0, 0.0], 'te_h': [0.765, 0.0, 0.0], 'ALL': [0.645, 0.0, 0.0]}}"
+ },
+ "dry_pilot_errors": {}
+}
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-t3eZAr7JobN8uWXlMUDEJM

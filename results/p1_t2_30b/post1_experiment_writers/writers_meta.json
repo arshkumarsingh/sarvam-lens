@@ -1,0 +1,23 @@
+{
+ "lens": "j_200p",
+ "roles": [
+  "english",
+  "english_ctrl",
+  "hindi",
+  "target",
+  "source"
+ ],
+ "modes": [
+  "jlens",
+  "direct"
+ ],
+ "n_layers": 19,
+ "band": [
+  13,
+  14,
+  15,
+  16
+ ],
+ "moe_recompute_rel_err_max": 0.00303,
+ "n_items": 272
+}

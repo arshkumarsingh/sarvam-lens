@@ -1,0 +1,29 @@
+# concept: water
+# page: water/translations
+# revid: 93665583
+# section_url: https://en.wiktionary.org/w/index.php?title=water/translations&action=raw
+## block: {{trans-top|id=Q283|inorganic compound H₂O}}
+* Assamese: {{tt|as|পানী}}
+* Odia: {{tt+|or|ଜଳ}}, {{tt+|or|ପାଣି}}
+* Punjabi: {{tt+|pa|ਪਾਣੀ}}, {{tt|pa|ਜਲ}}, {{tt+|pa|ਆਬ}}
+*: Old Punjabi: {{tt|inc-opa|ਪਾਣੀ|m}}
+* Urdu: {{tt+|ur|پانی|m|tr=pānī}}, {{tt+|ur|آب|m|tr=āb}}, {{tt|ur|جل|tr=jal}}
+* Nepali: {{tt+|ne|पानी}}, {{tt+|ne|जल}}
+* Sanskrit: {{tt+|sa|अप्|f}}, {{tt+|sa|जल|n}}, {{tt+|sa|पानीय|n}}
+* Maithili: {{tt|mai|पानि}}
+* Sindhi: {{tt+|sd|پاڻي|tr=pāṇī}}, {{tt|sd|آب|tr=āb}}
+* Kashmiri:
+*: Arabic: {{tt+|ks|آب}}, {{tt+|ks|پونؠ}}, {{tt+|ks|زَل}}
+*: Devanagari: {{tt|ks|आब}}, {{tt|ks|पोन्य}}, {{tt|ks|ज़ल}}
+* Konkani: {{tt|kok|उदक}}, {{tt|kok|उद्धा}}
+MISSING Dogri
+* Manipuri: {{tt|mni|ইসিং|tr=isiŋ}}
+*: Bishnupriya Manipuri: {{tt|bpy|পানি|tr=pāni}}
+* Bodo (India): {{tt|brx|dwi}}
+* Santali: {{tt+|sat|ᱫᱟᱜ}}
+* Japanese: {{tt+|ja|水|tr=mizu}}
+*: Old Japanese: {{tt|ojp|水|tr=mi₁du}}
+* Russian: {{tt+|ru|вода́|f}}
+* Arabic: {{tt+|ar|مَاء|m}}
+* Hindi: {{tt+|hi|पानी|m}}, {{tt+|hi|जल|m}}, {{tt+|hi|आब}}, {{tt+|hi|पाणी|m}}, {{tt+|hi|नीर|m}}, {{tt+|hi|उदक|m}}, {{tt+|hi|वाटर|m}}, {{tt|hi|आब-}}, {{tt+|hi|अप|m}}, {{tt+|hi|आप|m}}
+*: Old Hindi: {{tt|inc-ohi|पांनी|tr=pā̃nī}}

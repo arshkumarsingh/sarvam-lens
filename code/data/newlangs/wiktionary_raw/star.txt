@@ -1,0 +1,44 @@
+# concept: star
+# page: star/translations
+# revid: 93664346
+# section_url: https://en.wiktionary.org/w/index.php?title=star/translations&action=raw
+## block: {{trans-top|a celestial body appearing as a point of light on the clear night sky, whose position is relatively fixed with respect to each other}}
+* Assamese: {{tt|as|তৰা}}
+* Odia: {{tt+|or|ତାରା}}
+* Punjabi:
+*: Gurmukhi: {{tt+|pa|ਤਾਰਾ|m}}, {{tt+|pa|ਸਿਤਾਰਾ|m}}
+*: Shahmukhi: {{tt|pa|تارا|m}}, {{tt|pa|سِتارَہ|m|tr=sitāra}}
+* Urdu: {{tt+|ur|سِتارَہ|m}}, {{tt|ur|تارا|m}}, {{t|ur|تارَہ⁩|m}}, {{t|ur|اَخْتَر|m}}
+* Nepali: {{tt+|ne|तारा}}
+* Sanskrit: {{tt+|sa|तारा|f}}, {{tt+|sa|तारका|f}}, {{tt+|sa|तारिका|f}}, {{tt+|sa|नक्षत्र|n}}
+MISSING Maithili
+* Sindhi: {{tt+|sd|تارو|m|tr=tāro}}
+MISSING Kashmiri
+MISSING Konkani
+MISSING Dogri
+MISSING Manipuri
+MISSING Bodo
+MISSING Santali
+* Japanese: {{tt+|ja|星|tr=ほし, hoshi}}, {{tt+|ja|恒星|tr=こうせい, kōsei}}, {{t|ja|お星様|tr=おほしさま, ohoshi sama}}
+* Russian: {{tt+|ru|звезда́|f}}
+* Arabic: {{tt+|ar|نَجْم|m}},{{tt+|ar|كوكب|m|tr=kawkab}}
+* Hindi: {{tt+|hi|तारा|m}}, {{tt+|hi|सितारा|m}}
+## block: {{trans-top|(astronomy) a luminous celestial body made of plasma|id=Q523}}
+MISSING Assamese
+MISSING Odia
+MISSING Punjabi
+MISSING Urdu
+MISSING Nepali
+MISSING Sanskrit
+MISSING Maithili
+MISSING Sindhi
+MISSING Kashmiri
+MISSING Konkani
+MISSING Dogri
+MISSING Manipuri
+MISSING Bodo
+MISSING Santali
+* Japanese: {{tt+|ja|恒星|tr=こうせい, kōsei}}
+* Russian: {{tt+|ru|звезда́|f}}
+* Arabic: {{tt+|ar|نَجْم|m}}
+MISSING Hindi

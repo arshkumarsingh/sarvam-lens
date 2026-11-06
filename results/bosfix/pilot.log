@@ -1,0 +1,17 @@
+lenses ['logit'] at layers [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+ta-te: kept 0 items
+te-kn: kept 1 items
+kn-ml: kept 0 items
+ml-ta: kept 0 items
+bn-gu: kept 0 items
+gu-mr: kept 0 items
+mr-bn: kept 1 items
+bn-ta: kept 0 items
+ta-bn: kept 0 items
+te-gu: kept 0 items
+hi-ta: kept 1 items
+hi_latn-ta: kept 0 items
+en-ta: kept 0 items
+ta-en: kept 0 items
+generated new fontManager
+kept 3 / 448 items; wrote /vol/runs/bosfix/pivot_logit

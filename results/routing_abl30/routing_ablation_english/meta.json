@@ -1,0 +1,27 @@
+{
+ "lens": "j_200p",
+ "pairs": [
+  "ta-te",
+  "te-kn",
+  "kn-ml",
+  "ml-ta",
+  "bn-gu",
+  "gu-mr",
+  "mr-bn",
+  "bn-ta",
+  "ta-bn",
+  "te-gu"
+ ],
+ "n_candidates": 320,
+ "require_correct": true,
+ "clean_rerun_identical": [
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ]
+}

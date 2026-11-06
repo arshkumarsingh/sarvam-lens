@@ -1,0 +1,173 @@
+✓ Initialized. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-kzPj7ACvq2VFgtW7Cv5wO4
+Building image im-HFqi2ylZIBCYrNeiZe0GtB
+
+=> Step 0: FROM base
+
+=> Step 1: RUN git clone https://github.com/eliebak/open-jlens-data /ojd && cd /ojd && git checkout 49010193dee265e8521dda041a26d23d7a8bc027
+Cloning into '/ojd'...
+Note: switching to '49010193dee265e8521dda041a26d23d7a8bc027'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 4901019 E10 SWE data: prompts jsonl+stats, convergence CSVs, comparison npz/json, analysis code, --prompts_file fitter patch, sbatches
+Saving image...
+Image saved, took 2.01s
+
+Built image im-HFqi2ylZIBCYrNeiZe0GtB in 5.62s
+
+
+Building image im-R2U2UX1zEEGOQ6I7TdTP2C
+
+=> Step 0: FROM base
+
+=> Step 1: ENV HF_HOME=/vol/hf
+
+=> Step 2: ENV JPP_DIR=/jpp
+
+=> Step 3: ENV PYTHONUNBUFFERED=1
+Saving image...
+Image saved, took 687.83ms
+
+Built image im-R2U2UX1zEEGOQ6I7TdTP2C in 1.45s
+
+
+✓ Created objects.
+├── ✓ Uploaded 
+│   .\sarvam-lens\modal_app.py
+├── ✓ Uploaded .\sarvam-lens
+├── ✓ Created Function prepare_weights.
+├── ✓ Created Function smoke.
+├── ✓ Created Function prepare_qwen.
+├── ✓ Created Function cka.
+└── ✓ Created Function pilot.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+sarvam_R25 {"n_blocks": 2, "boundaries_rho": [0.6111111111111112], "sensory_end": 0.6111111111111112, "motor_start": 0.6111111111111112, "blockiness": 0.05755696821294354, "layer_coupling": 0.9686357836456854, "block_layers": [[0, 10], [11, 17]], "n_layers": 19, "fitted_layers": 18, "gain_offset": false, "n_prompts": 25}
+sarvam_JPP25 {"n_blocks": 2, "boundaries_rho": [0.6111111111111112], "sensory_end": 0.6111111111111112, "motor_start": 0.6111111111111112, "blockiness": 0.020225182029206423, "layer_coupling": 0.9683335712760385, "block_layers": [[0, 10], [11, 17]], "n_layers": 19, "fitted_layers": 18, "gain_offset": false, "n_prompts": 25}
+qwen_J25 {"n_blocks": 2, "boundaries_rho": [0.5128205128205128], "sensory_end": 0.5128205128205128, "motor_start": 0.5128205128205128, "blockiness": 0.3219463690169272, "layer_coupling": 0.693576162068542, "block_layers": [[0, 19], [20, 38]], "n_layers": 40, "fitted_layers": 39, "gain_offset": true, "n_prompts": 25}
+qwen_R25 {"n_blocks": 2, "boundaries_rho": [0.5128205128205128], "sensory_end": 0.5128205128205128, "motor_start": 0.5128205128205128, "blockiness": 0.31099722985195344, "layer_coupling": 0.7085412975085772, "block_layers": [[0, 19], [20, 38]], "n_layers": 40, "fitted_layers": 39, "gain_offset": true, "n_prompts": 25}
+The repository /vol/sarvam-30b-bf16 contains custom code which must be executed to correctly load the model. You can inspect the repository content at /vol/sarvam-30b-bf16 .
+ You can inspect the repository content at https://hf.co//vol/sarvam-30b-bf16.
+You can avoid this prompt in future by passing the argument `trust_remote_code=True`.
+
+[transformers] You are using a model of type `sarvam_moe` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+Do you wish to run the custom code? [y/N] cross sarvam_R25 x qwen_R25: matched-depth CKA 0.088 over 4096 shared tokens
+{
+ "sarvam_R25": {
+  "n_blocks": 2,
+  "boundaries_rho": [
+   0.6111111111111112
+  ],
+  "sensory_end": 0.6111111111111112,
+  "motor_start": 0.6111111111111112,
+  "blockiness": 0.05755696821294354,
+  "layer_coupling": 0.9686357836456854,
+  "block_layers": [
+   [
+    0,
+    10
+   ],
+   [
+    11,
+    17
+   ]
+  ],
+  "n_layers": 19,
+  "fitted_layers": 18,
+  "gain_offset": false,
+  "n_prompts": 25
+ },
+ "sarvam_JPP25": {
+  "n_blocks": 2,
+  "boundaries_rho": [
+   0.6111111111111112
+  ],
+  "sensory_end": 0.6111111111111112,
+  "motor_start": 0.6111111111111112,
+  "blockiness": 0.020225182029206423,
+  "layer_coupling": 0.9683335712760385,
+  "block_layers": [
+   [
+    0,
+    10
+   ],
+   [
+    11,
+    17
+   ]
+  ],
+  "n_layers": 19,
+  "fitted_layers": 18,
+  "gain_offset": false,
+  "n_prompts": 25
+ },
+ "qwen_J25": {
+  "n_blocks": 2,
+  "boundaries_rho": [
+   0.5128205128205128
+  ],
+  "sensory_end": 0.5128205128205128,
+  "motor_start": 0.5128205128205128,
+  "blockiness": 0.3219463690169272,
+  "layer_coupling": 0.693576162068542,
+  "block_layers": [
+   [
+    0,
+    19
+   ],
+   [
+    20,
+    38
+   ]
+  ],
+  "n_layers": 40,
+  "fitted_layers": 39,
+  "gain_offset": true,
+  "n_prompts": 25
+ },
+ "qwen_R25": {
+  "n_blocks": 2,
+  "boundaries_rho": [
+   0.5128205128205128
+  ],
+  "sensory_end": 0.5128205128205128,
+  "motor_start": 0.5128205128205128,
+  "blockiness": 0.31099722985195344,
+  "layer_coupling": 0.7085412975085772,
+  "block_layers": [
+   [
+    0,
+    19
+   ],
+   [
+    20,
+    38
+   ]
+  ],
+  "n_layers": 40,
+  "fitted_layers": 39,
+  "gain_offset": true,
+  "n_prompts": 25
+ },
+ "cross:sarvam_R25xqwen_R25": {
+  "matched_mean": 0.08794476002510991,
+  "n_shared_tokens": 4096
+ }
+}
+Stopping app - local entrypoint completed.
+[modal-client] 2026-10-18T19:17:37+0530 Timed out waiting for final app logs.
+✓ App completed. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-kzPj7ACvq2VFgtW7Cv5wO4

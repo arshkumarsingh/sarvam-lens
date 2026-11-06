@@ -1,0 +1,53 @@
+✓ Initialized. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-yVHTYtPPMjutInZPj000XL
+✓ Created objects.
+├── ✓ Uploaded 
+│   .\sarvam-lens\modal_app.py
+├── ✓ Uploaded .\sarvam-lens
+├── ✓ Created Function prepare_weights.
+├── ✓ Created Function smoke.
+├── ✓ Created Function prepare_qwen.
+└── ✓ Created Function pilot.
+
+[1AFetching 37 files:   0%|          | 0/37 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+[1AFetching 37 files:   3%|▎         | 1/37 [00:00<00:03,  9.16it/s]
+[1AFetching 37 files:  14%|█▎        | 5/37 [00:00<00:01, 23.95it/s]
+[1AFetching 37 files:  16%|█▌        | 6/37 [00:20<00:01, 23.95it/s]
+[1AFetching 37 files:  19%|█▉        | 7/37 [00:26<02:27,  4.91s/it]
+[1AFetching 37 files:  22%|██▏       | 8/37 [00:33<02:36,  5.40s/it]
+[1AFetching 37 files:  27%|██▋       | 10/37 [00:43<02:23,  5.33s/it]
+[1AFetching 37 files:  30%|██▉       | 11/37 [00:48<02:18,  5.32s/it]
+[1AFetching 37 files:  32%|███▏      | 12/37 [00:56<02:25,  5.81s/it]
+[1AFetching 37 files:  35%|███▌      | 13/37 [01:01<02:15,  5.65s/it]
+[1AFetching 37 files:  38%|███▊      | 14/37 [01:04<01:55,  5.04s/it]
+[1AFetching 37 files:  41%|████      | 15/37 [01:06<01:32,  4.21s/it]
+[1AFetching 37 files:  43%|████▎     | 16/37 [01:23<02:43,  7.79s/it]
+[1AFetching 37 files:  46%|████▌     | 17/37 [01:27<02:14,  6.74s/it]
+[1AFetching 37 files:  49%|████▊     | 18/37 [01:29<01:41,  5.35s/it]
+[1AFetching 37 files:  51%|█████▏    | 19/37 [01:33<01:26,  4.83s/it]
+[1AFetching 37 files:  54%|█████▍    | 20/37 [01:39<01:26,  5.09s/it]
+[1AFetching 37 files:  57%|█████▋    | 21/37 [01:47<01:37,  6.12s/it]
+[1AFetching 37 files:  59%|█████▉    | 22/37 [01:50<01:14,  4.99s/it]
+[1AFetching 37 files:  62%|██████▏   | 23/37 [02:04<01:50,  7.86s/it]
+[1AFetching 37 files:  65%|██████▍   | 24/37 [02:04<01:12,  5.58s/it]
+[1AFetching 37 files:  68%|██████▊   | 25/37 [02:05<00:47,  3.99s/it]
+[1AFetching 37 files:  70%|███████   | 26/37 [02:05<00:32,  2.98s/it]
+[1AFetching 37 files:  73%|███████▎  | 27/37 [02:08<00:28,  2.84s/it]
+[1AFetching 37 files:  76%|███████▌  | 28/37 [02:08<00:18,  2.08s/it]
+[1AFetching 37 files:  81%|████████  | 30/37 [02:09<00:08,  1.25s/it]
+[1AFetching 37 files:  84%|████████▍ | 31/37 [02:17<00:18,  3.10s/it]
+[1AFetching 37 files:  86%|████████▋ | 32/37 [02:32<00:30,  6.11s/it]
+[1AFetching 37 files:  92%|█████████▏| 34/37 [02:33<00:11,  3.77s/it]
+[1AFetching 37 files:  95%|█████████▍| 35/37 [02:40<00:09,  4.53s/it]
+[1AFetching 37 files:  97%|█████████▋| 36/37 [02:42<00:03,  3.91s/it]
+[1AFetching 37 files: 100%|██████████| 37/37 [02:45<00:00,  3.44s/it]
+[1AFetching 37 files: 100%|██████████| 37/37 [02:45<00:00,  4.46s/it]
+{
+ "gb": 71.9,
+ "minutes": 2.8
+}
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-yVHTYtPPMjutInZPj000XL

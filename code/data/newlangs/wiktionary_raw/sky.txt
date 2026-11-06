@@ -1,0 +1,23 @@
+# concept: sky
+# page: sky/translations
+# revid: 93631366
+# section_url: https://en.wiktionary.org/w/index.php?title=sky/translations&action=raw
+## block: {{trans-top-see|atmosphere above a given point, especially as visible from the surface of the Earth as the place where the sun, moon, stars, and clouds are seen|firmament}}
+* Assamese: {{tt|as|আকাশ}}
+* Odia: {{tt|or|ଆକାଶ}}
+* Punjabi: {{tt+|pa|ਅਸਮਾਨ}}, {{tt+|pa|ਆਕਾਸ਼}}
+* Urdu: {{tt+|ur|آسْمان|m}}, {{tt+|ur|آکاش|m}}, {{tt|ur|گَگَن|m}}, {{tt+|ur|اَمْبَر|m}}
+* Nepali: {{tt+|ne|आकाश}}
+* Sanskrit: {{tt+|sa|दिव}}, {{tt+|sa|आकाश}}
+MISSING Maithili
+MISSING Sindhi
+MISSING Kashmiri
+* Konkani: {{t|kok|आकाश}}, {{t|kok|मळब}}, {{t|kok|अंबर}}
+MISSING Dogri
+MISSING Manipuri
+MISSING Bodo
+MISSING Santali
+* Japanese: {{tt+|ja|空|tr=そら, sora}}, {{tt+|ja|大空|tr=おおぞら, ōzora}}, {{tt+|ja|天空|tr=tenkū}}, {{tt+|ja|あめ|tr=ame|alt=天}} {{qualifier|old}}
+* Russian: {{tt+|ru|не́бо|n}}
+* Arabic: {{tt|ar|سَمَاء|f}}
+* Hindi: {{tt+|hi|आकाश|m}}, {{tt+|hi|अम्बर}}, {{tt+|hi|गगन}}, {{tt+|hi|नभ}}, {{tt+|hi|आभ|m}}, {{t+|hi|आसमान|m}}, {{t+|hi|व्योम|m}}

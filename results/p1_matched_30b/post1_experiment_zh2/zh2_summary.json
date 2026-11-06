@@ -1,0 +1,155 @@
+{
+ "n": 269,
+ "clusters": 32,
+ "base_p": 0.8903,
+ "base_correct": 1.0,
+ "zh@2": {
+  "drop_pts": 0.5218,
+  "ci": [
+   -0.137,
+   1.2195
+  ],
+  "n": 269,
+  "still_correct": 0.981,
+  "rel_norm": 0.0431,
+  "abs_norm": 2.851
+ },
+ "control@2": {
+  "drop_pts": 0.1026,
+  "ci": [
+   -0.3442,
+   0.5605
+  ],
+  "n": 269,
+  "still_correct": 0.989,
+  "rel_norm": 0.0411,
+  "abs_norm": 2.738
+ },
+ "zh@3": {
+  "drop_pts": 7.7657,
+  "ci": [
+   5.4603,
+   10.2464
+  ],
+  "n": 269,
+  "still_correct": 0.922,
+  "rel_norm": 0.1521,
+  "abs_norm": 11.032
+ },
+ "control@3": {
+  "drop_pts": 6.2696,
+  "ci": [
+   4.2439,
+   8.3428
+  ],
+  "n": 269,
+  "still_correct": 0.941,
+  "rel_norm": 0.1464,
+  "abs_norm": 10.747
+ },
+ "zh@2~rand": {
+  "drop_pts": 0.3066,
+  "ci": [
+   -0.2185,
+   1.0144
+  ],
+  "n": 269,
+  "still_correct": 0.993,
+  "rel_norm": 0.043,
+  "abs_norm": 2.851
+ },
+ "control@2~rand": {
+  "drop_pts": 0.5336,
+  "ci": [
+   0.0551,
+   1.0245
+  ],
+  "n": 269,
+  "still_correct": 0.996,
+  "rel_norm": 0.0412,
+  "abs_norm": 2.738
+ },
+ "zh@3~rand": {
+  "drop_pts": 4.2484,
+  "ci": [
+   2.2423,
+   6.6098
+  ],
+  "n": 269,
+  "still_correct": 0.963,
+  "rel_norm": 0.151,
+  "abs_norm": 11.032
+ },
+ "control@3~rand": {
+  "drop_pts": 4.3227,
+  "ci": [
+   2.1844,
+   6.5493
+  ],
+  "n": 269,
+  "still_correct": 0.959,
+  "rel_norm": 0.1469,
+  "abs_norm": 10.747
+ },
+ "zh@2_minus_control@2": {
+  "pts": 0.4192,
+  "ci": [
+   0.001,
+   0.9172
+  ],
+  "n": 269
+ },
+ "zh@3_minus_control@3": {
+  "pts": 1.4961,
+  "ci": [
+   -0.793,
+   3.9832
+  ],
+  "n": 269
+ },
+ "zh@2_minus_zh@2~rand": {
+  "pts": 0.2152,
+  "ci": [
+   -0.6317,
+   1.0504
+  ],
+  "n": 269
+ },
+ "control@2_minus_control@2~rand": {
+  "pts": -0.431,
+  "ci": [
+   -1.0638,
+   0.2299
+  ],
+  "n": 269
+ },
+ "zh@3_minus_zh@3~rand": {
+  "pts": 3.5173,
+  "ci": [
+   1.1249,
+   6.0405
+  ],
+  "n": 269
+ },
+ "control@3_minus_control@3~rand": {
+  "pts": 1.9469,
+  "ci": [
+   -0.19,
+   4.0839
+  ],
+  "n": 269
+ },
+ "lens": "j_200p",
+ "band": [
+  13,
+  14,
+  15,
+  16
+ ],
+ "early_band": [
+  5,
+  6,
+  7,
+  8
+ ]
+}

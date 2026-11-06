@@ -1,0 +1,34 @@
+{
+ "_note": "Chat-format instructions for the real-life pivot test (reader question 2). 'word': translate one word; 'sentence': translate a sentence. {src}/{tgt} are language names in the instruction's own language, {w}/{s} the word/sentence. Written by hand, not native-speaker checked.",
+ "names": {
+  "en": {"en": "English", "hi": "Hindi", "hi_latn": "Hindi", "bn": "Bengali", "ta": "Tamil", "te": "Telugu", "mr": "Marathi", "gu": "Gujarati", "kn": "Kannada", "ml": "Malayalam", "zh": "Chinese"},
+  "hi": {"en": "अंग्रेज़ी", "hi": "हिन्दी", "bn": "बांग्ला", "ta": "तमिल", "te": "तेलुगु", "mr": "मराठी", "gu": "गुजराती", "kn": "कन्नड़", "ml": "मलयालम", "zh": "चीनी"},
+  "hi_latn": {"en": "English", "hi": "Hindi", "hi_latn": "Hindi", "bn": "Bangla", "ta": "Tamil", "te": "Telugu", "mr": "Marathi", "gu": "Gujarati", "kn": "Kannada", "ml": "Malayalam", "zh": "Chinese"},
+  "bn": {"en": "ইংরেজি", "hi": "হিন্দি", "bn": "বাংলা", "ta": "তামিল", "te": "তেলুগু", "mr": "মারাঠি", "gu": "গুজরাটি", "kn": "কন্নড়", "ml": "মালয়ালম", "zh": "চীনা"},
+  "ta": {"en": "ஆங்கில", "hi": "இந்தி", "bn": "வங்காள", "ta": "தமிழ்", "te": "தெலுங்கு", "mr": "மராத்தி", "gu": "குஜராத்தி", "kn": "கன்னட", "ml": "மலையாள", "zh": "சீன"},
+  "te": {"en": "ఆంగ్ల", "hi": "హిందీ", "bn": "బెంగాలీ", "ta": "తమిళ", "te": "తెలుగు", "mr": "మరాఠీ", "gu": "గుజరాతీ", "kn": "కన్నడ", "ml": "మలయాళ", "zh": "చైనీస్"},
+  "mr": {"en": "इंग्रजी", "hi": "हिंदी", "bn": "बंगाली", "ta": "तमिळ", "te": "तेलुगू", "mr": "मराठी", "gu": "गुजराती", "kn": "कन्नड", "ml": "मल्याळम", "zh": "चिनी"},
+  "gu": {"en": "અંગ્રેજી", "hi": "હિન્દી", "bn": "બંગાળી", "ta": "તમિલ", "te": "તેલુગુ", "mr": "મરાઠી", "gu": "ગુજરાતી", "kn": "કન્નડ", "ml": "મલયાલમ", "zh": "ચાઇનીઝ"},
+  "kn": {"en": "ಇಂಗ್ಲಿಷ್", "hi": "ಹಿಂದಿ", "bn": "ಬಂಗಾಳಿ", "ta": "ತಮಿಳು", "te": "ತೆಲುಗು", "mr": "ಮರಾಠಿ", "gu": "ಗುಜರಾತಿ", "kn": "ಕನ್ನಡ", "ml": "ಮಲಯಾಳಂ", "zh": "ಚೈನೀಸ್"},
+  "ml": {"en": "ഇംഗ്ലീഷ്", "hi": "ഹിന്ദി", "bn": "ബംഗാളി", "ta": "തമിഴ്", "te": "തെലുങ്ക്", "mr": "മറാഠി", "gu": "ഗുജറാത്തി", "kn": "കന്നഡ", "ml": "മലയാളം", "zh": "ചൈനീസ്"}
+ },
+ "word": {
+  "en": "Translate the {src} word \"{w}\" into {tgt}. Reply with only the {tgt} word.",
+  "hi": "\"{w}\" इस {src} शब्द का {tgt} भाषा में अनुवाद कीजिए। उत्तर में केवल {tgt} शब्द लिखिए।",
+  "hi_latn": "Is {src} shabd \"{w}\" ka {tgt} bhasha mein anuvaad kijiye. Jawab mein sirf {tgt} shabd likhiye.",
+  "bn": "\"{w}\" এই {src} শব্দটি {tgt} ভাষায় অনুবাদ করুন। উত্তরে শুধু {tgt} শব্দটি লিখুন।",
+  "ta": "\"{w}\" என்ற {src} சொல்லை {tgt} மொழியில் மொழிபெயர்க்கவும். பதிலில் {tgt} சொல்லை மட்டும் எழுதவும்.",
+  "te": "\"{w}\" అనే {src} పదాన్ని {tgt} భాషలోకి అనువదించండి. సమాధానంగా {tgt} పదాన్ని మాత్రమే రాయండి.",
+  "mr": "\"{w}\" या {src} शब्दाचे {tgt} भाषेत भाषांतर करा. उत्तरात फक्त {tgt} शब्द लिहा.",
+  "gu": "\"{w}\" આ {src} શબ્દનો {tgt} ભાષામાં અનુવાદ કરો. જવાબમાં ફક્ત {tgt} શબ્દ લખો.",
+  "kn": "\"{w}\" ಎಂಬ {src} ಪದವನ್ನು {tgt} ಭಾಷೆಗೆ ಅನುವಾದಿಸಿ. ಉತ್ತರವಾಗಿ {tgt} ಪದವನ್ನು ಮಾತ್ರ ಬರೆಯಿರಿ.",
+  "ml": "\"{w}\" എന്ന {src} വാക്ക് {tgt} ഭാഷയിലേക്ക് വിവർത്തനം ചെയ്യുക. ഉത്തരമായി {tgt} വാക്ക് മാത്രം എഴുതുക."
+ },
+ "sentence": {
+  "en": "Translate this sentence into {tgt}:\n{s}",
+  "hi": "इस वाक्य का {tgt} भाषा में अनुवाद कीजिए:\n{s}",
+  "bn": "এই বাক্যটি {tgt} ভাষায় অনুবাদ করুন:\n{s}",
+  "ta": "இந்த வாக்கியத்தை {tgt} மொழியில் மொழிபெயர்க்கவும்:\n{s}",
+  "te": "ఈ వాక్యాన్ని {tgt} భాషలోకి అనువదించండి:\n{s}"
+ }
+}

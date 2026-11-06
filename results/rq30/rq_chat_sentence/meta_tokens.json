@@ -1,0 +1,211 @@
+{
+ "n_items": 366,
+ "band": [
+  13,
+  14,
+  15,
+  16
+ ],
+ "top": [
+  {
+   "token": " aeroplane",
+   "id": 124186,
+   "prevalence": 0.189
+  },
+  {
+   "token": " ہیں۔",
+   "id": 21476,
+   "prevalence": 0.123
+  },
+  {
+   "token": " ہے۔",
+   "id": 12775,
+   "prevalence": 0.107
+  },
+  {
+   "token": ".¹",
+   "id": 70400,
+   "prevalence": 0.074
+  },
+  {
+   "token": " rainwater",
+   "id": 127979,
+   "prevalence": 0.063
+  },
+  {
+   "token": " ہیں",
+   "id": 8648,
+   "prevalence": 0.06
+  },
+  {
+   "token": " beautiful",
+   "id": 4148,
+   "prevalence": 0.06
+  },
+  {
+   "token": " farm",
+   "id": 5764,
+   "prevalence": 0.055
+  },
+  {
+   "token": " cows",
+   "id": 28314,
+   "prevalence": 0.055
+  },
+  {
+   "token": " farms",
+   "id": 27818,
+   "prevalence": 0.055
+  },
+  {
+   "token": " dairy",
+   "id": 26283,
+   "prevalence": 0.055
+  },
+  {
+   "token": " milking",
+   "id": 129013,
+   "prevalence": 0.055
+  },
+  {
+   "token": " girly",
+   "id": 198288,
+   "prevalence": 0.055
+  },
+  {
+   "token": " lazer",
+   "id": 169396,
+   "prevalence": 0.055
+  },
+  {
+   "token": " firetruck",
+   "id": 117173,
+   "prevalence": 0.055
+  },
+  {
+   "token": " cattle",
+   "id": 22052,
+   "prevalence": 0.052
+  },
+  {
+   "token": " heifers",
+   "id": 180028,
+   "prevalence": 0.052
+  },
+  {
+   "token": " rinse",
+   "id": 71347,
+   "prevalence": 0.052
+  },
+  {
+   "token": " washing",
+   "id": 20361,
+   "prevalence": 0.049
+  },
+  {
+   "token": "lair",
+   "id": 149440,
+   "prevalence": 0.049
+  },
+  {
+   "token": " skies",
+   "id": 55748,
+   "prevalence": 0.049
+  },
+  {
+   "token": "selves",
+   "id": 4378,
+   "prevalence": 0.046
+  },
+  {
+   "token": " Dairy",
+   "id": 51220,
+   "prevalence": 0.046
+  },
+  {
+   "token": "Mees",
+   "id": 154340,
+   "prevalence": 0.046
+  },
+  {
+   "token": " clouds",
+   "id": 14958,
+   "prevalence": 0.046
+  },
+  {
+   "token": " heifer",
+   "id": 134472,
+   "prevalence": 0.044
+  },
+  {
+   "token": " adorned",
+   "id": 92095,
+   "prevalence": 0.044
+  },
+  {
+   "token": " watert",
+   "id": 171537,
+   "prevalence": 0.044
+  },
+  {
+   "token": "nights",
+   "id": 187873,
+   "prevalence": 0.044
+  },
+  {
+   "token": " cleaning",
+   "id": 12325,
+   "prevalence": 0.044
+  },
+  {
+   "token": " morning",
+   "id": 5597,
+   "prevalence": 0.041
+  },
+  {
+   "token": " drink",
+   "id": 6092,
+   "prevalence": 0.041
+  },
+  {
+   "token": " tamil",
+   "id": 115822,
+   "prevalence": 0.038
+  },
+  {
+   "token": " dogs",
+   "id": 12414,
+   "prevalence": 0.038
+  },
+  {
+   "token": " hands",
+   "id": 4916,
+   "prevalence": 0.038
+  },
+  {
+   "token": "skl",
+   "id": 54512,
+   "prevalence": 0.038
+  },
+  {
+   "token": " horses",
+   "id": 17768,
+   "prevalence": 0.038
+  },
+  {
+   "token": " ROYAL",
+   "id": 186236,
+   "prevalence": 0.038
+  },
+  {
+   "token": " milky",
+   "id": 127926,
+   "prevalence": 0.038
+  },
+  {
+   "token": " nights",
+   "id": 22998,
+   "prevalence": 0.038
+  }
+ ]
+}

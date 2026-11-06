@@ -1,0 +1,109 @@
+{
+ "model_kind": "sarvam30",
+ "lenses": [
+  "j_200p",
+  "logit"
+ ],
+ "layers": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18
+ ],
+ "final": 18,
+ "band": [
+  13,
+  14,
+  15,
+  16
+ ],
+ "early_band": [
+  5,
+  6,
+  7,
+  8
+ ],
+ "cols": [
+  "latin",
+  "devanagari",
+  "bengali",
+  "gurmukhi",
+  "gujarati",
+  "oriya",
+  "tamil",
+  "telugu",
+  "kannada",
+  "malayalam",
+  "meitei",
+  "olchiki",
+  "arabic",
+  "cyrillic",
+  "kana",
+  "han",
+  "otherscript",
+  "mixed",
+  "neutral",
+  "bytes",
+  "special"
+ ],
+ "aggs": [
+  "all",
+  "native",
+  "answer"
+ ],
+ "opts": {
+  "items": 80,
+  "batch": 32,
+  "max_tokens": 12288,
+  "human": true,
+  "domains": [
+   "mgsm",
+   "science",
+   "technical",
+   "everyday"
+  ],
+  "chunk": 1024,
+  "langs": null
+ },
+ "n_jobs": 8720,
+ "n_batches": 276,
+ "seconds": 228.2,
+ "column_sizes": {
+  "latin": 148467,
+  "devanagari": 13676,
+  "bengali": 9821,
+  "gurmukhi": 3828,
+  "gujarati": 3974,
+  "oriya": 3449,
+  "tamil": 3847,
+  "telugu": 4306,
+  "kannada": 4199,
+  "malayalam": 4018,
+  "meitei": 2355,
+  "olchiki": 1351,
+  "arabic": 8364,
+  "cyrillic": 13395,
+  "kana": 0,
+  "han": 18907,
+  "otherscript": 3167,
+  "mixed": 42,
+  "neutral": 8302,
+  "bytes": 262,
+  "special": 6414
+ }
+}

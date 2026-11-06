@@ -1,0 +1,340 @@
+pair,concept,target_word,n_shared_tokens,model_top_token,model_top5,model_answer,answer_match,kept,reason
+te-ks,bird,جاناوار,0,پر,پر | چ | ت | చ | చు,پر,unlisted,False,model's next token does not begin the target word
+te-ks,book,کِتاب,0,పు,పు | కి | কিত | బ | గ్ర,పుస్తక్,unlisted,False,model's next token does not begin the target word
+te-ks,cat,برٛور,0,ప,ప | కు | మ | బ | పు,పిల్లి,same_concept:te,False,model's next token does not begin the target word
+te-ks,cow,گاو,0,గ,గ | గో | మ | గా | చ,గావు,unlisted,False,model's next token does not begin the target word
+te-ks,dog,ہوٗن,0,కు,కు | క | కాని | కూ | జా,కుక్క,same_concept:te,False,model's next token does not begin the target word
+te-ks,eye,أچھ,0,ఆ,ఆ | బ | క | వ | చు,వూన్,unlisted,False,model's next token does not begin the target word
+te-ks,fire,اۆگُن,0,అ,అ | ఖ | గా | త | ద,అగ్గి,unlisted,False,model's next token does not begin the target word
+te-ks,fish,گاڈٕ,0,చే,చే | మ | పా | నీ | ప,చేప,same_concept:te,False,model's next token does not begin the target word
+te-ks,flower,گُل,0,फूल,फूल | ಹೂ | گل | పూ | గు,फूल,same_concept:hi|kok|mr|ne,False,model's next token does not begin the target word
+te-ks,gold,سۄن,0,బ,బ | సో | సు | స | గో,బొంగారం,unlisted,False,model's next token does not begin the target word
+te-ks,hand,اَتھٕ,0,చే,చే | హ | త | కర | కా,చేయి,same_concept:te,False,model's next token does not begin the target word
+te-ks,heart,وٲلِنٛج,0,హ,హ | గు | ద | క | జి,గుండె,same_concept:te,False,model's next token does not begin the target word
+te-ks,horse,گُر,0,గు,గు | ఘ | అ | గ | చ,గుర్రం,same_concept:te,False,model's next token does not begin the target word
+te-ks,house,گَرٕ,0,గ,గ | ఘ | ఖ | హ | ద,గృహ,unlisted,False,model's next token does not begin the target word
+te-ks,king,رازٕ,0,రాజు,రాజు | రా | సు | మ | ర,రాజు,same_concept:te,False,model's next token does not begin the target word
+te-ks,milk,دۄد,0,పాలు,పాలు | పాల | మ | చ | పా,పాలు,same_concept:te,False,model's next token does not begin the target word
+te-ks,moon,زوٗن,0,చ,చ | లూ | ల | চাঁ | అ,చంద్రు,unlisted,False,model's next token does not begin the target word
+te-ks,mother,موج,0,మ,మ | మా | అ | బ | బా,మాతృ,unlisted,False,model's next token does not begin the target word
+te-ks,mountain,کۆہ,0,కొ,కొ | పర్ | మ | గు | కు,కొండ,same_concept:te,False,model's next token does not begin the target word
+te-ks,name,ناو,0,ناو,ناو | న | నే | నూ | లే,,,True,
+te-ks,night,راتھ,0,ర,ర | షా | సాయ | ష | లే,రాత్రి,same_concept:te,False,model's next token does not begin the target word
+te-ks,rain,روٗد,0,వర్,వర్ | బ | మ | ము | తు,వర్ష,unlisted,False,model's next token does not begin the target word
+te-ks,river,دٔرؠ‌یاو,0,న,న | در | నీ | అ | దు,నది,same_concept:te,False,model's next token does not begin the target word
+te-ks,road,وَتھ,0,రో,రో | ర | దారి | రా | మా,రోడ్,unlisted,False,model's next token does not begin the target word
+te-ks,salt,نوٗن,0,స,స | లో | ఉ | న | లూ,సాల్,unlisted,False,model's next token does not begin the target word
+te-ks,sky,نَب,0,ఆ,ఆ | آ | బ | ت | స్క,ఆకాశ,unlisted,False,model's next token does not begin the target word
+te-ks,star,تارُکھ,0,న,న | త | చు | జ | చ,నక్షత్రం,same_concept:te,False,model's next token does not begin the target word
+te-ks,sun,آکھتاب,0,స,స | సన్ | సూ | సో | सूर,సూర్,unlisted,False,model's next token does not begin the target word
+te-ks,tooth,دَنٛد,0,చ,చ | టా | చు | క | రూ,కట్,unlisted,False,model's next token does not begin the target word
+te-ks,tree,کُل,0,వ,వ | ద | చ | దు | త,వృక్ష,unlisted,False,model's next token does not begin the target word
+te-ks,village,گام,0,గ్ర,గ్ర | గ | ము | మో | వి,గ్రామ్,unlisted,False,model's next token does not begin the target word
+te-ks,water,آب,0,నీ,నీ | ఆ | అ | న | పా,నీర్,unlisted,False,model's next token does not begin the target word
+bn-sat,bird,ᱪᱮᱺᱬᱮᱹ,0,পা,পা | ᱪ | পক্ষ | പക്ഷ | ᱰ,পাখি,same_concept:bn,False,model's next token does not begin the target word
+bn-sat,book,ᱯᱚᱛᱚᱵ,0,ᱵ,ᱵ | ᱯ | ᱠ | ᱜ | ᱠᱟ,ᱵᱚᱭ,unlisted,False,model's next token does not begin the target word
+bn-sat,cat,ᱯᱩᱥᱤ,0,ᱵ,ᱵ | ᱥ | ᱪ | ᱡ | ᱜ,ᱵᱤᱞ,unlisted,False,model's next token does not begin the target word
+bn-sat,cow,ᱜᱟᱤ,0,ᱜ,ᱜ | গো | গর | ᱜᱟ | ଗା,ᱜᱟᱹᱭ,unlisted,False,model's next token does not begin the target word
+bn-sat,dog,ᱥᱮᱛᱟ,0,ᱥ,ᱥ | ᱠᱩ | ᱠ | ᱜ | ᱰ,,,True,
+bn-sat,eye,ᱢᱮᱫ,0,ᱢ,ᱢ | ᱧ | ᱮᱫ | ᱪ | ᱞ,,,True,
+bn-sat,fire,ᱥᱮᱺᱜᱮᱹᱞ,0,ꯃꯩ,ꯃꯩ | ନିଆ | ᱥ | ᱞ | ᱟᱜ,ꯃꯩ,same_concept:mni,False,model's next token does not begin the target word
+bn-sat,fish,ᱦᱟᱹᱠᱩ,0,ᱦ,ᱦ | ꯉꯥ | ಮೀ | মা | ᱢ,,,True,
+bn-sat,flower,ᱵᱟᱦᱟ,0,ᱜ,ᱜ | ᱵ | ᱫᱟ | ᱥ | ᱡ,ᱜᱩᱞᱟᱹᱯ,unlisted,False,model's next token does not begin the target word
+bn-sat,gold,ᱥᱚᱱᱟ,0,ᱥ,ᱥ | ᱥᱚᱱ | ᱜ | ᱥᱚ | সো,ᱥᱚᱱᱟ,target,False,model's next token does not begin the target word
+bn-sat,hand,ᱛᱤ,0,ᱦ,ᱦ | ᱦᱚ | கை | हात | ᱟᱪ,ᱦᱟᱛ,unlisted,False,model's next token does not begin the target word
+bn-sat,heart,ᱵᱳᱨᱳ,0,ᱦᱟᱨ,ᱦᱟᱨ | ᱢᱚᱱ | হা | হ | ᱫ,ᱦᱟᱨᱴ,unlisted,False,model's next token does not begin the target word
+bn-sat,horse,ᱥᱚᱫᱳᱢ,0,ঘ,ঘ | ᱜᱷ | ᱜ | ᱥ | ᱦ,ঘোড়া,same_concept:bn,False,model's next token does not begin the target word
+bn-sat,house,ᱚᱲᱟᱜ,0,ঘর,ঘর | ᱚᱲ | বাড়ি | ଘର | গৃহ,ঘর,same_concept:bn,False,model's next token does not begin the target word
+bn-sat,king,ᱨᱟᱡᱽ,0,ᱨᱟᱡ,ᱨᱟᱡ | ᱨ | ರಾಜ | ᱨᱟ | રા,,,True,
+bn-sat,milk,ᱛᱳᱚ,0,ᱫ,ᱫ | ᱛ | ᱜ | دود | ᱜᱟ,ᱫুধ,unlisted,False,model's next token does not begin the target word
+bn-sat,moon,ᱪᱟᱸᱫᱚ,0,ᱪ,ᱪ | চাঁ |  ᱪᱟᱸᱫᱚ | চন্দ্রের | চন্দ্র,,,True,
+bn-sat,mother,ᱮᱝᱜᱚ,0,ᱢᱟ,ᱢᱟ | ᱟᱢ | ᱢ | ᱮᱸ | ᱟᱭ,ᱢᱟ,unlisted,False,model's next token does not begin the target word
+bn-sat,mountain,ᱵᱩᱨᱩ,0,ᱵ,ᱵ |  ᱵᱩᱨᱩ | ᱯ | மலை | ᱦ,,,True,
+bn-sat,name,ᱧᱩᱛᱩᱢ,0,ᱧ,ᱧ | নাম | ᱢ | ᱮᱱ | ନା,,,True,
+bn-sat,night,ᱧᱤᱫᱟᱹ,0,ᱧ,ᱧ | ᱥ | ᱦ | રાત |  ᱧ,,,True,
+bn-sat,rain,ᱡᱟᱹᱲᱤ,0,বৃষ্টি,বৃষ্টি | ᱡ | ᱫ | ବର୍ଷ | বর্ষ,বৃষ্টি,same_concept:bn,False,model's next token does not begin the target word
+bn-sat,river,ᱜᱟᱰᱟ,0,ᱜᱟ,ᱜᱟ | ᱱ | ᱱᱤ | ᱧ | ᱫ,,,True,
+bn-sat,road,ᱰᱟᱦᱟᱨ,0,ᱰ,ᱰ | ᱥ | ᱨ | ᱢ | ᱜ,,,True,
+bn-sat,salt,ᱵᱩᱞᱩᱝ,0,ᱞ,ᱞ | ᱥ | ᱞᱩ | ᱪ | ᱢ,ᱞᱚᱵᱚᱱ,unlisted,False,model's next token does not begin the target word
+bn-sat,sky,ᱥᱮᱨᱢᱟ,0,ᱟᱠᱟ,ᱟᱠᱟ |  ᱟᱠᱟ | আ | ᱥ | ᱟᱠ,ᱟᱠᱟᱥ,unlisted,False,model's next token does not begin the target word
+bn-sat,star,ᱤᱯᱤᱞ,0,ᱛ,ᱛ | ᱥ | ᱛᱷ | ᱥᱴ | ᱰ,ᱛᱟᱨᱟ,unlisted,False,model's next token does not begin the target word
+bn-sat,sun,ᱥᱤᱸᱜᱤ,0,সূ,সূ | ᱥ | ᱨ | Sur |  Sury,সূর্য,same_concept:bn,False,model's next token does not begin the target word
+bn-sat,tooth,ᱰᱟᱴᱟ,0,দ,দ | দন্ত | ଦାନ | ଦନ୍ତ | ᱛ,দাঁᱛ,unlisted,False,model's next token does not begin the target word
+bn-sat,tree,ᱫᱟᱨᱮ,0,ᱫᱟ,ᱫᱟ | ᱵ | ᱰ | ᱜ | ᱥ,,,True,
+bn-sat,village,ᱚᱛᱳ,0,ᱜ,ᱜ | গ্রাম | ᱜᱟ | ଗ୍ରାମ | ગ્રામ,ᱜᱨᱟᱢ,unlisted,False,model's next token does not begin the target word
+bn-sat,water,ᱫᱟᱜ,0,ᱫ,ᱫ | ᱥ | পানি | ᱡ | ᱧ,,,True,
+mni-sat,bird,ᱪᱮᱺᱬᱮᱹ,0,ꯍ,ꯏ | ꯍ | ꯁꯥ | ꯁ | ꯀ,ꯁꯥꯅ,unlisted,False,model's next token does not begin the target word
+mni-sat,book,ᱯᱚᱛᱚᱵ,0,ꯂꯥꯏ,ꯂꯥꯏ | ꯁꯥ | ꯄ | ꯈ | ꯀ,ꯂꯥꯏꯔꯤꯛ,same_concept:mni,False,model's next token does not begin the target word
+mni-sat,cat,ᱯᱩᱥᱤ,0,ꯍꯧ,ꯍꯧ | ꯁꯥ | ꯁ | ꯍ | ꯆ,ꯍꯧꯗꯣꯡ,same_concept:mni,False,model's next token does not begin the target word
+mni-sat,cow,ᱜᱟᱤ,0,ꯁꯟ,ꯁꯟ | ꯁꯥ | ꯁ | ꯃ | ꯁꯤ,ꯁꯟ,same_concept:mni,False,model's next token does not begin the target word
+mni-sat,dog,ᱥᱮᱛᱟ,0,ꯁ,ꯁ | ꯁꯥ | ꯀꯨ | ꯀ | ꯅ,ꯁꯥꯅ,unlisted,False,model's next token does not begin the target word
+mni-sat,eye,ᱢᱮᱫ,0,ꯃꯤ,ꯃꯤ | ꯃ | ꯃꯤꯠ | ꯉ | ꯆ,ꯃꯤꯇꯧ,unlisted,False,model's next token does not begin the target word
+mni-sat,fire,ᱥᱮᱺᱜᱮᱹᱞ,0,ꯃꯩ,ꯃꯩ | ꯊ | ꯑ | ꯃ | ꯏ,ꯃꯩ,same_concept:mni,False,model's next token does not begin the target word
+mni-sat,fish,ᱦᱟᱹᱠᱩ,0,ꯉꯥ,ꯉꯥ | ꯏꯁꯤꯡ | ꯁ | ꯏ | ꯁꯥ,ꯉꯥ,same_concept:mni,False,model's next token does not begin the target word
+mni-sat,flower,ᱵᱟᱦᱟ,0,ꯂꯩ,ꯂꯩ | ꯃ | ꯋꯥ | ꯃꯩ | ꯐ,ꯂꯩ,unlisted,False,model's next token does not begin the target word
+mni-sat,gold,ᱥᱚᱱᱟ,0,ꯁ,ꯁ | ꯃ | ꯑ | ꯏ | ꯊ,ꯁꯅꯥ,same_concept:mni,False,model's next token does not begin the target word
+mni-sat,hand,ᱛᱤ,0,ꯈ,ꯈ | ꯍ | ꯍꯥ | ꯊ | ꯄ,ꯈꯨꯠ,same_concept:mni,False,model's next token does not begin the target word
+mni-sat,heart,ᱵᱳᱨᱳ,0,ꯊ,ꯊ | ꯍ | ꯍꯔ | ꯀꯣ | ꯂ,ꯊꯃꯣꯏ,same_concept:mni,False,model's next token does not begin the target word
+mni-sat,horse,ᱥᱚᱫᱳᱢ,0,ꯁ,ꯁ | ꯑ | ꯍ | ꯀꯥ | ꯁꯥ,ꯁꯒꯣꯜ,same_concept:mni,False,model's next token does not begin the target word
+mni-sat,house,ᱚᱲᱟᱜ,0,ꯌ,ꯌ | ꯊ | ꯏ | ꯍ | ꯈ,ꯌꯨꯝ,same_concept:mni,False,model's next token does not begin the target word
+mni-sat,king,ᱨᱟᱡᱽ,0,ꯅꯤꯡ,ꯅꯤꯡ | ꯃ | ꯔꯥ | ꯂ | ꯃꯤ,ꯅꯤꯡꯊꯧ,same_concept:mni,False,model's next token does not begin the target word
+mni-sat,milk,ᱛᱳᱚ,0,ꯈ,ꯈ | ꯀꯥꯡ | ꯄꯨ | ꯊ | ꯃ,ꯈꯣꯝ,same_concept:mni,False,model's next token does not begin the target word
+mni-sat,moon,ᱪᱟᱸᱫᱚ,0,ꯊꯥ,ꯊꯥ | ꯊꯥꯒꯤ | ꯊ | ꯏ | ꯆ,ꯊꯥ,same_concept:mni,False,model's next token does not begin the target word
+mni-sat,mother,ᱮᱝᱜᱚ,0,ꯃ,ꯃ | ꯏ | ꯃꯥ | ꯑ | ꯑꯥꯏ,ꯃꯃꯥ,same_concept:mni,False,model's next token does not begin the target word
+mni-sat,mountain,ᱵᱩᱨᱩ,0,ꯆꯤꯡ,ꯆꯤꯡ | ꯂꯩ | ꯆ | ꯁ | ꯄꯔ,ꯆꯤꯡ,same_concept:mni,False,model's next token does not begin the target word
+mni-sat,name,ᱧᱩᱛᱩᱢ,0,ꯃꯃꯤ,ꯃꯃꯤ | ꯃꯤ | ꯃ | ꯁ | ꯅꯥ,ꯃꯤꯡ,same_concept:mni,False,model's next token does not begin the target word
+mni-sat,night,ᱧᱤᱫᱟᱹ,0,ꯅꯨ,ꯅꯨ | ꯑꯍ | ꯑ | ꯍ | ꯃ,ꯅꯨꯃꯤꯠ,unlisted,False,model's next token does not begin the target word
+mni-sat,rain,ᱡᱟᱹᱲᱤ,0,ꯅꯣꯡ,ꯅꯣꯡ | ꯏꯁꯤꯡ | ꯃ | ꯀꯥ | ꯏ,ꯅꯣꯡ,unlisted,False,model's next token does not begin the target word
+mni-sat,river,ᱜᱟᱰᱟ,0,ꯏꯁꯤꯡ,ꯏꯁꯤꯡ | ꯏ | ꯇꯨꯔ | ꯅꯥ | ꯅ,ꯏꯄꯨ,unlisted,False,model's next token does not begin the target word
+mni-sat,road,ᱰᱟᱦᱟᱨ,0,ꯂ,ꯂ | ꯁ | ꯂꯝ | ꯁꯥ | ꯂꯥ,ꯂꯝꯕꯤ,same_concept:mni,False,model's next token does not begin the target word
+mni-sat,salt,ᱵᱩᱞᱩᱝ,0,ꯂꯨ,ꯂꯨ | ꯂ | ꯊ | ꯁ | ꯏ,ꯂꯨꯟ,unlisted,False,model's next token does not begin the target word
+mni-sat,sky,ᱥᱮᱨᱢᱟ,0,ꯑ,ꯑ | ꯁ | ꯅꯨꯡ | ꯏ | ꯅꯣꯡ,ꯑꯦꯠꯃꯣꯁ꯭ꯐꯤꯌꯔ,unlisted,False,model's next token does not begin the target word
+mni-sat,star,ᱤᱯᱤᱞ,0,ꯃꯩ,ꯃꯩ | ꯃ | ꯑ | ꯁ | ꯊ,ꯃꯩ,unlisted,False,model's next token does not begin the target word
+mni-sat,sun,ᱥᱤᱸᱜᱤ,0,ꯅꯨ,ꯅꯨ | ꯗ | ꯁ | ꯁꯟ | ꯗꯦ,ꯅꯨꯃꯤꯠ,same_concept:mni,False,model's next token does not begin the target word
+mni-sat,tooth,ᱰᱟᱴᱟ,0,ꯏꯁꯤꯡ,ꯏꯁꯤꯡ | ꯌ | ꯅ | ꯃ | ꯆ,ꯆꯩ,unlisted,False,model's next token does not begin the target word
+mni-sat,tree,ᱫᱟᱨᱮ,0,ꯎ,ꯎ | ꯍ | ꯃ | ꯚ | ꯗ,ꯎ,same_concept:mni,False,model's next token does not begin the target word
+mni-sat,village,ᱚᱛᱳ,0,ꯀ,ꯀ | ꯁ | ꯈ | ꯀꯨ | ꯆ,ꯀꯣꯏ,unlisted,False,model's next token does not begin the target word
+mni-sat,water,ᱫᱟᱜ,0,ꯏꯁꯤꯡ,ꯏꯁꯤꯡ | ꯏ | ꯁ | ꯄꯥ | ꯊ,ꯏꯁꯤꯡ,same_concept:mni,False,model's next token does not begin the target word
+te-mni,bird,ꯎꯆꯦꯛ,0,ప,ప | పక్ష |  पक्ष | ਪੰ | చి,పక్షి,same_concept:te,False,model's next token does not begin the target word
+te-mni,book,ꯂꯥꯏꯔꯤꯛ,0,ꯂꯥꯏ,ꯂꯥꯏ | પુ | ꯄ | పు | ꯀꯤ,,,True,
+te-mni,cat,ꯍꯧꯗꯣꯡ,0,ꯆ,ꯕꯤ | ꯆ | ꯄꯨ | ꯀꯨ | ꯁꯥ,ꯆꯦꯠꯇꯤ,unlisted,False,model's next token does not begin the target word
+te-mni,cow,ꯁꯟ,0,ఆ,ఆ | গর | ఎ | பசு |  ꯁꯟ,ఆవు,same_concept:te,False,model's next token does not begin the target word
+te-mni,dog,ꯍꯨꯏ,0,ꯍꯧ,ꯍꯧ | ꯁꯨ | ꯍꯥ | ꯍꯨ | ꯀꯨ,ꯍꯧను,unlisted,False,model's next token does not begin the target word
+te-mni,eye,ꯃꯤꯠ,0,క,క | మ | ꯃꯤꯠ | ꯃꯤ | ము,కన్ను,same_concept:te,False,model's next token does not begin the target word
+te-mni,fire,ꯃꯩ,0,ꯃꯩ,ꯃꯩ | ꯊ | ꯉꯥ | ꯏꯁꯤꯡ | ꯏ,,,True,
+te-mni,fish,ꯉꯥ,0,ꯉꯥ,ꯉꯥ | చే | ಮೀ | ꯏꯁꯤꯡ | ꯃꯩ,,,True,
+te-mni,flower,ꯂꯩꯔꯥꯡ,0,ꯂꯩ,ꯂꯩ | ಹೂ | ꯐꯨ | ꯂꯥꯏ | ꯂ,,,True,
+te-mni,gold,ꯁꯅꯥ,0,ꯃꯩ,ꯃꯩ | ꯂꯨ | ꯁꯨ | ꯂ | ꯊ,ꯃꯩనం,unlisted,False,model's next token does not begin the target word
+te-mni,hand,ꯈꯨꯠ,0,చే,చే | భు | हात | ꯈ | हा,చేయి,same_concept:te,False,model's next token does not begin the target word
+te-mni,heart,ꯊꯃꯣꯏ,0,ꯊ,ꯃꯩ | ꯊ | హ | ꯍꯣꯏ | ꯍꯥ,,,True,
+te-mni,horse,ꯁꯒꯣꯜ,0,గు,గు | ঘ | ꯑ | ଘ | ઘ,గుర్రం,same_concept:te,False,model's next token does not begin the target word
+te-mni,house,ꯌꯨꯝ,0,ఇ,ఇ | గ | ଘର | ꯌ | ᱚᱲ,ఇల్లు,same_concept:te,False,model's next token does not begin the target word
+te-mni,king,ꯅꯤꯡꯊꯧ,0,ꯅꯤꯡ,ꯅꯤꯡ | రాజు | ꯔꯥ | ꯃꯍ | ꯂ,,,True,
+te-mni,milk,ꯈꯣꯝ,0,పాలు,పాలు | పాల | دود | பால் | ꯁꯪ,పాలు,same_concept:te,False,model's next token does not begin the target word
+te-mni,moon,ꯊꯥ,0,చ,చ | ꯊꯥꯒꯤ | ꯃꯩ | চন্দ্র | ꯆ,చంద్రుడు,same_concept:te,False,model's next token does not begin the target word
+te-mni,mother,ꯃꯃꯥ,0,ఐ,ఐ | అ | ఆ | మ | మా,ఐ,unlisted,False,model's next token does not begin the target word
+te-mni,mountain,ꯆꯤꯡ,0,కొ,కొ | ꯆꯤꯡ | மலை | పర్ | ꯂꯩ,కొండ,same_concept:te,False,model's next token does not begin the target word
+te-mni,name,ꯃꯤꯡ,0,ꯃꯃꯤ,ꯃꯃꯤ | ꯃꯤ | ꯃ | ꯋꯥ | নাম,ꯃꯃꯤꯡ,unlisted,False,model's next token does not begin the target word
+te-mni,night,ꯑꯍꯤꯡ,0,ని,ꯅꯨ | ని | ꯑꯍ | ర | సం,నిషత్తు,unlisted,False,model's next token does not begin the target word
+te-mni,rain,ꯅꯣꯡꯖꯨ,0,ꯏꯁꯤꯡ,ꯏꯁꯤꯡ | ꯅꯣꯡ | ꯏ | ꯃꯩ | ꯃ,ꯅꯣꯡ,unlisted,False,model's next token does not begin the target word
+te-mni,river,ꯇꯨꯔꯦꯜ,0,ꯇꯨꯔ,ꯇꯨꯔ | న | ꯏꯁꯤꯡ | ꯉꯥ | ꯅꯥ,,,True,
+te-mni,road,ꯂꯝꯕꯤ,0,దారి,దారి | స | రో | ర | వీ,దారి,unlisted,False,model's next token does not begin the target word
+te-mni,salt,ꯊꯨꯝ,0,ꯊ,ꯊ | ఉ | ꯂꯨ | స | ꯂ,,,True,
+te-mni,sky,ꯅꯣꯡꯊꯛ,0,ఆ,ఆ | ꯃꯥꯂꯦ | ꯅꯨ | ꯑ | ꯃꯩ,ఆకాశ,unlisted,False,model's next token does not begin the target word
+te-mni,star,ꯊꯧꯋꯥꯟꯃꯤꯆꯥꯛ,0,న,న | ꯅꯨ | త | స్ట | ꯊ,నక్షత్రం,same_concept:te,False,model's next token does not begin the target word
+te-mni,sun,ꯅꯨꯃꯤꯠ,0,స,స | ꯅꯨ | ఆ | సన్ | সূ,సూర్య,unlisted,False,model's next token does not begin the target word
+te-mni,tooth,ꯌꯥ,0,ꯃꯩ,ꯃꯩ | ꯂꯩ | ꯇ | ꯆꯥ | ꯈ,ꯃꯩ,other_concept:fire,False,model's next token does not begin the target word
+te-mni,tree,ꯎ,0,ꯄꯥꯝꯕꯤ,ꯄꯥꯝꯕꯤ | ꯎ | ꯋꯥ | ବୃ | ꯃꯩ,ꯄꯥꯝꯕꯤ,unlisted,False,model's next token does not begin the target word
+te-mni,village,ꯈꯨꯟ,0,గ్ర,గ్ర | ꯒ꯭ꯔꯥ | ꯈ | गा | ଗ୍ରାମ,ꯈꯨꯡꯒꯪ,unlisted,False,model's next token does not begin the target word
+te-mni,water,ꯏꯁꯤꯡ,0,ꯏꯁꯤꯡ,ꯏꯁꯤꯡ | నీ | ꯏ | ఇ | ꯄꯥ,,,True,
+sat-mni,bird,ꯎꯆꯦꯛ,0,ꯆ,ꯉ | ꯆ | ꯁ | ꯃꯤ | ꯍ,ꯆꯩᱬᱮᱭ,unlisted,False,model's next token does not begin the target word
+sat-mni,book,ꯂꯥꯏꯔꯤꯛ,0,ꯂꯥꯏ,ꯂꯥꯏ | ꯄ | ꯂ | ꯃꯩ | ꯄꯨ,,,True,
+sat-mni,cat,ꯍꯧꯗꯣꯡ,0,ꯕꯤ,ꯕꯤ | ꯁꯥ | বিড় | ꯍꯨ | ꯄꯨ,ꯕꯤꯔ,unlisted,False,model's next token does not begin the target word
+sat-mni,cow,ꯁꯟ,0,ꯃꯩ,ꯃꯩ | ꯏꯁꯤꯡ | ꯉꯥ | ꯏ | ꯅꯥ,ꯃꯩ,other_concept:fire,False,model's next token does not begin the target word
+sat-mni,dog,ꯍꯨꯏ,0,ꯁꯥ,ꯁꯥ | ꯍꯨ | ꯀꯨ | ꯁ | ꯀꯥ,ꯁꯥ,unlisted,False,model's next token does not begin the target word
+sat-mni,eye,ꯃꯤꯠ,0,ꯃꯤꯠ,ꯃꯤꯠ | ꯃꯤ | ꯃ | ᱢ | ꯈ,,,True,
+sat-mni,fire,ꯃꯩ,0,ꯂ,ꯂ | ꯁ | ꯃꯩ | ꯁꯥ | ꯉ,ꯂꯨꯡ,unlisted,False,model's next token does not begin the target word
+sat-mni,fish,ꯉꯥ,0,ꯉꯥ,ꯉꯥ | ಮೀ | ᱦ | ᱫ | ᱢ,,,True,
+sat-mni,flower,ꯂꯩꯔꯥꯡ,0,ꯂꯩ,ꯂꯩ | ꯃꯩ | ꯐꯨ | ꯂ | ꯐ,,,True,
+sat-mni,gold,ꯁꯅꯥ,0,ꯂꯨ,ꯁ | ꯃ | ꯂꯨ | ꯁꯣ | ꯅꯨ,ꯂꯨ,unlisted,False,model's next token does not begin the target word
+sat-mni,hand,ꯈꯨꯠ,0,ꯈ,ꯈ | ꯈꯥ | ꯃꯩ | ꯍꯥ | ᱛᱤ,,,True,
+sat-mni,heart,ꯊꯃꯣꯏ,0,ꯏꯁꯤꯡ,ꯏꯁꯤꯡ | ꯅꯨ | ꯃ | ꯆꯍꯤ | ꯏ,ꯏꯁꯤꯡ,other_concept:water,False,model's next token does not begin the target word
+sat-mni,horse,ꯁꯒꯣꯜ,0,ᱥ,ᱥ | ꯁꯣ | ᱥᱚᱨ | ᱥᱚ | ᱥᱤ,ᱥᱳᱢ,unlisted,False,model's next token does not begin the target word
+sat-mni,house,ꯌꯨꯝ,0,ᱚᱲ,ᱚᱲ | ꯌ | ଘର | ਘਰ | ꯃꯩ,ᱚᱲᱟᱜ,same_concept:sat,False,model's next token does not begin the target word
+sat-mni,king,ꯅꯤꯡꯊꯧ,0,ᱨᱟᱡ,ᱨᱟᱡ | ᱨ | ꯅꯤꯡ | ꯔꯥꯖ | ꯔꯥ,ᱨᱟᱡ,unlisted,False,model's next token does not begin the target word
+sat-mni,milk,ꯈꯣꯝ,0,ꯃꯩ,ꯃꯩ | ꯏꯁꯤꯡ | ꯇꯣ | ꯉ | ꯇ,ꯏꯁꯤꯡ,other_concept:water,False,model's next token does not begin the target word
+sat-mni,moon,ꯊꯥ,0,ᱪ,ᱪ | ꯊꯥ | ꯊꯥꯒꯤ | ꯆꯥ | ꯅꯨ,ᱪᱟᱸᱫᱚ,same_concept:sat,False,model's next token does not begin the target word
+sat-mni,mother,ꯃꯃꯥ,0,ᱮᱸ,ᱮᱸ | ᱪ | ᱢ | ꯃꯩ | ᱛᱤ,ᱮᱸᱜᱟᱛ,unlisted,False,model's next token does not begin the target word
+sat-mni,mountain,ꯆꯤꯡ,0,ꯆꯤꯡ,ꯆꯤꯡ | ꯍꯤ | ꯎ | ꯁꯥ | ꯈ,,,True,
+sat-mni,name,ꯃꯤꯡ,0,ꯃꯤ,ꯃꯤ | ꯃꯃꯤ | ꯃ | ꯅꯥ | ꯂ,,,True,
+sat-mni,night,ꯑꯍꯤꯡ,0,ᱧ,ᱧ | ꯅꯨ | ᱨ | ᱱ | રાત,ꯅꯨꯃꯤꯠ,other_concept:sun,False,model's next token does not begin the target word
+sat-mni,rain,ꯅꯣꯡꯖꯨ,0,ꯃꯩ,ꯃꯩ | ᱡ | ꯅꯣꯡ | ꯏꯁꯤꯡ | ꯎ,ꯃꯩ,other_concept:fire,False,model's next token does not begin the target word
+sat-mni,river,ꯇꯨꯔꯦꯜ,0,ꯅꯥ,ꯅꯥ | ꯏꯁꯤꯡ | ꯇꯨꯔ | ꯉꯥ | ꯏ,ꯅꯥꯄꯤ,unlisted,False,model's next token does not begin the target word
+sat-mni,road,ꯂꯝꯕꯤ,0,ꯂ,ꯂ | ꯂꯝ | ꯈꯣꯡ | ꯊ | ꯁꯥ,,,True,
+sat-mni,salt,ꯊꯨꯝ,0,ꯂꯨ,ꯂꯨ | ꯊ | ꯂ | ꯆꯥ | ꯃꯩ,ꯂꯨꯟ,unlisted,False,model's next token does not begin the target word
+sat-mni,sky,ꯅꯣꯡꯊꯛ,0,ꯆꯍꯤ,ꯆꯍꯤ | ꯅꯨ | વર | ᱥ | year,ꯆꯍꯤ,unlisted,False,model's next token does not begin the target word
+sat-mni,star,ꯊꯧꯋꯥꯟꯃꯤꯆꯥꯛ,0,ꯅꯨ,ꯅꯨ | ꯃꯤ | ꯇ | ꯑ | ꯊ,ꯅꯨꯃꯤꯠ,other_concept:sun,False,model's next token does not begin the target word
+sat-mni,sun,ꯅꯨꯃꯤꯠ,0,ꯅꯨ,ꯅꯨ | ꯅꯣꯡ | ꯁ | ꯁꯟ | ꯊꯧ,,,True,
+sat-mni,tooth,ꯌꯥ,0,ꯁꯥ,ꯁꯥ | ଦନ୍ତ | ꯂ | ꯇꯨ | ꯍꯥ,ꯂꯃꯖꯤꯡ,unlisted,False,model's next token does not begin the target word
+sat-mni,tree,ꯎ,0,ᱫᱟ,ᱫᱟ | ꯄꯥꯝꯕꯤ | ꯎ | ꯃꯩ | ꯅꯥ,ᱫᱟᱨᱮ,same_concept:sat,False,model's next token does not begin the target word
+sat-mni,village,ꯈꯨꯟ,0,ꯂꯝ,ꯂꯝ | ꯂꯩ | மலை | ꯂꯩꯕꯥꯛ | ꯂ,ꯂꯝ,unlisted,False,model's next token does not begin the target word
+sat-mni,water,ꯏꯁꯤꯡ,0,ꯏꯁꯤꯡ,ꯏꯁꯤꯡ | ꯏ | ᱫ | ꯅꯣꯡ | ꯅꯥ,,,True,
+bn-brx,bird,दाव,0,পা,পা | পক্ষ | খ | প | বু,পাখি,same_concept:bn,False,model's next token does not begin the target word
+bn-brx,cat,मावजि,0,বি,কু | বি | ম | প | বু,বিড়াল,same_concept:bn,False,model's next token does not begin the target word
+bn-brx,fire,अर,0,অ,অ | अ | জ | आ | আগ,অগ্নি,unlisted,False,model's next token does not begin the target word
+bn-brx,fish,ना,0,না,না | দা | প | ম | মা,না,unlisted,False,model's next token does not begin the target word
+bn-brx,hand,आखाय,0,হাত,হাত | হ | হা | हा | প,হাত,same_concept:as|bn,False,model's next token does not begin the target word
+bn-brx,mother,बिमा,0,आइ,आइ | আম | ब | আই | आई,आइ,unlisted,False,model's next token does not begin the target word
+bn-brx,mountain,हाजो,0,प,प | पा | पर | हा | गा,पहाड,same_concept:ne,False,model's next token does not begin the target word
+bn-brx,name,मुं,0,নাম,নাম | नाम | मु | না | ना,নাম,same_concept:as|bn,False,model's next token does not begin the target word
+bn-brx,river,दैमा,0,ন,ন | না | স | দ | দা,নদী,same_concept:bn,False,model's next token does not begin the target word
+bn-brx,road,लामा,0,रा,रा | स | र | राह | ला,रास्ता,same_concept:hi,False,model's next token does not begin the target word
+bn-brx,salt,संख्रि,0,ল,ল | লো | ন | মর | শো,লবণ,same_concept:bn,False,model's next token does not begin the target word
+bn-brx,sky,अख्रां,0,দি,দি | আ | দ | খ | স,দিবা,unlisted,False,model's next token does not begin the target word
+bn-brx,water,दै,0,दै,दै | पा | पानी | ज | हा,,,True,
+ta-kok,bird,सुकणें,5,pak,pak | प | പക്ഷ | कों | पक्ष,pakori,unlisted,False,model's next token does not begin the target word
+ta-kok,cat,माजर,0,कु,कु | मा | क | पु | कि,कुड,unlisted,False,model's next token does not begin the target word
+ta-kok,dog,सूणे,0,कु,कु | क | सुक | कों | सु,कुत्रो,unlisted,False,model's next token does not begin the target word
+ta-kok,eye,दोळो,0,आ,आ | डो | अ | दो | ने,डोळे,unlisted,False,model's next token does not begin the target word
+ta-kok,fire,उजो,0,आ,अ | आ | उ | फ |  آگ,आग,same_concept:hi|mr,False,model's next token does not begin the target word
+ta-kok,fish,मासोळि,0,म,म | मी | मीन | मा | मि,मछी,unlisted,False,model's next token does not begin the target word
+ta-kok,gold,भांगर,0,सो,सो | सु | स्व |  Son | भा,सोने,same_concept:mr,False,model's next token does not begin the target word
+ta-kok,heart,हड्डें,1,ह,ह | काळ | म | काळी | दिल,,,True,
+ta-kok,moon,चन्द्र,0,चा,चा | चंद्र | चंद | च | चान,चांदणी,unlisted,False,model's next token does not begin the target word
+ta-kok,mother,आवय,0,आई,आई | आ | अ | आय | म,आई,same_concept:mr,False,model's next token does not begin the target word
+ta-kok,mountain,दोंगर,0,प,प | म | மலை | पा | मा,पर्वत,same_concept:hi|mr,False,model's next token does not begin the target word
+ta-kok,name,नाव,2,नाम,नाम | ना | आ | नाव | ಹೆ,नाम,same_concept:hi|ne,False,model's next token does not begin the target word
+ta-kok,river,न्हंय,0,न,न | न्ह | ન |  nadi | दर,नदी,same_concept:hi|mr|ne|sa,False,model's next token does not begin the target word
+ta-kok,road,रस्तो,0,र,र | रा | स | ग | पथ,,,True,
+ta-kok,sky,मळब,3,आ,आ | वा | अ | ह | ख,,,True,
+ta-kok,sun,सुर्यू,0,सूर,सूर | सूर्य | सूर् | ध | स,सूरज,same_concept:hi,False,model's next token does not begin the target word
+ta-kok,tree,झाड,0,वृ,वृ | द | गा | म |  ಮರ,वृक्ष,same_concept:hi|mr|sa,False,model's next token does not begin the target word
+ta-kok,water,उदक,0,उ,उ | पा | पान | पानी | ਪਾ,,,True,
+ml-sd,bird,پکي,0,پر,پر | چ | پ | پن | পক্ষ,پرندو,unlisted,False,model's next token does not begin the target word
+ml-sd,book,ڪتاب,0,ک,ک | ڪ | પુ | কিত | പു,کتاب,same_concept:ur,False,model's next token does not begin the target word
+ml-sd,cat,ٻلي,0,ٻ,ٻ | بل | گ | ب | بلی,,,True,
+ml-sd,cow,ڳئون,0,گ,گ | ଗୋ | ਗਾਂ | ଗା | গর,گاو,same_concept:ks,False,model's next token does not begin the target word
+ml-sd,dog,ڪتو,0,ٻ,ٻ | ڀ | ڏ | ڪ | ڳ,ٻاරා,unlisted,False,model's next token does not begin the target word
+ml-sd,eye,اک,0,آن,آن | ക | അ | চো | നേ,آنکھ,same_concept:ur,False,model's next token does not begin the target word
+ml-sd,fire,باھ,0,آ,آ | سن | ٽ | س | سا,آ,unlisted,False,model's next token does not begin the target word
+ml-sd,flower,گل,0,ফুল,ফুল | پ | گل | फूल | ಹೂ,ফুল,same_concept:as|bn,False,model's next token does not begin the target word
+ml-sd,gold,سون,0,സ്,സ് | സു | ಚಿ | سون | സോ,സുവർണം,unlisted,False,model's next token does not begin the target word
+ml-sd,hand,ھٿ,0,हा,हा | ᱛᱤ | हात | હા | ہ,हाथ,same_concept:hi,False,model's next token does not begin the target word
+ml-sd,heart,دل,0,دل,دل | قل | سن | ڏ | ج,,,True,
+ml-sd,horse,گهوڙو,0,കു,കു | گ | ঘ | ਘ |  گھ,കുതിര,same_concept:ml,False,model's next token does not begin the target word
+ml-sd,house,گھر,0,گ,گ | বাড়ি | ڳ | ᱚᱲ | ଘର,,,True,
+ml-sd,king,سلطان,0,راج,راج | باد | રા | ರಾಜ | রাজ,راجا,same_concept:ur,False,model's next token does not begin the target word
+ml-sd,milk,شير,0,பால்,பால் | دود | پ | పాలు | پا,பால்,same_concept:ta,False,model's next token does not begin the target word
+ml-sd,moon,چنڊ,0,چ,چ | চাঁ | चंद | चान | ଚ,,,True,
+ml-sd,mother,ماء,0,അമ്മ,അമ്മ | അ | ਮਾਂ | Am | മ്മ,അമ്മ,same_concept:ml,False,model's next token does not begin the target word
+ml-sd,mountain,جبل,0,மலை,மலை | پ | മല | পর্ব | پور,மலை,same_concept:ta,False,model's next token does not begin the target word
+ml-sd,name,نالو,0,ᱧ,ᱧ | ن | ناو | پ | ਨਾਂ,ᱧᱩᱛᱩᱢ,same_concept:sat,False,model's next token does not begin the target word
+ml-sd,night,رات,0,رات,رات | रात | રાત | ਰਾਤ | रात्रि,,,True,
+ml-sd,rain,برسات,0,بار,بار | વર | ବର୍ଷ |  vars | رو,بارش,same_concept:ur,False,model's next token does not begin the target word
+ml-sd,river,درياء,0,ن,ن | در | ന | न | ري,نदी,unlisted,False,model's next token does not begin the target word
+ml-sd,road,رستو,0,را,را | س | ꯂ | गली |  رست,راستہ,unlisted,False,model's next token does not begin the target word
+ml-sd,salt,لوڻ,0,نم,نم | নিম | ਲੂ | ଲୁ | મી,نمकीन,unlisted,False,model's next token does not begin the target word
+ml-sd,sky,آسمان,0,آ,آ | س | ڏ | اک |  آسم,,,True,
+ml-sd,star,تارو,0,ست,ست | ന | ن | ت | نج,ستارا,unlisted,False,model's next token does not begin the target word
+ml-sd,sun,سورج,0,آ,آ | س | سن | Sur | ڏ,آفتاب,unlisted,False,model's next token does not begin the target word
+ml-sd,tooth,ڏند,0,د,د | ଦନ୍ତ | ଦାନ | ٽ | દા,دੰਦ,unlisted,False,model's next token does not begin the target word
+ml-sd,tree,وڻ,0,در,در | വൃ | ବୃ | ᱫᱟ | વ,ᱫᱟᱨᱮ,same_concept:sat,False,model's next token does not begin the target word
+ml-sd,village,ڳوٺ,0,ڳ,ڳ | ڏ | ٻ | गा | গাঁও,,,True,
+ml-sd,water,پاڻي,0,پ,پ | پا | ਪਾ | પા | آ,پانی,same_concept:ur,False,model's next token does not begin the target word
+en-ks,bird,جاناوار,0,ت,ت | پ | چ | ک | ب,تھوٚل,unlisted,False,model's next token does not begin the target word
+en-ks,book,کِتاب,0,ک,ک | پ | ت | م | کھ,,,True,
+en-ks,cat,برٛور,0,ب,ب | بلی | پ | ا | بی,بِلّہ,unlisted,False,model's next token does not begin the target word
+en-ks,cow,گاو,0,گ,گ | ژ | ب | مو | د,,,True,
+en-ks,dog,ہوٗن,0,ت,ت | ک | ی | ژ | ہ,کُتُر,unlisted,False,model's next token does not begin the target word
+en-ks,eye,أچھ,0,ا,ا | ن | چھ | آن | کھ,اچھ,unlisted,False,model's next token does not begin the target word
+en-ks,fire,اۆگُن,0,آ,آ | ن | ژ | ا | ت,آتھ,unlisted,False,model's next token does not begin the target word
+en-ks,fish,گاڈٕ,0,م,م | ما | د | ت | ی,مۆنٛگ,unlisted,False,model's next token does not begin the target word
+en-ks,flower,گُل,0,پ,پ | گ | آ | ک | و,پھوٗل,unlisted,False,model's next token does not begin the target word
+en-ks,gold,سۄن,0,ت,ت | ز | س | ژ | ک,تٲنٛب,unlisted,False,model's next token does not begin the target word
+en-ks,hand,اَتھٕ,0,ہ,ہ | ک | اتھ | ت | ا,اتھ,unlisted,False,model's next token does not begin the target word
+en-ks,heart,وٲلِنٛج,0,د,د | دل | ہ | ت | پ,دِل,same_concept:ur,False,model's next token does not begin the target word
+en-ks,horse,گُر,0,گ,گ | س | ت | ر | کھ,,,True,
+en-ks,house,گَرٕ,0,گ,گ | ک | م | ت | کھ,,,True,
+en-ks,king,رازٕ,0,باد,باد | راج | شاہ | شہ | महारा,بادشاہ,unlisted,False,model's next token does not begin the target word
+en-ks,milk,دۄد,0,د,د | دود | آ | ت | ک,,,True,
+en-ks,moon,زوٗن,0,چ,چ | ہ | ر | ژ | پ,چنٛدر,unlisted,False,model's next token does not begin the target word
+en-ks,mother,موج,0,ما,ما | م | ت | ام | ای,ما,unlisted,False,model's next token does not begin the target word
+en-ks,mountain,کۆہ,0,پ,پ | ت | ک | ش | ر,پہاڑ,same_concept:ur,False,model's next token does not begin the target word
+en-ks,name,ناو,0,ناو,ناو | ن | ت | نام | نا,,,True,
+en-ks,night,راتھ,0,ر,ر | رات | ن | ش | ا,,,True,
+en-ks,rain,روٗد,0,بار,بار | رو | ب | ر | ا,بارش,same_concept:ur,False,model's next token does not begin the target word
+en-ks,river,دٔرؠ‌یاو,0,د,د | آ | در | ر | ت,,,True,
+en-ks,road,وَتھ,0,ر,ر | س | را | راہ | رو,رَستہٕ,unlisted,False,model's next token does not begin the target word
+en-ks,salt,نوٗن,0,لون,لون | سو | لو | سال | کھ,لون,unlisted,False,model's next token does not begin the target word
+en-ks,sky,نَب,0,آ,آ | ت | ہ | نی | کھ,آسمان,same_concept:sd|ur,False,model's next token does not begin the target word
+en-ks,star,تارُکھ,0,ت,ت | ست | ن | رو | سٹ,,,True,
+en-ks,sun,آکھتاب,0,رو,رو | آ | س | ت | سور,روٗد,other_concept:rain,False,model's next token does not begin the target word
+en-ks,tooth,دَنٛد,0,د,د | ت | پ | و | دا,,,True,
+en-ks,tree,کُل,0,وَ,وَ | ک | ت | و | د,وَتھ,other_concept:road,False,model's next token does not begin the target word
+en-ks,village,گام,0,گ,گ | پ | دی | ب | گرام,,,True,
+en-ks,water,آب,0,آ,آ | پ | ن | ت | کھ,,,True,
+en-sat,bird,ᱪᱮᱺᱬᱮᱹ,0,ᱰ,ᱰ | ᱪ | ᱥ | ᱛ | ᱠᱩ,ᱰᱟᱝᱜᱽᱨᱟ,unlisted,False,model's next token does not begin the target word
+en-sat,book,ᱯᱚᱛᱚᱵ,0,ᱯ,ᱯ | ᱠ | ᱛ | ᱵ | ᱠᱟ,,,True,
+en-sat,cat,ᱯᱩᱥᱤ,0,ᱵ,ᱵ | ᱡ | ᱥ | ᱜ | ᱯ,ᱵᱤᱞᱤ,unlisted,False,model's next token does not begin the target word
+en-sat,cow,ᱜᱟᱤ,0,ᱜ,ᱜ | ᱰ | ᱜᱟ | ᱵ | ᱥ,ᱜᱟᱹᱭ,unlisted,False,model's next token does not begin the target word
+en-sat,dog,ᱥᱮᱛᱟ,0,ᱥ,ᱥ | ᱠᱩ | ᱡ | ᱠ | ᱰ,,,True,
+en-sat,eye,ᱢᱮᱫ,0,ᱢ,ᱢ | ᱧ | ᱢᱩ | ᱴ | ᱛ,,,True,
+en-sat,fire,ᱥᱮᱺᱜᱮᱹᱞ,0,ᱥ,ᱥ | ᱞ | ᱡ | ନିଆ | ᱟᱜ,,,True,
+en-sat,fish,ᱦᱟᱹᱠᱩ,0,ಮೀ,ಮೀ | ᱦ | ꯉꯥ | ᱤᱛ | ᱢᱟ,ಮೀನು,same_concept:kn,False,model's next token does not begin the target word
+en-sat,flower,ᱵᱟᱦᱟ,0,ᱜ,ᱜ | ᱵ | ᱯᱷ | ᱯ | ᱠᱩ,ᱜᱩᱞᱟᱹᱯ,unlisted,False,model's next token does not begin the target word
+en-sat,gold,ᱥᱚᱱᱟ,0,ᱥᱚᱱ,ᱥᱚᱱ | ᱥ | ᱜ | سون | ᱪ,,,True,
+en-sat,hand,ᱛᱤ,0,ᱛᱤ,ᱛᱤ | ᱦ | ᱡ | ᱰ | हा,,,True,
+en-sat,heart,ᱵᱳᱨᱳ,0,ᱦᱟᱨ,ᱦᱟᱨ | ᱦ | ᱦᱮ | ᱡ | ᱠ,ᱦᱟᱨᱴ,unlisted,False,model's next token does not begin the target word
+en-sat,horse,ᱥᱚᱫᱳᱢ,0,ᱜᱷ,ᱜᱷ | ᱜ | ᱥ | ᱥᱤ | ᱛ,ᱜᱷᱳᱲ,unlisted,False,model's next token does not begin the target word
+en-sat,house,ᱚᱲᱟᱜ,0,ᱚᱲ,ᱚᱲ | ᱦ | ᱵ | ᱜ | ᱢ,,,True,
+en-sat,king,ᱨᱟᱡᱽ,0,ᱨᱟᱡ,ᱨᱟᱡ | ᱨ | ᱨᱟ | ᱵ | રા,,,True,
+en-sat,milk,ᱛᱳᱚ,0,ᱰ,ᱰ | ᱫ | ᱛ | ᱫᱟ | ᱜ,ᱰᱳᱝ,unlisted,False,model's next token does not begin the target word
+en-sat,moon,ᱪᱟᱸᱫᱚ,0,ᱪ,ᱪ |  ᱪᱟᱸᱫᱚ | ᱵ | ᱡ | ᱥ,,,True,
+en-sat,mother,ᱮᱝᱜᱚ,0,ᱟᱭ,ᱟᱭ | ᱢ | ᱢᱟ | ᱮᱸ | ᱛ,ᱟᱭᱳ,unlisted,False,model's next token does not begin the target word
+en-sat,mountain,ᱵᱩᱨᱩ,0, ᱵᱩᱨᱩ, ᱵᱩᱨᱩ | ᱵ | ᱯ |  pah | மலை,,,True,
+en-sat,name,ᱧᱩᱛᱩᱢ,0,ᱧ,ᱧ | ᱱ | ᱢ | ᱛ | ᱮᱱ,,,True,
+en-sat,night,ᱧᱤᱫᱟᱹ,0,ᱧ,ᱧ | ᱦ | ᱱ | ᱢ | ᱥ,,,True,
+en-sat,rain,ᱡᱟᱹᱲᱤ,0,ᱫ,ᱫ | ᱡ | ᱦ | ᱥ | ᱨ,ᱫᱟᱜ,other_concept:water,False,model's next token does not begin the target word
+en-sat,river,ᱜᱟᱰᱟ,0,ᱜᱟ,ᱜᱟ | ᱱ | ᱥ |  ᱜᱟᱰᱟ | ᱰ,,,True,
+en-sat,road,ᱰᱟᱦᱟᱨ,0,ᱰ,ᱰ | ᱥ | ᱦ | ᱛ | ᱮᱥ,,,True,
+en-sat,salt,ᱵᱩᱞᱩᱝ,0,ᱞᱩ,ᱞᱩ | ᱥ | ᱞ | ᱩ | ᱥᱤ,ᱞᱩᱸᱰ,unlisted,False,model's next token does not begin the target word
+en-sat,sky,ᱥᱮᱨᱢᱟ,0,ᱟᱠᱟ,ᱟᱠᱟ | ᱥ | ᱪ | ᱵ | ᱟᱠ,ᱟᱠᱟᱥ,unlisted,False,model's next token does not begin the target word
+en-sat,star,ᱤᱯᱤᱞ,0,ᱛ,ᱛ | ᱱ | ᱥᱴ | ᱥ | ᱥᱤ,ᱛᱟᱹᱨᱩᱵ,unlisted,False,model's next token does not begin the target word
+en-sat,sun,ᱥᱤᱸᱜᱤ,0,ᱥ,ᱥ | ᱥᱤ | ᱵ | ᱟ | সূ,ᱥᱤᱧ,unlisted,False,model's next token does not begin the target word
+en-sat,tooth,ᱰᱟᱴᱟ,0,ᱥ,ᱥ | ᱫ | ᱰ | ᱫᱟ | ᱛ,ᱰᱟᱴᱟ,target,False,model's next token does not begin the target word
+en-sat,tree,ᱫᱟᱨᱮ,0,ᱫᱟ,ᱫᱟ | ᱥ | ᱰ | ᱫ | ᱡ,,,True,
+en-sat,village,ᱚᱛᱳ,0,ᱜ,ᱜ | ᱜᱟ | ᱥ | ᱦ | ᱵ,ᱜᱳᱰᱟ,unlisted,False,model's next token does not begin the target word
+en-sat,water,ᱫᱟᱜ,0,ᱫ,ᱫ | ᱛ | ᱤᱛ | ᱧ | ᱦ,,,True,
+en-mni,bird,ꯎꯆꯦꯛ,0,ꯂꯩ,ꯂꯩ | ꯁꯥ | ꯌꯦ | ꯎ | ꯆ,ꯁꯥ,unlisted,False,model's next token does not begin the target word
+en-mni,book,ꯂꯥꯏꯔꯤꯛ,0,ꯂꯥꯏ,ꯂꯥꯏ | ꯄ | ꯂꯥ | ꯄꯨ | ꯏ,,,True,
+en-mni,cat,ꯍꯧꯗꯣꯡ,0,ꯄꯨ,ꯄꯨ | ꯁꯥ | ꯁ | ꯕꯤ | ꯆ,ꯄꯨꯆ,unlisted,False,model's next token does not begin the target word
+en-mni,cow,ꯁꯟ,0,ꯍ,ꯍ | ꯀꯣ | ꯅꯥ | ꯃꯤ | ꯌꯥ,ꯀꯣ,unlisted,False,model's next token does not begin the target word
+en-mni,dog,ꯍꯨꯏ,0,ꯁ,ꯁ | ꯂꯥꯏ | ꯁꯥ | ꯆ | ꯅ,ꯁꯥꯅ,unlisted,False,model's next token does not begin the target word
+en-mni,eye,ꯃꯤꯠ,0,ꯃꯤ,ꯃꯤ | ꯃ | ꯌ | ꯌꯥ | ꯃꯤꯠ,,,True,
+en-mni,fire,ꯃꯩ,0,ꯃꯩ,ꯃꯩ | ꯑ | ꯏ | ꯊ | ꯏꯁꯤꯡ,,,True,
+en-mni,fish,ꯉꯥ,0,ꯉꯥ,ꯉꯥ | ꯏꯁꯤꯡ | ꯁꯥ | ꯃꯤ | ꯏ,,,True,
+en-mni,flower,ꯂꯩꯔꯥꯡ,0,ꯂꯩ,ꯂꯩ | ꯁ | ꯂ | ꯐꯨ | ꯄꯨ,,,True,
+en-mni,gold,ꯁꯅꯥ,0,ꯁ,ꯁ | ꯃ | ꯊ | ꯂꯨ | ꯁꯨ,,,True,
+en-mni,hand,ꯈꯨꯠ,0,ꯈ,ꯈ | ꯃ | ꯁ | ꯃꯤ | ꯍ,,,True,
+en-mni,heart,ꯊꯃꯣꯏ,0,ꯈ,ꯈ | ꯊ | ꯃ | ꯍ | ꯏ,ꯈꯣꯡꯕ,unlisted,False,model's next token does not begin the target word
+en-mni,horse,ꯁꯒꯣꯜ,0,ꯁꯥ,ꯁꯥ | ꯁ | ꯆ | ꯍ | ꯀꯥ,ꯁꯥ,unlisted,False,model's next token does not begin the target word
+en-mni,house,ꯌꯨꯝ,0,ꯌ,ꯌ | ꯌꯨ | ꯏ | ꯃ | ꯂ,,,True,
+en-mni,king,ꯅꯤꯡꯊꯧ,0,ꯅꯤꯡ,ꯅꯤꯡ | ꯔꯥ | ꯃ | ꯂ | ꯃꯤ,,,True,
+en-mni,milk,ꯈꯣꯝ,0,ꯍꯤ,ꯍꯤ | ꯁꯪ | ꯏ | ꯂꯥ | ꯂ,ꯏ,unlisted,False,model's next token does not begin the target word
+en-mni,moon,ꯊꯥ,0,ꯊꯥ,ꯊꯥ | ꯊ | ꯏ | ꯆ | ꯆꯥ,,,True,
+en-mni,mother,ꯃꯃꯥ,0,ꯃ,ꯃ | ꯏ | ꯑꯦ | ꯃꯥ | ꯑ,,,True,
+en-mni,mountain,ꯆꯤꯡ,0,ꯆꯤꯡ,ꯆꯤꯡ | ꯄꯔ | ꯍꯤ | ꯃ | ꯄ,,,True,
+en-mni,name,ꯃꯤꯡ,0,ꯃꯃꯤ,ꯃꯃꯤ | ꯃꯤ | ꯃ | ꯋꯥ | ꯅꯥ,ꯃꯤꯡ,target,False,model's next token does not begin the target word
+en-mni,night,ꯑꯍꯤꯡ,0,ꯅꯨ,ꯅꯨ | ꯑꯍ | ꯑ | ꯃ | ꯅꯣꯡ,ꯅꯨꯃꯤꯠꯌꯨꯡ,unlisted,False,model's next token does not begin the target word
+en-mni,rain,ꯅꯣꯡꯖꯨ,0,ꯅꯣꯡ,ꯅꯣꯡ | ꯏꯁꯤꯡ | ꯏ | ꯆ | ꯃ,,,True,
+en-mni,river,ꯇꯨꯔꯦꯜ,0,ꯏ,ꯏ | ꯅ | ꯇꯨꯔ | ꯅꯥ | ꯂ,ꯏꯅꯥꯎ,unlisted,False,model's next token does not begin the target word
+en-mni,road,ꯂꯝꯕꯤ,0,ꯂ,ꯂ | ꯁ | ꯂꯝ | ꯂꯥ | ꯁꯥ,,,True,
+en-mni,salt,ꯊꯨꯝ,0,ꯊ,ꯊ | ꯂ | ꯂꯨ | ꯏꯁꯤꯡ | ꯅ,,,True,
+en-mni,sky,ꯅꯣꯡꯊꯛ,0,ꯑ,ꯑ | ꯏ | ꯂ | ꯅꯨ | ꯁ,ꯑꯇꯤꯌꯥ,unlisted,False,model's next token does not begin the target word
+en-mni,star,ꯊꯧꯋꯥꯟꯃꯤꯆꯥꯛ,0,ꯑ,ꯑ | ꯊ | ꯁ꯭ꯇ | ꯇ | ꯅ,ꯑꯇꯤꯌꯥ,unlisted,False,model's next token does not begin the target word
+en-mni,sun,ꯅꯨꯃꯤꯠ,0,ꯅꯨ,ꯅꯨ | ꯏ | ꯁ | ꯊ | ꯂ,,,True,
+en-mni,tooth,ꯌꯥ,0,ꯁꯥ,ꯁꯥ | ꯇꯨ | ꯃꯤ | ꯁ | ꯈ,ꯃꯤꯇꯩ,unlisted,False,model's next token does not begin the target word
+en-mni,tree,ꯎ,0,ꯊ,ꯃ | ꯊ | ꯋꯥ | ꯎ | ꯂ,ꯄꯥꯝꯕꯤ,unlisted,False,model's next token does not begin the target word
+en-mni,village,ꯈꯨꯟ,0,ꯈ,ꯈ | ꯁ | ꯃꯤ | ꯒ꯭ꯔꯥ | गा,ꯈꯨꯡꯒꯪ,unlisted,False,model's next token does not begin the target word
+en-mni,water,ꯏꯁꯤꯡ,0,ꯏꯁꯤꯡ,ꯏꯁꯤꯡ | ꯏ | ꯅꯨ | ꯊ | ꯄꯥ,,,True,
+en-brx,bird,दाव,0,दा,दा | सा | गा | मे | हां,,,True,
+en-brx,cat,मावजि,0,ज,ज | मे | मा | जि | ला,जाय,unlisted,False,model's next token does not begin the target word
+en-brx,fire,अर,0,अर,अर | अ | ख | आ | ज,,,True,
+en-brx,fish,ना,0,ना,ना | न | म | हा | गा,,,True,
+en-brx,hand,आखाय,0,आ,आ | आख | हा | ब | खा,आखा,unlisted,False,model's next token does not begin the target word
+en-brx,mother,बिमा,0,बि,बि | आइ | ब | आ | म,,,True,
+en-brx,mountain,हाजो,0,हा,हा | प | ज | जो | ब,,,True,
+en-brx,name,मुं,0,मु,मु | म |  मुं | ब |  मु,,,True,
+en-brx,river,दैमा,0,दै,दै | न | अ | ब | सा,,,True,
+en-brx,road,लामा,0,लामा,लामा | रा | ला | गा | हा,,,True,
+en-brx,salt,संख्रि,0,ख,ख | सं | सा | स | बि,खुल,unlisted,False,model's next token does not begin the target word
+en-brx,sky,अख्रां,0,अ,अ |  अख | म | आ | हा,,,True,
+en-brx,water,दै,0,दै,दै | द | दैन | पा | गा,,,True,
+ta-kok,book,पुस्तक,5,,,,,False,target tokens all shared with another role
+ta-kok,cow,गाय,4,,,,,False,target tokens all shared with another role
+ta-kok,flower,फूल,3,,,,,False,target tokens all shared with another role
+ta-kok,hand,हाथु,3,,,,,False,target tokens all shared with another role
+ta-kok,house,घर,2,,,,,False,target tokens all shared with another role
+ta-kok,milk,दूद,2,,,,,False,target tokens all shared with another role
+ta-kok,night,रात,4,,,,,False,target tokens all shared with another role
+ta-kok,village,गांव,4,,,,,False,target tokens all shared with another role

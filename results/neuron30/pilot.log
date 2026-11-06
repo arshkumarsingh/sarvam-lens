@@ -1,0 +1,2 @@
+routing: 320 words, 448 prompts, 18 MoE layers -> /vol/runs/neuron30/routing
+neurons: d_ff 8192, concept-selective 36, script-selective 20

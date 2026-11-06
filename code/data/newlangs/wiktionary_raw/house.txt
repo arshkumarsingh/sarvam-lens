@@ -1,0 +1,23 @@
+# concept: house
+# page: house/translations
+# revid: 93665499
+# section_url: https://en.wiktionary.org/w/index.php?title=house/translations&action=raw
+## block: {{trans-top-see|human abode|housing}}
+* Assamese: {{tt|as|ঘৰ}}
+* Odia: {{tt+|or|ଘର}}
+* Punjabi: {{tt|pa|ਮਕਾਨ|m}}, {{tt|pa|ਘਰ|m}}
+* Urdu: {{tt|ur|گَھر|m}}, {{tt|ur|مَکان|m}}
+* Nepali: {{tt+|ne|घर}}, {{tt|ne|बास्स्थान}}
+* Sanskrit: {{tt+|sa|गृह|m}}, {{tt+|sa|गेह|m|n}}, {{tt+|sa|अस्त|n}}, {{tt+|sa|अगार|n}}
+MISSING Maithili
+* Sindhi: {{tt+|sd|گھر|m|tr=gharu|alt=گھَر}}
+* Kashmiri: {{tt+|ks|گَرٕ|tr=garụ}}, {{tt+|ks|गरॖ|tr=garụ}}
+MISSING Konkani
+MISSING Dogri
+MISSING Manipuri
+MISSING Bodo
+MISSING Santali
+* Japanese: {{tt+|ja|家|tr=いえ, ie, うち, uchi}}, {{tt+|ja|建物|tr=たてもの, tatemono}}, {{tt+|ja|家屋|tr=かおく, kaoku}}, {{qualifier|standalone}} {{tt+|ja|一戸建て|tr=いっこだて, ikkodate}}, {{qualifier|honorific}} {{tt+|ja|お宅|tr=おたく, otaku}}, {{qualifier|honorific}} {{tt+|ja|住まい|tr=おすまい, osumai|alt=お住まい}}
+* Russian: {{tt+|ru|дом|m}}
+* Arabic: {{tt+|ar|بَيْت|m}}, {{tt+|ar|مَنْزِل|m}}, {{tt+|ar|دَار|f}}
+* Hindi: {{tt+|hi|घर|m}}, {{tt+|hi|मकान|m}}, {{tt+|hi|गृह|m}}, {{t+|hi|आवास|m}}, {{t+|hi|निवास|m}}, {{t+|hi|निकेतन|m}}, {{t+|hi|वास|m}}

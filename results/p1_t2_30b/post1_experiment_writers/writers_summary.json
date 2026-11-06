@@ -1,0 +1,154 @@
+{
+ "headline": {
+  "band": [
+   13,
+   14,
+   15,
+   16
+  ],
+  "attn_en_minus_ctrl_by_layer": {
+   "0": 0.0001,
+   "1": 0.0001,
+   "2": 0.0038,
+   "3": 0.0177,
+   "4": 0.0428,
+   "5": 0.0191,
+   "6": 0.036,
+   "7": -0.0021,
+   "8": 0.0755,
+   "9": 0.0045,
+   "10": -0.0057,
+   "11": 0.6562,
+   "12": 0.0372,
+   "13": 1.3663,
+   "14": 2.7357,
+   "15": 0.8793,
+   "16": 0.6509,
+   "17": -0.2583,
+   "18": 0.0489
+  },
+  "mlp_en_minus_ctrl_by_layer": {
+   "0": -0.0002,
+   "1": 0.0003,
+   "2": 0.001,
+   "3": 0.0077,
+   "4": 0.0035,
+   "5": 0.0147,
+   "6": 0.0079,
+   "7": 0.0164,
+   "8": 0.0259,
+   "9": 0.0126,
+   "10": 0.0026,
+   "11": 0.1115,
+   "12": 0.1641,
+   "13": 0.6075,
+   "14": 0.8933,
+   "15": 2.4593,
+   "16": 3.8984,
+   "17": 2.4717,
+   "18": -0.9324
+  },
+  "top_heads_en_minus_ctrl": [
+   {
+    "layer": 16,
+    "head": 23,
+    "mean": 0.7258
+   },
+   {
+    "layer": 14,
+    "head": 10,
+    "mean": 0.6273
+   },
+   {
+    "layer": 14,
+    "head": 24,
+    "mean": 0.6193
+   },
+   {
+    "layer": 17,
+    "head": 10,
+    "mean": 0.5857
+   },
+   {
+    "layer": 16,
+    "head": 29,
+    "mean": 0.4828
+   },
+   {
+    "layer": 13,
+    "head": 2,
+    "mean": 0.4464
+   },
+   {
+    "layer": 14,
+    "head": 2,
+    "mean": 0.4444
+   },
+   {
+    "layer": 15,
+    "head": 52,
+    "mean": 0.4319
+   },
+   {
+    "layer": 13,
+    "head": 14,
+    "mean": 0.4055
+   },
+   {
+    "layer": 16,
+    "head": 31,
+    "mean": 0.3706
+   }
+  ],
+  "top5_expert_share_english": 0.2413,
+  "top5_expert_share_target": 0.2796,
+  "top_english_experts": [
+   {
+    "layer": 16,
+    "expert": 106,
+    "items_routed": 83,
+    "sum_en": 182.587,
+    "mean_en": 2.1974,
+    "mean_ctrl": -0.1667,
+    "positive_share": 0.952
+   },
+   {
+    "layer": 16,
+    "expert": 114,
+    "items_routed": 110,
+    "sum_en": 170.397,
+    "mean_en": 1.5482,
+    "mean_ctrl": 0.0155,
+    "positive_share": 0.982
+   },
+   {
+    "layer": 17,
+    "expert": 52,
+    "items_routed": 189,
+    "sum_en": 105.922,
+    "mean_en": 0.5252,
+    "mean_ctrl": -0.0218,
+    "positive_share": 0.619
+   },
+   {
+    "layer": 17,
+    "expert": 57,
+    "items_routed": 245,
+    "sum_en": 105.775,
+    "mean_en": 0.2641,
+    "mean_ctrl": -0.1556,
+    "positive_share": 0.645
+   },
+   {
+    "layer": 15,
+    "expert": 7,
+    "items_routed": 95,
+    "sum_en": 101.96,
+    "mean_en": 1.0716,
+    "mean_ctrl": -0.016,
+    "positive_share": 0.937
+   }
+  ],
+  "english_writer_experts_criterion": false
+ }
+}

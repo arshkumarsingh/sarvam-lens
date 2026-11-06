@@ -1,0 +1,25 @@
+# concept: tree
+# page: tree
+# revid: 93665228
+# section_url: https://en.wiktionary.org/w/index.php?title=tree&action=raw&section=12
+## block: {{trans-top|large woody plant}}
+* Assamese: {{tt|as|গছ}}, {{tt|as|ডাঙৰ গছ}}
+* Odia: {{tt+|or|ଗଛ}}
+* Punjabi:
+*: Gurmukhi: {{tt|pa|ਰੁੱਖ|m}}, {{tt|pa|ਰੁੱਖੜਾ|m}} {{tt|pa|ਦਰੱਖ਼ਤ}}, {{tt|pa|ਪੇੜ}}
+*: Shahmukhi: {{tt|pa|رُکّھ|m}}, {{tt|pa|رُکھڑا|m}} {{tt|pa|دَرَخَت}}, {{tt|pa|پیڑ}}
+* Urdu: {{tt|ur|پیڑ|m}}, {{tt|ur|دَرَخْت|m}}
+* Nepali: {{tt|ne|रूख}}
+* Sanskrit: {{tt+|sa|तरु|m}}, {{tt+|sa|द्रुम|m}}, {{tt+|sa|वृक्ष|m}}, {{tt+|sa|कुज|m}}
+MISSING Maithili
+* Sindhi: {{tt+|sd|وڻ|tr=vaṇu}}
+MISSING Kashmiri
+MISSING Konkani
+MISSING Dogri
+MISSING Manipuri
+MISSING Bodo
+* Santali: {{tt+|sat|ᱫᱟᱨᱮ}}
+* Japanese: {{tt+|ja|木|tr=き, ki}}, {{tt+|ja|樹木|tr=じゅもく, jumoku}}
+* Russian: {{tt+|ru|де́рево|n}}, {{tt+|ru|дре́во|n}} {{qualifier|archaic or poetic}}
+* Arabic: {{tt+|ar|شَجَر|m}} {{q|collective}}, {{tt+|ar|شَجَرَة|f}} {{q|[[singulative]]}}
+* Hindi: {{tt+|hi|पेड़|m}}, {{tt+|hi|वृक्ष|m}}

@@ -1,0 +1,24 @@
+# concept: night
+# page: night
+# revid: 93665616
+# section_url: https://en.wiktionary.org/w/index.php?title=night&action=raw&section=13
+## block: {{trans-top|period between sunset and sunrise}}
+* Assamese: {{tt|as|ৰাতি|tr=rati}}
+* Odia: {{tt+|or|ରାତି}}
+* Punjabi: {{tt|pa|ਰਾਤ}}
+*: Western Punjabi: {{tt+|pnb|رات|f}}
+* Urdu: {{tt+|ur|رات|f}}, {{tt+|ur|شَب|f}}
+* Nepali: {{tt|ne|रात|tr=rāt}}
+* Sanskrit: {{tt+|sa|रात्रि}}, {{tt+|sa|क्षप्|f|tr=kṣáp}}, {{tt+|sa|नक्त्|tr=nákt|f}}
+* Maithili: {{t|mai|राति|tr=rāit}}
+* Sindhi: {{tt+|sd|راتِ|f}}
+* Kashmiri: {{t+|ks|راتھ|f|tr=rāth}}
+MISSING Konkani
+MISSING Dogri
+MISSING Manipuri
+MISSING Bodo
+* Santali:  {{t-needed|sat}}
+* Japanese: {{tt+|ja|夜|tr=よる, yoru, よ, yo}}
+* Russian: {{tt+|ru|ночь|f}}
+* Arabic: {{tt|ar|لَيْلَة|f}}, {{tt+|ar|لَيْل}}
+* Hindi: {{tt+|hi|रात|f}}, {{tt+|hi|रात्रि|f}}, {{tt+|hi|रात्र|f}}, {{tt+|hi|राति|f}}, {{t+|hi|निशा|f}}, {{t+|hi|रैन|f}}, {{t+|hi|यामिका|f}}, {{t+|hi|यामिनी|f}}, {{t+|hi|शर्वरी|f}}, {{t+|hi|रजनी|f}}

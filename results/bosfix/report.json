@@ -1,0 +1,171 @@
+{
+ "usd_per_hour": 5.174,
+ "budget_minutes": 15.0,
+ "stages": [
+  {
+   "stage": "load",
+   "result": {
+    "model": "HFLensModel(SarvamMoEForCausalLM, n_layers=19, d_model=4096)",
+    "gpu_gb_allocated": 64.3
+   },
+   "status": "ok",
+   "minutes": 0.6,
+   "log_tail": []
+  },
+  {
+   "stage": "bos_probe",
+   "result": {
+    "hf": {
+     "accuracy": 0.006,
+     "per_pair": {
+      "ta-te": "0/32",
+      "hi-ta": "1/32",
+      "ta-en": "0/32",
+      "bn-gu": "0/32",
+      "en-hi": "0/32"
+     },
+     "greedy_hindi": " राजधानी राजधानी राजधानी राजधानी राजधानी राजधानी राजधानी राजधानी राजधानी राजधानी"
+    },
+    "chat": {
+     "accuracy": 0.0,
+     "per_pair": {
+      "ta-te": "0/32",
+      "hi-ta": "0/32",
+      "ta-en": "0/32",
+      "bn-gu": "0/32",
+      "en-hi": "0/32"
+     },
+     "greedy_hindi": " राजधानी राजधानी राजधानी राजधानी राजधानी राजधानी राजधानी राजधानी राजधानी राजधानी"
+    },
+    "sarvam_bos": {
+     "accuracy": 0.0,
+     "per_pair": {
+      "ta-te": "0/32",
+      "hi-ta": "0/32",
+      "ta-en": "0/32",
+      "bn-gu": "0/32",
+      "en-hi": "0/32"
+     },
+     "greedy_hindi": " के रूप $10.\n-10"
+    },
+    "chosen": "hf"
+   },
+   "status": "ok",
+   "minutes": 1.2,
+   "log_tail": []
+  },
+  {
+   "stage": "pivot_logit",
+   "result": {
+    "exit": 0,
+    "items_kept": "3/448",
+    "all_indic_mean_prob_by_layer": {
+     "target": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0069
+     ],
+     "english": [
+      0.0001,
+      0.0001,
+      0.0001,
+      0.0001,
+      0.0001,
+      0.0001,
+      0.0001,
+      0.0001,
+      0.0001,
+      0.0004,
+      0.0001,
+      0.0001,
+      0.0001,
+      0.0003,
+      0.0,
+      0.0001,
+      0.0,
+      0.0
+     ],
+     "hindi": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "source": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0006
+     ]
+    }
+   },
+   "status": "ok",
+   "minutes": 0.89,
+   "log_tail": [
+    "pivot: ta-bn: kept 0 items",
+    "pivot: te-gu: kept 0 items",
+    "pivot: hi-ta: kept 1 items",
+    "pivot: hi_latn-ta: kept 0 items",
+    "pivot: en-ta: kept 0 items",
+    "pivot: ta-en: kept 0 items",
+    "matplotlib.font_manager: generated new fontManager",
+    "pivot: kept 3 / 448 items; wrote /vol/runs/bosfix/pivot_logit"
+   ]
+  },
+  {
+   "stage": "grade",
+   "result": {
+    "exit": 0
+   },
+   "status": "ok",
+   "minutes": 0.67,
+   "log_tail": []
+  }
+ ],
+ "elapsed_minutes": 3.61,
+ "est_cost_usd_so_far": 0.31,
+ "done": true
+}

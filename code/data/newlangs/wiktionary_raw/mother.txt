@@ -1,0 +1,23 @@
+# concept: mother
+# page: mother/translations
+# revid: 93472620
+# section_url: https://en.wiktionary.org/w/index.php?title=mother/translations&action=raw
+## block: {{trans-top|female (human) who gives birth to or parents a child}}
+* Assamese: {{tt|as|মা}}, {{tt|as|আই}}
+* Odia: {{tt+|or|ମା}}
+* Punjabi: {{tt|pa|ਮਾਂ|f}}, {{tt|pa|ਮਾਤਾ|f}}
+* Urdu: {{tt|ur|ماتا|f}}, {{tt|ur|ماں|f}}, {{tt+|ur|مادَر|f}}, {{tt+|ur|والِدَہ|f}}
+* Nepali: {{tt+|ne|आमा|f}}
+* Sanskrit: {{tt+check|sa|अम्बा|f}} {{tt-check|sa|मातर|f}}, {{qualifier|derogatory}} {{tt+check|sa|अक्का|f}}, {{tt+check|sa|मातृ|f}}
+MISSING Maithili
+* Sindhi: {{tt|sd|ماء|tr=māʾu}}, {{tt|sd|اما|tr=āmā}}
+* Kashmiri: {{tt|ks|موج}}, {{tt|ks|مٲج}}
+MISSING Konkani
+MISSING Dogri
+MISSING Manipuri
+* Bodo (India): {{tt|brx|आइ}} {{q|1st person}}, {{tt|brx|बिमा}} {{q|3rd person}}
+* Santali: {{tt|sat|ᱮᱝᱜᱚ}}
+* Japanese: {{tt+|ja|お母さん|tr=おかあさん, okāsan}}, {{tt+|ja|母|tr=はは, haha}} {{qualifier|humble}}, {{tt+|ja|ママ|tr=mama}}, {{tt+|ja|お袋|tr=おふくろ, o-fukuro}} {{qualifier|colloquial|one's mother}}
+* Russian: {{tt+|ru|мать|f}}, {{tt+|ru|ма́ма|f}} {{qualifier|colloquial}}, {{tt+|ru|ма́тушка|f}}, {{qualifier|derogatory}} {{tt+|ru|мама́ша|f}}
+* Arabic: {{tt+|ar|أُمّ|f}}, {{tt+|ar|وَالِدَة|f}}, {{tt|ar|مَامَا|f}} {{qualifier|familiar or childish}}
+* Hindi: {{tt+|hi|माता|f}}, {{tt|hi|मां|f}}, {{tt+|hi|मादर|f}}, {{tt+|hi|वालिदा|f}}

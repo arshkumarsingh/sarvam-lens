@@ -1,0 +1,24 @@
+# concept: moon
+# page: moon/translations
+# revid: 93664298
+# section_url: https://en.wiktionary.org/w/index.php?title=moon/translations&action=raw
+## block: {{trans-top|id=Q405|the natural satellite of planet Earth}}
+* Assamese: {{tt|as|জোন}}
+* Odia: {{tt+|or|ଚନ୍ଦ୍ର}}, {{tt+|or|ଜହ୍ନ}}
+* Punjabi: {{tt|pa|ਚੰਦਰਮਾ}}
+* Urdu: {{tt|ur|چانْد|m}}, {{tt|ur|چَنْدْرَما|m}}, {{t|ur|قَمَر|m}}, {{t|ur|ماہ|m}}, {{t|ur|مَہْتاب|m}}
+* Nepali: {{tt+|ne|चन्द्रमा}}
+* Sanskrit: {{tt+|sa|चन्द्र|tr=candrá}}, {{tt+|sa|सोम}}
+MISSING Maithili
+* Sindhi: {{tt+|sd|چنڊ|tr=canḍu|alt=چَنڊُ}}
+MISSING Kashmiri
+MISSING Konkani
+MISSING Dogri
+* Manipuri: {{t+|mni|ꯊꯥ}}
+MISSING Bodo
+MISSING Santali
+* Japanese: {{tt+|ja|月|tr=つき, tsuki}}
+*: Old Japanese: {{tt|ojp|月|tr=tuki<sub>2</sub>}}
+* Russian: {{tt+|ru|луна́|f}}, {{tt+|ru|ме́сяц|m}} {{qualifier|crescent or gibbous}}
+* Arabic: {{tt+|ar|قَمَر|m}}
+* Hindi: {{tt+|hi|चांद|m}}, {{tt+|hi|चन्द्रमा|m}}, {{tt+|hi|मयंक|m}}, {{tt+|hi|मृगांक|m}}, {{tt+|hi|शशांक|m}}, {{tt+|hi|चंद्र|m}}, {{tt+|hi|इंदु|m}}, {{tt+|hi|सोम|m}}, {{tt+|hi|शशि|m}}, {{tt+|hi|सुधांशु|m}}, {{tt+|hi|हिमांशु|m}}, {{tt+|hi|विधु|m}}, {{tt+|hi|जयंत|m}}, {{tt+|hi|माह|m}}, {{tt+|hi|महताब|m}}, {{t|hi|क़मर|m}}

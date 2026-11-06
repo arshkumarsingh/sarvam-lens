@@ -1,0 +1,156 @@
+{
+ "model_kind": "sarvam30",
+ "lenses": [
+  "j_200p",
+  "logit"
+ ],
+ "layers": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18
+ ],
+ "final": 18,
+ "band": [
+  13,
+  14,
+  15,
+  16
+ ],
+ "early_band": [
+  5,
+  6,
+  7,
+  8
+ ],
+ "roles": [
+  "ascii",
+  "native",
+  "word",
+  "ascii_ctrl",
+  "native_ctrl",
+  "word_ctrl"
+ ],
+ "systems": {
+  "ascii": {
+   "digits": "0123456789",
+   "langs": [
+    "en",
+    "ja",
+    "ru"
+   ]
+  },
+  "devanagari": {
+   "digits": "०१२३४५६७८९",
+   "langs": [
+    "hi",
+    "mr",
+    "ne",
+    "sa",
+    "mai",
+    "kok",
+    "doi",
+    "brx"
+   ]
+  },
+  "bengali": {
+   "digits": "০১২৩৪৫৬৭৮৯",
+   "langs": [
+    "bn",
+    "as"
+   ]
+  },
+  "tamil": {
+   "digits": "௦௧௨௩௪௫௬௭௮௯",
+   "langs": [
+    "ta"
+   ]
+  },
+  "telugu": {
+   "digits": "౦౧౨౩౪౫౬౭౮౯",
+   "langs": [
+    "te"
+   ]
+  },
+  "gujarati": {
+   "digits": "૦૧૨૩૪૫૬૭૮૯",
+   "langs": [
+    "gu"
+   ]
+  },
+  "kannada": {
+   "digits": "೦೧೨೩೪೫೬೭೮೯",
+   "langs": [
+    "kn"
+   ]
+  },
+  "malayalam": {
+   "digits": "൦൧൨൩൪൫൬൭൮൯",
+   "langs": [
+    "ml"
+   ]
+  },
+  "oriya": {
+   "digits": "୦୧୨୩୪୫୬୭୮୯",
+   "langs": [
+    "or"
+   ]
+  },
+  "gurmukhi": {
+   "digits": "੦੧੨੩੪੫੬੭੮੯",
+   "langs": [
+    "pa"
+   ]
+  },
+  "extended_arabic-indic": {
+   "digits": "۰۱۲۳۴۵۶۷۸۹",
+   "langs": [
+    "ur",
+    "sd",
+    "ks"
+   ]
+  },
+  "meetei_mayek": {
+   "digits": "꯰꯱꯲꯳꯴꯵꯶꯷꯸꯹",
+   "langs": [
+    "mni"
+   ]
+  },
+  "ol_chiki": {
+   "digits": "᱐᱑᱒᱓᱔᱕᱖᱗᱘᱙",
+   "langs": [
+    "sat"
+   ]
+  },
+  "arabic-indic": {
+   "digits": "٠١٢٣٤٥٦٧٨٩",
+   "langs": [
+    "ar"
+   ]
+  }
+ },
+ "opts": {
+  "shots": 6,
+  "batch": 64,
+  "systems": null,
+  "per_system": null,
+  "langs": null
+ },
+ "n_jobs": 1008,
+ "seconds": 14.9
+}

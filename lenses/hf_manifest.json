@@ -1,0 +1,28 @@
+{
+  "_comment": "Files for the Hugging Face lens repo: local path (relative to the project root) -> path in the repo. Read by upload_to_hf.py and make_checksums.py. The per-expert Jacobian files (*_experts.pt, 5.4 GB each) are deliberately left out.",
+  "files": {
+    "lenses/MODEL_CARD.md": "README.md",
+    "reference/LICENSE": "LICENSE",
+    "lenses/NOTICE_HF.md": "NOTICE.md",
+    "lenses/verify_lenses.py": "verify_lenses.py",
+    "lenses/SHA256SUMS": "SHA256SUMS",
+    "lenses/j_200p.pt": "j_200p.pt",
+    "lenses/j_200p_stamp.json": "j_200p_stamp.json",
+    "lenses/r_moe_25p.pt": "r_moe_25p.pt",
+    "lenses/r_moe_25p_stamp.json": "r_moe_25p_stamp.json",
+    "lenses/jpp_25p.pt": "jpp_25p.pt",
+    "lenses/jpp_25p_stamp.json": "jpp_25p_stamp.json",
+    "lenses/jpp_25p_expert_weights.json": "jpp_25p_expert_weights.json",
+    "lenses/j_indic_27p.pt": "j_indic_27p.pt",
+    "lenses/j_indic_27p_stamp.json": "j_indic_27p_stamp.json",
+    "results/wiki/router.pt": "router.pt",
+    "results/wiki/router_stamp.json": "router_stamp.json"
+  },
+  "checksummed": [
+    "j_200p.pt", "j_200p_stamp.json",
+    "r_moe_25p.pt", "r_moe_25p_stamp.json",
+    "jpp_25p.pt", "jpp_25p_stamp.json", "jpp_25p_expert_weights.json",
+    "j_indic_27p.pt", "j_indic_27p_stamp.json",
+    "router.pt", "router_stamp.json"
+  ]
+}

@@ -1,0 +1,23 @@
+# concept: dog
+# page: dog/translations
+# revid: 93622345
+# section_url: https://en.wiktionary.org/w/index.php?title=dog/translations&action=raw
+## block: {{trans-top|animal}}
+* Assamese: {{tt|as|কুকুৰ}}
+* Odia: {{tt+|or|କୁକୁର}}
+* Punjabi: {{tt+|pa|ਕੁੱਤਾ}}
+* Urdu: {{tt+|ur|کُتّا|m}}, {{tt+|ur|سَگ|m}}
+* Nepali: {{tt+|ne|कुकुर|m}}, {{tt|ne|कुकुरनी|f}}
+* Sanskrit: {{tt+|sa|श्वन्|m}}, {{tt+|sa|शुनक|m}}, {{tt+|sa|भषक|m}}, {{tt+|sa|कुर्कुर|m}}
+* Maithili: {{t-needed|mai}}
+* Sindhi: {{tt+|sd|ڪتو|tr=kuto}}
+* Kashmiri: {{tt+|ks|ہوٗن}}
+* Konkani: {{tt|kok|सूणे}}
+MISSING Dogri
+* Manipuri: {{t-needed|mni}}
+MISSING Bodo
+* Santali: {{tt|sat|ᱥᱮᱛᱚ}}
+* Japanese: {{tt+|ja|犬|tr=いぬ, inu}}, {{tt+|ja|狗|tr=いぬ, inu}}
+* Russian: {{tt+|ru|соба́ка|f}}, {{tt+|ru|пёс|m}}, {{tt+|ru|пси́на|f}} {{q|colloquial}}
+* Arabic: {{tt+|ar|كَلْب|m}}
+* Hindi: {{tt+|hi|कुत्ता|m}}, {{tt+|hi|कुत्ती|f}}, {{tt+|hi|श्वान|m}}, {{tt+|hi|कुक्कुर|m}}, {{tt|hi|कुक्कुरी|f}}, {{tt+|hi|कुर्कुर|m}}, {{tt|hi|कूकुर|m}}, {{tt+|hi|कुकुरी|f}}, {{tt+|hi|कुतिया|f}}, {{tt+|hi|कूकर|m}}, {{tt+|hi|कुकुर|m}}

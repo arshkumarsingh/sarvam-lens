@@ -1,0 +1,17 @@
+{
+ "max_rows": 1007,
+ "width": 3614,
+ "steps": 3658,
+ "admissions": 23,
+ "shifts": 1,
+ "slab_gb": 70.8,
+ "seconds": 1405.4,
+ "mean_step_s": 0.375,
+ "reasons": {
+  "cap": 229,
+  "loop": 76,
+  "answer_cap": 41,
+  "eos": 734
+ },
+ "think_end_token": 24
+}

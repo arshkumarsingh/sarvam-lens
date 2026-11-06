@@ -1,0 +1,7 @@
+variant,n,nonlatin_words_per_trace,quoted,own_words_by_script,names_language,names_other_first,others
+en,16,0.0,,{},0,0,{}
+bn_h,16,7.2,0.974,"{""bengali"": 3}",16,0,{}
+te_h,16,6.1,0.857,"{""telugu"": 14}",16,0,{}
+ja_h,16,2.1,1.0,{},8,0,{}
+ru_h,16,13.1,0.929,"{""cyrillic"": 5, ""latin"": 1, ""devanagari"": 5, ""bengali"": 4}",5,2,"{""Bengali"": 2}"
+zh_h,16,5.9,0.832,"{""han"": 6, ""devanagari"": 10}",7,8,"{""Hindi"": 4, ""Bengali"": 3, ""Kannada"": 1}"

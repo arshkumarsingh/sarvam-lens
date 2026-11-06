@@ -1,0 +1,25 @@
+# concept: village
+# page: village
+# revid: 93598618
+# section_url: https://en.wiktionary.org/w/index.php?title=village&action=raw&section=10
+## block: {{trans-top|a rural habitation of size between a hamlet and a town}}
+* Assamese: {{t|as|গাঁও}}
+* Odia: {{t+|or|ଗାଁ}}
+* Punjabi:
+*: Gurmukhi: {{t|pa|ਪਿੰਡ|m}}
+*: Shahmukhi: {{t|pa|پِنڈ|m}}, {{t|pa|گَراں|m}}
+* Urdu: {{t|ur|گاؤں|m}}, {{t|ur|دیہات|m-p}} {{q|slightly formal, used as singular and plural}}, {{t|ur|دیہ|m|f}} {{q|rare, singular of {{lang|ur|دیہات}}}}
+* Nepali: {{t|ne|गाँउ}}
+* Sanskrit: {{t+|sa|ग्राम|m}}
+MISSING Maithili
+MISSING Sindhi
+MISSING Kashmiri
+MISSING Konkani
+MISSING Dogri
+MISSING Manipuri
+MISSING Bodo
+* Santali: {{t|sat|ᱚᱛᱳ}}
+* Japanese: {{t+|ja|村|tr=むら, mura}}, {{t+|ja|田舎|tr=いなか, inaka}} {{qualifier|country}}, {{t+|ja|村落|tr=そんらく, sonraku}}
+* Russian: {{t+|ru|дере́вня|f}}, {{t+|ru|село́|n}}, {{t+|ru|селе́ние|n}}, {{t+|ru|кишла́к|m}} {{qualifier|Central Asia}}, {{t+|ru|ау́л|m}} {{qualifier|Central Asia, Caucasus}}, {{t+|ru|ху́тор|m}}, {{t+|ru|весь|f}} {{qualifier|rare or in set expressions}}, {{t|ru|ве́слина|f}} {{qualifier|dialectal}}, {{t|ru|весца́|f}} {{qualifier|dialectal}}, {{t+|ru|вёска|f}} {{qualifier|Belarusian or Polish village}}, {{t+|ru|стани́ца|f}} {{qualifier|Cossack}}, {{t+|ru|слобода́|f}} {{qualifier|historical, sloboda}}
+* Arabic: {{t+|ar|قَرْيَة|f}}, {{t|ar|كَفْر|m}}, {{t|ar|ضَيْعَة|f}}, {{t|ar|دَشْرَة|f}}
+* Hindi: {{t|hi|गांव|m}}, {{t+|hi|गाँव|m}}, {{t+|hi|ग्राम|m}}

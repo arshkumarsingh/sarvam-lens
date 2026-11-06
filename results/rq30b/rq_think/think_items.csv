@@ -1,0 +1,261 @@
+pair,concept,n_tokens,closed_think,english_in_reasoning,target_in_answer,target_in_reasoning,script_latin,script_devanagari,script_bengali,script_gujarati,script_tamil,script_telugu,script_kannada,script_malayalam,script_cjk,reasoning,answer
+ta-te,cow,200,False,True,False,False,0.893,0.0,0.0,0.0,0.099,0.008,0.0,0.0,0.0,"1.  **Analyze the user's request:** This Tamil query (தமிழ் வினவல்) asks to translate the word ""cow"" (பசு) into Telugu.
+    *   **Source word:** ""cow""
+    *   **Target language:** Telugu
+    *   **Output format:** ""Write only the Telugu word in the response."" (பதிலில் தெலுங்கு சொல்லை மட்டும் எழுதவும்). This is a very strict constraint. No extra text, no explanation, no ""The Telugu word is..."", just the word itself.
+
+2.  **Recall/Search for the Telugu translation of ""cow"":**
+    *   My internal knowledge base contains translations for many common words.
+    *   I know that ""cow"" in English is a domestic bovine animal.
+    *   The Telugu word for this animal is ""గావి"" (pronounced *gāvi*).
+    *   I should double-check this to be",
+ta-te,flower,200,False,False,False,False,0.877,0.0,0.0,0.0,0.123,0.0,0.0,0.0,0.0,"1.  **Analyze the user's request:** This Tamil query (தமிழ் வினவல்) asks to translate the word ""po"" (பூ) into Telugu.
+    *   **Source word:** ""po"" (தமிழ் சொல்)
+    *   **Target language:** Telugu
+    *   **Output format:** ""Write the Telugu word only in the response."" (பதிலில் தெலுங்கு சொல்லை மட்டும் எழுதவும்). This is a very strict constraint. No extra text, no explanation, no ""The Telugu word is..."", just the word itself.
+
+2.  **Initial knowledge check:**
+    *   What does ""po"" mean in Tamil? It's a common honorific suffix, like ""ji"" in Hindi or ""sir"" in English. It's used to address an elder or someone of respect. For example, ""periya po"" (elderly person), ""perumal po"" (a name).
+    *   ",
+ta-te,house,200,False,True,False,False,0.909,0.0,0.0,0.0,0.091,0.0,0.0,0.0,0.0,"1.  **Analyze the user's request:** This Tamil query asks to translate the word ""house"" (வீடு) into Telugu (தெலுங்கு).
+    *   **Core task:** Translate the word ""house"" into Telugu.
+    *   **Constraint 1:** ""Write only the Telugu word in the response."" (பதிலில் தெலுங்கு சொல்லை மட்டும் எழுதவும்). This is a very strict constraint. No extra text, no explanation, no ""The Telugu word is..."", just the word itself.
+    *   **Constraint 2:** The source word is ""house"".
+    *   **Constraint 3:** The target language is Telugu.
+
+2.  **Access knowledge base:** I need to find the Telugu translation for ""house"".
+    *   My internal knowledge base contains translations for many common words across multiple languages.
+    *   I search for ""house"" -> ""Telugu"".
+    *   The primary,",
+ta-te,mountain,200,False,True,False,True,0.888,0.0,0.0,0.0,0.105,0.008,0.0,0.0,0.0,"1.  **Analyze the user's request:** This Tamil query asks to translate (மொழிபெயர்க்கவும்) the word ""mountain"" (மலை) into Telugu.
+    *   **Source word:** ""mountain"" (English)
+    *   **Target language:** Telugu
+    *   **Output format:** ""Write the Telugu word for the answer only."" (பதிலில் தெலுங்கு சொல்லை மட்டும் எழுதவும்). This is a crucial constraint. It means no extra text, no explanations, no ""The Telugu word is..."", just the word itself.
+
+2.  **Translate ""mountain"" to Telugu:**
+    *   My internal knowledge base contains translations for many words.
+    *   I access the entry for ""mountain"" in Telugu.
+    *   The primary and most common translation for ""mountain"" in Telugu is ""కొండ"" (pronounced ""Konda"").
+    *   Are there other translations?
+        *   """,
+bn-gu,cow,200,False,True,False,False,0.861,0.0,0.139,0.0,0.0,0.0,0.0,0.0,0.0,"1.  **Analyze the user's request:** This Bengali query (বাংলা প্রশ্ন) asks to translate the word ""cow"" (গরু) into Gujarati.
+    *   **Source word:** ""cow""
+    *   **Source language:** English (implied)
+    *   **Target language:** Gujarati
+    *   **Constraint 1:** ""Provide only the Gujarati word in the response."" (উত্তরটি কেবল গুজরাটি শব্দ হতে হবে). This is a very strict output format requirement. No extra text, no explanation, no ""The Gujarati word is..."". Just the word itself.
+    *   **Constraint 2:** ""Translate the following Bengali text into Gujarati."" (বাংলা পাঠ্য গুজরাটি ভাষায় অনুবাদ করুন). This is a bit of a trick or a misstatement in the user's prompt. The *source* text is ""cow"", which is English, not Bengali. The *target* language is Gujarati. I need to",
+bn-gu,flower,200,False,False,False,False,0.923,0.0,0.077,0.0,0.0,0.0,0.0,0.0,0.0,"1.  **Analyze the user's request:** This Bengali query (বাংলা প্রশ্ন) asks to translate the word ""full"" (ফুল) into Gujarati.
+    *   **Source word:** ""full"" (English)
+    *   **Target language:** Gujarati
+    *   **Output format:** ""Just the Gujarati word in the response."" (উত্তরটি কেবল গুজরাটি শব্দ হতে হবে). This is a very strict constraint. No extra text, no explanation, no ""The Gujarati word is..."". Just the word itself.
+
+2.  **Translate ""full"" to Gujarati:**
+    *   My internal knowledge base contains translations for common English words.
+    *   ""full"" in English can mean several things:
+        *   Having as much as possible of a particular quality or substance; completely filled. (e.g., a full cup)
+        *   Having all the necessary or appropriate parts, elements, or members. (e.",
+bn-gu,house,200,False,False,False,True,0.917,0.0,0.077,0.007,0.0,0.0,0.0,0.0,0.0,"1.  **Analyze the user's request:** This Bengali query (বাংলা প্রশ্ন) asks to translate the word ""home"" (বাড়ি) into Gujarati. The user has provided a very specific instruction: ""Only write the Gujarati word in the response."" (উত্তরটি কেবল গুজরাটি শব্দ হতে হবে).
+
+2.  **Identify the core task:** The task is translation. The source word is ""home"". The target language is Gujarati.
+
+3.  **Perform the translation:**
+    *   What is the Gujarati word for ""home""?
+    *   My internal knowledge base contains translations for common words.
+    *   ""Home"" in English can have several meanings in Gujarati:
+        *   The physical place where one lives: ""ઘર"" (ghar). This is the most common and direct translation.
+        *   A more abstract concept of ""home"" as a place of belonging, comfort, or origin: ""ઘર"" (ghar",
+bn-gu,mountain,200,False,False,False,False,0.946,0.0,0.032,0.022,0.0,0.0,0.0,0.0,0.0,"1.  **Analyze the user's request:** This Bengali query (বাংলা প্রশ্ন) asks to translate the word ""hill"" (পাহাড়) into Gujarati. The user has a very specific constraint: ""Only write the Gujarati word in the response.""
+
+2.  **Identify the core task:** The task is translation. The source word is ""hill"". The target language is Gujarati.
+
+3.  **Perform the translation:**
+    *   What is the English word? ""hill"".
+    *   What is the Gujarati word for ""hill""? I need to access my knowledge base of Gujarati translations.
+    *   My internal knowledge base connects ""hill"" to the Gujarati word ""પહાડ"" (pahaad).
+
+4.  **Consider potential variations or nuances:**
+    *   Is ""પહાડ"" (pahaad) the most common and direct translation? Yes.
+    *   Are there other words? ""પર્વ",
+kn-ml,cow,200,False,True,False,True,0.891,0.0,0.0,0.0,0.0,0.0,0.097,0.012,0.0,"1.  **Analyze the user's request:** This Kannada query (ಕನ್ನಡ ಪ್ರಶ್ನೆ) asks to translate the word ""cow"" (ಹಸು) into Malayalam.
+    *   **Source word:** ""cow""
+    *   **Target language:** Malayalam
+    *   **Output format:** ""Write only the Malayalam word as the answer."" (ಉತ್ತರವಾಗಿ ಮಲಯಾಳಂ ಪದವನ್ನು ಮಾತ್ರ ಬರೆಯಿರಿ). This is a strict constraint. No extra text, no explanation, no ""The word is..."", just the word itself.
+
+2.  **Access knowledge base:** I need to find the Malayalam translation for ""cow"".
+    *   My internal knowledge base contains translations for many common words across multiple languages.
+    *   I search for ""cow"" -> ""Malayalam"".
+    *   The result is ""പശു"" (pronounced as ""pashu"").
+
+3.  **Verify the translation:**
+    *   Is ""പശു""",
+kn-ml,flower,200,False,True,False,True,0.889,0.0,0.0,0.0,0.0,0.0,0.096,0.015,0.0,"1.  **Analyze the user's request:** This Kannada query (ಕನ್ನಡ ಪ್ರಶ್ನೆ) asks to translate the word ""flower"" (ಹೂವು) into Malayalam.
+    *   **Source word:** ""flower"" (English)
+    *   **Target language:** Malayalam
+    *   **Output format:** ""Write only the Malayalam word as the answer."" (ಉತ್ತರವಾಗಿ ಮಲಯಾಳಂ ಪದವನ್ನು ಮಾತ್ರ ಬರೆಯಿರಿ). This is a strict constraint. No extra text, no explanation, no ""The word is..."". Just the word itself.
+
+2.  **Translate ""flower"" to Malayalam:**
+    *   My internal knowledge base contains translations for common words.
+    *   The Malayalam word for ""flower"" is ""പൂവ്"" (pronounced pūv).
+    *   I should double-check this. A quick mental search or a simulated external search confirms this.
+        *   ""flower"" in English -> ""പൂവ്""",
+kn-ml,house,200,False,True,False,True,0.9,0.0,0.0,0.0,0.0,0.0,0.093,0.007,0.0,"1.  **Analyze the user's request:** This Kannada query (ಕನ್ನಡ ಪ್ರಶ್ನೆ) asks to translate the word ""house"" (ಮನೆ) into Malayalam.
+    *   **Source word:** ""house""
+    *   **Target language:** Malayalam
+    *   **Output format:** ""Write only the Malayalam word as the answer."" (ಉತ್ತರದಲ್ಲಿ ಮಲಯಾಳಂ ಪದವನ್ನು ಮಾತ್ರ ಬರೆಯಿರಿ). This is a strict constraint. No extra text, no explanation, no ""The Malayalam word is..."". Just the word itself.
+
+2.  **Translate ""house"" to Malayalam:**
+    *   My internal knowledge base contains translations for common words.
+    *   The Malayalam word for ""house"" is ""വീട്"" (pronounced as *veed*).
+    *   I need to be sure of the spelling and the script. It's a single word, in the Malayalam script.
+
+3.  **Consider potential ambiguities or alternative",
+kn-ml,mountain,200,False,False,False,False,0.967,0.0,0.0,0.0,0.0,0.0,0.023,0.01,0.0,"1.  **Analyze the user's request:** This Kannada query asks to translate the word ""hill"" (ಬೆಟ್ಟ) into Malayalam. I need to provide the Malayalam word (ಮಲಯಾಳಂ ಪದ) as the final answer.
+    *   **Source word:** ""hill"" (English)
+    *   **Target language:** Malayalam
+    *   **Output format:** ""Write only the Malayalam word as the answer."" This is a crucial constraint. No extra text, no explanation, no ""The Malayalam word is..."", just the word itself.
+
+2.  **Translate ""hill"" to Malayalam:**
+    *   My internal knowledge base contains translations for common words.
+    *   ""hill"" in English can be translated to several Malayalam words depending on the specific context.
+    *   The most common and direct translation for a natural, elevated landform, often covered with vegetation, is ""കുന്നി"" (kunṭi).
+    ",
+mr-bn,cow,200,False,True,False,True,0.891,0.101,0.008,0.0,0.0,0.0,0.0,0.0,0.0,"1.  **Analyze the user's request:** This Marathi query (मराठी प्रश्न) asks for the translation (भाषांतर) of the word ""cow"" (गाय) into Bengali.
+    *   **Source word:** ""cow""
+    *   **Target language:** Bengali
+    *   **Output format:** ""only the Bengali word in the response"" (उत्तरामध्ये फक्त बंगाली शब्द लिहा). This is a very strict constraint. No extra text, no explanation, no ""The translation is..."", just the word itself.
+
+2.  **Identify the translation:**
+    *   I need to find the Bengali word for ""cow"".
+    *   My internal knowledge base contains this information.
+    *   The Bengali word for ""cow"" is ""গাভী"" (pronounced *gāvī*).
+
+3.  **Consider potential variations or nuances:**
+    *   Is there a more common or formal",
+mr-bn,flower,200,False,True,False,True,0.93,0.064,0.006,0.0,0.0,0.0,0.0,0.0,0.0,"1.  **Analyze the user's request:** This Marathi query asks for a translation (भाषांतर) of the word ""flower"" (फूल) into Bengali.
+    *   **Source word:** ""flower""
+    *   **Target language:** Bengali
+    *   **Output format:** ""Write only the Bengali word in the response."" (उत्तरात फक्त बंगाली शब्द लिहा). This is a strict constraint. No extra text, no explanation, no ""The Bengali word is..."". Just the word itself.
+
+2.  **Identify the Bengali translation for ""flower"":**
+    *   My internal knowledge base contains translations for many common words across multiple languages.
+    *   I need to access the Bengali entry for ""flower"".
+    *   The Bengali word for ""flower"" is ""ফুল"" (pronounced *phool*).
+
+3.  **Consider potential variations or nuances:**
+    *   Is there more than one word",
+mr-bn,house,200,False,False,False,True,0.95,0.04,0.01,0.0,0.0,0.0,0.0,0.0,0.0,"1.  **Analyze the user's request:** This Marathi query (मराठी प्रश्न) asks for the translation of the word ""home"" (घर) into Bengali.
+    *   **Source word:** ""home""
+    *   **Target language:** Bengali
+    *   **Output format:** ""Only the Bengali word in the response."" (प्रतिसाद). This is a crucial constraint. No extra text, no explanation, no ""The Bengali word is..."", just the word itself.
+
+2.  **Identify the core task:** Translate ""home"" into Bengali.
+
+3.  **Access knowledge base for translation:**
+    *   I need to find the Bengali equivalent of the English word ""home"".
+    *   My internal knowledge base contains translations for many words.
+    *   The primary, most common translation for ""home"" in the sense of a place of residence is ""বাড়ি"" (bāri).
+    *   ",
+mr-bn,mountain,200,False,False,False,False,0.933,0.067,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"1.  **Analyze the user's request:** This Marathi query asks for a translation (भाषांतर) of the word ""Dungar"" (डोंगर) into Bengali. The user wants the response to be only the Bengali word (बंगाली शब्द).
+    *   **Source word:** ""Dungar""
+    *   **Target language:** Bengali
+    *   **Output format:** ""only the Bengali word""
+
+2.  **Initial knowledge check:**
+    *   What is ""Dungar""? I immediately recognize this as a common misspelling or phonetic transliteration of the Hindi/Urdu word ""डंगर"" (Dhaṅgār).
+    *   What does ""डंगर"" (Dhaṅgār) mean in Hindi/Urdu? It means ""elephant"".
+    *   So, the user is likely asking for the Bengali word for ""elephant"".
+
+",
+te-kn,cow,200,False,True,False,False,0.953,0.0,0.0,0.0,0.0,0.039,0.007,0.0,0.0,"1.  **Analyze the user's request:** This Telugu query asks to translate (అనువదించండి) the word ""cow"" (ఆవు) into Kannada. The user has provided a very specific instruction: ""Write only the Kannada word as the answer (సమాధానం).""
+
+2.  **Identify the core task:** The task is translation from English to Kannada.
+
+3.  **Perform the translation:**
+    *   The English word is ""cow"".
+    *   I need to find the equivalent Kannada word.
+    *   My internal knowledge base contains translations for common words.
+    *   The Kannada word for ""cow"" is ""ಗೋವು"" (pronounced as ""Gowvu"" or ""Gowda"").
+
+4.  **Consider the script:** The user didn't specify the script (e.g., Roman, Devanagari, Kannada script). However, the instruction is to ""write only the Kannada word",
+te-kn,flower,200,False,True,False,True,0.948,0.0,0.0,0.0,0.0,0.037,0.014,0.0,0.0,"1.  **Analyze the user's request:** This Telugu query asks to translate the word ""flower"" (పువ్వు) into Kannada (కన్నడ భాష). The user has provided a very specific instruction: ""Write only the Kannada word as the answer (సమాధానం).""
+
+2.  **Identify the core task:** The task is translation from English to Kannada.
+
+3.  **Identify the source word:** The source word is ""flower"".
+
+4.  **Identify the target language:** The target language is Kannada.
+
+5.  **Perform the translation:**
+    *   I need to find the Kannada word for ""flower"".
+    *   My internal knowledge base contains this information.
+    *   The Kannada word for ""flower"" is ""ಹೂವು"" (pronounced as ""hoovu"").
+    *   Let's double-check. A quick mental search or a simulated external search confirms this. ""ಹೂವು"" is the standard,",
+te-kn,house,200,False,True,False,True,0.89,0.0,0.0,0.0,0.0,0.103,0.006,0.0,0.0,"1.  **Analyze the user's request:** This Telugu query asks to translate (అనువదించండి) the word ""house"" (ఇల్లు) into Kannada.
+    *   **Source word:** ""house""
+    *   **Target language:** Kannada
+    *   **Output format:** ""Provide the Kannada word as the answer."" (సమాధానంగా కన్నడ పదాన్ని మాత్రమే రాయండి). This is a very strict instruction. It means *only* the Kannada word, no extra text, no explanation, no ""The Kannada word is..."".
+
+2.  **Translate ""house"" to Kannada:**
+    *   My internal knowledge base contains translations for common words.
+    *   ""house"" in English.
+    *   The Kannada word for a building where a person or a family lives is ""ಮನೆ"" (mane).
+    *   Let me double-check this.
+        *   Yes, ""mane"" is",
+te-kn,mountain,200,False,False,False,True,0.921,0.0,0.0,0.0,0.0,0.062,0.017,0.0,0.0,"1.  **Analyze the user's request:** This Telugu query asks to translate the word ""hill"" (కొండ) into Kannada (కన్నడ భాష). The user wants the Kannada word for ""hill"" and specifically requested the answer in Kannada (కేవలం కన్నడ పదాన్ని మాత్రమే).
+
+2.  **Identify the core task:** The task is translation from English to Kannada.
+
+3.  **Access my knowledge base:** I need to find the Kannada word for ""hill"".
+    *   My internal knowledge base contains translations for many common words.
+    *   I search for the English word ""hill"".
+    *   The primary Kannada translation for ""hill"" is ""ಬೆಟ್ಟ"" (pronounced as ""Bettada"").
+
+4.  **Consider alternative or less common translations:**
+    *   ""ಬೆಟ್ಟ"" (Bettada) is the most direct and common translation. It refers to a natural elevation of land, often with",
+ml-ta,cow,200,False,True,False,True,0.88,0.0,0.0,0.0,0.02,0.0,0.0,0.1,0.0,"1.  **Analyze the user's request:** This Malayalam query (മലയാളം ചോദ്യം) asks to translate the word ""cow"" (പശു) into Tamil.
+    *   **Source word:** ""cow"" (English)
+    *   **Target language:** Tamil
+    *   **Output format:** ""Provide the Tamil word as the answer."" (ഉത്തരം)
+    *   **Constraint:** ""Only write the Tamil word as the answer."" (മലയാളം വാക്ക് മാത്രം എഴുതുക)
+
+2.  **Initial knowledge check:**
+    *   I know the English word ""cow"".
+    *   I have a large database of word translations. I need to access the Tamil translation for ""cow"".
+    *   My internal knowledge base connects ""cow"" to the Tamil word ""கன்று"" (kandu) or ""மாடு"" (maadu).
+
+3.  **Refine the translation:**
+    *   **",
+ml-ta,flower,200,False,False,False,False,0.948,0.0,0.0,0.0,0.0,0.0,0.0,0.052,0.0,"1.  **Analyze the user's request:** This Malayalam query (മലയാളം ചോദ്യം) asks to translate the word ""pū"" (പൂവ്) into Tamil. I need to provide the Tamil word (തമിഴ് വാക്ക്) as the final answer.
+    *   **Source language:** Malayalam.
+    *   **Source word:** ""pū"".
+    *   **Target language:** Tamil.
+    *   **Task:** Translate the word.
+    *   **Output format:** ""Provide the Tamil word as the answer."" This is a very specific instruction. It means I should *only* output the Tamil word, with no extra text, no explanation, no ""The Tamil word is..."", just the word itself.
+
+2.  **Initial knowledge check:**
+    *   I know Malayalam and Tamil are both Dravidian languages.
+    *   I know they have a lot of mutual intelligibility, especially in the spoken form",
+ml-ta,house,200,False,True,False,True,0.941,0.0,0.0,0.0,0.017,0.0,0.0,0.042,0.0,"1.  **Analyze the user's request:** This Malayalam query (മലയാളം ചോദ്യം) asks to translate the word ""house"" (വീട്) into Tamil. The user wants the Tamil word for ""house"" and specifically requests only the Tamil word as the answer (ഉത്തരം).
+
+2.  **Identify the core task:** The task is translation from English to Tamil.
+
+3.  **Access knowledge base:** I need to find the Tamil word for ""house"".
+    *   My internal knowledge base contains translations for many common words.
+    *   I search for ""house"" -> ""Tamil"".
+    *   The primary, most common translation for ""house"" in Tamil is ""வீடு"" (pronounced as ""vīṭu"").
+
+4.  **Consider alternatives/nuances:**
+    *   Is there another common word for ""house""? Yes, ""கட்டு"" (kattu) can mean a building or",
+ml-ta,mountain,200,False,False,False,False,0.952,0.0,0.0,0.0,0.0,0.0,0.0,0.048,0.0,"1.  **Analyze the user's request:** This Malayalam query (മലയാളം ചോദ്യം) asks to translate the word ""mal"" (മല) into Tamil. I need to provide the Tamil word (തമിഴ് വാക്ക്) as the only response.
+    *   **Source language:** Malayalam
+    *   **Source word:** ""mal""
+    *   **Target language:** Tamil
+    *   **Task:** Translate the word.
+    *   **Constraint:** ""Write only the Tamil word as the response.""
+
+2.  **Initial knowledge check:**
+    *   I know Malayalam and Tamil are both Dravidian languages.
+    *   They are closely related, with significant mutual intelligibility, especially in the spoken form.
+    *   Words for common concepts (like ""house,"" ""water,"" ""food"") are often very similar or identical.
+    *   The word ""mal"" in Malayalam... what does it mean?
+        ",

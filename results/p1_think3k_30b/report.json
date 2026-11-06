@@ -1,0 +1,193 @@
+{
+ "usd_per_hour": 5.174,
+ "budget_minutes": 40.0,
+ "model_type": "sarvam_moe",
+ "stages": [
+  {
+   "stage": "load",
+   "est_minutes": 2,
+   "result": {
+    "model": "HFLensModel(SarvamMoEForCausalLM, n_layers=19, d_model=4096)",
+    "gpu_gb_allocated": 64.3,
+    "gpu_gb_by_device": {
+     "0": 64.3
+    },
+    "loading_info": {
+     "missing_keys": {
+      "n": 0,
+      "first": []
+     },
+     "unexpected_keys": {
+      "n": 0,
+      "first": []
+     },
+     "mismatched_keys": {
+      "n": 0,
+      "first": []
+     },
+     "error_msgs": {
+      "n": 0,
+      "first": []
+     }
+    }
+   },
+   "status": "ok",
+   "minutes": 0.61,
+   "log_tail": []
+  },
+  {
+   "stage": "sanity",
+   "est_minutes": 1.0,
+   "result": {
+    "bos_first": true,
+    "n_tokens": 19,
+    "stock_rerun_max_abs_diff": 0.0,
+    "rlens": {
+     "max_abs_diff": 0.0,
+     "stock_abs_max": 123.0,
+     "patched": {
+      "ln_rule": 39,
+      "mlp_rule": 19,
+      "routed_experts": 0,
+      "moe_blocks": 0
+     }
+    },
+    "r+moe": {
+     "max_abs_diff": 0.0,
+     "stock_abs_max": 123.0,
+     "patched": {
+      "ln_rule": 39,
+      "mlp_rule": 19,
+      "routed_experts": 2304,
+      "moe_blocks": 18
+     }
+    },
+    "seconds_per_forward": 0.203,
+    "timing_prompt_tokens": 101,
+    "greedy": {
+     "हिन्दी: \"पानी\" - English: \"": "water\".\n\nThe user wants a function that takes a string",
+     "தமிழ்: \"நீர்\" - తెలుగు: \"": "நீர்\" - హిందీ: \"నీరు\" - బెంగ",
+     "भारत की राजधानी": " है?\n1. दिल्ली\n2. मुंबई\n3",
+     "The capital of Tamil Nadu is": " Chennai.\n\nThe user's question is a statement,"
+    },
+    "greedy_water_ok": true
+   },
+   "status": "ok",
+   "minutes": 0.33,
+   "log_tail": []
+  },
+  {
+   "stage": "post1_experiment.think",
+   "est_minutes": 37.5,
+   "result": {
+    "n_jobs": 1080,
+    "decode": {
+     "max_rows": 1007,
+     "width": 3614,
+     "steps": 3658,
+     "admissions": 23,
+     "shifts": 1,
+     "slab_gb": 70.8,
+     "seconds": 1405.4,
+     "mean_step_s": 0.375,
+     "reasons": {
+      "cap": 229,
+      "loop": 76,
+      "answer_cap": 41,
+      "eos": 734
+     },
+     "think_end_token": 24
+    },
+    "headline": {
+     "pooled": {
+      "default": {
+       "accuracy": 0.7333,
+       "accuracy_ci": [
+        0.6667,
+        0.7959
+       ],
+       "own_share": 0.023,
+       "closed": 0.904,
+       "n": 240
+      },
+      "sys_en": {
+       "accuracy": 0.7083,
+       "accuracy_ci": [
+        0.6458,
+        0.775
+       ],
+       "own_share": 0.017,
+       "closed": 0.854,
+       "n": 240
+      },
+      "sys_native": {
+       "accuracy": 0.7333,
+       "accuracy_ci": [
+        0.6667,
+        0.8
+       ],
+       "own_share": 0.053,
+       "closed": 0.912,
+       "n": 240
+      },
+      "sys_native_prefill": {
+       "accuracy": 0.7167,
+       "accuracy_ci": [
+        0.6375,
+        0.7917
+       ],
+       "own_share": 0.935,
+       "closed": 0.154,
+       "n": 240
+      }
+     },
+     "contrasts": {
+      "default_minus_sys_en": {
+       "pts": 2.5,
+       "ci": [
+        -5.0,
+        9.5833
+       ],
+       "n": 240
+      },
+      "sys_native_minus_sys_en": {
+       "pts": 2.5,
+       "ci": [
+        -3.3333,
+        9.1667
+       ],
+       "n": 240
+      },
+      "sys_native_prefill_minus_sys_en": {
+       "pts": 0.8333,
+       "ci": [
+        -6.25,
+        7.9167
+       ],
+       "n": 240
+      }
+     },
+     "compliant_arms": [
+      "sys_native_prefill"
+     ]
+    }
+   },
+   "status": "ok",
+   "minutes": 25.21,
+   "log_tail": [
+    "post1: decode step 2900: 248 live, 0 queued, width 3040, 0.35 s/step, 832 done, 1197 s",
+    "post1: decode step 3000: 239 live, 0 queued, width 3140, 0.36 s/step, 841 done, 1233 s",
+    "post1: decode step 3100: 62 live, 0 queued, width 2953, 0.38 s/step, 1018 done, 1271 s",
+    "post1: decode step 3200: 58 live, 0 queued, width 3053, 0.31 s/step, 1022 done, 1302 s",
+    "post1: decode step 3300: 58 live, 0 queued, width 3153, 0.27 s/step, 1022 done, 1329 s",
+    "post1: decode step 3400: 34 live, 0 queued, width 3253, 0.25 s/step, 1046 done, 1354 s",
+    "post1: decode step 3500: 34 live, 0 queued, width 3353, 0.22 s/step, 1046 done, 1375 s",
+    "post1: decode step 3600: 34 live, 0 queued, width 3453, 0.21 s/step, 1046 done, 1397 s"
+   ]
+  }
+ ],
+ "elapsed_minutes": 26.49,
+ "est_cost_usd_so_far": 2.28,
+ "seconds_per_forward": 0.203,
+ "done": true
+}

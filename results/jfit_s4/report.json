@@ -1,0 +1,39 @@
+{
+ "usd_per_hour": 5.174,
+ "budget_minutes": 53.0,
+ "stages": [
+  {
+   "stage": "load",
+   "result": {
+    "model": "HFLensModel(SarvamMoEForCausalLM, n_layers=19, d_model=4096)",
+    "gpu_gb_allocated": 64.3
+   },
+   "status": "ok",
+   "minutes": 0.46,
+   "log_tail": []
+  },
+  {
+   "stage": "fit_j_shard",
+   "result": {
+    "exit": 0,
+    "shard": "4/5",
+    "minutes": 41.0
+   },
+   "status": "ok",
+   "minutes": 40.99,
+   "log_tail": [
+    "workspace_lens.fitting.expert_fitting:   prompt 35/40  seq_len=128 num_source_positions=111  60s",
+    "workspace_lens.fitting.expert_fitting:   prompt 36/40  seq_len=122 num_source_positions=105  57s",
+    "workspace_lens.fitting.expert_fitting:   prompt 37/40  seq_len=128 num_source_positions=111  62s",
+    "workspace_lens.fitting.expert_fitting:   prompt 38/40  seq_len=128 num_source_positions=111  56s",
+    "workspace_lens.fitting.expert_fitting:   prompt 39/40  seq_len=119 num_source_positions=102  57s",
+    "workspace_lens.fitting.expert_fitting:   prompt 40/40  seq_len=128 num_source_positions=111  58s",
+    "workspace_lens.fitting.expert_fitting: expert fit: done, 40 prompts",
+    "jpp_cli: shard checkpoint in /vol/runs/jfit/j_200p/2026-10-18/j_200p/shard4of5"
+   ]
+  }
+ ],
+ "elapsed_minutes": 41.64,
+ "est_cost_usd_so_far": 3.59,
+ "done": true
+}

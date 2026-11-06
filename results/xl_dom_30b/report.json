@@ -1,0 +1,147 @@
+{
+ "usd_per_hour": 5.174,
+ "budget_minutes": 12.0,
+ "model_type": "sarvam_moe",
+ "stages": [
+  {
+   "stage": "load",
+   "est_minutes": 2,
+   "result": {
+    "model": "HFLensModel(SarvamMoEForCausalLM, n_layers=19, d_model=4096)",
+    "gpu_gb_allocated": 64.3,
+    "gpu_gb_by_device": {
+     "0": 64.3
+    },
+    "loading_info": {
+     "missing_keys": {
+      "n": 0,
+      "first": []
+     },
+     "unexpected_keys": {
+      "n": 0,
+      "first": []
+     },
+     "mismatched_keys": {
+      "n": 0,
+      "first": []
+     },
+     "error_msgs": {
+      "n": 0,
+      "first": []
+     }
+    }
+   },
+   "status": "ok",
+   "minutes": 0.52,
+   "log_tail": []
+  },
+  {
+   "stage": "domain_experiment.profile",
+   "est_minutes": 6.72,
+   "result": {
+    "n_jobs": 8720,
+    "n_batches": 276,
+    "seconds": 228.2,
+    "lenses": [
+     "j_200p",
+     "logit"
+    ],
+    "jobs_by_domain": {
+     "mgsm": 2480,
+     "science": 2080,
+     "technical": 2080,
+     "everyday": 2080
+    },
+    "n_variants": 31,
+    "headline": {
+     "World|mgsm": [
+      0.8511,
+      0.1111,
+      3,
+      0
+     ],
+     "World|science": [
+      0.8132,
+      0.0732,
+      3,
+      0
+     ],
+     "World|technical": [
+      0.7581,
+      0.0181,
+      2,
+      0
+     ],
+     "World|everyday": [
+      0.74,
+      null,
+      null,
+      null
+     ],
+     "All 22 scheduled|mgsm": [
+      0.8408,
+      0.0824,
+      22,
+      0
+     ],
+     "All 22 scheduled|science": [
+      0.7845,
+      0.0261,
+      17,
+      0
+     ],
+     "All 22 scheduled|technical": [
+      0.7736,
+      0.0152,
+      7,
+      0
+     ],
+     "All 22 scheduled|everyday": [
+      0.7584,
+      null,
+      null,
+      null
+     ],
+     "English|mgsm": [
+      0.9756,
+      0.0318,
+      1,
+      0
+     ],
+     "English|science": [
+      0.9652,
+      0.0214,
+      1,
+      0
+     ],
+     "English|technical": [
+      0.9629,
+      0.019,
+      1,
+      0
+     ],
+     "English|everyday": [
+      0.9438,
+      null,
+      null,
+      null
+     ]
+    }
+   },
+   "status": "ok",
+   "minutes": 4.06,
+   "log_tail": []
+  },
+  {
+   "stage": "domain_experiment.mgsm",
+   "est_minutes": 3.03,
+   "status": "error: OutOfMemoryError('CUDA out of memory. Tried to allocate 53.09 GiB. GPU 0 has a total capacity of 139.79 GiB of which 24.15 GiB is free. Process 1 has 115.64 GiB memory in use. Of the allocated memory 96.93 GiB is allocated by PyTorch, and 18.00 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)')",
+   "traceback": "Traceback (most recent call last):\n  File \"/sarvam-lens/modal_pilot.py\", line 155, in stage\n    entry[\"result\"] = fn()\n                      ^^^^\n  File \"/sarvam-lens/modal_pilot.py\", line 825, in run\n    result = importlib.import_module(module_name).run(xl_ctx(name), analysis)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/sarvam-lens/domain_experiment.py\", line 1226, in run\n    return RUNNERS[analysis](ctx, _opts(ctx, analysis))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/sarvam-lens/domain_experiment.py\", line 718, in run_mgsm\n    generated, captured = _generate_with_readout(model, [jobs[j][\"ids\"] for j in batch], layers,\n                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/sarvam-lens/domain_experiment.py\", line 690, in _generate_with_readout\n    generated = batch_gen.generate(model, ids_list, max_new_tokens=max_new_tokens, end_ids=end_ids, batch_size=len(rows))\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/sarvam-lens/batch_gen.py\", line 51, in generate\n    step_out = hf(input_ids=input_ids, attention_mask=mask, position_ids=positions,\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/site-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/site-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n    return forward_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/__modal/volumes/vo-cdiSfszx6aDRfVJtmL9Lm5/hf/hub/models--sarvamai--sarvam-30b/snapshots/071ae95e933605ca1104a6b4524a36a98488efa4/modeling_sarvam_moe.py\", line 1009, in forward\n    logits = logits.float()\n             ^^^^^^^^^^^^^^\ntorch.OutOfMemoryError: CUDA out of memory. Tried to allocate 53.09 GiB. GPU 0 has a total capacity of 139.79 GiB of which 24.15 GiB is free. Process 1 has 115.64 GiB memory in use. Of the allocated memory 96.93 GiB is allocated by PyTorch, and 18.00 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)\n",
+   "minutes": 1.56,
+   "log_tail": []
+  }
+ ],
+ "elapsed_minutes": 6.42,
+ "est_cost_usd_so_far": 0.55,
+ "done": true
+}

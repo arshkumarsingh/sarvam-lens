@@ -1,0 +1,23 @@
+# concept: cow
+# page: cow/translations
+# revid: 93476320
+# section_url: https://en.wiktionary.org/w/index.php?title=cow/translations&action=raw
+## block: {{trans-top|adult female of species ''Bos taurus''}}
+* Assamese: {{tt|as|গাইগৰু}}, {{tt|as|গৰু}}
+MISSING Odia
+MISSING Punjabi
+* Urdu: {{tt|ur|گائے|f}}, {{tt|ur|گو|f}}, {{tt|ur|گَئُو|f}}, {{tt|ur|بَقَر|m}}
+* Nepali: {{tt+|ne|गाई}}
+* Sanskrit: {{tt+|sa|धेनु}}, {{tt+|sa|गो}}, {{tt+|sa|अघ्न्या|f}}
+MISSING Maithili
+* Sindhi: {{tt|sd|ڳَئُون|f}}
+MISSING Kashmiri
+* Konkani: {{t|kok|गाय|f|n|tr=gāy}}
+MISSING Dogri
+MISSING Manipuri
+MISSING Bodo
+* Santali: {{tt|sat|ᱜᱟᱤ}}
+* Japanese: {{tt+|ja|雌牛|tr=めうし, meushi}}, {{tt+|ja|牛|tr=うし, ushi}}
+* Russian: {{tt+|ru|коро́ва|f}}
+* Arabic: {{tt+|ar|بَقَرَة|f}}
+* Hindi: {{tt+|hi|गाय|f}}, {{tt+|hi|गो|m}}, {{tt+|hi|गऊ|f}}, {{tt+|hi|बकर|m}}

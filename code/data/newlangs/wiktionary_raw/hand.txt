@@ -1,0 +1,27 @@
+# concept: hand
+# page: hand/translations
+# revid: 93585158
+# section_url: https://en.wiktionary.org/w/index.php?title=hand/translations&action=raw
+## block: {{trans-top|part of the fore limb}}{{multitrans|data=
+* Assamese: {{t|as|হাত}}
+* Odia: {{t+|or|ହାତ}}
+* Punjabi:
+*: Gurmukhi: {{t|pa|ਹੱਥ|m}}
+*: Shahmukhi: {{t|pa|ہَتّھ|m}}
+* Urdu: {{t|ur|ہاتھ|m}},  {{t+|ur|دَسْت|m}}
+* Nepali: {{t+|ne|हात}}
+* Sanskrit: {{t+|sa|हस्त|m}},  {{t+|sa|पाणि|m}}
+MISSING Maithili
+* Sindhi: {{t+|sd|ھَٿُ|m}}
+* Kashmiri:
+*: Perso-Arabic: {{t|ks|اَتھٕ|m}}
+*: Devanagari: {{t|ks|अथॖ|m}}
+* Konkani: {{t|kok|हाथु}}
+MISSING Dogri
+* Manipuri: {{t-needed|mni}}
+MISSING Bodo
+* Santali: {{t+|sat|ᱛᱤ}}
+* Japanese: {{t+|ja|手|tr=て, te}}
+* Russian: {{t+|ru|рука́|f}},  {{t|ru|[[кисть]] [[рука|руки́]]|f}}
+* Arabic: {{t+|ar|يَد|f}}
+* Hindi: {{t+|hi|हाथ|m}}

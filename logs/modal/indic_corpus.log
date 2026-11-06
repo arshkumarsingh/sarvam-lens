@@ -1,0 +1,26 @@
+✓ Initialized. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-ZvbtPmD6tATLpWSubhdQdI
+✓ Created objects.
+├── ✓ Uploaded .\code\modal_app.py
+├── ✓ Uploaded .\code
+├── ✓ Created Function prepare_weights.
+├── ✓ Created Function smoke.
+├── ✓ Created Function smoke_2gpu.
+├── ✓ Created Function prepare_qwen.
+├── ✓ Created Function cka.
+├── ✓ Created Function pilot.
+├── ✓ Created Function pilot2.
+├── ✓ Created Function merge_j.
+├── ✓ Created Function build_corpus_fn.
+├── ✓ Created Function cka_robust.
+└── ✓ Created Function diagnose.
+CPU 2c/8G, hard timeout 30 min -> worst case $0.09
+{
+ "exit": 0,
+ "out": "/vol/corpora/indic_wiki.json",
+ "stdout_tail": "en: 4 passages\nhi: 4 passages\nbn: 4 passages\nta: 4 passages\nte: 4 passages\nmr: 4 passages\ngu: 4 passages\nkn: 4 passages\nml: 4 passages\nwrote 36 prompts to /vol/corpora/indic_wiki.json\n",
+ "stderr_tail": "Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"
+}
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-ZvbtPmD6tATLpWSubhdQdI

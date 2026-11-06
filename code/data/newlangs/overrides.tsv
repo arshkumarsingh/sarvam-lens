@@ -1,0 +1,52 @@
+# Manual choices, each from a cited list (an empty source means the concept's translation table).
+# words: the spellings in order (the first is the prompt word); "-" leaves the cell empty.
+concept	lang	words	source	note
+water	or	ପାଣି|ଜଳ		table lists ଜଳ (Sanskrit, formal) first; ପାଣି is the everyday word, also listed
+water	sa	जल|अप्		table lists अप् (Vedic) first; जल is the common word, also listed
+moon	or	ଜହ୍ନ|ଚନ୍ଦ୍ର		table lists ଚନ୍ଦ୍ର (Sanskrit) first; ଜହ୍ନ is the everyday word, also listed
+bird	or	ଚଢ଼େଇ|ପକ୍ଷୀ		table lists ପକ୍ଷୀ (Sanskrit) first; ଚଢ଼େଇ is the everyday word, also listed
+bird	sa	पक्षिन्		table lists वि (a one-letter Vedic word) first; पक्षिन् also listed
+sun	ur	سورج|سوریہ		table lists سُورْیَہ (Sanskritized) first; سُورَج is the everyday word, also listed
+mother	ur	ماں|ماتا		table lists ماتا first; ماں is the everyday word, also listed
+house	pa	ਘਰ|ਮਕਾਨ		table lists ਮਕਾਨ (Persian loan) first; ਘਰ is the everyday word, also listed
+book	pa	ਕਿਤਾਬ|ਪੋਥੀ		table lists ਪੋਥੀ first; ਕਿਤਾਬ is the everyday word, also listed
+mountain	pa	ਪਹਾੜ|ਪਰਬਤ		table lists ਪਰਬਤ first; ਪਹਾੜ is the everyday word, also listed
+tree	sa	वृक्ष|तरु		table lists तरु first; वृक्ष is the common word, also listed
+mother	sa	मातृ|अम्बा		every Sanskrit word in the table is {{t-check}} (unverified); मातृ (stem of माता) chosen, अम्बा kept as variant
+cat	ja	猫		table lists 家猫 (house cat) first; 猫 is the everyday word, also listed
+milk	ja	牛乳|乳		table lists 乳 (milk in general, also breast) first; 牛乳 (the drink) is the everyday word, also listed
+hand	sd	ھٿ|هٿ	https://www.wikidata.org/wiki/Q33767	table form ھَٿُ (U+06BE heh doachashmee); Wikidata's label هٿ (U+0647 heh) kept as a spelling variant
+milk	sd	شير|کير	https://www.wikidata.org/wiki/Q8495	table form شير first; Wikidata's label کير kept as a variant
+king	sd	سلطان|بادشاھ		both listed in the table
+flower	sat	ᱵᱟᱦᱟ|ᱯᱷᱩᱞ	https://en.wiktionary.org/w/index.php?title=Appendix:Santali_Swadesh_list&oldid=82403268	table lists ᱯᱷᱩᱞ (an Indo-Aryan loan, phul) first; ᱵᱟᱦᱟ (native baha) is also in the table and is the Swadesh list's word
+dog	sat	ᱥᱮᱛᱟ|ᱥᱮᱛᱚ	https://en.wiktionary.org/w/index.php?title=Appendix:Santali_Swadesh_list&oldid=82403268	table spells ᱥᱮᱛᱚ; the Swadesh list and Wikidata (Q144) both spell ᱥᱮᱛᱟ, kept first
+bird	sat	ᱪᱮᱺᱬᱮᱹ|ᱪᱮᱬᱮ		table spelling first; the Swadesh list's ᱪᱮᱬᱮ (no nasal/length marks) kept as a variant
+mother	sat	ᱮᱝᱜᱚ|ᱮᱸᱜᱟ		table spelling first; the Swadesh list's ᱮᱸᱜᱟ kept as a variant
+fire	sat	ᱥᱮᱺᱜᱮᱹᱞ|ᱥᱮᱸᱜᱮᱞ		table spelling first; the Swadesh list's and Wikidata's ᱥᱮᱸᱜᱮᱞ kept as a variant
+mother	brx	बिमा	https://en.wiktionary.org/w/index.php?title=%E0%A4%AC%E0%A4%BF%E0%A4%AE%E0%A4%BE&oldid=77910414	table: आइ (1st person, "my mother"), बिमा (3rd person); the entry बिमा is defined "# [[mother]]"
+water	brx	दै	https://en.wiktionary.org/w/index.php?title=%E0%A4%A6%E0%A5%88&oldid=92769336	table has only the romanization dwi; Wiktionary entry दै: "# [[water]]"
+fire	brx	अर	https://en.wiktionary.org/w/index.php?title=%E0%A4%85%E0%A4%B0&oldid=93636711	Wiktionary entry: "# [[fire]]"
+cat	brx	मावजि	https://en.wiktionary.org/w/index.php?title=%E0%A4%AE%E0%A4%BE%E0%A4%B5%E0%A4%9C%E0%A4%BF&oldid=51789654	Wiktionary entry: "# [[cat]]"
+hand	brx	आखाय	https://en.wiktionary.org/w/index.php?title=%E0%A4%86%E0%A4%96%E0%A4%BE%E0%A4%AF&oldid=47793893	Wiktionary entry: "# {{lb|brx|anatomy}} [[hand]]"
+river	brx	दैमा	https://en.wiktionary.org/w/index.php?title=%E0%A4%A6%E0%A5%88%E0%A4%AE%E0%A4%BE&oldid=47793633	Wiktionary entry: "# [[river]]"
+mountain	brx	हाजो	https://en.wiktionary.org/w/index.php?title=%E0%A4%B9%E0%A4%BE%E0%A4%9C%E0%A5%8B&oldid=47793639	Wiktionary entry: "# [[mountain]]"
+sky	brx	अख्रां	https://en.wiktionary.org/w/index.php?title=%E0%A4%85%E0%A4%96%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%82&oldid=48244635	Wiktionary entry: "# [[sky]]" (first sense)
+fish	brx	ना	https://en.wiktionary.org/w/index.php?title=%E0%A4%A8%E0%A4%BE&oldid=91927814	Wiktionary entry: "# [[fish]]"
+salt	brx	संख्रि	https://en.wiktionary.org/w/index.php?title=%E0%A4%B8%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%B0%E0%A4%BF&oldid=47793866	Wiktionary entry: "# [[salt]]"
+name	brx	मुं	https://en.wiktionary.org/w/index.php?title=%E0%A4%AE%E0%A5%81%E0%A4%82&oldid=47793111	Wiktionary entry: "# [[name]]"
+road	brx	लामा	https://en.wiktionary.org/w/index.php?title=%E0%A4%B2%E0%A4%BE%E0%A4%AE%E0%A4%BE&oldid=71736884	Wiktionary entry: "# [[road]]"
+water	doi	पानी	https://en.wiktionary.org/w/index.php?title=%E0%A4%AA%E0%A4%BE%E0%A4%A8%E0%A5%80&oldid=92486221	Wiktionary entry (Dogri section): "# [[water]]"
+house	doi	घर	https://en.wiktionary.org/w/index.php?title=%E0%A4%98%E0%A4%B0&oldid=90910492	Wiktionary entry (Dogri section): "# [[house]]; [[home]]"
+eye	doi	अक्ख	https://en.wiktionary.org/w/index.php?title=%E0%A4%85%E0%A4%95%E0%A5%8D%E0%A4%96&oldid=76140162	Wiktionary entry: "# {{lb|doi|anatomy}} [[eye]]"
+fish	doi	मच्छी	https://en.wiktionary.org/w/index.php?title=%E0%A4%AE%E0%A4%9A%E0%A5%8D%E0%A4%9B%E0%A5%80&oldid=87516272	Wiktionary entry: "# [[fish]]"
+tree	mai	गाछ	https://en.wiktionary.org/w/index.php?title=%E0%A4%97%E0%A4%BE%E0%A4%9B&oldid=91380366	Wiktionary entry: "# [[tree]]"
+book	mai	पोथी|किताप	https://en.wiktionary.org/w/index.php?title=%E0%A4%AA%E0%A5%8B%E0%A4%A5%E0%A5%80&oldid=87512098	Wiktionary entries पोथी, किताप (87165187) and पुस्तक (93640506) are all "# [[book]]"; पुस्तक left out (identical to Hindi)
+cow	mai	गाय	https://en.wiktionary.org/w/index.php?title=%E0%A4%97%E0%A4%BE%E0%A4%AF&oldid=91399346	Wiktionary entry (Maithili section): "# [[cow]]"
+salt	mai	नून	https://en.wiktionary.org/w/index.php?title=%E0%A4%A8%E0%A5%82%E0%A4%A8&oldid=90461741	Wiktionary entry (Maithili section): "# [[salt]]"
+bird	kok	सुकणें|पक्षी	https://en.wiktionary.org/w/index.php?title=%E0%A4%B8%E0%A5%81%E0%A4%95%E0%A4%A3%E0%A5%87%E0%A4%82&oldid=78227838	Wiktionary entries सुकणें, पक्षी (91927843) and सवणें (76141370) are all "# [[bird]]"; पक्षी (Sanskrit, identical to Hindi) put second
+sky	sa	आकाश|दिव		table lists दिव (Vedic stem) first; आकाश, the common word, is also listed
+sky	kok	मळब|आकाश		table lists आकाश (Sanskrit, identical to Hindi) first; the native मळब is also listed
+rain	ne	झरी|वर्षा		table lists वर्षा (formal, identical to Hindi) first; the everyday झरी is also listed
+rain	sat	ᱡᱟᱹᱲᱤ	https://en.wiktionary.org/w/index.php?title=Appendix:Santali_Swadesh_list&oldid=82403268	the table gives ᱫᱟᱜ, the same word as water; the Swadesh list's rain word ᱡᱟᱹᱲᱤ keeps the two concepts distinct
+cow	ja	牛|雌牛		table lists 雌牛 (female bovine, technical) first; 牛, the everyday word, is also listed
+fish	or	ମୀନ|ମତ୍ସ୍ଯ		both table words are Sanskrit; the everyday Odia ମାଛ is not listed (kept as found: a known word-list gap)

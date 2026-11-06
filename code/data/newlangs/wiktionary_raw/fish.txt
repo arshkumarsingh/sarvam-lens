@@ -1,0 +1,23 @@
+# concept: fish
+# page: fish/translations
+# revid: 93580922
+# section_url: https://en.wiktionary.org/w/index.php?title=fish/translations&action=raw
+## block: {{trans-top|vertebrate animal}}
+* Assamese: {{tt|as|মাছ}}
+* Odia: {{tt+|or|ମୀନ}}, {{tt|or|ମତ୍ସ୍ଯ}}
+* Punjabi: {{tt|pa|ਮੱਛੀ}}
+* Urdu: {{tt|ur|مَچْھلی|f}}, {{tt|ur|ماہی|f|tr=māhī}}, {{tt|ur|مَتْسیَہ|m}}
+* Nepali: {{tt|ne|माछा}}
+* Sanskrit: {{tt+|sa|मत्स्य|m}}, {{tt+|sa|मीन|m}}, {{tt+|sa|झष|m|tr=jhaṣá}}
+MISSING Maithili
+* Sindhi: {{tt|sd|मच्छी}}
+MISSING Kashmiri
+* Konkani: {{tt|kok|मासोळि}}, {{t|kok|जळ्के|tr=dzaḷke}}
+MISSING Dogri
+* Manipuri: {{tt|mni|ꯉꯥ}}, {{tt+|mni|ꯂꯦꯝꯂꯩ}}
+MISSING Bodo
+* Santali: {{tt+|sat|ᱦᱟᱹᱠᱩ}}
+* Japanese: {{tt+|ja|魚|tr=sakana, uo}}, {{t+|ja|魚類|tr=gyorui}} {{qualifier|collective}}
+* Russian: {{tt+|ru|ры́ба|f}}
+* Arabic: {{qualifier|singular}} {{tt+|ar|سَمَكَة|f}}, {{qualifier|collective}} {{tt+|ar|سَمَك|m}}, {{t+|ar|حُوت|m}}
+* Hindi: {{tt+|hi|मछली|f}}, {{tt+|hi|मत्स्य|m}}, {{tt+|hi|माही|f}}, {{tt+|hi|मीन|m}}, {{tt+|hi|मच्छी|f}}

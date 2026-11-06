@@ -1,0 +1,75 @@
+{
+ "n_items": 272,
+ "mid_layers": [
+  13,
+  14,
+  15,
+  16
+ ],
+ "early_layers": [
+  5,
+  6,
+  7,
+  8
+ ],
+ "answer_mid@2.0": {
+  "n": 272,
+  "flip_to_B_rate": 0.04044117647058824,
+  "still_A_rate": 0.8823529411764706,
+  "mean_pB_gain": 0.03705239035962099
+ },
+ "answer_mid@4.0": {
+  "n": 272,
+  "flip_to_B_rate": 0.10294117647058823,
+  "still_A_rate": 0.75,
+  "mean_pB_gain": 0.0983752257182921
+ },
+ "english_early@2.0": {
+  "n": 272,
+  "flip_to_B_rate": 0.0,
+  "still_A_rate": 0.9705882352941176,
+  "mean_pB_gain": -0.00030883973593442623
+ },
+ "english_early@4.0": {
+  "n": 272,
+  "flip_to_B_rate": 0.0,
+  "still_A_rate": 0.0,
+  "mean_pB_gain": -0.0006905472981818257
+ },
+ "english_mid@2.0": {
+  "n": 272,
+  "flip_to_B_rate": 0.029411764705882353,
+  "still_A_rate": 0.5330882352941176,
+  "mean_pB_gain": 0.0192393332364603
+ },
+ "english_mid@4.0": {
+  "n": 272,
+  "flip_to_B_rate": 0.0,
+  "still_A_rate": 0.003676470588235294,
+  "mean_pB_gain": -0.0007393117475445056
+ },
+ "hindi_mid@2.0": {
+  "n": 272,
+  "flip_to_B_rate": 0.007352941176470588,
+  "still_A_rate": 0.6801470588235294,
+  "mean_pB_gain": 0.009115229115853142
+ },
+ "hindi_mid@4.0": {
+  "n": 272,
+  "flip_to_B_rate": 0.007352941176470588,
+  "still_A_rate": 0.04044117647058824,
+  "mean_pB_gain": 0.005219646568216882
+ },
+ "null_mid@2.0": {
+  "n": 272,
+  "flip_to_B_rate": 0.0,
+  "still_A_rate": 0.5588235294117647,
+  "mean_pB_gain": 0.0016238752045453588
+ },
+ "null_mid@4.0": {
+  "n": 272,
+  "flip_to_B_rate": 0.0,
+  "still_A_rate": 0.011029411764705883,
+  "mean_pB_gain": -0.0007597975081064436
+ }
+}

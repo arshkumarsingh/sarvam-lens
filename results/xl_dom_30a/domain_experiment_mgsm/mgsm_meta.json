@@ -1,0 +1,84 @@
+{
+ "model_kind": "sarvam30",
+ "lenses": [
+  "j_200p",
+  "logit"
+ ],
+ "layers": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18
+ ],
+ "final": 18,
+ "band": [
+  13,
+  14,
+  15,
+  16
+ ],
+ "cols": [
+  "latin",
+  "devanagari",
+  "bengali",
+  "gurmukhi",
+  "gujarati",
+  "oriya",
+  "tamil",
+  "telugu",
+  "kannada",
+  "malayalam",
+  "meitei",
+  "olchiki",
+  "arabic",
+  "cyrillic",
+  "kana",
+  "han",
+  "otherscript",
+  "mixed",
+  "neutral",
+  "bytes",
+  "special"
+ ],
+ "roles": [
+  "ascii_first",
+  "native_first",
+  "ascii_ctrl"
+ ],
+ "demos": [
+  "mgsm-084",
+  "mgsm-134"
+ ],
+ "opts": {
+  "items": 60,
+  "batch": 32,
+  "max_new_tokens": 10,
+  "human": true,
+  "langs": [
+   "en",
+   "bn_h",
+   "te_h",
+   "ja_h",
+   "ru_h",
+   "zh_h"
+  ]
+ },
+ "n_jobs": 360,
+ "seconds": 58.2,
+ "example_prompt": "<bos>[@BOS@]\n<|start_of_turn|><|user|>\nA football team played 22 games. They won 8 more than they lost. How many did they win?<|nothink|><|end_of_turn|>\n<|start_of_turn|><|assistant|>\n<think></think>\n15<|end_of_turn|>\n<|start_of_turn|><|user|>\nTom gets 4 car washes a month.  If each car wash costs $15 how much does he pay in a year?<|nothink|><|end_of_turn|>\n<|start_of_turn|><|assistant|>\n<think></think>\n720<|end_of_turn|>\n<|start_of_turn|><|user|>\nJanet’s ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at the farmers' market daily for $2 per fresh duck egg. How much in dollars does she make every day at the farmers' market?<|nothink|><|end_of_turn|>\n<|start_of_turn|><|assistant|>\n<think></think>\n"
+}

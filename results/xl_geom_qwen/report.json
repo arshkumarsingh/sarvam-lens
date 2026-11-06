@@ -1,0 +1,158 @@
+{
+ "usd_per_hour": 5.174,
+ "budget_minutes": 6.0,
+ "model_type": null,
+ "stages": [
+  {
+   "stage": "load",
+   "est_minutes": 2,
+   "result": {
+    "model": "HFLensModel(Qwen3_5MoeForCausalLM, n_layers=40, d_model=2048)",
+    "gpu_gb_allocated": 69.3,
+    "gpu_gb_by_device": {
+     "0": 69.3
+    },
+    "loading_info": {}
+   },
+   "status": "ok",
+   "minutes": 0.79,
+   "log_tail": []
+  },
+  {
+   "stage": "newlang_experiment.geometry",
+   "est_minutes": 2.75,
+   "result": {
+    "model_kind": "qwen",
+    "n_cells": 788,
+    "band": [
+     27,
+     28,
+     29,
+     30,
+     31,
+     32
+    ],
+    "carriers": {
+     "word": {
+      "retrieval_band": 0.2393,
+      "chance": 0.0344,
+      "centred_order_band": [
+       [
+        "hi",
+        "mr",
+        "gu",
+        "ne",
+        "doi"
+       ],
+       [
+        "hi",
+        "mr",
+        "gu",
+        "ne",
+        "bn"
+       ],
+       [
+        "mr",
+        "hi",
+        "gu",
+        "ne",
+        "bn"
+       ],
+       [
+        "mr",
+        "hi",
+        "gu",
+        "bn",
+        "ne"
+       ],
+       [
+        "mr",
+        "hi",
+        "gu",
+        "ne",
+        "doi"
+       ],
+       [
+        "hi",
+        "mr",
+        "gu",
+        "ne",
+        "pa"
+       ]
+      ],
+      "en_rank_centred_band": [
+       18,
+       17,
+       16,
+       16,
+       16,
+       15
+      ]
+     },
+     "line": {
+      "retrieval_band": 0.4883,
+      "chance": 0.0344,
+      "centred_order_band": [
+       [
+        "gu",
+        "hi",
+        "pa",
+        "bn",
+        "mr"
+       ],
+       [
+        "gu",
+        "hi",
+        "pa",
+        "bn",
+        "mr"
+       ],
+       [
+        "gu",
+        "hi",
+        "pa",
+        "bn",
+        "mr"
+       ],
+       [
+        "gu",
+        "hi",
+        "pa",
+        "en",
+        "bn"
+       ],
+       [
+        "gu",
+        "hi",
+        "pa",
+        "bn",
+        "mr"
+       ],
+       [
+        "gu",
+        "hi",
+        "pa",
+        "bn",
+        "ur"
+       ]
+      ],
+      "en_rank_centred_band": [
+       8,
+       6,
+       7,
+       4,
+       8,
+       8
+      ]
+     }
+    }
+   },
+   "status": "ok",
+   "minutes": 0.96,
+   "log_tail": []
+  }
+ ],
+ "elapsed_minutes": 1.92,
+ "est_cost_usd_so_far": 0.17,
+ "done": true
+}

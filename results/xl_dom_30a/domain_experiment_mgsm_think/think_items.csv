@@ -1,0 +1,2372 @@
+job,variant,lang,source,id,answer,n_tokens,closed_think,latin_share,own_share,devanagari_share,han_share,n_letters,correct,reasoning,after_think
+0,en,en,en,mgsm-000,18.0,400,False,1.0,1.0,0.0,0.0,1195,,"We need to parse the problem.
+
+""Janet’s ducks lay 16 eggs per day."" So total eggs = 16 per day.
+
+""She eats three for breakfast every morning and bakes muffins for her friends every day with four.""
+
+Interpretation: She eats three eggs for breakfast each morning. She bakes muffins for her friends every day with four (maybe she uses four eggs to bake muffins? Or she bakes muffins with four eggs? The phrase ""bakes muffins for her friends every day with four."" Could be ambiguous. Possibly she bakes muffins using four eggs (i.e., she uses four eggs to make muffins). Or she bakes muffins for her friends every day, and she uses four eggs (maybe she bakes four muffins? But the phrase ""with four"" is unclear). The typical reading: She bakes muffins for her friends every day with four (i.e., she bakes four muffins). But the phrase ""with four"" could be ""with four eggs."" The problem is about eggs, so likely the usage of eggs is relevant. She uses four eggs to bake muffins.
+
+Thus, she uses 3 eggs for breakfast + 4 eggs for muffins = 7 eggs used.
+
+Thus, remainder eggs = 16 - 7 = 9 eggs.
+
+She sells the remainder at the farmers' market daily for $2 per fresh duck egg.
+
+Thus, revenue = 9 eggs * $2 = $18.
+
+Thus, answer: $18.
+
+But we need to double-check the interpretation.
+
+The problem: ""Janet’s ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at the farmers' market daily for $2 per fresh duck egg",
+1,en,en,en,mgsm-001,3.0,400,True,1.0,1.0,0.0,0.0,884,False,"We have a problem: ""A robe takes 2 bolts of blue fiber and half that much white fiber. How many bolts in total does it take?"" So we have 2 bolts of blue fiber. Half that much white fiber: half of 2 = 1 bolt of white fiber. So total = 2 + 1 = 3 bolts.
+
+Thus answer: 3 bolts.
+
+But we need to consider if there is any nuance: ""half that much white fiber"" could be interpreted as half the amount of blue fiber, i.e., half of 2 = 1. So total = 2 + 1 = 3.
+
+Thus answer: 3 bolts.
+
+We can also show the steps.
+
+Thus final answer: 3 bolts.
+
+We can also check if any other interpretation: maybe ""half that much white fiber"" could be half of the total? But no, it's half of the blue fiber.
+
+Thus answer: 3.
+
+Thus we can answer: It takes 3 bolts in total.
+
+We can also provide a short solution.
+
+Thus final answer: 3.
+
+We can also include a small explanation.
+
+Thus final answer: 3 bolts.
+
+Now we can answer.
+
+We can also ask: ""How many bolts in total does it take?"" So answer: 3.
+
+Thus final answer: 3.
+
+We can also include a short explanation: The robe uses 2 bolts of blue fiber and half that amount of white fiber (1 bolt). So total = 2 + 1 = 3.
+
+Thus final answer: 3.
+
+We can also answer in a sentence: It takes 3 bolts in total.
+
+Thus final answer.
+
+Now we can output.","
+The robe uses  
+
+- 2 bolts of blue fiber  
+- ½ of that amount of white"
+2,en,en,en,mgsm-002,70000.0,400,False,1.0,1.0,0.0,0.0,882,,"We need to parse the problem.
+
+Josh buys a house for $80,000 and then puts in $50,000 in repairs. This increased the value of the house by 150%. How much profit did he make?
+
+Interpretation: The house originally valued at $80,000 (the purchase price). He spends $50,000 on repairs. The repairs increase the value of the house by 150%. Does that mean the value of the house after repairs is increased by 150% relative to its original value (i.e., the house's value is now 150% of the original value)? Or does it mean the increase in value is 150% of the original value (i.e., the increase is 150% of $80,000 = $120,000)? Usually ""increased the value of the house by 150%"" means the value increased by 150% of the original value, so the new value is original + 150% of original = 250% of original. But sometimes people say ""increased by 150%"" meaning the new value is 150% of the original (i.e., a 50% increase). But the phrase ""increased the value of the house by 150%"" is ambiguous. However, typical usage: ""increase by 150%"" means the increase is 150% of the original, so the new value is 250% of the original. But we need to see if the problem expects that.
+
+We have: purchase price $80,000. He spends $50,000 in repairs. The repairs increased the value of the house by 150%. So the new value of the",
+3,en,en,en,mgsm-003,540.0,400,False,1.0,1.0,0.0,0.0,853,,"We need to parse the problem: James decides to run 3 sprints 3 times a week. He runs 60 meters each sprint. How many total meters does he run a week?
+
+Interpretation: He runs 3 sprints each time, and he does that 3 times a week. So total number of sprints per week = 3 sprints * 3 times = 9 sprints. Each sprint is 60 meters. So total meters = 9 * 60 = 540 meters.
+
+But maybe the phrase ""run 3 sprints 3 times a week"" could be ambiguous: It could mean he runs 3 sprints per week, and he does that 3 times a week? That doesn't make sense. Or it could be ""run 3 sprints 3 times a week"" meaning he runs 3 sprints, and he does that 3 times a week (i.e., 3 times per week). So that's 3 sprints per session, 3 sessions per week. So 9 sprints per week.
+
+Thus answer: 540 meters.
+
+We can also show the calculation: 3 sprints per session * 60 meters = 180 meters per session. Then 3 sessions per week = 180 * 3 = 540 meters.
+
+Thus answer: 540 meters.
+
+We can also double-check: 3 sprints * 60 = 180. 180 * 3 = 540.
+
+Thus answer: 540 meters.
+
+We can also present in a simple way.
+
+Thus final answer: 540 meters.
+
+We can also ask if they want to know the total per week.
+
+Thus answer: 540 meters.
+
+We can also provide a step-by-step solution.
+
+Thus final answer: 540 meters",
+4,en,en,en,mgsm-004,20.0,400,False,1.0,1.0,0.0,0.0,1166,,"We need to parse the problem.
+
+The problem: ""Every day, Wendi feeds each of her chickens three cups of mixed chicken feed, containing seeds, mealworms and vegetables to help keep them healthy. She gives the chickens their feed in three separate meals. In the morning, she gives her flock of chickens 15 cups of feed. In the afternoon, she gives her chickens another 25 cups of feed. How many cups of feed does she need to give her chickens in the final meal of the day if the size of Wendi's flock is 20 chickens?""
+
+We need to find the amount of feed in the final meal (the third meal) given the total feed per chicken per day is 3 cups. The flock size is 20 chickens. So total feed per day for the flock is 20 chickens * 3 cups per chicken = 60 cups per day.
+
+We have already given 15 cups in the morning and 25 cups in the afternoon. So total given so far = 15 + 25 = 40 cups.
+
+Thus the final meal must be 60 - 40 = 20 cups.
+
+Thus answer: 20 cups.
+
+But we need to check if there is any nuance: The problem says ""Every day, Wendi feeds each of her chickens three cups of mixed chicken feed, containing seeds, mealworms and vegetables to help keep them healthy. She gives the chickens their feed in three separate meals. In the morning, she gives her flock of chickens 15 cups of feed. In the afternoon, she gives her chickens another 25 cups of feed. How many cups of feed does she need to give her chickens in the final meal of the day if the size of Wendi's flock is 20 chickens?"" So we need to co",
+5,en,en,en,mgsm-005,64.0,400,False,1.0,1.0,0.0,0.0,777,,"We need to parse the problem: ""One glass costs $5, but every second glass costs only 60% of the price."" Kylar wants to buy 16 glasses. How much does he need to pay for them?
+
+Interpretation: The price of a glass is $5. However, every second glass (i.e., the second, fourth, sixth, etc.) costs only 60% of the price. So the second glass costs 0.6 * $5 = $3.00. The third glass is $5 (since it's not a second). The fourth glass is $3.00. And so on.
+
+Thus for 16 glasses, we have 8 pairs: each pair includes a $5 glass and a $3 glass. So total cost = 8 * ($5 + $3) = 8 * $8 = $64.
+
+But we need to double-check: ""every second glass costs only 60% of the price."" Could also be interpreted as ""the second glass is 60% of the price, the third is full price, the fourth is 60% of the price, etc."" So indeed the pattern is: 1st: $5, 2nd: $3, 3rd: $5, 4th: $3, ... So for 16 glasses, we have 8 of each, total $5*8 + $3*8 = $40 + $24 = $64.
+
+Thus answer: $64.
+
+But we need to be careful: The phrase ""every second glass costs only 60% of the price."" Could also be interpreted as ""the second glass costs 60% of the price, the third glass is also 60%? No, that would be weird. Usually ""every second"" means ""the second, fourth,",
+6,en,en,en,mgsm-006,260.0,400,True,1.0,1.0,0.0,0.0,435,False,"We need to parse the problem.
+
+We have three cities: Toulouse, Charleston, Seattle.
+
+Given:
+
+- T has twice as many sheep as C.
+- C has 4 times as many sheep as S.
+- S has 20 sheep.
+
+We need total T + C + S.
+
+Let S = 20.
+
+C = 4 * S = 4 * 20 = 80.
+
+T = 2 * C = 2 * 80 = 160.
+
+Total = T + C + S = 160 + 80 + 20 = 260.
+
+Thus answer: 260.
+
+We can also show steps.
+
+Thus answer: 260.
+
+We can also check: T = 160, C = 80, S = 20.
+
+Check: T is twice C: 160 = 2 * 80. Yes.
+
+C is four times S: 80 = 4 * 20. Yes.
+
+Total = 260.
+
+Thus answer: 260.
+
+We can also present as a solution.
+
+Thus final answer: 260.
+
+We can also present in a more detailed explanation.
+
+Thus final.
+
+Now we need to answer in a clear way.
+
+We'll answer: 260.
+
+We can also show the steps.
+
+Thus final answer.
+
+We'll output.","
+Let  
+
+- \(S\) = number of sheep in Seattle  
+- \(C\) = number of sheep in Charleston  
+- \(T\) = number of sheep in Toulouse  
+
+We’re given:
+
+1. \(S = 20\)  
+2. Charleston has four times as many sheep as Seattle: \(C ="
+7,en,en,en,mgsm-007,160.0,400,False,1.0,1.0,0.0,0.0,1200,,"We need to parse the problem: Carla is downloading a 200 GB file. Normally she can download 2 GB/minute. So the download speed is 2 GB per minute.
+
+But 40% of the way through the download, Windows forces a restart to install updates, which takes 20 minutes. Then Carla has to restart the download from the beginning.
+
+We need to compute the total time (load) it takes to download the file.
+
+Interpretation: The download is interrupted at 40% of the way through. So she has downloaded 40% of the file, which is 0.4 * 200 GB = 80 GB. At that point, Windows forces a restart to install updates, which takes 20 minutes (presumably the system is down, and she cannot download). Then she has to restart the download from the beginning (i.e., from 0% to 100%). So she will have to download the entire 200 GB again, but the restart at 40% will happen again? Or is it a one-time event? The problem says: ""40% of the way through the download, Windows forces a restart to install updates, which takes 20 minutes. Then Carla has to restart the download from the beginning."" It could be interpreted that the restart occurs at 40% of the way through the original download, and after the restart she has to start over from the beginning (i.e., from 0%). The question: ""How load does it take to download the file?"" Possibly they want the total time to complete the download, including the restart and the time to download again.
+
+But we need to consider that the restart at 40% will happen again if she restarts from",
+8,en,en,en,mgsm-008,45.0,400,False,1.0,1.0,0.0,0.0,1013,,"We need to parse the problem. John drives for 3 hours at a speed of 60 mph and then turns around because he realizes he forgot something at home. He tries to get home in 4 hours but spends the first 2 hours in standstill traffic. He spends the next half-hour driving at a speed of 30 mph, before being able to drive the remaining time of the 4 hours going at 80 mph. How far is he from home at the end of those 4 hours?
+
+We need to interpret the scenario.
+
+He initially drives for 3 hours at 60 mph, then turns around (presumably heading back home). He then tries to get home in 4 hours (the total time from turning around to reaching home is 4 hours). However, the problem says: ""He spends the first 2 hours in standstill traffic."" So for the first 2 hours of his return trip, he's stuck in traffic (no movement). Then ""He spends the next half-hour driving at a speed of 30 mph, before being able to drive the remaining time of the 4 hours going at 80 mph.""
+
+We need to compute the distance from home after those 4 hours.
+
+But the problem is ambiguous: The total time of the return trip is 4 hours (including traffic). The first 2 hours are standstill (0 mph). The next half hour (0.5 hours) is at 30 mph. The remaining time of the 4 hours is 4 - (2 + 0.5) = 1.5 hours at 80 mph.
+
+Thus, the distance traveled in the return trip is:
+
+- Standstill: 0 * 2 = 0 miles.
+- Half hour at 30 mph: 30 * 0.5 = 15 miles.
+- 1.5 hours at 8",
+9,en,en,en,mgsm-009,460.0,400,False,1.0,1.0,0.0,0.0,769,,"We need to parse the problem.
+
+Eliza's rate per hour for the first 40 hours she works each week is $10. She also receives an overtime pay of 1.2 times her regular hourly rate. If Eliza worked for 45 hours this week, how much are her earnings for this week?
+
+Interpretation: She works 45 hours. The first 40 hours are at $10 per hour. The remaining 5 hours are overtime, at 1.2 times her regular hourly rate. So overtime rate = 1.2 * $10 = $12 per hour.
+
+Thus earnings = 40 * $10 + 5 * $12 = $400 + $60 = $460.
+
+But we need to be careful: The problem says ""Eliza's rate per hour for the first 40 hours she works each week is $10. She also receives an overtime pay of 1.2 times her regular hourly rate."" It could be interpreted that the overtime pay is 1.2 times the regular hourly rate, i.e., $12 per hour. So the total is $400 + $60 = $460.
+
+Thus answer: $460.
+
+We can also show the steps.
+
+Thus answer: $460.
+
+We can also mention that if the overtime is paid at 1.2 times the regular rate, then the overtime rate is $12 per hour.
+
+Thus the total earnings: $400 + $60 = $460.
+
+Thus answer: $460.
+
+We can also double-check: 40 hours at $10 = $400. Overtime: 5 hours at $12 = $60. So $460.
+
+Thus answer: $46",
+10,en,en,en,mgsm-010,366.0,400,False,1.0,1.0,0.0,0.0,984,,"We need to parse the problem.
+
+We have a new program had 60 downloads in the first month.
+
+Second month: number of downloads was three times as many as the first month. So second month = 3 * 60 = 180.
+
+Third month: reduced by 30% in the third month. The phrase ""but then reduced by 30% in the third month."" It could be interpreted as the third month's downloads are reduced by 30% relative to the second month (i.e., a 30% reduction from the second month). Or it could be relative to the first month? Usually, ""reduced by 30%"" would be relative to the previous month's number (the second month). So third month = second month - 30% of second month = 70% of second month = 0.7 * 180 = 126.
+
+Thus total over three months = 60 + 180 + 126 = 366.
+
+But we need to double-check the phrasing: ""The number of downloads in the second month was three times as many as the downloads in the first month, but then reduced by 30% in the third month."" The phrase ""but then reduced by 30% in the third month"" could be ambiguous. It could mean that the third month's number of downloads is reduced by 30% relative to the first month? Or relative to the second month? Usually, ""but then reduced by 30%"" would refer to a reduction from the previous number (the second month). So we go with that.
+
+Thus answer: 366 total downloads.
+
+We can also show the steps.
+
+First month: 60.
+
+Second month: 3 * 60 = 180.
+
+Third month",
+11,en,en,en,mgsm-011,694.0,400,False,1.0,1.0,0.0,0.0,637,,"We need to parse the problem. Toula bought:
+
+- 3 dozen donuts, cost $68 per dozen.
+- 2 dozen mini cupcakes, cost $80 per dozen.
+- 6 dozen mini cheesecakes, cost $55 per dozen.
+
+We need total cost.
+
+Compute each:
+
+Donuts: 3 dozen * $68 per dozen = $204.
+
+Mini cupcakes: 2 dozen * $80 per dozen = $160.
+
+Mini cheesecakes: 6 dozen * $55 per dozen = $330.
+
+Total = $204 + $160 + $330 = $694.
+
+Thus total cost $694.
+
+We can also double-check: 3*68 = 204, 2*80 = 160, 6*55 = 330. Sum = 204+160 = 364, +330 = 694.
+
+Thus answer: $694.
+
+We can also present in a clear way.
+
+Thus answer: $694.
+
+We can also show steps.
+
+Thus final answer: $694.
+
+We can also mention that the total cost is $694.
+
+Thus answer: $694.
+
+We can also check if any hidden nuance: The problem says ""3 dozen donuts which cost $68 per dozen"". So it's $68 per dozen, not per donut. So correct.
+
+Thus answer: $694.
+
+We can also show the calculation.
+
+Thus final answer: $694.
+
+We can also answer in a sentence: The total cost was $694.
+
+Thus final.
+
+We can also include a short explanation.
+
+Thus final answer.",
+12,en,en,en,mgsm-012,13.0,400,False,1.0,1.0,0.0,0.0,807,,"We need to parse the problem.
+
+Carlos is planting a lemon tree. The tree will cost $90 to plant. Each year it will grow 7 lemons, which he can sell for $1.5 each. It costs $3 a year to water and feed the tree. How many years will it take before he starts earning money on the lemon tree?
+
+Interpretation: The initial cost is $90. Then each year, the tree yields 7 lemons, each sold for $1.5, so revenue per year = 7 * $1.5 = $10.5. The cost per year is $3 for water and feed. So net profit per year = $10.5 - $3 = $7.5.
+
+He starts earning money when cumulative net profit (or net cash flow) becomes positive.
+
+We need to find the smallest integer number of years n such that total net cash flow (including initial cost) is >0.
+
+Let initial cost = $90 (outflow at time 0). Then after n years, total net cash flow = -90 + n * (revenue - cost per year) = -90 + n * $7.5.
+
+We need -90 + 7.5 n > 0 => 7.5 n > 90 => n > 90 / 7.5 = 12.
+
+Thus n > 12. So after 12 years, net cash flow = -90 + 12*7.5 = -90 + 90 = 0. So at exactly 12 years, he breaks even (no profit). The question: ""How many years will it take before he starts earning money on the lemon tree?"" So we need the first year where he starts earning money, i.e., net cash flow > 0. That would be after 13",
+13,en,en,en,mgsm-013,18.0,400,False,1.0,1.0,0.0,0.0,725,,"We have a problem: Melanie is a door-to-door saleswoman. She sold a third of her vacuum cleaners at the green house, 2 more to the red house, and half of what was left at the orange house. If Melanie has 5 vacuum cleaners left, how many did she start with?
+
+We need to find the initial number of vacuum cleaners.
+
+Let's denote the initial number as N.
+
+She sold a third of her vacuum cleaners at the green house. So she sold (1/3) N.
+
+After that, the remaining is N - (1/3) N = (2/3) N.
+
+Then she sold 2 more to the red house. So she sold 2 more, making the remaining after red house: (2/3) N - 2.
+
+Then she sold half of what was left at the orange house. So she sold half of the remaining after red house. So she sold (1/2)[(2/3) N - 2].
+
+After that, she has 5 left.
+
+Thus the final remaining after orange house is:
+
+Remaining after orange = (2/3) N - 2 - (1/2)[(2/3) N - 2] = 5.
+
+Alternatively, we can set up equation:
+
+Let R = (2/3) N - 2 (the amount before orange). She sells half of R at orange, so she sells (1/2) R. So after orange, she has R - (1/2) R = (1/2) R = 5.
+
+Thus (1/2) R = 5 => R = 10.
+
+Thus (2/3) N - 2 = 10 => (2/3) N = 12 => N = (12 * 3)/2 = 18.
+
+",
+14,en,en,en,mgsm-014,60.0,400,False,1.0,1.0,0.0,0.0,736,,"We need to parse the problem.
+
+We have a dance class of 20 students.
+
+20% enrolled in contemporary dance.
+
+Then, 25% of the remaining (i.e., after contemporary) enrolled in jazz dance.
+
+The rest (i.e., after contemporary and jazz) enrolled in hip-hop dance.
+
+We need to find the percentage of the entire students (i.e., of the 20) that are in hip-hop.
+
+We can compute.
+
+Total = 20.
+
+Contemporary = 20% of 20 = 0.20 * 20 = 4 students.
+
+Remaining after contemporary = 20 - 4 = 16.
+
+Jazz = 25% of the remaining (i.e., 25% of 16) = 0.25 * 16 = 4 students.
+
+Now remaining after contemporary and jazz = 16 - 4 = 12.
+
+These 12 are hip-hop.
+
+Thus hip-hop = 12 out of 20 = 12/20 = 0.6 = 60%.
+
+Thus answer: 60%.
+
+We can also present as a percentage.
+
+Thus the percentage of the entire students enrolled in hip-hop dance is 60%.
+
+We can also show steps.
+
+Thus answer: 60%.
+
+We can also double-check: 4 contemporary + 4 jazz + 12 hip-hop = 20.
+
+Yes.
+
+Thus answer: 60%.
+
+We can also express as 60% of the class.
+
+Thus answer: 60%.
+
+We can also note that the problem is straightforward.
+
+Thus final answer: 60%.
+
+We can also provide a short explanation.
+
+Thus final.
+
+Now",
+15,en,en,en,mgsm-015,125.0,400,False,1.0,1.0,0.0,0.0,802,,"1.  **Deconstruct the User's Request:**
+
+    *   **Core Goal:** A merchant wants to maximize profit.
+    *   **Decision:** Choose between two purchase plans.
+    *   **Plan 1:** Jewelry.
+        *   Initial Value: $5,000
+        *   Market Change: +2.5%
+    *   **Plan 2:** Electronic Gadgets.
+        *   Initial Value: $8,000
+        *   Market Change: +1.2%
+    *   **Timeframe:** ""at the end of this month"". This implies the profit is realized from the *change* in value.
+    *   **Question:** ""how much profit would this be?"" The ""this"" refers to the *maximum* profit.
+
+2.  **Initial Analysis & Strategy:**
+
+    *   The problem is a simple comparison. I need to calculate the profit for each plan and then pick the larger one.
+    *   The formula for profit in this context is: `Profit = Initial Value * Percentage Change`.
+    *   I need to be careful with the numbers. The initial values are different ($5,000 vs. $8,000), and the percentage changes are also different (2.5% vs. 1.2%). This means I can't just say ""2.5% is bigger than 1.2%, so jewelry is better."" I *must* calculate the actual dollar profit for each.
+
+3.  **Step-by-Step Calculation Plan:**
+
+    *   **Step 1: Calculate the profit for the Jewelry plan.**
+        *   Initial Value = $5,000
+        *   Percentage Change = 2.5%
+        *   Calculation: $5,000 * 2.5%
+        *   How to",
+16,bn_h,bn,human,mgsm-000,18.0,400,False,0.965,0.035,0.0,0.0,1090,,"We need to parse this Bengali problem regarding Janet's ducks (জেনেটের হাঁস) and their daily egg production (ডিম পাড়ে). The query asks to calculate the daily earnings (উপার্জন) from selling the remaining eggs at the farmers market (কৃষকদের বাজার).
+
+We have ducks: ""Janet's ducks lay 16 eggs each day."" So total eggs per day = 16.
+
+She eats three eggs for breakfast each day.
+
+She bakes muffins with four eggs each day for friends.
+
+She sells the remaining duck eggs at the farmers market for $2 each.
+
+We need to find how many dollars she earns at the farmers market each day.
+
+We need to compute the number of eggs left after she eats and bakes.
+
+Total eggs: 16.
+
+Eggs eaten: 3.
+
+Eggs used for muffins: 4.
+
+So eggs used = 3 + 4 = 7.
+
+Remaining eggs = 16 - 7 = 9.
+
+She sells each remaining egg for $2.
+
+Thus revenue = 9 * $2 = $18.
+
+Thus answer: $18.
+
+But we need to be careful: The problem says ""She bakes muffins with four eggs each day for friends."" Does that mean she uses four eggs to bake muffins each day? Or does it mean she bakes muffins with four eggs each day (i.e., each muffin uses four eggs). But likely it's ""She bakes muffins with four eggs each day for friends."" So she uses four eggs per day to bake muffins.
+
+Thus the answer is $18.
+
+But we need to double-check if there is any nuance: The phrase ""She bakes muffins with four eggs each day for friends."" Could be interpreted as ""She bakes muffins with four eggs each day (i.e., she uses four eggs each day to bake muffins",
+17,bn_h,bn,human,mgsm-001,3.0,400,False,0.972,0.028,0.0,0.0,958,,"We need to parse this Bengali problem regarding fabric production (পোশাক তৈরি). The query asks for the total number of spools (রিল) required, given that 2 spools of blue thread (নীল সুতো) and half as many white spools (সাদা সুতো) are used.
+
+Interpretation: We have a fabric that uses 2 spools of blue thread and half as many white spools. ""Half as many"" relative to what? Usually ""half as many white spools"" as the blue spools. So if we have 2 spools of blue, then white spools = half of 2 = 1 spool. So total spools = 2 + 1 = 3 spools.
+
+But maybe the phrase ""half as many white spools"" could be ambiguous: It could be half as many as the blue spools, i.e., 1. Or it could be half as many as the total spools? That would be weird.
+
+Thus answer: 3 spools.
+
+But maybe they want to test reading comprehension: ""It takes 2 spools of blue thread and half as many white spools to make the fabric."" So ""half as many white spools"" as the blue spools. So 2 spools of blue, half of that is 1 spools of white. So total = 2 + 1 = 3 spools.
+
+Thus answer: 3 spools.
+
+But maybe they want to ask: ""How many spools of thread are needed in total to make the fabric?"" So answer: 3 spools.
+
+Thus final answer: 3 spools.
+
+We can also show the calculation: Blue = 2, White = 2 * (1/2) = 1, total = 2 + 1 = 3.
+
+Thus answer: 3.
+
+We can also mention that if the phrase",
+18,bn_h,bn,human,mgsm-002,70000.0,400,False,0.96,0.04,0.0,0.0,816,,"We need to parse this Bengali query about Josh flipping a house (বাড়ি ফ্লিপ করা). He bought a house for $80,000 and made repairs (মেরামত) for $50,000, and the house increased in value (মূল্য বৃদ্ধি) by 150%. We need to compute the profit (লাভ) in dollars.
+
+Interpretation: The house increased in value by 150% of what? Usually, ""increased in value by 150%"" means the value increased by 150% of its original value, i.e., the new value is original + 150% of original = 250% of original (i.e., 2.5 times). But sometimes people might think ""increased by 150%"" means the new value is 150% of the original (i.e., a 50% increase). But typical phrasing ""increase by 150%"" means increase of 150% of the original, i.e., new = original * (1 + 1.5) = 2.5 * original.
+
+But we need to be careful: The problem says ""The house increased in value by 150%."" It could be ambiguous. Usually, in math problems, ""increase by 150%"" means the new value is 150% of the original (i.e., a 50% increase). But I think the standard is ""increase by X%"" means the new value is (1 + X/100) times the original. So a 150% increase means new = original * (1 + 1.5) = 2.5 * original.
+
+But we need to see if the problem expects that. Let's see: He bought for $80,000, spent $50",
+19,bn_h,bn,human,mgsm-003,540.0,400,False,0.966,0.034,0.0,0.0,828,,"We need to parse this Bengali problem regarding James's sprints (স্প্রিন্ট). The query asks for the total distance (মোট কত মিটার) he runs in a week (এক সপ্তাহে).
+
+James runs 3 times a week for 3 sprints. He runs 60 meters per sprint. How many meters does he run in a week?
+
+Interpretation: He runs 3 times a week, each time he does 3 sprints, each sprint is 60 meters. So per session: 3 sprints * 60 = 180 meters. He does that 3 times a week, so total = 180 * 3 = 540 meters.
+
+Alternatively, maybe ""3 times a week for 3 sprints"" could be interpreted as 3 times a week, each time he runs 3 sprints (i.e., 3 sprints per session). So total sprints per week = 3 * 3 = 9 sprints. Each sprint is 60 meters, so total = 9 * 60 = 540 meters. Same result.
+
+Thus answer: 540 meters.
+
+We can also show the steps.
+
+Thus answer: 540 meters.
+
+We can also double-check: 3 times a week, each time 3 sprints, each sprint 60 m => 3 * 3 * 60 = 540.
+
+Thus answer: 540 meters.
+
+We can also answer in a simple sentence.
+
+Thus answer: He runs 540 meters in a week.
+
+We can also show the calculation: 3 sessions * 3 sprints per session = 9 sprints. 9 * 60 = 540.
+
+Thus answer: 540 meters.
+
+We can also note that if he runs 60 meters per sprint, and he does 3 sprints per",
+20,bn_h,bn,human,mgsm-004,20.0,400,False,0.969,0.031,0.0,0.0,1186,,"We need to parse this Bengali problem regarding Wendy's chicken feed (মুরগির খাবারের মিশ্রণ). The goal is to determine the amount of feed for the last meal (দিনের শেষ খাবার) based on the number of chickens (মুরগি) and the feed already given.
+
+We have Wendy who feeds her chickens a mixture of three cups of feed to keep each chicken healthy. The feed includes grains, mealworms, and vegetables. She feeds the chickens in three separate meals. In the morning, she feeds the flock 15 cups of feed. In the afternoon, she feeds the chickens 25 more cups of feed. How many cups of feed does Wendy have to give the chickens in the last meal of the day if her flock has 20 chickens?
+
+Interpretation: The total feed per chicken per day is 3 cups. So for 20 chickens, total feed needed per day is 20 * 3 = 60 cups.
+
+She has already given 15 cups in the morning and 25 cups in the afternoon. So total given so far = 15 + 25 = 40 cups.
+
+Thus remaining feed for the last meal = total needed - given = 60 - 40 = 20 cups.
+
+Thus answer: 20 cups.
+
+But we need to double-check if the problem is about ""the last meal of the day"" meaning the third meal. She feeds the chickens in three separate meals. The morning and afternoon are two meals. The last meal is the third. So we need to find the amount for the third meal.
+
+Thus answer: 20 cups.
+
+But we need to ensure that the problem is not about the feed per chicken per meal. The phrase ""feeds her chickens a mixture of three cups of feed to keep each chicken healthy",
+21,bn_h,bn,human,mgsm-005,64.0,400,False,0.971,0.029,0.0,0.0,930,,"We need to parse this Bengali problem regarding the purchase of glass (কাঁচ) for an apartment. The query specifies that while one glass costs $5, every second glass (প্রতি দ্বিতীয় গ্লাস) is priced at 60% of the original price (মূল্য).
+
+Interpretation: The first glass costs $5. The second glass is priced at 60% of the original price (i.e., 0.6 * $5 = $3). The third glass is $5 again? Or the pattern is that every second glass (i.e., the even-numbered ones) is priced at 60% of the original price. So the odd-numbered ones cost $5, the even-numbered ones cost $3.
+
+He wants to buy 16 glasses. So we have 8 odd-numbered (1,3,5,...,15) costing $5 each, and 8 even-numbered (2,4,6,...,16) costing $3 each.
+
+Total cost = 8 * $5 + 8 * $3 = $40 + $24 = $64.
+
+But we need to double-check if the phrase ""every second glass is priced at 60% of the original price"" could be interpreted differently. It could also be that the second glass is 60% of the original price, the third is original price, the fourth is 60% of original price, etc. So indeed the pattern is alternating.
+
+Thus answer: $64.
+
+But we need to be careful: The phrase ""original price"" could refer to the $5 price. So 60% of $5 = $3.
+
+Thus answer: $64.
+
+But we need to consider if there is any nuance: Could the discount apply to every second glass after the first? i.e., the first is $5, the second is $",
+22,bn_h,bn,human,mgsm-006,260.0,400,False,0.94,0.06,0.0,0.0,703,,"We need to parse this Bengali problem regarding the total number of sheep (সর্বমোট কতগুলি করে ভেড়া) for three cities. The query states that Toulouse (টুলুজ) has twice as many as Charleston (চার্লস্টন), and Charleston has 4 times as many as Seattle (সিয়াটল).
+
+We have three cities: Toulouse (T), Charleston (C), Seattle (S). Given:
+
+- S = 20.
+- C has 4 times as many as S: C = 4 * S = 4 * 20 = 80.
+- T has twice as many as C: T = 2 * C = 2 * 80 = 160.
+
+We need total number of sheep in Toulouse, Charleston, and Seattle: T + C + S = 160 + 80 + 20 = 260.
+
+Thus answer: 260.
+
+But we need to be careful: The problem says ""Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle."" So indeed T = 2 * C, C = 4 * S.
+
+Thus answer: 260.
+
+We can also show steps.
+
+Thus final answer: 260.
+
+We can also provide a short solution.
+
+Thus final answer: 260.
+
+We can also double-check: S = 20. C = 4 * 20 = 80. T = 2 * 80 = 160. Sum = 20 + 80 + 160 = 260.
+
+Thus answer: 260.
+
+We can also answer in a sentence: The three cities have a total of 260 sheep.
+
+Thus final.
+
+We can also include a small table.
+
+",
+23,bn_h,bn,human,mgsm-007,160.0,400,False,0.967,0.033,0.0,0.0,1000,,"1.  **Deconstruct the User's Request:**
+    This Bengali query asks about the time required to download a file (ফাইল ডাউনলোড) and the total load (লোড) needed. The core problem involves a 200 GB file where the download speed (ডাউনলোড গতি) is affected by a system restart (রিস্টার্ট).
+    *   **Core Problem:** A 200 GB file download.
+    *   **Key Variables:**
+        *   File size: 200 GB
+        *   Normal download speed: 2 GB/min
+        *   Update trigger: After 40% of the download is complete.
+        *   Update duration: 20 minutes (this is a ""stall"" or ""non-download"" time).
+        *   Action after update: ""restarts the download."" This implies the download speed is the same, but the *time* is what's being added.
+    *   **The Question:** ""How much load is needed to download the file?"" This is a bit ambiguous. ""Load"" can mean several things:
+        *   How much *time* will it take? (This is the most likely interpretation in a real-world scenario).
+        *   How much *data* will be downloaded? (This is the file size, 200 GB, which is a given).
+        *   How much *processing power* or *bandwidth* is required? (The problem doesn't give enough info for this, so it's less likely).
+        *   What is the *total time*? (This is the most practical and useful answer).
+
+    *   **My Interpretation:** The user wants to know the *total time* it will take to download the 200 GB file, considering the update interruption. I'll structure my answer to first calculate the time, then",
+24,bn_h,bn,human,mgsm-008,45.0,400,False,0.982,0.018,0.0,0.0,1057,,"We need to parse this Bengali problem (সমস্যা) regarding John's travel distance (দূরত্ব). John initially drives for 3 hours at 60 mph, then realizes he forgot something and turns back (ফিরে যান). He then attempts to get home in 4 hours (i.e., total time from the moment he turned back? Or from the start? Let's read carefully).
+
+""John initially drives for 3 hours at 60 mph and then realizes he has forgotten something important at home and so he turns back. He attempts to get home in 4 hours but spends the first 2 hours in traffic. The next half-hour he spends driving at 30 mph, and in the remaining 4 hours, he is able to drive at 80 mph. How far is he from home at the end of the 4 hours?""
+
+Interpretation: John initially drives for 3 hours at 60 mph away from home (presumably). Then he turns back (i.e., goes back towards home). He attempts to get home in 4 hours (i.e., from the moment he turned back, he has 4 hours to get home). But the timeline: He spends the first 2 hours in traffic (presumably while trying to get home). The next half-hour he spends driving at 30 mph, and in the remaining 4 hours, he is able to drive at 80 mph.
+
+But wait: The total time after turning back is 4 hours. He spends 2 hours in traffic, then half-hour (0.5 hour) driving at 30 mph, and the remaining 4 hours driving at 80 mph. That sums to 2 + 0.5 + 4 = 6.5 hours, which is more than 4 hours. So that can't be right.
+
+Maybe the phrase ""He attempts to get home in ",
+25,bn_h,bn,human,mgsm-009,460.0,400,False,0.937,0.063,0.0,0.0,715,,"We need to parse this Bengali problem regarding Eliza's earnings (উপার্জন). She works for $10 per hour (প্রতি ঘণ্টায় $10) for the first 40 hours, and for any overtime (অতিরিক্ত সময়), she is paid 1.2 times her regular hourly rate (নিয়মিত দরের 1.2 গুণ).
+
+She works 45 hours this week. So 40 regular hours, 5 overtime hours.
+
+Regular pay: 40 * $10 = $400.
+
+Overtime pay: 1.2 * $10 = $12 per hour. So 5 * $12 = $60.
+
+Total earnings: $400 + $60 = $460.
+
+Thus answer: $460.
+
+But we need to be careful: The problem says ""She is paid $10 per hour for the first 40 hours she works each week. For any overtime, she is paid 1.2 times her regular hourly rate."" So the regular rate is $10 per hour. Overtime is 1.2 * $10 = $12 per hour.
+
+Thus answer: $460.
+
+We can also show the steps.
+
+Thus final answer: $460.
+
+We can also mention that the overtime hours are 45 - 40 = 5 hours.
+
+Thus total = 40*10 + 5*12 = 400 + 60 = 460.
+
+Thus answer: $460.
+
+We can also note that if the problem expects a numeric answer, it's $460.
+
+Thus final answer: $460.
+
+We can also include a short explanation.
+
+Thus final answer: $460.
+
+We can also check if any rounding needed",
+26,bn_h,bn,human,mgsm-010,366.0,400,False,0.965,0.035,0.0,0.0,1041,,"We need to parse this Bengali problem regarding program downloads (ডাউনলোড). The query states that in the first month (প্রথম মাস), the program was downloaded 60 times, and in the second month (দ্বিতীয় মাস), the count was three times more (তিনগুণ বেশি).
+
+Interpretation: ""three times more than the first month"" could be ambiguous: does it mean three times as many (i.e., 3 * 60 = 180) or does it mean ""three times more than"" i.e., first month + three times first month = 4 * 60 = 240? Usually ""three times more than X"" is ambiguous but many people interpret as ""three times as many as X"". However, the phrase ""three times more than the first month"" could be interpreted as ""three times more than the first month"" = ""first month + three times first month = 4 times"". But typical math problem phrasing: ""three times more than the first month"" often means ""three times as many as the first month"". But we need to decide.
+
+Let's examine typical usage: ""three times more than X"" is often used to mean ""three times X"". For example, ""The population is three times more than before"" could be interpreted as triple. But some argue it's ambiguous. In many math problems, they intend ""three times as many"". So we can assume second month = 3 * 60 = 180.
+
+Then third month: ""but then decreased by 30% in the third month."" So third month = second month - 30% of second month = 0.7 * second month = 0.7 * 180 = 126.
+
+Total = 60 + 180 + 126 = 366.
+
+If we interpret second month as 4 *",
+27,bn_h,bn,human,mgsm-011,694.0,400,False,0.916,0.084,0.0,0.0,802,,"We need to parse this Bengali problem regarding Tulya's bakery purchase (টুলা বেকারিতে গিয়ে বিভিন্ন রকমের পেস্ট্রি কিনেছিলেন). The goal is to calculate the total cost (মোট কত খরচ হয়েছিল) based on the quantities and prices per dozen (ডজন দরে).
+
+We have:
+
+- 3 dozen donuts at $68 per dozen.
+- 2 dozen mini cupcakes at $80 per dozen.
+- 6 dozen mini cheesecakes at $55 per dozen.
+
+We need to compute total cost.
+
+First, compute each:
+
+- 3 dozen donuts * $68 per dozen = 3 * $68 = $204.
+
+- 2 dozen mini cupcakes * $80 per dozen = 2 * $80 = $160.
+
+- 6 dozen mini cheesecakes * $55 per dozen = 6 * $55 = $330.
+
+Now sum: $204 + $160 = $364. $364 + $330 = $694.
+
+Thus total cost = $694.
+
+But we need to double-check: Are the numbers correct? The problem says ""3 dozen donuts at $68 per dozen, 2 dozen mini cupcakes at $80 per dozen, and 6 dozen mini cheesecakes at $55 per dozen."" So it's straightforward.
+
+Thus answer: $694.
+
+But we might also consider if there is any nuance: The problem might be from a contest or something. The answer is $694.
+
+We can also show the steps.
+
+Thus final answer: $694.
+
+We can also express as $694.
+
+Thus answer.
+
+Now, the user might want a step-by-step solution.
+
+We can provide:
+
+- Compute cost of donuts",
+28,bn_h,bn,human,mgsm-012,13.0,400,False,0.968,0.032,0.0,0.0,817,,"We need to parse this Bengali problem regarding a lemon tree (লেবু গাছ). The goal is to determine the time (কত বছর) it takes for Carlos to start making money (অর্থ উপার্জন করা) based on the given costs and revenue.
+
+Interpretation: The initial cost $90 to plant the tree. Then each year, the tree produces 7 lemons, each can be sold for $1.5. So revenue per year = 7 * $1.5 = $10.5. Also, it costs $3 a year to water and fertilize the tree. So net profit per year = revenue - cost = $10.5 - $3 = $7.5 per year.
+
+But the initial $90 is a one-time cost. So the net cash flow after n years: -90 + n * 7.5.
+
+We want to know after how many years he will start making money. That is, when the net cash flow becomes positive (or at least non-negative). So solve -90 + 7.5 n > 0 => n > 90 / 7.5 = 12. So after 12 years, net cash flow = -90 + 12*7.5 = -90 + 90 = 0. So at the end of 12 years, he breaks even. At 13 years, net cash flow = -90 + 13*7.5 = -90 + 97.5 = $7.5 positive.
+
+Thus, he will start making money after 13 years (or at the end of the 13th year). However, the problem might be interpreted as ""how many years until he has earned back his initial investment?"" That's the break-even point, which is 12 years. But the phrase ""start making money"" could",
+29,bn_h,bn,human,mgsm-013,18.0,400,False,0.942,0.058,0.0,0.0,1011,,"We need to parse this Bengali problem about a door-to-door salesperson (ডোর-টু-ডোর সেলসওম্যান). The query asks to calculate the initial number of vacuum cleaners (ভ্যাকিউম ক্লিনার) based on sales in different colored houses (রেড হাউস, গ্রিন হাউস, অরেঞ্জ হাউস).
+
+Melanie is a door-to-door salesperson. She sold a third of her vacuum cleaners in the green house, 2 more in the red houses, and half of what was left in the orange houses. If Melanie had 5 vacuum cleaners left, how many did she start with?
+
+We need to find the initial number of vacuum cleaners.
+
+We have a scenario: She sold a third of her vacuum cleaners in the green house. Then she sold 2 more in the red houses. Then she sold half of what was left in the orange houses. After that, she had 5 vacuum cleaners left.
+
+We need to find the initial number.
+
+Let initial number be N.
+
+Step 1: She sold a third of her vacuum cleaners in the green house. So she sold (1/3) N. After that, the remaining is N - (1/3) N = (2/3) N.
+
+Step 2: She sold 2 more in the red houses. So after that, the remaining is (2/3) N - 2.
+
+Step 3: She sold half of what was left in the orange houses. So she sold half of the current remaining, i.e., (1/2) * ((2/3) N - 2). After that, the remaining is half of that, i.e., (1/2) * ((2/3) N - 2). Actually, if she sold half of what was left, then the remaining after that is the other half. So after step 3, the remaining is",
+30,bn_h,bn,human,mgsm-014,60.0,400,False,0.939,0.061,0.0,0.0,734,,"We need to parse this Bengali problem regarding student enrollment (শিক্ষার্থীদের মধ্যে নথিভুক্ত). The query asks for the percentage of students in hip-hop (হিপ-হপ) based on the given distribution of contemporary (সমসাময়িক) and jazz (জ্যাজ) dance.
+
+We have 20 students. 20% of 20 = 0.20 * 20 = 4 students in contemporary. 25% of 20 = 0.25 * 20 = 5 students in jazz. The rest are hip-hop. So hip-hop = total - (contemporary + jazz) = 20 - (4 + 5) = 20 - 9 = 11 students. Percentage of hip-hop = (11 / 20) * 100% = 55%.
+
+Thus answer: 55%.
+
+We can also express as 55% of the students.
+
+Thus answer: 55%.
+
+We can also show steps.
+
+Thus final answer: 55%.
+
+We can also double-check: 20% + 25% = 45%; rest = 55%.
+
+Thus answer: 55%.
+
+Thus final.
+
+We can also present as a fraction: 11/20 = 0.55 = 55%.
+
+Thus answer: 55%.
+
+Thus final.
+
+We can also mention that the rest of the students (i.e., 55%) are in hip-hop.
+
+Thus answer: 55%.
+
+We can also note that the problem is straightforward.
+
+Thus final answer: 55%.
+
+We can also provide a short solution.
+
+Thus final.
+
+Now we need to output the answer.
+
+We can also include a short explanation.
+
+Thus final answer: ",
+31,bn_h,bn,human,mgsm-015,125.0,400,False,0.962,0.038,0.0,0.0,918,,"We need to parse this Bengali query regarding a trader's choice between two investment plans (ক্রয় পরিকল্পনা). The problem involves calculating the maximum profit (সর্বাধিক লাভ) based on market growth (বাজার বৃদ্ধি) for jewelry and electronic gadgets.
+
+We have a trader who can choose between two investment plans: jewelry worth $5,000 or electronic gadgets worth $8,000. The financial advisor estimates that the jewelry market will grow by 2.5% and the electronic gadgets market will grow by 1.2% within the month. The trader wants to make the maximum profit by choosing one of the plans. So we need to compute the profit for each plan: profit = value * growth rate.
+
+Compute:
+
+- Jewelry: $5,000 * 2.5% = $5,000 * 0.025 = $125.
+
+- Electronic gadgets: $8,000 * 1.2% = $8,000 * 0.012 = $96.
+
+Thus the maximum profit is $125 from jewelry.
+
+But the problem might ask for the maximum profit amount (in dollars) and maybe also the final value after growth.
+
+The final value after growth:
+
+- Jewelry: $5,000 + $125 = $5,125.
+
+- Electronic gadgets: $8,000 + $96 = $8,096.
+
+Thus the maximum profit is $125 (or $125 profit, $5,125 final value). The question: ""If the trader wants to make the maximum profit by choosing one of the plans, what is the maximum profit amount?"" So answer: $125.
+
+We can also mention the final value.
+
+Thus answer: $125 profit (or $5,125",
+32,te_h,te,human,mgsm-000,18.0,400,False,0.974,0.026,0.0,0.0,1072,,"We need to parse this Telugu query regarding Jethro's eggs (గుడ్లు). The problem states she lays 16 eggs each day (ప్రతిరోజూ), and we must calculate the daily earnings (సంపాదిస్తుంది) from the market.
+
+Jethro's ducks lay 16 eggs each day. She eats three for breakfast each day and bakes muffins with four each day for her friends. She sells the rest at the farmer's market for $2 each. How many dollars does she earn at the farmer's market each day?
+
+We need to compute the number of eggs sold at the market each day.
+
+Total eggs: 16.
+
+She eats 3 for breakfast.
+
+She bakes muffins with 4 each day for her friends.
+
+Thus eggs used for baking: 4.
+
+Thus eggs used (eaten + baked) = 3 + 4 = 7.
+
+Thus remaining eggs = 16 - 7 = 9.
+
+She sells the rest (9 eggs) at $2 each.
+
+Thus revenue = 9 * $2 = $18.
+
+Thus answer: $18.
+
+But we need to double-check if there is any nuance: ""She bakes muffins with four each day for her friends."" Does that mean she uses four eggs to bake muffins? Or she bakes muffins with four (maybe she bakes four muffins each day, each using one egg? The phrase ""bakes muffins with four each day for her friends"" is ambiguous. But typical reading: she bakes muffins with four (i.e., four eggs) each day.
+
+Thus answer $18.
+
+We can also consider if she bakes muffins with four each day (maybe she bakes four muffins each day, each using one egg). But the phrase ""bakes muffins with four each day for her friends"" could be interpreted as she bakes four",
+33,te_h,te,human,mgsm-001,3.0,400,False,0.972,0.028,0.0,0.0,1056,,"We need to parse this Telugu query regarding bolt counts (బోల్ట్‌ల సంఖ్య). The problem states that Rob took 2 bolts of blue fiber (బ్లూ ఫైబర్) and half as many white fiber (వైట్ ఫైబర్).
+
+Interpretation: ""Rob took 2 bolts of blue fiber and half as many white fiber.""
+
+We need to find total bolts (blue + white). The phrase ""half as many white fiber"" could be ambiguous: half as many as the blue fiber? Or half as many as the total? Usually ""half as many white fiber"" would refer to half as many as the blue fiber. So if he took 2 bolts of blue fiber, then he took half as many white fiber, i.e., 1 bolt of white fiber.
+
+Thus total = 2 + 1 = 3 bolts.
+
+But maybe the phrase ""half as many white fiber"" could be interpreted as half as many as the blue fiber, i.e., 1. So answer: 3.
+
+But maybe the phrase ""half as many white fiber"" could be half of the total? That would be weird.
+
+Alternatively, maybe the phrase ""half as many white fiber"" could be half as many as the blue fiber, i.e., 1. So total = 2 + 1 = 3.
+
+Thus answer: 3 bolts.
+
+But we need to be careful: The problem might be a trick: ""Rob took 2 bolts of blue fiber and half as many white fiber."" Could be that ""half as many white fiber"" means half as many as the blue fiber, i.e., 1. So total = 2 + 1 = 3.
+
+But maybe the phrase ""half as many white fiber"" could be interpreted as half as many as the total? That would be half of the total? That would be a self-referential equation: Let total = T. Then white",
+34,te_h,te,human,mgsm-002,70000.0,400,False,0.962,0.038,0.0,0.0,768,,"We need to parse this Telugu query regarding Josh's investment (పెట్టుబడి) in a house. He bought the house for $80,000 and spent $50,000 on repairs (మరమ్మత్తులు), which increased the value (విలువ) by 150%. We need to compute the profit (లాభం).
+
+Interpretation: He spent $80,000 to buy the house. Then he spent $50,000 on repairs. The repairs increased the value of the house by 150%. Does that mean the value of the house after repairs is increased by 150% relative to its original value (the purchase price)? Or relative to the purchase price? Usually, ""increased the value of the house by 150%"" means the value increased by 150% of its original value. So if the original value is $80,000 (the purchase price), a 150% increase would be $80,000 * (1 + 1.5) = $80,000 * 2.5 = $200,000. So the house's value after repairs is $200,000.
+
+But we need to consider that the repairs cost $50,000. So the total cost of the investment is $80,000 + $50,000 = $130,000. The final value is $200,000. So profit = final value - total cost = $200,000 - $130,000 = $70,000.
+
+But is that the correct interpretation? Let's double-check.
+
+Alternatively, maybe the repairs increased the value of the house by 150",
+35,te_h,te,human,mgsm-003,540.0,400,False,0.969,0.031,0.0,0.0,953,,"We need to parse this Telugu query regarding Jamph's running (పరిగెత్తాలని) schedule. The problem states he runs 3 sprints (3 స్ప్రింట్స్) three times a week, covering 60 meters (60 మీటర్లు) per sprint.
+
+Interpretation: He runs 3 sprints each time, and he does that three times a week. So total number of sprints per week = 3 sprints * 3 times = 9 sprints. Each sprint is 60 meters. So total distance = 9 * 60 = 540 meters.
+
+But the phrasing ""He runs 3 sprints three times a week. He runs 60 meters per sprint."" Could also be interpreted as: He runs 3 sprints, and that's three times a week (i.e., he does 3 sprints per week, and that's three times a week? That seems contradictory). Or maybe it's: He runs 3 sprints, and he does that three times a week (so 3 sprints per session, 3 sessions per week). So total sprints = 3 * 3 = 9.
+
+Thus answer: 540 meters.
+
+But we can also double-check: If he runs 3 sprints per week (i.e., 3 sprints total), each 60 meters, then total = 180 meters. But the phrase ""three times a week"" suggests multiple sessions.
+
+Thus answer: 540 meters.
+
+We can also show the calculation:
+
+Number of sprints per week = (3 sprints per session) * (3 sessions per week) = 9 sprints.
+
+Distance per sprint = 60 meters.
+
+Total distance = 9 * 60 = 540 meters.
+
+Thus answer: 540 meters.
+
+We can also present the solution in a step-by-step format.",
+36,te_h,te,human,mgsm-004,20.0,400,False,0.97,0.03,0.0,0.0,1186,,"We need to parse this Telugu query regarding chicken feed (కోడి ఆహారం). The problem states that Windy gives each chicken three cups of mixed feed (మిక్సిడ్ చికెన్ ఫీడ్) to help them stay healthy (ఆరోగ్యంగా).
+
+We have a problem: ""Every day, Windy gives each of her chickens three cups of mixed chicken feed that is made up of grains, mealworms, and vegetables to help her chickens stay healthy. She gives the feed to her chickens in three separate meals. In the morning, she gives her flock 15 cups of feed. In the afternoon, she gives her chickens another 25 cups of feed. If Windy has 20 chickens in her flock, how many cups of feed does she have to give her chickens at the last meal of the day?""
+
+We need to find the amount of feed at the last meal (presumably the third meal). The total feed per chicken per day is three cups. So for 20 chickens, total feed per day is 20 * 3 = 60 cups.
+
+She gives feed in three separate meals: morning, afternoon, and last meal (presumably evening). The morning she gives 15 cups. The afternoon she gives 25 cups. The last meal amount is the remainder: total - (morning + afternoon) = 60 - (15 + 25) = 60 - 40 = 20 cups.
+
+Thus the answer: 20 cups.
+
+But we need to double-check if the problem is consistent: ""Every day, Windy gives each of her chickens three cups of mixed chicken feed that is made up of grains, mealworms, and vegetables to help her chickens stay healthy. She gives the feed to her chickens in three separate meals. In the morning, she gives her",
+37,te_h,te,human,mgsm-005,64.0,400,False,0.978,0.022,0.0,0.0,850,,"We need to parse this Telugu query regarding the cost of glasses (గ్లాసుల ధర). The problem states that a glass costs $5, but every second (ప్రతి రెండో) glass is only 60% of the price.
+
+Interpretation: The first glass costs $5. The second glass is 60% of $5 = $3. The third glass is $5 again? Or ""every second glass"" could mean that every other glass (i.e., the 2nd, 4th, 6th, etc.) costs 60% of the price. So the pattern: odd-numbered glasses cost $5, even-numbered glasses cost $5 * 0.6 = $3.
+
+Kyler wants to buy 16 glasses. So we need to compute total cost: 8 glasses at $5 (odd positions: 1,3,5,...,15) and 8 glasses at $3 (even positions: 2,4,...,16). So total = 8*5 + 8*3 = 40 + 24 = $64.
+
+But is there any nuance? Could ""every second glass"" mean that the second glass is 60% of the price, and then the third is $5 again, and so on? That's what we assumed.
+
+Alternatively, could it mean that the second glass is 60% of the price, and the third is also 60%? No, ""every second glass"" typically means every other one.
+
+Thus answer: $64.
+
+But we need to be careful: The phrase ""but every second glass is only 60% of the price."" Could also be interpreted as: The first glass is $5. The second glass is 60% of $5 = $3. The third glass is $5 again (since it's not a second). The",
+38,te_h,te,human,mgsm-006,260.0,400,False,0.953,0.047,0.0,0.0,731,,"We need to parse this Telugu query regarding the total number of sheep (మొత్తం ఎన్ని గొర్రెలు) across three locations. The problem states that Charleston has 4 times (4 రెట్లు) as many sheep as Seattle, and Charleston has half as many (రెట్టింపు) as Toulouse.
+
+We have three locations: Toulouse (T), Charleston (C), Seattle (S).
+
+Given:
+
+1. ""Charleston has half as many sheep as Toulouse."" That means C = (1/2) * T. Or T = 2*C.
+
+2. ""Charleston has 4 times as many sheep as Seattle."" That means C = 4 * S.
+
+3. ""Seattle has 20 sheep."" So S = 20.
+
+We need to find total number of sheep in Toulouse, Charleston, and Seattle: T + C + S.
+
+We can compute:
+
+S = 20.
+
+C = 4 * S = 4 * 20 = 80.
+
+Now T = 2 * C (since C = (1/2) T => T = 2C). So T = 2 * 80 = 160.
+
+Now total = T + C + S = 160 + 80 + 20 = 260.
+
+Thus answer: 260.
+
+We can also double-check: ""Charleston has half as many sheep as Toulouse."" So T = 2*C = 160, C = 80. Yes.
+
+Thus answer: 260.
+
+We can also present the solution steps.
+
+Thus final answer: 260.
+
+We can also check if any other interpretation: ""Charleston has half as many sheep as Toulouse."" Could be interpreted as C = (1/2) T. That's what we used.",
+39,te_h,te,human,mgsm-007,160.0,400,False,0.974,0.026,0.0,0.0,1065,,"We need to parse this Telugu query regarding Carla's file download (ఫైలును డౌన్‌లోడ్). The problem states she is downloading a 200GB file (200GB ఫైల్) and asks for the total time (మొత్తం సమయం) it will take.
+
+We have a scenario: Carla is downloading a 200GB file. She can normally download 2 GB per minute. But after 40% of the download is reached, Windows forced a restart to install updates, which took 20 minutes. Then Carla had to restart the download from the beginning. The question: ""How long will it take for Carla to download the file?"" We need to compute total time including the restart and the need to restart from the beginning.
+
+We need to consider that after the restart, she will have to download the entire file again (or at least the part that was not completed). But the problem says ""Carla had to restart the download from the beginning."" So she lost all progress. So she will have to download the entire 200GB again.
+
+But we also need to consider the time taken for the restart (20 minutes). Also, the time to download the first 40% of the file before the restart.
+
+We need to compute the time to download 40% of 200GB at 2 GB/min.
+
+40% of 200GB = 0.4 * 200GB = 80GB.
+
+At 2 GB per minute, time to download 80GB = 80GB / (2GB/min) = 40 minutes.
+
+So she had been downloading for 40 minutes before the restart.
+
+Then the restart took 20 minutes.
+
+After the restart, she has to download the entire 200GB again at 2 GB/min.
+
+Time to download 2",
+40,te_h,te,human,mgsm-008,45.0,400,False,0.963,0.037,0.0,0.0,1101,,"We need to parse this Telugu query regarding John's travel (ప్రయాణించాడు) and the distance (దూరం) he is from home. John initially traveled at 60 mph for 3 hours, but then turned back (వెనక్కి తిరిగాడు) after realizing he forgot something important. He will try to get home in 4 hours. But the first 2 hours he is stuck in traffic (ట్రాఫిక్‌లో) and not moving. He then travels for half an hour at 30 mph, and the remaining time in 4 hours he can travel at 80 mph. How far is he from home after the 4 hours?
+
+We need to interpret the scenario: John initially traveled at 60 mph for 3 hours, then turned back (i.e., reversed direction) after realizing he forgot something. He will try to get home in 4 hours (i.e., from the moment he turned back? Or from the start? The problem says: ""John traveled at 60 miles per hour for 3 hours, then turned back after realizing he forgot something important. He will try to get home in 4 hours. But the first 2 hours he is stuck in traffic and not moving. He then travels for half an hour at 30 miles per hour, and the remaining time in 4 hours he can travel at 80 miles per hour. How far is he from home after the 4 hours?""
+
+We need to compute his net displacement from home after the 4 hours.
+
+We need to define the timeline:
+
+- He traveled at 60 mph for 3 hours. That is presumably away from home? Or maybe it's away from home, then he turned back.
+
+- He turned back after 3 hours (i.e., after traveling 3 hours at 60 mph). So at that point, he is 60*3 =",
+41,te_h,te,human,mgsm-009,460.0,400,False,0.965,0.035,0.0,0.0,655,,"We need to parse this Telugu query regarding Elijah's weekly earnings (సంపాదన). The problem states she is paid $10 per hour (గంటకు రేటు) for the first 40 hours and receives overtime (ఓవర్ టైమ్) at 1.2 times the regular rate.
+
+We need to compute:
+
+Regular hours: 40 hours at $10/hour = $400.
+
+Overtime hours: 45 - 40 = 5 hours. Overtime rate = 1.2 * $10 = $12 per hour. So overtime pay = 5 * $12 = $60.
+
+Total earnings = $400 + $60 = $460.
+
+Thus answer: $460.
+
+We can also show steps.
+
+Thus answer: $460.
+
+We can also mention that if the overtime is at 1.2 times the regular rate, the overtime rate is $12/hour.
+
+Thus answer: $460.
+
+We can also double-check: 40*10 = 400. 5*12 = 60. Sum = 460.
+
+Thus answer: $460.
+
+We can also mention that if the overtime is at 1.2 times the regular rate, the overtime rate is $12/hour.
+
+Thus answer: $460.
+
+Thus the answer: $460.
+
+We can also show the calculation.
+
+Thus answer: $460.
+
+We can also mention that the total is $460.
+
+Thus answer: $460.
+
+Thus answer: $460.
+
+Thus answer: $460.
+
+Thus answer: $460.
+
+Thus answer: $460.
+
+Thus answer: $460",
+42,te_h,te,human,mgsm-010,366.0,400,True,0.957,0.043,0.0,0.0,847,False,"We need to parse this Telugu query regarding a program's downloads (డౌన్‌లోడ్‌లు). The problem states that in the first month (మొదటి నెల), there were 60 downloads, and in the second month (రెండో నెల), the count was three times (మూడు రెట్లు) the first month.
+
+Interpretation: The first month: 60 downloads.
+
+Second month: three times the number of downloads in the first month = 3 * 60 = 180 downloads.
+
+Third month: decreased by 30% (presumably from the second month). So third month = second month - 30% of second month = 180 - 0.30 * 180 = 180 - 54 = 126 downloads.
+
+Total over three months = 60 + 180 + 126 = 366.
+
+Thus answer: 366 downloads.
+
+But we need to double-check if the phrase ""decreased by 30% in the third month"" could be interpreted as decreased by 30% of the first month? Usually it's relative to the previous month. So it's 30% of the second month.
+
+Thus answer: 366.
+
+We can also show steps.
+
+Thus final answer: 366 downloads.
+
+We can also present as a simple solution.
+
+Thus answer: 366.
+
+We can also mention that the total is 366.
+
+Thus final.
+
+Now we need to output the answer.
+
+We should be concise but also show reasoning.
+
+Thus final answer: 366.
+
+We can also include a short explanation.
+
+Thus final.","
+**దశల వారీ గణన**
+
+1. **మొదటి నెల:** 60 డౌన్‌లోడ్‌లు (ఇవ్వబ"
+43,te_h,te,human,mgsm-011,694.0,400,False,0.958,0.042,0.0,0.0,753,,"We need to parse this Telugu query regarding the total cost (మొత్తం ఖర్చు) of pastries. The problem states that Tyla bought various types of pastries (వివిధ రకాలైన పేస్ట్రీలు) and we need to calculate the sum of the given quantities and prices.
+
+We need to compute total cost.
+
+Interpretation: She bought 3 dozen donuts at $68 per dozen. So cost = 3 * $68 = $204.
+
+She bought 2 dozen mini cupcakes at $80 per dozen. So cost = 2 * $80 = $160.
+
+She bought 6 dozen mini cheesecakes at $55 per dozen. So cost = 6 * $55 = $330.
+
+Total = $204 + $160 + $330 = $694.
+
+But check: Are the numbers correct? Let's double-check: 3 dozen donuts at $68 per dozen = $204. 2 dozen mini cupcakes at $80 per dozen = $160. 6 dozen mini cheesecakes at $55 per dozen = $330. Sum = $694.
+
+Thus answer: $694.
+
+But maybe the problem expects a different answer: maybe the cost per dozen is given, but the quantity is in dozens. So we multiply.
+
+Thus answer: $694.
+
+We can also present the steps.
+
+Thus final answer: $694.
+
+We can also double-check: $204 + $160 = $364. $364 + $330 = $694.
+
+Yes.
+
+Thus answer: $694.
+
+We can also express in dollars.
+
+Thus answer: $694.
+
+We can also mention that the total cost is $694.
+
+",
+44,te_h,te,human,mgsm-012,13.0,400,False,0.932,0.068,0.0,0.0,1005,,"We need to parse this Telugu query regarding Carlos planting a lemon tree (నిమ్మ చెట్టు). The problem states that planting the tree (చెట్టును నాటడానికి) costs $90, and we must determine the time (ఎన్ని సంవత్సరాలు) it takes to start making a profit (ఆర్జించడం ప్రారంభించడానికి).
+
+Interpretation: He spends $90 initially to plant the tree. Then each year, the tree yields 7 lemons, which he sells at $1.5 each, so revenue per year = 7 * $1.5 = $10.5. He also has costs: $3 per year to water and fertilize. So net profit per year = revenue - cost = $10.5 - $3 = $7.5 per year.
+
+He wants to know after how many years he will have earned back his initial $90 investment (i.e., break even). So we need to find the smallest integer n such that n * $7.5 >= $90.
+
+Compute n = 90 / 7.5 = 12. So after 12 years, he will have earned $90 net profit (i.e., break even). However, the question: ""How many years will it take for Carlos to start earning on his lemon tree?"" Could be interpreted as the time after which he starts making profit (i.e., after the break-even point). So after 12 years, he will have earned $90, and from year 13 onward, he will be earning profit. But the phrase ""start earning on his lemon tree"" could be interpreted as the time when he begins to make profit (i.e., after the break-even). Usually, the answer is 12 years (the break-even point). But we need to be careful: The initial $90 is a cost, not a profit.",
+45,te_h,te,human,mgsm-013,18.0,400,False,0.936,0.064,0.0,0.0,1092,,"We need to parse this Telugu query (తెలుగు ప్రశ్న) about Melina's vacuum cleaners (వాక్యూం క్లీనర్‌లు). The problem states she sold a third (మూడోవంతు) of her stock at the greenhouse (గ్రీన్ హౌస్), 2 at the red house (రెడ్ హౌస్), and half of the remaining (మిగిలినవాటిలో సగం) at the orange house.
+
+We need to find the initial number of vacuum cleaners.
+
+Let's define variables.
+
+Let total initial vacuum cleaners = N (integer). She sold:
+
+- At the greenhouse: a third of her stock. So she sold (1/3) N.
+
+- At the red house: 2 vacuum cleaners.
+
+- At the orange house: half of the remaining after the first two sales.
+
+After these sales, she has 5 vacuum cleaners left.
+
+We need to find N.
+
+We need to be careful about the order: She sold a third of her stock at the greenhouse, 2 at the red house, and half of the remaining at the orange house.
+
+Interpretation: She first sold a third of her stock (i.e., 1/3 of N). Then she sold 2 at the red house (presumably from the remaining after the greenhouse sale). Then she sold half of the remaining at the orange house. After that, she has 5 left.
+
+Alternatively, the phrase ""half of the remaining at the orange house"" could be interpreted as: after the greenhouse and red house sales, she had some remaining. She sold half of that remaining at the orange house. Then she has 5 left.
+
+Thus we can set up equation.
+
+Let N be initial.
+
+After greenhouse: remaining = N - (1/3) N = (2/3) N.
+
+After red house: remaining = (2/3) N - 2.
+
+After orange",
+46,te_h,te,human,mgsm-014,60.0,400,False,0.923,0.077,0.0,0.0,717,,"We need to parse this Telugu query regarding a dance class (డ్యాన్స్ క్లాస్) with 20 students (విద్యార్ధులు). The problem states that 20% are in traditional dance (సంప్రదాయ డ్యాన్స్), 25% of the remaining (మిగిలిన వారిలో) are in jazz, and the rest are in hip-hop.
+
+We have 20 students.
+
+20% of 20 = 0.20 * 20 = 4 students in traditional dance.
+
+Remaining after traditional: 20 - 4 = 16.
+
+25% of the remaining are in jazz: 0.25 * 16 = 4 students in jazz.
+
+Now remaining after traditional and jazz: 20 - (4 + 4) = 12.
+
+These 12 are in hip-hop.
+
+Thus percentage of hip-hop = (12 / 20) * 100% = 60%.
+
+Thus answer: 60%.
+
+But we need to be careful: The problem says ""25% of the remaining are in jazz, and the rest are in hip-hop."" So we have to compute the rest after subtracting jazz from the remaining after traditional.
+
+Thus answer: 60%.
+
+We can also show steps.
+
+Thus final answer: 60%.
+
+We can also express as a percent.
+
+Thus answer: 60%.
+
+We can also double-check: 4 in traditional (20%), 4 in jazz (20% of remaining 16 = 25% of 16 = 4), 12 in hip-hop (60%). So total percentages: 20% + 20% + 60% = 100%.
+
+Thus answer: 60%.
+
+Thus final.
+
+",
+47,te_h,te,human,mgsm-015,125.0,400,False,0.947,0.053,0.0,0.0,1026,,"We need to parse this Telugu query regarding a trader's choice (కొనుగోలు ఎంపిక) between two plans. The problem involves comparing jewelry (ఆభరణాలు) and electronic gadgets (ఎలక్ట్రానిక్ గాడ్జెట్‌లు) based on their market growth (పెరుగుదల) to maximize profit (లాభం).
+
+We have a trader with two purchase plans: jewelry worth $5,000, or electronic gadgets worth $8,000. The market for jewelry is expected to grow by 2.5% in the same month, and the market for electronic gadgets is expected to grow by 1.2% in the same month. The trader wants to maximize profit by making the right choice by the end of the month. How much profit would this be?
+
+We need to compute the profit from each plan. The profit presumably is the increase in value due to market growth. So for jewelry: $5,000 * 2.5% = $5,000 * 0.025 = $125. For electronic gadgets: $8,000 * 1.2% = $8,000 * 0.012 = $96.
+
+Thus the profit from jewelry is $125, from electronic gadgets is $96. The trader wants to maximize profit, so they'd choose jewelry. The profit would be $125.
+
+But we need to consider if there are any other costs or if the profit is the difference between the final value and the initial value. The problem says ""How much profit would this be?"" So presumably profit = increase in value.
+
+Thus answer: $125 profit.
+
+But we could also mention that the total value after growth for jewelry would be $5,125, and for gadgets $8,096. The profit difference is $125 - $",
+48,ja_h,ja,human,mgsm-000,18.0,400,False,0.854,0.146,0.0,0.056,575,,"We need to parse the problem.
+
+The problem: ""Jannet's ducks lay 16 eggs a day. Jannet eats 3 for breakfast each morning and uses 4 to bake muffins for her friends every day. She sells the rest at the market for $2 each. How much does she earn at the market each day?""
+
+We need to compute the number of eggs left after consumption and baking, then multiply by $2.
+
+Given: 16 eggs per day.
+
+She eats 3 eggs for breakfast.
+
+She uses 4 eggs to bake muffins.
+
+Thus total used = 3 + 4 = 7 eggs.
+
+Remaining eggs = 16 - 7 = 9 eggs.
+
+She sells each at $2.
+
+Thus revenue = 9 * $2 = $18.
+
+Thus answer: $18 per day.
+
+But we need to be careful: The problem might be in a language context (Japanese). The problem statement: ""ジャネットのアヒルは1日に16個の卵を生みます。ジャネットは毎朝朝食の一環で3個を消費し、毎日4個使って友達向けにマフィンを焼きます。残りを市場で1個あたり2ドルの価格で売ります。彼女は毎日",
+49,ja_h,ja,human,mgsm-001,3.0,400,False,0.975,0.025,0.0,0.015,730,,"1.  **Deconstruct the User's Request:**
+    *   **Goal:** Create a ""robe"" (ローブ).
+    *   **Question:** How many ""turns"" (巻) are needed in total?
+    *   **Key Information (the ""rules""):**
+        *   Blue fiber (青色の繊維): 2 turns.
+        *   White fiber (白色の繊維): ""half as many"" (その半分) as the blue fiber.
+
+2.  **Initial Analysis & Planning:**
+    *   This is a simple word problem that requires a two-step calculation.
+    *   Step 1: Calculate the number of turns for the white fiber.
+    *   Step 2: Add the turns for the blue fiber and the white fiber together to get the total.
+    *   The language is Japanese, so I need to make sure my answer is clear, uses the correct terminology (or at least is understandable in Japanese), and follows a logical, step-by-step structure.
+
+3.  **Step-by-Step Calculation (Mental or on Scratchpad):**
+
+    *   **Step 1: Blue Fiber Turns**
+        *   The problem states this directly.
+        *   Blue turns = 2.
+
+    *   **Step 2: White Fiber Turns**
+        *   The problem says ""half as many as the blue fiber.""
+        *   Blue turns = 2.
+        *   Half of 2 is 2 / 2 = 1.
+        *   So, White turns = 1.
+
+    *   **Step 3: Total Turns**
+        *   Total = Blue turns + White turns.
+        *   Total = 2 + 1 = 3.
+
+4.  **",
+50,ja_h,ja,human,mgsm-002,70000.0,400,False,0.764,0.236,0.0,0.075,398,,"We need to parse the problem. The user says: ""ジョッシュは不動産の売買に挑戦してみることにしました。8万ドルで家を購入し、5万ドルかけて修繕しました。その結果、家の価格は150%分増えました。ジョッシュの利益はいくらでしょうか？""
+
+We need to compute the profit.
+
+Interpretation: He bought a house for $80,000 (8万). He spent $50,000 on renovation (修繕). So total cost = $80,000 + $50,000 = $130,000.
+
+The house price increased by 150% (150%分増えました). That means the price increased by 150% of the original price. So the new price = original price + 150% of original price = 250% of original price (i.e., 2.5 times). However, we need to be careful: ""150%分増えました"" could be interpreted as ""the price",
+51,ja_h,ja,human,mgsm-003,540.0,362,True,1.0,0.0,0.0,0.0,515,True,"We need to parse the problem. The user says: ""James decided to run 3 times a week, each time running 3 sprints. Each sprint is 60 meters. How many meters will James run in a week?"" So we need to compute total meters.
+
+He runs 3 times a week. Each time he runs 3 sprints. Each sprint is 60 meters. So per session: 3 sprints * 60 = 180 meters. He does this 3 times a week, so total = 180 * 3 = 540 meters.
+
+Thus answer: 540 meters.
+
+We can also show the calculation.
+
+Thus answer: 540 meters.
+
+We can also ask if they want a step-by-step.
+
+But the question is straightforward.
+
+Thus answer: 540 meters.
+
+We can also provide a short explanation.
+
+Thus final answer: 540 meters.
+
+We'll answer in English.
+
+We'll also show the steps.
+
+Thus final.","
+**Step‑by‑step calculation**
+
+1. **Sprints per session:** 3  
+2. **Length of each sprint:** 60 m  
+   - Distance per session = 3 × 60 m = **180 m**
+
+3. **Sessions per week:** 3  
+   - Total distance per week = 180 m × 3 = **540 m**
+
+---
+
+**Answer:** James will run **540 meters** in a week."
+52,ja_h,ja,human,mgsm-004,20.0,400,False,1.0,0.0,0.0,0.0,1203,,"We need to parse the problem.
+
+The problem: ""Every day, Wenny feeds her chickens a mixed sample of grains, mealworms, and vegetables, 3 cups in total, to her chickens for health maintenance. The feed is divided into 3 times to feed the chickens. In the morning, she feeds 15 cups of feed to the chickens in total. In the afternoon, she feeds another 25 cups of feed. Assuming Wenny has 20 chickens, how many cups of feed should she give in the third feeding?""
+
+We need to interpret: The total feed per day is 3 cups? Wait, the first sentence: ""Every day, Wenny feeds her chickens a mixed sample of grains, mealworms, and vegetables, 3 cups in total, to her chickens for health maintenance."" That suggests the total feed per day is 3 cups. But then: ""The feed is divided into 3 times to feed the chickens."" So she divides the total feed (3 cups) into 3 feeding times (morning, afternoon, third). But then: ""In the morning, she feeds 15 cups of feed to the chickens in total. In the afternoon, she feeds another 25 cups of feed."" That seems contradictory: the total is 3 cups, but morning is 15 cups, afternoon is 25 cups. So maybe the first sentence is mis-phrased: maybe the total feed per day is 3 cups per chicken? Or 3 cups per feeding? Or maybe the total feed per day is 3 cups per chicken? Or maybe the first sentence is ""Every day, Wenny feeds her chickens a mixed sample of grains, mealworms, and vegetables, 3 cups in total, to her chickens for health maintenance."" Actually, ""3 cups in total",
+53,ja_h,ja,human,mgsm-005,64.0,400,False,1.0,0.0,0.0,0.0,921,,"We need to parse the problem. The problem is in Japanese. Let's translate:
+
+""Kaiya went to the store to buy glasses for a new apartment. The glasses are $5 each, but if you buy one, you can buy the second one for 60% of the original price. Kaiya wants to buy 16 glasses. How much will the total be?""
+
+We need to compute the total cost for 16 glasses, given a discount: the first glass is $5, the second is 60% of the original price (i.e., 0.6 * $5 = $3). So the pair (first + second) costs $5 + $3 = $8.
+
+If you buy 16 glasses, that's 8 pairs. So total cost = 8 * $8 = $64.
+
+But we need to double-check: The discount is ""if you buy one, you can buy the second one for 60% of the original price."" It could be interpreted as: for each pair, the second is 60% of the original price. So indeed each pair costs $5 + $3 = $8.
+
+Thus for 16 glasses, total = $64.
+
+But we need to be careful: The problem might be ambiguous: ""if you buy one, you can buy the second one for 60% of the original price."" It could be that the discount applies only once, i.e., you can get the second at 60% of the original price, but the rest are full price. However, typical reading: ""if you buy one, you can buy the second one for 60% of the original price"" suggests a promotion: buy one at full price, get the second at 60% off (i.e., 40% discount). So for each pair, you",
+54,ja_h,ja,human,mgsm-006,260.0,400,False,1.0,0.0,0.0,0.0,644,,"We need to parse the problem.
+
+The problem is in English but with some Japanese words.
+
+""Toulouse has twice as many sheep as Charlesworth. Charlesworth has four times as many sheep as Seiot. If Seiot has 20 sheep, how many sheep do Toulouse, Charlesworth, and Seiot have in total?""
+
+We need to compute the number of sheep each has.
+
+Let S = number of sheep Seiot has = 20.
+
+Charlesworth has four times as many as Seiot: C = 4 * S = 4 * 20 = 80.
+
+Toulouse has twice as many as Charlesworth: T = 2 * C = 2 * 80 = 160.
+
+Total = S + C + T = 20 + 80 + 160 = 260.
+
+Thus answer: 260.
+
+We can also show steps.
+
+Thus answer: 260.
+
+We can also double-check: T = 2*C = 2*80 = 160. Yes.
+
+Thus answer: 260.
+
+We can also present in a more formal way.
+
+Thus final answer: 260.
+
+We can also mention that the total is 260.
+
+Thus answer: 260.
+
+We can also note that the problem is simple.
+
+Thus final answer: 260.
+
+We can also show the equation:
+
+Let S = 20.
+
+C = 4S = 80.
+
+T = 2C = 160.
+
+Total = S + C + T = 20 + 80 + 160 = 260.
+
+Thus answer: 260.
+
+Thus final answer: 260.
+
+We",
+55,ja_h,ja,human,mgsm-007,160.0,400,False,1.0,0.0,0.0,0.0,904,,"1.  **Deconstruct the User's Request:**
+
+    *   **Core Question:** ""How long will it take for the file to be downloaded?""
+    *   **Key Information Provided:**
+        *   File size: 200 gigabytes (GB).
+        *   Normal download speed: 2 gigabytes (GB) per minute.
+        *   The download is interrupted.
+        *   Interruption point: 40% complete.
+        *   Consequence of interruption: Windows updates and a restart for the update installation.
+        *   Duration of the update/restart: 20 minutes.
+        *   Final action: ""Kāla will have to do the download again from the beginning."" This is a crucial piece of information.
+
+2.  **Initial Analysis & Planning:**
+
+    *   The problem has two distinct parts:
+        1.  The time it takes to *start* the download and get interrupted.
+        2.  The time it takes to *complete* the download *after* the interruption.
+    *   The total time will be the sum of these two parts.
+    *   I need to be careful with units (minutes, hours, etc.) and make sure I'm consistent. The speeds and times are given in minutes, so that's a good standard to use.
+
+3.  **Step-by-Step Calculation (Part 1: The Initial Download)**
+
+    *   **Goal:** Calculate the time it took to download the first 40%.
+    *   **Formula:** Time = Total Amount / Rate
+    *   **Total Amount:** 200 GB
+    *   **Rate:** 2 GB/minute
+    *   **Amount Downloaded:** 40% of 200 GB
+    *   **Calculation:**
+        *   First, find the",
+56,ja_h,ja,human,mgsm-008,45.0,400,False,1.0,0.0,0.0,0.0,1149,,"We need to parse the problem.
+
+The problem is in Japanese. Let's translate:
+
+""John turned back after realizing he had forgotten something very important at home after driving for 3 hours at a speed of 60 miles per hour. He wants to return home within 4 hours. The first 2 hours are stuck in heavy traffic and cannot move. He then drives for the next 30 minutes at a speed of 30 miles per hour, and then at a speed of 80 miles per hour towards home. At the timing when 4 hours have elapsed, how many miles is John from home?""
+
+We need to compute the distance from home after 4 hours.
+
+Interpretation: John initially drives for 3 hours at 60 mph, then he turns back (i.e., he goes back home). He wants to return home within 4 hours total (including the time he spent driving away and the time to return). The first 2 hours of his return trip are stuck in heavy traffic and cannot move (i.e., he's stationary). He then drives for the next 30 minutes at a speed of 30 mph, and then at a speed of 80 mph towards home. At the timing when 4 hours have elapsed (i.e., after 4 hours from the start?), how many miles is John from home?
+
+We need to be careful: The timeline:
+
+- He drives away for 3 hours at 60 mph.
+- He then turns back (i.e., he starts heading home).
+- He wants to return home within 4 hours total (i.e., from the moment he turned back? Or from the start? The problem says ""He wants to return home within 4 hours."" It could be interpreted as the total time from the moment he turned back to th",
+57,ja_h,ja,human,mgsm-009,460.0,400,False,0.846,0.154,0.0,0.057,473,,"We need to parse the problem. The user says:
+
+""エライザの時給は、週の最初の40時間は、10ドルです。残業代は通常の1.2倍の給料が支払われます。エライザが今週45時間働いたとしたら、彼女が手にできる給料はいくらでしょうか？""
+
+This is a typical Japanese problem about wages. The hourly rate is $10 for the first 40 hours. Overtime pay is 1.2 times the usual rate (i.e., 1.2 * $10 = $12 per hour). She works 45 hours. So she works 5 hours of overtime (45 - 40 = 5). The regular pay for 40 hours is 40 * $10 = $400. The overtime pay for 5 hours is 5 * $12 = $60. So total pay is $400 + $60 = $460.
+
+Thus answer: $460.
+
+We can also show the calculation.
+
+But the user might want the answer in Japanese? The problem is in Japanese. The user wrote in Japanese. So we should answer in Japanese.
+
+Thus we can answer: 400 + (5 * 12) = 46",
+58,ja_h,ja,human,mgsm-010,366.0,400,False,0.833,0.166,0.0,0.045,552,,"We need to parse the problem.
+
+The problem: ""新規のプログラムが最初の月は60回ダウンロードされました。2か月目にはダウンロード回数は3倍に膨れ上がりましたが、3か月目は30%減少しました。3か月間でプログラムのダウンロード回数は合計何回だったでしょうか？""
+
+Translation: ""A new program was downloaded 60 times in the first month. In the second month, the number of downloads increased to 3 times, but in the third month, it decreased by 30%. What was the total number of downloads for the program over the three months?""
+
+We need to compute the total number of downloads over the three months.
+
+Interpretation:
+
+- First month: 60 downloads.
+
+- Second month: ""the number of downloads increased to 3 times"". Does that mean it increased to 3 times the previous month (i.e., 3 * 60 = 180), or increased by 3 times (i.e., increased by a factor of ",
+59,ja_h,ja,human,mgsm-011,694.0,400,False,1.0,0.0,0.0,0.0,488,,"We need to parse the problem. The user says: ""Tōra went to a bakery and bought various pastries. She bought 36 donuts at 68 dollars for 12, 24 mini cupcakes at 80 dollars for 12, and 72 mini cheesecakes at 55 dollars for 12. What was the total amount?""
+
+We need to compute the total cost.
+
+Given:
+
+- 36 donuts at 68 dollars for 12. So price per 12 donuts is $68. So for 36 donuts (which is 3 * 12), cost = 3 * $68 = $204.
+
+- 24 mini cupcakes at 80 dollars for 12. So price per 12 mini cupcakes is $80. 24 is 2 * 12, so cost = 2 * $80 = $160.
+
+- 72 mini cheesecakes at 55 dollars for 12. So price per 12 mini cheesecakes is $55. 72 is 6 * 12, so cost = 6 * $55 = $330.
+
+Now sum: $204 + $160 + $330 = $694.
+
+Thus total amount = $694.
+
+But we need to double-check the numbers.
+
+Check: 36 donuts at $68 per 12 => $68 * (36/12) = $68 * 3 = $204.
+
+24 mini cupcakes at $80 per 12 => $80 * (24/12) = $80 * 2 = $160.
+
+72 mini cheesecakes at $5",
+60,ja_h,ja,human,mgsm-012,13.0,400,False,1.0,0.0,0.0,0.0,853,,"We need to parse the problem. The user is asking: ""Carlos is trying to plant a lemon tree. The lemon tree costs $90 to plant. Each year, 7 lemons will grow, and they can be sold for $1.5 each. It will cost $3 a year to water and fertilize the tree. How many years will it take for Carlos to make a profit from the lemon tree?""
+
+We need to compute the break-even point: the number of years after which the total profit (revenue from selling lemons minus costs) becomes non-negative.
+
+We have:
+
+- Initial cost: $90 (one-time cost to plant the tree).
+- Annual cost: $3 per year (water and fertilizer).
+- Annual revenue: 7 lemons * $1.5 = $10.5 per year.
+
+Thus net profit per year (ignoring initial cost) = $10.5 - $3 = $7.5 per year.
+
+But we also have the initial $90 cost.
+
+Thus after n years, total profit = n * $7.5 - $90 (if we consider profit as revenue minus costs). Actually we need to be careful: The initial cost is a one-time cost, not annual. So after n years, total net profit = (annual net profit * n) - initial cost.
+
+We want to find the smallest integer n such that total net profit >= 0.
+
+Thus:
+
+7.5 n - 90 >= 0 => n >= 90 / 7.5 = 12.
+
+Thus after 12 years, profit = 7.5 * 12 - 90 = 90 - 90 = 0. So break-even at 12 years.
+
+If we want profit > 0 (strictly positive), then n > 12, so",
+61,ja_h,ja,human,mgsm-013,18.0,400,False,1.0,0.0,0.0,0.0,1197,,"We need to parse the problem. The problem is in Japanese. Let's translate:
+
+""Meralie is a door-to-door salesperson. During the sale, she sold 1/3 of the green houses, 2 red houses, and half of the remaining (the remaining after those sales) in orange houses. If there are 5 vacuum cleaners left in Meralie's hand, how many did she have at the beginning of the sale?""
+
+We need to find the initial number of vacuum cleaners (or maybe houses? Actually the problem says ""vacuum cleaners"" but the context is houses. The problem: ""During the sale, she sold 1/3 of the green houses, 2 red houses, and half of the remaining in orange houses. If there are 5 vacuum cleaners left in Meralie's hand, how many did she have at the beginning of the sale?"" It seems like the ""vacuum cleaners"" are the items being sold (maybe the houses have vacuum cleaners?). Or maybe the ""vacuum cleaners"" are the items she sells, and the houses are the customers. But the problem is ambiguous.
+
+We need to interpret: She is a door-to-door salesperson. She sells vacuum cleaners to houses. She sold 1/3 of the green houses, 2 red houses, and half of the remaining in orange houses. If there are 5 vacuum cleaners left in Meralie's hand, how many did she have at the beginning of the sale?
+
+Alternatively, maybe the ""green houses"", ""red houses"", ""orange houses"" are types of houses, and she sold vacuum cleaners to those houses. She sold 1/3 of the green houses (i.e., she sold vacuum cleaners to 1/3 of the green houses), 2 red ho",
+62,ja_h,ja,human,mgsm-014,60.0,400,False,0.997,0.003,0.0,0.0,675,,"We need to parse the problem.
+
+We have a dance class of 20 students.
+
+20% are comfortable with contemporary dance.
+
+The remaining students: 20 - (20% of 20) = 20 - 4 = 16.
+
+Of the remaining students (i.e., the 16), 25% are learning jazz dance.
+
+So 25% of 16 = 0.25 * 16 = 4.
+
+Thus 4 students are learning jazz.
+
+The rest of the remaining students (i.e., after removing the jazz students) are learning hip-hop.
+
+So remaining after jazz: 16 - 4 = 12.
+
+Thus 12 students are learning hip-hop.
+
+We need the percentage of the entire class that is learning hip-hop.
+
+Total class = 20.
+
+Hip-hop = 12.
+
+Percentage = (12 / 20) * 100% = 60%.
+
+Thus answer: 60%.
+
+We can also show steps.
+
+Thus answer: 60%.
+
+We can also double-check: 20% comfortable with contemporary = 4.
+
+Remaining = 16.
+
+25% of 16 = 4 jazz.
+
+Remaining = 12 hip-hop.
+
+Thus hip-hop = 12 out of 20 = 60%.
+
+Thus answer: 60%.
+
+We can also express as a percentage.
+
+Thus answer: 60%.
+
+We can also show the calculation.
+
+Thus answer: 60%.
+
+We can also answer in Japanese: 60%です。
+
+Thus answer: 60%.
+
+We can also show the steps.
+
+Thus answer: 60%.",
+63,ja_h,ja,human,mgsm-015,125.0,400,False,1.0,0.0,0.0,0.0,1303,,"We need to parse the problem.
+
+We have a merchant (businessman) who can choose one of two procurement plans:
+
+- Plan 1: purchase gems for $5,000.
+- Plan 2: purchase electronics for $8,000.
+
+The financial advisor predicts that within the same month, the price of gems will increase by 2.5%, and the price of electronics will increase by 1.2%.
+
+We need to find the profit at the end of the month if the merchant chooses the procurement plan that maximizes profit.
+
+We need to define profit. Usually profit = selling price - purchase price. But the problem does not give selling price. Perhaps the profit is the increase in value due to price increase? Or maybe the profit is the increase in the value of the inventory (i.e., the price increase). Or maybe the profit is the difference between the new price and the original price (i.e., the increase). Or maybe the profit is the total value after the price increase (i.e., the new price). But the problem says ""profit at the end of the month if the merchant chooses the procurement plan that maximizes profit"". So we need to compute profit for each plan, then choose the max.
+
+But we need to know the selling price. Perhaps the merchant will sell the items at the new price (i.e., after the increase). So the profit is the increase in price (i.e., the new price minus the original price). But that would be the profit if the merchant sells at the new price and bought at the original price. However, the problem does not specify the selling price. It on",
+64,ru_h,ru,human,mgsm-000,18.0,400,False,1.0,0.0,0.0,0.0,1055,,"We need to parse the problem.
+
+The problem: ""Ducks Janet lay 16 eggs a day. She eats three for breakfast each morning and bakes cookies for her friends each day, using four. The rest she sells fresh at the farmer's market for $2 each. How much does she earn in dollars at the farmer's market each day?""
+
+We need to compute the number of eggs sold.
+
+She lays 16 eggs per day.
+
+She eats 3 for breakfast each morning.
+
+She bakes cookies for her friends each day, using four.
+
+Interpretation: She uses four eggs to bake cookies.
+
+Thus total eggs used/consumed = 3 (eaten) + 4 (baking) = 7 eggs.
+
+Thus remaining eggs = 16 - 7 = 9 eggs.
+
+She sells each fresh egg for $2.
+
+Thus revenue = 9 * $2 = $18.
+
+Thus answer: $18.
+
+But we need to be careful: The problem says ""She eats three for breakfast each morning and bakes cookies for her friends each day, using four."" The phrase ""using four"" could be ambiguous: does it mean she uses four eggs to bake cookies, or she uses four cookies? But likely eggs.
+
+Thus answer: $18.
+
+We can also check if there is any nuance: She sells fresh at the farmer's market for $2 each. So she sells the rest.
+
+Thus answer: $18.
+
+We can also present the solution step by step.
+
+Thus final answer: $18.
+
+We can also mention that she sells 9 eggs at $2 each, making $18.
+
+Thus answer: 18.
+
+We can also include a short explanation.
+
+Thus final.
+
+Now we need to output the answer.
+
+We can also consider if the problem expects a numeric answer only",
+65,ru_h,ru,human,mgsm-001,3.0,400,False,0.885,0.115,0.0,0.0,950,,"1.  **Deconstruct the User's Request:**
+    *   **Core Question:** ""Сколько всего мотков требуется?"" (How many total skeins are required?)
+    *   **Item:** A "" халат"" (a robe/bathrobe).
+    *   **Material 1:** ""2 мотка синей пряжи"" (2 skeins of blue yarn).
+    *   **Material 2:** ""вполовину меньше белой пряжи"" (half as much white yarn).
+
+2.  **Initial Analysis & Identify the Ambiguity:**
+    *   The phrase ""вполовину меньше"" (half as much) is the key.
+    *   Half of what?
+    *   **Interpretation A (Most Likely):** It means half the amount of the *blue* yarn. This is the most common and logical way to interpret this kind of phrasing in a word problem. If you need 2 skeins of blue, and ""half as much"" of something else, you're comparing it to the first quantity mentioned (the blue yarn).
+    *   **Interpretation B (Less Likely, but possible):** It could mean half the amount of *some other, unstated quantity*. This makes the problem unsolvable. For example, ""half as much as the amount of wool needed for the collar."" Since no other information is given, this interpretation is a dead end.
+    *   **Interpretation C (Also Unlikely):** It could mean ""half a skein less."" For example, if you need 2 skeins of blue, you need 2 - 0.5 = 1.5 skeins of white. The phrase ""вполовину"" (by half) usually means ""by a factor of 1/2,"" not ""by 0.5."" ""Меньше на пол skeна"" would be the phrase for",
+66,ru_h,ru,human,mgsm-002,70000.0,400,False,0.972,0.0,0.028,0.0,869,,"We need to parse this problem presented in the Bengali query regarding Josh's home re-sale (पुनर्विक्रय). He buys a house (घर) for $80,000 and invests $50,000 in renovations (सुधार), which increased the value by 150%. We need to calculate the profit (लाभ) or gain (नफा) he made.
+
+Interpretation: He bought a house for $80,000. He invests $50,000 in renovations. The renovations increase the value of the house by 150%. So the increase in value is 150% of the original value? Or of the cost? Usually ""increased the value of the house by 150%"" means the value increased by 150% of its original value (i.e., the new value is 250% of the original). But we need to be careful: The phrase ""increased the value of the house by 150%"" could be interpreted as the value increased by 150% of the original value, i.e., the new value is original + 150% of original = 250% of original. So the increase is 150% of the original value.
+
+But the problem might be simpler: He invests $50,000 in renovations, which increased the value of the house by 150%. So the increase in value is 150% of $80,000? That would be $120,000. But that seems huge relative to his $50,000 investment. But maybe the problem expects that the increase in value is $120,000 (i.e., 150% of $80,000). Then his total cost is $8",
+67,ru_h,ru,human,mgsm-003,540.0,400,False,0.976,0.0,0.0,0.0,947,,"We need to parse this problem presented in Bengali regarding James's sprints (সপ্রিন্ট). The query asks for the total distance (মোট দূরত্ব) he runs in a week (সপ্তাহ).
+
+James runs 3 sprints 3 times a week. He runs 60 meters per sprint.
+
+Interpretation: He runs 3 sprints (i.e., 3 times) per session, and he does that 3 times a week. So total number of sprints per week = 3 sprints per session * 3 sessions per week = 9 sprints.
+
+Each sprint is 60 meters. So total meters = 9 * 60 = 540 meters.
+
+Thus answer: 540 meters.
+
+But we need to be careful: The phrase ""James runs 3 sprints 3 times a week."" Could be interpreted as ""He runs 3 sprints, and he does that 3 times a week."" That's the same as above.
+
+Alternatively, could be interpreted as ""He runs 3 sprints, and he runs 3 times a week."" That's the same.
+
+Thus answer: 540 meters.
+
+We can also show the calculation.
+
+Thus final answer: 540 meters.
+
+We can also provide a step-by-step solution.
+
+Thus final answer: 540 meters.
+
+We can also check if there is any nuance: If he runs 3 sprints (i.e., 3 sprints per week) and he does that 3 times a week, that would be 3 * 3 = 9 sprints. But the phrase ""runs 3 sprints 3 times a week"" is ambiguous but likely means 3 sprints per session, 3 sessions per week.
+
+Thus answer: 540 meters.
+
+We can also ask: If he runs 3 sprints (i.e., 3 sprints total) and",
+68,ru_h,ru,human,mgsm-004,20.0,400,False,0.562,0.438,0.0,0.0,1139,,"We need to parse the problem. The problem is in Russian (or partially). The text:
+
+""Каждый день Венди скармливает каждой из своих кур по три чашки смешанного корма для кур, содержащего семена, мучных червей и овощи, для поддержания их здоровья. Она дает курам корм в три отдельных приёма пищи. Утром она дает своей стае кур 15 чашек корма. Днем она дает своим курам еще 25 чашек корма. Сколько чашек корма ей нужно дать своим курам в последний приём пищи за день, если размер стаи Венди — 20 кур?""
+
+We need to find the amount of feed in the last meal.
+
+Interpretation: Each chicken gets 3 cups of feed per day? Or each chicken gets 3 cups of feed per meal? The text: ""Каждый день Венди скармливает каждой из своих кур по три чашки смешанного корма..."". That could be interpreted as each chicken gets 3 cups of feed per day. But then ""Она дает курам корм в три отдельных приёма пищи."" So there are three meals per day. So the total daily feed per chicken is 3 cups? Or 3 cups per meal? The phrase ""по три чашки"" could be ambiguous. Usually, ""по three чашки"" means ""three cups each"". But the phrase ""per day"" is not included. The phrase ""Каждый день Венди скармливает каждой из своих кур по три чашки..."" could be read as ""Every day, Wendy feeds each of her chickens three cups of mixed feed."" So each chicken gets 3 cups per day. Then ""She gives the chickens feed in three separate meals."" So the total daily feed per chicken is 3 cups, split into three meals. So each meal is 1 cup per chicken.
+
+",
+69,ru_h,ru,human,mgsm-005,64.0,400,False,0.765,0.235,0.0,0.0,882,,"We need to parse the problem. The problem is in Russian (or at least partially). The text:
+
+""Кайлар пошел в магазин, чтобы купить стаканы для своей новой квартиры. Один стакан стоит 5 $, но каждый второй стакан стоит всего лишь 60 % от цены. Кайлар хочет купить 16 стаканов. Сколько он должен за них заплатить?""
+
+Interpretation: There is a store. One glass (or cup) costs $5. But every second glass (i.e., the second, fourth, sixth, etc.) costs only 60% of the price (i.e., 0.6 * $5 = $3). So the price pattern: first glass $5, second $3, third $5, fourth $3, etc. Or maybe ""each second glass"" means ""every second glass"" i.e., the second, fourth, etc. So the price for the second is 60% of the price of the first. So the total cost for 16 glasses: there are 8 pairs of (first, second) where the first is $5 and the second is $3. So each pair costs $5 + $3 = $8. For 8 pairs, total = $8 * 8 = $64.
+
+But we need to double-check: The phrase ""но каждый второй стакан стоит всего лишь 60 % от цены"" could be interpreted as ""but each second glass costs only 60% of the price"". It could also be interpreted as ""but each second glass costs only 60% of the price of the first glass"". So the second glass is $5 * 0.6 = $3. So the pattern is as we thought.
+
+Thus the total cost for 16 glasses = 8 * (5 + 3) = 8 * 8 = $64.",
+70,ru_h,ru,human,mgsm-006,260.0,400,False,0.821,0.179,0.0,0.0,787,,"We have a problem in Russian. The user asks:
+
+""В Тулузе в два раза больше овец, чем в Чарльстоне. В Чарльстоне в 4 раза больше овец, чем в Сиэтле. Сколько овец в Тулузе, Чарльстоне и Сиэтле вместе взятых, если в Сиэтле 20 овец?""
+
+We need to compute the number of sheep in each city.
+
+Given:
+
+- In Seattle, there are 20 sheep.
+- In Charleston, there are 4 times as many sheep as in Seattle. So Charleston = 4 * 20 = 80.
+- In Toulouse, there are twice as many sheep as in Charleston. So Toulouse = 2 * 80 = 160.
+
+Now total = 20 + 80 + 160 = 260.
+
+Thus answer: 260 sheep.
+
+We can also show steps.
+
+Thus answer: 260.
+
+We can also provide a short explanation.
+
+Thus final answer: 260.
+
+We can also present in Russian.
+
+Thus final answer: 260 овец.
+
+We can also show the calculation.
+
+Thus final answer: 260.
+
+We can also ask if they want any other details.
+
+Thus final answer: 260.
+
+Now we need to output in a friendly manner.
+
+Thus final answer: 260.
+
+We'll answer in Russian.
+
+We'll also show the steps.
+
+Thus final answer: 260.
+
+We'll also mention the numbers: Seattle = 20, Charleston = 80, Toulouse = 160.
+
+Thus final answer: 260.
+
+We'll also note that the total is 260.
+
+",
+71,ru_h,ru,human,mgsm-007,160.0,400,False,1.0,0.0,0.0,0.0,917,,"We need to parse the problem.
+
+We have Carla loading a file of size 200 GB. Usually she can load 2 GB per minute. However, on 40% of the loading, Windows makes a forced reload for installing updates, which takes 20 minutes. After that, Carla has to restart the loading from the beginning.
+
+We need to compute total time to load the file.
+
+Interpretation: The process of loading the file is at 2 GB per minute. However, on 40% of the loading (i.e., 40% of the total time? Or 40% of the file?), Windows makes a forced reload for installing updates, which takes 20 minutes. After that, Carla has to restart the loading from the beginning.
+
+We need to decide what ""on 40% of the loading"" means.
+
+Possibility 1: 40% of the file (i.e., 0.4 * 200 GB = 80 GB) triggers a forced reload. So after loading 80 GB, a forced reload of 20 minutes occurs, and then she has to restart from the beginning (i.e., she must reload the entire 200 GB again). But that seems too large.
+
+Possibility 2: 40% of the loading time (i.e., 40% of the total time it would take to load the file at 2 GB/min) triggers a forced reload. So the forced reload occurs after 40% of the time, which is 0.4 * (200 GB / 2 GB/min) = 0.4 * 100 min = 40 min. So after 40 minutes of loading (i.e., after loading 80 GB), a forced reload of 20 minutes occurs, and then she",
+72,ru_h,ru,human,mgsm-008,45.0,400,False,1.0,0.0,0.0,0.0,1077,,"We need to parse this problem. It's a word problem about distances and times.
+
+The problem: John drives 3 hours at 60 mph, then turns around because he forgot something important. He tries to get home in 4 hours, but spends the first 2 hours in traffic. The next half hour he drives at 30 mph, before he can drive the remaining 4 hours at 80 mph. How far from home is he at the end of these 4 hours?
+
+We need to interpret: He tries to get home in 4 hours (i.e., he has a total of 4 hours to get home). He spends the first 2 hours in traffic (presumably not moving? Or moving at some speed? Usually traffic means not moving, but we need to interpret). Then the next half hour he drives at 30 mph (maybe he's moving). Then he can drive the remaining 4 hours at 80 mph. Wait, the phrase ""remaining 4 hours"" is ambiguous: He has a total of 4 hours to get home. He spent 2 hours in traffic, then half an hour at 30 mph, then the remaining 4 hours at 80 mph. But that would be 2 + 0.5 + 4 = 6.5 hours, which is more than 4 hours. So maybe the ""remaining 4 hours"" refers to the remaining time after the half hour, but the total time is 4 hours? Or maybe the problem is mis-phrased.
+
+Let's read the original: ""John drives 3 hours at 60 miles per hour, and then turns around because he realizes he forgot something important. He tries to get home in 4 hours, but spends the first 2 hours in traffic. The next half hour he drives at 30 miles per hour, before he can drive the remaining",
+73,ru_h,ru,human,mgsm-009,460.0,400,False,1.0,0.0,0.0,0.0,679,,"We need to parse the problem.
+
+Eliza's regular hourly rate: $10 per hour for the first 40 hours each week.
+
+She also receives a pay for overtime (presumably for any hours beyond 40) at a rate of 1.2 times her regular hourly rate.
+
+Thus overtime rate = 1.2 * $10 = $12 per hour.
+
+If she worked 45 hours this week, we need to compute her total earnings.
+
+First 40 hours at $10 = $400.
+
+Remaining 5 hours (45 - 40) at $12 = $60.
+
+Total = $460.
+
+Thus answer: $460.
+
+But we need to be careful: The problem says ""She also receives a pay for overtime work at a rate of 1,2 her regular hourly rate."" The phrase ""1,2"" could be ambiguous: maybe it's ""1.2"". Usually they'd write ""1.2"". So we assume 1.2.
+
+Thus answer: $460.
+
+We can also show the steps.
+
+Thus final answer: $460.
+
+We can also mention that the regular pay for 40 hours is $400, and the overtime pay for 5 hours is $60, for a total of $460.
+
+Thus answer: $460.
+
+We can also double-check: 40 * 10 = 400. Overtime: (45 - 40) = 5 hours. Overtime rate = 1.2 * 10 = 12. So 5 * 12 = 60. Sum = 460.
+
+Thus answer: $460.
+
+We can also note that if the overtime rate is",
+74,ru_h,ru,human,mgsm-010,366.0,400,False,1.0,0.0,0.0,0.0,844,,"We need to parse the problem.
+
+The problem: ""New program had 60 downloads in the first month. The number of downloads in the second month was three times the number of downloads in the first month, but then decreased by 30% in the third month. How many total downloads did the program have for the three months?""
+
+We need to compute:
+
+First month: 60.
+
+Second month: three times the first month = 3 * 60 = 180.
+
+Third month: decreased by 30% relative to second month? Or relative to second month? The phrase ""but then decreased by 30% in the third month."" Usually it's relative to the second month. So third month = second month - 30% of second month = 180 - 0.30 * 180 = 180 - 54 = 126.
+
+Total = 60 + 180 + 126 = 366.
+
+Thus answer: 366 downloads.
+
+We can also show steps.
+
+Thus final answer: 366.
+
+We can also double-check: 30% of 180 = 54, subtract to get 126. Sum = 60 + 180 = 240, +126 = 366.
+
+Thus answer.
+
+We can also present in a more formal way.
+
+Thus final answer: 366.
+
+We can also mention that the total number of downloads for the three months is 366.
+
+Thus answer.
+
+We can also provide a short solution.
+
+Thus final answer.
+
+We can also ask if they want a breakdown.
+
+Thus final answer.
+
+We'll answer in Russian (since the problem is in Russian). The",
+75,ru_h,ru,human,mgsm-011,694.0,400,False,1.0,0.0,0.0,0.0,666,,"We need to parse the problem. The user says: ""TuLa went to the bakery and bought various types of pastries. She bought 3 dozen donuts, which cost $68 per dozen, 2 dozen mini-cupcakes, which cost $80 per dozen, and 6 dozen mini-cheesecakes at $55 per dozen. What was the total cost?""
+
+We need to compute the total cost.
+
+We have:
+
+- 3 dozen donuts at $68 per dozen. So cost = 3 * $68 = $204.
+
+- 2 dozen mini-cupcakes at $80 per dozen. So cost = 2 * $80 = $160.
+
+- 6 dozen mini-cheesecakes at $55 per dozen. So cost = 6 * $55 = $330.
+
+Total = $204 + $160 + $330 = $694.
+
+Thus answer: $694.
+
+We can also show the steps.
+
+We need to answer in a clear way.
+
+Thus final answer: $694.
+
+We can also double-check: 3*68 = 204. 2*80 = 160. 6*55 = 330. Sum = 204+160 = 364. 364+330 = 694.
+
+Yes.
+
+Thus answer: $694.
+
+We can also mention that the total cost is $694.
+
+We can also show the calculation in a table.
+
+Thus final answer.
+
+We need to be careful about the language: The user wrote in English but with some Russian? Actually ""TuLa"" maybe a name. The problem is in English.
+
+Thus answer in English.",
+76,ru_h,ru,human,mgsm-012,13.0,400,False,1.0,0.0,0.0,0.0,631,,"We need to parse the problem.
+
+Carlos plants a lemon tree. It costs $90 to plant. Each year, it will grow 7 lemons, which he can sell for $1.5 each. So revenue per year = 7 * $1.5 = $10.5.
+
+It costs $3 per year to water and fertilize. So net profit per year = revenue - cost = $10.5 - $3 = $7.5 per year.
+
+But the initial cost $90 is a one-time cost. So we need to find the number of years after which the cumulative net profit becomes positive (i.e., he starts making money). Or perhaps the break-even point.
+
+We can compute:
+
+Let n be the number of years after planting.
+
+Total cost = $90 + $3 * n (the $3 per year for n years). Total revenue = $10.5 * n.
+
+We want total revenue > total cost.
+
+Set $10.5 n > $90 + $3 n => $10.5 n - $3 n > $90 => $7.5 n > $90 => n > $90 / $7.5 = 12.
+
+So after 12 years, revenue = $10.5 * 12 = $126. Total cost = $90 + $3 * 12 = $90 + $36 = $126. So break-even at n = 12.
+
+If we consider ""before he starts making money"", i.e., the first year where profit > 0. At n = 12, profit = $0 (break-even). At n = 13, profit = $7.5 > 0. So after 13 years, he starts making money.
+
+",
+77,ru_h,ru,human,mgsm-013,18.0,400,False,1.0,0.0,0.0,0.0,904,,"We have a problem: Melanie is a salesperson (commissar). She sold a third of her vacuum cleaners in the green house, then 2 more in the red house, and half of what remained in the orange house. After that, she has 5 vacuum cleaners left. We need to find the initial number of vacuum cleaners.
+
+We need to interpret the problem correctly.
+
+Let's denote the initial number of vacuum cleaners as N.
+
+She sold a third of her vacuum cleaners in the green house. So she sold (1/3) N. After that, the remaining is N - (1/3) N = (2/3) N.
+
+Then she sold 2 more in the red house. So after that, the remaining is (2/3) N - 2.
+
+Then she sold half of what remained in the orange house. So she sold half of the current remaining: (1/2) * ((2/3) N - 2). After that, the remaining is half of that: (1/2) * ((2/3) N - 2). Actually, careful: She sold half of what remained, so she sold half of the remaining after the red house. So the amount sold in orange house is half of the remaining after red house. So the remaining after orange house is the other half (the half that was not sold). So after orange house, the remaining is (1/2) * ((2/3) N - 2).
+
+We are told that after all that, she has 5 vacuum cleaners left. So:
+
+(1/2) * ((2/3) N - 2) = 5.
+
+Solve for N.
+
+Multiply both sides by 2: (2/3) N - 2 = 10.
+
+Add 2: (2/3) N = 12.
+
+Multiply both sides by",
+78,ru_h,ru,human,mgsm-014,60.0,400,False,1.0,0.0,0.0,0.0,627,,"We need to parse the problem.
+
+We have a dance class of 20 students.
+
+20% of the class (i.e., 20% of 20) are enrolled in modern dance.
+
+Then, of the remaining students (i.e., after subtracting those 20% of the class), 25% of the remaining are enrolled in jazz dance.
+
+The rest of the students (i.e., after subtracting the modern and jazz enrollments) are enrolled in hip-hop.
+
+We need to find the percentage of all students that are in hip-hop.
+
+We can compute.
+
+First, 20% of 20 = 0.20 * 20 = 4 students.
+
+So 4 students in modern.
+
+Remaining = 20 - 4 = 16.
+
+Now, 25% of the remaining (i.e., 25% of 16) are in jazz.
+
+25% of 16 = 0.25 * 16 = 4.
+
+So 4 students in jazz.
+
+Now, the rest: 16 - 4 = 12 students in hip-hop.
+
+Thus, hip-hop is 12 out of 20 = 12/20 = 0.6 = 60%.
+
+Thus answer: 60%.
+
+We can also present as a percentage.
+
+Thus the answer: 60%.
+
+We can also show steps.
+
+Thus final answer: 60%.
+
+We can also double-check: 4 modern (20%), 4 jazz (20% of remaining 16 = 25% of 16 = 4), and 12 hip-hop (60% of total). So total percentages: 20% + 20",
+79,ru_h,ru,human,mgsm-015,125.0,400,False,1.0,0.0,0.0,0.0,986,,"1.  **Deconstruct the User's Request:**
+    *   **Core Question:** ""What profit will this be?""
+    *   **Key Actors:** A businessman (commercialist), a financial consultant.
+    *   **The Choice:** Two plans for purchase.
+        *   Plan A: Jewelry on $5000.
+        *   Plan B: Electronic gadgets on $8000.
+    *   **The Goal:** ""maximize the profit in the end of the month.""
+    *   **The Data (Growth Rates):**
+        *   Jewelry market growth: 2.5%.
+        *   Gadget market growth: 1.2%.
+    *   **The Missing Piece:** The *initial profit* for each plan. The problem doesn't state this. This is a critical point. I can't just calculate a final number without a starting point.
+
+2.  **Initial Analysis & Problem Identification:**
+    *   The problem is a bit of a trick question, or at least an incomplete one. It asks for a specific profit figure but doesn't provide the necessary information to calculate it.
+    *   What information is missing?
+        *   The *current* or *initial* profit for the jewelry plan.
+        *   The *current* or *initial* profit for the gadget plan.
+    *   Without this, I can't give a single numerical answer like ""$1250"" or ""15000 dollars.""
+
+3.  **Formulating a Strategy for the Answer:**
+    *   **Acknowledge the ambiguity:** Start by directly addressing the missing information. This shows I've understood the problem's nuances and I'm not just making up numbers. It builds trust with the user.
+    *   **Reframe the problem:** Instead of giving a single",
+80,zh_h,zh,human,mgsm-000,18.0,400,False,1.0,0.0,0.0,0.0,870,,"We need to parse the problem.
+
+""Jenny's ducks lay 16 eggs each day. She eats 3 eggs for breakfast every morning, and she uses 4 eggs to make muffins for her friends every day. The rest of the duck eggs she takes to the market to sell every day, with each fresh duck egg selling for $2. How much money does she make at the market every day?""
+
+We have total eggs = 16 per day.
+
+She eats 3 eggs for breakfast.
+
+She uses 4 eggs to make muffins.
+
+Thus the rest = 16 - (3 + 4) = 16 - 7 = 9 eggs.
+
+She sells each at $2.
+
+Thus revenue = 9 * $2 = $18.
+
+Thus answer: $18 per day.
+
+We can also show steps.
+
+Thus answer: $18.
+
+We can also mention that she makes $18 at the market each day.
+
+Thus final answer: $18.
+
+We can also include a short explanation.
+
+Thus final answer: $18.
+
+We can also mention that the market revenue is $18.
+
+Thus answer: $18.
+
+We can also ask if any other nuance: maybe the eggs are sold fresh, each $2.
+
+Thus answer: $18.
+
+Thus final.
+
+We can also include a small table.
+
+Thus final answer: $18.
+
+We can also mention that the market revenue is $18 per day.
+
+Thus final answer: $18.
+
+We can also answer in Chinese: $18.
+
+Thus final answer: $18.
+
+We can also answer in English: $18.
+
+Thus final answer: $18.
+
+We can also answer: $18 per day.
+
+Thus final answer: $18.
+
+We can also answer",
+81,zh_h,zh,human,mgsm-001,3.0,400,False,0.902,0.098,0.0,0.098,722,,"1.  **Deconstruct the User's Request:**
+    *   The user is asking a word problem in Chinese.
+    *   The core question is: ""It altogether needs how many pieces of cloth?""
+    *   The problem provides two pieces of information:
+        *   Blue cloth needed: 2 pieces.
+        *   White cloth needed: ""half of this number"".
+    *   The final answer should be the total number of pieces of cloth.
+
+2.  **Translate and Understand the Chinese:**
+    *   ""制作一件袍子需要 2 匹蓝色纤维布料"" -> ""Making a robe needs 2 pieces of blue fiber cloth.""
+        *   ""一件袍子"" -> a robe (one piece).
+        *   ""需要"" -> needs.
+        *   ""2 匹"" -> 2 pieces (or 2 bolts, but ""匹"" is a general measure for cloth).
+        *   ""蓝色纤维布料"" -> blue fiber cloth.
+    *   ""和这个数量一半的白色纤维布料"" -> ""and half of this number of white fiber cloth.""
+        *   ""和"" -> and.
+        *   ""这个数量"" -> this number.
+        *   ""一半"" -> half.
+    *   ""它一共需要用掉多少匹布料？"" -> ""It altogether needs how many pieces of cloth?""
+        *   ""一共"" -> altogether, in total.
+        *   ""需要用掉"" -> needs to be used (or just ""needs"").
+        *   ""多少匹"" -> how many pieces.
+
+3.  **Formulate a Plan to Solve the Problem:**
+    *   **Step 1: Calculate the amount of white cloth.**
+        *   The problem states it's ""half of this number"".
+        *   ""This",
+82,zh_h,zh,human,mgsm-002,70000.0,400,False,0.984,0.016,0.0,0.016,811,,"We need to parse this Hindi query regarding a house flip (房屋翻新). The problem states that Josh spent $80,000 on a house and $50,000 on renovations (维修), and the value increased by 150% (价值增加了 150%). We need to calculate the profit (利润).
+
+Interpretation: The house was bought for $80,000. He spent $50,000 on renovations. So total cost = $80,000 + $50,000 = $130,000.
+
+The value of the house increased by 150%. Does that mean the value increased by 150% of the original value? Or the final value is 150% of the original? Usually ""increased by 150%"" means the increase is 150% of the original, so the final value is original + 150% of original = 250% of original (i.e., 2.5 times). But sometimes people say ""increased to 150%"" meaning final is 150% of original (i.e., a 50% increase). The phrase ""increased by 150%"" is ambiguous but standard reading: increase by 150% = final = original * (1 + 1.5) = 2.5 * original.
+
+But we need to decide which interpretation is intended. The problem likely expects that the value increased by 150% of the original value (i.e., final value = original + 150% of original = 250% of original). However, many simple word problems use ""increased by 150%"" to mean the final value is 150% of the original (i.e., a 50",
+83,zh_h,zh,human,mgsm-003,540.0,400,False,0.945,0.055,0.0,0.055,745,,"We need to parse the problem.
+
+The problem: ""詹姆斯决定每周跑 3 次 3 段冲刺，每段冲刺跑 60 米。他每周一共跑多少米？""
+
+Interpretation: James decides to run 3 times 3 segments (i.e., 3 times, each time he runs 3 segments). Each segment is 60 meters. So total distance per week = number of runs (3) * number of segments per run (3) * length of each segment (60 m). So total = 3 * 3 * 60 = 9 * 60 = 540 meters.
+
+Thus answer: 540 meters.
+
+But we need to be careful: The phrase ""每周跑 3 次 3 段冲刺"" could be interpreted as ""he runs 3 times, each time 3 segments"". So indeed 3 * 3 = 9 segments per week. Each segment is 60 m. So total = 9 * 60 = 540 m.
+
+Thus answer: 540 meters.
+
+We can also show the calculation.
+
+Thus final answer: 540 meters.
+
+We can also present in Chinese: ""他每周一共跑540米。""
+
+Thus answer.
+
+We can also double-check: If he runs 3 times a week, each time he runs 3 segments, each segment 60 m, then per week he runs 3 * 3 = 9 segments, each 60 m, so 9 * 60 = 540 m.
+
+Thus answer.
+
+We can also mention the steps.
+
+Thus final answer: 540 meters.
+
+We can also add a note: If the problem is interpreted differently (like 3 times a week, each time 3 segments, each segment 6",
+84,zh_h,zh,human,mgsm-004,20.0,400,False,1.0,0.0,0.0,0.0,1259,,"We need to parse the problem. The problem is in English but with some Chinese terms. Let's restate:
+
+Wendy gives her chickens a mixture of seeds, mealworms, and vegetables in their feed to help them stay healthy. She feeds her chickens 3 times a day. In the morning, she feeds the chickens 15 cups of feed. In the afternoon, she feeds the chickens 25 cups of feed. If Wendy's chicken flock is 20 chickens, how many cups of feed does she need to give the chickens in the last meal of the day?
+
+We need to find the amount of feed needed for the last meal (the third meal) given the total feed needed for the day? Or maybe the total feed needed is based on the number of chickens and the per-chicken feed amount? The problem says: ""Wendy gives her chickens 3 cups of a mixture of seeds, mealworms, and vegetables in their feed every day to help them stay healthy."" That seems to be a per-chicken per-day? Actually ""3 cups of a mixture of seeds, mealworms, and vegetables in their feed every day"". That could be per chicken per day? Or it's ambiguous.
+
+But the problem also says: ""She feeds her chickens 3 times a day. In the morning, she feeds the chickens 15 cups of feed. In the afternoon, she feeds the chickens 25 cups of feed."" So the morning and afternoon amounts are given. The question: ""If Wendy's chicken flock is 20 chickens, how many cups of feed does she need to give the chickens in the last meal of the day?"" So we need to find the amount for the third meal (the last meal) given the tota",
+85,zh_h,zh,human,mgsm-005,64.0,400,False,0.911,0.089,0.0,0.089,778,,"We need to parse the problem. The problem is in Chinese (or partially). It says:
+
+""Kylar 去商店为新公寓购买玻璃杯。一个玻璃杯 5 美元，但第二个玻璃杯售价仅为原价的 60%。Kylar 想买 16 个玻璃杯。他需要付多少钱？""
+
+Interpretation:
+
+- A glass cup costs $5.
+- The second glass cup is sold at 60% of the original price (i.e., 60% of $5 = $3).
+- Kylar wants to buy 16 glass cups.
+- We need to compute the total cost.
+
+But we need to consider the pattern: The first cup is $5, the second is $3 (60% of $5). What about the third? The problem only mentions the second is at 60% of the original price. It might be that after the first two, the rest are at the original price? Or maybe the discount applies to every second cup? Or maybe the discount is only for the second cup, and the rest are at full price.
+
+We need to interpret the problem. Usually, in such problems, the discount is for the second item (like ""buy one, get the second at 60% off"") and the rest are full price. So the total cost for 16 cups would be:
+
+- 1st cup: $5
+- 2nd cup: $5 * 0.6 = $3
+- 3rd to 16th: 14 cups at $5 each = $70
+
+Total = $5 + $3 + $70 = $78
+
+But we need to double-check: The problem says ""一个玻璃杯 5 美元，但第二个玻璃杯售价仅为原价的 60%。Kylar 想买 1",
+86,zh_h,zh,human,mgsm-006,260.0,400,True,0.984,0.016,0.0,0.016,499,False,"We have a problem presented in this Bengali query regarding the number of sheep (绵羊数量) in different cities. The goal is to find the total (共有多少) based on the given ratios.
+
+We have:
+
+- Seattle has 20 sheep.
+- Charleston has 4 times as many as Seattle => Charleston = 4 * 20 = 80.
+- Toulouse has twice as many as Charleston => Toulouse = 2 * 80 = 160.
+
+Total = 20 + 80 + 160 = 260.
+
+Thus answer: 260.
+
+But we need to be careful: The problem says ""Toulouse has twice as many sheep as Charleston."" So yes.
+
+Thus answer: 260.
+
+We can also show steps.
+
+Thus final answer: 260.
+
+We can also present as a solution.
+
+Thus final.
+
+We need to answer in a clear way.
+
+Thus final answer: 260.
+
+We can also show the calculation.
+
+Thus final.
+
+We'll answer.","
+**Step 1: Find Charleston’s sheep**  
+Seattle has 20 sheep.  
+Charleston has 4 × Seattle’s amount:  
+
+\[
+\text{Charleston}=4 \times 20 = 80 \text{ sheep}
+\]
+
+**Step 2: Find Toulouse’s sheep**  
+Toulouse has twice as many as Charleston:  
+
+\[
+\text{Toulouse}=2 \times 80 = 160 \text{ sheep}
+\]
+
+**Ste"
+87,zh_h,zh,human,mgsm-007,160.0,400,False,0.98,0.02,0.0,0.02,1014,,"We need to parse this problem presented in the Hindi query (卡拉正在下载). The file size (文件大小) is 200 GB. Normal download speed (下载速度) is 2 GB per minute. So without any interruption, time = 200 / 2 = 100 minutes.
+
+But there is a forced restart (强制重新启动) after 40% of the file is downloaded. At that point, Windows forces a restart to install updates, which takes 20 minutes. Then Kara has to restart the download from the beginning (i.e., from 0). So we need to compute total time including the restart and the re-download of the entire file (or maybe just the part that was downloaded before the restart? The problem says ""Kara has to restart the download from the beginning."" That suggests she has to re-download the entire file, not just the remaining part. However, we need to interpret: She had downloaded 40% of the file (i.e., 0.4 * 200 = 80 GB). Then a forced restart takes 20 minutes. Then she has to restart the download from the beginning (i.e., re-download the entire 200 GB). So total time = time to download 40% (which is 80 GB at 2 GB/min = 40 minutes) + 20 minutes restart + time to download entire 200 GB (100 minutes). So total = 40 + 20 + 100 = 160 minutes.
+
+But is there any nuance? The forced restart occurs after 40% of the file is downloaded. The restart takes 20 minutes. Then she has to restart the download from the beginning. So the total time includes the time to download the first 40% (which is 4",
+88,zh_h,zh,human,mgsm-008,45.0,400,False,0.96,0.0,0.04,0.0,1099,,"We need to parse this problem presented in the Hindi query (हिंदी प्रश्न). John drives at 60 mph (60 मील प्रति घंटा) for 3 hours, then turns around (वापस मुड़ता है) because he forgot something. He then drives to home (घर) in 4 hours, but the first 2 hours are spent in traffic (ट्रैफिक). In the next half hour, he drives at 30 mph. Then for the remaining time (the rest of the 4 hours), he drives at 80 mph. After 4 hours, how far is he from home?
+
+We need to compute the net displacement from home after 4 hours.
+
+We need to consider the direction: He initially drives away from home at 60 mph for 3 hours. Then he turns around and drives back toward home. He then drives to home in 4 hours (the total time from turning around to reaching home is 4 hours). But the first 2 hours of that 4 hours are spent in traffic (presumably not moving? Or moving at some speed? The problem says ""the first 2 hours are spent in traffic."" It might mean he is stuck in traffic, not moving. Or maybe he is moving but slower? Usually ""spent in traffic"" means he is not moving (or moving slowly). But the problem might intend that he is not moving (i.e., speed 0). However, the phrase ""spent in traffic"" could also mean he is moving at a lower speed, but the problem doesn't give a speed. So likely it's zero speed.
+
+Then in the next half hour (0.5 hour), he drives at 30 mph. Then for the remaining time (the rest of the 4 hours), he drives at 80 mph.
+
+We need to compute the total time: 2 hours (traffic) + 0.5 hour ",
+89,zh_h,zh,human,mgsm-009,460.0,400,False,0.992,0.008,0.0,0.008,756,,"We need to parse this problem presented in the Bengali query regarding weekly income (收入). The user asks about the hourly rate (时薪) for the first 40 hours and the overtime (加班) rate of 1.2 times the standard rate.
+
+The user asks: ""Eliza earns $10 per hour for the first 40 hours she works each week. She can also earn the standard hourly rate of 1.2 times for overtime. If Eliza worked 45 hours this week, how much did she earn this week?""
+
+We need to compute the total earnings.
+
+Given:
+
+- Standard hourly rate: $10 per hour.
+- Overtime rate: 1.2 times the standard hourly rate = $10 * 1.2 = $12 per hour.
+
+She works 45 hours.
+
+First 40 hours: $10/h * 40 = $400.
+
+Overtime hours: 45 - 40 = 5 hours.
+
+Overtime pay: $12/h * 5 = $60.
+
+Total earnings: $400 + $60 = $460.
+
+Thus answer: $460.
+
+We can also show steps.
+
+Thus final answer: $460.
+
+We can also mention that if the overtime is paid at 1.2 times the standard rate, then the overtime rate is $12/h.
+
+Thus answer: $460.
+
+We can also provide a short explanation.
+
+Thus final answer: $460.
+
+We can also note that the problem is straightforward.
+
+Thus final answer: $460.
+
+We can also check: 40*10 = 400. 5*12 = 60. 400+60 = 460.",
+90,zh_h,zh,human,mgsm-010,366.0,400,False,0.843,0.157,0.0,0.157,773,,"We need to parse the problem. The problem is in Chinese: ""一款新程序在第一个月被下载了 60 次，第二个月的下载次数是第一个月下载次数的三倍，但第三个月的下载次数减少了 30%。三个月来，这款程序一共被下载了多少次？""
+
+Interpretation:
+
+- First month: 60 downloads.
+- Second month: three times the first month: 3 * 60 = 180 downloads.
+- Third month: reduced by 30% relative to the second month? Or relative to the first month? Usually ""但第三个月的下载次数减少了 30%"" means the third month's downloads are reduced by 30% compared to the second month (or maybe compared to the first month). The phrase ""但第三个月的下载次数减少了 30%"" is ambiguous. Usually, if you say ""the second month is three times the first month, but the third month's downloads decreased by 30%"" you'd interpret that the third month's downloads are 30% less than the second month's. So third month = second month - 30% of second month = 70% of second month = 0.7 * 180 = 126.
+
+Thus total = 60 + 180 + 126 = 366.
+
+Alternatively, if the third month's reduction is relative to the first month (i.e., 30% less than the first month), then third month = 60 - 30% of 60 = 42. Then total = 60 + 180 + 42 = 282.
+
+But typical reading: ""第二个月的下载次数是第一个月下载次数的三倍，但第三个月的下载",
+91,zh_h,zh,human,mgsm-011,694.0,400,False,0.966,0.034,0.0,0.034,681,,"We need to parse this Chinese query regarding the total cost (总共花了多少钱) of pastries (糕点). The user asks: ""Tula went to the bakery and bought various different pastries. She bought 3 packs of donuts (each pack 68 dollars), 2 packs of mini cupcakes (each pack 80 dollars), and 6 packs of mini cheesecakes (each pack 55 dollars). How much did she spend in total (总共花了多少钱)?""
+
+We need to compute:
+
+- 3 packs of donuts at $68 each => 3 * 68 = $204.
+- 2 packs of mini cupcakes at $80 each => 2 * 80 = $160.
+- 6 packs of mini cheesecakes at $55 each => 6 * 55 = $330.
+
+Total = 204 + 160 + 330 = $694.
+
+Thus answer: $694.
+
+We can also show steps.
+
+We need to answer in a friendly manner.
+
+We can also double-check: 3*68 = 204, correct. 2*80 = 160, correct. 6*55 = 330, correct. Sum = 204 + 160 = 364, + 330 = 694.
+
+Thus answer: $694.
+
+We can also present in Chinese: ""她总共花了694美元。""
+
+We can also show the calculation.
+
+Thus final answer: $694.
+
+We can also ask if they need any other details.
+
+Thus final.
+
+We need to output in a clear manner.
+
+We'll answer in English (or Chinese). The user wrote in English with",
+92,zh_h,zh,human,mgsm-012,13.0,400,False,0.979,0.021,0.0,0.021,862,,"We need to parse this Kannada query (卡洛斯在种一棵柠檬树) about Carlos planting a lemon tree (柠檬树). The problem states that planting the tree costs $90 (90 美元) and asks for the break-even point (赚到钱) in years.
+
+We need to compute net profit per year (or per year after costs) and then find the number of years needed to recover the initial cost of $90.
+
+We have:
+
+- Initial cost: $90 (planting the tree).
+- Each year, the tree yields 7 lemons, each sold for $1.5. So revenue per year = 7 * $1.5 = $10.5.
+- Annual cost for water and fertilizer = $3.
+- Net profit per year = revenue - cost = $10.5 - $3 = $7.5.
+
+Thus, each year, net profit is $7.5.
+
+We need to find the number of years to break even: initial cost $90 / $7.5 per year = 12 years.
+
+But we need to consider that after 12 years, the total net profit = 12 * $7.5 = $90. So break-even at 12 years.
+
+But the problem might ask ""How many years does he need to use the lemon tree to start earning money from it?"" That is, after the break-even point, he starts earning profit. So answer: 12 years.
+
+But we need to be careful: The tree yields 7 lemons per year, each $1.5. So revenue $10.5 per year. The cost $3 per year. So net $7.5 per year.
+
+Thus, after 12 years, he will have earned $90 net, which equals the initial cost.
+
+Thus, answer",
+93,zh_h,zh,human,mgsm-013,18.0,400,False,0.977,0.023,0.0,0.023,741,,"We have a problem presented in this Bengali query about a door-to-door salesperson (上门推销员). Melanie sold one-third of the vacuums (吸尘器) in the green house, sold 2 more in the red house (红房子), and sold half of the remaining (剩下) vacuums in the orange house. If she still has 5 vacuums left (还剩下 5 台), how many vacuums did she start with?
+
+We need to find the initial number of vacuums.
+
+Let initial number be N.
+
+She sold one-third of the vacuums in the green house. So she sold (1/3) N. So after green house, she has N - (1/3) N = (2/3) N.
+
+Then she sold 2 more in the red house. So after red house, she has (2/3) N - 2.
+
+Then she sold half of the remaining vacuums in the orange house. So she sold half of the current amount. So after orange house, she has half of the remaining (i.e., she sold half, so she has half left). So after orange house, she has (1/2) * ((2/3) N - 2).
+
+We are told that after all that, she still has 5 vacuums left. So:
+
+(1/2) * ((2/3) N - 2) = 5.
+
+Solve for N.
+
+Multiply both sides by 2: (2/3) N - 2 = 10.
+
+Add 2: (2/3) N = 12.
+
+Multiply both sides by 3/2: N = 12 * (3/2) = 12 * 1.5 = 18.
+
+Thus N = 18.
+
+Check: Starting with 1",
+94,zh_h,zh,human,mgsm-014,60.0,400,False,0.871,0.129,0.0,0.129,637,,"We need to parse the problem.
+
+The problem: ""上舞蹈课的学生有 20 个，其中 20% 的学生报名学习现代舞，剩下的学生当中有 25% 报名学习爵士舞，其他人报名学习嘻哈舞。报名学习嘻哈舞的同学一共占多少百分比？""
+
+We have 20 students total.
+
+20% of them (i.e., 0.20 * 20 = 4) are enrolled in modern dance.
+
+Remaining students: 20 - 4 = 16.
+
+Of the remaining 16, 25% are enrolled in jazz dance.
+
+25% of 16 = 0.25 * 16 = 4.
+
+Thus, 4 students are in jazz.
+
+The rest of the remaining students (i.e., 16 - 4 = 12) are enrolled in hip-hop.
+
+Thus, hip-hop students = 12.
+
+Now, the question: ""报名学习嘻哈舞的同学一共占多少百分比？""
+
+Interpretation: ""What percentage of the total students are enrolled in hip-hop?"" So we need to compute (hip-hop students / total students) * 100% = (12 / 20) * 100% = 60%.
+
+Thus answer: 60%.
+
+We can also provide a step-by-step solution.
+
+Thus answer: 60%.
+
+We can also express as ""60%"".
+
+Thus final answer: 60%.
+
+We can also show the calculation.
+
+Thus final answer: 60%.
+
+We can also mention that the number of hip-hop students is 12, which is 60% of the total 20.
+
+Thus answer: 60%.",
+95,zh_h,zh,human,mgsm-015,125.0,400,False,0.988,0.012,0.0,0.012,1040,,"1.  **Deconstruct the User's Request:**
+    This formal Hindi query asks about a merchant's purchase choice (购买选择) between jewelry and electronics. The goal is to determine the maximum profit (最大利润) by the end of the month based on market growth (市场上涨).
+    *   **Core Scenario:** A merchant has two purchase options: jewelry and electronics.
+    *   **Item Values:** Jewelry = $5,000, Electronics = $8,000.
+    *   **Market Growth (Projections):**
+        *   Jewelry: +2.5%
+        *   Electronics: +1.2%
+    *   **Goal:** Find the *maximum profit* the merchant can make by the end of the month.
+    *   **Implicit Question:** Which option yields the higher profit?
+
+2.  **Initial Analysis & Clarification:**
+    *   The problem states the merchant *wants to make a purchase choice*. This implies a single decision.
+    *   The goal is to *maximize profit*. This means I need to calculate the profit for *both* options and then compare them.
+    *   What is ""profit"" in this context? The problem doesn't give a cost of purchase (e.g., ""he bought it for $4,000""). It gives the *current value* of the items. The most logical interpretation is that the ""profit"" is the *increase in value* of the item. The merchant buys the item for its current value and its value increases. The profit is the difference between the new value and the old value.
+    *   So, the formula for profit for each item will be: `New Value - Original Value`.
+    *   The formula for New Value will be: `Original Value * (1 + G",

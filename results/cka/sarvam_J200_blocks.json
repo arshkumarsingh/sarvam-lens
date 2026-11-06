@@ -1,0 +1,18 @@
+{
+ "n_blocks": 1,
+ "boundaries_rho": [],
+ "sensory_end": NaN,
+ "motor_start": NaN,
+ "blockiness": 0.0,
+ "layer_coupling": 0.9909251842517464,
+ "block_layers": [
+  [
+   0,
+   17
+  ]
+ ],
+ "n_layers": 19,
+ "fitted_layers": 18,
+ "gain_offset": false,
+ "n_prompts": 200
+}

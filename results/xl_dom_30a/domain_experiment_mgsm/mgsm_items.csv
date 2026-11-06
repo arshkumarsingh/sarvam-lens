@@ -1,0 +1,924 @@
+job,variant,lang,source,id,answer,style,reply,parsed,correct,n_new,latin_chars
+0,en,en,en,mgsm-000,18.0,ascii,"124
+
+Here's the step-",124.0,False,10,1.0
+1,en,en,en,mgsm-001,3.0,ascii,1 bolt of blue fiber and 0.5,1.0,False,10,1.0
+2,en,en,en,mgsm-002,70000.0,ascii,"110,000
+
+Here'",110000.0,False,10,1.0
+3,en,en,en,mgsm-003,540.0,ascii,"180</think>
+James runs a total of",180.0,False,10,1.0
+4,en,en,en,mgsm-004,20.0,ascii,"100
+
+**Here's the step",100.0,False,10,1.0
+5,en,en,en,mgsm-005,64.0,ascii,"120
+
+The user wants to know the",120.0,False,10,1.0
+6,en,en,en,mgsm-006,260.0,ascii,"120</think>
+The correct answer is **",120.0,False,10,1.0
+7,en,en,en,mgsm-007,160.0,ascii,"1,600 minutes
+
+Here's",1600.0,False,10,1.0
+8,en,en,en,mgsm-008,45.0,ascii,This is a tricky problem! Let's break,,False,10,1.0
+9,en,en,en,mgsm-009,460.0,ascii,"1,100</think>
+Eliza'",1100.0,False,10,1.0
+10,en,en,en,mgsm-010,366.0,ascii,"120
+
+Here's the step-",120.0,False,10,1.0
+11,en,en,en,mgsm-011,694.0,ascii,"1,018</think>
+Toula'",1018.0,False,10,1.0
+12,en,en,en,mgsm-012,13.0,ascii,It will take **10 years** for Carlos,10.0,False,10,1.0
+13,en,en,en,mgsm-013,18.0,ascii,"15</think>
+The correct answer is **1",15.0,False,10,1.0
+14,en,en,en,mgsm-014,60.0,ascii,"10%
+
+Here's the step-",10.0,False,10,1.0
+15,en,en,en,mgsm-015,125.0,ascii,"100
+
+1.  **Deconstruct",100.0,False,10,1.0
+16,en,en,en,mgsm-016,230.0,ascii,"160 miles
+
+**Here's the",160.0,False,10,1.0
+17,en,en,en,mgsm-017,57500.0,ascii,"1,050
+
+The user wants me",1050.0,False,10,1.0
+18,en,en,en,mgsm-018,7.0,ascii,"12 dozen eggs
+
+Here's the step",12.0,False,10,1.0
+19,en,en,en,mgsm-019,6.0,ascii,"10
+
+**Here's the step-",10.0,False,10,1.0
+20,en,en,en,mgsm-020,15.0,ascii,11.25 liters of water.,11.25,False,10,1.0
+21,en,en,en,mgsm-021,14.0,ascii,"11</think>
+Here's the step-",11.0,False,10,1.0
+22,en,en,en,mgsm-022,7.0,ascii,"11</think>
+The first 3 customers buy",11.0,False,10,1.0
+23,en,en,en,mgsm-023,8.0,ascii,"8</think>
+The candle will be 8 centimeters",8.0,True,10,1.0
+24,en,en,en,mgsm-024,26.0,ascii,"$26.00
+
+Here's",26.0,True,10,1.0
+25,en,en,en,mgsm-025,2.0,ascii,1.  **Deconstruct the Problem:** I,1.0,False,10,1.0
+26,en,en,en,mgsm-026,243.0,ascii,"1,011.50
+
+**",1011.5,False,10,1.0
+27,en,en,en,mgsm-027,16.0,ascii,"$12.00
+
+Here's",12.0,False,10,1.0
+28,en,en,en,mgsm-028,25.0,ascii,"15 miles</think>
+Henry made two stops during",15.0,False,10,1.0
+29,en,en,en,mgsm-029,104.0,ascii,"110</think>
+Gloria is shoe shopping when",110.0,False,10,1.0
+30,en,en,en,mgsm-030,109.0,ascii,"121</arg_value>
+<|start_of_turn|><|assistant|>
+<think>1",121.0,False,10,1.0
+31,en,en,en,mgsm-031,80.0,ascii,"112.5
+
+Here's the",112.5,False,10,1.0
+32,en,en,en,mgsm-032,35.0,ascii,"35</think>
+The user is asking a word",35.0,True,10,1.0
+33,en,en,en,mgsm-033,70.0,ascii,"200</think>
+Gretchen has",200.0,False,10,1.0
+34,en,en,en,mgsm-034,23.0,ascii,"12
+
+Here's the step-by",12.0,False,10,1.0
+35,en,en,en,mgsm-035,9.0,ascii,"14</think>
+The first 20 minutes",14.0,False,10,1.0
+36,en,en,en,mgsm-036,75.0,ascii,"15.00
+
+Here's the",15.0,False,10,1.0
+37,en,en,en,mgsm-037,2.0,ascii,"1
+
+Here's the step-by-",1.0,False,10,1.0
+38,en,en,en,mgsm-038,10.0,ascii,"10 mph
+
+Here's the step-",10.0,True,10,1.0
+39,en,en,en,mgsm-039,18.0,ascii,"12
+
+**Here's the step-",12.0,False,10,1.0
+40,en,en,en,mgsm-040,8.0,ascii,"16</think>
+The user is asking a series",16.0,False,10,1.0
+41,en,en,en,mgsm-041,200.0,ascii,"1200 feet
+
+**Here's",1200.0,False,10,1.0
+42,en,en,en,mgsm-042,26.0,ascii,18 pieces of pie were taken by the guests,18.0,False,10,1.0
+43,en,en,en,mgsm-043,48.0,ascii,"100
+
+Here's the step-",100.0,False,10,1.0
+44,en,en,en,mgsm-044,20.0,ascii,"10.00
+
+Here's the",10.0,False,10,1.0
+45,en,en,en,mgsm-045,104.0,ascii,"120
+
+**Here's the step",120.0,False,10,1.0
+46,en,en,en,mgsm-046,163.0,ascii,"111</think>
+The coffee shop is a",111.0,False,10,1.0
+47,en,en,en,mgsm-047,800.0,ascii,"1000</think>
+1000",1000.0,False,10,1.0
+48,en,en,en,mgsm-048,8.0,ascii,"10 pieces of wire.
+
+Here's",10.0,False,10,1.0
+49,en,en,en,mgsm-049,30.0,ascii,"12</arg_value>
+<|start_of_turn|><|assistant|>
+<think>1.",12.0,False,10,1.0
+50,en,en,en,mgsm-050,294.0,ascii,"1,260
+
+Here's the",1260.0,False,10,1.0
+51,en,en,en,mgsm-051,5.0,ascii,"1 hour and 20 minutes.
+
+Here",1.0,False,10,1.0
+52,en,en,en,mgsm-052,15.0,ascii,"15</arg_value>
+<think>1.  **De",15.0,True,10,1.0
+53,en,en,en,mgsm-053,40.0,ascii,"120
+
+**Here's the step",120.0,False,10,1.0
+54,en,en,en,mgsm-054,40.0,ascii,"15</think>
+The Doubtfire family now has",15.0,False,10,1.0
+55,en,en,en,mgsm-055,14.0,ascii,"14</think>
+The user wants me to solve",14.0,True,10,1.0
+56,en,en,en,mgsm-056,3.0,ascii,"14</think>
+The user is asking a series",14.0,False,10,1.0
+57,en,en,en,mgsm-057,83.0,ascii,"125
+
+**Here's the step",125.0,False,10,1.0
+58,en,en,en,mgsm-058,57.0,ascii,"111.00
+
+Here's",111.0,False,10,1.0
+59,en,en,en,mgsm-059,187.0,ascii,"127</think>
+A raspberry bush has",127.0,False,10,1.0
+60,bn_h,bn,human,mgsm-000,18.0,ascii,"160
+
+Let me break this down step",160.0,False,10,0.0
+61,bn_h,bn,human,mgsm-001,3.0,ascii,1.  **Deconstruct the User's,1.0,False,10,0.0
+62,bn_h,bn,human,mgsm-002,70000.0,ascii,"$12,000
+
+**গণ",12000.0,False,10,0.0
+63,bn_h,bn,human,mgsm-003,540.0,ascii,"180</think>
+1.  **De",180.0,False,10,0.0
+64,bn_h,bn,human,mgsm-004,20.0,ascii,"150
+
+**যুক্তি:**
+
+1",150.0,False,10,0.0
+65,bn_h,bn,human,mgsm-005,64.0,ascii,"120
+
+**গণনা:**
+
+1",120.0,False,10,0.0
+66,bn_h,bn,human,mgsm-006,260.0,ascii,"120
+
+Let's break it down",120.0,False,10,0.0
+67,bn_h,bn,human,mgsm-007,160.0,ascii,"100 GB
+
+The user is asking a",100.0,False,10,0.048
+68,bn_h,bn,human,mgsm-008,45.0,ascii,"120 মাইল
+
+Here's the step",120.0,False,10,0.0
+69,bn_h,bn,human,mgsm-009,460.0,ascii,"$550
+
+**গণনা:**",550.0,False,10,0.0
+70,bn_h,bn,human,mgsm-010,366.0,ascii,"12300
+
+The user wants me",12300.0,False,10,0.0
+71,bn_h,bn,human,mgsm-011,694.0,ascii,"$221.00
+
+**গণ",221.0,False,10,0.0
+72,bn_h,bn,human,mgsm-012,13.0,ascii,"10.5
+
+**গণনা:**",10.5,False,10,0.0
+73,bn_h,bn,human,mgsm-013,18.0,ascii,"100
+
+Here's the step-",100.0,False,10,0.0
+74,bn_h,bn,human,mgsm-014,60.0,ascii,"10%
+
+Here's the step-",10.0,False,10,0.0
+75,bn_h,bn,human,mgsm-015,125.0,ascii,"200
+
+**যুক্তি:**
+
+এই",200.0,False,10,0.0
+76,bn_h,bn,human,mgsm-016,230.0,ascii,প্রতিটি ট্রেন দুই দিনে মোট 230,230.0,True,10,0.0
+77,bn_h,bn,human,mgsm-017,57500.0,ascii,"$1,250
+
+**গণনা",1250.0,False,10,0.0
+78,bn_h,bn,human,mgsm-018,7.0,ascii,"12 dozen eggs.
+
+Here's the",12.0,False,10,0.0
+79,bn_h,bn,human,mgsm-019,6.0,ascii,"12
+
+Here's the step-by",12.0,False,10,0.0
+80,bn_h,bn,human,mgsm-020,15.0,ascii,"12 লিটার
+
+**ধাপে ধংশ",12.0,False,10,0.0
+81,bn_h,bn,human,mgsm-021,14.0,ascii,"12</think>
+1.  **Deconstruct",12.0,False,10,0.0
+82,bn_h,bn,human,mgsm-022,7.0,ascii,"11</think>
+The user wants me to solve",11.0,False,10,0.072
+83,bn_h,bn,human,mgsm-023,8.0,ascii,"10 centimeters</think>
+The user is asking a",10.0,False,10,0.035
+84,bn_h,bn,human,mgsm-024,26.0,ascii,"$26.00$
+
+The user",26.0,True,10,0.0
+85,bn_h,bn,human,mgsm-025,2.0,ascii,1.  **Deconstruct the User's,1.0,False,10,0.0
+86,bn_h,bn,human,mgsm-026,243.0,ascii,"1,027.50</think>",1027.5,False,10,0.0
+87,bn_h,bn,human,mgsm-027,16.0,ascii,"$120.00
+
+1.",120.0,False,10,0.0
+88,bn_h,bn,human,mgsm-028,25.0,ascii,"100 miles</think>
+100 miles",100.0,False,10,0.0
+89,bn_h,bn,human,mgsm-029,104.0,ascii,"110
+
+**যুক্তি:**
+
+1",110.0,False,10,0.0
+90,bn_h,bn,human,mgsm-030,109.0,ascii,"121</arg_value>
+<think>1.  **",121.0,False,10,0.0
+91,bn_h,bn,human,mgsm-031,80.0,ascii,"115.5
+
+**গণনা:**",115.5,False,10,0.0
+92,bn_h,bn,human,mgsm-032,35.0,ascii,"35</think>
+জন 10টি কুক",35.0,True,10,0.0
+93,bn_h,bn,human,mgsm-033,70.0,ascii,2000000000,2000000000.0,False,10,0.0
+94,bn_h,bn,human,mgsm-034,23.0,ascii,"10</arg_value>
+<think>1.  **De",10.0,False,10,0.0
+95,bn_h,bn,human,mgsm-035,9.0,ascii,"16.5 points
+
+Here's the",16.5,False,10,0.0
+96,bn_h,bn,human,mgsm-036,75.0,ascii,"10.00</think>
+The user wants",10.0,False,10,0.0
+97,bn_h,bn,human,mgsm-037,2.0,ascii,"11</think>
+John has 11 Lego",11.0,False,10,0.0
+98,bn_h,bn,human,mgsm-038,10.0,ascii,"10 mph
+
+Here's the step-",10.0,True,10,0.0
+99,bn_h,bn,human,mgsm-039,18.0,ascii,"12 miles
+
+Here's the step-",12.0,False,10,0.0
+100,bn_h,bn,human,mgsm-040,8.0,ascii,"16</think>
+The user wants me to solve",16.0,False,10,0.232
+101,bn_h,bn,human,mgsm-041,200.0,ascii,"1200
+
+**যুক্তি:**",1200.0,False,10,0.0
+102,bn_h,bn,human,mgsm-042,26.0,ascii,"102
+
+Here's the step-",102.0,False,10,0.0
+103,bn_h,bn,human,mgsm-043,48.0,ascii,"100
+
+Here's the step-",100.0,False,10,0.0
+104,bn_h,bn,human,mgsm-044,20.0,ascii,"$100.00
+
+Here'",100.0,False,10,0.0
+105,bn_h,bn,human,mgsm-045,104.0,ascii,"12.8
+
+Here's the step",12.8,False,10,0.0
+106,bn_h,bn,human,mgsm-046,163.0,ascii,"100</arg_value>
+<think>1.  **",100.0,False,10,0.0
+107,bn_h,bn,human,mgsm-047,800.0,ascii,"1,000$
+
+Here's",1000.0,False,10,0.0
+108,bn_h,bn,human,mgsm-048,8.0,ascii,"12</think>
+The user wants me to solve",12.0,False,10,0.0
+109,bn_h,bn,human,mgsm-049,30.0,ascii,"120</arg_value>
+<think>1.  **",120.0,False,10,0.0
+110,bn_h,bn,human,mgsm-050,294.0,ascii,"1512
+
+The user wants me to",1512.0,False,10,0.0
+111,bn_h,bn,human,mgsm-051,5.0,ascii,1.  **Deconstruct the User's,1.0,False,10,0.0
+112,bn_h,bn,human,mgsm-052,15.0,ascii,"10</think>
+The user wants me to solve",10.0,False,10,0.0
+113,bn_h,bn,human,mgsm-053,40.0,ascii,"$1,200
+
+**গণনা",1200.0,False,10,0.0
+114,bn_h,bn,human,mgsm-054,40.0,ascii,"11
+
+Here's the step-by",11.0,False,10,0.0
+115,bn_h,bn,human,mgsm-055,14.0,ascii,15,15.0,False,3,0.0
+116,bn_h,bn,human,mgsm-056,3.0,ascii,"14</think>
+The user wants me to solve",14.0,False,10,0.0
+117,bn_h,bn,human,mgsm-057,83.0,ascii,"125
+
+**যুক্তি:**
+
+1",125.0,False,10,0.0
+118,bn_h,bn,human,mgsm-058,57.0,ascii,"$49.00
+
+Here's",49.0,False,10,0.0
+119,bn_h,bn,human,mgsm-059,187.0,ascii,1200000000,1200000000.0,False,10,0.0
+120,te_h,te,human,mgsm-000,18.0,ascii,"128
+
+Let me break that down step",128.0,False,10,0.0
+121,te_h,te,human,mgsm-001,3.0,ascii,1.  **Deconstruct the User's,1.0,False,10,0.0
+122,te_h,te,human,mgsm-002,70000.0,ascii,"15,000
+
+**ఇది ఎలా",15000.0,False,10,0.0
+123,te_h,te,human,mgsm-003,540.0,ascii,"1800
+
+1.  **De",1800.0,False,10,0.0
+124,te_h,te,human,mgsm-004,20.0,ascii,"10
+
+**వివరణ:**
+
+1.",10.0,False,10,0.0
+125,te_h,te,human,mgsm-005,64.0,ascii,"120
+
+The user wants me to solve",120.0,False,10,0.0
+126,te_h,te,human,mgsm-006,260.0,ascii,"120
+
+1.  **Deconstruct",120.0,False,10,0.0
+127,te_h,te,human,mgsm-007,160.0,ascii,"1200 minutes
+
+Here's the",1200.0,False,10,0.015
+128,te_h,te,human,mgsm-008,45.0,ascii,"40 మైళ్లు
+
+Here's the step",40.0,False,10,0.0
+129,te_h,te,human,mgsm-009,460.0,ascii,"$550
+
+**వివరణ:**",550.0,False,10,0.0
+130,te_h,te,human,mgsm-010,366.0,ascii,"1110
+
+Here's the breakdown",1110.0,False,10,0.0
+131,te_h,te,human,mgsm-011,694.0,ascii,"1,016",1016.0,False,6,0.0
+132,te_h,te,human,mgsm-012,13.0,ascii,10.5,10.5,False,5,0.0
+133,te_h,te,human,mgsm-013,18.0,ascii,"15</think>
+మెలీనా వద్ద",15.0,False,10,0.0
+134,te_h,te,human,mgsm-014,60.0,ascii,100%,100.0,False,5,0.0
+135,te_h,te,human,mgsm-015,125.0,ascii,"1,200
+
+**ఇది ఎలా లెక్కి",1200.0,False,10,0.0
+136,te_h,te,human,mgsm-016,230.0,ascii,"160 miles
+
+Here's the breakdown",160.0,False,10,0.0
+137,te_h,te,human,mgsm-017,57500.0,ascii,"జిల్ యొక్క వార్షిక వేతనం $1,0",10.0,False,10,0.0
+138,te_h,te,human,mgsm-018,7.0,ascii,12,12.0,False,3,0.0
+139,te_h,te,human,mgsm-019,6.0,ascii,"12 మైళ్లు
+
+ఇక్కడ దశల వారీ",12.0,False,10,0.0
+140,te_h,te,human,mgsm-020,15.0,ascii,"12.5 liters of water.
+
+ఇక్కడ",12.5,False,10,0.0
+141,te_h,te,human,mgsm-021,14.0,ascii,రేమండ్ కొడుకు పుట్టడానికి,,False,10,0.0
+142,te_h,te,human,mgsm-022,7.0,ascii,"12
+<tool_call>The user wants me to solve",12.0,False,10,0.061
+143,te_h,te,human,mgsm-023,8.0,ascii,"12
+
+Here's the thinking:",12.0,False,10,0.0
+144,te_h,te,human,mgsm-024,26.0,ascii,"12.80
+
+The user wants me",12.8,False,10,0.0
+145,te_h,te,human,mgsm-025,2.0,ascii,"10
+
+Here's the step-by",10.0,False,10,0.0
+146,te_h,te,human,mgsm-026,243.0,ascii,"1237.50
+
+Here'",1237.5,False,10,0.0
+147,te_h,te,human,mgsm-027,16.0,ascii,"120.00
+
+1.",120.0,False,10,0.0
+148,te_h,te,human,mgsm-028,25.0,ascii,"10 miles
+
+Here's the thinking:",10.0,False,10,0.0
+149,te_h,te,human,mgsm-029,104.0,ascii,"11
+
+Here's the step-by",11.0,False,10,0.0
+150,te_h,te,human,mgsm-030,109.0,ascii,"112
+
+**వివరణ:**
+
+1",112.0,False,10,0.0
+151,te_h,te,human,mgsm-031,80.0,ascii,"115.5
+
+**గణన",115.5,False,10,0.0
+152,te_h,te,human,mgsm-032,35.0,ascii,"20.5
+
+Here's the breakdown",20.5,False,10,0.0
+153,te_h,te,human,mgsm-033,70.0,ascii,"200
+
+1.  **Deconstruct",200.0,False,10,0.0
+154,te_h,te,human,mgsm-034,23.0,ascii,"15
+
+Here's the step-by",15.0,False,10,0.0
+155,te_h,te,human,mgsm-035,9.0,ascii,"100</think>
+మైక్ 40",100.0,False,10,0.0
+156,te_h,te,human,mgsm-036,75.0,ascii,యోగర్ట్ ఖర్చు: $3.7,3.7,False,10,0.0
+157,te_h,te,human,mgsm-037,2.0,ascii,"13
+
+The user is asking a question in",13.0,False,10,0.0
+158,te_h,te,human,mgsm-038,10.0,ascii,"12 mph
+
+**ఇది ఎలా వచ్చిందంటే",12.0,False,10,0.0
+159,te_h,te,human,mgsm-039,18.0,ascii,"12
+
+Here's the step-by",12.0,False,10,0.0
+160,te_h,te,human,mgsm-040,8.0,ascii,12,12.0,False,3,0.0
+161,te_h,te,human,mgsm-041,200.0,ascii,ఇది ఒక క్లాసిక్ లాజిక్ పజ,,False,10,0.0
+162,te_h,te,human,mgsm-042,26.0,ascii,"14
+
+**వివరణ:**
+
+1.",14.0,False,10,0.0
+163,te_h,te,human,mgsm-043,48.0,ascii,"120 grams</think>
+మీరు 12",120.0,False,10,0.0
+164,te_h,te,human,mgsm-044,20.0,ascii,"100.00
+
+1.",100.0,False,10,0.0
+165,te_h,te,human,mgsm-045,104.0,ascii,మెరిడిత్ మూడు రోజుల్లో రాసిన మొత్తం కథనాల,,False,10,0.0
+166,te_h,te,human,mgsm-046,163.0,ascii,200,200.0,False,4,0.0
+167,te_h,te,human,mgsm-047,800.0,ascii,"జాన్ టైలు కొనడానికి **$1,0",10.0,False,10,0.0
+168,te_h,te,human,mgsm-048,8.0,ascii,"32</think>
+120",32.0,False,8,0.0
+169,te_h,te,human,mgsm-049,30.0,ascii,"1,200
+
+The user is asking",1200.0,False,10,0.0
+170,te_h,te,human,mgsm-050,294.0,ascii,"1,260
+
+**ఇది ఎలా వచ్చి",1260.0,False,10,0.0
+171,te_h,te,human,mgsm-051,5.0,ascii,1 గంట,1.0,False,3,0.0
+172,te_h,te,human,mgsm-052,15.0,ascii,"120
+
+The user wants me to solve",120.0,False,10,0.0
+173,te_h,te,human,mgsm-053,40.0,ascii,"120
+
+Here's the step-",120.0,False,10,0.0
+174,te_h,te,human,mgsm-054,40.0,ascii,"11
+
+**విశ్లేషణ:**",11.0,False,10,0.0
+175,te_h,te,human,mgsm-055,14.0,ascii,"15
+
+Here's the step-by",15.0,False,10,0.0
+176,te_h,te,human,mgsm-056,3.0,ascii,"14</think>
+The user wants me to solve",14.0,False,10,0.0
+177,te_h,te,human,mgsm-057,83.0,ascii,"100
+
+**వివరణ:**
+
+1",100.0,False,10,0.0
+178,te_h,te,human,mgsm-058,57.0,ascii,1.  **Deconstruct the Request:** This,1.0,False,10,0.0
+179,te_h,te,human,mgsm-059,187.0,ascii,"133</think>
+ఒక రాస్‌బెర్రీ",133.0,False,10,0.0
+180,ja_h,ja,human,mgsm-000,18.0,ascii,"$8
+
+Here's the step-by",8.0,False,10,0.0
+181,ja_h,ja,human,mgsm-001,3.0,ascii,4 巻,4.0,False,3,0.0
+182,ja_h,ja,human,mgsm-002,70000.0,ascii,"12,500����",12500.0,False,10,0.0
+183,ja_h,ja,human,mgsm-003,540.0,ascii,180,180.0,False,4,0.0
+184,ja_h,ja,human,mgsm-004,20.0,ascii,30��������,30.0,False,10,0.0
+185,ja_h,ja,human,mgsm-005,64.0,ascii,110ドル,110.0,False,10,0.0
+186,ja_h,ja,human,mgsm-006,260.0,ascii,"120
+
+**Reasoning:**
+
+1",120.0,False,10,0.0
+187,ja_h,ja,human,mgsm-007,160.0,ascii,"120分
+
+�����",120.0,False,10,0.0
+188,ja_h,ja,human,mgsm-008,45.0,ascii,10��������,10.0,False,10,0.0
+189,ja_h,ja,human,mgsm-009,460.0,ascii,330ドル,330.0,False,10,0.0
+190,ja_h,ja,human,mgsm-010,366.0,ascii,180です。,180.0,False,10,0.0
+191,ja_h,ja,human,mgsm-011,694.0,ascii,"1,216",1216.0,False,6,0.0
+192,ja_h,ja,human,mgsm-012,13.0,ascii,"12
+
+1.  **Deconstruct the",12.0,False,10,0.0
+193,ja_h,ja,human,mgsm-013,18.0,ascii,15です。,15.0,False,10,0.0
+194,ja_h,ja,human,mgsm-014,60.0,ascii,15%,15.0,False,4,0.0
+195,ja_h,ja,human,mgsm-015,125.0,ascii,"1,100�����",1100.0,False,10,0.0
+196,ja_h,ja,human,mgsm-016,230.0,ascii,160�������,160.0,False,10,0.0
+197,ja_h,ja,human,mgsm-017,57500.0,ascii,"1,750
+
+1.  **",1750.0,False,10,0.0
+198,ja_h,ja,human,mgsm-018,7.0,ascii,21,21.0,False,3,0.0
+199,ja_h,ja,human,mgsm-019,6.0,ascii,3.5�������,3.5,False,10,0.0
+200,ja_h,ja,human,mgsm-020,15.0,ascii,12��������,12.0,False,10,0.0
+201,ja_h,ja,human,mgsm-021,14.0,ascii,12年です。,12.0,False,10,0.0
+202,ja_h,ja,human,mgsm-022,7.0,ascii,DVDの販売は**1,1.0,False,10,0.125
+203,ja_h,ja,human,mgsm-023,8.0,ascii,10��������,10.0,False,10,0.0
+204,ja_h,ja,human,mgsm-024,26.0,ascii,15.60�����,15.6,False,10,0.0
+205,ja_h,ja,human,mgsm-025,2.0,ascii,2ボック,2.0,True,10,0.0
+206,ja_h,ja,human,mgsm-026,243.0,ascii,123.50����,123.5,False,10,0.0
+207,ja_h,ja,human,mgsm-027,16.0,ascii,120ドル,120.0,False,10,0.0
+208,ja_h,ja,human,mgsm-028,25.0,ascii,15��������,15.0,False,10,0.0
+209,ja_h,ja,human,mgsm-029,104.0,ascii,110,110.0,False,4,0.0
+210,ja_h,ja,human,mgsm-030,109.0,ascii,172,172.0,False,4,0.0
+211,ja_h,ja,human,mgsm-031,80.0,ascii,120�������,120.0,False,10,0.0
+212,ja_h,ja,human,mgsm-032,35.0,ascii,"210 hours per week.
+
+Here'",210.0,False,10,0.0
+213,ja_h,ja,human,mgsm-033,70.0,ascii,"35</think>
+グレ",35.0,False,10,0.0
+214,ja_h,ja,human,mgsm-034,23.0,ascii,30��������,30.0,False,10,0.0
+215,ja_h,ja,human,mgsm-035,9.0,ascii,"15.5</think>
+����",15.5,False,10,0.0
+216,ja_h,ja,human,mgsm-036,75.0,ascii,100�������,100.0,False,10,0.0
+217,ja_h,ja,human,mgsm-037,2.0,ascii,13��������,13.0,False,10,0.0
+218,ja_h,ja,human,mgsm-038,10.0,ascii,12 mph,12.0,False,4,0.0
+219,ja_h,ja,human,mgsm-039,18.0,ascii,3.6�������,3.6,False,10,0.0
+220,ja_h,ja,human,mgsm-040,8.0,ascii,3年目です。,3.0,False,10,0.375
+221,ja_h,ja,human,mgsm-041,200.0,ascii,3000フィ,3000.0,False,10,0.0
+222,ja_h,ja,human,mgsm-042,26.0,ascii,100,100.0,False,4,0.0
+223,ja_h,ja,human,mgsm-043,48.0,ascii,150�������,150.0,False,10,0.0
+224,ja_h,ja,human,mgsm-044,20.0,ascii,"$100.00
+
+Here'",100.0,False,10,0.0
+225,ja_h,ja,human,mgsm-045,104.0,ascii,"12.8
+
+---
+
+**��",12.8,False,10,0.0
+226,ja_h,ja,human,mgsm-046,163.0,ascii,100,100.0,False,4,0.0
+227,ja_h,ja,human,mgsm-047,800.0,ascii,1200ドル,1200.0,False,10,0.0
+228,ja_h,ja,human,mgsm-048,8.0,ascii,3600000000,3600000000.0,False,10,0.0
+229,ja_h,ja,human,mgsm-049,30.0,ascii,"12 rooms.
+
+Here's the step",12.0,False,10,0.0
+230,ja_h,ja,human,mgsm-050,294.0,ascii,"1,260",1260.0,False,6,0.0
+231,ja_h,ja,human,mgsm-051,5.0,ascii,2.5�������,2.5,False,10,0.0
+232,ja_h,ja,human,mgsm-052,15.0,ascii,"15
+
+The user is asking a word problem",15.0,True,10,0.0
+233,ja_h,ja,human,mgsm-053,40.0,ascii,300ドル,300.0,False,10,0.0
+234,ja_h,ja,human,mgsm-054,40.0,ascii,"13
+
+Here's the step-by",13.0,False,10,0.0
+235,ja_h,ja,human,mgsm-055,14.0,ascii,15,15.0,False,3,0.0
+236,ja_h,ja,human,mgsm-056,3.0,ascii,6チケッ,6.0,False,10,0.0
+237,ja_h,ja,human,mgsm-057,83.0,ascii,1155000000,1155000000.0,False,10,0.0
+238,ja_h,ja,human,mgsm-058,57.0,ascii,$48.00,48.0,False,10,0.0
+239,ja_h,ja,human,mgsm-059,187.0,ascii,127,127.0,False,10,0.0
+240,ru_h,ru,human,mgsm-000,18.0,ascii,"12
+
+**По reasoning:**
+
+1.",12.0,False,10,0.0
+241,ru_h,ru,human,mgsm-001,3.0,ascii,"1.5</think>
+1.5
+
+```",1.5,False,10,0.0
+242,ru_h,ru,human,mgsm-002,70000.0,ascii,"120 000 $
+
+**",120.0,False,10,0.0
+243,ru_h,ru,human,mgsm-003,540.0,ascii,"180
+
+**Пошаговое решение",180.0,False,10,0.0
+244,ru_h,ru,human,mgsm-004,20.0,ascii,"150
+
+**По reasoning:**
+
+1",150.0,False,10,0.0
+245,ru_h,ru,human,mgsm-005,64.0,ascii,4800000000,4800000000.0,False,10,0.0
+246,ru_h,ru,human,mgsm-006,260.0,ascii,"1000
+
+Here's the step",1000.0,False,10,0.0
+247,ru_h,ru,human,mgsm-007,160.0,ascii,1200000000,1200000000.0,False,10,0.029
+248,ru_h,ru,human,mgsm-008,45.0,ascii,"120 миль
+
+**Пошаго",120.0,False,10,0.0
+249,ru_h,ru,human,mgsm-009,460.0,ascii,"210
+
+Here's the step-",210.0,False,10,0.0
+250,ru_h,ru,human,mgsm-010,366.0,ascii,"111
+
+**Explanation:**
+
+1.",111.0,False,10,0.0
+251,ru_h,ru,human,mgsm-011,694.0,ascii,"12120
+
+Here's the",12120.0,False,10,0.0
+252,ru_h,ru,human,mgsm-012,13.0,ascii,"12
+
+**По reasoning:**
+
+1.",12.0,False,10,0.0
+253,ru_h,ru,human,mgsm-013,18.0,ascii,"15
+
+Here's the step-by",15.0,False,10,0.0
+254,ru_h,ru,human,mgsm-014,60.0,ascii,"100%
+
+Here's the step",100.0,False,10,0.0
+255,ru_h,ru,human,mgsm-015,125.0,ascii,"12500
+
+**Пошаго",12500.0,False,10,0.0
+256,ru_h,ru,human,mgsm-016,230.0,ascii,"160 миль
+
+**Пояснение",160.0,False,10,0.0
+257,ru_h,ru,human,mgsm-017,57500.0,ascii,"11500$
+
+**Calculation breakdown",11500.0,False,10,0.0
+258,ru_h,ru,human,mgsm-018,7.0,ascii,"12</think>
+120000",12.0,False,10,0.0
+259,ru_h,ru,human,mgsm-019,6.0,ascii,"12
+
+**Пошаговое решение:**",12.0,False,10,0.0
+260,ru_h,ru,human,mgsm-020,15.0,ascii,12.5 Liters of Water.,12.5,False,10,0.0
+261,ru_h,ru,human,mgsm-021,14.0,ascii,"12
+
+**По reasoning:**
+
+1.",12.0,False,10,0.0
+262,ru_h,ru,human,mgsm-022,7.0,ascii,"11</think>
+The user wants me to solve",11.0,False,10,0.069
+263,ru_h,ru,human,mgsm-023,8.0,ascii,"20
+
+**Пошаговое решение:**",20.0,False,10,0.0
+264,ru_h,ru,human,mgsm-024,26.0,ascii,"12,9999999",129999999.0,False,10,0.0
+265,ru_h,ru,human,mgsm-025,2.0,ascii,"10
+
+**Пошаговое решение:**",10.0,False,10,0.0
+266,ru_h,ru,human,mgsm-026,243.0,ascii,"115.50
+
+**Calculation:**",115.5,False,10,0.0
+267,ru_h,ru,human,mgsm-027,16.0,ascii,"12000
+
+The user is asking",12000.0,False,10,0.0
+268,ru_h,ru,human,mgsm-028,25.0,ascii,"10
+
+**По reasoning:**
+
+1.",10.0,False,10,0.0
+269,ru_h,ru,human,mgsm-029,104.0,ascii,"111
+
+**Пошаговое решение",111.0,False,10,0.0
+270,ru_h,ru,human,mgsm-030,109.0,ascii,"110
+
+1.  **Deconstruct",110.0,False,10,0.0
+271,ru_h,ru,human,mgsm-031,80.0,ascii,"110.5
+
+**Пошаго",110.5,False,10,0.0
+272,ru_h,ru,human,mgsm-032,35.0,ascii,"25.5</think>
+1500",25.5,False,10,0.0
+273,ru_h,ru,human,mgsm-033,70.0,ascii,"200</think>
+110
+
+2",200.0,False,10,0.0
+274,ru_h,ru,human,mgsm-034,23.0,ascii,"20</think>
+150000",20.0,False,10,0.0
+275,ru_h,ru,human,mgsm-035,9.0,ascii,"20</think>
+1.  **Deconstruct",20.0,False,10,0.0
+276,ru_h,ru,human,mgsm-036,75.0,ascii,"125
+
+1.  **Deconstruct",125.0,False,10,0.0
+277,ru_h,ru,human,mgsm-037,2.0,ascii,"10
+
+**Пошаговое решение:**",10.0,False,10,0.043
+278,ru_h,ru,human,mgsm-038,10.0,ascii,"30 миль/ч
+
+**Поша",30.0,False,10,0.0
+279,ru_h,ru,human,mgsm-039,18.0,ascii,"18
+
+**Пошаговое решение:**",18.0,True,10,0.0
+280,ru_h,ru,human,mgsm-040,8.0,ascii,"8</think>
+The iPhone Brandon is 8 years",8.0,True,10,0.29
+281,ru_h,ru,human,mgsm-041,200.0,ascii,1200000000,1200000000.0,False,10,0.0
+282,ru_h,ru,human,mgsm-042,26.0,ascii,"102.
+
+Here's the step",102.0,False,10,0.0
+283,ru_h,ru,human,mgsm-043,48.0,ascii,"100
+
+**По reasoning:**
+
+1",100.0,False,10,0.0
+284,ru_h,ru,human,mgsm-044,20.0,ascii,"100
+
+**Пошаговое решение",100.0,False,10,0.0
+285,ru_h,ru,human,mgsm-045,104.0,ascii,"12
+
+**По reasoning:**
+
+1.",12.0,False,10,0.0
+286,ru_h,ru,human,mgsm-046,163.0,ascii,"111</think>
+111
+
+1",111.0,False,10,0.0
+287,ru_h,ru,human,mgsm-047,800.0,ascii,"200 $
+
+**Пошаговое",200.0,False,10,0.0
+288,ru_h,ru,human,mgsm-048,8.0,ascii,"10</think>
+100000",10.0,False,10,0.0
+289,ru_h,ru,human,mgsm-049,30.0,ascii,"24
+
+
+Here's the step-by",24.0,False,10,0.0
+290,ru_h,ru,human,mgsm-050,294.0,ascii,"1260
+
+**Пошаговое",1260.0,False,10,0.0
+291,ru_h,ru,human,mgsm-051,5.0,ascii,1200000000,1200000000.0,False,10,0.0
+292,ru_h,ru,human,mgsm-052,15.0,ascii,"10
+
+**По reasoning:**
+
+1.",10.0,False,10,0.0
+293,ru_h,ru,human,mgsm-053,40.0,ascii,"12000
+
+The user is asking",12000.0,False,10,0.0
+294,ru_h,ru,human,mgsm-054,40.0,ascii,"18</arg_value>
+<think>1.  **De",18.0,False,10,0.0
+295,ru_h,ru,human,mgsm-055,14.0,ascii,"15
+
+1.  **Deconstruct the",15.0,False,10,0.0
+296,ru_h,ru,human,mgsm-056,3.0,ascii,"14</think>
+1.  **Deconstruct",14.0,False,10,0.0
+297,ru_h,ru,human,mgsm-057,83.0,ascii,"150
+
+**Пошаговое решение",150.0,False,10,0.0
+298,ru_h,ru,human,mgsm-058,57.0,ascii,"47,00 $
+
+---
+
+**",4700.0,False,10,0.0
+299,ru_h,ru,human,mgsm-059,187.0,ascii,"127</think>
+127",127.0,False,9,0.0
+300,zh_h,zh,human,mgsm-000,18.0,ascii,"16
+
+**Here's the step-",16.0,False,10,0.0
+301,zh_h,zh,human,mgsm-001,3.0,ascii,"3
+
+**Explanation:**
+
+1.  **",3.0,True,10,0.0
+302,zh_h,zh,human,mgsm-002,70000.0,ascii,"12,500
+
+**Here'",12500.0,False,10,0.0
+303,zh_h,zh,human,mgsm-003,540.0,ascii,"180
+
+**Explanation:**
+
+1.",180.0,False,10,0.0
+304,zh_h,zh,human,mgsm-004,20.0,ascii,"15
+
+Here's the step-by",15.0,False,10,0.0
+305,zh_h,zh,human,mgsm-005,64.0,ascii,"112
+
+Here's the step-",112.0,False,10,0.179
+306,zh_h,zh,human,mgsm-006,260.0,ascii,"120
+
+Here's the step-",120.0,False,10,0.0
+307,zh_h,zh,human,mgsm-007,160.0,ascii,"120
+
+Here's the step-",120.0,False,10,0.125
+308,zh_h,zh,human,mgsm-008,45.0,ascii,"30.5
+
+**计算过程：**",30.5,False,10,0.0
+309,zh_h,zh,human,mgsm-009,460.0,ascii,"390美元
+
+**计算过程：**",390.0,False,10,0.089
+310,zh_h,zh,human,mgsm-010,366.0,ascii,"11400
+
+Here's the",11400.0,False,10,0.0
+311,zh_h,zh,human,mgsm-011,694.0,ascii,"3216
+
+**计算过程：**",3216.0,False,10,0.0
+312,zh_h,zh,human,mgsm-012,13.0,ascii,"12
+
+**Here's the step-",12.0,False,10,0.0
+313,zh_h,zh,human,mgsm-013,18.0,ascii,"30
+
+Here's the step-by",30.0,False,10,0.091
+314,zh_h,zh,human,mgsm-014,60.0,ascii,"15%
+
+Here's the step-",15.0,False,10,0.0
+315,zh_h,zh,human,mgsm-015,125.0,ascii,"100
+
+**推理过程：**",100.0,False,10,0.0
+316,zh_h,zh,human,mgsm-016,230.0,ascii,"130
+
+1.  **Analyze the",130.0,False,10,0.0
+317,zh_h,zh,human,mgsm-017,57500.0,ascii,"11,000 美元
+
+**",11000.0,False,10,0.0
+318,zh_h,zh,human,mgsm-018,7.0,ascii,"12
+
+**Reasoning:**
+
+1.",12.0,False,10,0.0
+319,zh_h,zh,human,mgsm-019,6.0,ascii,"3.5
+
+**推理过程：**",3.5,False,10,0.0
+320,zh_h,zh,human,mgsm-020,15.0,ascii,"36升水。
+
+### 1.",36.0,False,10,0.0
+321,zh_h,zh,human,mgsm-021,14.0,ascii,"12
+
+**Here's the step-",12.0,False,10,0.0
+322,zh_h,zh,human,mgsm-022,7.0,ascii,"11
+
+**Here's the breakdown:**",11.0,False,10,0.286
+323,zh_h,zh,human,mgsm-023,8.0,ascii,"8 厘米</think>
+<think>1.  **",8.0,True,10,0.0
+324,zh_h,zh,human,mgsm-024,26.0,ascii,"13.00
+
+The original price of",13.0,False,10,0.0
+325,zh_h,zh,human,mgsm-025,2.0,ascii,"3
+
+**Here's the step-by",3.0,False,10,0.159
+326,zh_h,zh,human,mgsm-026,243.0,ascii,"1117.50
+
+Here'",1117.5,False,10,0.0
+327,zh_h,zh,human,mgsm-027,16.0,ascii,"120.00
+
+The user is",120.0,False,10,0.0
+328,zh_h,zh,human,mgsm-028,25.0,ascii,"15
+
+Here's the step-by",15.0,False,10,0.0
+329,zh_h,zh,human,mgsm-029,104.0,ascii,"330
+
+**Here's the step",330.0,False,10,0.0
+330,zh_h,zh,human,mgsm-030,109.0,ascii,"172
+
+**Reasoning:**
+
+1",172.0,False,10,0.139
+331,zh_h,zh,human,mgsm-031,80.0,ascii,"112.5
+
+**Step-by",112.5,False,10,0.0
+332,zh_h,zh,human,mgsm-032,35.0,ascii,"20
+
+**Reasoning:**
+
+1.",20.0,False,10,0.0
+333,zh_h,zh,human,mgsm-033,70.0,ascii,"20
+
+Here's the step-by",20.0,False,10,0.0
+334,zh_h,zh,human,mgsm-034,23.0,ascii,"15
+
+Here's the step-by",15.0,False,10,0.0
+335,zh_h,zh,human,mgsm-035,9.0,ascii,"12.5
+
+Here's the step",12.5,False,10,0.0
+336,zh_h,zh,human,mgsm-036,75.0,ascii,"12.50
+
+**计算过程：",12.5,False,10,0.0
+337,zh_h,zh,human,mgsm-037,2.0,ascii,"525
+
+The user is asking a multi",525.0,False,10,0.0
+338,zh_h,zh,human,mgsm-038,10.0,ascii,"30
+
+**Explanation:**
+
+1.",30.0,False,10,0.0
+339,zh_h,zh,human,mgsm-039,18.0,ascii,"36  英里
+
+Here's the",36.0,False,10,0.0
+340,zh_h,zh,human,mgsm-040,8.0,ascii,"12
+
+The user wants me to solve a",12.0,False,10,0.429
+341,zh_h,zh,human,mgsm-041,200.0,ascii,"3,000 英尺
+
+**Here",3000.0,False,10,0.037
+342,zh_h,zh,human,mgsm-042,26.0,ascii,"3
+
+Here's the step-by-",3.0,False,10,0.0
+343,zh_h,zh,human,mgsm-043,48.0,ascii,"300 克的薯片。
+
+**",300.0,False,10,0.0
+344,zh_h,zh,human,mgsm-044,20.0,ascii,"10.00
+
+Here's the",10.0,False,10,0.0
+345,zh_h,zh,human,mgsm-045,104.0,ascii,"120
+
+Here's the step-",120.0,False,10,0.0
+346,zh_h,zh,human,mgsm-046,163.0,ascii,"32
+
+**Here's the step-",32.0,False,10,0.0
+347,zh_h,zh,human,mgsm-047,800.0,ascii,"1200
+
+Here's the step",1200.0,False,10,0.0
+348,zh_h,zh,human,mgsm-048,8.0,ascii,"32
+
+**Here's the step-",32.0,False,10,0.0
+349,zh_h,zh,human,mgsm-049,30.0,ascii,"320
+
+**Here's the step",320.0,False,10,0.0
+350,zh_h,zh,human,mgsm-050,294.0,ascii,"504
+
+**Reasoning:**
+
+1",504.0,False,10,0.0
+351,zh_h,zh,human,mgsm-051,5.0,ascii,"2 小时
+
+**推理过程：**",2.0,False,10,0.0
+352,zh_h,zh,human,mgsm-052,15.0,ascii,"30
+
+Here's the step-by",30.0,False,10,0.0
+353,zh_h,zh,human,mgsm-053,40.0,ascii,"120
+
+**Here's the step",120.0,False,10,0.0
+354,zh_h,zh,human,mgsm-054,40.0,ascii,"12
+
+Here's the step-by",12.0,False,10,0.154
+355,zh_h,zh,human,mgsm-055,14.0,ascii,"15
+
+**Explanation:**
+
+1.",15.0,False,10,0.0
+356,zh_h,zh,human,mgsm-056,3.0,ascii,"14
+
+**Reasoning:**
+
+1.",14.0,False,10,0.0
+357,zh_h,zh,human,mgsm-057,83.0,ascii,"300
+
+**计算过程：**",300.0,False,10,0.0
+358,zh_h,zh,human,mgsm-058,57.0,ascii,"113.00
+
+Here's",113.0,False,10,0.0
+359,zh_h,zh,human,mgsm-059,187.0,ascii,"187
+
+1.  **Deconstruct",187.0,True,10,0.0

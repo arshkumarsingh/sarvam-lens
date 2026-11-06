@@ -1,0 +1,125 @@
+{
+ "headline": {
+  "en|plain": [
+   0.946,
+   null,
+   null,
+   0.033
+  ],
+  "en|hint_native": [
+   0.417,
+   0.636,
+   1.0,
+   1.0
+  ],
+  "hi|plain": [
+   0.797,
+   null,
+   null,
+   0.033
+  ],
+  "hi|hint_native": [
+   0.45,
+   0.412,
+   1.0,
+   0.983
+  ],
+  "hi|hint_en": [
+   0.333,
+   0.455,
+   1.0,
+   0.983
+  ],
+  "ta|plain": [
+   0.843,
+   null,
+   null,
+   0.033
+  ],
+  "ta|hint_native": [
+   0.227,
+   0.556,
+   1.0,
+   1.0
+  ],
+  "ta|hint_en": [
+   0.312,
+   0.286,
+   1.0,
+   1.0
+  ],
+  "bn_h|plain": [
+   0.825,
+   null,
+   null,
+   0.1
+  ],
+  "bn_h|hint_native": [
+   0.571,
+   0.222,
+   1.0,
+   1.0
+  ],
+  "bn_h|hint_en": [
+   0.091,
+   0.812,
+   1.0,
+   1.0
+  ],
+  "sat|plain": [
+   0.578,
+   null,
+   null,
+   0.05
+  ],
+  "sat|hint_native": [
+   0.375,
+   0.375,
+   1.0,
+   0.967
+  ],
+  "sat|hint_en": [
+   0.308,
+   0.286,
+   1.0,
+   1.0
+  ],
+  "ru_h|plain": [
+   0.815,
+   null,
+   null,
+   0.05
+  ],
+  "ru_h|hint_native": [
+   0.353,
+   0.5,
+   1.0,
+   1.0
+  ],
+  "ru_h|hint_en": [
+   0.444,
+   0.368,
+   1.0,
+   0.983
+  ],
+  "non-English pooled|plain": [
+   0.778,
+   null,
+   null,
+   0.053
+  ],
+  "non-English pooled|hint_native": [
+   0.389,
+   0.427,
+   1.0,
+   0.99
+  ],
+  "non-English pooled|hint_en": [
+   0.301,
+   0.463,
+   1.0,
+   0.993
+  ]
+ },
+ "ci_method": "bootstrap over problems (a problem's language variants together)"
+}

@@ -1,0 +1,23 @@
+# concept: gold
+# page: gold/translations
+# revid: 92549374
+# section_url: https://en.wiktionary.org/w/index.php?title=gold/translations&action=raw
+## block: {{trans-top|element Au}}
+* Assamese: {{tt|as|সোণ}}, {{tt|as|স্বৰ্ণ}}
+* Odia: {{tt|or|ସୁନା}}
+* Punjabi: {{tt+|pa|ਸੋਨਾ|m}}
+* Urdu: {{tt|ur|سونا|m}}, {{tt|ur|زَر|m}}
+* Nepali: {{tt+|ne|सुन}}
+* Sanskrit: {{tt+|sa|सुवर्ण|n}}, {{tt+|sa|काञ्चन|n}}, {{tt+|sa|हिरण्य|n}}, {{tt+|sa|कनक|n}}, {{tt+|sa|भृङ्गार|n}}, {{tt+|sa|हेमन्|n}}
+* Maithili: {{tt|mai|सोन}}, {{tt|mai|कनक}}, {{tt|mai|कञ्चन}}
+* Sindhi: {{tt|sd|سون|m|alt=سونُ|tr=sonu}}
+MISSING Kashmiri
+* Konkani: {{tt|kok|भांगर|n}}
+MISSING Dogri
+MISSING Manipuri
+MISSING Bodo
+* Santali: {{tt+|sat|ᱥᱚᱱᱟ}}
+* Japanese: {{tt+|ja|金|tr=きん, kin}}, {{tt+|ja|黄金|tr=おうごん, ōgon}}
+* Russian: {{tt+|ru|зо́лото|n}}, {{tt|ru|а́урум|m}}, {{tt+|ru|зла́то|n}} {{q|archaic or poetic}}
+* Arabic: {{tt+|ar|ذَهَب|m|f}}, {{tt|ar|إِبْرِيز|m}}
+* Hindi: {{tt+|hi|सोना|m}}, {{tt+|hi|स्वर्ण|m}}, {{tt+|hi|कंचन|m}}, {{tt+|hi|कनक|m}}, {{tt+|hi|हेम|m}}, {{tt+|hi|भृंगार|m}}, {{tt|hi|ज़र|m}}, {{tt+|hi|जर|m}}, {{tt+|hi|हिरण्य|m}}

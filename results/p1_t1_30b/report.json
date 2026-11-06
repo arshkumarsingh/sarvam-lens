@@ -1,0 +1,782 @@
+{
+ "usd_per_hour": 5.174,
+ "budget_minutes": 12.0,
+ "model_type": "sarvam_moe",
+ "stages": [
+  {
+   "stage": "load",
+   "est_minutes": 2,
+   "result": {
+    "model": "HFLensModel(SarvamMoEForCausalLM, n_layers=19, d_model=4096)",
+    "gpu_gb_allocated": 64.3,
+    "gpu_gb_by_device": {
+     "0": 64.3
+    },
+    "loading_info": {
+     "missing_keys": {
+      "n": 0,
+      "first": []
+     },
+     "unexpected_keys": {
+      "n": 0,
+      "first": []
+     },
+     "mismatched_keys": {
+      "n": 0,
+      "first": []
+     },
+     "error_msgs": {
+      "n": 0,
+      "first": []
+     }
+    }
+   },
+   "status": "ok",
+   "minutes": 0.91,
+   "log_tail": []
+  },
+  {
+   "stage": "sanity",
+   "est_minutes": 1.0,
+   "result": {
+    "bos_first": true,
+    "n_tokens": 19,
+    "stock_rerun_max_abs_diff": 0.0,
+    "rlens": {
+     "max_abs_diff": 0.0,
+     "stock_abs_max": 123.0,
+     "patched": {
+      "ln_rule": 39,
+      "mlp_rule": 19,
+      "routed_experts": 0,
+      "moe_blocks": 0
+     }
+    },
+    "r+moe": {
+     "max_abs_diff": 0.0,
+     "stock_abs_max": 123.0,
+     "patched": {
+      "ln_rule": 39,
+      "mlp_rule": 19,
+      "routed_experts": 2304,
+      "moe_blocks": 18
+     }
+    },
+    "seconds_per_forward": 0.123,
+    "timing_prompt_tokens": 101,
+    "greedy": {
+     "हिन्दी: \"पानी\" - English: \"": "water\".\n\nThe user wants a function that takes a string",
+     "தமிழ்: \"நீர்\" - తెలుగు: \"": "நீர்\" - హిందీ: \"నీరు\" - బెంగ",
+     "भारत की राजधानी": " है?\n1. दिल्ली\n2. मुंबई\n3",
+     "The capital of Tamil Nadu is": " Chennai.\n\nThe user's question is a statement,"
+    },
+    "greedy_water_ok": true
+   },
+   "status": "ok",
+   "minutes": 0.27,
+   "log_tail": []
+  },
+  {
+   "stage": "post1_experiment.roles",
+   "est_minutes": 3.1,
+   "result": {
+    "n_kept": 382,
+    "n_items": 432,
+    "seconds": 77.0,
+    "repro": {
+     "lens": "j_200p",
+     "ok": true,
+     "english@L14": [
+      0.98,
+      0.98
+     ],
+     "english@L15": [
+      0.98,
+      0.98
+     ],
+     "english@L16": [
+      0.996,
+      0.992
+     ],
+     "hindi@L14": [
+      0.622,
+      0.602
+     ],
+     "hindi@L15": [
+      0.573,
+      0.551
+     ],
+     "hindi@L16": [
+      0.687,
+      0.676
+     ],
+     "n_all_indic": 256
+    },
+    "decision": {
+     "lens": "j_200p",
+     "band": [
+      13,
+      14,
+      15,
+      16
+     ],
+     "prefix": {
+      "english": [
+       0.9355,
+       0.9023,
+       0.964,
+       256
+      ],
+      "english_shuffled": [
+       0.001,
+       0.0,
+       0.003,
+       256
+      ],
+      "hindi": [
+       0.5772,
+       0.4463,
+       0.7024,
+       246
+      ],
+      "hindi_shuffled": [
+       0.0,
+       0.0,
+       0.0,
+       256
+      ],
+      "target": [
+       0.2676,
+       0.2092,
+       0.3258,
+       256
+      ],
+      "source": [
+       0.2167,
+       0.1608,
+       0.2762,
+       240
+      ],
+      "chinese": [
+       0.0605,
+       0.0198,
+       0.1197,
+       256
+      ],
+      "chinese_shuffled": [
+       0.0,
+       0.0,
+       0.0,
+       256
+      ],
+      "nb_close": [
+       0.1035,
+       0.0367,
+       0.1836,
+       256
+      ],
+      "nb_close_shuffled": [
+       0.0,
+       0.0,
+       0.0,
+       256
+      ],
+      "nb_assoc": [
+       0.0205,
+       0.0029,
+       0.046,
+       256
+      ],
+      "nb_assoc_shuffled": [
+       0.0,
+       0.0,
+       0.0,
+       256
+      ],
+      "pool:orig_other": [
+       0.1213,
+       0.0808,
+       0.1698,
+       256
+      ],
+      "pool:orig_other_shuffled": [
+       0.0,
+       0.0,
+       0.0,
+       256
+      ],
+      "pool:big10_other": [
+       0.1335,
+       0.0982,
+       0.1767,
+       256
+      ],
+      "pool:big10_other_shuffled": [
+       0.0,
+       0.0,
+       0.0,
+       256
+      ],
+      "pool:low_resource": [
+       0.0039,
+       0.0,
+       0.0102,
+       256
+      ],
+      "pool:low_resource_shuffled": [
+       0.0,
+       0.0,
+       0.0,
+       256
+      ],
+      "pool:other_new": [
+       0.0521,
+       0.0162,
+       0.1001,
+       256
+      ],
+      "pool:other_new_shuffled": [
+       0.0,
+       0.0,
+       0.0,
+       256
+      ],
+      "pool:world": [
+       0.0024,
+       0.0,
+       0.0064,
+       256
+      ],
+      "pool:world_shuffled": [
+       0.0,
+       0.0,
+       0.0,
+       256
+      ]
+     },
+     "whole_word": {
+      "english": [
+       0.9355,
+       0.9023,
+       0.964,
+       256
+      ],
+      "english_shuffled": [
+       0.001,
+       0.0,
+       0.003,
+       256
+      ],
+      "hindi": [
+       0.5977,
+       0.4704,
+       0.7121,
+       220
+      ],
+      "hindi_shuffled": [
+       0.0,
+       0.0,
+       0.0,
+       233
+      ],
+      "target": [
+       0.2733,
+       0.2003,
+       0.3537,
+       161
+      ],
+      "source": [
+       0.2271,
+       0.1575,
+       0.3065,
+       142
+      ],
+      "chinese": [
+       0.0605,
+       0.0198,
+       0.1197,
+       256
+      ],
+      "chinese_shuffled": [
+       0.0,
+       0.0,
+       0.0,
+       256
+      ],
+      "nb_close": [
+       0.1016,
+       0.0354,
+       0.1811,
+       256
+      ],
+      "nb_close_shuffled": [
+       0.0,
+       0.0,
+       0.0,
+       256
+      ],
+      "nb_assoc": [
+       0.0137,
+       0.0018,
+       0.0354,
+       256
+      ],
+      "nb_assoc_shuffled": [
+       0.0,
+       0.0,
+       0.0,
+       256
+      ],
+      "pool:orig_other": [
+       0.138,
+       0.0793,
+       0.2136,
+       221
+      ],
+      "pool:orig_other_shuffled": [
+       0.0,
+       0.0,
+       0.0,
+       237
+      ],
+      "pool:big10_other": [
+       0.1856,
+       0.1215,
+       0.2572,
+       229
+      ],
+      "pool:big10_other_shuffled": [
+       0.0,
+       0.0,
+       0.0,
+       237
+      ],
+      "pool:low_resource": [
+       0.0089,
+       0.0,
+       0.0224,
+       197
+      ],
+      "pool:low_resource_shuffled": [
+       0.0,
+       0.0,
+       0.0,
+       222
+      ],
+      "pool:other_new": [
+       0.111,
+       0.0141,
+       0.2531,
+       161
+      ],
+      "pool:other_new_shuffled": [
+       0.0,
+       0.0,
+       0.0,
+       227
+      ],
+      "pool:world": [
+       0.0011,
+       0.0,
+       0.0029,
+       219
+      ],
+      "pool:world_shuffled": [
+       0.0,
+       0.0,
+       0.0,
+       256
+      ]
+     },
+     "own_script": {
+      "english": [
+       0.9434,
+       0.9131,
+       0.9688,
+       256
+      ],
+      "english_shuffled": [
+       0.001,
+       0.0,
+       0.003,
+       256
+      ],
+      "hindi": [
+       0.9167,
+       0.8347,
+       0.9777,
+       246
+      ],
+      "hindi_shuffled": [
+       0.0352,
+       0.001,
+       0.0962,
+       256
+      ],
+      "target": [
+       0.8467,
+       0.7954,
+       0.8937,
+       256
+      ],
+      "source": [
+       0.8458,
+       0.792,
+       0.8926,
+       240
+      ],
+      "chinese": [
+       0.9814,
+       0.9629,
+       0.9943,
+       256
+      ],
+      "chinese_shuffled": [
+       0.0322,
+       0.0,
+       0.0892,
+       256
+      ],
+      "nb_close": [
+       0.1387,
+       0.0608,
+       0.2285,
+       256
+      ],
+      "nb_close_shuffled": [
+       0.0,
+       0.0,
+       0.0,
+       256
+      ],
+      "nb_assoc": [
+       0.0312,
+       0.004,
+       0.0714,
+       256
+      ],
+      "nb_assoc_shuffled": [
+       0.0,
+       0.0,
+       0.0,
+       256
+      ],
+      "pool:orig_other": [
+       0.7422,
+       0.662,
+       0.8174,
+       256
+      ],
+      "pool:orig_other_shuffled": [
+       0.0347,
+       0.0062,
+       0.0867,
+       256
+      ],
+      "pool:big10_other": [
+       0.7312,
+       0.6549,
+       0.799,
+       256
+      ],
+      "pool:big10_other_shuffled": [
+       0.0366,
+       0.0069,
+       0.0922,
+       256
+      ],
+      "pool:low_resource": [
+       0.333,
+       0.2705,
+       0.4042,
+       256
+      ],
+      "pool:low_resource_shuffled": [
+       0.0266,
+       0.0102,
+       0.0497,
+       256
+      ],
+      "pool:other_new": [
+       0.3707,
+       0.2746,
+       0.4742,
+       256
+      ],
+      "pool:other_new_shuffled": [
+       0.02,
+       0.0022,
+       0.0541,
+       256
+      ],
+      "pool:world": [
+       0.6227,
+       0.5595,
+       0.6882,
+       256
+      ],
+      "pool:world_shuffled": [
+       0.0166,
+       0.0018,
+       0.0431,
+       256
+      ]
+     }
+    }
+   },
+   "status": "ok",
+   "minutes": 1.62,
+   "log_tail": [
+    "post1: roles: read 16 / 432 items (4 s)",
+    "post1: roles: read 176 / 432 items (32 s)",
+    "post1: roles: read 336 / 432 items (58 s)"
+   ]
+  },
+  {
+   "stage": "post1_experiment.joint",
+   "est_minutes": 3.72,
+   "result": {
+    "n": 276,
+    "clusters": 32,
+    "base_p": 0.8755,
+    "base_correct": 1.0,
+    "english_pub": {
+     "drop_pts": 5.2223,
+     "ci": [
+      3.3552,
+      6.9783
+     ],
+     "n": 276,
+     "still_correct": 0.953,
+     "rel_norm": 0.0488
+    },
+    "control_pub": {
+     "drop_pts": 0.3953,
+     "ci": [
+      0.0081,
+      0.8381
+     ],
+     "n": 276,
+     "still_correct": 0.982,
+     "rel_norm": 0.03
+    },
+    "hindi_pub": {
+     "drop_pts": 4.5245,
+     "ci": [
+      2.7095,
+      6.2702
+     ],
+     "n": 276,
+     "still_correct": 0.924,
+     "rel_norm": 0.0376
+    },
+    "hindi_control_pub": {
+     "drop_pts": 0.1042,
+     "ci": [
+      -0.1439,
+      0.3684
+     ],
+     "n": 276,
+     "still_correct": 0.975,
+     "rel_norm": 0.0178
+    },
+    "en_ms": {
+     "drop_pts": 4.6086,
+     "ci": [
+      2.8882,
+      6.315
+     ],
+     "n": 276,
+     "still_correct": 0.96,
+     "rel_norm": 0.0474
+    },
+    "hi_ms": {
+     "drop_pts": 4.0118,
+     "ci": [
+      2.4234,
+      5.5824
+     ],
+     "n": 276,
+     "still_correct": 0.931,
+     "rel_norm": 0.0367
+    },
+    "tgt_ms": {
+     "drop_pts": -5.4111,
+     "ci": [
+      -6.8959,
+      -3.7744
+     ],
+     "n": 265,
+     "still_correct": 0.996,
+     "rel_norm": 0.0284
+    },
+    "en_hi": {
+     "drop_pts": 11.3185,
+     "ci": [
+      8.6879,
+      13.7172
+     ],
+     "n": 276,
+     "still_correct": 0.906,
+     "rel_norm": 0.0594
+    },
+    "joint": {
+     "drop_pts": 2.8202,
+     "ci": [
+      0.3408,
+      5.3888
+     ],
+     "n": 276,
+     "still_correct": 0.938,
+     "rel_norm": 0.0652
+    },
+    "control_joint": {
+     "drop_pts": 1.6894,
+     "ci": [
+      0.8737,
+      2.5042
+     ],
+     "n": 276,
+     "still_correct": 0.953,
+     "rel_norm": 0.0415
+    },
+    "random_joint": {
+     "drop_pts": 0.2398,
+     "ci": [
+      -0.3933,
+      0.8767
+     ],
+     "n": 276,
+     "still_correct": 0.975,
+     "rel_norm": 0.0567
+    },
+    "joint_early": {
+     "drop_pts": 0.4843,
+     "ci": [
+      -0.0926,
+      1.1271
+     ],
+     "n": 276,
+     "still_correct": 0.975,
+     "rel_norm": 0.0397
+    },
+    "joint@3": {
+     "drop_pts": 61.8214,
+     "ci": [
+      54.4731,
+      68.7379
+     ],
+     "n": 276,
+     "still_correct": 0.275,
+     "rel_norm": 0.5539
+    },
+    "control_joint@3": {
+     "drop_pts": 24.9514,
+     "ci": [
+      18.3342,
+      32.3748
+     ],
+     "n": 276,
+     "still_correct": 0.725,
+     "rel_norm": 0.3783
+    },
+    "english_pub_minus_control_pub": {
+     "pts": 4.827,
+     "ci": [
+      2.9455,
+      6.7002
+     ],
+     "n": 276
+    },
+    "hindi_pub_minus_hindi_control_pub": {
+     "pts": 4.4203,
+     "ci": [
+      2.6746,
+      6.136
+     ],
+     "n": 276
+    },
+    "joint_minus_control_joint": {
+     "pts": 1.1308,
+     "ci": [
+      -1.6499,
+      3.9839
+     ],
+     "n": 276
+    },
+    "joint_minus_random_joint": {
+     "pts": 2.5805,
+     "ci": [
+      -0.1125,
+      5.2952
+     ],
+     "n": 276
+    },
+    "joint@3_minus_control_joint@3": {
+     "pts": 36.87,
+     "ci": [
+      24.7567,
+      46.9404
+     ],
+     "n": 276
+    },
+    "joint_minus_en_ms+hi_ms+tgt_ms": {
+     "pts": -0.5641,
+     "ci": [
+      -3.5782,
+      2.4958
+     ],
+     "n": 265
+    },
+    "lens": "j_200p",
+    "band": [
+     13,
+     14,
+     15,
+     16
+    ],
+    "early_band": [
+     5,
+     6,
+     7,
+     8
+    ],
+    "latents": [
+     "en",
+     "hi"
+    ],
+    "repro": {
+     "english_pub": [
+      5.2223,
+      5.7,
+      [
+       4.0,
+       7.5
+      ]
+     ],
+     "hindi_pub": [
+      4.5245,
+      4.4,
+      [
+       2.8,
+       6.0
+      ]
+     ],
+     "ok": true
+    }
+   },
+   "status": "ok",
+   "minutes": 2.61,
+   "log_tail": [
+    "post1: joint: 1 / 320 items (1 s)",
+    "post1: joint: 101 / 320 items (49 s)",
+    "post1: joint: 151 / 320 items (74 s)",
+    "post1: joint: 201 / 320 items (96 s)"
+   ]
+  }
+ ],
+ "elapsed_minutes": 5.61,
+ "est_cost_usd_so_far": 0.48,
+ "seconds_per_forward": 0.123,
+ "done": true
+}

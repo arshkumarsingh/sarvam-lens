@@ -1,0 +1,34 @@
+✓ Initialized. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-iiCkjTlviYtB7Tw683DO29
+✓ Created objects.
+├── ✓ Uploaded 
+│   .\sarvam-lens\modal_app.py
+├── ✓ Uploaded .\sarvam-lens
+├── ✓ Created Function prepare_weights.
+├── ✓ Created Function smoke.
+├── ✓ Created Function prepare_qwen.
+├── ✓ Created Function cka.
+├── ✓ Created Function pilot.
+├── ✓ Created Function merge_j.
+└── ✓ Created Function diagnose.
+2026-10-18 14:47:26,197 workspace_lens.fitting.utils merging checkpoint 1/5: /vol/runs/jfit/j_200p/2026-10-18/j_200p/shard0of5/experts_K8_checkpoint.pt
+2026-10-18 14:47:31,986 workspace_lens.fitting.utils merging checkpoint 2/5: /vol/runs/jfit/j_200p/2026-10-18/j_200p/shard1of5/experts_K8_checkpoint.pt
+2026-10-18 14:47:37,596 workspace_lens.fitting.utils merging checkpoint 3/5: /vol/runs/jfit/j_200p/2026-10-18/j_200p/shard2of5/experts_K8_checkpoint.pt
+2026-10-18 14:47:43,246 workspace_lens.fitting.utils merging checkpoint 4/5: /vol/runs/jfit/j_200p/2026-10-18/j_200p/shard3of5/experts_K8_checkpoint.pt
+2026-10-18 14:47:50,022 workspace_lens.fitting.utils merging checkpoint 5/5: /vol/runs/jfit/j_200p/2026-10-18/j_200p/shard4of5/experts_K8_checkpoint.pt
+2026-10-18 14:48:06,206 jpp_cli experts saved to /vol/runs/lenses/j_200p_experts.pt (stamp /vol/runs/lenses/j_200p_experts_stamp.json)
+2026-10-18 14:48:07,648 jpp_cli pooled lens (in-memory fp32 sums) saved to /vol/runs/lenses/j_200p.pt (stamp /vol/runs/lenses/j_200p_stamp.json)
+{
+ "exit": 0,
+ "shards": [
+  "/vol/runs/jfit/j_200p/2026-10-18/j_200p/shard0of5",
+  "/vol/runs/jfit/j_200p/2026-10-18/j_200p/shard1of5",
+  "/vol/runs/jfit/j_200p/2026-10-18/j_200p/shard2of5",
+  "/vol/runs/jfit/j_200p/2026-10-18/j_200p/shard3of5",
+  "/vol/runs/jfit/j_200p/2026-10-18/j_200p/shard4of5"
+ ]
+}
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-iiCkjTlviYtB7Tw683DO29

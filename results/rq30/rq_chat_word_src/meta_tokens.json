@@ -1,0 +1,211 @@
+{
+ "n_items": 166,
+ "band": [
+  13,
+  14,
+  15,
+  16
+ ],
+ "top": [
+  {
+   "token": "<eos>",
+   "id": 1,
+   "prevalence": 0.988
+  },
+  {
+   "token": "<|end_of_turn|>",
+   "id": 26,
+   "prevalence": 0.916
+  },
+  {
+   "token": " ग़",
+   "id": 158543,
+   "prevalence": 0.88
+  },
+  {
+   "token": " kew",
+   "id": 125808,
+   "prevalence": 0.608
+  },
+  {
+   "token": " Malayalam",
+   "id": 133212,
+   "prevalence": 0.608
+  },
+  {
+   "token": "akas",
+   "id": 68710,
+   "prevalence": 0.578
+  },
+  {
+   "token": ".¹",
+   "id": 70400,
+   "prevalence": 0.506
+  },
+  {
+   "token": " transl",
+   "id": 12319,
+   "prevalence": 0.482
+  },
+  {
+   "token": " Marathi",
+   "id": 59627,
+   "prevalence": 0.476
+  },
+  {
+   "token": "igr",
+   "id": 123627,
+   "prevalence": 0.428
+  },
+  {
+   "token": "Oke",
+   "id": 99881,
+   "prevalence": 0.41
+  },
+  {
+   "token": " Telugu",
+   "id": 87735,
+   "prevalence": 0.367
+  },
+  {
+   "token": " क़",
+   "id": 76820,
+   "prevalence": 0.367
+  },
+  {
+   "token": "idxs",
+   "id": 114266,
+   "prevalence": 0.361
+  },
+  {
+   "token": "<tool_call>",
+   "id": 12,
+   "prevalence": 0.331
+  },
+  {
+   "token": " Gujarati",
+   "id": 148430,
+   "prevalence": 0.319
+  },
+  {
+   "token": " Transl",
+   "id": 50311,
+   "prevalence": 0.277
+  },
+  {
+   "token": " Tamil",
+   "id": 35436,
+   "prevalence": 0.265
+  },
+  {
+   "token": "<|fim_middle|>",
+   "id": 67,
+   "prevalence": 0.259
+  },
+  {
+   "token": " Hindi",
+   "id": 18642,
+   "prevalence": 0.253
+  },
+  {
+   "token": " Kannada",
+   "id": 167336,
+   "prevalence": 0.253
+  },
+  {
+   "token": " தமிழ்",
+   "id": 37104,
+   "prevalence": 0.241
+  },
+  {
+   "token": "Tamil",
+   "id": 145798,
+   "prevalence": 0.241
+  },
+  {
+   "token": "<|fim_suffix|>",
+   "id": 68,
+   "prevalence": 0.229
+  },
+  {
+   "token": " अंग्रे",
+   "id": 36277,
+   "prevalence": 0.217
+  },
+  {
+   "token": " तमिल",
+   "id": 74845,
+   "prevalence": 0.193
+  },
+  {
+   "token": "transl",
+   "id": 61997,
+   "prevalence": 0.187
+  },
+  {
+   "token": " Bengali",
+   "id": 114282,
+   "prevalence": 0.181
+  },
+  {
+   "token": " Akt",
+   "id": 35878,
+   "prevalence": 0.175
+  },
+  {
+   "token": "translation",
+   "id": 32154,
+   "prevalence": 0.157
+  },
+  {
+   "token": " Chennai",
+   "id": 68374,
+   "prevalence": 0.145
+  },
+  {
+   "token": " hydrol",
+   "id": 205168,
+   "prevalence": 0.139
+  },
+  {
+   "token": " Turb",
+   "id": 53018,
+   "prevalence": 0.139
+  },
+  {
+   "token": " ತಮಿಳು",
+   "id": 250522,
+   "prevalence": 0.139
+  },
+  {
+   "token": " Kerala",
+   "id": 51012,
+   "prevalence": 0.127
+  },
+  {
+   "token": "Bigr",
+   "id": 135261,
+   "prevalence": 0.12
+  },
+  {
+   "token": "Hig",
+   "id": 55447,
+   "prevalence": 0.12
+  },
+  {
+   "token": "formaldehyde",
+   "id": 147102,
+   "prevalence": 0.12
+  },
+  {
+   "token": "Beng",
+   "id": 131707,
+   "prevalence": 0.12
+  },
+  {
+   "token": "Transl",
+   "id": 90894,
+   "prevalence": 0.114
+  }
+ ]
+}

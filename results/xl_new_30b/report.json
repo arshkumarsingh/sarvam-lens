@@ -1,0 +1,877 @@
+{
+ "usd_per_hour": 5.174,
+ "budget_minutes": 9.0,
+ "model_type": "sarvam_moe",
+ "stages": [
+  {
+   "stage": "load",
+   "est_minutes": 2,
+   "result": {
+    "model": "HFLensModel(SarvamMoEForCausalLM, n_layers=19, d_model=4096)",
+    "gpu_gb_allocated": 64.3,
+    "gpu_gb_by_device": {
+     "0": 64.3
+    },
+    "loading_info": {
+     "missing_keys": {
+      "n": 0,
+      "first": []
+     },
+     "unexpected_keys": {
+      "n": 0,
+      "first": []
+     },
+     "mismatched_keys": {
+      "n": 0,
+      "first": []
+     },
+     "error_msgs": {
+      "n": 0,
+      "first": []
+     }
+    }
+   },
+   "status": "ok",
+   "minutes": 0.99,
+   "log_tail": []
+  },
+  {
+   "stage": "batch_check",
+   "est_minutes": 1.22,
+   "result": {
+    "readout_top1_agree": 1.0,
+    "readout_max_abs_dlogprob": 7.0525,
+    "generate": {
+     "n": 8,
+     "exact_match_rate": 0.875,
+     "first_mismatch": {
+      "prompt": "اردو ایک زبان ہے اور",
+      "batched": [
+       532,
+       532,
+       532,
+       532,
+       532,
+       532,
+       532,
+       532,
+       532,
+       532,
+       532,
+       532,
+       532,
+       532,
+       532,
+       532
+      ],
+      "alone": [
+       5242,
+       1402,
+       1402,
+       1402,
+       1402,
+       532,
+       532,
+       532,
+       532,
+       532,
+       532,
+       532,
+       532,
+       532,
+       532,
+       532
+      ]
+     }
+    },
+    "model_kind": "sarvam30"
+   },
+   "status": "ok",
+   "minutes": 0.47,
+   "log_tail": []
+  },
+  {
+   "stage": "newlang_experiment.pivot",
+   "est_minutes": 5.09,
+   "result": {
+    "pairs": 43,
+    "lenses": [
+     "j_200p",
+     "logit"
+    ],
+    "band": [
+     13,
+     14,
+     15,
+     16
+    ],
+    "items_tested": 1208,
+    "items_kept": 780,
+    "skipped_shared": 49,
+    "miss_answers": {
+     "target": 732,
+     "other_concept": 26,
+     "unlisted": 288,
+     "same_concept": 158,
+     "target_inflected": 4
+    },
+    "out": "/vol/runs/xl_new_30b/newlang_experiment_pivot",
+    "by_group": [
+     {
+      "group": "as>",
+      "lens": "j_200p",
+      "kept": 24,
+      "tested": 32,
+      "english_top10": 0.9583,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.6875,
+      "english_onset": "L13"
+     },
+     {
+      "group": "as>",
+      "lens": "logit",
+      "kept": 24,
+      "tested": 32,
+      "english_top10": 0.8021,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.4583,
+      "english_onset": "L14"
+     },
+     {
+      "group": ">as",
+      "lens": "j_200p",
+      "kept": 22,
+      "tested": 32,
+      "english_top10": 0.9659,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.6477,
+      "english_onset": "L13"
+     },
+     {
+      "group": ">as",
+      "lens": "logit",
+      "kept": 22,
+      "tested": 32,
+      "english_top10": 0.8864,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.3523,
+      "english_onset": "L13"
+     },
+     {
+      "group": "or>",
+      "lens": "j_200p",
+      "kept": 25,
+      "tested": 31,
+      "english_top10": 0.98,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.64,
+      "english_onset": "L13"
+     },
+     {
+      "group": "or>",
+      "lens": "logit",
+      "kept": 25,
+      "tested": 31,
+      "english_top10": 0.87,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.46,
+      "english_onset": "L14"
+     },
+     {
+      "group": ">or",
+      "lens": "j_200p",
+      "kept": 23,
+      "tested": 31,
+      "english_top10": 0.913,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.5652,
+      "english_onset": "L13"
+     },
+     {
+      "group": ">or",
+      "lens": "logit",
+      "kept": 23,
+      "tested": 31,
+      "english_top10": 0.7391,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.4348,
+      "english_onset": "L14"
+     },
+     {
+      "group": "pa>",
+      "lens": "j_200p",
+      "kept": 30,
+      "tested": 31,
+      "english_top10": 0.9333,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.6417,
+      "english_onset": "L13"
+     },
+     {
+      "group": "pa>",
+      "lens": "logit",
+      "kept": 30,
+      "tested": 31,
+      "english_top10": 0.7417,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.3833,
+      "english_onset": "L14"
+     },
+     {
+      "group": ">pa",
+      "lens": "j_200p",
+      "kept": 24,
+      "tested": 31,
+      "english_top10": 0.9688,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.6042,
+      "english_onset": "L12"
+     },
+     {
+      "group": ">pa",
+      "lens": "logit",
+      "kept": 24,
+      "tested": 31,
+      "english_top10": 0.8125,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.4688,
+      "english_onset": "L14"
+     },
+     {
+      "group": "ur>",
+      "lens": "j_200p",
+      "kept": 39,
+      "tested": 49,
+      "english_top10": 0.9487,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.6757,
+      "english_onset": "L13"
+     },
+     {
+      "group": "ur>",
+      "lens": "logit",
+      "kept": 39,
+      "tested": 49,
+      "english_top10": 0.8205,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.4527,
+      "english_onset": "L14"
+     },
+     {
+      "group": ">ur",
+      "lens": "j_200p",
+      "kept": 24,
+      "tested": 32,
+      "english_top10": 0.9479,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.6771,
+      "english_onset": "L13"
+     },
+     {
+      "group": ">ur",
+      "lens": "logit",
+      "kept": 24,
+      "tested": 32,
+      "english_top10": 0.7917,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.5104,
+      "english_onset": "L14"
+     },
+     {
+      "group": "ne>",
+      "lens": "j_200p",
+      "kept": 28,
+      "tested": 32,
+      "english_top10": 0.9286,
+      "english_shuffled_top10": 0.0089,
+      "hindi_top10": 0.525,
+      "english_onset": "L13"
+     },
+     {
+      "group": "ne>",
+      "lens": "logit",
+      "kept": 28,
+      "tested": 32,
+      "english_top10": 0.7679,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.275,
+      "english_onset": "L14"
+     },
+     {
+      "group": ">ne",
+      "lens": "j_200p",
+      "kept": 17,
+      "tested": 34,
+      "english_top10": 0.9706,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.6154,
+      "english_onset": "L13"
+     },
+     {
+      "group": ">ne",
+      "lens": "logit",
+      "kept": 17,
+      "tested": 34,
+      "english_top10": 0.8529,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.4423,
+      "english_onset": "L14"
+     },
+     {
+      "group": "sa>",
+      "lens": "j_200p",
+      "kept": 29,
+      "tested": 32,
+      "english_top10": 0.931,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.4,
+      "english_onset": "L13"
+     },
+     {
+      "group": "sa>",
+      "lens": "logit",
+      "kept": 29,
+      "tested": 32,
+      "english_top10": 0.7931,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.23,
+      "english_onset": "L14"
+     },
+     {
+      "group": ">sa",
+      "lens": "j_200p",
+      "kept": 14,
+      "tested": 25,
+      "english_top10": 0.9286,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.5385,
+      "english_onset": "L13"
+     },
+     {
+      "group": ">sa",
+      "lens": "logit",
+      "kept": 14,
+      "tested": 25,
+      "english_top10": 0.875,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.3269,
+      "english_onset": "L13"
+     },
+     {
+      "group": "mai>",
+      "lens": "j_200p",
+      "kept": 8,
+      "tested": 10,
+      "english_top10": 0.9062,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.625,
+      "english_onset": "L12"
+     },
+     {
+      "group": "mai>",
+      "lens": "logit",
+      "kept": 8,
+      "tested": 10,
+      "english_top10": 0.8438,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.5833,
+      "english_onset": "L13"
+     },
+     {
+      "group": ">mai",
+      "lens": "j_200p",
+      "kept": 2,
+      "tested": 6,
+      "english_top10": 0.875,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.875,
+      "english_onset": "L12"
+     },
+     {
+      "group": ">mai",
+      "lens": "logit",
+      "kept": 2,
+      "tested": 6,
+      "english_top10": 0.75,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.75,
+      "english_onset": "L14"
+     },
+     {
+      "group": "sd>",
+      "lens": "j_200p",
+      "kept": 26,
+      "tested": 31,
+      "english_top10": 0.9712,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.5865,
+      "english_onset": "L12"
+     },
+     {
+      "group": "sd>",
+      "lens": "logit",
+      "kept": 26,
+      "tested": 31,
+      "english_top10": 0.75,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.4327,
+      "english_onset": "L14"
+     },
+     {
+      "group": ">sd",
+      "lens": "j_200p",
+      "kept": 7,
+      "tested": 31,
+      "english_top10": 0.8571,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.5357,
+      "english_onset": "L13"
+     },
+     {
+      "group": ">sd",
+      "lens": "logit",
+      "kept": 7,
+      "tested": 31,
+      "english_top10": 0.7143,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.25,
+      "english_onset": "L14"
+     },
+     {
+      "group": "ks>",
+      "lens": "j_200p",
+      "kept": 22,
+      "tested": 32,
+      "english_top10": 0.9773,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.6591,
+      "english_onset": "L11"
+     },
+     {
+      "group": "ks>",
+      "lens": "logit",
+      "kept": 22,
+      "tested": 32,
+      "english_top10": 0.9432,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.4545,
+      "english_onset": "L13"
+     },
+     {
+      "group": ">ks",
+      "lens": "j_200p",
+      "kept": 1,
+      "tested": 32,
+      "english_top10": 1.0,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.75,
+      "english_onset": "L13"
+     },
+     {
+      "group": ">ks",
+      "lens": "logit",
+      "kept": 1,
+      "tested": 32,
+      "english_top10": 0.5,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.0,
+      "english_onset": "L14"
+     },
+     {
+      "group": "en>ks",
+      "lens": "j_200p",
+      "kept": 13,
+      "tested": 32,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.6538
+     },
+     {
+      "group": "en>ks",
+      "lens": "logit",
+      "kept": 13,
+      "tested": 32,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.4423
+     },
+     {
+      "group": "kok>",
+      "lens": "j_200p",
+      "kept": 16,
+      "tested": 26,
+      "english_top10": 0.9844,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.5,
+      "english_onset": "L11"
+     },
+     {
+      "group": "kok>",
+      "lens": "logit",
+      "kept": 16,
+      "tested": 26,
+      "english_top10": 0.7812,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.3958,
+      "english_onset": "L13"
+     },
+     {
+      "group": ">kok",
+      "lens": "j_200p",
+      "kept": 3,
+      "tested": 18,
+      "english_top10": 1.0,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.6667,
+      "english_onset": "L12"
+     },
+     {
+      "group": ">kok",
+      "lens": "logit",
+      "kept": 3,
+      "tested": 18,
+      "english_top10": 0.8333,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.0833,
+      "english_onset": "L14"
+     },
+     {
+      "group": "mni>",
+      "lens": "j_200p",
+      "kept": 25,
+      "tested": 64,
+      "english_top10": 0.97,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.55,
+      "english_onset": "L12"
+     },
+     {
+      "group": "mni>",
+      "lens": "logit",
+      "kept": 25,
+      "tested": 64,
+      "english_top10": 0.69,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.35,
+      "english_onset": "L14"
+     },
+     {
+      "group": ">mni",
+      "lens": "j_200p",
+      "kept": 18,
+      "tested": 64,
+      "english_top10": 0.9722,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.5417,
+      "english_onset": "L12"
+     },
+     {
+      "group": ">mni",
+      "lens": "logit",
+      "kept": 18,
+      "tested": 64,
+      "english_top10": 0.8472,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.5139,
+      "english_onset": "L13"
+     },
+     {
+      "group": "en>mni",
+      "lens": "j_200p",
+      "kept": 17,
+      "tested": 32,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.5588
+     },
+     {
+      "group": "en>mni",
+      "lens": "logit",
+      "kept": 17,
+      "tested": 32,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.5588
+     },
+     {
+      "group": "brx>",
+      "lens": "j_200p",
+      "kept": 4,
+      "tested": 13,
+      "english_top10": 1.0,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.3125,
+      "english_onset": "L11"
+     },
+     {
+      "group": "brx>",
+      "lens": "logit",
+      "kept": 4,
+      "tested": 13,
+      "english_top10": 0.625,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.1875,
+      "english_onset": "L14"
+     },
+     {
+      "group": ">brx",
+      "lens": "j_200p",
+      "kept": 1,
+      "tested": 13,
+      "english_top10": 1.0,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.75,
+      "english_onset": "L12"
+     },
+     {
+      "group": ">brx",
+      "lens": "logit",
+      "kept": 1,
+      "tested": 13,
+      "english_top10": 0.75,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.5,
+      "english_onset": "L14"
+     },
+     {
+      "group": "en>brx",
+      "lens": "j_200p",
+      "kept": 10,
+      "tested": 13,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.6
+     },
+     {
+      "group": "en>brx",
+      "lens": "logit",
+      "kept": 10,
+      "tested": 13,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.4
+     },
+     {
+      "group": "sat>",
+      "lens": "j_200p",
+      "kept": 32,
+      "tested": 64,
+      "english_top10": 0.8906,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.4167,
+      "english_onset": "L13"
+     },
+     {
+      "group": "sat>",
+      "lens": "logit",
+      "kept": 32,
+      "tested": 64,
+      "english_top10": 0.7266,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.5,
+      "english_onset": "L14"
+     },
+     {
+      "group": ">sat",
+      "lens": "j_200p",
+      "kept": 12,
+      "tested": 64,
+      "english_top10": 0.9792,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.5833,
+      "english_onset": "L12"
+     },
+     {
+      "group": ">sat",
+      "lens": "logit",
+      "kept": 12,
+      "tested": 64,
+      "english_top10": 0.8542,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.3958,
+      "english_onset": "L14"
+     },
+     {
+      "group": "en>sat",
+      "lens": "j_200p",
+      "kept": 17,
+      "tested": 32,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.5735
+     },
+     {
+      "group": "en>sat",
+      "lens": "logit",
+      "kept": 17,
+      "tested": 32,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.5588
+     },
+     {
+      "group": "ja>",
+      "lens": "j_200p",
+      "kept": 30,
+      "tested": 32,
+      "english_top10": 0.9833,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.525,
+      "english_onset": "L12"
+     },
+     {
+      "group": "ja>",
+      "lens": "logit",
+      "kept": 30,
+      "tested": 32,
+      "english_top10": 0.9167,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.3333,
+      "english_onset": "L13"
+     },
+     {
+      "group": ">ja",
+      "lens": "j_200p",
+      "kept": 26,
+      "tested": 32,
+      "english_top10": 0.8365,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.3558,
+      "english_onset": "L13"
+     },
+     {
+      "group": ">ja",
+      "lens": "logit",
+      "kept": 26,
+      "tested": 32,
+      "english_top10": 0.8558,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.3269,
+      "english_onset": "L13"
+     },
+     {
+      "group": "en>ja",
+      "lens": "j_200p",
+      "kept": 27,
+      "tested": 32,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.2593
+     },
+     {
+      "group": "en>ja",
+      "lens": "logit",
+      "kept": 27,
+      "tested": 32,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.2685
+     },
+     {
+      "group": "ru>",
+      "lens": "j_200p",
+      "kept": 30,
+      "tested": 32,
+      "english_top10": 0.975,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.6417,
+      "english_onset": "L12"
+     },
+     {
+      "group": "ru>",
+      "lens": "logit",
+      "kept": 30,
+      "tested": 32,
+      "english_top10": 0.875,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.4083,
+      "english_onset": "L13"
+     },
+     {
+      "group": ">ru",
+      "lens": "j_200p",
+      "kept": 29,
+      "tested": 32,
+      "english_top10": 0.9397,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.5948,
+      "english_onset": "L13"
+     },
+     {
+      "group": ">ru",
+      "lens": "logit",
+      "kept": 29,
+      "tested": 32,
+      "english_top10": 0.8448,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.2931,
+      "english_onset": "L14"
+     },
+     {
+      "group": "ar>",
+      "lens": "j_200p",
+      "kept": 31,
+      "tested": 32,
+      "english_top10": 0.9839,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.5484,
+      "english_onset": "L11"
+     },
+     {
+      "group": "ar>",
+      "lens": "logit",
+      "kept": 31,
+      "tested": 32,
+      "english_top10": 0.8871,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.379,
+      "english_onset": "L13"
+     },
+     {
+      "group": ">ar",
+      "lens": "j_200p",
+      "kept": 23,
+      "tested": 32,
+      "english_top10": 0.8804,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.5435,
+      "english_onset": "L13"
+     },
+     {
+      "group": ">ar",
+      "lens": "logit",
+      "kept": 23,
+      "tested": 32,
+      "english_top10": 0.7826,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.4239,
+      "english_onset": "L14"
+     },
+     {
+      "group": "baseline",
+      "lens": "j_200p",
+      "kept": 69,
+      "tested": 96,
+      "english_top10": 0.9529,
+      "english_shuffled_top10": 0.0072,
+      "hindi_top10": 0.6014,
+      "english_onset": "L13"
+     },
+     {
+      "group": "baseline",
+      "lens": "logit",
+      "kept": 69,
+      "tested": 96,
+      "english_top10": 0.837,
+      "english_shuffled_top10": 0.0,
+      "hindi_top10": 0.4348,
+      "english_onset": "L13"
+     }
+    ]
+   },
+   "status": "ok",
+   "minutes": 5.92,
+   "log_tail": [
+    "newlang: 1208 items to read over 43 pairs (49 skipped: target tokens all shared)",
+    "newlang: read 16 / 1208 items",
+    "newlang: read 336 / 1208 items",
+    "newlang: read 656 / 1208 items",
+    "newlang: read 976 / 1208 items",
+    "matplotlib.font_manager: generated new fontManager"
+   ]
+  }
+ ],
+ "elapsed_minutes": 7.73,
+ "est_cost_usd_so_far": 0.67,
+ "done": true
+}

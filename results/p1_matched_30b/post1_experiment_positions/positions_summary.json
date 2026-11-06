@@ -1,0 +1,88 @@
+{
+ "n": 271,
+ "clusters": 32,
+ "base_p": 0.8873,
+ "base_correct": 1.0,
+ "english_all@3": {
+  "drop_pts": 49.4615,
+  "ci": [
+   41.224,
+   57.5659
+  ],
+  "n": 271,
+  "still_correct": 0.469,
+  "rel_norm": 0.5108,
+  "abs_norm": 43.972
+ },
+ "control_all@3": {
+  "drop_pts": 16.6516,
+  "ci": [
+   13.1729,
+   20.7736
+  ],
+  "n": 271,
+  "still_correct": 0.875,
+  "rel_norm": 0.5066,
+  "abs_norm": 43.621
+ },
+ "english_all@3~rand": {
+  "drop_pts": 42.6898,
+  "ci": [
+   34.8614,
+   50.9687
+  ],
+  "n": 271,
+  "still_correct": 0.661,
+  "rel_norm": 0.4795,
+  "abs_norm": 43.972
+ },
+ "control_all@3~rand": {
+  "drop_pts": 20.7037,
+  "ci": [
+   16.9051,
+   25.0498
+  ],
+  "n": 271,
+  "still_correct": 0.838,
+  "rel_norm": 0.4764,
+  "abs_norm": 43.621
+ },
+ "english_all@3_minus_control_all@3": {
+  "pts": 32.81,
+  "ci": [
+   24.1103,
+   41.9462
+  ],
+  "n": 271
+ },
+ "english_all@3_minus_english_all@3~rand": {
+  "pts": 6.7718,
+  "ci": [
+   0.297,
+   14.5434
+  ],
+  "n": 271
+ },
+ "control_all@3_minus_control_all@3~rand": {
+  "pts": -4.0521,
+  "ci": [
+   -8.5535,
+   0.7588
+  ],
+  "n": 271
+ },
+ "lens": "j_200p",
+ "band": [
+  13,
+  14,
+  15,
+  16
+ ],
+ "early_band": [
+  5,
+  6,
+  7,
+  8
+ ],
+ "prompts_aligned": "320/320"
+}

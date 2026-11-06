@@ -1,0 +1,84 @@
+{
+ "primary_lens": "j_200p",
+ "band": [
+  13,
+  14,
+  15,
+  16
+ ],
+ "headline": {
+  "World|mgsm": [
+   0.8511,
+   0.1111,
+   3,
+   0
+  ],
+  "World|science": [
+   0.8132,
+   0.0732,
+   3,
+   0
+  ],
+  "World|technical": [
+   0.7581,
+   0.0181,
+   2,
+   0
+  ],
+  "World|everyday": [
+   0.74,
+   null,
+   null,
+   null
+  ],
+  "All 22 scheduled|mgsm": [
+   0.8408,
+   0.0824,
+   22,
+   0
+  ],
+  "All 22 scheduled|science": [
+   0.7845,
+   0.0261,
+   17,
+   0
+  ],
+  "All 22 scheduled|technical": [
+   0.7736,
+   0.0152,
+   7,
+   0
+  ],
+  "All 22 scheduled|everyday": [
+   0.7584,
+   null,
+   null,
+   null
+  ],
+  "English|mgsm": [
+   0.9756,
+   0.0318,
+   1,
+   0
+  ],
+  "English|science": [
+   0.9652,
+   0.0214,
+   1,
+   0
+  ],
+  "English|technical": [
+   0.9629,
+   0.019,
+   1,
+   0
+  ],
+  "English|everyday": [
+   0.9438,
+   null,
+   null,
+   null
+  ]
+ },
+ "pool_ci": "bootstrap over prompt ids"
+}

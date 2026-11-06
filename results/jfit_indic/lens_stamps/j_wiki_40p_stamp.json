@@ -1,0 +1,40 @@
+{
+  "git_hash": "d7efc0de372e20589e899188c0cfe8434acc63ec",
+  "timestamp": "2026-10-19T08:24:52+00:00",
+  "library_version": null,
+  "stage": "merge-experts",
+  "args": {
+    "stage": "merge-experts",
+    "checkpoint_dirs": [
+      "/vol/runs/jfit/j_200p/2026-10-18/j_200p/shard0of5"
+    ],
+    "num_clusters": 8,
+    "min_kept_positions": 50,
+    "checkpoint_name": "j_200p",
+    "device": "cpu",
+    "out": "/vol/runs/lenses/j_wiki_40p_experts.pt",
+    "pooled_lens_out": "/vol/runs/lenses/j_wiki_40p.pt"
+  },
+  "num_prompts_trained_on": 40,
+  "layers": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "pooled_from": "in-memory fp32 sums"
+}

@@ -1,0 +1,578 @@
+✓ Initialized. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-J7m4lz6FO7HUQldayQz6K6
+✓ Created objects.
+├── ✓ Uploaded 
+│   .\sarvam-lens\modal_app.py
+├── ✓ Uploaded .\sarvam-lens
+├── ✓ Created Function prepare_weights.
+├── ✓ Created Function smoke.
+├── ✓ Created Function prepare_qwen.
+└── ✓ Created Function pilot.
+hard timeout 51 min -> worst case $4.39
+
+[1ALoading weights:   0%|          | 0/7122 [00:00<?, ?it/s]
+[1ALoading weights:   1%|          | 52/7122 [00:00<00:14, 473.89it/s]
+[1ALoading weights:   1%|▏         | 100/7122 [00:00<00:17, 403.28it/s]
+[1ALoading weights:   2%|▏         | 141/7122 [00:00<00:17, 392.42it/s]
+[1ALoading weights:   3%|▎         | 181/7122 [00:00<00:17, 386.68it/s]
+[1ALoading weights:   3%|▎         | 226/7122 [00:00<00:16, 407.12it/s]
+[1ALoading weights:   4%|▎         | 267/7122 [00:00<00:16, 404.81it/s]
+[1ALoading weights:   4%|▍         | 309/7122 [00:00<00:16, 407.83it/s]
+[1ALoading weights:   5%|▍         | 350/7122 [00:00<00:18, 373.15it/s]
+[1ALoading weights:   5%|▌         | 389/7122 [00:00<00:17, 377.73it/s]
+[1ALoading weights:   6%|▌         | 428/7122 [00:01<00:23, 280.94it/s]
+[1ALoading weights:   6%|▋         | 460/7122 [00:01<00:23, 288.27it/s]
+[1ALoading weights:   7%|▋         | 504/7122 [00:01<00:20, 321.84it/s]
+[1ALoading weights:   8%|▊         | 546/7122 [00:01<00:19, 345.20it/s]
+[1ALoading weights:   8%|▊         | 594/7122 [00:01<00:17, 373.61it/s]
+[1ALoading weights:   9%|▉         | 633/7122 [00:01<00:17, 364.53it/s]
+[1ALoading weights:   9%|▉         | 671/7122 [00:01<00:17, 358.73it/s]
+[1ALoading weights:  10%|▉         | 708/7122 [00:01<00:17, 359.67it/s]
+[1ALoading weights:  10%|█         | 745/7122 [00:02<00:18, 346.41it/s]
+[1ALoading weights:  11%|█         | 784/7122 [00:02<00:17, 354.34it/s]
+[1ALoading weights:  12%|█▏        | 820/7122 [00:02<00:20, 300.59it/s]
+[1ALoading weights:  12%|█▏        | 855/7122 [00:02<00:20, 312.52it/s]
+[1ALoading weights:  13%|█▎        | 895/7122 [00:02<00:18, 333.95it/s]
+[1ALoading weights:  13%|█▎        | 931/7122 [00:02<00:18, 334.33it/s]
+[1ALoading weights:  14%|█▎        | 971/7122 [00:02<00:17, 343.35it/s]
+[1ALoading weights:  14%|█▍        | 1007/7122 [00:02<00:17, 347.85it/s]
+[1ALoading weights:  15%|█▍        | 1043/7122 [00:02<00:17, 346.97it/s]
+[1ALoading weights:  15%|█▌        | 1079/7122 [00:03<00:17, 347.50it/s]
+[1ALoading weights:  16%|█▌        | 1114/7122 [00:03<00:17, 341.62it/s]
+[1ALoading weights:  16%|█▌        | 1155/7122 [00:03<00:16, 352.28it/s]
+[1ALoading weights:  17%|█▋        | 1198/7122 [00:03<00:16, 363.00it/s]
+[1ALoading weights:  17%|█▋        | 1235/7122 [00:03<00:23, 247.28it/s]
+[1ALoading weights:  18%|█▊        | 1272/7122 [00:03<00:21, 268.11it/s]
+[1ALoading weights:  19%|█▊        | 1320/7122 [00:03<00:18, 311.37it/s]
+[1ALoading weights:  19%|█▉        | 1362/7122 [00:03<00:17, 333.34it/s]
+[1ALoading weights:  20%|█▉        | 1406/7122 [00:04<00:15, 360.11it/s]
+[1ALoading weights:  20%|██        | 1448/7122 [00:04<00:15, 366.48it/s]
+[1ALoading weights:  21%|██        | 1490/7122 [00:04<00:14, 375.69it/s]
+[1ALoading weights:  21%|██▏       | 1529/7122 [00:04<00:15, 368.01it/s]
+[1ALoading weights:  22%|██▏       | 1567/7122 [00:04<00:16, 327.14it/s]
+[1ALoading weights:  22%|██▏       | 1602/7122 [00:04<00:19, 277.50it/s]
+[1ALoading weights:  23%|██▎       | 1632/7122 [00:04<00:21, 249.55it/s]
+[1ALoading weights:  23%|██▎       | 1671/7122 [00:05<00:19, 276.59it/s]
+[1ALoading weights:  24%|██▍       | 1715/7122 [00:05<00:17, 315.24it/s]
+[1ALoading weights:  25%|██▍       | 1757/7122 [00:05<00:15, 336.44it/s]
+[1ALoading weights:  25%|██▌       | 1796/7122 [00:05<00:15, 345.75it/s]
+[1ALoading weights:  26%|██▌       | 1832/7122 [00:05<00:15, 344.39it/s]
+[1ALoading weights:  26%|██▋       | 1870/7122 [00:05<00:14, 354.24it/s]
+[1ALoading weights:  27%|██▋       | 1907/7122 [00:05<00:14, 348.69it/s]
+[1ALoading weights:  27%|██▋       | 1943/7122 [00:05<00:16, 319.32it/s]
+[1ALoading weights:  28%|██▊       | 1976/7122 [00:05<00:16, 308.65it/s]
+[1ALoading weights:  28%|██▊       | 2008/7122 [00:06<00:18, 274.24it/s]
+[1ALoading weights:  29%|██▉       | 2050/7122 [00:06<00:16, 306.12it/s]
+[1ALoading weights:  29%|██▉       | 2092/7122 [00:06<00:15, 333.65it/s]
+[1ALoading weights:  30%|██▉       | 2127/7122 [00:06<00:15, 332.55it/s]
+[1ALoading weights:  30%|███       | 2164/7122 [00:06<00:14, 335.02it/s]
+[1ALoading weights:  31%|███       | 2200/7122 [00:06<00:14, 339.79it/s]
+[1ALoading weights:  31%|███▏      | 2238/7122 [00:06<00:13, 351.01it/s]
+[1ALoading weights:  32%|███▏      | 2276/7122 [00:06<00:13, 350.93it/s]
+[1ALoading weights:  32%|███▏      | 2312/7122 [00:06<00:13, 345.63it/s]
+[1ALoading weights:  33%|███▎      | 2347/7122 [00:07<00:15, 317.09it/s]
+[1ALoading weights:  33%|███▎      | 2380/7122 [00:07<00:15, 307.67it/s]
+[1ALoading weights:  34%|███▍      | 2412/7122 [00:07<00:20, 230.61it/s]
+[1ALoading weights:  34%|███▍      | 2441/7122 [00:07<00:19, 242.76it/s]
+[1ALoading weights:  35%|███▍      | 2483/7122 [00:07<00:16, 282.60it/s]
+[1ALoading weights:  36%|███▌      | 2529/7122 [00:07<00:14, 326.63it/s]
+[1ALoading weights:  36%|███▌      | 2569/7122 [00:07<00:13, 341.83it/s]
+[1ALoading weights:  37%|███▋      | 2611/7122 [00:07<00:12, 360.05it/s]
+[1ALoading weights:  37%|███▋      | 2659/7122 [00:07<00:11, 385.99it/s]
+[1ALoading weights:  38%|███▊      | 2699/7122 [00:08<00:11, 389.73it/s]
+[1ALoading weights:  38%|███▊      | 2739/7122 [00:08<00:12, 347.01it/s]
+[1ALoading weights:  39%|███▉      | 2776/7122 [00:08<00:13, 324.41it/s]
+[1ALoading weights:  39%|███▉      | 2810/7122 [00:08<00:17, 243.47it/s]
+[1ALoading weights:  40%|████      | 2852/7122 [00:08<00:15, 280.70it/s]
+[1ALoading weights:  41%|████      | 2897/7122 [00:08<00:13, 319.35it/s]
+[1ALoading weights:  41%|████▏     | 2938/7122 [00:08<00:12, 336.11it/s]
+[1ALoading weights:  42%|████▏     | 2980/7122 [00:09<00:11, 355.68it/s]
+[1ALoading weights:  42%|████▏     | 3018/7122 [00:09<00:11, 356.76it/s]
+[1ALoading weights:  43%|████▎     | 3056/7122 [00:09<00:11, 354.04it/s]
+[1ALoading weights:  43%|████▎     | 3093/7122 [00:09<00:11, 346.21it/s]
+[1ALoading weights:  44%|████▍     | 3132/7122 [00:09<00:11, 349.12it/s]
+[1ALoading weights:  45%|████▍     | 3173/7122 [00:09<00:11, 358.30it/s]
+[1ALoading weights:  45%|████▌     | 3210/7122 [00:09<00:12, 320.26it/s]
+[1ALoading weights:  46%|████▌     | 3243/7122 [00:09<00:12, 314.78it/s]
+[1ALoading weights:  46%|████▌     | 3284/7122 [00:09<00:11, 328.98it/s]
+[1ALoading weights:  47%|████▋     | 3325/7122 [00:10<00:11, 342.94it/s]
+[1ALoading weights:  47%|████▋     | 3365/7122 [00:10<00:10, 350.94it/s]
+[1ALoading weights:  48%|████▊     | 3401/7122 [00:10<00:10, 350.86it/s]
+[1ALoading weights:  48%|████▊     | 3437/7122 [00:10<00:10, 346.73it/s]
+[1ALoading weights:  49%|████▉     | 3474/7122 [00:10<00:10, 344.41it/s]
+[1ALoading weights:  49%|████▉     | 3509/7122 [00:10<00:10, 340.35it/s]
+[1ALoading weights:  50%|████▉     | 3544/7122 [00:10<00:11, 317.58it/s]
+[1ALoading weights:  50%|█████     | 3579/7122 [00:10<00:10, 326.43it/s]
+[1ALoading weights:  51%|█████     | 3612/7122 [00:11<00:14, 247.70it/s]
+[1ALoading weights:  51%|█████     | 3650/7122 [00:11<00:12, 273.99it/s]
+[1ALoading weights:  52%|█████▏    | 3693/7122 [00:11<00:10, 312.42it/s]
+[1ALoading weights:  52%|█████▏    | 3732/7122 [00:11<00:10, 327.32it/s]
+[1ALoading weights:  53%|█████▎    | 3778/7122 [00:11<00:09, 362.67it/s]
+[1ALoading weights:  54%|█████▎    | 3818/7122 [00:11<00:08, 368.34it/s]
+[1ALoading weights:  54%|█████▍    | 3863/7122 [00:11<00:08, 390.81it/s]
+[1ALoading weights:  55%|█████▍    | 3904/7122 [00:11<00:08, 373.03it/s]
+[1ALoading weights:  55%|█████▌    | 3943/7122 [00:11<00:08, 367.20it/s]
+[1ALoading weights:  56%|█████▌    | 3981/7122 [00:12<00:11, 277.49it/s]
+[1ALoading weights:  57%|█████▋    | 4025/7122 [00:12<00:09, 310.07it/s]
+[1ALoading weights:  57%|█████▋    | 4067/7122 [00:12<00:09, 332.33it/s]
+[1ALoading weights:  58%|█████▊    | 4115/7122 [00:12<00:08, 360.60it/s]
+[1ALoading weights:  58%|█████▊    | 4157/7122 [00:12<00:07, 374.12it/s]
+[1ALoading weights:  59%|█████▉    | 4197/7122 [00:12<00:07, 369.00it/s]
+[1ALoading weights:  59%|█████▉    | 4236/7122 [00:12<00:07, 366.46it/s]
+[1ALoading weights:  60%|██████    | 4274/7122 [00:12<00:08, 352.08it/s]
+[1ALoading weights:  61%|██████    | 4313/7122 [00:12<00:07, 352.76it/s]
+[1ALoading weights:  61%|██████    | 4358/7122 [00:13<00:07, 368.34it/s]
+[1ALoading weights:  62%|██████▏   | 4396/7122 [00:13<00:08, 318.24it/s]
+[1ALoading weights:  62%|██████▏   | 4436/7122 [00:13<00:08, 334.99it/s]
+[1ALoading weights:  63%|██████▎   | 4477/7122 [00:13<00:07, 346.53it/s]
+[1ALoading weights:  63%|██████▎   | 4518/7122 [00:13<00:07, 354.49it/s]
+[1ALoading weights:  64%|██████▍   | 4558/7122 [00:13<00:07, 360.53it/s]
+[1ALoading weights:  65%|██████▍   | 4598/7122 [00:13<00:06, 366.37it/s]
+[1ALoading weights:  65%|██████▌   | 4638/7122 [00:13<00:06, 369.56it/s]
+[1ALoading weights:  66%|██████▌   | 4676/7122 [00:13<00:06, 365.82it/s]
+[1ALoading weights:  66%|██████▌   | 4714/7122 [00:14<00:06, 363.84it/s]
+[1ALoading weights:  67%|██████▋   | 4753/7122 [00:14<00:06, 371.01it/s]
+[1ALoading weights:  67%|██████▋   | 4791/7122 [00:14<00:08, 282.76it/s]
+[1ALoading weights:  68%|██████▊   | 4827/7122 [00:14<00:07, 300.99it/s]
+[1ALoading weights:  68%|██████▊   | 4867/7122 [00:14<00:07, 320.28it/s]
+[1ALoading weights:  69%|██████▉   | 4907/7122 [00:14<00:06, 335.36it/s]
+[1ALoading weights:  70%|██████▉   | 4951/7122 [00:14<00:06, 355.61it/s]
+[1ALoading weights:  70%|███████   | 4997/7122 [00:14<00:05, 384.02it/s]
+[1ALoading weights:  71%|███████   | 5037/7122 [00:15<00:05, 383.83it/s]
+[1ALoading weights:  71%|███████▏  | 5077/7122 [00:15<00:05, 368.13it/s]
+[1ALoading weights:  72%|███████▏  | 5116/7122 [00:15<00:05, 373.41it/s]
+[1ALoading weights:  72%|███████▏  | 5154/7122 [00:15<00:05, 341.48it/s]
+[1ALoading weights:  73%|███████▎  | 5189/7122 [00:15<00:06, 276.91it/s]
+[1ALoading weights:  73%|███████▎  | 5222/7122 [00:15<00:06, 287.81it/s]
+[1ALoading weights:  74%|███████▍  | 5270/7122 [00:15<00:05, 331.56it/s]
+[1ALoading weights:  75%|███████▍  | 5312/7122 [00:15<00:05, 350.68it/s]
+[1ALoading weights:  75%|███████▌  | 5362/7122 [00:15<00:04, 389.85it/s]
+[1ALoading weights:  76%|███████▌  | 5403/7122 [00:16<00:04, 368.16it/s]
+[1ALoading weights:  76%|███████▋  | 5442/7122 [00:16<00:04, 362.74it/s]
+[1ALoading weights:  77%|███████▋  | 5480/7122 [00:16<00:04, 347.74it/s]
+[1ALoading weights:  77%|███████▋  | 5516/7122 [00:16<00:04, 327.22it/s]
+[1ALoading weights:  78%|███████▊  | 5550/7122 [00:16<00:05, 312.14it/s]
+[1ALoading weights:  78%|███████▊  | 5582/7122 [00:16<00:05, 296.92it/s]
+[1ALoading weights:  79%|███████▉  | 5624/7122 [00:16<00:04, 329.09it/s]
+[1ALoading weights:  80%|███████▉  | 5663/7122 [00:16<00:04, 341.22it/s]
+[1ALoading weights:  80%|████████  | 5699/7122 [00:17<00:04, 345.80it/s]
+[1ALoading weights:  81%|████████  | 5739/7122 [00:17<00:03, 351.96it/s]
+[1ALoading weights:  81%|████████  | 5775/7122 [00:17<00:03, 353.36it/s]
+[1ALoading weights:  82%|████████▏ | 5811/7122 [00:17<00:03, 353.87it/s]
+[1ALoading weights:  82%|████████▏ | 5850/7122 [00:17<00:03, 355.84it/s]
+[1ALoading weights:  83%|████████▎ | 5886/7122 [00:17<00:03, 346.30it/s]
+[1ALoading weights:  83%|████████▎ | 5932/7122 [00:17<00:03, 371.81it/s]
+[1ALoading weights:  84%|████████▍ | 5970/7122 [00:17<00:03, 295.38it/s]
+[1ALoading weights:  84%|████████▍ | 6004/7122 [00:17<00:03, 303.80it/s]
+[1ALoading weights:  85%|████████▍ | 6040/7122 [00:18<00:03, 317.99it/s]
+[1ALoading weights:  85%|████████▌ | 6080/7122 [00:18<00:03, 332.04it/s]
+[1ALoading weights:  86%|████████▌ | 6120/7122 [00:18<00:02, 341.57it/s]
+[1ALoading weights:  87%|████████▋ | 6162/7122 [00:18<00:02, 360.70it/s]
+[1ALoading weights:  87%|████████▋ | 6210/7122 [00:18<00:02, 391.61it/s]
+[1ALoading weights:  88%|████████▊ | 6250/7122 [00:18<00:02, 393.64it/s]
+[1ALoading weights:  88%|████████▊ | 6290/7122 [00:18<00:02, 379.02it/s]
+[1ALoading weights:  89%|████████▉ | 6331/7122 [00:18<00:02, 387.03it/s]
+[1ALoading weights:  89%|████████▉ | 6371/7122 [00:19<00:02, 280.61it/s]
+[1ALoading weights:  90%|████████▉ | 6404/7122 [00:19<00:02, 291.76it/s]
+[1ALoading weights:  90%|█████████ | 6445/7122 [00:19<00:02, 320.00it/s]
+[1ALoading weights:  91%|█████████ | 6489/7122 [00:19<00:01, 350.10it/s]
+[1ALoading weights:  92%|█████████▏| 6535/7122 [00:19<00:01, 378.21it/s]
+[1ALoading weights:  92%|█████████▏| 6575/7122 [00:19<00:01, 384.23it/s]
+[1ALoading weights:  93%|█████████▎| 6615/7122 [00:19<00:01, 377.28it/s]
+[1ALoading weights:  93%|█████████▎| 6654/7122 [00:19<00:01, 374.45it/s]
+[1ALoading weights:  94%|█████████▍| 6693/7122 [00:19<00:01, 344.77it/s]
+[1ALoading weights:  94%|█████████▍| 6729/7122 [00:19<00:01, 339.53it/s]
+[1ALoading weights:  95%|█████████▍| 6764/7122 [00:20<00:01, 303.75it/s]
+[1ALoading weights:  95%|█████████▌| 6798/7122 [00:20<00:01, 307.90it/s]
+[1ALoading weights:  96%|█████████▌| 6848/7122 [00:20<00:00, 358.38it/s]
+[1ALoading weights:  97%|█████████▋| 6886/7122 [00:20<00:00, 352.00it/s]
+[1ALoading weights:  97%|█████████▋| 6924/7122 [00:20<00:00, 353.26it/s]
+[1ALoading weights:  98%|█████████▊| 6964/7122 [00:20<00:00, 359.65it/s]
+[1ALoading weights:  98%|█████████▊| 7004/7122 [00:20<00:00, 363.21it/s]
+[1ALoading weights:  99%|█████████▉| 7042/7122 [00:20<00:00, 366.05it/s]
+[1ALoading weights:  99%|█████████▉| 7080/7122 [00:20<00:00, 367.49it/s]
+[1ALoading weights: 100%|██████████| 7122/7122 [00:21<00:00, 111.04it/s]
+[1ALoading weights: 100%|██████████| 7122/7122 [00:21<00:00, 324.85it/s]
+The repository /vol/sarvam-30b-bf16 contains custom code which must be executed to correctly load the model. You can inspect the repository content at /vol/sarvam-30b-bf16 .
+ You can inspect the repository content at https://hf.co//vol/sarvam-30b-bf16.
+You can avoid this prompt in future by passing the argument `trust_remote_code=True`.
+
+[transformers] You are using a model of type `sarvam_moe` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `use_return_dict` is deprecated! Use `return_dict` instead!
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+Do you wish to run the custom code? [y/N] /usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/tmp/fit_r_moe_25p/2026-10-18/r_moe_25p/shard0of1
+association: copied
+multihop: copied
+multilingual: excluded (empty items)
+order-ops: copied
+poetry: copied
+typo: copied
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/usr/local/lib/python3.12/site-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+{
+ "usd_per_hour": 5.174,
+ "budget_minutes": 45.0,
+ "stages": [
+  {
+   "stage": "load",
+   "result": {
+    "model": "HFLensModel(SarvamMoEForCausalLM, n_layers=19, d_model=4096)",
+    "gpu_gb_allocated": 64.3
+   },
+   "status": "ok",
+   "minutes": 0.52,
+   "log_tail": []
+  },
+  {
+   "stage": "fit_router",
+   "result": {
+    "exit": 0
+   },
+   "status": "ok",
+   "minutes": 1.03,
+   "log_tail": [
+    "huggingface_hub.utils._http: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.",
+    "httpx: HTTP Request: GET https://huggingface.co/datasets/Salesforce/wikitext/resolve/b08601e04326c79dfdd32d625aee71d232d685c3/wikitext-103-raw-v1/train-00000-of-00002.parquet \"HTTP/1.1 302 Found\"",
+    "httpx: HTTP Request: GET https://us.aws.cdn.hf.co/xet-bridge-us/621ffdd236468d709f18200d/8d76dead9d8253b6b8ec0ebefbd6882c9f7894b6c227791c44a9f2db8bd20882?user_id=public&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27train-00000-of-00002.parquet%3B+filename%3D%22train-00000-of-00002.parquet%22%3B&X-Xet-Cas-Uid=public&xip=2zqW4wV3H9o&Expires=1792331423&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly91cy5hd3MuY2RuLmhmLmNvL3hldC1icmlkZ2UtdXMvNjIxZmZkZDIzNjQ2OGQ3MDlmMTgyMDBkLzhkNzZkZWFkOWQ4MjUzYjZiOGVjMGViZWZiZDY4ODJjOWY3ODk0YjZjMjI3NzkxYzQ0YTlmMmRiOGJkMjA4ODJcXD91c2VyX2lkPXB1YmxpYyZyZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPWlubGluZSUzQitmaWxlbmFtZSUyQSUzRFVURi04JTI3JTI3dHJhaW4tMDAwMDAtb2YtMDAwMDIucGFycXVldCUzQitmaWxlbmFtZSUzRCUyMnRyYWluLTAwMDAwLW9mLTAwMDAyLnBhcnF1ZXQlMjIlM0ImWC1YZXQtQ2FzLVVpZD1wdWJsaWMmeGlwPTJ6cVc0d1YzSDlvIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJFcG9jaFRpbWUiOjE3OTIzMzE0MjN9fX1dfQ__&Signature=MEQCIBHynrv-VEunEib%7ETwTqgp0Z%7E1aWgjqDK7nItWkz1VKzAiB6Zk1-DaK1UD-IjNpyL6p5QkHFq7yI7SYGB6DO23R2fA__&Key-Pair-Id=01KXEF4KZ1B6FV465MAWR4M21F&Hash-Algorithm=SHA256 \"HTTP/1.1 206 Partial Content\"",
+    "httpx: HTTP Request: GET https://huggingface.co/datasets/Salesforce/wikitext/resolve/b08601e04326c79dfdd32d625aee71d232d685c3/wikitext-103-raw-v1/train-00000-of-00002.parquet \"HTTP/1.1 302 Found\"",
+    "httpx: HTTP Request: GET https://us.aws.cdn.hf.co/xet-bridge-us/621ffdd236468d709f18200d/8d76dead9d8253b6b8ec0ebefbd6882c9f7894b6c227791c44a9f2db8bd20882?X-Xet-Cas-Uid=public&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27train-00000-of-00002.parquet%3B+filename%3D%22train-00000-of-00002.parquet%22%3B&xip=2zqW4wV3H9o&user_id=public&Expires=1792331423&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly91cy5hd3MuY2RuLmhmLmNvL3hldC1icmlkZ2UtdXMvNjIxZmZkZDIzNjQ2OGQ3MDlmMTgyMDBkLzhkNzZkZWFkOWQ4MjUzYjZiOGVjMGViZWZiZDY4ODJjOWY3ODk0YjZjMjI3NzkxYzQ0YTlmMmRiOGJkMjA4ODJcXD9YLVhldC1DYXMtVWlkPXB1YmxpYyZyZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPWlubGluZSUzQitmaWxlbmFtZSUyQSUzRFVURi04JTI3JTI3dHJhaW4tMDAwMDAtb2YtMDAwMDIucGFycXVldCUzQitmaWxlbmFtZSUzRCUyMnRyYWluLTAwMDAwLW9mLTAwMDAyLnBhcnF1ZXQlMjIlM0ImeGlwPTJ6cVc0d1YzSDlvJnVzZXJfaWQ9cHVibGljIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJFcG9jaFRpbWUiOjE3OTIzMzE0MjN9fX1dfQ__&Signature=MEUCIQC7rXI8g8%7EBRR1Go5nupQKjw9MgDhFcBKrGDndk4HsNDAIgG4sPiVOOJUXob-neFx4viP1DnBi7seoSAToA9YnHs9M_&Key-Pair-Id=01KXEF4KZ1B6FV465MAWR4M21F&Hash-Algorithm=SHA256 \"HTTP/1.1 206 Partial Content\"",
+    "httpx: HTTP Request: GET https://huggingface.co/datasets/Salesforce/wikitext/resolve/b08601e04326c79dfdd32d625aee71d232d685c3/wikitext-103-raw-v1/train-00000-of-00002.parquet \"HTTP/1.1 302 Found\"",
+    "httpx: HTTP Request: GET https://us.aws.cdn.hf.co/xet-bridge-us/621ffdd236468d709f18200d/8d76dead9d8253b6b8ec0ebefbd6882c9f7894b6c227791c44a9f2db8bd20882?X-Xet-Cas-Uid=public&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27train-00000-of-00002.parquet%3B+filename%3D%22train-00000-of-00002.parquet%22%3B&xip=2zqW4wV3H9o&user_id=public&Expires=1792331423&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly91cy5hd3MuY2RuLmhmLmNvL3hldC1icmlkZ2UtdXMvNjIxZmZkZDIzNjQ2OGQ3MDlmMTgyMDBkLzhkNzZkZWFkOWQ4MjUzYjZiOGVjMGViZWZiZDY4ODJjOWY3ODk0YjZjMjI3NzkxYzQ0YTlmMmRiOGJkMjA4ODJcXD9YLVhldC1DYXMtVWlkPXB1YmxpYyZyZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPWlubGluZSUzQitmaWxlbmFtZSUyQSUzRFVURi04JTI3JTI3dHJhaW4tMDAwMDAtb2YtMDAwMDIucGFycXVldCUzQitmaWxlbmFtZSUzRCUyMnRyYWluLTAwMDAwLW9mLTAwMDAyLnBhcnF1ZXQlMjIlM0ImeGlwPTJ6cVc0d1YzSDlvJnVzZXJfaWQ9cHVibGljIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJFcG9jaFRpbWUiOjE3OTIzMzE0MjN9fX1dfQ__&Signature=MEQCIFt--GFoZS7NOPcCXz6aEo0w519qWmrW3FLoPHq9YRZiAiA%7ELl4cZSreaBqtySgB6JHQ2n7hCLu7nZQTa-dkU%7EGCCw__&Key-Pair-Id=01KXEF4KZ1B6FV465MAWR4M21F&Hash-Algorithm=SHA256 \"HTTP/1.1 206 Partial Content\"",
+    "jpp_cli: router saved to /vol/runs/wiki/router.pt (stamp /vol/runs/wiki/router_stamp.json)"
+   ]
+  },
+  {
+   "stage": "fit_r_lens",
+   "result": {
+    "fit_exit": 0,
+    "merge_exit": 0,
+    "fit_minutes": 32.2,
+    "seconds_per_prompt": 77.2,
+    "pooled_lens": "/vol/runs/lenses/r_moe_25p.pt"
+   },
+   "status": "ok",
+   "minutes": 32.79,
+   "log_tail": [
+    "workspace_lens.fitting.condense_experts.expert_jacobians: layer 12: experts [5] kept fewer than 50 position(s) (counts [223, 51, 340, 480, 408, 32, 569, 672]); using the pooled Jacobian for them",
+    "workspace_lens.fitting.condense_experts.expert_jacobians: layer 13: experts [5] kept fewer than 50 position(s) (counts [225, 50, 386, 733, 440, 32, 493, 416]); using the pooled Jacobian for them",
+    "workspace_lens.fitting.condense_experts.expert_jacobians: layer 14: experts [2, 3, 5] kept fewer than 50 position(s) (counts [423, 211, 0, 31, 481, 1, 736, 892]); using the pooled Jacobian for them",
+    "workspace_lens.fitting.condense_experts.expert_jacobians: layer 15: experts [2, 5, 7] kept fewer than 50 position(s) (counts [262, 1196, 0, 187, 549, 32, 549, 0]); using the pooled Jacobian for them",
+    "workspace_lens.fitting.condense_experts.expert_jacobians: layer 16: experts [2, 4, 7] kept fewer than 50 position(s) (counts [455, 188, 2, 1221, 0, 506, 403, 0]); using the pooled Jacobian for them",
+    "workspace_lens.fitting.condense_experts.expert_jacobians: layer 17: experts [2, 7] kept fewer than 50 position(s) (counts [404, 474, 0, 96, 518, 419, 864, 0]); using the pooled Jacobian for them",
+    "jpp_cli: experts saved to /vol/runs/lenses/r_moe_25p_experts.pt (stamp /vol/runs/lenses/r_moe_25p_experts_stamp.json)",
+    "jpp_cli: pooled lens (in-memory fp32 sums) saved to /vol/runs/lenses/r_moe_25p.pt (stamp /vol/runs/lenses/r_moe_25p_stamp.json)"
+   ]
+  },
+  {
+   "stage": "fit_jpp",
+   "result": {
+    "exit": 0,
+    "lens": "/vol/runs/lenses/jpp_25p.pt"
+   },
+   "status": "ok",
+   "minutes": 1.32,
+   "log_tail": [
+    "workspace_lens.fitting.condense_experts.fitter: layer 11: single-expert pass@10 [0.0, 0.0, 0.0, 0.039, 0.026, 0.013, 0.078, 0.053] -> learned 0.078 (select_best, step 0)",
+    "workspace_lens.fitting.condense_experts.fitter: layer 12: single-expert pass@10 [0.0, 0.0, 0.0, 0.079, 0.039, 0.079, 0.092, 0.079] -> learned 0.189 (uniform, step 150)",
+    "workspace_lens.fitting.condense_experts.fitter: layer 13: single-expert pass@10 [0.083, 0.0, 0.026, 0.136, 0.013, 0.123, 0.096, 0.123] -> learned 0.215 (select_best, step 180)",
+    "workspace_lens.fitting.condense_experts.fitter: layer 14: single-expert pass@10 [0.201, 0.026, 0.162, 0.162, 0.083, 0.162, 0.096, 0.136] -> learned 0.201 (select_best, step 0)",
+    "workspace_lens.fitting.condense_experts.fitter: layer 15: single-expert pass@10 [0.227, 0.175, 0.162, 0.11, 0.096, 0.162, 0.066, 0.162] -> learned 0.227 (select_best, step 0)",
+    "workspace_lens.fitting.condense_experts.fitter: layer 16: single-expert pass@10 [0.122, 0.096, 0.109, 0.109, 0.109, 0.096, 0.109, 0.109] -> learned 0.148 (uniform, step 200)",
+    "workspace_lens.fitting.condense_experts.fitter: layer 17: single-expert pass@10 [0.122, 0.039, 0.122, 0.0, 0.122, 0.026, 0.135, 0.122] -> learned 0.135 (select_best, step 0)",
+    "jpp_cli: lens saved to /vol/runs/lenses/jpp_25p.pt (weights /vol/runs/lenses/jpp_25p_expert_weights.json)"
+   ]
+  },
+  {
+   "stage": "pivot_lenses",
+   "result": {
+    "exit": 0,
+    "lenses": [
+     "logit",
+     "/vol/runs/lenses/r_moe_25p.pt",
+     "/vol/runs/lenses/jpp_25p.pt"
+    ],
+    "all_indic_mean_prob_by_layer": {
+     "jpp_25p": {
+      "target": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.002,
+       0.004,
+       0.005,
+       0.143
+      ],
+      "english": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.003,
+       0.001,
+       0.099,
+       0.351,
+       0.563,
+       0.495,
+       0.225
+      ],
+      "hindi": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.001,
+       0.017,
+       0.019,
+       0.025,
+       0.051
+      ],
+      "source": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.002,
+       0.003,
+       0.004,
+       0.035
+      ]
+     },
+     "logit": {
+      "target": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.007,
+       0.033,
+       0.081,
+       0.176
+      ],
+      "english": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.04,
+       0.352,
+       0.433,
+       0.45,
+       0.173
+      ],
+      "hindi": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.001,
+       0.01,
+       0.021,
+       0.035,
+       0.032
+      ],
+      "source": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.007,
+       0.019,
+       0.038,
+       0.032
+      ]
+     },
+     "r_moe_25p": {
+      "target": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.001,
+       0.002,
+       0.005,
+       0.006,
+       0.206
+      ],
+      "english": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.001,
+       0.094,
+       0.499,
+       0.601,
+       0.747,
+       0.244
+      ],
+      "hindi": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.006,
+       0.022,
+       0.021,
+       0.032,
+       0.054
+      ],
+      "source": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.001,
+       0.003,
+       0.005,
+       0.006,
+       0.047
+      ]
+     }
+    }
+   },
+   "status": "ok",
+   "minutes": 7.0,
+   "log_tail": [
+    "pivot: ta-bn: kept 31 items",
+    "pivot: te-gu: kept 18 items",
+    "pivot: hi-ta: kept 31 items",
+    "pivot: hi_latn-ta: kept 32 items",
+    "pivot: en-ta: kept 31 items",
+    "pivot: ta-en: kept 32 items",
+    "matplotlib.font_manager: generated new fontManager",
+    "pivot: kept 382 / 448 items; wrote /vol/runs/lensfit/pivot_lenses"
+   ]
+  }
+ ],
+ "elapsed_minutes": 42.98,
+ "est_cost_usd_so_far": 3.71,
+ "done": true
+}
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/arshkumarsingh/main/ap-J7m4lz6FO7HUQldayQz6K6

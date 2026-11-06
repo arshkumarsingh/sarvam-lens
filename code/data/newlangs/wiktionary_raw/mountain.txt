@@ -1,0 +1,27 @@
+# concept: mountain
+# page: mountain
+# revid: 93665641
+# section_url: https://en.wiktionary.org/w/index.php?title=mountain&action=raw&section=12
+## block: {{trans-top-see|large mass of earth and rock|mount}}
+* Assamese: {{t|as|পর্বত}}
+* Odia: {{t+|or|ପର୍ବତ}}
+* Punjabi: {{t|pa|ਪਰਬਤ|m}}, {{t|pa|ਪਹਾੜ}}
+*: Western Punjabi: {{t+|pnb|پہاڑ}}
+* Urdu: {{t|ur|پَہاڑ|m}}, {{t|ur|پَرْوَت|m}}, {{t|ur|کوہ|m}}, {{t|ur|جَبَل|m}}
+* Nepali: {{t|ne|पहाड}}
+* Sanskrit: {{t+|sa|गिरि|m}}, {{t+|sa|पर्वत|m}}
+MISSING Maithili
+* Sindhi: {{t|sd|جبل|m|tr=jabalu}}
+* Kashmiri:
+*: Devanagari: {{t|ks|कॊह|tr=koh}}, {{t|ks|कॏह|tr=kọh}}
+*: Perso-Arabic: {{t|ks|کۆہ|tr=koh}}, {{t|ks|کۄہ|tr=kọh}}
+MISSING Konkani
+MISSING Dogri
+* Manipuri:
+*: Bishnupriya Manipuri: {{t|bpy|মোন্টানহা|tr=mōnṭānahā}}
+MISSING Bodo
+MISSING Santali
+* Japanese: {{t+|ja|山|tr=やま, yama}}, {{t+|ja|山地|tr=さんち, sanchi}}, {{t+|ja|山岳|tr=さんがく, sangaku}}
+* Russian: {{t+|ru|гора́|f}}
+* Arabic: {{t|ar|جَبَل|m}}, {{t+|ar|طُور|m}}
+* Hindi: {{t+|hi|पहाड़|m}}, {{t+|hi|पर्वत|m}}, {{t+|hi|गिरि|m}}, {{t+|hi|पर्बत|m}}, {{t+|hi|अचल|m}}, {{t+|hi|नग|m}}

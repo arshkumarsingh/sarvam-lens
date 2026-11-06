@@ -1,0 +1,628 @@
+{
+ "lens": "j_200p",
+ "band": [
+  13,
+  14,
+  15,
+  16
+ ],
+ "early_band": [
+  5,
+  6,
+  7,
+  8
+ ],
+ "n_all_words_tokens": 48,
+ "native_systems": {
+  "n": 700,
+  "clusters": 72,
+  "base_p": 0.8033,
+  "base_correct": 1.0,
+  "word@3": {
+   "drop_pts": 12.1864,
+   "ci": [
+    9.7153,
+    14.7675
+   ],
+   "n": 700,
+   "still_correct": 0.87,
+   "rel_norm": 0.2776,
+   "abs_norm": 23.081
+  },
+  "word_ctrl@3": {
+   "drop_pts": 4.7779,
+   "ci": [
+    3.5468,
+    6.1762
+   ],
+   "n": 700,
+   "still_correct": 0.924,
+   "rel_norm": 0.2259,
+   "abs_norm": 18.49
+  },
+  "allwords@3": {
+   "drop_pts": 67.0816,
+   "ci": [
+    64.2201,
+    69.8226
+   ],
+   "n": 700,
+   "still_correct": 0.206,
+   "rel_norm": 0.9295,
+   "abs_norm": 84.822
+  },
+  "random_allwords@3": {
+   "drop_pts": 6.9657,
+   "ci": [
+    6.2708,
+    7.6951
+   ],
+   "n": 700,
+   "still_correct": 0.934,
+   "rel_norm": 0.314,
+   "abs_norm": 23.499
+  },
+  "word@3~rand": {
+   "drop_pts": 15.7972,
+   "ci": [
+    13.6236,
+    18.1433
+   ],
+   "n": 700,
+   "still_correct": 0.857,
+   "rel_norm": 0.2727,
+   "abs_norm": 23.081
+  },
+  "word_ctrl@3~rand": {
+   "drop_pts": 9.6319,
+   "ci": [
+    8.3486,
+    10.9814
+   ],
+   "n": 700,
+   "still_correct": 0.904,
+   "rel_norm": 0.2223,
+   "abs_norm": 18.49
+  },
+  "allwords@3~rand": {
+   "drop_pts": 79.473,
+   "ci": [
+    78.0115,
+    80.9165
+   ],
+   "n": 700,
+   "still_correct": 0.017,
+   "rel_norm": 0.8448,
+   "abs_norm": 84.822
+  },
+  "word@3_minus_word_ctrl@3": {
+   "pts": 7.4085,
+   "ci": [
+    4.6385,
+    10.2165
+   ],
+   "n": 700
+  },
+  "allwords@3_minus_random_allwords@3": {
+   "pts": 60.1159,
+   "ci": [
+    57.1071,
+    62.9693
+   ],
+   "n": 700
+  },
+  "word@3_minus_word@3~rand": {
+   "pts": -3.6108,
+   "ci": [
+    -5.0808,
+    -2.1196
+   ],
+   "n": 700
+  },
+  "word_ctrl@3_minus_word_ctrl@3~rand": {
+   "pts": -4.8539,
+   "ci": [
+    -6.28,
+    -3.4434
+   ],
+   "n": 700
+  },
+  "allwords@3_minus_allwords@3~rand": {
+   "pts": -12.3914,
+   "ci": [
+    -15.1727,
+    -9.8724
+   ],
+   "n": 700
+  }
+ },
+ "ascii": {
+  "n": 72,
+  "clusters": 72,
+  "base_p": 0.9963,
+  "base_correct": 1.0,
+  "word@3": {
+   "drop_pts": 0.3031,
+   "ci": [
+    -0.012,
+    0.7165
+   ],
+   "n": 72,
+   "still_correct": 1.0,
+   "rel_norm": 0.2836,
+   "abs_norm": 24.903
+  },
+  "word_ctrl@3": {
+   "drop_pts": -0.2009,
+   "ci": [
+    -0.3079,
+    -0.1244
+   ],
+   "n": 72,
+   "still_correct": 1.0,
+   "rel_norm": 0.2216,
+   "abs_norm": 19.16
+  },
+  "allwords@3": {
+   "drop_pts": 32.6994,
+   "ci": [
+    23.3405,
+    43.0579
+   ],
+   "n": 72,
+   "still_correct": 0.681,
+   "rel_norm": 0.8869,
+   "abs_norm": 84.021
+  },
+  "random_allwords@3": {
+   "drop_pts": 0.5113,
+   "ci": [
+    0.262,
+    0.9023
+   ],
+   "n": 72,
+   "still_correct": 1.0,
+   "rel_norm": 0.3165,
+   "abs_norm": 24.874
+  },
+  "word@3~rand": {
+   "drop_pts": 0.1354,
+   "ci": [
+    0.0418,
+    0.2354
+   ],
+   "n": 72,
+   "still_correct": 1.0,
+   "rel_norm": 0.2773,
+   "abs_norm": 24.903
+  },
+  "word_ctrl@3~rand": {
+   "drop_pts": 0.026,
+   "ci": [
+    -0.0284,
+    0.0739
+   ],
+   "n": 72,
+   "still_correct": 1.0,
+   "rel_norm": 0.2184,
+   "abs_norm": 19.16
+  },
+  "allwords@3~rand": {
+   "drop_pts": 42.9403,
+   "ci": [
+    34.4556,
+    51.8898
+   ],
+   "n": 72,
+   "still_correct": 0.75,
+   "rel_norm": 0.8093,
+   "abs_norm": 84.021
+  },
+  "word@3_minus_word_ctrl@3": {
+   "pts": 0.504,
+   "ci": [
+    0.1845,
+    0.9207
+   ],
+   "n": 72
+  },
+  "allwords@3_minus_random_allwords@3": {
+   "pts": 32.1881,
+   "ci": [
+    22.7361,
+    42.6489
+   ],
+   "n": 72
+  },
+  "word@3_minus_word@3~rand": {
+   "pts": 0.1677,
+   "ci": [
+    -0.177,
+    0.5995
+   ],
+   "n": 72
+  },
+  "word_ctrl@3_minus_word_ctrl@3~rand": {
+   "pts": -0.2269,
+   "ci": [
+    -0.3444,
+    -0.1475
+   ],
+   "n": 72
+  },
+  "allwords@3_minus_allwords@3~rand": {
+   "pts": -10.2409,
+   "ci": [
+    -20.1013,
+    -0.0027
+   ],
+   "n": 72
+  }
+ },
+ "per_system": {
+  "arabic-indic": {
+   "n": 72,
+   "clusters": 72,
+   "base_p": 0.8343,
+   "base_correct": 1.0,
+   "word@3": {
+    "drop_pts": 38.5035,
+    "ci": [
+     31.677,
+     45.0533
+    ],
+    "n": 72,
+    "still_correct": 0.722,
+    "rel_norm": 0.2861,
+    "abs_norm": 23.688
+   },
+   "word_ctrl@3": {
+    "drop_pts": 19.3873,
+    "ci": [
+     14.0743,
+     24.8597
+    ],
+    "n": 72,
+    "still_correct": 0.889,
+    "rel_norm": 0.2182,
+    "abs_norm": 17.723
+   }
+  },
+  "bengali": {
+   "n": 72,
+   "clusters": 72,
+   "base_p": 0.9807,
+   "base_correct": 1.0,
+   "word@3": {
+    "drop_pts": 4.8505,
+    "ci": [
+     2.2726,
+     7.7147
+    ],
+    "n": 72,
+    "still_correct": 0.972,
+    "rel_norm": 0.2839,
+    "abs_norm": 23.416
+   },
+   "word_ctrl@3": {
+    "drop_pts": -0.8899,
+    "ci": [
+     -1.1623,
+     -0.6318
+    ],
+    "n": 72,
+    "still_correct": 1.0,
+    "rel_norm": 0.2299,
+    "abs_norm": 18.623
+   }
+  },
+  "devanagari": {
+   "n": 67,
+   "clusters": 67,
+   "base_p": 0.9138,
+   "base_correct": 1.0,
+   "word@3": {
+    "drop_pts": 5.64,
+    "ci": [
+     1.2963,
+     10.8102
+    ],
+    "n": 67,
+    "still_correct": 0.94,
+    "rel_norm": 0.2736,
+    "abs_norm": 22.791
+   },
+   "word_ctrl@3": {
+    "drop_pts": -1.8879,
+    "ci": [
+     -3.9756,
+     0.5046
+    ],
+    "n": 67,
+    "still_correct": 0.97,
+    "rel_norm": 0.2296,
+    "abs_norm": 18.753
+   }
+  },
+  "extended_arabic-indic": {
+   "n": 72,
+   "clusters": 72,
+   "base_p": 0.9172,
+   "base_correct": 1.0,
+   "word@3": {
+    "drop_pts": 13.4132,
+    "ci": [
+     9.0737,
+     17.7735
+    ],
+    "n": 72,
+    "still_correct": 0.972,
+    "rel_norm": 0.2643,
+    "abs_norm": 21.935
+   },
+   "word_ctrl@3": {
+    "drop_pts": 12.0929,
+    "ci": [
+     7.4217,
+     17.2069
+    ],
+    "n": 72,
+    "still_correct": 0.917,
+    "rel_norm": 0.2078,
+    "abs_norm": 16.951
+   }
+  },
+  "gujarati": {
+   "n": 69,
+   "clusters": 69,
+   "base_p": 0.777,
+   "base_correct": 1.0,
+   "word@3": {
+    "drop_pts": 2.1237,
+    "ci": [
+     -1.404,
+     6.4062
+    ],
+    "n": 69,
+    "still_correct": 0.942,
+    "rel_norm": 0.2815,
+    "abs_norm": 23.45
+   },
+   "word_ctrl@3": {
+    "drop_pts": -1.1844,
+    "ci": [
+     -4.6323,
+     2.4875
+    ],
+    "n": 69,
+    "still_correct": 0.957,
+    "rel_norm": 0.2439,
+    "abs_norm": 20.145
+   }
+  },
+  "gurmukhi": {
+   "n": 70,
+   "clusters": 70,
+   "base_p": 0.849,
+   "base_correct": 1.0,
+   "word@3": {
+    "drop_pts": 20.5583,
+    "ci": [
+     15.3378,
+     26.3125
+    ],
+    "n": 70,
+    "still_correct": 0.871,
+    "rel_norm": 0.2731,
+    "abs_norm": 23.412
+   },
+   "word_ctrl@3": {
+    "drop_pts": 7.552,
+    "ci": [
+     4.5628,
+     10.7738
+    ],
+    "n": 70,
+    "still_correct": 0.986,
+    "rel_norm": 0.1988,
+    "abs_norm": 16.686
+   }
+  },
+  "kannada": {
+   "n": 36,
+   "clusters": 36,
+   "base_p": 0.351,
+   "base_correct": 1.0,
+   "word@3": {
+    "drop_pts": -6.8272,
+    "ci": [
+     -13.2228,
+     0.0376
+    ],
+    "n": 36,
+    "still_correct": 0.861,
+    "rel_norm": 0.2825,
+    "abs_norm": 23.913
+   },
+   "word_ctrl@3": {
+    "drop_pts": -7.5029,
+    "ci": [
+     -12.9317,
+     -2.218
+    ],
+    "n": 36,
+    "still_correct": 0.778,
+    "rel_norm": 0.2517,
+    "abs_norm": 20.974
+   }
+  },
+  "malayalam": {
+   "n": 49,
+   "clusters": 49,
+   "base_p": 0.3898,
+   "base_correct": 1.0,
+   "word@3": {
+    "drop_pts": 24.7229,
+    "ci": [
+     19.646,
+     29.9977
+    ],
+    "n": 49,
+    "still_correct": 0.469,
+    "rel_norm": 0.2625,
+    "abs_norm": 22.194
+   },
+   "word_ctrl@3": {
+    "drop_pts": 15.8575,
+    "ci": [
+     12.1432,
+     19.9555
+    ],
+    "n": 49,
+    "still_correct": 0.694,
+    "rel_norm": 0.1954,
+    "abs_norm": 16.228
+   }
+  },
+  "meetei_mayek": {
+   "n": 72,
+   "clusters": 72,
+   "base_p": 0.9407,
+   "base_correct": 1.0,
+   "word@3": {
+    "drop_pts": 5.1764,
+    "ci": [
+     2.7714,
+     7.6491
+    ],
+    "n": 72,
+    "still_correct": 0.986,
+    "rel_norm": 0.275,
+    "abs_norm": 22.578
+   },
+   "word_ctrl@3": {
+    "drop_pts": 4.3714,
+    "ci": [
+     2.2494,
+     6.8644
+    ],
+    "n": 72,
+    "still_correct": 1.0,
+    "rel_norm": 0.2376,
+    "abs_norm": 19.235
+   }
+  },
+  "ol_chiki": {
+   "n": 72,
+   "clusters": 72,
+   "base_p": 0.9478,
+   "base_correct": 1.0,
+   "word@3": {
+    "drop_pts": 10.2946,
+    "ci": [
+     6.2815,
+     14.9435
+    ],
+    "n": 72,
+    "still_correct": 0.931,
+    "rel_norm": 0.2864,
+    "abs_norm": 23.434
+   },
+   "word_ctrl@3": {
+    "drop_pts": 1.9742,
+    "ci": [
+     -0.209,
+     4.4926
+    ],
+    "n": 72,
+    "still_correct": 0.986,
+    "rel_norm": 0.2379,
+    "abs_norm": 19.279
+   }
+  },
+  "oriya": {
+   "n": 41,
+   "clusters": 41,
+   "base_p": 0.4669,
+   "base_correct": 1.0,
+   "word@3": {
+    "drop_pts": 1.3472,
+    "ci": [
+     -4.8167,
+     7.657
+    ],
+    "n": 41,
+    "still_correct": 0.854,
+    "rel_norm": 0.2819,
+    "abs_norm": 23.146
+   },
+   "word_ctrl@3": {
+    "drop_pts": -8.3862,
+    "ci": [
+     -12.4977,
+     -4.3266
+    ],
+    "n": 41,
+    "still_correct": 0.902,
+    "rel_norm": 0.2491,
+    "abs_norm": 20.284
+   }
+  },
+  "tamil": {
+   "n": 2,
+   "clusters": 2,
+   "base_p": 0.4254,
+   "base_correct": 1.0,
+   "word@3": {
+    "drop_pts": 40.3892,
+    "ci": [
+     38.3139,
+     42.4645
+    ],
+    "n": 2,
+    "still_correct": 0.0,
+    "rel_norm": 0.3111,
+    "abs_norm": 23.849
+   },
+   "word_ctrl@3": {
+    "drop_pts": 41.2447,
+    "ci": [
+     38.3784,
+     44.111
+    ],
+    "n": 2,
+    "still_correct": 0.0,
+    "rel_norm": 0.2597,
+    "abs_norm": 20.134
+   }
+  },
+  "telugu": {
+   "n": 6,
+   "clusters": 6,
+   "base_p": 0.6047,
+   "base_correct": 1.0,
+   "word@3": {
+    "drop_pts": 44.0299,
+    "ci": [
+     25.1259,
+     66.2375
+    ],
+    "n": 6,
+    "still_correct": 0.167,
+    "rel_norm": 0.2848,
+    "abs_norm": 24.006
+   },
+   "word_ctrl@3": {
+    "drop_pts": 19.8639,
+    "ci": [
+     6.6489,
+     30.4979
+    ],
+    "n": 6,
+    "still_correct": 0.5,
+    "rel_norm": 0.1939,
+    "abs_norm": 15.956
+   }
+  }
+ }
+}
