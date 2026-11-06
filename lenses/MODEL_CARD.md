@@ -43,8 +43,8 @@ other Indian languages is in the top 10 for about 74% of items too. See Limitati
 rates here are computed after jpp's readout filtering, which drops every token with no letter or digit
 before ranking; a raw `topk(10)` over the full vocabulary will not reproduce them (see How to load).
 
-- **Write-up:** https://arshkumarsingh.com/writing/what-language-does-an-indian-ai-think-in (publishing soon)
-- **Code, every run's logs and raw results:** https://github.com/arshkumarsingh/sarvam-lens (publishing soon)
+- **Write-up:** https://arshkumarsingh.com/writing/what-language-does-an-indian-ai-think-in
+- **Code, every run's logs and raw results:** https://github.com/arshkumarsingh/sarvam-lens
 - **Download and check:** `hf download arshkumarsingh/sarvam-lens --local-dir sarvam-lenses` (`huggingface-cli download` on older huggingface_hub), then
   `python sarvam-lenses/verify_lenses.py sarvam-lenses` (sha256 of every lens file, plus shapes and
   configs; needs torch only for the shape checks).
@@ -70,6 +70,9 @@ before ranking; a raw `topk(10)` over the full vocabulary will not reproduce the
 >
 > Observed with transformers 5.14.1. Not checked on transformers 4.x. All four lenses were fit
 > on the fixed model.
+>
+> Reported to Sarvam AI on 2026-11-06 in [discussion #15](https://huggingface.co/sarvamai/sarvam-30b/discussions/15)
+> on the model's Hub page.
 
 ## Files
 
@@ -122,7 +125,7 @@ be added here once there's compute for them.
 ## How to load
 
 You need a clone of [jpp_lens](https://github.com/safety-research/jpp_lens) at `d7efc0d` and the
-`code/` folder of the GitHub repo (https://github.com/arshkumarsingh/sarvam-lens, publishing soon). Full environment and pinned versions:
+`code/` folder of the GitHub repo (https://github.com/arshkumarsingh/sarvam-lens). Full environment and pinned versions:
 `docs/06_reproduce.md` in that repo.
 
 ```python
