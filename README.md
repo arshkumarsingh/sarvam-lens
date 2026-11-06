@@ -43,7 +43,7 @@ published with the second post, so those numbers are missing from the doc list.
 7. **A transformers-5 bug:** Sarvam-30B loads with its **RoPE frequencies left uninitialized**
    (usually all zeros), so it has no position information. The bad buffer was printed on a tiny
    random model; on the full checkpoint its consequences were measured. Fixed here, and reported
-   upstream ([Hugging Face discussion](TODO-ROPE-LINK)).
+   upstream ([Hugging Face discussion](https://huggingface.co/sarvamai/sarvam-30b/discussions/15)).
 8. **It holds in real use, and it has a cost.** The pivot persists in the model's own chat template
    (English top-10 up to 0.88, control 0), and the 30B's visible reasoning is 92% English. English
    routing also produces errors: translations pick the other meaning of the same English word

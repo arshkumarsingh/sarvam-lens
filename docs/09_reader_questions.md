@@ -307,7 +307,7 @@ nearly tied, and which ones change doesn't explain what breaks.
   `token_split.py` steps.
 - **Lenses:** the fitted J-, R- and J++ lenses and the Indic-fit J-lens (`j_indic_27p`) are on
   Hugging Face as `arshkumarsingh/sarvam-lens` (linked from the README).
-- **Upstream bugs:** the Sarvam-30B RoPE bug is reported on [Hugging Face](TODO-ROPE-LINK).
+- **Upstream bugs:** the Sarvam-30B RoPE bug is reported on [Hugging Face](https://huggingface.co/sarvamai/sarvam-30b/discussions/15).
 
 ---
 

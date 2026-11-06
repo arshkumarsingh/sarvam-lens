@@ -218,7 +218,7 @@ A first look at Sarvam-105B isn't part of this release; see the README's last se
 
 | Finding | Status |
 |---|---|
-| transformers 5 loads Sarvam-30B with **uninitialized RoPE** (`inv_freq` from `torch.empty_like`: zeros in 10 of the first 12 tiny-model runs, arbitrary huge values in 2; no position info either way) | Confirmed, fixed in `sarvam_support.py`. The bad buffer was printed on the tiny model; on the full checkpoint only its consequences were measured (`bosfix` vs `ropefix`, not a controlled A/B). Reported to Sarvam ([Hugging Face discussion](TODO-ROPE-LINK)). |
+| transformers 5 loads Sarvam-30B with **uninitialized RoPE** (`inv_freq` from `torch.empty_like`: zeros in 10 of the first 12 tiny-model runs, arbitrary huge values in 2; no position info either way) | Confirmed, fixed in `sarvam_support.py`. The bad buffer was printed on the tiny model; on the full checkpoint only its consequences were measured (`bosfix` vs `ropefix`, not a controlled A/B). Reported to Sarvam ([Hugging Face discussion](https://huggingface.co/sarvamai/sarvam-30b/discussions/15)). |
 | Sarvam's best raw-text prefix is `[@BOS@]` (96%), not the tokenizer's `<bos>` (61%) | Measured |
 | jpp's identity rule (`z·sigmoid(z)`) is not bit-exact in bf16, and flips MoE routing | Confirmed on Sarvam; bit-exact fix in `sarvam_support.py` |
 | jpp's fit/held-out split leaks 31/76 fit items if evals are emptied | Guarded in `run_jpp.py evaluate` |
